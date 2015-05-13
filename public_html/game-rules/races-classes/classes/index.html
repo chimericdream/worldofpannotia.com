@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            
+              Classes &bull;
+            
+            
+            
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="http://pannotia.local.dev:8888/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://pannotia.local.dev:8888/assets/css/bootstrap-theme.min.css">
+        <style>
+body {
+    padding-top: 70px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.flyout-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    text-align: left;
+    list-style: outside none none;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+
+.flyout-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #333;
+    white-space: nowrap;
+}
+
+.flyout-menu > .active > a, .flyout-menu > .active > a:focus, .flyout-menu > .active > a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #337AB7;
+    outline: 0px none;
+}
+
+.flyout-menu > li > a:focus, .flyout-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #F5F5F5;
+}
+
+.dropdown-submenu > .flyout-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.open > .flyout-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu.active > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .flyout-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .open > .flyout-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0px;
+        background-color: transparent;
+        border: 0px none;
+        box-shadow: none;
+    }
+
+    .navbar-default .navbar-nav .open .flyout-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-nav .open .flyout-menu > li > a {
+        line-height: 20px;
+    }
+
+    .navbar-nav .open .flyout-menu .dropdown-header, .navbar-nav .open .flyout-menu > li > a {
+        padding: 5px 15px 5px 35px;
+    }
+
+    .dropdown-submenu > a:after {
+        display: inline-block;
+        float: none;
+        border-width: 4px 4px 0 4px;
+        border-left-color: transparent;
+        border-top-color: #ccc;
+        margin: 0 0 0 7px;
+        vertical-align: middle;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://pannotia.local.dev:8888/">World of Pannotia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button">Setting <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/setting/" title="Introduction">Introduction</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Geography" class="flyout-toggle" data-toggle="flyout" role="button">Geography</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/" title="Introduction">Introduction</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/cities/" title="Cities">Cities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/regions/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/cosmology/" title="Cosmology">Cosmology</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Religion" class="flyout-toggle" data-toggle="flyout" role="button">Religion</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/" title="Deities">Introduction</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/divine-tournament/" title="Divine Tournament">Divine Tournament</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/history/" title="History">History</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/organizations-npcs/" title="Organizations &amp; NPCs">Organizations &amp; NPCs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/game-rules/" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/game-rules/basics/" title="The Basics">The Basics</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/" title="Skills &#038; Feats" class="flyout-toggle" data-toggle="flyout" role="button">Skills &#038; Feats</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/basics/" title="Basics">Basics</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/skills/" title="Skills">Skills</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/" title="Feats">Feats</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/epic-skills/" title="Epic Skills">Epic Skills</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/epic-feats/" title="Epic Feats">Epic Feats</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/races-classes/" title="Races &#038; Classes" class="flyout-toggle" data-toggle="flyout" role="button">Races &#038; Classes</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/races/" title="Races">Races</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/" title="Classes">Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/prestige/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/epic/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/racial/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/" title="Magic &#038; Psionics" class="flyout-toggle" data-toggle="flyout" role="button">Magic &#038; Psionics</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/" title="Spells">Spells</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/powers/" title="Powers">Powers</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spell-combinations/" title="Spell Combinations">Spell Combinations</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/domains/" title="Cleric Domains">Cleric Domains</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/epic-spells/" title="Epic Spells">Epic Spells</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/" title="Adventuring &#038; Combat" class="flyout-toggle" data-toggle="flyout" role="button">Adventuring &#038; Combat</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/abilities-conditions/" title="Abilities &#038; Conditions">Abilities &#038; Conditions</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/carrying-movement-exploration/" title="Carrying, Movement, &#038; Exploration">Carrying, Movement, &#038; Exploration</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/combat/" title="Combat">Combat</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/traps/" title="Traps">Traps</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/wilderness-environment/" title="Wilderness &#038; Environment">Wilderness &#038; Environment</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/" title="Epic &#038; Deity Rules" class="flyout-toggle" data-toggle="flyout" role="button">Epic &#038; Deity Rules</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/epic-obstacles/" title="Epic Obstacles">Epic Obstacles</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-ranks-characteristics/" title="Divine Ranks, Characteristics, &#038; Powers">Divine Ranks, Characteristics, &#038; Powers</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-abilities/" title="Divine Abilities">Divine Abilities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/equipment/" title="The Basics">The Basics</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/" title="Magic &#038; Psionic Items" class="flyout-toggle" data-toggle="flyout" role="button">Magic &#038; Psionic Items</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/basics/" title="Basics &#038; Creation">Basics &#038; Creation</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/potions-oils/" title="Potions &#038; Oils">Potions &#038; Oils</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/intelligent-cursed-items/" title="Intelligent &#038; Cursed Items">Intelligent &#038; Cursed Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/" title="Epic Magic &#038; Psionic Items" class="flyout-toggle" data-toggle="flyout" role="button">Epic Magic &#038; Psionic Items</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/basics-creation/" title="Basics &#038; Creation">Basics &#038; Creation</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/intelligent-items/" title="Intelligent Items">Intelligent Items</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/artifacts/" title="Artifacts">Artifacts</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/generating-treasure/" title="Generating Treasure">Generating Treasure</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/monsters/" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button" class="flyout-toggle" data-toggle="flyout" role="button">Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://pannotia.local.dev:8888/monsters/introduction/" title="Introduction">Introduction</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/list/" title="Monsters">Monsters</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/animals-vermin/" title="Animals &#038; Vermin">Animals &#038; Vermin</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/additional-info/" title="Additional Information">Additional Information</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/epic-monsters/" title="Epic Monsters">Epic Monsters</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/misc/" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://pannotia.local.dev:8888/misc/differences-from-standard-d20/" title="Differences from standard d20">Differences from standard d20</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/ogl/" title="Open Gaming License">Open Gaming License</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/credits-thanks/" title="Credits &#038; Thanks">Credits &#038; Thanks</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/useful-links/" title="Useful Links">Useful Links</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+        
+
+
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                
+                  
+                <li><a href="/game-rules/">Game Rules</a></li>
+                
+                  
+                <li><a href="/game-rules/races-classes/">Races &amp; Classes</a></li>
+                
+                <li class="active">Classes</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container">
+    
+    <div class="row">
+        <h2 class="col-xs-12">Classes</h2>
+    </div>
+    
+
+    <section id="main-content">
+        <p><a href="#class-list">Jump to class list.</a></p>
+<h3>Multiclass Characters</h3>
+<p>A character may add new classes as he or she progresses in level, thus becoming a multiclass character. The class abilities from a character's different classes combine to determine a multiclass character's overall abilities. Multiclassing improves a character's versatility at the expense of focus.</p>
+<h4>Class and Level Features</h4>
+<p>As a general rule, the abilities of a multiclass character are the sum of the abilities of each of the character's classes.</p>
+<p><strong>Level:</strong> "Character level" is a character's total number of levels. It is used to determine when feats and ability score boosts are gained.</p>
+<p>"Class level" is a character's level in a particular class. For a character whose levels are all in the same class, character level and class level are the same.</p>
+<p><strong>Hit Points:</strong> A character gains hit points from each class as his or her class level increases, adding the new hit points to the previous total.</p>
+<p>First-level characters start out with a number of hit points equal to their Constitution score plus their normal starting hit points (max hit points for first Hit Die + Con mod).</p>
+<p><strong>Base Attack Bonus:</strong> Add the base attack bonuses acquired for each class to get the character's base attack bonus. A resulting value of +6 or higher provides the character with multiple attacks.</p>
+<p><strong>Saving Throws:</strong> Add the base save bonuses for each class together.</p>
+<p><strong>Skills:</strong> If a skill is a class skill for any of a multiclass character's classes, then character level determines a skill's maximum rank. (The maximum rank for a class skill is 3 + character level.)</p>
+<p>If a skill is not a class skill for any of a multiclass character's classes, the maximum rank for that skill is one-half the maximum for a class skill.</p>
+<p><strong>Class Features:</strong> A multiclass character gets all the class features of all his or her classes but must also suffer the consequences of the special restrictions of all his or her classes. (<em>Exception:</em> A character who acquires the barbarian class does not become illiterate.)</p>
+<p>In the special case of turning undead, both clerics and experienced paladins have the same ability. If the character's paladin level is 4th or higher, her effective turning level is her cleric level plus her paladin level minus 3.</p>
+<p>In the special case of uncanny dodge, both experienced barbarians and experienced rogues have the same ability. When a barbarian/rogue would gain uncanny dodge a second time (for her second class), she instead gains improved uncanny dodge, if she does not already have it. Her barbarian and rogue levels stack to determine the rogue level an attacker needs to flank her.</p>
+<p>In the special case of obtaining a familiar, both wizards and sorcerers have the same ability. A sorcerer/wizard stacks his sorcerer and wizard levels to determine the familiar's natural armor, Intelligence score, and special abilities.</p>
+<p><strong>Feats:</strong> A multiclass character gains feats based on character levels, regardless of individual class level</p>
+<p><strong>Ability Increases:</strong> A multiclass character gains ability score increases based on character level, regardless of individual class level.</p>
+<p><strong>Spells:</strong> The character gains spells from all of his or her spellcasting classes and keeps a separate spell list for each class. If a spell's effect is based on the class level of the caster, the player must keep track of which class's spell list the character is casting the spell from.</p>
+<h4>Multiclass Psionic Characters</h4>
+<p>If you have levels in more than one psionic class, you combine your power points from each class to make up your reserve. You can use these power points to manifest powers from any psionic class you have.</p>
+<p>While you maintain a single reserve of power points from your class, race, and feat selections, you are still limited by the manifester level you have achieved with each power you know.</p>
+
+<h3>Psionic Classes</h3>
+<h4>The Power Point Reserve</h4>
+<p>Psionic characters fuel their abilities through a pool, or reserve, of power points. Your power point reserve is equal to your base power points gained from your class, bonus power points from a high key ability score (see Abilities and Manifesters, below), and any additional bonus power points from sources such as your character race and feat selections.</p>
+<h4>Abilities and Manifesters</h4>
+<p>The ability that your powers depend on &ndash; your key ability score as a manifester &ndash; is related to what psionic class (or classes) you have levels in: Intelligence (psion), Wisdom (psychic warrior), and Charisma (wilder). The modifier for this ability is referred to as your key ability modifier. If your character's key ability score is 9 or lower, you can't manifest powers from that psionic class.</p>
+<p>Just as a high Intelligence score grants bonus spells to a wizard and a high Wisdom score grants bonus spells to a cleric, a character who manifests powers (psions, psychic warriors, and wilders) gains bonus power points according to his key ability score. Refer to Table: Ability Modifiers and Bonus Power Points.</p>
+<p><strong>How To Determine Bonus Power Points:</strong> Your key ability score grants you additional power points equal to your key ability modifier x your manifester level x1/2. Table: Ability Modifiers and Bonus Power Points shows these calculations for class levels 1st through 20th and key ability scores from 10 to 41.</p>
+<table id="ability-modifiers-power-points-table" class="table table-bordered table-hover">
+    <caption>Table: Ability Modifiers and Bonus Power Points (Level 1-10)</caption>
+    <thead>
+        <tr><th rowspan="2">Ability Score</th><th colspan="10">Bonus Power Points (by Class Level)</th></tr>
+        <tr><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th><th>6th</th><th>7th</th><th>8th</th><th>9th</th><th>10th</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>10–11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+        <tr><td>12–13</td><td>0</td><td>1</td><td>1</td><td>2</td><td>2</td><td>3</td><td>3</td><td>4</td><td>4</td><td>5</td></tr>
+        <tr><td>14–15</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr>
+        <tr><td>16–17</td><td>1</td><td>3</td><td>4</td><td>6</td><td>7</td><td>9</td><td>10</td><td>12</td><td>13</td><td>15</td></tr>
+        <tr><td>18–19</td><td>2</td><td>4</td><td>6</td><td>8</td><td>10</td><td>12</td><td>14</td><td>16</td><td>18</td><td>20</td></tr>
+        <tr><td>20–21</td><td>2</td><td>5</td><td>7</td><td>10</td><td>12</td><td>15</td><td>17</td><td>20</td><td>22</td><td>25</td></tr>
+        <tr><td>22–23</td><td>3</td><td>6</td><td>9</td><td>12</td><td>15</td><td>18</td><td>21</td><td>24</td><td>27</td><td>30</td></tr>
+        <tr><td>24–25</td><td>3</td><td>7</td><td>10</td><td>14</td><td>17</td><td>21</td><td>24</td><td>28</td><td>31</td><td>35</td></tr>
+        <tr><td>26–27</td><td>4</td><td>8</td><td>12</td><td>16</td><td>20</td><td>24</td><td>28</td><td>32</td><td>36</td><td>40</td></tr>
+        <tr><td>28–29</td><td>4</td><td>9</td><td>13</td><td>18</td><td>22</td><td>27</td><td>31</td><td>36</td><td>40</td><td>45</td></tr>
+        <tr><td>30–31</td><td>5</td><td>10</td><td>15</td><td>20</td><td>25</td><td>30</td><td>35</td><td>40</td><td>45</td><td>50</td></tr>
+        <tr><td>32–33</td><td>5</td><td>11</td><td>16</td><td>22</td><td>27</td><td>33</td><td>38</td><td>44</td><td>49</td><td>55</td></tr>
+        <tr><td>34–35</td><td>6</td><td>12</td><td>18</td><td>24</td><td>30</td><td>36</td><td>42</td><td>48</td><td>54</td><td>60</td></tr>
+        <tr><td>36–37</td><td>6</td><td>13</td><td>19</td><td>26</td><td>32</td><td>39</td><td>45</td><td>52</td><td>58</td><td>65</td></tr>
+        <tr><td>38–39</td><td>7</td><td>14</td><td>21</td><td>28</td><td>35</td><td>42</td><td>49</td><td>56</td><td>63</td><td>70</td></tr>
+        <tr><td>40–41</td><td>7</td><td>15</td><td>22</td><td>30</td><td>37</td><td>45</td><td>52</td><td>60</td><td>67</td><td>75</td></tr>
+    </tbody>
+</table>
+<table id="ability-modifiers-power-points-table-2" class="table table-bordered table-hover">
+    <caption>Table: Ability Modifiers and Bonus Power Points (Level 11-20)</caption>
+    <thead>
+        <tr><th rowspan="2">Ability Score</th><th colspan="9">Bonus Power Points (by Class Level)</th></tr>
+        <tr><th>11th</th><th>12th</th><th>13th</th><th>14th</th><th>15th</th><th>16th</th><th>17th</th><th>18th</th><th>19th</th><th>20th</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>10–11</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+        <tr><td>12–13</td><td>5</td><td>6</td><td>6</td><td>7</td><td>7</td><td>8</td><td>8</td><td>9</td><td>9</td><td>10</td></tr>
+        <tr><td>14–15</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td></tr>
+        <tr><td>16–17</td><td>16</td><td>18</td><td>19</td><td>21</td><td>22</td><td>24</td><td>25</td><td>27</td><td>28</td><td>30</td></tr>
+        <tr><td>18–19</td><td>22</td><td>24</td><td>26</td><td>28</td><td>30</td><td>32</td><td>34</td><td>36</td><td>38</td><td>40</td></tr>
+        <tr><td>20–21</td><td>27</td><td>30</td><td>32</td><td>35</td><td>37</td><td>40</td><td>42</td><td>45</td><td>47</td><td>50</td></tr>
+        <tr><td>22–23</td><td>33</td><td>36</td><td>39</td><td>42</td><td>45</td><td>48</td><td>51</td><td>54</td><td>57</td><td>60</td></tr>
+        <tr><td>24–25</td><td>38</td><td>42</td><td>45</td><td>49</td><td>52</td><td>56</td><td>59</td><td>63</td><td>66</td><td>70</td></tr>
+        <tr><td>26–27</td><td>44</td><td>48</td><td>52</td><td>56</td><td>60</td><td>64</td><td>68</td><td>72</td><td>76</td><td>80</td></tr>
+        <tr><td>28–29</td><td>49</td><td>54</td><td>58</td><td>63</td><td>67</td><td>72</td><td>76</td><td>81</td><td>85</td><td>90</td></tr>
+        <tr><td>30–31</td><td>55</td><td>60</td><td>65</td><td>70</td><td>75</td><td>80</td><td>85</td><td>90</td><td>95</td><td>100</td></tr>
+        <tr><td>32–33</td><td>60</td><td>66</td><td>71</td><td>77</td><td>82</td><td>88</td><td>93</td><td>99</td><td>104</td><td>110</td></tr>
+        <tr><td>34–35</td><td>66</td><td>72</td><td>78</td><td>84</td><td>90</td><td>96</td><td>102</td><td>108</td><td>114</td><td>120</td></tr>
+        <tr><td>36–37</td><td>71</td><td>78</td><td>84</td><td>91</td><td>97</td><td>104</td><td>110</td><td>117</td><td>123</td><td>130</td></tr>
+        <tr><td>38–39</td><td>77</td><td>84</td><td>91</td><td>98</td><td>105</td><td>112</td><td>119</td><td>126</td><td>133</td><td>140</td></tr>
+        <tr><td>40–41</td><td>82</td><td>90</td><td>97</td><td>105</td><td>112</td><td>120</td><td>127</td><td>135</td><td>142</td><td>150</td></tr>
+    </tbody>
+</table>
+
+<h3 id="class-list">Class List</h3>
+<dl>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/alacritous-hunter/">Alacritous Hunter (Hunt)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/aristocrat/">Aristocrat (Ari)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/barbarian/">Barbarian (Bar)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/bard/">Bard (Brd)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/cleric/">Cleric (Cle)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/druid/">Druid (Dru)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/fighter/">Fighter (Ftr)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/inventor/">Inventor (Inv)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/martial-artist/">Martial Artist (Mar)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/monk/">Monk (Mon)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/paladin/">Paladin (Pal)</a></dt>
+    <dd>
+        <dl>
+            <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/paladin/#paladin-of-freedom">Paladin of Freedom</a></dt>
+            <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/paladin/#paladin-of-slaughter">Paladin of Slaughter</a></dt>
+            <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/paladin/#paladin-of-tyranny">Paladin of Tyranny</a></dt>
+            <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/paladin/#paladin-spellcaster">Paladin (Spellcaster)</a></dt>
+        </dl>
+    </dd>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/psion/">Psion (Psi)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/psychic-warrior/">Psychic Warrior (PsyW)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/ranger/">Ranger (Ran)</a></dt>
+    <dd>
+        <dl>
+            <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/ranger/#martial-ranger">Martial Ranger</a></dt>
+            <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/ranger/#ranger-spellcaster">Ranger (Spellcaster)</a></dt>
+        </dl>
+    </dd>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/rogue/">Rogue (Rog)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/sorcerer/">Sorcerer (Sor)</a></dt>
+    <dd>
+        <dl>
+            <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/sorcerer/#battle-sorcerer">Battle Sorcerer</a></dt>
+            <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/sorcerer/#specialist-sorcerer">Specialist Sorcerer</a></dt>
+        </dl>
+    </dd>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/soulknife/">Soulknife (Sou)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/wilder/">Wilder (Wil)</a></dt>
+    <dt><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/wizard/">Wizard (Wiz)</a></dt>
+</dl>
+
+    </section>
+
+</section>
+
+        <footer id="page-foot" class="container">
+            <p><a href="http://pannotia.local.dev:8888/todo/">To do</a> | <a href="http://pannotia.local.dev:8888/admin/">Admin</a></p>
+            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+        </footer>
+        <script src="http://pannotia.local.dev:8888/assets/js/jquery.min.js"></script>
+        <script src="http://pannotia.local.dev:8888/assets/js/bootstrap.min.js"></script>
+        <script>
++function ($) {
+  'use strict';
+
+  // FLYOUT CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.flyout-backdrop'
+  var toggle   = '[data-toggle="flyout"]'
+  var Flyout = function (element) {
+    $(element).on('click.bs.flyout', this.toggle)
+  }
+
+  Flyout.VERSION = '3.3.4'
+
+  Flyout.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $('<div class="flyout-backdrop"/>').insertAfter($(this)).on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger('shown.bs.flyout', relatedTarget)
+    }
+
+    return false
+  }
+
+  Flyout.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if ((!isActive && e.which != 27) || (isActive && e.which == 27)) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('[role="menu"]' + desc + ', [role="listbox"]' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--                        // up
+    if (e.which == 40 && index < $items.length - 1) index++                        // down
+    if (!~index)                                      index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      $parent.trigger(e = $.Event('hide.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger('hidden.bs.flyout', relatedTarget)
+    })
+  }
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+
+  // FLYOUT PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.flyout')
+
+      if (!data) $this.data('bs.flyout', (data = new Flyout(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.flyout
+
+  $.fn.flyout             = Plugin
+  $.fn.flyout.Constructor = Flyout
+
+
+  // FLYOUT NO CONFLICT
+  // ====================
+
+  $.fn.flyout.noConflict = function () {
+    $.fn.flyout = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD FLYOUT ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.flyout.data-api', clearMenus)
+    .on('click.bs.flyout.data-api', '.flyout form', function (e) { e.stopPropagation() })
+    .on('click.bs.flyout.data-api', toggle, Flyout.prototype.toggle)
+    .on('keydown.bs.flyout.data-api', toggle, Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="menu"]', Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="listbox"]', Flyout.prototype.keydown)
+
+}(jQuery);
+        </script>
+    </body>
+</html>

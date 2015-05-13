@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            
+              Rings &bull;
+            
+            
+            
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="http://pannotia.local.dev:8888/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://pannotia.local.dev:8888/assets/css/bootstrap-theme.min.css">
+        <style>
+body {
+    padding-top: 70px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.flyout-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    text-align: left;
+    list-style: outside none none;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+
+.flyout-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #333;
+    white-space: nowrap;
+}
+
+.flyout-menu > .active > a, .flyout-menu > .active > a:focus, .flyout-menu > .active > a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #337AB7;
+    outline: 0px none;
+}
+
+.flyout-menu > li > a:focus, .flyout-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #F5F5F5;
+}
+
+.dropdown-submenu > .flyout-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.open > .flyout-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu.active > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .flyout-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .open > .flyout-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0px;
+        background-color: transparent;
+        border: 0px none;
+        box-shadow: none;
+    }
+
+    .navbar-default .navbar-nav .open .flyout-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-nav .open .flyout-menu > li > a {
+        line-height: 20px;
+    }
+
+    .navbar-nav .open .flyout-menu .dropdown-header, .navbar-nav .open .flyout-menu > li > a {
+        padding: 5px 15px 5px 35px;
+    }
+
+    .dropdown-submenu > a:after {
+        display: inline-block;
+        float: none;
+        border-width: 4px 4px 0 4px;
+        border-left-color: transparent;
+        border-top-color: #ccc;
+        margin: 0 0 0 7px;
+        vertical-align: middle;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://pannotia.local.dev:8888/">World of Pannotia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button">Setting <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/setting/" title="Introduction">Introduction</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Geography" class="flyout-toggle" data-toggle="flyout" role="button">Geography</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/" title="Introduction">Introduction</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/cities/" title="Cities">Cities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/regions/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/cosmology/" title="Cosmology">Cosmology</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Religion" class="flyout-toggle" data-toggle="flyout" role="button">Religion</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/" title="Deities">Introduction</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/divine-tournament/" title="Divine Tournament">Divine Tournament</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/history/" title="History">History</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/organizations-npcs/" title="Organizations &amp; NPCs">Organizations &amp; NPCs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/game-rules/" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/game-rules/basics/" title="The Basics">The Basics</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/" title="Skills &#038; Feats" class="flyout-toggle" data-toggle="flyout" role="button">Skills &#038; Feats</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/basics/" title="Basics">Basics</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/skills/" title="Skills">Skills</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/" title="Feats">Feats</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/epic-skills/" title="Epic Skills">Epic Skills</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/epic-feats/" title="Epic Feats">Epic Feats</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/races-classes/" title="Races &#038; Classes" class="flyout-toggle" data-toggle="flyout" role="button">Races &#038; Classes</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/races/" title="Races">Races</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/" title="Classes">Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/prestige/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/epic/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/racial/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/" title="Magic &#038; Psionics" class="flyout-toggle" data-toggle="flyout" role="button">Magic &#038; Psionics</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/" title="Spells">Spells</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/powers/" title="Powers">Powers</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spell-combinations/" title="Spell Combinations">Spell Combinations</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/domains/" title="Cleric Domains">Cleric Domains</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/epic-spells/" title="Epic Spells">Epic Spells</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/" title="Adventuring &#038; Combat" class="flyout-toggle" data-toggle="flyout" role="button">Adventuring &#038; Combat</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/abilities-conditions/" title="Abilities &#038; Conditions">Abilities &#038; Conditions</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/carrying-movement-exploration/" title="Carrying, Movement, &#038; Exploration">Carrying, Movement, &#038; Exploration</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/combat/" title="Combat">Combat</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/traps/" title="Traps">Traps</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/wilderness-environment/" title="Wilderness &#038; Environment">Wilderness &#038; Environment</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/" title="Epic &#038; Deity Rules" class="flyout-toggle" data-toggle="flyout" role="button">Epic &#038; Deity Rules</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/epic-obstacles/" title="Epic Obstacles">Epic Obstacles</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-ranks-characteristics/" title="Divine Ranks, Characteristics, &#038; Powers">Divine Ranks, Characteristics, &#038; Powers</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-abilities/" title="Divine Abilities">Divine Abilities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/equipment/" title="The Basics">The Basics</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/" title="Magic &#038; Psionic Items" class="flyout-toggle" data-toggle="flyout" role="button">Magic &#038; Psionic Items</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/basics/" title="Basics &#038; Creation">Basics &#038; Creation</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/potions-oils/" title="Potions &#038; Oils">Potions &#038; Oils</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/intelligent-cursed-items/" title="Intelligent &#038; Cursed Items">Intelligent &#038; Cursed Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/" title="Epic Magic &#038; Psionic Items" class="flyout-toggle" data-toggle="flyout" role="button">Epic Magic &#038; Psionic Items</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/basics-creation/" title="Basics &#038; Creation">Basics &#038; Creation</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/intelligent-items/" title="Intelligent Items">Intelligent Items</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/artifacts/" title="Artifacts">Artifacts</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/generating-treasure/" title="Generating Treasure">Generating Treasure</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/monsters/" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button" class="flyout-toggle" data-toggle="flyout" role="button">Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://pannotia.local.dev:8888/monsters/introduction/" title="Introduction">Introduction</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/list/" title="Monsters">Monsters</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/animals-vermin/" title="Animals &#038; Vermin">Animals &#038; Vermin</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/additional-info/" title="Additional Information">Additional Information</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/epic-monsters/" title="Epic Monsters">Epic Monsters</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/misc/" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://pannotia.local.dev:8888/misc/differences-from-standard-d20/" title="Differences from standard d20">Differences from standard d20</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/ogl/" title="Open Gaming License">Open Gaming License</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/credits-thanks/" title="Credits &#038; Thanks">Credits &#038; Thanks</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/useful-links/" title="Useful Links">Useful Links</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+        
+
+
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                
+                  
+                <li><a href="/equipment/">Equipment</a></li>
+                
+                  
+                <li><a href="/equipment/magic-psionic-items/">Magic &amp; Psionic Items</a></li>
+                
+                <li class="active">Rings</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container">
+    
+    <div class="row">
+        <h2 class="col-xs-12">Rings</h2>
+    </div>
+    
+
+    <section id="main-content">
+        <p>Rings bestow magical powers upon their wearers. Only a rare few have charges. Anyone can use a ring.</p>
+<p>A character can only effectively wear two magic rings. A third magic ring doesn't work if the wearer is already wearing two magic rings.</p>
+<p><strong>Physical Description:</strong> Rings have no appreciable weight. Although exceptions exist that are crafted from glass or bone, the vast majority of rings are forged from metal &ndash; usually precious metals such as gold, silver, and platinum. A ring has AC 13, 2 hit points, hardness 10, and a break DC of 25.</p>
+<p><strong>Activation:</strong> Usually, a ring's ability is activated by a command word (a standard action that does not provoke attacks of opportunity) or it works continually. Some rings have exceptional activation methods, according to their descriptions.</p>
+<p><strong>Special Qualities:</strong> Roll d%. A result of 01 indicates the ring is intelligent, 02-31 indicates that something (a design, inscription, or the like) provides a clue to its function, and 32-100 indicates no special qualities. Intelligent items have extra abilities and sometimes extraordinary powers and special purposes. Rings with charges can never be intelligent.</p>
+
+<table id="ring-table" class="table table-bordered table-hover table-fixed-head">
+    <caption>Table: Rings</caption>
+    <thead>
+        <tr><th>Minor</th><th>Medium</th><th>Major</th><th>Ring</th><th>Market Price</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>01-18</td><td>&ndash;</td><td>&ndash;</td><td><a href="#protection"><em>Protection +1</em></a></td><td>2,000 gp</td></tr>
+        <tr><td>19-28</td><td>&ndash;</td><td>&ndash;</td><td><a href="#feather-falling"><em>Feather falling</em></a></td><td>2,200 gp</td></tr>
+        <tr><td>29-36</td><td>&ndash;</td><td>&ndash;</td><td><a href="#sustenance"><em>Sustenance</em></a></td><td>2,500 gp</td></tr>
+        <tr><td>37-44</td><td>&ndash;</td><td>&ndash;</td><td><a href="#climbing"><em>Climbing</em></a></td><td>2,500 gp</td></tr>
+        <tr><td>45-52</td><td>&ndash;</td><td>&ndash;</td><td><a href="#jumping"><em>Jumping</em></a></td><td>2,500 gp</td></tr>
+        <tr><td>53-60</td><td>&ndash;</td><td>&ndash;</td><td><a href="#swimming"><em>Swimming</em></a></td><td>2,500 gp</td></tr>
+        <tr><td>xx-xx</td><td>&ndash;</td><td>&ndash;</td><td><a href="#skill-lesser"><em>Skill, lesser</em></a></td><td>2,500 gp</td></tr>
+        <tr><td>61-70</td><td>01-05</td><td>&ndash;</td><td><a href="#counterspells"><em>Counterspells</em></a></td><td>4,000 gp</td></tr>
+        <tr><td>71-75</td><td>06-08</td><td>&ndash;</td><td><a href="#mind-shielding"><em>Mind shielding</em></a></td><td>8,000 gp</td></tr>
+        <tr><td>76-80</td><td>09-18</td><td>&ndash;</td><td><a href="#protection"><em>Protection +2</em></a></td><td>8,000 gp</td></tr>
+        <tr><td>81-85</td><td>19-23</td><td>&ndash;</td><td><a href="#force-shield"><em>Force shield</em></a></td><td>8,500 gp</td></tr>
+        <tr><td>86-90</td><td>24-28</td><td>&ndash;</td><td><a href="#ram"><em>Ram</em></a></td><td>8,600 gp</td></tr>
+        <tr><td>&ndash;</td><td>29-34</td><td>&ndash;</td><td><a href="#climbing-improved"><em>Climbing, improved</em></a></td><td>10,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>35-40</td><td>&ndash;</td><td><a href="#jumping-improved"><em>Jumping, improved</em></a></td><td>10,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>41-46</td><td>&ndash;</td><td><a href="#swimming-improved"><em>Swimming, improved</em></a></td><td>10,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>xx-xx</td><td>&ndash;</td><td><a href="#skill"><em>Skill</em></a></td><td>10,000 gp</td></tr>
+        <tr><td>91-93</td><td>47-51</td><td>&ndash;</td><td><a href="#animal-friendship"><em>Animal friendship</em></a></td><td>10,800 gp</td></tr>
+        <tr><td>94-96</td><td>50-56</td><td>01-02</td><td><a href="#energy-resistance"><em>Energy resistance, minor</em></a></td><td>12,000 gp</td></tr>
+        <tr><td>97-98</td><td>57-61</td><td>&ndash;</td><td><a href="#chameleon-power"><em>Chameleon power</em></a></td><td>12,700 gp</td></tr>
+        <tr><td>99-100</td><td>62-66</td><td>&ndash;</td><td><a href="#water-walking"><em>Water walking</em></a></td><td>15,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>67-71</td><td>03-07</td><td><a href="#protection"><em>Protection +3</em></a></td><td>18,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>72-76</td><td>08-10</td><td><a href="#spell-storing-minor"><em>Spell storing, minor</em></a></td><td>18,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>77-81</td><td>11-15</td><td><a href="#invisibility"><em>Invisibility</em></a></td><td>20,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>82-85</td><td>16-19</td><td><a href="#wizardry"><em>Wizardry (I)</em></a></td><td>20,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>xx-xx</td><td>xx-xx</td><td><a href="#skill-improved"><em>Skill, improved</em></a></td><td>22,500 gp</td></tr>
+        <tr><td>&ndash;</td><td>86-90</td><td>20-25</td><td><a href="#evasion"><em>Evasion</em></a></td><td>25,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>91-93</td><td>26-28</td><td><a href="#xray-vision"><em>X-ray vision</em></a></td><td>25,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>94-97</td><td>29-32</td><td><a href="#blinking"><em>Blinking</em></a></td><td>27,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>98-100</td><td>33-39</td><td><a href="#energy-resistance"><em>Energy resistance, major</em></a></td><td>28,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>40-49</td><td><a href="#protection"><em>Protection +4</em></a></td><td>32,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>50-55</td><td><a href="#wizardry"><em>Wizardry (II)</em></a></td><td>40,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>56-60</td><td><a href="#freedom-of-movement"><em>Freedom of movement</em></a></td><td>40,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>xx-xx</td><td><a href="#skill-greater"><em>Skill, greater</em></a></td><td>40,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>61-63</td><td><a href="#energy-resistance"><em>Energy resistance, greater</em></a></td><td>44,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>64-65</td><td><a href="#friend-shield"><em>Friend shield</em> (pair)</td><td>50,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>66-70</td><td><a href="#protection"><em>Protection +5</em></a></td><td>50,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>71-74</td><td><a href="#shooting-stars"><em>Shooting stars</em></a></td><td>50,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>75-79</td><td><a href="#spell-storing"><em>Spell storing</em></a></td><td>50,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>80-83</td><td><a href="#wizardry"><em>Wizardry (III)</em></a></td><td>70,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>84-86</td><td><a href="#telekinesis"><em>Telekinesis</em></a></td><td>75,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>87-88</td><td><a href="#regeneration"><em>Regeneration</em></a></td><td>90,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>89</td><td><a href="#three-wishes"><em>Three wishes</em></a></td><td>97,950 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>90-92</td><td><a href="#spell-turning"><em>Spell turning</em></a></td><td>98,280 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>93-94</td><td><a href="#wizardry"><em>Wizardry (IV)</em></a></td><td>100,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>95</td><td><a href="#djinni-calling"><em>Djinni calling</em></a></td><td>125,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>96</td><td><a href="#elemental-command"><em>Elemental command (air)</em></a></td><td>200,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>97</td><td><a href="#elemental-command"><em>Elemental command (earth)</em></a></td><td>200,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>98</td><td><a href="#elemental-command"><em>Elemental command (fire)</em></a></td><td>200,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>99</td><td><a href="#elemental-command"><em>Elemental command (water)</em></a></td><td>200,000 gp</td></tr>
+        <tr><td>&ndash;</td><td>&ndash;</td><td>100</td><td><a href="#spell-storing-major"><em>Spell storing, major</em></a></td><td>200,000 gp</td></tr>
+    </tbody>
+</table>
+
+<h3 id="ring-descriptions">Ring Descriptions</h3>
+<p>Standard rings are described below.</p>
+
+<article id="animal-friendship" class="ogc">
+    <p><strong>Animal Friendship:</strong> On command, this ring affects an animal as if the wearer had cast <em>charm animal</em>.</p>
+    <p>Faint enchantment; CL 3rd; Forge Ring, <em>charm animal</em>; Price 10,800 gp.</p>
+</article>
+
+<article id="blinking" class="ogc">
+    <p><strong>Blinking:</strong> On command, this ring makes the wearer blink, as with the <em>blink</em> spell.</p>
+    <p>Moderate transmutation; CL 7th; Forge Ring, <em>blink</em>; Price 27,000 gp.</p>
+</article>
+
+<article id="chameleon-power" class="ogc">
+    <p><strong>Chameleon Power:</strong> As a free action, the wearer of this ring can gain the ability to magically blend in with the surroundings. This provides a +10 competence bonus on her Hide checks. As a standard action, she can also command the ring to utilize the spell <em>disguise self</em> as often as she wants.</p>
+    <p>Faint illusion; CL 3rd; Forge Ring, <em>disguise self</em>, <em>invisibility</em>; Price 12,700 gp.</p>
+</article>
+
+<article id="climbing" class="ogc">
+    <p><strong>Climbing:</strong> This ring is actually a magic leather cord that ties around a finger. It continually grants the wearer a +5 competence bonus on <em>climb</em> checks.</p>
+    <p>Faint transmutatation; CL 5th; Forge Ring, creator must have 5 ranks in the <em>climb</em> skill; Price 2,500 gp.</p>
+</article>
+
+<article id="climbing-improved" class="ogc">
+    <p><strong>Climbing, Improved:</strong> As climbing, except it grants a +10 competence bonus on its wearer's <em>climb</em> checks.</p>
+    <p>Faint transmutation; CL 5th; Forge Ring, creator must have 10 ranks in the <em>climb</em> skill<em></em>; Price 10,000 gp.</p>
+</article>
+
+<article id="counterspells" class="ogc">
+    <p><strong>Counterspells:</strong> This ring might seem to be a <em>ring of spell storing</em> upon first examination. However, while it allows a single spell of 1st through 6th level to be cast into it, that spell cannot be cast out of the ring again. Instead, should that spell ever be cast upon the wearer, the spell is immediately countered, as a counterspell action, requiring no action (or even knowledge) on the wearer's part. Once so used, the spell cast within the ring is gone. A new spell (or the same one as before) may be placed in it again.</p>
+    <p>Moderate evocation; CL 11th; Forge Ring, <em>imbue with spell ability</em>; Price 4,000 gp.</p>
+</article>
+
+<article id="djinni-calling" class="ogc">
+    <p><strong>Djinni Calling:</strong> One of the many rings of fable, this "genie" ring is most useful indeed. It serves as a special <em>gate</em> by means of which a specific djinni can be called from the Elemental Plane of Air. When the ring is rubbed (a standard action), the call goes out, and the djinni appears on the next round. The djinni faithfully obeys and serves the wearer of the ring, but never for more than 1 hour per day. If the djinni of the ring is ever killed, the ring becomes nonmagical and worthless.</p>
+    <p>Strong conjuration; CL 17th; Forge Ring, <em>gate</em>; Price 125,000 gp.</p>
+</article>
+
+<article id="elemental-command" class="ogc">
+    <p><strong>Elemental Command:</strong> All four kinds of <em>elemental command</em> rings are very powerful. Each appears to be nothing more than a lesser magic ring until fully activated (by meeting a special condition, such as single-handedly slaying an elemental of the appropriate type or exposure to a sacred material of the appropriate element), but each has certain other powers as well as the following common properties.</p>
+    <p>Elementals of the plane to which the ring is attuned can't attack the wearer, or even approach within 5 feet of him. If the wearer desires, he may forego this protection and instead attempt to <em>charm</em> the elemental (as <em>charm monster</em>, Will DC 17 negates). If the <em>charm</em> attempt fails, however, absolute protection is lost and no further attempt at <em>charming</em> can be made.</p>
+    <p>Creatures from the plane to which the ring is attuned who attack the wearer take a -1 penalty on their attack rolls. The ring wearer makes applicable saving throws from the extraplanar creature's attacks with a +2 resistance bonus. He gains a +4 morale bonus on all attack rolls against such creatures. Any weapon he uses bypasses the damage reduction of such creatures, regardless of any qualities the weapon may or may not have.</p>
+    <p>The wearer of the ring is able to converse with creatures from the plane to which his ring is attuned. These creatures recognize that he wears the ring. They show a healthy respect for the wearer if alignments are similar. If alignments are opposed, creatures fear the wearer if he is strong. If he is weak, they hate and desire to slay him.</p>
+    <p>The possessor of a <em>ring of elemental command</em> takes a saving throw penalty as follows:</p>
+    <table id="elem-command-ring-table" class="table table-bordered table-hover">
+        <tbody>
+            <tr><th>Element</th><th>Saving Throw Penalty</th></tr>
+            <tr><td>Air</td><td>-2 against earth-based effects</td></tr>
+            <tr><td>Earth</td><td>-2 against air- or electricity-based effects</td></tr>
+            <tr><td>Fire</td><td>-2 against water- or cold-based effects</td></tr>
+            <tr><td>Water</td><td>-2 against fire-based effects</td></tr>
+        </tbody>
+    </table>
+    <p>In addition to the powers described above, each specific ring gives its wearer the following abilities according to its kind.</p>
+    <p><em>Ring of Elemental Command (Air)</em></p>
+    <ul>
+        <li><em>Feather fall</em> (unlimited use, wearer only)</li>
+        <li><em>Resist energy (electricity)</em> (unlimited use, wearer only)</li>
+        <li><em>Gust of wind</em> (twice per day)</li>
+        <li><em>Wind wall</em> (unlimited use)</li>
+        <li><em>Air walk</em> (once per day, wearer only)</li>
+        <li><em>Chain lightning</em> (once per week)</li>
+    </ul>
+    <p>The ring appears to be a <em>ring of feather falling</em> until a certain condition is met to activate its full potential. It must be reactivated each time a new wearer acquires it.</p>
+    <p><em>Ring of Elemental Command (Earth)</em></p>
+    <ul>
+        <li><em>Meld into stone</em> (unlimited use, wearer only)</li>
+        <li><em>Soften earth or stone</em> (unlimited use)</li>
+        <li><em>Stone shape</em> (twice per day)</li>
+        <li><em>Stoneskin</em> (once per week, wearer only)</li>
+        <li><em>Passwall</em> (twice per week)</li>
+        <li><em>Wall of stone</em> (once per day)</li>
+    </ul>
+    <p>The ring appears to be a <em>ring of meld into stone</em> until the established condition is met.</p>
+    <p><em>Ring of Elemental Command (Fire)</em></p>
+    <ul>
+        <li><em>Resist energy (fire)</em> (as a <em>major ring of energy resistance [fire]</em>)</li>
+        <li><em>Burning hands</em> (unlimited use)</li>
+        <li><em>Flaming sphere</em> (twice per day)</li>
+        <li><em>Pyrotechnics</em> (twice per day)</li>
+        <li><em>Wall of fire</em> (once per day)</li>
+        <li><em>Flame strike</em> (twice per week)</li>
+    </ul>
+    <p>The ring appears to be a <em>major ring of energy resistance (fire)</em> until the established condition is met.</p>
+    <p><em>Ring of Elemental Command (Water)</em></p>
+    <ul>
+        <li><em>Water walk</em> (unlimited use)</li>
+        <li><em>Create water</em> (unlimited use)</li>
+        <li><em>Water breathing</em> (unlimited use)</li>
+        <li><em>Wall of ice</em> (once per day)</li>
+        <li><em>Ice storm</em> (twice per week)</li>
+        <li><em>Control</em> water (twice per week)</li>
+    </ul>
+    <p>The ring appears to be a <em>ring of water walking</em> until the established condition is met.</p>
+    <p>Strong conjuration; CL 15th; Forge Ring, <em>summon monster VI</em>, all appropriate spells; Price 200,000 gp.</p>
+</article>
+
+<article id="energy-resistance" class="ogc">
+    <p><strong>Energy Resistance:</strong> This reddish iron ring continually protects the wearer from damage from one type of energy &ndash; acid, cold, electricity, fire, or sonic (chosen by the creator of the item; determine randomly if found as part of a treasure hoard). Each time the wearer would normally take such damage, subtract the ring's resistance value from the damage dealt.</p>
+    <p>A <em>minor ring of energy resistance</em> grants 10 points of resistance. A <em>major ring of energy resistance</em> grants 20 points of resistance. A <em>greater ring of energy resistance</em> grants 30 points of resistance.</p>
+    <p>Faint (minor or major) or moderate (greater) abjuration; CL 3rd (minor), 7th (major), or 11th (greater); Forge Ring, <em>resist energy</em>; Price 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater).</p>
+</article>
+
+<article id="evasion" class="ogc">
+    <p><strong>Evasion:</strong> This ring continually grants the wearer the ability to avoid damage as if she had evasion. Whenever she makes a Reflex saving throw to determine whether she takes half damage, a successful save results in no damage.</p>
+    <p>Moderate transmutation; CL 7th; Forge Ring, <em>jump</em>; Price 25,000 gp.</p>
+</article>
+
+<article id="feather-falling" class="ogc">
+    <p><strong>Feather Falling:</strong> This ring is crafted with a feather pattern all around its edge. It acts exactly like a <em>feather fall</em> spell, activated immediately if the wearer falls more than 5 feet.</p>
+    <p>Faint transmutation; CL 1st; Forge Ring, <em>feather fall</em>; Price 2,200 gp.</p>
+</article>
+
+<article id="force-shield" class="ogc">
+    <p><strong>Force Shield:</strong> An iron band, this simple ring generates a shield-sized (and shield-shaped) <em>wall of force</em> that stays with the ring and can be wielded by the wearer as if it were a heavy shield (+2 AC). This special creation has no armor check penalty or arcane spell failure chance since it is weightless and encumbrance-free. It can be activated and deactivated at will as a free action.</p>
+    <p>Moderate evocation; CL 9th; Forge Ring, <em>wall of force</em>; Price 8,500 gp.</p>
+</article>
+
+<article id="freedom-of-movement" class="ogc">
+    <p><strong>Freedom of Movement:</strong> This gold ring allows the wearer to act as if continually under the effect of a <em>freedom of movement</em> spell.</p>
+    <p>Moderate abjuration; CL 7th; Forge Ring, <em>freedom of movement</em>; Price 40,000 gp.</p>
+</article>
+
+<article id="friend-shield" class="ogc">
+    <p><strong>Friend Shield:</strong> These curious rings always come in pairs. A <em>friend shield</em> ring without its mate is useless. Either wearer of one of a pair of the rings can, at any time, command his or her ring to cast a <em>shield other</em> spell with the wearer of the mated ring as the recipient. This effect has no range limitation.</p>
+    <p>Moderate abjuration; CL 10th; Forge Ring, <em>shield other</em>; Price 50,000 gp (for a pair).</p>
+</article>
+
+<article id="invisibility" class="ogc">
+    <p><strong>Invisibility:</strong> By activating this simple silver ring, the wearer can benefit from <em>invisibility</em>, as the spell.</p>
+    <p>Faint illusion; CL 3rd; Forge Ring, <em>invisibility</em>; Price 20,000 gp.</p>
+</article>
+
+<article id="jumping" class="ogc">
+    <p><strong>Jumping:</strong> This ring continually allows the wearer to leap about, providing a +5 competence bonus on all his <em>jump</em> checks.</p>
+    <p>Faint transmutation; CL 2nd; Forge Ring, creator must have 5 ranks in the <em>jump</em> skill<em></em>; Price 2,500 gp.</p>
+</article>
+
+<article id="jumping-improved" class="ogc">
+    <p><strong>Jumping, Improved:</strong> As jumping, except it grants a +10 competence bonus on its wearer's <em>jump</em> check.</p>
+    <p>Moderate transmutation; CL 7th; Forge Ring, creator must have 10 ranks in the <em>jump</em> skill<em></em>; Price 10,000 gp.</p>
+</article>
+
+<article id="mind-shielding" class="ogc">
+    <p><strong>Mind Shielding:</strong> This ring is usually of fine workmanship and wrought from heavy gold. The wearer is continually immune to <em>detect thoughts</em>, <em>discern lies</em>, and any attempt to magically discern her alignment<em></em>.</p>
+    <p>Faint aburation; CL 3rd; Forge Ring, <em>nondetection</em>; Price 8,000 gp.</p>
+</article>
+
+<article id="protection" class="ogc">
+    <p><strong>Protection:</strong> This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.</p>
+    <p>Faint abjuration; CL 5th; Forge Ring, <em>shield of faith</em>, caster must be of a level at least three times greater than the bonus of the ring; Price 2,000 gp (<em>ring +1</em>); 8,000 gp (<em>ring +2</em>); 18,000 gp (<em>ring +3</em>); 32,000 gp (<em>ring +4</em>); 50,000 gp (<em>ring +5</em>).</p>
+</article>
+
+<article id="ram" class="ogc">
+    <p><strong>Ram:</strong> The <em>ring of the ram</em> is an ornate ring forged of hard metal, usually iron or an iron alloy. It has the head of a ram as its device.</p>
+    <p>The wearer can command the ring to give forth a ramlike force, manifested by a vaguely discernible shape that resembles the head of a ram or a goat. This force strikes a single target, dealing 1d6 points of damage if 1 charge is expended, 2d6 points if 2 charges are used, or 3d6 points if 3 charges (the maximum) are used. Treat this as a ranged attack with a 50-foot maximum range and no penalties for distance.</p>
+    <p>The force of the blow is considerable, and those struck by the ring are subject to a bull rush if within 30 feet of the ring-wearer. (The ram has Strength 25 and is Large.) The ram gains a +1 bonus on the bull rush attempt if 2 charges are expended, or +2 if 3 charges are expended.</p>
+    <p>In addition to its attack mode, the <em>ring of the ram</em> also has the power to open doors as if it were a character with Strength 25. If 2 charges are expended, the effect is equivalent to a character with Strength 27. If 3 charges are expended, the effect is that of a character with Strength 29.</p>
+    <p>A newly created ring has 50 charges. When all the charges are expended, the ring becomes a nonmagical item.</p>
+    <p>Moderate transmutation; CL 9th; Forge Ring, <em>bull's strength</em>, <em>telekinesis</em>; Price 8,600 gp.</p>
+</article>
+
+<article id="regeneration" class="ogc">
+    <p><strong>Regeneration:</strong> This white gold ring continually allows a living wearer to heal 1 point of damage per level every hour rather than every day. (This ability cannot be aided by the Heal skill.) Nonlethal damage heals at a rate of 1 point of damage per level every 5 minutes. If the wearer loses a limb, an organ, or any other body part while wearing this ring, the ring <em>regenerates</em> it as the spell. In either case, only damage taken while wearing the ring is regenerated.</p>
+    <p>Strong conjuration; CL 15th; Forge Ring, <em>regenerate</em>; Price 90,000 gp.</p>
+</article>
+
+<article id="shooting-stars" class="ogc">
+    <p><strong>Shooting Stars:</strong> This ring has two modes of operation, one for being in shadowy darkness or outdoors at night and a second one when the wearer is underground or indoors at night.</p>
+    <p>During the night under the open sky or in areas of shadow or darkness, the <em>ring of shooting stars</em> can perform the following functions on command.</p>
+    <ul>
+        <li><em>Dancing lights</em> (once per hour)</li>
+        <li><em>Light</em> (twice per night)</li>
+        <li><em>Ball lightning</em> (special, once per night)</li>
+        <li><em>Shooting stars</em> (special, three per week)</li>
+    </ul>
+    <p>The first special function, <em>ball lightning</em>, releases one to four balls of lightning (ring wearer's choice). These glowing globes resemble <em>dancing lights</em>, and the ring wearer controls them in the same fashion (see the <em>dancing lights</em> spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.</p>
+    <table class="table table-bordered table-hover">
+        <caption>Table: Ring of Shooting Stars</caption>
+        <thead>
+            <tr><th>Number of Balls</th><th>Damage per Ball</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>4 lightning balls</td><td>1d6 points of damage each</td></tr>
+            <tr><td>3 lightning balls</td><td>2d6 points of damage each</td></tr>
+            <tr><td>2 lightning balls</td><td>3d6 points of damage each</td></tr>
+            <tr><td>1 lightning ball</td><td>4d6 points of damage</td></tr>
+        </tbody>
+    </table>
+    <p>Once the <em>ball lightning</em> function is activated, the balls can be released at any time before the sun rises. (Multiple balls can be released in the same round.)</p>
+    <p>The second special function produces three <em>shooting stars</em> that can be released from the ring each week, simultaneously or one at a time. They impact for 12 points of damage and spread (as a <em>fireball</em>) in a 5-foot-radius sphere for 24 points of fire damage.</p>
+    <p>Any creature struck by a <em>shooting star</em> takes full damage from impact plus full fire damage from the spread unless it makes a DC 13 Reflex save. Creatures not struck but within the spread ignore the impact damage and take only half damage from the fire spread on a successful DC 13 Reflex save. Range is 70 feet, at the end of which the <em>shooting star</em> explodes, unless it strikes a creature or object before that. A <em>shooting star</em> always follows a straight line, and any creature in its path must make a save or be hit by the projectile.</p>
+    <p>Indoors at night, or underground, the <em>ring of shooting stars</em> has the following properties.</p>
+    <ul>
+        <li><em>Faerie fire</em> (twice per day)</li>
+        <li><em>Spark shower</em> (special, once per day)</li>
+    </ul>
+    <p>The <em>spark shower</em> is a flying cloud of sizzling purple sparks that fan out from the ring for a distance of 20 feet in an arc 10 feet wide. Creatures within this area take 2d8 points of damage each if not wearing metal armor or carrying a metal weapon. Those wearing metal armor and/or carrying a metal weapon take 4d8 points of damage.</p>
+    <p>Strong evocation; CL 12th; Forge Ring, <em>light</em>, <em>faerie fire</em>, <em>fireball</em>, <em>lightning bolt</em>; Price 50,000 gp.</p>
+</article>
+
+<article id="skill" class="ogc">
+    <p><strong>Skill:</strong> Rings of this nature continually grant the wearer a +10 competence bonus on checks relating to the skill the ring is tied to. For example, a <em>Ring of Climbing</em> would grant a +10 bonus to the <em>climb</em> skill. These rings add a bonus to one skill, and one skill only.</p>
+    <p>Faint transmutatation; CL 7th; <a href="#">Forge Ring</a>, creator must have 10 ranks in the appropriate skill; Price 10,000 gp.</p>
+</article>
+
+<article id="skill-greater" class="ogc">
+    <p><strong>Skill, greater:</strong> Rings of this nature continually grant the wearer a +20 competence bonus on checks relating to the skill the ring is tied to. For example, a <em>Ring of Climbing, Greater</em> would grant a +20 bonus to the <em>climb</em> skill. These rings add a bonus to one skill, and one skill only.</p>
+    <p>Faint transmutatation; CL 17th; <a href="#">Forge Ring</a>, creator must have 20 ranks in the appropriate skill; Price 40,000 gp.</p>
+</article>
+
+<article id="skill-improved" class="ogc">
+    <p><strong>Skill, improved:</strong> Rings of this nature continually grant the wearer a +15 competence bonus on checks relating to the skill the ring is tied to. For example, a <em>Ring of Climbing, Improved</em> would grant a +15 bonus to the <em>climb</em> skill. These rings add a bonus to one skill, and one skill only.</p>
+    <p>Faint transmutatation; CL 12th; <a href="#">Forge Ring</a>, creator must have 15 ranks in the appropriate skill; Price 22,500 gp.</p>
+</article>
+
+<article id="skill-lesser" class="ogc">
+    <p><strong>Skill, lesser:</strong> Rings of this nature continually grant the wearer a +5 competence bonus on checks relating to the skill the ring is tied to. For example, a <em>Ring of Climbing, Lesser</em> would grant a +5 bonus to the <em>climb</em> skill. These rings add a bonus to one skill, and one skill only.</p>
+    <p>Faint transmutatation; CL 5th; <a href="#">Forge Ring</a>, creator must have 5 ranks in the appropriate skill; Price 2,500 gp.</p>
+</article>
+
+<article id="spell-storing-minor" class="ogc">
+    <p><strong>Spell Storing, Minor:</strong> A <em>minor ring of spell storing</em> contains up to three levels of spells that the wearer can cast. Each spell has a caster level equal to the minimum level needed to cast that spell. The user need not provide any material components or focus, or pay an XP cost to cast the spell, and there is no arcane spell failure chance for wearing armor (because the ring wearer need not gesture). The activation time for the ring is same as the casting time for the relevant spell, with a minimum of 1 standard action.</p>
+    <p>For a randomly generated ring, treat it as a scroll to determine what spells are stored in it. If you roll a spell that would put the ring over the three-level limit, ignore that roll; the ring has no more spells in it. (Not every newly discovered ring need be fully charged.)</p>
+    <p>A spellcaster can cast any spells into the ring, so long as the total spell levels do not add up to more than three. Metamagic versions of spells take up storage space equal to their spell level modified by the metamagic feat. A spellcaster can use a scroll to put a spell into the <em>minor ring of spell storing</em>.</p>
+    <p>The ring magically imparts to the wearer the names of all spells currently stored within it.</p>
+    <p>Faint evocation; CL 5th; Forge Ring, <em>imbue with spell ability</em>; Price 18,000 gp.</p>
+</article>
+
+<article id="spell-storing" class="ogc">
+    <p><strong>Spell Storing:</strong> As the <em>minor ring of spell storing</em>, except it holds up to five levels of spells.</p>
+    <p>Moderate evocation; CL 9th; Forge Ring, <em>imbue with spell ability</em>; Price 50,000 gp.</p>
+</article>
+
+<article id="spell-storing-major" class="ogc">
+    <p><strong>Spell Storing, Major:</strong> As the <em>minor ring of spell storing</em>, except it holds up to ten levels of spells.</p>
+    <p>Strong evocation; CL 17th; Forge Ring, <em>imbue with spell ability</em>; Price 200,000 gp.</p>
+</article>
+
+<article id="spell-turning" class="ogc">
+    <p><strong>Spell Turning:</strong> Up to three times per day on command, this simple platinum band automatically reflects the next nine levels of spells cast at the wearer, exactly as if <em>spell turning</em> had been cast upon the wearer.</p>
+    <p>Strong abjuration; CL 13th; Forge Ring, <em>spell turning</em>; Price 98,280 gp.</p>
+</article>
+
+<article id="sustenance" class="ogc">
+    <p><strong>Sustenance:</strong> This ring continually provides its wearer with life-sustaining nourishment. The ring also refreshes the body and mind, so that its wearer needs only sleep 2 hours per day to gain the benefit of 8 hours of sleep. The ring must be worn for a full week before it begins to work. If it is removed, the owner must wear it for another week to reattune it to himself.</p>
+    <p>Faint conjuration; CL 5th; Forge Ring, <em>create food and water</em>; Price 2,500 gp.</p>
+</article>
+
+<article id="swimming" class="ogc">
+    <p><strong>Swimming:</strong> This silver ring has a wave pattern etched into the band. It continually grants the wearer a +5 competence bonus on <em>swim</em> checks.</p>
+    <p>Faint transmutation; CL 2nd; Forge Ring, creator must have 5 ranks in the <em>swim</em> skill; Price 2,500 gp.</p>
+</article>
+
+<article id="swimming-improved" class="ogc">
+    <p><strong>Swimming, Improved:</strong> As swimming, except it grants a +10 competence bonus on its wearer's <em>swim</em> checks.</p>
+    <p>Moderate transmutation; CL 7th; Forge Ring, creator must have 10 ranks in the <em>swim</em> skill<em></em>; Price 10,000 gp.</p>
+</article>
+
+<article id="telekinesis" class="ogc">
+    <p><strong>Telekinesis:</strong> This ring allows the caster to use the spell <em>telekinesis</em> on command.</p>
+    <p>Moderate transmutation; CL 9th; Forge Ring, <em>telekinesis</em>; Price 75,000 gp.</p>
+</article>
+
+<article id="three-wishes" class="ogc">
+    <p><strong>Three Wishes:</strong> This ring is set with three rubies. Each ruby stores a <em>wish</em> spell, activated by the ring. When a <em>wish</em> is used, that ruby disappears. For a randomly generated ring, roll 1d3 to determine the remaining number of rubies. When all the <em>wishes</em> are used, the ring becomes a nonmagical item.</p>
+    <p>Strong evocation (if <em>miracle</em> is used); CL 20th; Forge Ring, <em>wish</em> or <em>miracle</em>; Price 97,950 gp; Cost 11,475 gp + 15,918 XP.</p>
+</article>
+
+<article id="water-walking" class="ogc">
+    <p><strong>Water Walking:</strong> This ring, set with an opal, allows the wearer to continually utilize the effects of the spell <em>water walk</em>.</p>
+    <p>Moderate transmutation; CL 9th; Forge Ring, <em>water walk</em>; Price 15,000 gp.</p>
+</article>
+
+<article id="wizardry" class="ogc">
+    <p><strong>Wizardry:</strong> This special ring comes in four kinds (<em>ring of wizardry I</em>, <em>ring of wizardry II</em>, <em>ring of wizardry III</em>, and <em>ring of wizardry IV</em>), all of them useful only to arcane spellcasters. The wearer's arcane spells per day are doubled for one specific spell level. A <em>ring of wizardry I</em> doubles 1st-level spells, a <em>ring of wizardry II</em> doubles 2nd-level spells, a <em>ring of wizardry III</em> doubles 3rd-level spells, and a <em>ring of wizardry IV</em> doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled.</p>
+    <p>Moderate (<em>wizardry I</em>) or strong (<em>wizardry II&ndash;IV</em>) (no school); CL 11th (<em>I</em>), 14th (<em>II</em>), 17th (<em>III</em>), 20th (<em>IV</em>); Forge Ring, <em>limited wish</em>; Price 20,000 gp (<em>I</em>), 40,000 gp (<em>II</em>), 70,000 gp (<em>III</em>), 100,000 gp (<em>IV</em>).</p>
+</article>
+
+<article id="xray-vision" class="ogc">
+    <p><strong>X-Ray Vision:</strong> On command, this ring gives its possessor the ability to see into and through solid matter. Vision range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if there is no illumination. X-ray vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead blocks the vision.</p>
+    <p>Using the ring is physically exhausting, causing the wearer 1 point of Constitution damage per minute after the first 10 minutes of use in a single day.</p>
+    <p>Moderate divination; CL 6th; Forge Ring, <em>true seeing</em>; Price 25,000 gp.</p>
+</article>
+
+    </section>
+
+</section>
+
+        <footer id="page-foot" class="container">
+            <p><a href="http://pannotia.local.dev:8888/todo/">To do</a> | <a href="http://pannotia.local.dev:8888/admin/">Admin</a></p>
+            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+        </footer>
+        <script src="http://pannotia.local.dev:8888/assets/js/jquery.min.js"></script>
+        <script src="http://pannotia.local.dev:8888/assets/js/bootstrap.min.js"></script>
+        <script>
++function ($) {
+  'use strict';
+
+  // FLYOUT CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.flyout-backdrop'
+  var toggle   = '[data-toggle="flyout"]'
+  var Flyout = function (element) {
+    $(element).on('click.bs.flyout', this.toggle)
+  }
+
+  Flyout.VERSION = '3.3.4'
+
+  Flyout.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $('<div class="flyout-backdrop"/>').insertAfter($(this)).on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger('shown.bs.flyout', relatedTarget)
+    }
+
+    return false
+  }
+
+  Flyout.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if ((!isActive && e.which != 27) || (isActive && e.which == 27)) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('[role="menu"]' + desc + ', [role="listbox"]' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--                        // up
+    if (e.which == 40 && index < $items.length - 1) index++                        // down
+    if (!~index)                                      index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      $parent.trigger(e = $.Event('hide.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger('hidden.bs.flyout', relatedTarget)
+    })
+  }
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+
+  // FLYOUT PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.flyout')
+
+      if (!data) $this.data('bs.flyout', (data = new Flyout(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.flyout
+
+  $.fn.flyout             = Plugin
+  $.fn.flyout.Constructor = Flyout
+
+
+  // FLYOUT NO CONFLICT
+  // ====================
+
+  $.fn.flyout.noConflict = function () {
+    $.fn.flyout = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD FLYOUT ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.flyout.data-api', clearMenus)
+    .on('click.bs.flyout.data-api', '.flyout form', function (e) { e.stopPropagation() })
+    .on('click.bs.flyout.data-api', toggle, Flyout.prototype.toggle)
+    .on('keydown.bs.flyout.data-api', toggle, Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="menu"]', Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="listbox"]', Flyout.prototype.keydown)
+
+}(jQuery);
+        </script>
+    </body>
+</html>

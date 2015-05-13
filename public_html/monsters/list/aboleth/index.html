@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            
+              Aboleth &bull;
+            
+            
+            
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="http://pannotia.local.dev:8888/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://pannotia.local.dev:8888/assets/css/bootstrap-theme.min.css">
+        <style>
+body {
+    padding-top: 70px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.flyout-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    text-align: left;
+    list-style: outside none none;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+
+.flyout-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #333;
+    white-space: nowrap;
+}
+
+.flyout-menu > .active > a, .flyout-menu > .active > a:focus, .flyout-menu > .active > a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #337AB7;
+    outline: 0px none;
+}
+
+.flyout-menu > li > a:focus, .flyout-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #F5F5F5;
+}
+
+.dropdown-submenu > .flyout-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.open > .flyout-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu.active > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .flyout-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .open > .flyout-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0px;
+        background-color: transparent;
+        border: 0px none;
+        box-shadow: none;
+    }
+
+    .navbar-default .navbar-nav .open .flyout-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-nav .open .flyout-menu > li > a {
+        line-height: 20px;
+    }
+
+    .navbar-nav .open .flyout-menu .dropdown-header, .navbar-nav .open .flyout-menu > li > a {
+        padding: 5px 15px 5px 35px;
+    }
+
+    .dropdown-submenu > a:after {
+        display: inline-block;
+        float: none;
+        border-width: 4px 4px 0 4px;
+        border-left-color: transparent;
+        border-top-color: #ccc;
+        margin: 0 0 0 7px;
+        vertical-align: middle;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://pannotia.local.dev:8888/">World of Pannotia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button">Setting <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/setting/" title="Introduction">Introduction</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Geography" class="flyout-toggle" data-toggle="flyout" role="button">Geography</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/" title="Introduction">Introduction</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/cities/" title="Cities">Cities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/regions/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/cosmology/" title="Cosmology">Cosmology</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Religion" class="flyout-toggle" data-toggle="flyout" role="button">Religion</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/" title="Deities">Introduction</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/divine-tournament/" title="Divine Tournament">Divine Tournament</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/history/" title="History">History</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/organizations-npcs/" title="Organizations &amp; NPCs">Organizations &amp; NPCs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/game-rules/" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/game-rules/basics/" title="The Basics">The Basics</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/" title="Skills &#038; Feats" class="flyout-toggle" data-toggle="flyout" role="button">Skills &#038; Feats</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/basics/" title="Basics">Basics</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/skills/" title="Skills">Skills</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/" title="Feats">Feats</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/epic-skills/" title="Epic Skills">Epic Skills</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/epic-feats/" title="Epic Feats">Epic Feats</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/races-classes/" title="Races &#038; Classes" class="flyout-toggle" data-toggle="flyout" role="button">Races &#038; Classes</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/races/" title="Races">Races</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/" title="Classes">Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/prestige/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/epic/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/racial/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/" title="Magic &#038; Psionics" class="flyout-toggle" data-toggle="flyout" role="button">Magic &#038; Psionics</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/" title="Spells">Spells</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/powers/" title="Powers">Powers</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spell-combinations/" title="Spell Combinations">Spell Combinations</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/domains/" title="Cleric Domains">Cleric Domains</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/epic-spells/" title="Epic Spells">Epic Spells</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/" title="Adventuring &#038; Combat" class="flyout-toggle" data-toggle="flyout" role="button">Adventuring &#038; Combat</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/abilities-conditions/" title="Abilities &#038; Conditions">Abilities &#038; Conditions</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/carrying-movement-exploration/" title="Carrying, Movement, &#038; Exploration">Carrying, Movement, &#038; Exploration</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/combat/" title="Combat">Combat</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/traps/" title="Traps">Traps</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/wilderness-environment/" title="Wilderness &#038; Environment">Wilderness &#038; Environment</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/" title="Epic &#038; Deity Rules" class="flyout-toggle" data-toggle="flyout" role="button">Epic &#038; Deity Rules</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/epic-obstacles/" title="Epic Obstacles">Epic Obstacles</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-ranks-characteristics/" title="Divine Ranks, Characteristics, &#038; Powers">Divine Ranks, Characteristics, &#038; Powers</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-abilities/" title="Divine Abilities">Divine Abilities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/equipment/" title="The Basics">The Basics</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/" title="Magic &#038; Psionic Items" class="flyout-toggle" data-toggle="flyout" role="button">Magic &#038; Psionic Items</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/basics/" title="Basics &#038; Creation">Basics &#038; Creation</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/potions-oils/" title="Potions &#038; Oils">Potions &#038; Oils</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/intelligent-cursed-items/" title="Intelligent &#038; Cursed Items">Intelligent &#038; Cursed Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/" title="Epic Magic &#038; Psionic Items" class="flyout-toggle" data-toggle="flyout" role="button">Epic Magic &#038; Psionic Items</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/basics-creation/" title="Basics &#038; Creation">Basics &#038; Creation</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/intelligent-items/" title="Intelligent Items">Intelligent Items</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/artifacts/" title="Artifacts">Artifacts</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/generating-treasure/" title="Generating Treasure">Generating Treasure</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/monsters/" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button" class="flyout-toggle" data-toggle="flyout" role="button">Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://pannotia.local.dev:8888/monsters/introduction/" title="Introduction">Introduction</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/list/" title="Monsters">Monsters</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/animals-vermin/" title="Animals &#038; Vermin">Animals &#038; Vermin</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/additional-info/" title="Additional Information">Additional Information</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/epic-monsters/" title="Epic Monsters">Epic Monsters</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/misc/" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://pannotia.local.dev:8888/misc/differences-from-standard-d20/" title="Differences from standard d20">Differences from standard d20</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/ogl/" title="Open Gaming License">Open Gaming License</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/credits-thanks/" title="Credits &#038; Thanks">Credits &#038; Thanks</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/useful-links/" title="Useful Links">Useful Links</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+        
+
+
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                
+                  
+                <li><a href="/monsters/">Monsters</a></li>
+                
+                  
+                <li><a href="/monsters/list/">Monster List</a></li>
+                
+                <li class="active">Aboleth</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container">
+    
+    <div class="row">
+        <h2 class="col-xs-12">Aboleth</h2>
+    </div>
+    
+
+    <section id="main-content">
+        <p>
+    The aboleth is a revolting fishlike amphibian found primarily in
+    subterranean lakes and rivers. An aboleth has a pink belly. Four pulsating
+    blueblack orifices line the bottom of its body and secrete gray slime that
+    smells like rancid grease. It uses its tail for propulsion in the water and
+    drags itself along with its tentacles on land. An aboleth weighs about 6,500
+    pounds.
+</p>
+
+<div id="quick-nav">
+    <ul>
+        <li><a href="#base">Aboleth, CR 7</a></li>
+        <li><a href="#mage-wiz-10">Aboleth Mage, Wizard 10, CR 17</a></li>
+    </ul>
+</div>
+
+<div id="base" class="stat-block">
+    <h3>Aboleth CR 7</h3>
+    <p>(Character Sheet: <a href="http://pannotia.local.dev:8888/downloads/monsters/aboleth.pdf">PDF</a>, <a href="http://pannotia.local.dev:8888/downloads/monsters/aboleth.ods">ODS</a>; Stat Block: <a href="http://pannotia.local.dev:8888/downloads/monsters/aboleth-sb.pdf">PDF</a>)</p>
+    <p>
+        LE Huge <a href="http://pannotia.local.dev:8888/monsters/additional-info/#aberration">Aberration</a>
+        (<a href="http://pannotia.local.dev:8888/monsters/additional-info/#aquatic">Aquatic</a>)
+    </p>
+    <p>
+        <strong>Init</strong> +2 (+2 Dex); <strong>Senses</strong>
+        <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.;
+        <em>listen</em> +17, <em>spot</em> +17
+    </p>
+    <p>
+        <strong>Languages</strong> <em>3 ranks:</em> Aboleth, Aquan, Undercommon
+    </p>
+
+    <hr />
+    <h4>AC, HP, &amp; Saves</h4>
+    <p>
+        <strong>AC</strong> 17, <strong>touch</strong> 10,
+        <strong>flat-footed</strong> 15 (+2 Dex, -2 size, +7 natural)
+    </p>
+    <p><strong>HP</strong> 87 (8 HD)</p>
+    <p>
+        <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage Threshold</em></a> 88;
+        <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage DC</em></a> 21
+    </p>
+    <p><strong>Fort</strong> +8, <strong>Ref</strong> +4, <strong>Will</strong> +12</p>
+
+    <hr />
+    <h4>Speed &amp; Attacks</h4>
+    <p><strong>Speed</strong> 10 ft., swim 60 ft.</p>
+    <p><strong>Melee</strong> tentacles +13/+13/+13/+13 (1d6+9 plus slime)</p>
+    <p><strong>Space</strong> 15 ft; <strong>Reach</strong> 10 ft</p>
+    <p><strong>Base Atk</strong> +6; <strong>Grp</strong> +23</p>
+    <p><strong>Special Atks</strong>
+        <a href="#enslave">Enslave</a>, <a href="#psionics">Psionics</a>,
+        <a href="#slime">Slime</a>
+    </p>
+
+    <hr />
+    <h4>Abilities, Skills, &amp; Feats</h4>
+    <p><strong>Abilities</strong> Str 28, Dex 14, Con 22, Int 17, Wis 19, Cha 19</p>
+    <p><strong>SQ</strong>
+        <a href="http://pannotia.local.dev:8888/monsters/additional-info/#aquatic">Aquatic subtype</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.,
+        <a href="#mucus-cloud">mucus cloud</a>
+    </p>
+    <p><strong>Feats</strong>
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#alertness">Alertness</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#iron-will">Iron Will</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#combat-casting">Combat Casting</a>
+    </p>
+    <p><strong>Skills</strong>
+        <em>concentration</em> +17, <em>knowledge (arcana)</em> +12,
+        <em>knowledge (psionicss)</em> +12, <em>listen</em> +17,
+        <em>spot</em> +17, <em>swim</em> +17
+    </p>
+
+    <hr />
+    <h4>Spells, Psionics, Special Qualities, &amp; Special Abilities</h4>
+    <p id="enslave">
+        <strong>Enslave (Su)</strong> Three times per day, an aboleth can
+        attempt to enslave any one living creature within 30 feet. The target
+        must succeed on a DC 18 Will save or be affected as though by a
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/dominate-person/"><em>dominate person</em></a>
+        spell (caster level 16th). An enslaved creature obeys the aboleth's
+        telepathic commands until freed by
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/remove-curse/"><em>remove curse</em></a>,
+        and can attempt a new Will save every 24 hours to break free. The
+        control is also broken if the aboleth dies or travels more than 1 mile
+        from its slave. The save DC is Charisma-based.
+    </p>
+    <p id="psionics"><strong>Psionics (Sp)</strong> (CL 16):
+        At will &ndash;
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/hypnotic-pattern/"><em>hypnotic pattern</em></a> (DC 16),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/illusory-wall/"><em>illusory wall</em></a> (DC 18),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/mirage-arcana/"><em>mirage arcana</em></a> (DC 19),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/persistent-image/"><em>persistent image</em></a> (DC 19),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/programmed-image/"><em>programmed image</em></a> (DC 20),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/project-image/"><em>project image</em></a> (DC 21),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/veil/"><em>veil</em></a> (DC 20).
+        The save DCs are Charisma-based.
+    </p>
+    <p id="slime">
+        <strong>Slime (Ex)</strong> A blow from an aboleth's tentacle can cause
+        a terrible affliction. A creature hit by a tentacle must succeed on a
+        DC 20 Fortitude save or begin to transform over the next 1d4+1 minutes,
+        the skin gradually becoming a clear, slimy membrane. An afflicted
+        creature must remain moistened with cool, fresh water or take 1d12
+        points of damage every 10 minutes. The slime reduces the creature's
+        natural armor bonus by 1 (but never to less than 0). The save DC is
+        Constitution-based.
+    </p>
+    <p>
+        A <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/remove-disease/"><em>remove disease</em></a>
+        spell cast before the transformation is complete will restore an
+        afflicted creature to normal. Afterward, however, only a
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/heal/"><em>heal</em></a>
+        or <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/heal-mass/"><em>mass heal</em></a>
+        spell can reverse the affliction.
+    </p>
+    <p id="mucus-cloud">
+        <strong>Mucus Cloud (Ex):</strong> An aboleth underwater surrounds
+        itself with a viscous cloud of mucus roughly 1 foot thick. Any creature
+        coming into contact with and inhaling this substance must succeed on a
+        DC 20 Fortitude save or lose the ability to breathe air for the next 3
+        hours. An affected creature suffocates in 2d6 minutes if removed from
+        the water. Renewed contact with the mucus cloud and failing another
+        Fortitude save continues the effect for another 3 hours. The save DC is
+        Constitution-based.
+    </p>
+    <p>
+        <strong>Skills:</strong> An aboleth has a +8 racial bonus on any
+        <em>swim</em> check to perform some special action or avoid a hazard. It
+        can always choose to take 10 on a <em>swim</em> check, even if
+        distracted or endangered. It can use the run action while swimming,
+        provided it swims in a straight line.
+    </p>
+
+    <hr />
+    <h4>Other Information</h4>
+    <p><strong>Environment:</strong> Underground</p>
+    <p><strong>Treasure:</strong> Double standard</p>
+    <p><strong>Organization:</strong> Solitary, brood (2-4),or slaver brood (1d3+1 plus 7-12 skum)</p>
+    <p><strong>Advancement:</strong> 9-16 HD (Huge); 17-24 HD (Gargantuan)</p>
+</div>
+
+<hr class="divider" />
+
+<div id="mage-wiz-10" class="stat-block">
+    <h3>Aboleth Mage, Wizard 10, CR 17</h3>
+    <p>(Character Sheet: PDF, ODS; Stat Block: PDF)</p>
+    <p>
+        LE Huge <a href="http://pannotia.local.dev:8888/monsters/additional-info/#aberration">Aberration</a>
+        (<a href="http://pannotia.local.dev:8888/monsters/additional-info/#aquatic">Aquatic</a>)
+    </p>
+    <p>
+        <strong>Init</strong> +8 (+4 Dex); <strong>Senses</strong>
+        <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.;
+        <em>listen</em> +16, <em>spot</em> +16
+    </p>
+    <p>
+        <strong>Languages</strong> <em>3 ranks:</em> Aboleth, Aquan,
+        Undercommon; <em>2 ranks:</em> Common
+    </p>
+
+    <hr />
+    <h4>AC, HP, &amp; Saves</h4>
+    <p>
+        <strong>AC</strong> 19, <strong>touch</strong> 12,
+        <strong>flat-footed</strong> 15 (+4 Dex, -2 size, +7 natural)
+    </p>
+    <p><strong>HP</strong> 208 (18 HD)</p>
+    <p>
+        <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage Threshold</em></a> 104;
+        <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage DC</em></a> 26
+    </p>
+    <p><strong>Fort</strong> +15, <strong>Ref</strong> +11, <strong>Will</strong> +18</p>
+
+    <hr />
+    <h4>Speed &amp; Attacks</h4>
+    <p><strong>Speed</strong> 10 ft., swim 60 ft.</p>
+    <p><strong>Melee</strong> tentacles +20/+20/+20/+20 (1d6+11 plus slime)</p>
+    <p><strong>Space</strong> 15 ft; <strong>Reach</strong> 10 ft</p>
+    <p><strong>Base Atk</strong> +11; <strong>Grp</strong> +30</p>
+    <p><strong>Special Atks</strong>
+        <a href="#wiz-10-enslave">Enslave</a>,
+        <a href="#wiz-10-psionics">Psionics</a>,
+        <a href="#wiz-10-slime">Slime</a>, Spells
+    </p>
+    <p><strong>Spells</strong> CL 10, +20 melee touch, +13 ranged touch</p>
+
+    <hr />
+    <h4>Abilities, Skills, &amp; Feats</h4>
+    <p><strong>Abilities</strong> Str 32, Dex 19, Con 26, Int 28, Wis 20, Cha 18</p>
+    <p><strong>SQ</strong>
+        <a href="http://pannotia.local.dev:8888/monsters/additional-info/#aquatic">Aquatic subtype</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.,
+        <a href="#wiz-10-mucus-cloud">mucus cloud</a>, summon familiar
+    </p>
+    <p><strong>Feats</strong>
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#combat-casting">Combat Casting</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#empower-spell">Empower Spell</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#eschew-materials">Eschew Materials</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#great-fortitude">Great Fortitude</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#improved-initiative">Improved Initiative</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#lightning-reflexes">Lightning Reflexes</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#scribe-scroll">Scribe Scroll</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#spell-focus">Spell Focus (enchantment)</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#spell-focus">Spell Focus (illusion)</a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#spell-penetration">Spell Penetration</a>
+    </p>
+    <p><strong>Skills</strong>
+        <em>bluff</em> +13, <em>concentration</em> +28, <em>decipher script</em> +29,
+        <em>intimidate</em> +14, <em>knowledge (arcana)</em> +19,
+        <em>knowledge (dungeoneering)</em> +19, <em>knowledge (history)</em> +19,
+        <em>knowledge (psionics)</em> +19, <em>knowledge (the planes)</em> +19,
+        <em>listen</em> +16, <em>psicraft</em> +19, <em>sense motive</em> +15,
+        <em>spellcraft</em> +29, <em>spot</em> +16, <em>swim</em> +19
+    </p>
+
+    <hr />
+    <h4>Spells, Psionics, Special Qualities, &amp; Special Abilities</h4>
+    <p id="wiz-10-enslave">
+        <strong>Enslave (Su)</strong> Three times per day, an aboleth can
+        attempt to enslave any one living creature within 30 feet. The target
+        must succeed on a DC 18 Will save or be affected as though by a
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/dominate-person/"><em>dominate person</em></a>
+        spell (caster level 16th). An enslaved creature obeys the aboleth's
+        telepathic commands until freed by
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/remove-curse/"><em>remove curse</em></a>,
+        and can attempt a new Will save every 24 hours to break free. The
+        control is also broken if the aboleth dies or travels more than 1 mile
+        from its slave. The save DC is Charisma-based.
+    </p>
+    <p id="wiz-10-psionics"><strong>Psionics (Sp)</strong> (CL 16):
+        At will &ndash;
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/hypnotic-pattern/"><em>hypnotic pattern</em></a> (DC 16),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/illusory-wall/"><em>illusory wall</em></a> (DC 18),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/mirage-arcana/"><em>mirage arcana</em></a> (DC 19),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/persistent-image/"><em>persistent image</em></a> (DC 19),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/programmed-image/"><em>programmed image</em></a> (DC 20),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/project-image/"><em>project image</em></a> (DC 21),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/veil/"><em>veil</em></a> (DC 20).
+        The save DCs are Charisma-based.
+    </p>
+    <p id="wiz-10-slime">
+        <strong>Slime (Ex)</strong> A blow from an aboleth's tentacle can cause
+        a terrible affliction. A creature hit by a tentacle must succeed on a
+        DC 22 Fortitude save or begin to transform over the next 1d4+1 minutes,
+        the skin gradually becoming a clear, slimy membrane. An afflicted
+        creature must remain moistened with cool, fresh water or take 1d12
+        points of damage every 10 minutes. The slime reduces the creature's
+        natural armor bonus by 1 (but never to less than 0). The save DC is
+        Constitution-based.
+    </p>
+    <p>
+        A <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/remove-disease/"><em>remove disease</em></a>
+        spell cast before the transformation is complete will restore an
+        afflicted creature to normal. Afterward, however, only a
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/heal/"><em>heal</em></a>
+        or <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/heal-mass/"><em>mass heal</em></a>
+        spell can reverse the affliction.
+    </p>
+    <p id="wiz-10-mucus-cloud">
+        <strong>Mucus Cloud (Ex):</strong> An aboleth underwater surrounds
+        itself with a viscous cloud of mucus roughly 1 foot thick. Any creature
+        coming into contact with and inhaling this substance must succeed on a
+        DC 22 Fortitude save or lose the ability to breathe air for the next 3
+        hours. An affected creature suffocates in 2d6 minutes if removed from
+        the water. Renewed contact with the mucus cloud and failing another
+        Fortitude save continues the effect for another 3 hours. The save DC is
+        Constitution-based.
+    </p>
+    <p>
+        <strong>Skills:</strong> An aboleth has a +8 racial bonus on any
+        <em>swim</em> check to perform some special action or avoid a hazard. It
+        can always choose to take 10 on a <em>swim</em> check, even if
+        distracted or endangered. It can use the run action while swimming,
+        provided it swims in a straight line.
+    </p>
+    <p><strong>Spells/day:</strong> 4/7/6/5/5/4</p>
+    <p><strong>Spell saves:</strong> 19 + spell level (+1 to illusion and enchantment spells)</p>
+    <p><strong>Typical Spells Prepared:</strong>
+        0 &ndash; <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/daze/"><em>daze</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/detect-magic/"><em>detect magic</em></a> (2),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/resistance/"><em>resistance</em></a>;
+
+        1st &ndash; <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/alarm/"><em>alarm</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/charm-person/"><em>charm person</em></a> (2),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/color-spray/"><em>color spray</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/mage-armor/"><em>mage armor</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/magic-missile/"><em>magic missile</em></a> (2);
+
+        2nd &ndash; <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/blur/"><em>blur</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/bulls-strength/"><em>bull's strength</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/darkness/"><em>darkness</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/foxs-cunning/"><em>fox's cunning</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/scorching-ray/"><em>scorching ray</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/see-invisibilty/"><em>see invisibilty</em></a>;
+
+        3rd &ndash; <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/dispel-magic/"><em>dispel magic</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/displacement/"><em>displacement</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/fly/"><em>fly</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/lightning-bolt/"><em>lightning bolt</em></a> (2);
+
+        4th &ndash; <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/greater-invisibility/"><em>greater invisibility</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/phantasmal-killer/"><em>phantasmal killer</em></a> (2),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/scrying/"><em>scrying</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/stoneskin/"><em>stoneskin</em></a>;
+
+        5th &ndash; <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/hold-monster/"><em>hold monster</em></a>,
+        <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/#empower-spell"><em>empowered</em></a>
+            <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/lightning-bolt/"><em>lightning bolt</em></a> (2),
+        <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/wall-of-force/"><em>wall of force</em></a>
+    </p>
+
+    <hr />
+    <h4>Other Information</h4>
+    <p><strong>Environment:</strong> Underground</p>
+    <p><strong>Treasure:</strong> Double standard</p>
+    <p><strong>Organization:</strong> Solitary</p>
+    <p><strong>Advancement:</strong> By character class</p>
+</div>
+
+    </section>
+
+</section>
+
+        <footer id="page-foot" class="container">
+            <p><a href="http://pannotia.local.dev:8888/todo/">To do</a> | <a href="http://pannotia.local.dev:8888/admin/">Admin</a></p>
+            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+        </footer>
+        <script src="http://pannotia.local.dev:8888/assets/js/jquery.min.js"></script>
+        <script src="http://pannotia.local.dev:8888/assets/js/bootstrap.min.js"></script>
+        <script>
++function ($) {
+  'use strict';
+
+  // FLYOUT CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.flyout-backdrop'
+  var toggle   = '[data-toggle="flyout"]'
+  var Flyout = function (element) {
+    $(element).on('click.bs.flyout', this.toggle)
+  }
+
+  Flyout.VERSION = '3.3.4'
+
+  Flyout.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $('<div class="flyout-backdrop"/>').insertAfter($(this)).on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger('shown.bs.flyout', relatedTarget)
+    }
+
+    return false
+  }
+
+  Flyout.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if ((!isActive && e.which != 27) || (isActive && e.which == 27)) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('[role="menu"]' + desc + ', [role="listbox"]' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--                        // up
+    if (e.which == 40 && index < $items.length - 1) index++                        // down
+    if (!~index)                                      index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      $parent.trigger(e = $.Event('hide.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger('hidden.bs.flyout', relatedTarget)
+    })
+  }
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+
+  // FLYOUT PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.flyout')
+
+      if (!data) $this.data('bs.flyout', (data = new Flyout(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.flyout
+
+  $.fn.flyout             = Plugin
+  $.fn.flyout.Constructor = Flyout
+
+
+  // FLYOUT NO CONFLICT
+  // ====================
+
+  $.fn.flyout.noConflict = function () {
+    $.fn.flyout = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD FLYOUT ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.flyout.data-api', clearMenus)
+    .on('click.bs.flyout.data-api', '.flyout form', function (e) { e.stopPropagation() })
+    .on('click.bs.flyout.data-api', toggle, Flyout.prototype.toggle)
+    .on('keydown.bs.flyout.data-api', toggle, Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="menu"]', Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="listbox"]', Flyout.prototype.keydown)
+
+}(jQuery);
+        </script>
+    </body>
+</html>

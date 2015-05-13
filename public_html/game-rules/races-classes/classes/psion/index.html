@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            
+              Psion (Psi) &bull;
+            
+            
+            
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="http://pannotia.local.dev:8888/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://pannotia.local.dev:8888/assets/css/bootstrap-theme.min.css">
+        <style>
+body {
+    padding-top: 70px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.flyout-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    text-align: left;
+    list-style: outside none none;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+
+.flyout-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #333;
+    white-space: nowrap;
+}
+
+.flyout-menu > .active > a, .flyout-menu > .active > a:focus, .flyout-menu > .active > a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #337AB7;
+    outline: 0px none;
+}
+
+.flyout-menu > li > a:focus, .flyout-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #F5F5F5;
+}
+
+.dropdown-submenu > .flyout-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.open > .flyout-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu.active > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .flyout-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .open > .flyout-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0px;
+        background-color: transparent;
+        border: 0px none;
+        box-shadow: none;
+    }
+
+    .navbar-default .navbar-nav .open .flyout-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-nav .open .flyout-menu > li > a {
+        line-height: 20px;
+    }
+
+    .navbar-nav .open .flyout-menu .dropdown-header, .navbar-nav .open .flyout-menu > li > a {
+        padding: 5px 15px 5px 35px;
+    }
+
+    .dropdown-submenu > a:after {
+        display: inline-block;
+        float: none;
+        border-width: 4px 4px 0 4px;
+        border-left-color: transparent;
+        border-top-color: #ccc;
+        margin: 0 0 0 7px;
+        vertical-align: middle;
+    }
+}
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://pannotia.local.dev:8888/">World of Pannotia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button">Setting <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/setting/" title="Introduction">Introduction</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Geography" class="flyout-toggle" data-toggle="flyout" role="button">Geography</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/" title="Introduction">Introduction</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/cities/" title="Cities">Cities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/geography/regions/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/cosmology/" title="Cosmology">Cosmology</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Religion" class="flyout-toggle" data-toggle="flyout" role="button">Religion</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/" title="Deities">Introduction</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/setting/religion/divine-tournament/" title="Divine Tournament">Divine Tournament</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/history/" title="History">History</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/setting/organizations-npcs/" title="Organizations &amp; NPCs">Organizations &amp; NPCs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/game-rules/" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/game-rules/basics/" title="The Basics">The Basics</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/skills-feats/" title="Skills &#038; Feats" class="flyout-toggle" data-toggle="flyout" role="button">Skills &#038; Feats</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/basics/" title="Basics">Basics</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/skills/" title="Skills">Skills</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/feats/" title="Feats">Feats</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/epic-skills/" title="Epic Skills">Epic Skills</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/skills-feats/epic-feats/" title="Epic Feats">Epic Feats</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/races-classes/" title="Races &#038; Classes" class="flyout-toggle" data-toggle="flyout" role="button">Races &#038; Classes</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/races/" title="Races">Races</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/classes/" title="Classes">Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/prestige/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/epic/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/racial/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/races-classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/" title="Magic &#038; Psionics" class="flyout-toggle" data-toggle="flyout" role="button">Magic &#038; Psionics</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spells/" title="Spells">Spells</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/powers/" title="Powers">Powers</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/spell-combinations/" title="Spell Combinations">Spell Combinations</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/domains/" title="Cleric Domains">Cleric Domains</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/magic-psionics/epic-spells/" title="Epic Spells">Epic Spells</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/" title="Adventuring &#038; Combat" class="flyout-toggle" data-toggle="flyout" role="button">Adventuring &#038; Combat</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/abilities-conditions/" title="Abilities &#038; Conditions">Abilities &#038; Conditions</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/carrying-movement-exploration/" title="Carrying, Movement, &#038; Exploration">Carrying, Movement, &#038; Exploration</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/combat/" title="Combat">Combat</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/traps/" title="Traps">Traps</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/adventuring-combat/wilderness-environment/" title="Wilderness &#038; Environment">Wilderness &#038; Environment</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/" title="Epic &#038; Deity Rules" class="flyout-toggle" data-toggle="flyout" role="button">Epic &#038; Deity Rules</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/epic-obstacles/" title="Epic Obstacles">Epic Obstacles</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-ranks-characteristics/" title="Divine Ranks, Characteristics, &#038; Powers">Divine Ranks, Characteristics, &#038; Powers</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-abilities/" title="Divine Abilities">Divine Abilities</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/game-rules/epic-deity-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.local.dev:8888/equipment/" title="The Basics">The Basics</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/" title="Magic &#038; Psionic Items" class="flyout-toggle" data-toggle="flyout" role="button">Magic &#038; Psionic Items</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/basics/" title="Basics &#038; Creation">Basics &#038; Creation</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/potions-oils/" title="Potions &#038; Oils">Potions &#038; Oils</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/magic-psionic-items/intelligent-cursed-items/" title="Intelligent &#038; Cursed Items">Intelligent &#038; Cursed Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/" title="Epic Magic &#038; Psionic Items" class="flyout-toggle" data-toggle="flyout" role="button">Epic Magic &#038; Psionic Items</a>
+                            <ul class="flyout-menu">
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/basics-creation/" title="Basics &#038; Creation">Basics &#038; Creation</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/weapons-armor/" title="Weapons &#038; Armor">Weapons &#038; Armor</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://pannotia.local.dev:8888/equipment/epic-magic-psionic-items/intelligent-items/" title="Intelligent Items">Intelligent Items</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/artifacts/" title="Artifacts">Artifacts</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/equipment/generating-treasure/" title="Generating Treasure">Generating Treasure</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/monsters/" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button" class="flyout-toggle" data-toggle="flyout" role="button">Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://pannotia.local.dev:8888/monsters/introduction/" title="Introduction">Introduction</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/list/" title="Monsters">Monsters</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/animals-vermin/" title="Animals &#038; Vermin">Animals &#038; Vermin</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/additional-info/" title="Additional Information">Additional Information</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/monsters/epic-monsters/" title="Epic Monsters">Epic Monsters</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="http://pannotia.local.dev:8888/misc/" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="http://pannotia.local.dev:8888/misc/differences-from-standard-d20/" title="Differences from standard d20">Differences from standard d20</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/ogl/" title="Open Gaming License">Open Gaming License</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/credits-thanks/" title="Credits &#038; Thanks">Credits &#038; Thanks</a></li>
+                        <li><a href="http://pannotia.local.dev:8888/misc/useful-links/" title="Useful Links">Useful Links</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+        
+
+
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                
+                  
+                <li><a href="/game-rules/">Game Rules</a></li>
+                
+                  
+                <li><a href="/game-rules/races-classes/">Races &amp; Classes</a></li>
+                
+                  
+                <li><a href="/game-rules/races-classes/classes/">Classes</a></li>
+                
+                <li class="active">Psion (Psi)</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container">
+    
+    <div class="row">
+        <h2 class="col-xs-12">Psion (Psi)</h2>
+    </div>
+    
+
+    <section id="main-content">
+         <!--p>Short description</p-->
+<p><strong>Adventures:</strong></p>
+<p><strong>Characteristics:</strong></p>
+<p><strong>Alignment:</strong></p>
+<p><strong>Religion:</strong></p>
+<p><strong>Background:</strong></p>
+<p><strong>Races:</strong></p>
+<p><strong>Other Classes:</strong></p>
+<p><strong>Role:</strong></p>
+<div class="ogc">
+    <h4>Game Rule Information</h4>
+    <p><strong>Abilities:</strong> </p>
+    <p><strong>Alignment:</strong> Any.</p>
+    <p><strong>Hit Die:</strong> d4</p>
+    <h4>Class Skills</h4>
+    <p>The Psion's (Psi) class skills (and the key ability for each skill) are <em>concentration*</em> (Con), <em>craft</em> (Int), <em>knowledge (all skills, taken individually)*</em> (Int), <em>profession</em> (Wis), and <em>psicraft*</em> (Int). In addition, a psion gains access to additional class skills based on his discipline:</p>
+    <p><strong>Seer (Clairsentience):</strong> <em>gather information</em> (Cha), <em>listen</em> (Wis), and <em>spot</em> (Wis).</p>
+    <p><strong>Shaper (Metacreativity):</strong> <em>bluff</em> (Cha), <em>disguise</em> (Cha), and <em>use psionic device*</em> (Wis).</p>
+    <p><strong>Kineticist (Psychokinesis):</strong> <em>autohypnosis*</em> (Wis), <em>disable device</em> (Dex), and <em>intimidate</em> (Cha).</p>
+    <p><strong>Egoist (Psychometabolism):</strong> <em>autohypnosis*</em> (Wis), <em>balance</em> (Dex) and <em>heal</em> (Wis).</p>
+    <p><strong>Nomad (Psychoportation):</strong> <em>climb</em> (Str), <em>jump</em> (Str), <em>ride</em> (Dex), <em>survival</em> (Wis), and <em>swim</em> (Str).</p>
+    <p><strong>Telepath (Telepathy):</strong> <em>bluff</em> (Cha), <em>diplomacy</em> (Cha), <em>gather information</em> (Cha), and <em>sense motive</em> (Wis).</p>
+    <p>*New skill or expanded use of existing skill.</p>
+    <p><strong>Skill Points at 1st level:</strong> (2 + Int modifier) x 4</p>
+    <p><strong>Skill Points at each additional level:</strong> 2 + Int modifier</p>
+    <table id="psion-table" class="table table-bordered table-hover">
+        <caption>Table: The Psion</caption>
+        <thead>
+            <tr><th>Level</th><th>Base Attack Bonus</th><th>Fort Save</th><th>Ref Save</th><th>Will Save</th><th>Special</th><th>Power Points/Day</th><th>Powers Known</th><th>Maximum Power Level Known</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1</td><td>+0</td><td>+0</td><td>+0</td><td>+2</td><td>Bonus feat, discipline</td><td>2</td><td>3</td><td>1st</td></tr>
+            <tr><td>2</td><td>+1</td><td>+0</td><td>+0</td><td>+3</td><td>Psionic affinity +2</td><td>6</td><td>5</td><td>1st</td></tr>
+            <tr><td>3</td><td>+1</td><td>+1</td><td>+1</td><td>+3</td><td>Psionic affinity +3</td><td>11</td><td>7</td><td>2nd</td></tr>
+            <tr><td>4</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td>Psionic affinity +4</td><td>17</td><td>9</td><td>2nd</td></tr>
+            <tr><td>5</td><td>+2</td><td>+1</td><td>+1</td><td>+4</td><td>Bonus feat</td><td>25</td><td>11</td><td>3rd</td></tr>
+            <tr><td>6</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td>Psionic affinity +5</td><td>35</td><td>13</td><td>3rd</td></tr>
+            <tr><td>7</td><td>+3</td><td>+2</td><td>+2</td><td>+5</td><td>Psionic affinity +6</td><td>46</td><td>15</td><td>4th</td></tr>
+            <tr><td>8</td><td>+4</td><td>+2</td><td>+2</td><td>+6</td><td>Psionic affinity +7</td><td>58</td><td>17</td><td>4th</td></tr>
+            <tr><td>9</td><td>+4</td><td>+3</td><td>+3</td><td>+6</td><td>Psionic affinity +8</td><td>72</td><td>19</td><td>5th</td></tr>
+            <tr><td>10</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td>Bonus feat</td><td>88</td><td>21</td><td>5th</td></tr>
+            <tr><td>11</td><td>+5</td><td>+3</td><td>+3</td><td>+7</td><td>Psionic affinity +9</td><td>106</td><td>22</td><td>6th</td></tr>
+            <tr><td>12</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td>Psionic affinity +10</td><td>126</td><td>24</td><td>6th</td></tr>
+            <tr><td>13</td><td>+6/+1</td><td>+4</td><td>+4</td><td>+8</td><td>Psionic affinity +11</td><td>147</td><td>25</td><td>7th</td></tr>
+            <tr><td>14</td><td>+7/+2</td><td>+4</td><td>+4</td><td>+9</td><td>Psionic affinity +12</td><td>170</td><td>27</td><td>7th</td></tr>
+            <tr><td>15</td><td>+7/+2</td><td>+5</td><td>+5</td><td>+9</td><td>Bonus feat</td><td>195</td><td>28</td><td>8th</td></tr>
+            <tr><td>16</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td>Psionic affinity +13</td><td>221</td><td>30</td><td>8th</td></tr>
+            <tr><td>17</td><td>+8/+3</td><td>+5</td><td>+5</td><td>+10</td><td>Psionic affinity +14</td><td>250</td><td>31</td><td>9th</td></tr>
+            <tr><td>18</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td>Psionic affinity +15</td><td>280</td><td>33</td><td>9th</td></tr>
+            <tr><td>19</td><td>+9/+4</td><td>+6</td><td>+6</td><td>+11</td><td>Psionic affinity +16</td><td>311</td><td>34</td><td>9th</td></tr>
+            <tr><td>20</td><td>+10/+5</td><td>+6</td><td>+6</td><td>+12</td><td>Bonus feat</td><td>343</td><td>36</td><td>9th</td></tr>
+        </tbody>
+    </table>
+    <h4>Class Features</h4>
+    <p>All of the following are class features of the Psion.</p>
+    <p><strong>Weapon and Armor Proficiency:</strong> Psions are proficient with the club, dagger, heavy crossbow, light crossbow, quarterstaff, and shortspear. They are not proficient with any type of armor or shield. Armor does not, however, interfere with the manifestation of powers.</p>
+    <p><strong>Power Points/Day:</strong> A psion's ability to manifest powers is limited by the power points he has available. His base daily allotment of power points is given on Table: The Psion. In addition, he receives bonus power points per day if he has a high Intelligence score (see Table: Ability Modifiers and Bonus Power Points). His race may also provide bonus power points per day, as may certain feats and items.</p>
+    <p><strong>Discipline:</strong> Every psion must decide at 1st level which psionic discipline he will specialize in. Choosing a discipline provides a psion with access to the class skills associated with that discipline (see above), as well as the powers restricted to that discipline. However, choosing a discipline also means that the psion cannot learn powers that are restricted to other disciplines. He can't even use such powers by employing psionic items.</p>
+    <p><strong>Powers Known:</strong> A psion begins play knowing three psion powers of your choice. Each time he achieves a new level, he unlocks the knowledge of new powers.</p>
+    <p>Choose the powers known from the psion power list, or from the list of powers of your chosen discipline. You cannot choose powers from restricted discipline lists other than your own discipline list. You can choose powers from disciplines other than your own if they are not on a restricted discipline list. (Exception: The feats Expanded Knowledge and Epic Expanded Knowledge do allow a psion to learn powers from the lists of other disciplines or even other classes.) A psion can manifest any power that has a power point cost equal to or lower than his manifester level.</p>
+    <p>The number of times a psion can manifest powers in a day is limited only by his daily power points.</p>
+    <p>A psion simply knows his powers; they are ingrained in his mind. He does not need to prepare them (in the way that some spellcasters prepare their spells), though he must get a good night's sleep each day to regain all his spent power points.</p>
+    <p>The Difficulty Class for saving throws against psion powers is 10 + the power's level + the psion's Intelligence modifier. Maximum Power Level Known: A psion begins play with the ability to learn 1st-level powers. As he attains higher levels, a psion may gain the ability to master more complex powers.</p>
+    <p>To learn or manifest a power, a psion must have an Intelligence score of at least 10 + the power's level.</p>
+    <p><strong>Bonus Feats:</strong> A psion gains a bonus feat at 1st level, 5th level, 10th level, 15th level, and 20th level. This feat must be a psionic feat, a metapsionic feat, or a psionic item creation feat.</p>
+    <p>These bonus feats are in addition to the feats that a character of any class gains every three levels. A psion is not limited to psionic feats, metapsionic feats, and psionic item creation feats when choosing these other feats.</p>
+    <p><strong>Psionic Affinity (Ex):</strong> Starting at 2nd level, a psion can identify a certain creature type during an encounter by virtue of inheriting his psionic ability from a member of that creature type. The type must include at least one creature with a psi-like ability (such as psionic dragon, magical beast [psionic], or outsider). Once this choice is made, it cannot be reversed. The psion gains a +2 bonus on <em>knowledge (psionics)</em> checks to identify such creature types, but he gains no insight about their special powers or vulnerabilities. Moreover, the psion can make these <em>knowledge (psionics)</em> checks untrained. This bonus increases by +1 at 3rd, 4th, 6th, 7th, 8th, 9th, 11th, 12th, 13th, 14th, 16th, 17th, 18th, and 19th.</p>
+    <h4>Psionic Disciplines</h4>
+    <p>A discipline is one of six groupings of powers, each defined by a common theme. The six disciplines are clairsentience, metacreativity, psychokinesis, psychometabolism, psychoportation, and telepathy.</p>
+    <p><strong>Clairsentience:</strong> A psion who chooses clairsentience is known as a seer. Seers can learn precognitive powers to aid their comrades in combat, as well as powers that permit them to gather information in many different ways.</p>
+    <p><strong>Metacreativity:</strong> A psion specializing in metacreativity is known as a shaper. This discipline includes powers that draw ectoplasm or matter from the Astral Plane, creating semisolid and solid items such as armor, weapons, or animated constructs to do battle at the shaper's command.</p>
+    <p><strong>Psychokinesis:</strong> Psions who specialize in psychokinesis are known as kineticists. They are the masters of powers that manipulate and transform matter and energy. Kineticists can attack with devastating blasts of energy.</p>
+    <p><strong>Psychometabolism:</strong> A psion who specializes in psychometabolism is known as an egoist. This discipline consists of powers that alter the psion's psychobiology, or that of creatures near him. An egoist can both heal and transform himself into a fearsome fighter.</p>
+    <p><strong>Psychoportation:</strong> A psion who relies on psychoportation powers is known as a nomad. Nomads can wield powers that propel or displace objects in space or time.</p>
+    <p><strong>Telepathy:</strong> A psion who chooses the discipline of telepathy is known as a telepath. He is the master of powers that allow mental contact and control of other sentient creatures. A telepath can deceive or destroy the minds of his enemies with ease.</p>
+    <h4>Psicrystals</h4>
+    <p>A psicrystal is a fragment of a psionic character's personality, brought into physical form and a semblance of life (via the Psicrystal Affinity feat). A psicrystal appears as a crystalline construct about the size of a human hand.</p>
+    <p>Because it is an extension of its creator's personality, a character's psicrystal is in some ways a part of him. That's why, for example, a psionic character can manifest a personal range power on his psicrystal even though normally he can manifest such a power only on himself.</p>
+    <p>A psicrystal is treated as a construct for the purposes of all effects that depend on its type.</p>
+    <p>A psicrystal grants special abilities to its owner, as shown on the Psicrystal Special Abilities table below. In addition, a psicrystal has a personality (being a fragment of the owner's personality), which gives its owner a bonus on certain types of checks or saving throws, as given on the Psicrystal Personalities table below. These special abilities and bonuses apply only when the owner and the psicrystal are within 1 mile of each other.</p>
+    <p>Psicrystal abilities are based on the owner's levels in psionic classes. Levels from other classes do not count toward the owner's level for purposes of psicrystal abilities.</p>
+    <p>A psicrystal can speak one language of its owner's choice (so long as it is a language the owner knows). A psicrystal can understand all other languages known by its owner, but cannot speak them. This is a supernatural ability.</p>
+    <p><strong>Psicrystal Basics:</strong> Use the statistics for a psicrystal, but make the following changes.</p>
+    <p><em>Saving Throws:</em> A psicrystal uses its owner's base saving throw bonuses and ability modifiers on saves, though it doesn't enjoy any other bonuses its owner might have (from magic items or feats, for example).</p>
+    <p><em>Abilities:</em> When its self-propulsion ability is not activated, a psicrystal has no Strength score and no Dexterity score.</p>
+    <p><em>Skills:</em> A psicrystal has the same skill ranks as its owner, except that it has a minimum of 4 ranks each in Spot, Listen, Move Silently, and Search. (Even if its owner has no ranks in these skills, a psicrystal has 4 ranks in each.) A psicrystal uses its own ability modifiers on skill checks.</p>
+    <table id="psicrystal-table" class="table table-bordered table-hover">
+        <caption>Table: Psicrystal Special Abilities</caption>
+        <thead>
+            <tr><th>Owner Level</th><th>Natural Armor Adj.</th><th>Int Adj.</th><th>Special</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>1st-2nd</td><td>+0</td><td>+0</td><td>Alertness, improved evasion, personality, self-propulsion, share powers, sighted, telepathic link</td></tr>
+            <tr><td>3rd-4th</td><td>+1</td><td>+1</td><td>Deliver touch powers</td></tr>
+            <tr><td>5th-6th</td><td>+2</td><td>+2</td><td>Telepathic speech</td></tr>
+            <tr><td>7th-8th</td><td>+3</td><td>+3</td><td>&ndash;</td></tr>
+            <tr><td>9th-10th</td><td>+4</td><td>+4</td><td>Flight</td></tr>
+            <tr><td>11th-12th</td><td>+5</td><td>+5</td><td>Power resistance</td></tr>
+            <tr><td>13th-14th</td><td>+6</td><td>+6</td><td>Sight link</td></tr>
+            <tr><td>15th-16th</td><td>+7</td><td>+7</td><td>Channel power</td></tr>
+            <tr><td>17th-18th</td><td>+8</td><td>+8</td><td>&ndash;</td></tr>
+            <tr><td>19th-20th</td><td>+9</td><td>+9</td><td>&ndash;</td></tr>
+        </tbody>
+    </table>
+    <p><strong>Psicrystal Ability Descriptions:</strong> All psicrystals have special abilities (or impart abilities to their owners) depending on the level of the owner, as shown on the table above. The abilities on the table are cumulative.</p>
+    <p><em>Natural Armor Adj. (Ex):</em> This number noted here is an improvement to the psicrystal's natural armor bonus (normally 0). It represents a psicrystal's preternatural durability.</p>
+    <p><em>Intelligence Adj. (Ex):</em> Add this value to the psicrystal's Intelligence score. Psicrystals are as smart as people (though not necessarily as smart as smart people).</p>
+    <p><em>Alertness (Ex):</em> The presence of a psicrystal sharpens its master's senses. While a psicrystal is within arm's reach (adjacent to or in the same square as its owner), its owner gains the Alertness feat.</p>
+    <p><em>Improved Evasion (Ex):</em> If a psicrystal is subjected to an attack that normally allows a Reflex saving throw for half damage, it takes no damage if it makes a successful saving throw and half damage even if the saving throw fails.</p>
+    <p><em>Personality (Ex):</em> Every psicrystal has a personality. See Psicrystal Personality, below.</p>
+    <p><em>Self-Propulsion (Su):</em> As a standard action, its owner can will a psicrystal to form spidery, ectoplasmic legs that grant the psicrystal a land speed of 30 feet and a climb speed of 20 feet. The legs fade into nothingness after one day (or sooner, if the owner desires).</p>
+    <p><em>Share Powers (Su):</em> At the owner's option, he can have any power (but not any psi-like ability) he manifests on himself also affect his psicrystal. The psicrystal must be within 5 feet of him at the time of the manifestation to receive the benefit. If the power has a duration other than instantaneous, it stops affecting the psicrystal if it moves farther than 5 feet away, and will not affect the psicrystal again, even if it returns to its owner before the duration expires.</p>
+    <p>Additionally, the owner can manifest a power with a target of "You" on his psicrystal (as a touch range power) instead of on himself. The owner and psicrystal cannot share powers if the powers normally do not affect creatures of the psicrystal's type (construct).</p>
+    <p><em>Sighted (Ex):</em> Although it has no physical sensory organs, a psicrystal can telepathically sense its environment as well as a creature with normal vision and hearing. Darkness (even supernatural darkness) is irrelevant, as are areas of supernatural silence, though a psicrystal still can't discern invisible or ethereal beings. A psicrystal's sighted range is 40 feet.</p>
+    <p><em>Telepathic Link (Su):</em> The owner has a telepathic link with his psicrystal out to a distance of up to 1 mile. The owner cannot see through the psicrystal's senses, but the two of them can communicate telepathically as if the psicrystal were the target of a mindlink power manifested by the owner. For instance, a psicrystal placed in a distant room could relay the activities occurring in that room.</p>
+    <p>Because of the telepathic link between a psicrystal and its owner, the owner has the same connection to an item or place that the psicrystal does. For instance, if his psicrystal has seen a room, the owner can teleport into that room as if he has seen it too.</p>
+    <p><em>Deliver Touch Powers (Su):</em> If the owner is 3rd level or higher, his psicrystal can deliver touch powers for him. If the owner and psicrystal are in contact at the time the owner manifests a touch power, he can designate his psicrystal as the "toucher." The psicrystal can then deliver the touch power just as the owner could. As usual, if the owner manifests another power before the touch is delivered, the touch power dissipates.</p>
+    <p><em>Telepathic Speech (Ex):</em> If the owner is 5th level or higher, the psicrystal can communicate telepathically with any creature that has a language and is within 30 feet of the psicrystal, while the psicrystal is also within 1 mile of the owner.</p>
+    <p><em>Flight (Su):</em> If the owner is 9th level or higher, he can, as a standard action, will his psicrystal to fly at a speed of 50 feet (poor). The psicrystal drifts gently to the ground after one day (or sooner, if the owner desires).</p>
+    <p><em>Power Resistance (Ex):</em> If the owner is 11th level or higher, the psicrystal gains power resistance equal to the owner's level + 5. To affect the psicrystal with a power, another manifester must get a result on a manifester level check that equals or exceeds the psicrystal's power resistance.</p>
+    <p><em>Sight Link (Sp):</em> If the owner is 13th level or higher, the character can remote view the psicrystal (as if manifesting the remote view power) once per day.</p>
+    <p><em>Channel Power (Sp):</em> If the owner is 15th level or higher, he can manifest powers through the psicrystal to a distance of up to 1 mile. The psicrystal is treated as the power's originator, and all ranges are calculated from its location.</p>
+    <p>When channeling a power through his psicrystal, the owner manifests the power by paying its power point cost. He is still subject to attacks of opportunity and other hazards of manifesting a power, if applicable (for instance, he becomes visible when manifesting an offensive power if invisible, as does the psicrystal).</p>
+    <p><strong>Psicrystal Personality (Ex):</strong> Each psicrystal has a distinct personality, chosen by its owner at the time of its creation from among those given on the following table. At 1st level, its owner typically gets a feel for a psicrystal's personality only through occasional impulses, but as the owner increases in level the psicrystal's personality becomes more pronounced. At higher levels, it is not uncommon for a psicrystal to constantly ply its owner with observations and advice, often severely slanted toward the psicrystal's particular worldview. The owner always sees a bit of himself in his psicrystal, even if magnified and therefore distorted.</p>
+    <table id="psycrystal-personalities-table" class="table table-bordered table-hover">
+        <caption>Table: Psicrystal Personalities</caption>
+        <thead>
+            <tr><th>Personality</th><th>Benefit to Owner</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Artiste</td><td>+3 bonus on <em>craft</em> checks</td></tr>
+            <tr><td>Bully</td><td>+3 bonus on <em>intimidate</em> checks</td></tr>
+            <tr><td>Coward</td><td>+3 bonus on <em>hide</em> checks</td></tr>
+            <tr><td>Friendly</td><td>+3 bonus on <em>diplomacy</em> checks</td></tr>
+            <tr><td>Hero</td><td>+2 bonus on Fortitude saves</td></tr>
+            <tr><td>Liar</td><td>+3 bonus on <em>bluff</em> checks</td></tr>
+            <tr><td>Meticulous</td><td>+3 bonus on <em>search</em> checks</td></tr>
+            <tr><td>Nimble</td><td>+2 bonus on Initiative checks</td></tr>
+            <tr><td>Observant</td><td>+3 bonus on <em>spot</em> checks</td></tr>
+            <tr><td>Poised</td><td>+3 bonus on <em>balance</em> checks</td></tr>
+            <tr><td>Resolved</td><td>+2 bonus on Will saves</td></tr>
+            <tr><td>Sage</td><td>+3 bonus on checks involving any one <em>knowledge</em> skill owner already knows; once chosen, this does not vary</td></tr>
+            <tr><td>Single-minded</td><td>+3 bonus on <em>concentration</em> checks</td></tr>
+            <tr><td>Sneaky</td><td>+3 bonus on <em>move silently</em> checks</td></tr>
+            <tr><td>Sympathetic</td><td>+3 bonus on <em>sense motive</em> checks</td></tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+    </section>
+
+</section>
+
+        <footer id="page-foot" class="container">
+            <p><a href="http://pannotia.local.dev:8888/todo/">To do</a> | <a href="http://pannotia.local.dev:8888/admin/">Admin</a></p>
+            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+        </footer>
+        <script src="http://pannotia.local.dev:8888/assets/js/jquery.min.js"></script>
+        <script src="http://pannotia.local.dev:8888/assets/js/bootstrap.min.js"></script>
+        <script>
++function ($) {
+  'use strict';
+
+  // FLYOUT CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.flyout-backdrop'
+  var toggle   = '[data-toggle="flyout"]'
+  var Flyout = function (element) {
+    $(element).on('click.bs.flyout', this.toggle)
+  }
+
+  Flyout.VERSION = '3.3.4'
+
+  Flyout.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $('<div class="flyout-backdrop"/>').insertAfter($(this)).on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger('shown.bs.flyout', relatedTarget)
+    }
+
+    return false
+  }
+
+  Flyout.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if ((!isActive && e.which != 27) || (isActive && e.which == 27)) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('[role="menu"]' + desc + ', [role="listbox"]' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--                        // up
+    if (e.which == 40 && index < $items.length - 1) index++                        // down
+    if (!~index)                                      index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      $parent.trigger(e = $.Event('hide.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger('hidden.bs.flyout', relatedTarget)
+    })
+  }
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+
+  // FLYOUT PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.flyout')
+
+      if (!data) $this.data('bs.flyout', (data = new Flyout(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.flyout
+
+  $.fn.flyout             = Plugin
+  $.fn.flyout.Constructor = Flyout
+
+
+  // FLYOUT NO CONFLICT
+  // ====================
+
+  $.fn.flyout.noConflict = function () {
+    $.fn.flyout = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD FLYOUT ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.flyout.data-api', clearMenus)
+    .on('click.bs.flyout.data-api', '.flyout form', function (e) { e.stopPropagation() })
+    .on('click.bs.flyout.data-api', toggle, Flyout.prototype.toggle)
+    .on('keydown.bs.flyout.data-api', toggle, Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="menu"]', Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="listbox"]', Flyout.prototype.keydown)
+
+}(jQuery);
+        </script>
+    </body>
+</html>
