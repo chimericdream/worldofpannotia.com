@@ -1,0 +1,48 @@
+---
+title: "Pestilence"
+
+spell:
+  schools:
+    - name: "Conjuration"
+      subschools: []
+      descriptors: []
+    - name: "Necromancy"
+      subschools: []
+      descriptors: []
+  spellcraftDc: 104
+  components: [V, S, Ritual, XP]
+  castingTime: "10 minutes"
+  range: "0 ft."
+  area: "1,000-ft.-radius hemisphere"
+  duration: "Instantaneous"
+  savingThrow: "Fortitude negates"
+  spellResistance: "Yes"
+  toDevelop:
+    gp: 936000
+    time: "19 days"
+    xp: 37440
+    seeds:
+      - desc: "afflict"
+        dc: "19"
+    factors:
+      - desc: "additional target type (plants)"
+        dc: "+10"
+      - desc: "change target to area"
+        dc: "+10"
+      - desc: "change 20-ft. radius to 1,000-ft. radius"
+        dc: "+200"
+      - desc: "disease effects (as per contagion spell)"
+        dc: "ad hoc +21"
+    mitigatingFactors:
+      - desc: "casting time increased by 9 minutes"
+        dc: "-18"
+      - desc: "two additional casters contributing epic spell slots"
+        dc: "-38"
+      - desc: "burn 10,000 XP"
+        dc: "-100"
+  description: |
+    When pestilence is successfully cast, a wave of illness radiates outward from the site of the ritual, instantly infecting every living thing in the area with the debilitating disease known as slimy doom. Within 24 hours, everything in the area begins to show signs of rot and decay; plants liquefy and yellow, drooping to the ground as they begin to dissolve.
+
+    Each day that a victim fails a Fortitude save, it takes 1d4 points of temporary Constitution damage. If the victim then fails a second save, 1 point of that damage is permanent drain. If the victim succeeds at the first saving throw of the day on consecutive days, he or she has recovered from the disease. This magical form of the disease is not contagious and will not spread beyond those initially infected. Fruits and vegetables infected with slimy doom are unfit for consumption, as are disease-ridden livestock. This is a ritual spell requiring two other spellcasters, each of whom must expend an unused epic spell slot for the casting. The primary caster must also burn 10,000 XP.
+  xpCost: 10000
+---

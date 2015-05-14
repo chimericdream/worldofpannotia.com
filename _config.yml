@@ -1,21 +1,56 @@
-source: src
+source:      src
 destination: public_html
 
 url: http://pannotia.local.dev:8888
 
+collections:
+  epic_spells:
+    output:    true
+    permalink: /game-rules/magic-psionics/epic-spells/:path/
+
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
-      layout: "main"
-      crumbs: []
+      layout:      "main"
+      crumbs:      []
       crumbTitles: []
-  -
-    scope:
+  - scope:
       path: "setting/cosmology/planes"
       type: "pages"
     values:
-      crumbs: [setting, cosmology]
+      crumbs:      [setting, cosmology]
       crumbTitles: [Setting, Cosmology]
+  - scope:
+      path: ""
+      type: epic_spells
+    values:
+      layout:      "epic-spell"
+      crumbs:      [game-rules, magic-psionics, epic-spells]
+      crumbTitles: [Game Rules, Magic &amp; Psionics, Epic Spells]
+      spell:
+        schools:
+          - name:        ""
+            subschools:  []
+            descriptors: []
+        spellcraftDc:       0
+        components:         []
+        castingTime:        ""
+        range:              ""
+        area:               ""
+        effect:             ""
+        duration:           ""
+        dismissable:        false
+        savingThrow:        ""
+        spellResistance:    ""
+        toDevelop:
+          gp:                0
+          time:              ""
+          xp:                0
+          seeds:             [] # {desc: "", dc: ""}
+          factors:           [] # same format as seeds
+          mitigatingFactors: [] # same format as seeds
+        description:        ""
+        xpCost:             ""
+        materialComponents: []

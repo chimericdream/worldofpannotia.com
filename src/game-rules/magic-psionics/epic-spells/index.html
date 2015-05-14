@@ -1,0 +1,29 @@
+---
+title: Epic Spells
+crumbs: [game-rules, magic-psionics]
+crumbTitles: [Game Rules, Magic &amp; Psionics]
+---
+
+<ul class="index-list columnize-2">
+{% assign current_letter = '' %}
+{% assign has_spells = false %}
+{% for spell in site.epic_spells %}
+  {% capture first_letter %}{{ spell.title | truncate: 1,'' | upcase }}{% endcapture %}
+  <!-- First Letter: {{ first_letter }} -->
+  {% if current_letter != first_letter %}
+    {% if has_spells %}
+        </ul>
+    </li>
+    {% endif %}
+    <li><span class="title">{{ first_letter }}</span>
+        <ul>
+  {% endif %}
+  {% assign current_letter = first_letter %}
+  {% assign has_spells = true %}
+            <li><a href="{{ spell.url }}" title="{{ spell.title }}">{{ spell.title }}</a></li>
+{% endfor %}
+{% if has_spells %}
+        </ul>
+    </li>
+{% endif %}
+</ul>

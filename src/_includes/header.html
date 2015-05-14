@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            {% if page.title %}
+              {{ page.title }} &bull;
+            {% endif %}
+            {% if page.titles && page.titles != empty %}
+              {% for sub in page.titles %}
+                {{ sub }} &bull;
+              {% endfor %}
+            {% endif %}
+            {% if page.cattitle %}
+              {{ page.cattitle }} &bull;
+            {% endif %}
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap-theme.min.css">
+        <style>
+body {
+    padding-top: 70px;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.flyout-menu {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0px;
+    margin: 2px 0px 0px;
+    font-size: 14px;
+    text-align: left;
+    list-style: outside none none;
+    background-color: #FFF;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.176);
+}
+
+.flyout-menu > li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857;
+    color: #333;
+    white-space: nowrap;
+}
+
+.flyout-menu > .active > a, .flyout-menu > .active > a:focus, .flyout-menu > .active > a:hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #337AB7;
+    outline: 0px none;
+}
+
+.flyout-menu > li > a:focus, .flyout-menu > li > a:hover {
+    color: #262626;
+    text-decoration: none;
+    background-color: #F5F5F5;
+}
+
+.dropdown-submenu > .flyout-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.open > .flyout-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu.active > a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .flyout-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .open > .flyout-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0px;
+        background-color: transparent;
+        border: 0px none;
+        box-shadow: none;
+    }
+
+    .navbar-default .navbar-nav .open .flyout-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-nav .open .flyout-menu > li > a {
+        line-height: 20px;
+    }
+
+    .navbar-nav .open .flyout-menu .dropdown-header, .navbar-nav .open .flyout-menu > li > a {
+        padding: 5px 15px 5px 35px;
+    }
+
+    .dropdown-submenu > a:after {
+        display: inline-block;
+        float: none;
+        border-width: 4px 4px 0 4px;
+        border-left-color: transparent;
+        border-top-color: #ccc;
+        margin: 0 0 0 7px;
+        vertical-align: middle;
+    }
+}
+        </style>
+    </head>
+    <body>
+        {% include menu.html %}
+        {% include breadcrumbs.html %}

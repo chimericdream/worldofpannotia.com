@@ -1,0 +1,162 @@
+        <footer id="page-foot" class="container">
+            <p><a href="{{ site.url }}/todo/">To do</a> | <a href="{{ site.url }}/admin/">Admin</a></p>
+            <p>&copy; 2007-{{ 'now' | date: "%y" }} William Parrott &amp; Chimeric Dream</p>
+        </footer>
+        <script src="{{ site.url }}/assets/js/jquery.min.js"></script>
+        <script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
+        <script>
++function ($) {
+  'use strict';
+
+  // FLYOUT CLASS DEFINITION
+  // =========================
+
+  var backdrop = '.flyout-backdrop'
+  var toggle   = '[data-toggle="flyout"]'
+  var Flyout = function (element) {
+    $(element).on('click.bs.flyout', this.toggle)
+  }
+
+  Flyout.VERSION = '3.3.4'
+
+  Flyout.prototype.toggle = function (e) {
+    var $this = $(this)
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    clearMenus()
+
+    if (!isActive) {
+      if ('ontouchstart' in document.documentElement && !$parent.closest('.navbar-nav').length) {
+        // if mobile we use a backdrop because click events don't delegate
+        $('<div class="flyout-backdrop"/>').insertAfter($(this)).on('click', clearMenus)
+      }
+
+      var relatedTarget = { relatedTarget: this }
+      $parent.trigger(e = $.Event('show.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this
+        .trigger('focus')
+        .attr('aria-expanded', 'true')
+
+      $parent
+        .toggleClass('open')
+        .trigger('shown.bs.flyout', relatedTarget)
+    }
+
+    return false
+  }
+
+  Flyout.prototype.keydown = function (e) {
+    if (!/(38|40|27|32)/.test(e.which) || /input|textarea/i.test(e.target.tagName)) return
+
+    var $this = $(this)
+
+    e.preventDefault()
+    e.stopPropagation()
+
+    if ($this.is('.disabled, :disabled')) return
+
+    var $parent  = getParent($this)
+    var isActive = $parent.hasClass('open')
+
+    if ((!isActive && e.which != 27) || (isActive && e.which == 27)) {
+      if (e.which == 27) $parent.find(toggle).trigger('focus')
+      return $this.trigger('click')
+    }
+
+    var desc = ' li:not(.disabled):visible a'
+    var $items = $parent.find('[role="menu"]' + desc + ', [role="listbox"]' + desc)
+
+    if (!$items.length) return
+
+    var index = $items.index(e.target)
+
+    if (e.which == 38 && index > 0)                 index--                        // up
+    if (e.which == 40 && index < $items.length - 1) index++                        // down
+    if (!~index)                                      index = 0
+
+    $items.eq(index).trigger('focus')
+  }
+
+  function clearMenus(e) {
+    if (e && e.which === 3) return
+    $(backdrop).remove()
+    $(toggle).each(function () {
+      var $this         = $(this)
+      var $parent       = getParent($this)
+      var relatedTarget = { relatedTarget: this }
+
+      if (!$parent.hasClass('open')) return
+
+      $parent.trigger(e = $.Event('hide.bs.flyout', relatedTarget))
+
+      if (e.isDefaultPrevented()) return
+
+      $this.attr('aria-expanded', 'false')
+      $parent.removeClass('open').trigger('hidden.bs.flyout', relatedTarget)
+    })
+  }
+
+  function getParent($this) {
+    var selector = $this.attr('data-target')
+
+    if (!selector) {
+      selector = $this.attr('href')
+      selector = selector && /#[A-Za-z]/.test(selector) && selector.replace(/.*(?=#[^\s]*$)/, '') // strip for ie7
+    }
+
+    var $parent = selector && $(selector)
+
+    return $parent && $parent.length ? $parent : $this.parent()
+  }
+
+
+  // FLYOUT PLUGIN DEFINITION
+  // ==========================
+
+  function Plugin(option) {
+    return this.each(function () {
+      var $this = $(this)
+      var data  = $this.data('bs.flyout')
+
+      if (!data) $this.data('bs.flyout', (data = new Flyout(this)))
+      if (typeof option == 'string') data[option].call($this)
+    })
+  }
+
+  var old = $.fn.flyout
+
+  $.fn.flyout             = Plugin
+  $.fn.flyout.Constructor = Flyout
+
+
+  // FLYOUT NO CONFLICT
+  // ====================
+
+  $.fn.flyout.noConflict = function () {
+    $.fn.flyout = old
+    return this
+  }
+
+
+  // APPLY TO STANDARD FLYOUT ELEMENTS
+  // ===================================
+
+  $(document)
+    .on('click.bs.flyout.data-api', clearMenus)
+    .on('click.bs.flyout.data-api', '.flyout form', function (e) { e.stopPropagation() })
+    .on('click.bs.flyout.data-api', toggle, Flyout.prototype.toggle)
+    .on('keydown.bs.flyout.data-api', toggle, Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="menu"]', Flyout.prototype.keydown)
+    .on('keydown.bs.flyout.data-api', '[role="listbox"]', Flyout.prototype.keydown)
+
+}(jQuery);
+        </script>
+    </body>
+</html>
