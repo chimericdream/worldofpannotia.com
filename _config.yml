@@ -4,9 +4,171 @@ destination: public_html
 url: http://pannotia.local.dev:8888
 
 collections:
+#  abilities_conditions:
+#    output:    true
+#    permalink: /game-rules/adventuring-combat/abilities-conditions/:path/
+#  armor:
+#    output:    true
+#    permalink: /equipment/weapons-armor/armor/:path/
+#  armor_abilities:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/weapons-armor/armor-abilities/:path/
+#  artifacts:
+#    output:    true
+#    permalink: /equipment/artifacts/:path/
+#  cities:
+#    output:    true
+#    permalink: /setting/geography/cities/:path/
+#  classes:
+#    output:    true
+#    permalink: /game-rules/races-classes/classes/:path/
+#  cognizance_crystals:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/cognizance-crystals/:path/
+#  cursed_items:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/cursed/:path/
+#  deities:
+#    output:    true
+#    permalink: /setting/religion/deities/:path/
+#  domains:
+#    output:    true
+#    permalink: /game-rules/magic-psionics/domains/:path/
+#  dorjes:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/dorjes/:path/
+#  epic_armor_abilities:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/weapons-armor/armor-abilities/:path/
+#  epic_classes:
+#    output:    true
+#    permalink: /game-rules/races-classes/epic/:path/
+#  epic_feats:
+#    output:    true
+#    permalink: /game-rules/skills-feats/epic-feats/:path/
+#  epic_intelligent_items:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/intelligent/:path/
+#  epic_rings:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/rings/:path/
+#  epic_rods:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/rods/:path/
+#  epic_scrolls:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/scrolls/:path/
+#  epic_specific_armor:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/weapons-armor/armomr/:path/
+#  epic_specific_weapons:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/weapons-armor/weapons/:path/
   epic_spells:
     output:    true
     permalink: /game-rules/magic-psionics/epic-spells/:path/
+#  epic_staffs:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/staffs/:path/
+#  epic_weapon_abilities:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/weapons-armor/weapon-abilities/:path/
+#  epic_wondrous_items:
+#    output:    true
+#    permalink: /equipment/epic-magic-psionic-items/wondrous/:path/
+#  feats:
+#    output:    true
+#    permalink: /game-rules/skills-feats/feats/:path/
+#  intelligent_items:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/intelligent/:path/
+#  monsters:
+#    output:    true
+#    permalink: /monsters/list/:path/
+#  npc_classes:
+#    output:    true
+#    permalink: /game-rules/races-classes/npc-classes/:path/
+#  npcs:
+#    output:    true
+#    permalink: /setting/npcs/:path/
+#  organizations:
+#    output:    true
+#    permalink: /setting/organizations/:path/
+#  planes:
+#    output:    true
+#    permalink: /setting/cosmology/planes/:path/
+#  potions_oils:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/potions-oils/:path/
+#  powers:
+#    output:    true
+#    permalink: /game-rules/magic-psionics/powers/:path/
+#  power_stones:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/power-stones/:path/
+#  prestige_classes:
+#    output:    true
+#    permalink: /game-rules/races-classes/prestige/:path/
+#  psicrowns:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/psicrowns/:path/
+#  psionic_tattoos:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/psionic-tattoos/:path/
+#  races:
+#    output:    true
+#    permalink: /game-rules/races-classes/races/:path/
+#  racial_classes:
+#    output:    true
+#    permalink: /game-rules/races-classes/racial/:path/
+#  regions:
+#    output:    true
+#    permalink: /setting/geography/regions/:path/
+#  rings:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/rings/:path/
+#  rods:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/rods/:path/
+#  scrolls:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/scrolls/:path/
+#  skills:
+#    output:    true
+#    permalink: /game-rules/skills-feats/skills/:path/
+#  special_materials:
+#    output:    true
+#    permalink: /equipment/special-materials/:path/
+#  specific_armor:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/weapons-armor/armor/:path/
+#  specific_weapons:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/weapons-armor/weapons/:path/
+#  spell_combinations:
+#    output:    true
+#    permalink: /game-rules/magic-psionics/spell-combinations/:path/
+#  spells:
+#    output:    true
+#    permalink: /game-rules/magic-psionics/spells/:path/
+#  staffs:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/staffs/:path/
+#  universal_items:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/universal/:path/
+#  wands:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/wands/:path/
+#  weapon_abilities:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/weapons-armor/weapon-abilities/:path/
+#  weapons:
+#    output:    true
+#    permalink: /equipment/weapons-armor/weapons/:path/
+#  wondrous_items:
+#    output:    true
+#    permalink: /equipment/magic-psionic-items/wondrous/:path/
 
 defaults:
   - scope:
