@@ -4,56 +4,6 @@ destination: public_html
 url: http://pannotia.local.dev:8888
 
 collections:
-  # game rules // adventuring // special abilities
-  special_abilities:
-    output:    true
-    permalink: /game-rules/adventuring/special-abilities/:path/
-
-  # game rules // adventuring // status conditions
-  status_conditions:
-    output:    true
-    permalink: /game-rules/adventuring/status-conditions/:path/
-
-  # game rules // adventuring // traps
-  traps:
-    output:    true
-    permalink: /game-rules/adventuring/traps/:path/
-
-  # game rules // magic // spells
-  spells:
-    output:    true
-    permalink: /game-rules/magic/spells/:path/
-
-  # game rules // magic // domains
-  domains:
-    output:    true
-    permalink: /game-rules/magic/domains/:path/
-
-  # game rules // magic // spell combinations
-  spell_combinations:
-    output:    true
-    permalink: /game-rules/magic/spell-combinations/:path/
-
-  # game rules // magic // epic spells
-  epic_spells:
-    output:    true
-    permalink: /game-rules/magic/epic-spells/:path/
-
-  # game rules // psionics // powers
-  psionic_powers:
-    output:    true
-    permalink: /game-rules/psionics/powers/:path/
-
-  # game rules // psionics // disciplines
-  psionic_disciplines:
-    output:    true
-    permalink: /game-rules/psionics/disciplines/:path/
-
-  # game rules // psionics // epic powers
-  epic_psionic_powers:
-    output:    true
-    permalink: /game-rules/psionics/epic-powers/:path/
-
   # game rules // races
   races:
     output:    true
@@ -108,6 +58,56 @@ collections:
   epic_feats:
     output:    true
     permalink: /game-rules/feats/epic/:path/
+
+  # game rules // magic // spells
+  spells:
+    output:    true
+    permalink: /game-rules/magic/spells/:path/
+
+  # game rules // magic // domains
+  domains:
+    output:    true
+    permalink: /game-rules/magic/domains/:path/
+
+  # game rules // magic // spell combinations
+  spell_combinations:
+    output:    true
+    permalink: /game-rules/magic/spell-combinations/:path/
+
+  # game rules // magic // epic spells
+  epic_spells:
+    output:    true
+    permalink: /game-rules/magic/epic-spells/:path/
+
+  # game rules // psionics // powers
+  psionic_powers:
+    output:    true
+    permalink: /game-rules/psionics/powers/:path/
+
+  # game rules // psionics // disciplines
+  psionic_disciplines:
+    output:    true
+    permalink: /game-rules/psionics/disciplines/:path/
+
+  # game rules // psionics // epic powers
+  epic_psionic_powers:
+    output:    true
+    permalink: /game-rules/psionics/epic-powers/:path/
+
+  # game rules // adventuring // special abilities
+  special_abilities:
+    output:    true
+    permalink: /game-rules/adventuring/special-abilities/:path/
+
+  # game rules // adventuring // status conditions
+  status_conditions:
+    output:    true
+    permalink: /game-rules/adventuring/status-conditions/:path/
+
+  # game rules // adventuring // traps
+  traps:
+    output:    true
+    permalink: /game-rules/adventuring/traps/:path/
 
   # game rules // divine rules // divine abilities
   divine_abilities:
