@@ -1,6 +1,8 @@
 source:      src
 destination: public_html
 
+exclude: ["_backup"]
+
 url: http://pannotia.local.dev:8888
 
 collections:
@@ -420,6 +422,7 @@ defaults:
       type: "pages"
     values:
       layout:      "main"
+      permalink:   /:path/
       crumbs:      []
       crumbTitles: []
 
