@@ -1,8 +1,6 @@
 # Where things are
-source:      src
-#source:      .
-destination: public_html
-#destination: ./_site
+source:      .
+destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 data_source: ./_data
@@ -36,17 +34,16 @@ excerpt_separator: "\n\n"
 
 # Serving
 detach:  false
-port:    4000
+port:    8888
 host:    127.0.0.1
 baseurl: "" # does not include hostname
 
 # Outputting
 permalink:     date
 paginate_path: /page:num
-timezone:      null
+timezone:      America/Chicago
 
 quiet:    false
-defaults: []
 
 # Markdown Processors
 rdiscount:
