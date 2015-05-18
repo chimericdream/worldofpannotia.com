@@ -26,6 +26,22 @@
         <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap-submenu.min.css">
         <style>
             body {padding-top: 70px;}
+            table[data-caption]::before {
+                content: attr(data-caption);
+                display: table-caption;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                color: #777;
+                text-align: left;
+            }
+            tbody tr > td:empty {
+                background-color: #f9f9f9;
+                content: "&ndash;";
+                text-align: center;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                font-weight: bold;
+            }
         </style>
     </head>
     <body>

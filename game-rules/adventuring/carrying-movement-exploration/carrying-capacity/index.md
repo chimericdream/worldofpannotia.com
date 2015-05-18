@@ -10,20 +10,26 @@ Encumbrance rules determine how much a character's armor and equipment slow him 
 
 If your character is weak or carrying a lot of gear, however, then you'll need to calculate encumbrance by weight. Doing so is most important when your character is trying to carry some heavy object.
 
-**Weight:** If you want to determine whether your character's gear is heavy enough to slow him or her down more than the armor already does, total the weight of all the character's items, including armor, weapons, and gear. Compare this total to the character's Strength on _Table: Carrying Capacity_. Depending on how the weight compares to the character's carrying capacity, he or she may be carrying a light, medium, or heavy load. Like armor, a character's load affects his or her maximum Dexterity bonus to AC, carries a check penalty (which works like an armor check penalty), reduces the character's speed, and affects how fast the character can run, as shown on _Table: Carrying Loads_. A medium or heavy load counts as medium or heavy armor for the purpose of abilities or skills that are restricted by armor. Carrying a light load does not encumber a character.
+**Weight:** If you want to determine whether your character's gear is heavy enough to slow him or her down more than the armor already does, total the weight of all the character's items, including armor, weapons, and gear. Compare this total to the character's Strength on _Table: Carrying Capacity_. Depending on how the weight compares to the character's carrying capacity, he or she may be carrying a light, medium, or heavy load. Like armor, a character's load affects his or her maximum Dexterity bonus to AC, carries a check penalty (which works like an armor check penalty), reduces the character's speed, and affects how fast the character can run, as shown on _Table: Carrying Loads_. Additionally, a character's base speed is affected when carrying a medium or heavy load, as shown on _Table: Reduced Speeds for Encumbered Characters_. A medium or heavy load counts as medium or heavy armor for the purpose of abilities or skills that are restricted by armor. Carrying a light load does not encumber a character.
 
 If your character is wearing armor, use the worse figure (from armor or from load) for each category. Do not stack the penalties.
 
-<table id="carrying-loads-table" class="table table-bordered table-hover" data-caption="Table: Carrying Loads">
-    <thead>
-        <tr><th rowspan="2">Load</th><th rowspan="2">Max Dex</th><th rowspan="2">Check Penalty</th><th colspan="3">Speed</th></tr>
-        <tr><th>(30 ft.)</th><th>(20 ft.)</th><th>Run</th></tr>
-    </thead>
-    <tbody>
-        <tr><td>Medium</td><td>+3</td><td>-3</td><td>20 ft.</td><td>15 ft.</td><td>&times;4</td></tr>
-        <tr><td>Heavy</td><td>+1</td><td> -6</td><td>20 ft.</td><td>15 ft.</td><td>&times;3</td></tr>
-    </tbody>
-</table>
+|---
+| Load | Max Dex | Check Penalty | Run Speed
+|-|-|-|-
+| Medium | +3 | -3 | &times;4
+| Heavy | +1 |  -6 | &times;3
+{: #carrying-loads-table .table .table-bordered .table-hover .table-striped data-caption="Table: Carrying Loads" }
+
+|---
+| Base Speed | Reduced Speed | Base Speed | Reduced Speed
+|-|-|-|-
+| 20 ft. | 15 ft. | 70 ft. | 50 ft.
+| 30 ft. | 20 ft. | 80 ft. | 55 ft.
+| 40 ft. | 30 ft. | 90 ft. | 60 ft.
+| 50 ft. | 35 ft. | 100 ft. | 70 ft.
+| 60 ft. | 40 ft. ||
+{: #reduced-speed-table .table .table-bordered .table-hover .table-striped data-caption="Table: Reduced Speeds for Encumbered Characters" }
 
 **Lifting and Dragging:** A character can lift as much as his or her maximum load over his or her head.
 
@@ -70,4 +76,4 @@ Quadrupeds can carry heavier loads than characters can. Instead of the multiplie
 | 28 | 400 lb. or less | 401-800 lb. | 801-1,200 lb.
 | 29 | 466 lb. or less | 467-933 lb. | 934-1,400 lb.
 | +10 | &times;4 | &times;4 | &times;4
-{: #carrying-capacity-table .table .table-bordered .table-hover data-caption="Table: Carrying Capacity" }
+{: #carrying-capacity-table .table .table-bordered .table-hover .table-striped data-caption="Table: Carrying Capacity" }
