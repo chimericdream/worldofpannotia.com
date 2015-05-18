@@ -127,7 +127,7 @@ collections:
   # game rules // magic // spells
   spells:
     output:    true
-    permalink: /game-rules/magic/spells/:path/
+    permalink: /game-rules/magic/spells/spell-index/:path/
 
   # game rules // magic // domains
   domains:
@@ -137,12 +137,12 @@ collections:
   # game rules // magic // spell combinations
   spell_combinations:
     output:    true
-    permalink: /game-rules/magic/spell-combinations/:path/
+    permalink: /game-rules/magic/spell-combinations/spell-combination-index/:path/
 
   # game rules // magic // epic spells
   epic_spells:
     output:    true
-    permalink: /game-rules/magic/epic-spells/:path/
+    permalink: /game-rules/magic/epic-spells/epic-spell-index/:path/
 
   # game rules // psionics // powers
   psionic_powers:
@@ -500,25 +500,25 @@ defaults:
       path: ""
       type: conditions
     values:
-      layout:      "abilities-conditions/condition"
-      crumbs:      [game-rules, adventuring-combat, abilities-conditions, conditions]
-      crumbTitles: [Game Rules, Adventuring &amp; Combat, Abilities & Conditions, Conditions]
+      layout:      "game-rules/adventuring/status-condition"
+      crumbs:      [game-rules, adventuring]
+      crumbTitles: [Game Rules, Adventuring]
 
   - scope:
       path: ""
       type: special_abilities
     values:
-      layout:      "abilities-conditions/ability"
-      crumbs:      [game-rules, adventuring-combat, abilities-conditions, abilities]
-      crumbTitles: [Game Rules, Adventuring &amp; Combat, Abilities & Conditions, Abilities]
+      layout:      "game-rules/adventuring/special-ability"
+      crumbs:      [game-rules, adventuring]
+      crumbTitles: [Game Rules, Adventuring]
 
   - scope:
       path: ""
       type: epic_spells
     values:
-      layout:      "epic-spell"
-      crumbs:      [game-rules, magic-psionics, epic-spells]
-      crumbTitles: [Game Rules, Magic &amp; Psionics, Epic Spells]
+      layout:      "game-rules/magic/epic-spell"
+      crumbs:      [game-rules, magic, epic-spells/overview]
+      crumbTitles: [Game Rules, Magic, Epic Spells]
       spell:
         schools:
           - name:        ""

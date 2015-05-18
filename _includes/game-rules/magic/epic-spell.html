@@ -1,0 +1,33 @@
+{% assign spell = include.spell %}
+
+{% capture ogc %}
+    <div class="spellBox">
+        <p><em>{{ spell.school }}{% if spell.subschools.size > 0 %} ({{ spell.subschools | sort | join:', ' }}){% endif %}{% if spell.descriptors.size > 0 %} [{{ spell.descriptors | sort | join:'] [' }}]{% endif %}</em></p>
+        <p><strong>Spellcraft DC:</strong> {{ spell.spellcraftDc }}</p>
+        <p><strong>Components:</strong> {{ spell.components | sort | join:', ' }}</p>
+        <p><strong>Casting Time:</strong> {{ spell.castingTime }}</p>
+        <p><strong>Range:</strong> {{ spell.range }}</p>
+{% if spell.effect != "" %}
+        <p><strong>Effect:</strong> {{ spell.effect }}</p>
+{% endif %}
+{% if spell.target != "" %}
+        <p><strong>Target:</strong> {{ spell.target }}</p>
+{% endif %}
+{% if spell.area != "" %}
+        <p><strong>Area</strong> {{ spell.area }}</p>
+{% endif %}
+        <p><strong>Duration:</strong> {{ spell.duration }}{% if spell.dismissable %} (D){% endif %}</p>
+        <p><strong>Saving Throw:</strong> {{ spell.savingThrow }}</p>
+        <p><strong>Spell Resistance:</strong> {{ spell.spellResistance }}</p>
+        <p><strong>To Develop:</strong> {{ spell.toDevelop.gp }} GP; {{ spell.toDevelop.time }}; {{ spell.toDevelop.xp }} XP. <em>Seed{% if spell.toDevelop.seeds.size > 1 %}s{% endif %}:</em> {% for seed in spell.toDevelop.seeds %}{{ seed.desc }} (DC {{ seed.dc }}){% unless forloop.last %}; {% endunless %}{% endfor %}.{% if spell.toDevelop.factors.size > 0 %} <em>Factor{% if spell.toDevelop.factors.size > 1 %}s{% endif %}:</em> {% for factor in spell.toDevelop.factors %}{{ factor.desc }} ({{ factor.dc }} DC){% unless forloop.last %}; {% endunless %}{% endfor %}.{% endif %}{% if spell.toDevelop.mitigatingFactors.size > 0 %} <em>Mitigating Factor{% if spell.toDevelop.mitigatingFactors.size > 1 %}s{% endif %}:</em> {% for factor in spell.toDevelop.mitigatingFactors %}{{ factor.desc }} ({{ factor.dc }} DC){% unless forloop.last %}; {% endunless %}{% endfor %}.{% endif %}</p>
+        {{ spell.description | markdownify }}
+{% if spell.xpCost != "" %}
+        <p><strong>XP Cost:</strong> {{ spell.xpCost }} XP</p>
+{% endif %}
+{% if spell.materialComponents.size > 0 %}
+        <p><strong>Material Components:</strong> {{ spell.materialComponents | join:'; ' }}.</p>
+{% endif %}
+    </div>
+{% endcapture %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}
