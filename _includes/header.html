@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            {% if page.title %}
+              {{ page.title }} &bull;
+            {% endif %}
+            {% if page.titles && page.titles != empty %}
+              {% for sub in page.titles %}
+                {{ sub }} &bull;
+              {% endfor %}
+            {% endif %}
+            {% if page.cattitle %}
+              {{ page.cattitle }} &bull;
+            {% endif %}
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap-submenu.min.css">
+        <style>
+            body {padding-top: 70px;}
+            table[data-caption]::before {
+                content: attr(data-caption);
+                display: table-caption;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                color: #777;
+                text-align: left;
+            }
+            tbody tr > td:empty {
+                background-color: #f9f9f9;
+                content: "&ndash;";
+                text-align: center;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        {% include menu.html %}
+        {% include breadcrumbs.html %}

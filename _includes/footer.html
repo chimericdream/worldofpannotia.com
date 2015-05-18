@@ -1,0 +1,12 @@
+        <footer id="page-foot" class="container">
+            <p><a href="{{ site.url }}/todo/">To do</a> | <a href="{{ site.url }}/admin/">Admin</a></p>
+            <p>&copy; 2007-{{ 'now' | date: "%y" }} William Parrott &amp; Chimeric Dream</p>
+        </footer>
+        <script src="{{ site.url }}/assets/js/jquery.min.js"></script>
+        <script src="{{ site.url }}/assets/js/bootstrap.min.js"></script>
+        <script src="{{ site.url }}/assets/js/bootstrap-submenu.min.js"></script>
+        <script>
+            $('.dropdown-submenu > a').submenupicker();
+        </script>
+    </body>
+</html>

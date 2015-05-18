@@ -1,0 +1,16 @@
+{% include header.html %}
+
+<section class="container">
+    {% if page.url != "/index.html" %}
+    <div class="row">
+        <h2 class="col-xs-12">{{ page.title }}</h2>
+    </div>
+    {% endif %}
+
+    <section id="main-content">
+        {{ content }}
+    </section>
+
+</section>
+
+{% include footer.html %}

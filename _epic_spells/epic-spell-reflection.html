@@ -1,0 +1,45 @@
+---
+title: "Epic Spell Reflection"
+
+spell:
+  schools:
+    - name: "Abjuration"
+      subschools: []
+      descriptors: []
+  spellcraftDc: 68
+  components: [V, S, XP]
+  castingTime: "41 days, 11 minutes"
+  range: "Touch"
+  target: "Object or creature touched"
+  duration: "Permanent"
+  savingThrow: "None"
+  spellResistance: "Yes"
+  toDevelop:
+    gp: 630000
+    time: "13 days"
+    xp: 25200
+    seeds:
+      - desc: "reflect"
+        dc: "27"
+    factors:
+      - desc: "reflect up to 9th-level spells"
+        dc: "+160"
+      - desc: "change range to touch"
+        dc: "+2"
+      - desc: "permanent"
+        dc: "&times;5"
+    mitigatingFactors:
+      - desc: "increase casting time by 10 minutes"
+        dc: "-20"
+      - desc: "increase casting time by 41 days"
+        dc: "-82"
+      - desc: "20d6 backlash"
+        dc: "-20"
+      - desc: "six additional casters contributing one 8th-level spell slot"
+        dc: "-90"
+      - desc: "burn 9,500 XP per caster"
+        dc: "-665"
+  description: |
+    The character can create a permanent ward against all spells of 1st through 9th level that target the subject. These spells are reflected back on the caster. Spells that affect an area are not affected by this spell.
+  xpCost: 9500
+---

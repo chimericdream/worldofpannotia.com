@@ -1,21 +1,546 @@
-source: src
-destination: public_html
+# Where things are
+source:      .
+destination: ./_site
+plugins:     ./_plugins
+layouts:     ./_layouts
+data_source: ./_data
+collections: null
 
-url: http://pannotia.local.dev:8888
+url: http://pannotia.jekyll.dev:8888
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      ["_backup"]
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins
+whitelist: []
+gems:      []
+
+# Conversion
+markdown:    kramdown
+highlighter: pygments
+lsi:         false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:  false
+port:    8888
+host:    127.0.0.1
+baseurl: "" # does not include hostname
+
+# Outputting
+permalink:     date
+paginate_path: /page:num
+timezone:      America/Chicago
+
+quiet:    false
+
+# Markdown Processors
+rdiscount:
+  extensions: []
+
+redcarpet:
+  extensions: ["tables", "superscript", "underline", "highlight"]
+
+kramdown:
+  auto_ids:       true
+  footnote_nr:    1
+  entity_output:  as_char
+  toc_levels:     1..6
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+  coderay:
+    coderay_wrap:              div
+    coderay_line_numbers:      inline
+    coderay_line_number_start: 1
+    coderay_tab_width:         4
+    coderay_bold_every:        10
+    coderay_css:               style
+
+collections:
+  # game rules // races
+  races:
+    output:    true
+    permalink: /game-rules/races/:path/
+
+  # game rules // classes // base
+  base_classes:
+    output:    true
+    permalink: /game-rules/classes/base/:path/
+
+  # game rules // classes // prestige
+  prestige_classes:
+    output:    true
+    permalink: /game-rules/classes/prestige/:path/
+
+  # game rules // classes // epic
+  epic_classes:
+    output:    true
+    permalink: /game-rules/classes/epic/:path/
+
+  # game rules // classes // epic prestige
+  epic_prestige_classes:
+    output:    true
+    permalink: /game-rules/classes/epic-prestige/:path/
+
+  # game rules // classes // racial
+  racial_classes:
+    output:    true
+    permalink: /game-rules/classes/racial/:path/
+
+  # game rules // classes // npc
+  npc_classes:
+    output:    true
+    permalink: /game-rules/classes/npc/:path/
+
+  # game rules // skills
+  skills:
+    output:    true
+    permalink: /game-rules/skills/:path/
+
+  # game rules // feats
+  feats:
+    output:    true
+    permalink: /game-rules/feats/:path/
+
+  # game rules // skills // epic
+  epic_skills:
+    output:    true
+    permalink: /game-rules/skills/epic/:path/
+
+  # game rules // feats // epic
+  epic_feats:
+    output:    true
+    permalink: /game-rules/feats/epic/:path/
+
+  # game rules // magic // spells
+  spells:
+    output:    true
+    permalink: /game-rules/magic/spells/:path/
+
+  # game rules // magic // domains
+  domains:
+    output:    true
+    permalink: /game-rules/magic/domains/:path/
+
+  # game rules // magic // spell combinations
+  spell_combinations:
+    output:    true
+    permalink: /game-rules/magic/spell-combinations/:path/
+
+  # game rules // magic // epic spells
+  epic_spells:
+    output:    true
+    permalink: /game-rules/magic/epic-spells/:path/
+
+  # game rules // psionics // powers
+  psionic_powers:
+    output:    true
+    permalink: /game-rules/psionics/powers/:path/
+
+  # game rules // psionics // disciplines
+  psionic_disciplines:
+    output:    true
+    permalink: /game-rules/psionics/disciplines/:path/
+
+  # game rules // psionics // epic powers
+  epic_psionic_powers:
+    output:    true
+    permalink: /game-rules/psionics/epic-powers/:path/
+
+  # game rules // adventuring // special abilities
+  special_abilities:
+    output:    true
+    permalink: /game-rules/adventuring/special-abilities/:path/
+
+  # game rules // adventuring // status conditions
+  status_conditions:
+    output:    true
+    permalink: /game-rules/adventuring/status-conditions/:path/
+
+  # game rules // adventuring // traps
+  traps:
+    output:    true
+    permalink: /game-rules/adventuring/traps/:path/
+
+  # game rules // divine rules // divine abilities
+  divine_abilities:
+    output:    true
+    permalink: /game-rules/divine-rules/divine-abilities/:path/
+
+  # equipment // special materials
+  adventuring_gear:
+    output:    true
+    permalink: /equipment/adventuring-gear/:path/
+
+  # equipment // special materials
+  special_materials:
+    output:    true
+    permalink: /equipment/special-materials/:path/
+
+  # equipment // armor
+  armor:
+    output:    true
+    permalink: /equipment/armor/:path/
+
+  # equipment // weapons
+  weapons:
+    output:    true
+    permalink: /equipment/weapons/:path/
+
+  # equipment // magic items // armor // armor abilities
+  magical_armor_abilities:
+    output:    true
+    permalink: /equipment/magic-items/armor/abilities/:path/
+
+  # equipment // magic items // armor // specific armor
+  specific_magical_armor:
+    output:    true
+    permalink: /equipment/magic-items/armor/specific/:path/
+
+  # equipment // magic items // weapons // weapon abilities
+  magical_weapon_abilities:
+    output:    true
+    permalink: /equipment/magic-items/weapons/abilities/:path/
+
+  # equipment // magic items // weapons // specific weapons
+  specific_magical_weapons:
+    output:    true
+    permalink: /equipment/magic-items/weapons/specific/:path/
+
+  # equipment // magic items // potions & oils
+  potions_oils:
+    output:    true
+    permalink: /equipment/magic-items/potions-oils/:path/
+
+  # equipment // magic items // rings
+  rings:
+    output:    true
+    permalink: /equipment/magic-items/rings/:path/
+
+  # equipment // magic items // rods
+  rods:
+    output:    true
+    permalink: /equipment/magic-items/rods/:path/
+
+  # equipment // magic items // scrolls
+  scrolls:
+    output:    true
+    permalink: /equipment/magic-items/scrolls/:path/
+
+  # equipment // magic items // staffs
+  staffs:
+    output:    true
+    permalink: /equipment/magic-items/staffs/:path/
+
+  # equipment // magic items // wands
+  wands:
+    output:    true
+    permalink: /equipment/magic-items/wands/:path/
+
+  # equipment // magic items // wondrous items
+  wondrous_items:
+    output:    true
+    permalink: /equipment/magic-items/wondrous/:path/
+
+  # equipment // psionic items // armor // armor abilities
+  psionic_armor_abilities:
+    output:    true
+    permalink: /equipment/psionic-items/armor/abilities/:path/
+
+  # equipment // psionic items // armor // specific armor
+  specific_psionic_armor:
+    output:    true
+    permalink: /equipment/psionic-items/armor/specific/:path/
+
+  # equipment // psionic items // weapons // weapon abilities
+  psionic_weapon_abilities:
+    output:    true
+    permalink: /equipment/psionic-items/weapons/abilities/:path/
+
+  # equipment // psionic items // weapons // specific weapons
+  specific_psionic_weapons:
+    output:    true
+    permalink: /equipment/psionic-items/weapons/specific/:path/
+
+  # equipment // psionic items // cognizance crystals
+  cognizance_crystals:
+    output:    true
+    permalink: /equipment/psionic-items/cognizance-crystals/:path/
+
+  # equipment // psionic items // dorjes
+  dorjes:
+    output:    true
+    permalink: /equipment/psionic-items/dorjes/:path/
+
+  # equipment // psionic items // power stones
+  power_stones:
+    output:    true
+    permalink: /equipment/psionic-items/power-stones/:path/
+
+  # equipment // psionic items // psicrowns
+  psicrowns:
+    output:    true
+    permalink: /equipment/psionic-items/psicrowns/:path/
+
+  # equipment // psionic items // psionic tattoos
+  psionic_tattoos:
+    output:    true
+    permalink: /equipment/psionic-items/psionic-tattoos/:path/
+
+  # equipment // psionic items // universal items
+  universal_items:
+    output:    true
+    permalink: /equipment/psionic-items/universal/:path/
+
+  # equipment // epic magic items // armor // armor abilities
+  epic_armor_abilities:
+    output:    true
+    permalink: /equipment/epic-magic-items/armor/abilities/:path/
+
+  # equipment // epic magic & psionic items // armor // specific armor
+  epic_specific_armor:
+    output:    true
+    permalink: /equipment/epic-magic-items/armor/specific/:path/
+
+  # equipment // epic magic & psionic items // weapons // weapon abilities
+  epic_weapon_abilities:
+    output:    true
+    permalink: /equipment/epic-magic-items/weapons/abilities/:path/
+
+  # equipment // epic magic & psionic items // weapons // specific weapons
+  epic_specific_weapons:
+    output:    true
+    permalink: /equipment/epic-magic-items/weapons/specific/:path/
+
+  # equipment // epic magic & psionic items // potions & oils
+  epic_potions_oils:
+    output:    true
+    permalink: /equipment/epic-magic-items/potions-oils/:path/
+
+  # equipment // epic magic & psionic items // rings
+  epic_rings:
+    output:    true
+    permalink: /equipment/epic-magic-items/rings/:path/
+
+  # equipment // epic magic & psionic items // rods
+  epic_rods:
+    output:    true
+    permalink: /equipment/epic-magic-items/rods/:path/
+
+  # equipment // epic magic & psionic items // scrolls
+  epic_scrolls:
+    output:    true
+    permalink: /equipment/epic-magic-items/scrolls/:path/
+
+  # equipment // epic magic & psionic items // staffs
+  epic_staffs:
+    output:    true
+    permalink: /equipment/epic-magic-items/staffs/:path/
+
+  # equipment // epic magic & psionic items // wondrous items
+  epic_wondrous_items:
+    output:    true
+    permalink: /equipment/epic-magic-items/wondrous/:path/
+
+  # equipment // epic psionic items // armor // armor abilities
+  epic_psionic_armor_abilities:
+    output:    true
+    permalink: /equipment/epic-psionic-items/armor/abilities/:path/
+
+  # equipment // epic psionic items // armor // specific armor
+  epic_specific_psionic_armor:
+    output:    true
+    permalink: /equipment/epic-psionic-items/armor/specific/:path/
+
+  # equipment // epic psionic items // weapons // weapon abilities
+  epic_psionic_weapon_abilities:
+    output:    true
+    permalink: /equipment/epic-psionic-items/weapons/abilities/:path/
+
+  # equipment // epic psionic items // weapons // specific weapons
+  epic_specific_psionic_weapons:
+    output:    true
+    permalink: /equipment/epic-psionic-items/weapons/specific/:path/
+
+  # equipment // epic psionic items // cognizance crystals
+  epic_cognizance_crystals:
+    output:    true
+    permalink: /equipment/epic-psionic-items/cognizance-crystals/:path/
+
+  # equipment // epic psionic items // dorjes
+  epic_dorjes:
+    output:    true
+    permalink: /equipment/epic-psionic-items/dorjes/:path/
+
+  # equipment // epic psionic items // power stones
+  epic_power_stones:
+    output:    true
+    permalink: /equipment/epic-psionic-items/power-stones/:path/
+
+  # equipment // epic psionic items // psicrowns
+  epic_psicrowns:
+    output:    true
+    permalink: /equipment/epic-psionic-items/psicrowns/:path/
+
+  # equipment // epic psionic items // psionic tattoos
+  epic_psionic_tattoos:
+    output:    true
+    permalink: /equipment/epic-psionic-items/psionic-tattoos/:path/
+
+  # equipment // epic psionic items // universal items
+  epic_universal_items:
+    output:    true
+    permalink: /equipment/epic-psionic-items/universal/:path/
+
+  # equipment // intelligent items
+  intelligent_items:
+    output:    true
+    permalink: /equipment/intelligent-items/:path/
+
+  # equipment // epic intelligent items
+  epic_intelligent_items:
+    output:    true
+    permalink: /equipment/epic-intelligent-items/:path/
+
+  # equipment // cursed items
+  cursed_items:
+    output:    true
+    permalink: /equipment/cursed-items/:path/
+
+  # equipment // epic cursed items
+  epic_cursed_items:
+    output:    true
+    permalink: /equipment/epic-cursed-items/:path/
+
+  # equipment // artifacts
+  artifacts:
+    output:    true
+    permalink: /equipment/artifacts/:path/
+
+  # monsters // list
+  monsters:
+    output:    true
+    permalink: /monsters/entries/:path/
+
+  # monsters // templates
+  monster_templates:
+    output:    true
+    permalink: /monsters/templates/:path/
+
+  # setting // geography // regions & countries
+  regions:
+    output:    true
+    permalink: /setting/geography/regions/:path/
+
+  # setting // geography // cities
+  cities:
+    output:    true
+    permalink: /setting/geography/cities/:path/
+
+  # setting // cosmology // planes
+  planes:
+    output:    true
+    permalink: /setting/cosmology/planes/:path/
+
+  # setting // religion // deities
+  deities:
+    output:    true
+    permalink: /setting/religion/deities/:path/
+
+  # setting // politics // organizations
+  organizations:
+    output:    true
+    permalink: /setting/politics/organizations/:path/
+
+  # setting // politics // npcs
+  npcs:
+    output:    true
+    permalink: /setting/politics/npcs/:path/
+
+  # setting // history // events
+  historical_events:
+    output:    true
+    permalink: /setting/history/events/:path/
+
+  # misc // credits
+  credits:
+    output:    true
+    permalink: /misc/credits/:path/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
-      layout: "main"
-      crumbs: []
+      layout:      "main"
+      permalink:   /:path/
+      crumbs:      []
       crumbTitles: []
-  -
-    scope:
+
+  - scope:
       path: "setting/cosmology/planes"
       type: "pages"
     values:
-      crumbs: [setting, cosmology]
+      crumbs:      [setting, cosmology]
       crumbTitles: [Setting, Cosmology]
+
+  - scope:
+      path: ""
+      type: conditions
+    values:
+      layout:      "abilities-conditions/condition"
+      crumbs:      [game-rules, adventuring-combat, abilities-conditions, conditions]
+      crumbTitles: [Game Rules, Adventuring &amp; Combat, Abilities & Conditions, Conditions]
+
+  - scope:
+      path: ""
+      type: special_abilities
+    values:
+      layout:      "abilities-conditions/ability"
+      crumbs:      [game-rules, adventuring-combat, abilities-conditions, abilities]
+      crumbTitles: [Game Rules, Adventuring &amp; Combat, Abilities & Conditions, Abilities]
+
+  - scope:
+      path: ""
+      type: epic_spells
+    values:
+      layout:      "epic-spell"
+      crumbs:      [game-rules, magic-psionics, epic-spells]
+      crumbTitles: [Game Rules, Magic &amp; Psionics, Epic Spells]
+      spell:
+        schools:
+          - name:        ""
+            subschools:  []
+            descriptors: []
+        spellcraftDc:       0
+        components:         []
+        castingTime:        ""
+        range:              ""
+        area:               ""
+        effect:             ""
+        duration:           ""
+        dismissable:        false
+        savingThrow:        ""
+        spellResistance:    ""
+        toDevelop:
+          gp:                0
+          time:              ""
+          xp:                0
+          seeds:             [] # {desc: "", dc: ""}
+          factors:           [] # same format as seeds
+          mitigatingFactors: [] # same format as seeds
+        description:        ""
+        xpCost:             ""
+        materialComponents: []

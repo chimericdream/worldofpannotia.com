@@ -1,0 +1,41 @@
+---
+title: "Enslave (Ritual)"
+
+spell:
+  schools:
+    - name: "Enchantment"
+      subschools: [Compulsion]
+      descriptors: [Mind-Affecting]
+  spellcraftDc: 80
+  components: [V, S, XP]
+  castingTime: "1 standard action"
+  range: "75 ft."
+  target: "One living creature"
+  duration: "Permanent"
+  savingThrow: "Will negates"
+  spellResistance: "Yes"
+  toDevelop:
+    gp: 720000
+    time: "15 days"
+    xp: 28800
+    seeds:
+      - desc: "compel"
+        dc: "19"
+    factors:
+      - desc: "stricter compulsion of any creature"
+        dc: "ad hoc +11"
+      - desc: "1-action casting time"
+        dc: "+20"
+      - desc: "permanent"
+        dc: "&times;5"
+    mitigatingFactors:
+      - desc: "2d6 backlash"
+        dc: "-2"
+      - desc: "four additional casters contributing one 9th-level spell slot"
+        dc: "-68"
+      - desc: "burn 2,000 XP per caster"
+        dc: "-100"
+  description: |
+    The character makes a permanent thrall of any living creature. The character establishes a telepathic link with the subject's mind. If the creature has a language, the character can generally force the subject to perform as he or she desires, within the limits of its abilities. If the creature has no language, the character can communicate only basic commands. The character knows what the subject is experiencing, but does not receive direct sensory input from it. A subject forced to take an action against its nature receives a saving throw with a penalty of -10 to resist taking that particular action, but if it succeeds, it still remains the character's thrall despite its minor mutiny. Once a subject makes a successful saving throw to resist a specific order, it makes all future saving throws to resist taking that specific action without a penalty. Protection from evil or a similar spell can prevent the character from exercising control or using the telepathic link while the subject is so protected, but it does not prevent the establishment of enslave or dispel it.
+  xpCost: 2000
+---
