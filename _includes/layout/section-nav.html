@@ -1,0 +1,18 @@
+{% capture page_url %}{{ page.url | replace:'index.html','' }}{% endcapture %}
+{% if page_url == "" %}{% capture page_url %}/{% endcapture %}{% endif %}
+{% if page.sectionNav.size > 0 %}
+<div id="section-nav" class="col-xs-12 col-sm-4 col-md-3">
+    <div class="panel panel-default">
+      <!-- Default panel contents -->
+      <div class="panel-heading">{{ page.sectionTitle }}</div>
+
+      <!-- List group -->
+        <div class="list-group">
+            {% for link in page.sectionNav %}
+            {% capture link_url %}/{{ link.url }}/{% endcapture %}
+            <a href="{{ site.url }}/{{ link.url }}/" class="list-group-item{% if page_url == link_url %} active{% endif %}" title="{{ link.title }}">{{ link.title }}</a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endif %}

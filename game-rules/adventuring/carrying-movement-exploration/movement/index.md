@@ -82,7 +82,7 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Run (&times;3) | 450 ft. | 600 ft. | 900 ft. | 1,200 ft.
 | Run (&times;4) | 600 ft. | 800 ft. | 1,200 ft. | 1,600 ft.
 | One Hour (Overland) | !cs | !cs | !cs | !cs
-| Walk | 1-1/2 miles | 2 miles | 3 miles | 4 miles
+| Walk | 1&#189; miles | 2 miles | 3 miles | 4 miles
 | Hustle | 3 miles | 4 miles | 6 miles | 8 miles
 | Run | &ndash; | &ndash; | &ndash; | &ndash;
 | One Day (Overland) | !cs | !cs | !cs | !cs
@@ -107,15 +107,15 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 |---
 | Terrain | Highway | Road or Trail | Trackless
 |-|-|-|-
-| Desert, sandy | &times;1 | &times;1/2 | &times;1/2
-| Forest | &times;1 | &times;1 | &times;1/2
-| Hills | &times;1 | &times;3/4 | &times;1/2
-| Jungle | &times;1 | &times;3/4 | &times;1/4
-| Moor | &times;1 | &times;1 | &times;3/4
-| Mountains | &times;3/4 | &times;3/4 | &times;1/2
-| Plains | &times;1 | &times;1 | &times;3/4
-| Swamp | &times;1 | &times;3/4 | &times;1/2
-| Tundra, frozen | &times;1 | &times;3/4 | &times;3/4
+| Desert, sandy | &times;1 | &times;&#189; | &times;&#189;
+| Forest | &times;1 | &times;1 | &times;&#189;
+| Hills | &times;1 | &times;&#190; | &times;&#189;
+| Jungle | &times;1 | &times;&#190; | &times;&#188;
+| Moor | &times;1 | &times;1 | &times;&#190;
+| Mountains | &times;&#190; | &times;&#190; | &times;&#189;
+| Plains | &times;1 | &times;1 | &times;&#190;
+| Swamp | &times;1 | &times;&#190; | &times;&#189;
+| Tundra, frozen | &times;1 | &times;&#190; | &times;&#190;
 {: #terrain-and-overland-movement-table .table .table-bordered .table-hover .table-striped data-caption="Table: Terrain and Overland Movement" }
 
 |---
@@ -126,8 +126,8 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Light horse (151-450 lb.)<sup>1</sup> | 4 miles | 32 miles
 | Light warhorse (231-690 lb.)<sup>1</sup> | 4 miles | 32 miles
 | Heavy horse or heavy warhorse | 5 miles | 40 miles
-| Heavy horse (201-600 lb.)<sup>1</sup> | 3-1/2 miles | 28 miles
-| Heavy warhorse (301-900 lb.)<sup>1</sup> | 3-1/2 miles | 28 miles
+| Heavy horse (201-600 lb.)<sup>1</sup> | 3&#189; miles | 28 miles
+| Heavy warhorse (301-900 lb.)<sup>1</sup> | 3&#189; miles | 28 miles
 | Pony or warpony | 4 miles | 32 miles
 | Pony (76-225 lb.)<sup>1</sup> | 3 miles | 24 miles
 | Warpony (101-300 lb.)<sup>1</sup> | 3 miles | 24 miles
@@ -138,11 +138,11 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Dog, riding (101-300 lb.)<sup>1</sup> | 3 miles | 24 miles
 | Cart or wagon | 2 miles | 16 miles
 | Ship | !cs | !cs
-| Raft or barge (poled or towed)<sup>2</sup> | 1/2 mile | 5 miles
+| Raft or barge (poled or towed)<sup>2</sup> | &#189; mile | 5 miles
 | Keelboat (rowed)<sup>2</sup> | 1 mile | 10 miles
-| Rowboat (rowed)<sup>2</sup> | 1-1/2 miles | 15 miles
+| Rowboat (rowed)<sup>2</sup> | 1&#189; miles | 15 miles
 | Sailing ship (sailed) | 2 miles | 48 miles
-| Warship (sailed and rowed) | 2-1/2 miles | 60 miles
+| Warship (sailed and rowed) | 2&#189; miles | 60 miles
 | Longship (sailed and rowed) | 3 miles | 72 miles
 | Galley (rowed and sailed) | 4 miles | 96 miles
 |===

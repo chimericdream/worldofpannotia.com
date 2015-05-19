@@ -189,7 +189,7 @@ _Precise Shot:_ If you have the Precise Shot feat you don't take this penalty.
 
 **Critical Hits:** When you make an attack roll and get a natural 20 (the d20 shows 20), you hit regardless of your target's Armor Class, and you have scored a threat. The hit might be a critical hit (or "crit"). To find out if it's a critical hit, you immediately make a critical roll &ndash; another attack roll with all the same modifiers as the attack roll you just made. If the critical roll also results in a hit against the target's AC, your original hit is a critical hit. (The critical roll just needs to hit to give you a crit. It doesn't need to come up 20 again.) If the critical roll is a miss, then your hit is just a regular hit.
 
-A critical hit means that you roll your damage more than once, with all your usual bonuses, and add the rolls together. Unless otherwise specified, the threat range for a critical hit on an attack roll is 20, and the multiplier is x2.
+A critical hit means that you roll your damage more than once, with all your usual bonuses, and add the rolls together. Unless otherwise specified, the threat range for a critical hit on an attack roll is 20, and the multiplier is &times;2.
 
 _Exception:_ Extra damage over and above a weapon's normal damage is not multiplied when you score a critical hit.
 

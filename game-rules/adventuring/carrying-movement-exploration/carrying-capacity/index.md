@@ -37,9 +37,9 @@ A character can lift as much as double his or her maximum load off the ground, b
 
 A character can generally push or drag along the ground as much as five times his or her maximum load. Favorable conditions can double these numbers, and bad circumstances can reduce them to one-half or less.
 
-**Bigger and Smaller Creatures:** The figures on _Table: Carrying Capacity_ are for Medium bipedal creatures. A larger bipedal creature can carry more weight depending on its size category, as follows: Large &times;2, Huge &times;4, Gargantuan &times;8, Colossal &times;16. A smaller creature can carry less weight depending on its size category, as follows: Small &times;3/4, Tiny &times;1/2, Diminutive &times;1/4, Fine &times;1/8.
+**Bigger and Smaller Creatures:** The figures on _Table: Carrying Capacity_ are for Medium bipedal creatures. A larger bipedal creature can carry more weight depending on its size category, as follows: Large &times;2, Huge &times;4, Gargantuan &times;8, Colossal &times;16. A smaller creature can carry less weight depending on its size category, as follows: Small &times;&#190;, Tiny &times;&#189;, Diminutive &times;&#188;, Fine &times;&#8539;.
 
-Quadrupeds can carry heavier loads than characters can. Instead of the multipliers given above, multiply the value corresponding to the creature's Strength score from _Table: Carrying Capacity_ by the appropriate modifier, as follows: Fine &times;1/4, Diminutive &times;1/2, Tiny &times;3/4, Small &times;1, Medium &times;1-1/2, Large &times;3, Huge &times;6, Gargantuan &times;12, Colossal &times;24.
+Quadrupeds can carry heavier loads than characters can. Instead of the multipliers given above, multiply the value corresponding to the creature's Strength score from _Table: Carrying Capacity_ by the appropriate modifier, as follows: Fine &times;&#188;, Diminutive &times;&#189;, Tiny &times;&#190;, Small &times;1, Medium &times;1&#189;, Large &times;3, Huge &times;6, Gargantuan &times;12, Colossal &times;24.
 
 **Tremendous Strength:** For Strength scores not shown on _Table: Carrying Capacity_, find the Strength score between 20 and 29 that has the same number in the &quot;ones&quot; digit as the creature's Strength score does and multiply the numbers in that for by 4 for every ten points the creature's strength is above the score for that row.
 

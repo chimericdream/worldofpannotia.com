@@ -42,9 +42,9 @@ Damage reduces a target's current hit points.
 
 **Strength Bonus:** When you hit with a melee or thrown weapon, including a sling, add your Strength modifier to the damage result. A Strength penalty, but not a bonus, applies on attacks made with a bow that is not a composite bow.
 
-_Off-Hand Weapon:_ When you deal damage with a weapon in your off hand, you add only 1/2 your Strength bonus.
+_Off-Hand Weapon:_ When you deal damage with a weapon in your off hand, you add only &#189; your Strength bonus.
 
-_Wielding a Weapon Two-Handed:_ When you deal damage with a weapon that you are wielding two-handed, you add 1-1/2 times your Strength bonus. However, you don't get this higher Strength bonus when using a light weapon with two hands.
+_Wielding a Weapon Two-Handed:_ When you deal damage with a weapon that you are wielding two-handed, you add 1&#189; times your Strength bonus. However, you don't get this higher Strength bonus when using a light weapon with two hands.
 
 **Multiplying Damage:** Sometimes you multiply damage by some factor, such as on a critical hit. Roll the damage (with all modifiers) multiple times and total the results. _Note:_ When you multiply damage more than once, each multiplier works off the original, unmultiplied damage.
 
@@ -71,7 +71,7 @@ Other Modifiers: Many other factors modify your AC.
 
 ### Hit Points {#hit-points}
 
-When your hit point total reaches 0, you're disabled. When it reaches -1, you're dying. When it gets to your <a href="#loss-of-hit-points">negative hit point threshold</a>, you're dead.
+When your hit point total reaches 0, you're disabled. When it reaches -1, you're dying. When it gets to your negative hit point threshold, you're dead.
 
 ### Speed {#speed}
 
