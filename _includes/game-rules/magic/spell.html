@@ -1,0 +1,35 @@
+{% assign spell = include.spell %}
+
+{% capture ogc %}
+    <p><em>{{ spell.school }}{% if spell.subschools.size > 0 %} ({{ spell.subschools | sort | join:', ' }}){% endif %}{% if spell.descriptors.size > 0 %} [{{ spell.descriptors | sort | join:'] [' }}]{% endif %}</em></p>
+    <p><strong>Components:</strong> {{ spell.components | sort | join:', ' }}</p>
+    <p><strong>Casting Time:</strong> {{ spell.castingTime }}</p>
+    <p><strong>Range:</strong> {{ spell.range }}</p>
+{% if spell.effect != "" %}
+    <p><strong>Effect:</strong> {{ spell.effect }}</p>
+{% endif %}
+{% if spell.target != "" %}
+    <p><strong>Target:</strong> {{ spell.target }}</p>
+{% endif %}
+{% if spell.area != "" %}
+    <p><strong>Area</strong> {{ spell.area }}</p>
+{% endif %}
+    <p><strong>Duration:</strong> {{ spell.duration }}{% if spell.dismissable %} (D){% endif %}</p>
+    <p><strong>Saving Throw:</strong> {{ spell.savingThrow }}</p>
+    <p><strong>Spell Resistance:</strong> {{ spell.spellResistance }}</p>
+{% if spell.xpCost > 0 %}
+    <p><strong>XP Cost:</strong> {{ spell.xpCost }} XP</p>
+{% endif %}
+{% if spell.materialComponents.size > 0 %}
+    <p><strong>Material Components:</strong> {{ spell.materialComponents | join:'; ' }}.</p>
+{% endif %}
+{% if spell.focus != "" %}
+    <p><strong>Focus:</strong> {{ spell.focus }}.</p>
+{% endif %}
+{% if spell.divineFocus != "" %}
+    <p><strong>Divine Focus:</strong> {{ spell.divineFocus }}.</p>
+{% endif %}
+    {{ spell.description | markdownify }}
+{% endcapture %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}

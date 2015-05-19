@@ -36,6 +36,13 @@
             h1,h2,h3,h4,h5,h6 {
                 font-weight: bold;
             }
+            .indented-list-group-item {
+                margin-left: 15px;
+            }
+            .panel > .list-group:last-child .indented-list-group-item:last-child,
+            .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
+                border-bottom-left-radius: 0px;
+            }
         </style>
     </head>
     <body>
@@ -611,29 +618,32 @@
     
 
     <article id="main-content" class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-sm-8 col-md-9">
             
 
 
 
 <div class="ogc">
     
-    <div class="spellBox">
-        <p><em></em></p>
-        <p><strong>Spellcraft DC:</strong> 120</p>
-        <p><strong>Components:</strong> Ritual, V, XP</p>
-        <p><strong>Casting Time:</strong> 5 minutes</p>
-        <p><strong>Range:</strong> Touch (must maintain contact for entire casting time)</p>
+    <p><em></em></p>
+    <p><strong>Spellcraft DC:</strong> 120</p>
+    <p><strong>Components:</strong> Ritual, V, XP</p>
+    <p><strong>Casting Time:</strong> 5 minutes</p>
+    <p><strong>Range:</strong> Touch (must maintain contact for entire casting time)</p>
 
 
-        <p><strong>Target:</strong> Creature touched</p>
+    <p><strong>Target:</strong> Creature touched</p>
 
 
-        <p><strong>Duration:</strong> Instantaneous</p>
-        <p><strong>Saving Throw:</strong> Will negates (DC +10)</p>
-        <p><strong>Spell Resistance:</strong> Yes</p>
-        <p><strong>To Develop:</strong> 1080000 GP; 22 days; 43200 XP. <em>Seeds:</em> dispel (DC 19); heal (alternate, DC 25) (DC ); slay (alternate, DC 25) (DC ); destroy (DC 29). <em>Factors:</em> change range to touch (+4 DC); save DC increased by +10 (+20 DC); permanent (&times;5 DC). <em>Mitigating Factors:</em> burn 5,000 XP (-50 DC); increase casting time to 5 minutes (-10 DC); two additional casters contributing one epic spell slot (-38 DC).</p>
-        <p>This spell allows a character to take away the ability for another character to use arcane magic and channel its power as other magic using characters do. Also, during the casting of this spell, two other spellcasters must each contribute an epic spell slot.</p>
+    <p><strong>Duration:</strong> Instantaneous</p>
+    <p><strong>Saving Throw:</strong> Will negates (DC +10)</p>
+    <p><strong>Spell Resistance:</strong> Yes</p>
+    <p><strong>To Develop:</strong> 1,080,000 GP; 22 days; 43,200 XP. <em>Seeds:</em> dispel (DC 19); heal (alternate, DC 25) (DC ); slay (alternate, DC 25) (DC ); destroy (DC 29). <em>Factors:</em> change range to touch (+4 DC); save DC increased by +10 (+20 DC); permanent (&times;5 DC). <em>Mitigating Factors:</em> burn 5,000 XP (-50 DC); increase casting time to 5 minutes (-10 DC); two additional casters contributing one epic spell slot (-38 DC).</p>
+
+    <p><strong>XP Cost:</strong> 5,000 XP</p>
+
+
+    <p>This spell allows a character to take away the ability for another character to use arcane magic and channel its power as other magic using characters do. Also, during the casting of this spell, two other spellcasters must each contribute an epic spell slot.</p>
 
 <p>Upon the completion of this spell, if the target fails its Will save, all of its spells are erased from memory and its ability to learn and cast spells is revoked. This effect cannot be reversed, except with a <em>miracle</em> or <em>wish</em> spell cast by someone of a higher level than the caster. Sorcerers, because of their more primal attachment to magic, are granted a +4 to the Will save for this spell. The target retains his level and experience, but may not use any spells given by any classes. Racial spell-like abilities are not affected by this spell, as they are too closely tied to the life force of the target. The target may also still use magical items and equipment, though may be required to make <em>use magic device</em> checks (as a non-magic using character) where applicable.</p>
 
@@ -644,16 +654,73 @@
 <p><strong>History:</strong> This spell has been used only a few times throughout history as punishment for evil spellcasters who were found guilty of war crimes. Rather than be sentenced to death, some were given the different (possibly worse) punishment of forever wandering the lands without the magic they held so dear. Often times, these mages were killed not long after the ritual. Usually, bands of mercenaries hunted them down and enacted their own revenge for the treacherous crimes committed by the former spellcaster.</p>
 
 
-        <p><strong>XP Cost:</strong> 5000 XP</p>
-
-
-    </div>
-
 </div>
 
         </div>
         
 
+
+<div id="section-nav" class="col-xs-12 col-sm-4 col-md-3">
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Magic</div>
+
+        <!-- List group -->
+        <div class="list-group">
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/overview/" class="list-group-item" title="Overview">Overview</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-descriptions/" class="list-group-item" title="Spell Descriptions">Spell Descriptions</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/arcane-spells/" class="list-group-item" title="Arcane Spells">Arcane Spells</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/divine-spells/" class="list-group-item" title="Divine Spells">Divine Spells</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-index/" class="list-group-item" title="Spell Index">Spell Index</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/domains/" class="list-group-item" title="Domains">Domains</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-lists/" class="list-group-item" title="Spell Lists">Spell Lists</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-combinations/overview/" class="list-group-item" title="Spell Combinations">Spell Combinations</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/overview/" class="list-group-item active" title="Epic Spells">Epic Spells</a>
+            
+                
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/overview/" class="indented-list-group-item list-group-item" title="Overview">Overview</a>
+                
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/developing-epic-spells/" class="indented-list-group-item list-group-item" title="Developing Epic Spells">Developing Epic Spells</a>
+                
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/seeds/" class="indented-list-group-item list-group-item" title="Seeds">Seeds</a>
+                
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/epic-spell-index/" class="indented-list-group-item list-group-item active" title="Epic Spell Index">Epic Spell Index</a>
+                
+            
+        
+        </div>
+    </div>
+</div>
 
     </article>
 </section>

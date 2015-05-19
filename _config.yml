@@ -127,7 +127,7 @@ collections:
   # game rules // magic // spells
   spells:
     output:    true
-    permalink: /game-rules/magic/spells/spell-index/:path/
+    permalink: /game-rules/magic/spell-index/:path/
 
   # game rules // magic // domains
   domains:
@@ -147,7 +147,7 @@ collections:
   # game rules // psionics // powers
   psionic_powers:
     output:    true
-    permalink: /game-rules/psionics/powers/:path/
+    permalink: /game-rules/psionics/powers/power-index/:path/
 
   # game rules // psionics // disciplines
   psionic_disciplines:
@@ -484,16 +484,19 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout:       "main"
-      permalink:    /:path/
-      crumbs:       []
-      crumbTitles:  []
-      sectionTitle: ""
-      sectionNav:   []
+      layout:           "main"
+      permalink:        /:path/
+      crumbs:           []
+      crumbTitles:      []
+      sectionTitle:     ""
+      sectionNav:       []
+      activeSection:    ""
+      subSectionParent: "" # The path of the parent item. Determines where the subsection is displayed.
+      subSectionNav:    []
+      activeSubSection: ""
 
   - scope:
       path: "game-rules/adventuring/combat"
-      type: "pages"
     values:
       sectionTitle: "Combat"
       sectionNav:
@@ -515,6 +518,44 @@ defaults:
           url: "game-rules/adventuring/combat/combat-modifiers"
         - title: "Special Attacks"
           url: "game-rules/adventuring/combat/special-attacks"
+
+  - scope:
+      path: "game-rules/magic"
+    values:
+      sectionTitle: "Magic"
+      sectionNav:
+        - title: "Overview"
+          url: "game-rules/magic/overview"
+        - title: "Spell Descriptions"
+          url: "game-rules/magic/spell-descriptions"
+        - title: "Arcane Spells"
+          url: "game-rules/magic/arcane-spells"
+        - title: "Divine Spells"
+          url: "game-rules/magic/divine-spells"
+        - title: "Spell Index"
+          url: "game-rules/magic/spell-index"
+        - title: "Domains"
+          url: "game-rules/magic/domains"
+        - title: "Spell Lists"
+          url: "game-rules/magic/spell-lists"
+        - title: "Spell Combinations"
+          url: "game-rules/magic/spell-combinations/overview"
+        - title: "Epic Spells"
+          url: "game-rules/magic/epic-spells/overview"
+
+  - scope:
+      path: "game-rules/magic/epic-spells"
+    values:
+      subSectionParent: "game-rules/magic/epic-spells/overview"
+      subSectionNav:
+        - title: "Overview"
+          url: "game-rules/magic/epic-spells/overview"
+        - title: "Developing Epic Spells"
+          url: "game-rules/magic/epic-spells/developing-epic-spells"
+        - title: "Seeds"
+          url: "game-rules/magic/epic-spells/seeds"
+        - title: "Epic Spell Index"
+          url: "game-rules/magic/epic-spells/epic-spell-index"
 
   - scope:
       path: "setting/cosmology/planes"
@@ -541,26 +582,74 @@ defaults:
 
   - scope:
       path: ""
+      type: feats
+    values:
+      layout:      "game-rules/feat"
+      crumbs:      [game-rules, feats/overview]
+      crumbTitles: [Game Rules, Feats]
+      feat:
+        name:         ""
+        types:        []
+        description:  ""
+        prerequisite: ""
+        benefit:      ""
+        normal:       ""
+        special:      ""
+
+  - scope:
+      path: ""
+      type: spells
+    values:
+      layout:        "game-rules/magic/spell"
+      crumbs:        [game-rules, magic, spell-index]
+      crumbTitles:   [Game Rules, Magic, Spell Index]
+      activeSection: "game-rules/magic/spell-index"
+      spell:
+        schools:            [] # {name: "", subschools: [], descriptors: []}
+        classes:            [] # {name: "", abbr: "", level: 0}
+        domains:            [] # same format as classes
+        components:         []
+        castingTime:        ""
+        range:              ""
+        area:               ""
+        effect:             ""
+        target:             ""
+        duration:           ""
+        dismissable:        false
+        savingThrow:        ""
+        spellResistance:    ""
+        xpCost:             0
+        materialComponents: []
+        focus:              ""
+        divineFocus:        ""
+        description:        ""
+
+  - scope:
+      path: ""
       type: epic_spells
     values:
-      layout:      "game-rules/magic/epic-spell"
-      crumbs:      [game-rules, magic, epic-spells/overview]
-      crumbTitles: [Game Rules, Magic, Epic Spells]
+      layout:           "game-rules/magic/epic-spell"
+      crumbs:           [game-rules, magic, epic-spells/overview]
+      crumbTitles:      [Game Rules, Magic, Epic Spells]
+      activeSection:    "game-rules/magic/epic-spells/overview"
+      activeSubSection: "game-rules/magic/epic-spells/epic-spell-index"
       spell:
-        schools:
-          - name:        ""
-            subschools:  []
-            descriptors: []
+        schools:            [] # {name: "", subschools: [], descriptors: []}
         spellcraftDc:       0
         components:         []
         castingTime:        ""
         range:              ""
         area:               ""
         effect:             ""
+        target:             ""
         duration:           ""
         dismissable:        false
         savingThrow:        ""
         spellResistance:    ""
+        xpCost:             0
+        materialComponents: []
+        focus:              ""
+        divineFocus:        ""
         toDevelop:
           gp:                0
           time:              ""
@@ -569,5 +658,3 @@ defaults:
           factors:           [] # same format as seeds
           mitigatingFactors: [] # same format as seeds
         description:        ""
-        xpCost:             ""
-        materialComponents: []

@@ -36,6 +36,13 @@
             h1,h2,h3,h4,h5,h6 {
                 font-weight: bold;
             }
+            .indented-list-group-item {
+                margin-left: 15px;
+            }
+            .panel > .list-group:last-child .indented-list-group-item:last-child,
+            .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
+                border-bottom-left-radius: 0px;
+            }
         </style>
     </head>
     <body>
@@ -611,41 +618,101 @@
     
 
     <article id="main-content" class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 col-sm-8 col-md-9">
             
 
 
 
 <div class="ogc">
     
-    <div class="spellBox">
-        <p><em></em></p>
-        <p><strong>Spellcraft DC:</strong> 59</p>
-        <p><strong>Components:</strong> S, V, XP</p>
-        <p><strong>Casting Time:</strong> 1 standard action</p>
-        <p><strong>Range:</strong> 12,000 ft.</p>
+    <p><em></em></p>
+    <p><strong>Spellcraft DC:</strong> 59</p>
+    <p><strong>Components:</strong> S, V, XP</p>
+    <p><strong>Casting Time:</strong> 1 standard action</p>
+    <p><strong>Range:</strong> 12,000 ft.</p>
 
 
-        <p><strong>Target:</strong> One creature, or up to a 10-foot cube of nonliving matter</p>
+    <p><strong>Target:</strong> One creature, or up to a 10-foot cube of nonliving matter</p>
 
 
-        <p><strong>Duration:</strong> Instantaneous</p>
-        <p><strong>Saving Throw:</strong> Fortitude half</p>
-        <p><strong>Spell Resistance:</strong> Yes</p>
-        <p><strong>To Develop:</strong> 531000 GP; 11 days; 21240 XP. <em>Seed:</em> destroy (DC 29). <em>Factors:</em> increase damage to 35d6 (+30 DC); 1-action casting time (+20 DC). <em>Mitigating Factor:</em> burn 2,000 XP (-20 DC).</p>
-        <p>The character deals 35d6 points of damage to a single target within range and line of sight. If the target is reduced to -10 hit points or less (or a construct, object, or undead is reduced to 0 hit points), it is utterly destroyed as if disintegrated. Only a trace of fine dust remains.</p>
+    <p><strong>Duration:</strong> Instantaneous</p>
+    <p><strong>Saving Throw:</strong> Fortitude half</p>
+    <p><strong>Spell Resistance:</strong> Yes</p>
+    <p><strong>To Develop:</strong> 531,000 GP; 11 days; 21,240 XP. <em>Seed:</em> destroy (DC 29). <em>Factors:</em> increase damage to 35d6 (+30 DC); 1-action casting time (+20 DC). <em>Mitigating Factor:</em> burn 2,000 XP (-20 DC).</p>
+
+    <p><strong>XP Cost:</strong> 2,000 XP</p>
 
 
-        <p><strong>XP Cost:</strong> 2000 XP</p>
+    <p>The character deals 35d6 points of damage to a single target within range and line of sight. If the target is reduced to -10 hit points or less (or a construct, object, or undead is reduced to 0 hit points), it is utterly destroyed as if disintegrated. Only a trace of fine dust remains.</p>
 
-
-    </div>
 
 </div>
 
         </div>
         
 
+
+<div id="section-nav" class="col-xs-12 col-sm-4 col-md-3">
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Magic</div>
+
+        <!-- List group -->
+        <div class="list-group">
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/overview/" class="list-group-item" title="Overview">Overview</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-descriptions/" class="list-group-item" title="Spell Descriptions">Spell Descriptions</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/arcane-spells/" class="list-group-item" title="Arcane Spells">Arcane Spells</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/divine-spells/" class="list-group-item" title="Divine Spells">Divine Spells</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-index/" class="list-group-item" title="Spell Index">Spell Index</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/domains/" class="list-group-item" title="Domains">Domains</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-lists/" class="list-group-item" title="Spell Lists">Spell Lists</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-combinations/overview/" class="list-group-item" title="Spell Combinations">Spell Combinations</a>
+            
+        
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/overview/" class="list-group-item active" title="Epic Spells">Epic Spells</a>
+            
+                
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/overview/" class="indented-list-group-item list-group-item" title="Overview">Overview</a>
+                
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/developing-epic-spells/" class="indented-list-group-item list-group-item" title="Developing Epic Spells">Developing Epic Spells</a>
+                
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/seeds/" class="indented-list-group-item list-group-item" title="Seeds">Seeds</a>
+                
+            
+            <a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/epic-spell-index/" class="indented-list-group-item list-group-item active" title="Epic Spell Index">Epic Spell Index</a>
+                
+            
+        
+        </div>
+    </div>
+</div>
 
     </article>
 </section>

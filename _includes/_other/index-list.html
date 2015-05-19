@@ -1,0 +1,9 @@
+{% assign current_letter = '' %}
+{% for item in include.item_list %}
+{% capture first_letter %}{{ item.title | truncate: 1,'' | upcase }}{% endcapture %}
+{% if current_letter != first_letter %}
+ * {{ first_letter }}
+{% endif %}
+{% assign current_letter = first_letter %}
+   * [{{ item.title }}]({{ item.url }})
+{% endfor %}

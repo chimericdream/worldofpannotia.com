@@ -2,14 +2,7 @@
 title: Epic Spell Index
 crumbs: [game-rules, magic, epic-spells]
 crumbTitles: [Game Rules, Magic, Epic Spells]
+activeSection: "game-rules/magic/epic-spells/overview"
 ---
 
-{% assign current_letter = '' %}
-{% for spell in site.epic_spells %}
-{% capture first_letter %}{{ spell.title | truncate: 1,'' | upcase }}{% endcapture %}
-{% if current_letter != first_letter %}
- * {{ first_letter }}
-{% endif %}
-{% assign current_letter = first_letter %}
-   * [{{ spell.title }}]({{ spell.url }})
-{% endfor %}
+{% include _other/index-list.html item_list=site.epic_spells %}

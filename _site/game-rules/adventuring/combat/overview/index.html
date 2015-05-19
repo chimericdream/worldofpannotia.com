@@ -36,6 +36,13 @@
             h1,h2,h3,h4,h5,h6 {
                 font-weight: bold;
             }
+            .indented-list-group-item {
+                margin-left: 15px;
+            }
+            .panel > .list-group:last-child .indented-list-group-item:last-child,
+            .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
+                border-bottom-left-radius: 0px;
+            }
         </style>
     </head>
     <body>
@@ -606,7 +613,7 @@
 <section class="container">
     
     <header class="row">
-        <h2 class="col-xs-12">How Combat Works <span class="visible-xs">section-nav</span></h2>
+        <h2 class="col-xs-12">How Combat Works</h2>
     </header>
     
 
@@ -628,39 +635,48 @@
 
 <div id="section-nav" class="col-xs-12 col-sm-4 col-md-3">
     <div class="panel panel-default">
-      <!-- Default panel contents -->
-      <div class="panel-heading">Combat</div>
+        <!-- Default panel contents -->
+        <div class="panel-heading">Combat</div>
 
-      <!-- List group -->
+        <!-- List group -->
         <div class="list-group">
-            
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/overview/" class="list-group-item active" title="Overview">Overview</a>
             
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/mechanics/" class="list-group-item" title="Mechanics">Mechanics</a>
             
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/initiative/" class="list-group-item" title="Initiative">Initiative</a>
             
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/attacks-of-opportunity/" class="list-group-item" title="Attacks of Opportunity">Attacks of Opportunity</a>
             
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/combat-actions/" class="list-group-item" title="Combat Actions">Combat Actions</a>
             
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/injury-death/" class="list-group-item" title="Injury &amp; Death">Injury &amp; Death</a>
             
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/movement/" class="list-group-item" title="Movement">Movement</a>
             
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/combat-modifiers/" class="list-group-item" title="Combat Modifiers">Combat Modifiers</a>
             
+        
             
             <a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/special-attacks/" class="list-group-item" title="Special Attacks">Special Attacks</a>
             
+        
         </div>
     </div>
 </div>
