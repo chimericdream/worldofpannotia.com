@@ -11,7 +11,7 @@ url: http://pannotia.jekyll.dev:8888
 # Handling Reading
 safe:         false
 include:      [".htaccess"]
-exclude:      ["_backup"]
+exclude:      ["_backup", "nbproject"]
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
@@ -112,7 +112,7 @@ collections:
   # game rules // feats
   feats:
     output:    true
-    permalink: /game-rules/feats/:path/
+    permalink: /game-rules/feats/feat-index/:path/
 
   # game rules // skills // epic
   epic_skills:
@@ -584,9 +584,10 @@ defaults:
       path: ""
       type: feats
     values:
-      layout:      "game-rules/feat"
-      crumbs:      [game-rules, feats/overview]
-      crumbTitles: [Game Rules, Feats]
+      layout:        "game-rules/feat"
+      crumbs:        [game-rules, feats/overview]
+      crumbTitles:   [Game Rules, Feats]
+      activeSection: "game-rules/feats/feat-index"
       feat:
         name:         ""
         types:        []
@@ -595,6 +596,18 @@ defaults:
         benefit:      ""
         normal:       ""
         special:      ""
+
+  - scope:
+      path: "game-rules/feats"
+    values:
+      sectionTitle: "Feats"
+      sectionNav:
+        - title: "Overview"
+          url: "game-rules/feats/overview"
+        - title: "Feat Descriptions"
+          url: "game-rules/feats/descriptions"
+        - title: "Feat Index"
+          url: "game-rules/feats/feat-index"
 
   - scope:
       path: ""
