@@ -619,6 +619,7 @@ defaults:
         savingThrow:        ""
         spellResistance:    ""
         xpCost:             0
+        xpCostSpecial:      ""
         materialComponents: []
         focus:              ""
         divineFocus:        ""

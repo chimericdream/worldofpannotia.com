@@ -18,7 +18,10 @@
     <p><strong>Saving Throw:</strong> {{ spell.savingThrow }}</p>
     <p><strong>Spell Resistance:</strong> {{ spell.spellResistance }}</p>
 {% if spell.xpCost > 0 %}
-    <p><strong>XP Cost:</strong> {{ spell.xpCost }} XP</p>
+    <p><strong>XP Cost:</strong> {{ spell.xpCost | number_format }} XP</p>
+{% endif %}
+{% if spell.xpCostSpecial != "" %}
+    <p><strong>XP Cost:</strong> {{ spell.xpCostSpecial }}</p>
 {% endif %}
 {% if spell.materialComponents.size > 0 %}
     <p><strong>Material Components:</strong> {{ spell.materialComponents | join:'; ' }}.</p>
@@ -31,5 +34,9 @@
 {% endif %}
     {{ spell.description | markdownify }}
 {% endcapture %}
+
+{% if spell.fluffText != "" %}
+<p><em>{{ spell.fluffText }}</em></p>
+{% endif %}
 
 {% include _other/ogc-block.html ogc_content=ogc %}
