@@ -622,6 +622,7 @@ defaults:
         materialComponents: []
         focus:              ""
         divineFocus:        ""
+        fluffText:          ""
         description:        ""
 
   - scope:
