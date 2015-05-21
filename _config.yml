@@ -68,11 +68,26 @@ kramdown:
     coderay_bold_every:        10
     coderay_css:               style
 
+#******************************************************************************#
+#******************************************************************************#
+
 collections:
+  ## +-------------------------------------------------------------------------+
+  ## | GAME RULES                                                              |
+  ## +-------------------------------------------------------------------------+
+
+  ##########################
+  ### RACES              ###
+  ##########################
+
   # game rules // races
   races:
     output:    true
     permalink: /game-rules/races/:path/
+
+  ##########################
+  ### CLASSES            ###
+  ##########################
 
   # game rules // classes // base
   base_classes:
@@ -104,6 +119,10 @@ collections:
     output:    true
     permalink: /game-rules/classes/npc/:path/
 
+  ##########################
+  ### SKILLS & FEATS     ###
+  ##########################
+
   # game rules // skills
   skills:
     output:    true
@@ -123,6 +142,10 @@ collections:
   epic_feats:
     output:    true
     permalink: /game-rules/feats/epic/:path/
+
+  ##########################
+  ### MAGIC              ###
+  ##########################
 
   # game rules // magic // spells
   spells:
@@ -144,6 +167,10 @@ collections:
     output:    true
     permalink: /game-rules/magic/epic-spells/epic-spell-index/:path/
 
+  ##########################
+  ### PSIONICS           ###
+  ##########################
+
   # game rules // psionics // powers
   psionic_powers:
     output:    true
@@ -158,6 +185,10 @@ collections:
   epic_psionic_powers:
     output:    true
     permalink: /game-rules/psionics/epic-powers/:path/
+
+  ##########################
+  ### ADVENTURING        ###
+  ##########################
 
   # game rules // adventuring // special abilities
   special_abilities:
@@ -174,19 +205,39 @@ collections:
     output:    true
     permalink: /game-rules/adventuring/traps/:path/
 
+  ##########################
+  ### DIVINE RULES       ###
+  ##########################
+
   # game rules // divine rules // divine abilities
   divine_abilities:
     output:    true
     permalink: /game-rules/divine-rules/divine-abilities/:path/
 
-  # equipment // special materials
+  ## +-------------------------------------------------------------------------+
+  ## | EQUIPMENT                                                               |
+  ## +-------------------------------------------------------------------------+
+
+  ##########################
+  ### GOODS & SERVICES   ###
+  ##########################
+
+  # equipment // goods & services // adventuring gear
   adventuring_gear:
     output:    true
     permalink: /equipment/adventuring-gear/:path/
 
+  ##########################
+  ### SPECIAL MATERIALS  ###
+  ##########################
+
   # equipment // special materials
   special_materials:
     output:    false
+
+  ##########################
+  ### ARMOR & WEAPONS    ###
+  ##########################
 
   # equipment // armor
   armor:
@@ -197,6 +248,10 @@ collections:
   weapons:
     output:    true
     permalink: /equipment/weapons/:path/
+
+  ##########################
+  ### MAGIC ITEMS        ###
+  ##########################
 
   # equipment // magic items // armor // armor abilities
   magical_armor_abilities:
@@ -253,6 +308,10 @@ collections:
     output:    true
     permalink: /equipment/magic-items/wondrous/:path/
 
+  ##########################
+  ### PSIONIC ITEMS      ###
+  ##########################
+
   # equipment // psionic items // armor // armor abilities
   psionic_armor_abilities:
     output:    true
@@ -303,55 +362,63 @@ collections:
     output:    true
     permalink: /equipment/psionic-items/universal/:path/
 
+  ##########################
+  ### EPIC MAGIC ITEMS   ###
+  ##########################
+
   # equipment // epic magic items // armor // armor abilities
   epic_armor_abilities:
     output:    true
     permalink: /equipment/epic-magic-items/armor/abilities/:path/
 
-  # equipment // epic magic & psionic items // armor // specific armor
+  # equipment // epic magic items // armor // specific armor
   epic_specific_armor:
     output:    true
     permalink: /equipment/epic-magic-items/armor/specific/:path/
 
-  # equipment // epic magic & psionic items // weapons // weapon abilities
+  # equipment // epic magic items // weapons // weapon abilities
   epic_weapon_abilities:
     output:    true
     permalink: /equipment/epic-magic-items/weapons/abilities/:path/
 
-  # equipment // epic magic & psionic items // weapons // specific weapons
+  # equipment // epic magic items // weapons // specific weapons
   epic_specific_weapons:
     output:    true
     permalink: /equipment/epic-magic-items/weapons/specific/:path/
 
-  # equipment // epic magic & psionic items // potions & oils
+  # equipment // epic magic items // potions & oils
   epic_potions_oils:
     output:    true
     permalink: /equipment/epic-magic-items/potions-oils/:path/
 
-  # equipment // epic magic & psionic items // rings
+  # equipment // epic magic items // rings
   epic_rings:
     output:    true
     permalink: /equipment/epic-magic-items/rings/:path/
 
-  # equipment // epic magic & psionic items // rods
+  # equipment // epic magic items // rods
   epic_rods:
     output:    true
     permalink: /equipment/epic-magic-items/rods/:path/
 
-  # equipment // epic magic & psionic items // scrolls
+  # equipment // epic magic items // scrolls
   epic_scrolls:
     output:    true
     permalink: /equipment/epic-magic-items/scrolls/:path/
 
-  # equipment // epic magic & psionic items // staffs
+  # equipment // epic magic items // staffs
   epic_staffs:
     output:    true
     permalink: /equipment/epic-magic-items/staffs/:path/
 
-  # equipment // epic magic & psionic items // wondrous items
+  # equipment // epic magic items // wondrous items
   epic_wondrous_items:
     output:    true
     permalink: /equipment/epic-magic-items/wondrous/:path/
+
+  ##########################
+  ### EPIC PSIONIC ITEMS ###
+  ##########################
 
   # equipment // epic psionic items // armor // armor abilities
   epic_psionic_armor_abilities:
@@ -403,6 +470,10 @@ collections:
     output:    true
     permalink: /equipment/epic-psionic-items/universal/:path/
 
+  ##########################
+  ### INTELLIGENT ITEMS  ###
+  ##########################
+
   # equipment // intelligent items
   intelligent_items:
     output:    true
@@ -412,6 +483,10 @@ collections:
   epic_intelligent_items:
     output:    true
     permalink: /equipment/epic-intelligent-items/:path/
+
+  ##########################
+  ### CURSED ITEMS       ###
+  ##########################
 
   # equipment // cursed items
   cursed_items:
@@ -423,10 +498,18 @@ collections:
     output:    true
     permalink: /equipment/epic-cursed-items/:path/
 
+  ##########################
+  ### ARTIFACTS          ###
+  ##########################
+
   # equipment // artifacts
   artifacts:
     output:    true
     permalink: /equipment/artifacts/:path/
+
+  ## +-------------------------------------------------------------------------+
+  ## | MONSTERS                                                                |
+  ## +-------------------------------------------------------------------------+
 
   # monsters // list
   monsters:
@@ -438,45 +521,76 @@ collections:
     output:    true
     permalink: /monsters/templates/:path/
 
-  # setting // geography // regions & countries
-  regions:
-    output:    true
-    permalink: /setting/geography/regions/:path/
+  ## +-------------------------------------------------------------------------+
+  ## | SETTING                                                                 |
+  ## +-------------------------------------------------------------------------+
 
-  # setting // geography // cities
-  cities:
-    output:    true
-    permalink: /setting/geography/cities/:path/
+  ##########################
+  ### COSMOLOGY          ###
+  ##########################
 
   # setting // cosmology // planes
   planes:
     output:    true
     permalink: /setting/cosmology/planes/:path/
 
-  # setting // religion // deities
-  deities:
-    output:    true
-    permalink: /setting/religion/deities/:path/
+  ##########################
+  ### GEOGRAPHY          ###
+  ##########################
 
-  # setting // politics // organizations
-  organizations:
+  # setting // geography // cities
+  cities:
     output:    true
-    permalink: /setting/politics/organizations/:path/
+    permalink: /setting/geography/cities/:path/
 
-  # setting // politics // npcs
-  npcs:
+  # setting // geography // regions & countries
+  regions:
     output:    true
-    permalink: /setting/politics/npcs/:path/
+    permalink: /setting/geography/regions/:path/
+
+  ##########################
+  ### HISTORY            ###
+  ##########################
 
   # setting // history // events
   historical_events:
     output:    true
     permalink: /setting/history/events/:path/
 
+  ##########################
+  ### POLITICS           ###
+  ##########################
+
+  # setting // politics // npcs
+  npcs:
+    output:    true
+    permalink: /setting/politics/npcs/:path/
+
+  # setting // politics // organizations
+  organizations:
+    output:    true
+    permalink: /setting/politics/organizations/:path/
+
+  ##########################
+  ### RELIGION           ###
+  ##########################
+
+  # setting // religion // deities
+  deities:
+    output:    true
+    permalink: /setting/religion/deities/:path/
+
+  ## +-------------------------------------------------------------------------+
+  ## | MISC                                                                    |
+  ## +-------------------------------------------------------------------------+
+
   # misc // credits
   credits:
     output:    true
     permalink: /misc/credits/:path/
+
+#******************************************************************************#
+#******************************************************************************#
 
 defaults:
   - scope:
@@ -519,6 +633,18 @@ defaults:
           url: "game-rules/adventuring/combat/special-attacks"
 
   - scope:
+      path: "game-rules/feats"
+    values:
+      sectionTitle: "Feats"
+      sectionNav:
+        - title: "Overview"
+          url: "game-rules/feats/overview"
+        - title: "Feat Descriptions"
+          url: "game-rules/feats/descriptions"
+        - title: "Feat Index"
+          url: "game-rules/feats/feat-index"
+
+  - scope:
       path: "game-rules/magic"
     values:
       sectionTitle: "Magic"
@@ -558,7 +684,6 @@ defaults:
 
   - scope:
       path: "setting/cosmology/planes"
-      type: "pages"
     values:
       crumbs:      [setting, cosmology]
       crumbTitles: [Setting, Cosmology]
@@ -595,18 +720,6 @@ defaults:
         benefit:      ""
         normal:       ""
         special:      ""
-
-  - scope:
-      path: "game-rules/feats"
-    values:
-      sectionTitle: "Feats"
-      sectionNav:
-        - title: "Overview"
-          url: "game-rules/feats/overview"
-        - title: "Feat Descriptions"
-          url: "game-rules/feats/descriptions"
-        - title: "Feat Index"
-          url: "game-rules/feats/feat-index"
 
   - scope:
       path: ""
