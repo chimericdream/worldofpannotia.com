@@ -186,8 +186,7 @@ collections:
 
   # equipment // special materials
   special_materials:
-    output:    true
-    permalink: /equipment/special-materials/:path/
+    output:    false
 
   # equipment // armor
   armor:
