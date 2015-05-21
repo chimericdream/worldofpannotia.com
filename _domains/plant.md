@@ -7,13 +7,13 @@ domain:
 
     Add _knowledge (nature)_ to your list of cleric class skills.
   spells: |
-     1. Entangle
-     1. Barkskin
-     1. Plant Growth
-     1. Command Plants
-     1. Wall of Thorns
-     1. Repel Wood
-     1. Animate Plants
-     1. Control Plants
-     1. Shambler
+     1. {% spell_link entangle %}
+     1. {% spell_link barkskin %}
+     1. {% spell_link plant-growth %}
+     1. {% spell_link command-plants %}
+     1. {% spell_link wall-of-thorns %}
+     1. {% spell_link repel-wood %}
+     1. {% spell_link animate-plants %}
+     1. {% spell_link control-plants %}
+     1. {% spell_link shambler %}
 ---

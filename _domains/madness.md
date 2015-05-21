@@ -9,13 +9,13 @@ domain:
 
     Once per day, the character can see and act with the clarity of true madness. Use the character's Insanity score as a positive rather than a negative modifier on a single roll involving Wisdom. Choose to use this power before the roll is made.
   spells: |
-     1. Confusion, Lesser
-     1. Touch of Madness
-     1. Rage
-     1. Confusion
-     1. Bolts of Bedevilment
-     1. Phantasmal Killer
-     1. Insanity
-     1. Maddening Scream
-     1. Weird
+     1. {% spell_link confusion-lesser %}
+     1. {% spell_link touch-of-madness %}
+     1. {% spell_link rage %}
+     1. {% spell_link confusion %}
+     1. {% spell_link bolts-of-bedevilment %}
+     1. {% spell_link phantasmal-killer %}
+     1. {% spell_link insanity %}
+     1. {% spell_link maddening-scream %}
+     1. {% spell_link weird %}
 ---

@@ -5,13 +5,13 @@ domain:
   grantedPower: |
     You cast harming spells (such as the inflict spells) at +1 caster level.
   spells: |
-     1. Inflict Light Wounds
-     1. Inflict Moderate Wounds
-     1. Inflict Serious Wounds
-     1. Inflict Critical Wounds
-     1. Inflict Light Wounds, Mass
-     1. Harm
-     1. Destruction
-     1. Inflict Critical Wounds, Mass
-     1. Harm, Mass
+     1. {% spell_link inflict-light-wounds %}
+     1. {% spell_link inflict-moderate-wounds %}
+     1. {% spell_link inflict-serious-wounds %}
+     1. {% spell_link inflict-critical-wounds %}
+     1. {% spell_link inflict-light-wounds-mass %}
+     1. {% spell_link harm %}
+     1. {% spell_link destruction %}
+     1. {% spell_link inflict-critical-wounds-mass %}
+     1. {% spell_link harm-mass %}
 ---

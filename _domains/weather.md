@@ -5,13 +5,13 @@ domain:
   grantedPower: |
     _survival_ is a class skill.
   spells: |
-     1. Obscuring Mist
-     1. Fog Cloud
-     1. Call Lightning
-     1. Sleet Storm
-     1. Call Lightning Storm
-     1. Control Winds
-     1. Control Weather
-     1. Whirlwind
-     1. Storm of Vengeance
+     1. {% spell_link obscuring-mist %}
+     1. {% spell_link fog-cloud %}
+     1. {% spell_link call-lightning %}
+     1. {% spell_link sleet-storm %}
+     1. {% spell_link call-lightning-storm %}
+     1. {% spell_link control-winds %}
+     1. {% spell_link control-weather %}
+     1. {% spell_link whirlwind %}
+     1. {% spell_link storm-of-vengeance %}
 ---

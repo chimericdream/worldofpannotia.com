@@ -5,13 +5,13 @@ domain:
   grantedPower: |
     Free Martial Weapon Proficiency with deity's favored weapon (if necessary) and Weapon Focus with the deity's favored weapon.
   spells: |
-     1. Magic Weapon
-     1. Spiritual Weapon
-     1. Magic Vestment
-     1. Divine Power
-     1. Flame Strike
-     1. Blade Barrier
-     1. Power Word Blind
-     1. Power Word Stun
-     1. Power Word Kill
+     1. {% spell_link magic-weapon %}
+     1. {% spell_link spiritual-weapon %}
+     1. {% spell_link magic-vestment %}
+     1. {% spell_link divine-power %}
+     1. {% spell_link flame-strike %}
+     1. {% spell_link blade-barrier %}
+     1. {% spell_link power-word-blind %}
+     1. {% spell_link power-word-stun %}
+     1. {% spell_link power-word-kill %}
 ---

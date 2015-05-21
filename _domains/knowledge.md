@@ -7,13 +7,13 @@ domain:
 
     You cast divination spells at +1 caster level.
   spells: |
-     1. Detect Secret Doors
-     1. Detect Thoughts
-     1. Clairaudience/Clairvoyance
-     1. Divination
-     1. True Seeing
-     1. Find the Path
-     1. Legend Lore
-     1. Discern Location
-     1. Foresight
+     1. {% spell_link detect-secret-doors %}
+     1. {% spell_link detect-thoughts %}
+     1. {% spell_link clairaudience-clairvoyance %}
+     1. {% spell_link divination %}
+     1. {% spell_link true-seeing %}
+     1. {% spell_link find-the-path %}
+     1. {% spell_link legend-lore %}
+     1. {% spell_link discern-location %}
+     1. {% spell_link foresight %}
 ---

@@ -5,15 +5,15 @@ domain:
   grantedPower: |
     You cast evil spells at +1 caster level.
   spells: |
-     1. Protection from Good
-     1. Desecrate
-     1. Magic Circle Against Good
-     1. Unholy Blight
-     1. Dispel Good
-     1. Create Undead
-     1. Blasphemy
-     1. Unholy Aura
-     1. Summon Monster IX<sup>1</sup>
+     1. {% spell_link protection-from-good %}
+     1. {% spell_link desecrate %}
+     1. {% spell_link magic-circle-against-good %}
+     1. {% spell_link unholy-blight %}
+     1. {% spell_link dispel-good %}
+     1. {% spell_link create-undead %}
+     1. {% spell_link blasphemy %}
+     1. {% spell_link unholy-aura %}
+     1. {% spell_link summon-monster-ix %}<sup>1</sup>
   notes: |
     <sup>1</sup>Cast as an evil spell only.
 ---

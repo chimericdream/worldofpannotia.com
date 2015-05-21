@@ -5,13 +5,13 @@ domain:
   grantedPower: |
     The character gains a +2 morale bonus on all saving throws against enchantment spells or effects.
   spells: |
-     1. Remove Fear
-     1. Remove Paralysis
-     1. Remove Curse
-     1. Freedom of Movement
-     1. Break Enchantment
-     1. Dispel Magic, Greater
-     1. Refuge
-     1. Mind Blank
-     1. Freedom
+     1. {% spell_link remove-fear %}
+     1. {% spell_link remove-paralysis %}
+     1. {% spell_link remove-curse %}
+     1. {% spell_link freedom-of-movement %}
+     1. {% spell_link break-enchantment %}
+     1. {% spell_link dispel-magic-greater %}
+     1. {% spell_link refuge %}
+     1. {% spell_link mind-blank %}
+     1. {% spell_link freedom %}
 ---
