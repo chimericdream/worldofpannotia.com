@@ -1,16 +1,15 @@
 # Where things are
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
-collections: null
+source:      ./src
+destination: ./dist
+plugins:     ./plugins
+layouts:     ./src/_layouts
+data_source: ./src/_data
 
-url: http://pannotia.jekyll.dev:8888
+url: http://chimericdream.github.io/worldofpannotia.com
 
 # Handling Reading
 safe:         false
-include:      [".htaccess"]
+include:      [".htaccess", ".nojekyll"]
 exclude:      ["_backup", "nbproject"]
 keep_files:   [".git", ".svn"]
 encoding:     "utf-8"
