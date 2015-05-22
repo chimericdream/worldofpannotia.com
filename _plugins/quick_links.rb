@@ -1,8 +1,8 @@
 module Jekyll
-  module PannotiaTags
+  module PannotiaLinkTags
     VERSION = "0.1.0"
 
-    class DomainLinkTag
+    class DomainLink
       TagName = 'domain_link'
       Syntax = /^(\w+(?:\-\w+)*)(?: "([^"]+)")?$/
 
@@ -39,7 +39,7 @@ eos
       end
     end
 
-    class EpicSpellLinkTag
+    class EpicSpellLink
       TagName = 'epic_spell_link'
       Syntax = /^(\w+(?:\-\w+)*)(?: "([^"]+)")?$/
 
@@ -76,7 +76,7 @@ eos
       end
     end
 
-    class FeatLinkTag
+    class FeatLink
       TagName = 'feat_link'
       Syntax = /^(\w+(?:\-\w+)*)(?: "([^"]+)")?$/
 
@@ -113,7 +113,44 @@ eos
       end
     end
 
-    class SkillLinkTag
+    class PlaneLink
+      TagName = 'plane_link'
+      Syntax = /^(\w+(?:\-\w+)*)(?: "([^"]+)")?$/
+
+      def initialize(tag_name, markup, tokens)
+        if markup && markup.strip =~ Syntax
+          @plane_slug = $1
+          @plane_link_text = $2
+        else
+          raise SyntaxError.new("Syntax Error in '#{TagName}' - Valid syntax: #{TagName} <slug>")
+        end
+      end
+
+      def render(context)
+        site = context.registers[:site]
+
+        site.collections["planes"].docs.each do |plane|
+          if @plane_slug == plane.basename_without_ext
+            if @plane_link_text != nil
+              title = @plane_link_text
+            else
+              title = plane.data["title"]
+            end
+            return <<-MARKUP.strip
+              <a href="#{plane.url}" title="#{plane.data["title"]}"><em>#{title}</em></a>
+            MARKUP
+          end
+        end
+
+        raise ArgumentError.new <<-eos
+Could not find page "#{@plane_slug}" in collection "planes" in tag '#{TagName}'.
+
+Make sure the page exists and the name is correct.
+eos
+      end
+    end
+
+    class SkillLink
       TagName = 'skill_link'
       Syntax = /^(\w+(?:\-\w+)*)(?: "([^"]+)")?$/
 
@@ -150,7 +187,7 @@ eos
       end
     end
 
-    class SpellLinkTag
+    class SpellLink
       TagName = 'spell_link'
       Syntax = /^(\w+(?:\-\w+)*)(?: "([^"]+)")?$/
 
@@ -189,8 +226,8 @@ eos
   end
 end
 
-Liquid::Template.register_tag(Jekyll::PannotiaTags::DomainLinkTag::TagName, Jekyll::PannotiaTags::DomainLinkTag)
-Liquid::Template.register_tag(Jekyll::PannotiaTags::EpicSpellLinkTag::TagName, Jekyll::PannotiaTags::EpicSpellLinkTag)
-Liquid::Template.register_tag(Jekyll::PannotiaTags::FeatLinkTag::TagName, Jekyll::PannotiaTags::FeatLinkTag)
-Liquid::Template.register_tag(Jekyll::PannotiaTags::SkillLinkTag::TagName, Jekyll::PannotiaTags::SkillLinkTag)
-Liquid::Template.register_tag(Jekyll::PannotiaTags::SpellLinkTag::TagName, Jekyll::PannotiaTags::SpellLinkTag)
+Liquid::Template.register_tag(Jekyll::PannotiaLinkTags::DomainLink::TagName, Jekyll::PannotiaLinkTags::DomainLink)
+Liquid::Template.register_tag(Jekyll::PannotiaLinkTags::EpicSpellLink::TagName, Jekyll::PannotiaLinkTags::EpicSpellLink)
+Liquid::Template.register_tag(Jekyll::PannotiaLinkTags::FeatLink::TagName, Jekyll::PannotiaLinkTags::FeatLink)
+Liquid::Template.register_tag(Jekyll::PannotiaLinkTags::SkillLink::TagName, Jekyll::PannotiaLinkTags::SkillLink)
+Liquid::Template.register_tag(Jekyll::PannotiaLinkTags::SpellLink::TagName, Jekyll::PannotiaLinkTags::SpellLink)

@@ -21,7 +21,7 @@ combo:
   special: |
     Damage from this spell does not break the fascination effect, although damage or effects from other sources will.
   description: |
-    Brilliant and colorful flames dance and fascinate those within the area of effect. The flame of fascination will fascinate a maximum of 24 Hit Dice of creatures. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell's point of origin are affected first. An affected creature that fails its saves is <a href="#">fascinated</a> by the pattern.
+    Brilliant and colorful flames dance and fascinate those within the area of effect. The flame of fascination will fascinate a maximum of 24 Hit Dice of creatures. Creatures with the fewest HD are affected first. Among creatures with equal HD, those who are closest to the spell's point of origin are affected first. An affected creature that fails its saves is fascinated by the pattern.
 
     Creatures that fail their Will save take 2d4 damage per round. The wall deals double damage to undead creatures. If the creature passes its initial save, it must also make a Reflex save or take &#189; damage.
 

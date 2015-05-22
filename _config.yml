@@ -531,8 +531,7 @@ collections:
 
   # setting // cosmology // planes
   planes:
-    output:    true
-    permalink: /setting/cosmology/planes/:path/
+    output:    false
 
   ##########################
   ### GEOGRAPHY          ###
