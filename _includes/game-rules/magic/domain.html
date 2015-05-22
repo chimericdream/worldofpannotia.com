@@ -1,0 +1,14 @@
+{% assign domain = include.domain %}
+
+{% capture ogc %}
+<h3>Granted Power</h3>
+{{ domain.grantedPower }}
+
+<h3>Spells</h3>
+{{ domain.spells | markdownify | liquify }}
+
+{% if domain.notes != "" %}<h4>Notes</h4>
+{{ domain.notes | markdownify }}{% endif %}
+{% endcapture %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}

@@ -1,0 +1,53 @@
+---
+title: "Sever Magic (Ritual)"
+
+spell:
+  schools:
+    - name: "Necromancy"
+      subschools: []
+      descriptors: []
+  spellcraftDc: 120
+  components: [V, Ritual, XP]
+  castingTime: "5 minutes"
+  range: "Touch (must maintain contact for entire casting time)"
+  target: "Creature touched"
+  duration: "Instantaneous"
+  savingThrow: "Will negates (DC +10)"
+  spellResistance: "Yes"
+  xpCost: 5000
+  toDevelop:
+    gp: 1080000
+    time: "22 days"
+    xp: 43200
+    seeds:
+      - desc: "dispel"
+        dc: "19"
+      - desc: heal (alternate, DC 25)
+      - desc: slay (alternate, DC 25)
+      - desc: "destroy"
+        dc: "29"
+    factors:
+      - desc: "change range to touch"
+        dc: "+4"
+      - desc: "save DC increased by +10"
+        dc: "+20"
+      - desc: "permanent"
+        dc: "&times;5"
+    mitigatingFactors:
+      - desc: "burn 5,000 XP"
+        dc: "-50"
+      - desc: "increase casting time to 5 minutes"
+        dc: "-10"
+      - desc: "two additional casters contributing one epic spell slot"
+        dc: "-38"
+  description: |
+    This spell allows a character to take away the ability for another character to use arcane magic and channel its power as other magic using characters do. Also, during the casting of this spell, two other spellcasters must each contribute an epic spell slot.
+
+    Upon the completion of this spell, if the target fails its Will save, all of its spells are erased from memory and its ability to learn and cast spells is revoked. This effect cannot be reversed, except with a *miracle* or *wish* spell cast by someone of a higher level than the caster. Sorcerers, because of their more primal attachment to magic, are granted a +4 to the Will save for this spell. The target retains his level and experience, but may not use any spells given by any classes. Racial spell-like abilities are not affected by this spell, as they are too closely tied to the life force of the target. The target may also still use magical items and equipment, though may be required to make *use magic device* checks (as a non-magic using character) where applicable.
+
+    The spell is also devastating to the caster, causing them to suffer a -20 penalty on all magic related checks (caster level checks, saves vs. spell effects, etc) for one full week. In addition, the caster must pay an XP cost of 5,000xp, representing the enormous toll this spell has on the body and mind.
+
+    This spell has no effect on a spellcaster who uses divine magic.
+
+    __History:__ This spell has been used only a few times throughout history as punishment for evil spellcasters who were found guilty of war crimes. Rather than be sentenced to death, some were given the different (possibly worse) punishment of forever wandering the lands without the magic they held so dear. Often times, these mages were killed not long after the ritual. Usually, bands of mercenaries hunted them down and enacted their own revenge for the treacherous crimes committed by the former spellcaster.
+---

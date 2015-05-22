@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            
+              Carrying Capacity &bull;
+            
+            
+            
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="http://pannotia.jekyll.dev:8888/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="http://pannotia.jekyll.dev:8888/assets/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="http://pannotia.jekyll.dev:8888/assets/css/bootstrap-submenu.min.css">
+        <style>
+            body {padding-top: 70px;}
+            table[data-caption]::before {
+                content: attr(data-caption);
+                display: table-caption;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                color: #777;
+                text-align: left;
+            }
+            tbody tr > td:empty {
+                background-color: #f9f9f9;
+                content: "&ndash;";
+                text-align: center;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                font-weight: bold;
+            }
+            .indented-list-group-item {
+                margin-left: 15px;
+            }
+            .panel > .list-group:last-child .indented-list-group-item:last-child,
+            .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
+                border-bottom-left-radius: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://pannotia.jekyll.dev:8888/">World of Pannotia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/basics/" title="Basics">Basics</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Races" class="dropdown-toggle" data-toggle="dropdown" role="button">Races</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/races/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/races/descriptions/" title="Descriptions">Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/classes/base-classes/" title="Base Classes">Base Classes</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/classes/epic-prestige-classes/" title="Epic Prestige Classes">Epic Prestige Classes</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/classes/racial-classes/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/classes/multiclass-characters/" title="Multiclass Characters">Multiclass Characters</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Skills" class="dropdown-toggle" data-toggle="dropdown" role="button">Skills</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/skills/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/skills/using-skills/" title="Using Skills">Using Skills</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/skills/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/skills/epic-skill-uses/" title="Epic Skill Uses">Epic Skill Uses</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Feats" class="dropdown-toggle" data-toggle="dropdown" role="button">Feats</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Feat Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Feat Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/general/" title="General">General</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/fighter/" title="Fighter">Fighter</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/item-creation/" title="Item Creation">Item Creation</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/metamagic/" title="Metamagic">Metamagic</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/psionic/" title="Psionic">Psionic</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/metapsionic/" title="Metapsionic">Metapsionic</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/divine/" title="Divine">Divine</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/monster/" title="Monster">Monster</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-lists/epic/" title="Epic">Epic</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/feats/feat-index/" title="Feat Index">Feat Index</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Magic" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-descriptions/" title="Spell Descriptions">Spell Descriptions</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/arcane-spells/" title="Arcane Spells">Arcane Spells</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/divine-spells/" title="Divine Spells">Divine Spells</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-index/" title="Spell Index">Spell Index</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/domains/" title="Domains">Domains</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Spell Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-lists/bard/" title="Bard">Bard</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-lists/cleric/" title="Cleric">Cleric</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-lists/druid/" title="Druid">Druid</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-lists/paladin/" title="Paladin">Paladin</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-lists/ranger/" title="Ranger">Ranger</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-lists/sorcerer-wizard/" title="Sorcerer/Wizard">Sorcerer/Wizard</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Spell Combinations" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Combinations</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-combinations/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-combinations/developing-spell-combinations/" title="Developing Spell Combinations">Developing Spell Combinations</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/spell-combinations/spell-combination-index/" title="Spell Combination Index">Spell Combination Index</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Epic Spells" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Spells</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/developing-epic-spells/" title="Developing Epic Spells">Developing Epic Spells</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/seeds/" title="Seeds">Seeds</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/magic/epic-spells/epic-spell-index/" title="Epic Spell Index">Epic Spell Index</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Psionics" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/psionics/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/psionics/power-descriptions/" title="Power Descriptions">Power Descriptions</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/psionics/power-index/" title="Power Index">Power Index</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/psionics/disciplines/" title="Disciplines">Disciplines</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Power Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Power Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/psionics/power-lists/psion-wilder/" title="Psion/Wilder">Psion/Wilder</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/psionics/power-lists/psychic-warrior/" title="Psychic Warrior">Psychic Warrior</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/psionics/epic-powers/" title="Epic Powers">Epic Powers</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Adventuring" class="dropdown-toggle" data-toggle="dropdown" role="button">Adventuring</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Combat" class="dropdown-toggle" data-toggle="dropdown" role="button">Combat</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/mechanics/" title="Mechanics">Mechanics</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/injury-death/" title="Injury & Death">Injury & Death</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Special Abilities" class="dropdown-toggle" data-toggle="dropdown" role="button">Special Abilities</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/special-abilities/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/special-abilities/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Carrying, Movement, & Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, & Exploration</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/carrying-movement-exploration/exploration/" title="Exploration">Exploration</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Wilderness & Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness & Environment</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/wilderness-environment/weather/" title="Weather">Weather</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/wilderness-environment/environment/" title="The Environment">The Environment</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Traps" class="dropdown-toggle" data-toggle="dropdown" role="button">Traps</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/traps/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/traps/designing-a-trap/" title="Designing a Trap">Designing a Trap</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/game-rules/adventuring/traps/specific-traps/" title="Specific Traps">Specific Traps</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Divine Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Divine Rules</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/divine-rules/divine-ranks/" title="Divine Ranks">Divine Ranks</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/divine-rules/divine-characteristics/" title="Divine Characteristics">Divine Characteristics</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/divine-rules/salient-divine-abilities/" title="Salient Divine Abilities">Salient Divine Abilities</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/divine-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/game-rules/divine-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/wealth-money/" title="Wealth & Money">Wealth & Money</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Goods & Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods & Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/goods-services/special-substances-items/" title="Special Substances & Items">Special Substances & Items</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/goods-services/tools-skill-sets/" title="Tools & Skill Sets">Tools & Skill Sets</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/goods-services/food-drink-lodging/" title="Food, Drink, & Lodging">Food, Drink, & Lodging</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/goods-services/mounts-related-gear/" title="Mounts & Related Gear">Mounts & Related Gear</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/goods-services/transport/" title="Transport">Transport</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/goods-services/spellcasting-services/" title="Spellcasting & Services">Spellcasting & Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/armor/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/armor/armor-descriptions/" title="Armor Descriptions">Armor Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/weapons/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/weapons/weapon-descriptions/" title="Weapon Descriptions">Weapon Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/armor/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/weapons/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Potions & Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions & Oils</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/potions-oils/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/potions-oils/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Rings" class="dropdown-toggle" data-toggle="dropdown" role="button">Rings</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/rings/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/rings/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Rods" class="dropdown-toggle" data-toggle="dropdown" role="button">Rods</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/rods/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/rods/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Scrolls" class="dropdown-toggle" data-toggle="dropdown" role="button">Scrolls</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/scrolls/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/scrolls/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Staffs" class="dropdown-toggle" data-toggle="dropdown" role="button">Staffs</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/staffs/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/staffs/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Wands" class="dropdown-toggle" data-toggle="dropdown" role="button">Wands</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/wands/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/wands/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Wondrous Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Wondrous Items</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/wondrous-items/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/magic-items/wondrous-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/creating-psionic-items/" title="Creating Psionic Items">Creating Psionic Items</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/armor/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/weapons/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Cognizance Crystals" class="dropdown-toggle" data-toggle="dropdown" role="button">Cognizance Crystals</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/cognizance-crystals/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/cognizance-crystals/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Dorjes" class="dropdown-toggle" data-toggle="dropdown" role="button">Dorjes</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/dorjes/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/dorjes/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Power Stones" class="dropdown-toggle" data-toggle="dropdown" role="button">Power Stones</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/power-stones/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/power-stones/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Psicrowns" class="dropdown-toggle" data-toggle="dropdown" role="button">Psicrowns</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/psicrowns/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/psicrowns/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Psionic Tattoos" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Tattoos <span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/psionic-tattoos/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/psionic-tattoos/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Universal Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Universal Items</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/universal-items/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/psionic-items/universal-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Epic Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Magic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/overview/" title="Overview">Overview</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/armor/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/weapons/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/potions-oils/" title="Potions & Oils">Potions & Oils</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-magic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Epic Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Psionic Items</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/armor/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/weapons/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/epic-psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Intelligent Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/intelligent-items/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/intelligent-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Epic Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Intelligent Items</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/intelligent-items/epic-intelligent-items/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/intelligent-items/epic-intelligent-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Cursed Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Cursed Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/cursed-items/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/cursed-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Epic Cursed Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Cursed Items</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/cursed-items/epic-cursed-items/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/equipment/cursed-items/epic-cursed-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Artifacts" class="dropdown-toggle" data-toggle="dropdown" role="button">Artifacts</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/artifacts/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/artifacts/minor-artifacts/" title="Minor Artifacts">Minor Artifacts</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/equipment/artifacts/major-artifacts/" title="Major Artifacts">Major Artifacts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button">Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.jekyll.dev:8888/monsters/introduction/" title="Introduction">Introduction</a></li>
+                        <li><a href="http://pannotia.jekyll.dev:8888/monsters/types-subtypes/" title="Types & Subtypes">Types & Subtypes</a></li>
+                        <li><a href="http://pannotia.jekyll.dev:8888/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Entries" class="dropdown-toggle" data-toggle="dropdown" role="button">Entries</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/monsters/entries/monsters/" title="Monsters">Monsters</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/monsters/entries/animals/" title="Animals">Animals</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/monsters/entries/vermin/" title="Vermin">Vermin</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Templates" class="dropdown-toggle" data-toggle="dropdown" role="button">Templates</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/monsters/templates/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/monsters/templates/template-index/" title="Template Index">Template Index</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button">Setting <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.jekyll.dev:8888/setting/introduction/" title="Introduction">Introduction</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Geography" class="dropdown-toggle" data-toggle="dropdown" role="button">Geography</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/geography/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/geography/world-map/" title="World Map">World Map</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/geography/regions-countries/" title="Regions & Countries">Regions & Countries</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/geography/cities/" title="Cities">Cities</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Cosmology" class="dropdown-toggle" data-toggle="dropdown" role="button">Cosmology</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/cosmology/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/cosmology/planar-traits/" title="Planar Traits">Planar Traits</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/cosmology/planes/" title="Planes">Planes</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Religion" class="dropdown-toggle" data-toggle="dropdown" role="button">Religion</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/religion/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="The Divine Tournament" class="dropdown-toggle" data-toggle="dropdown" role="button">The Divine Tournament</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="http://pannotia.jekyll.dev:8888/setting/religion/divine-tournament/introduction/" title="Introduction">Introduction</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/setting/religion/divine-tournament/history/" title="History">History</a></li>
+                                        <li><a href="http://pannotia.jekyll.dev:8888/setting/religion/divine-tournament/entering-the-tournament/" title="Entering the Tournament">Entering the Tournament</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Politics" class="dropdown-toggle" data-toggle="dropdown" role="button">Politics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/politics/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/politics/organizations/" title="Organizations">Organizations</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/politics/npcs/" title="NPCs">NPCs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="History" class="dropdown-toggle" data-toggle="dropdown" role="button">History</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/history/eras/" title="Eras">Eras</a></li>
+                                <li><a href="http://pannotia.jekyll.dev:8888/setting/history/events/" title="Events">Events</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
+                <li class="dropdown">
+                    <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="http://pannotia.jekyll.dev:8888/misc/credits/" title="Credits">Credits</a></li>
+                        <li><a href="http://pannotia.jekyll.dev:8888/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+        
+
+
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                
+                  
+                <li><a href="/game-rules/">Game Rules</a></li>
+                
+                  
+                <li><a href="/game-rules/adventuring/">Adventuring</a></li>
+                
+                  
+                <li><a href="/game-rules/adventuring/carrying-movement-exploration/">Carrying, Movement, &amp; Exploration</a></li>
+                
+                <li class="active">Carrying Capacity</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container">
+    
+    <header class="row">
+        <h2 class="col-xs-12">Carrying Capacity</h2>
+    </header>
+    
+
+    <article id="main-content" class="row">
+        <div class="col-xs-12">
+            <p>Encumbrance rules determine how much a character’s armor and equipment slow him or her down. Encumbrance comes in two parts: encumbrance by armor and encumbrance by total weight.</p>
+
+<p><strong>Encumbrance by Armor:</strong> A character’s armor defines his or her maximum Dexterity bonus to AC, armor check penalty, speed, and running speed. Unless your character is weak or carrying a lot of gear, that’s all you need to know. The extra gear your character carries won’t slow him or her down any more than the armor already does.</p>
+
+<p>If your character is weak or carrying a lot of gear, however, then you’ll need to calculate encumbrance by weight. Doing so is most important when your character is trying to carry some heavy object.</p>
+
+<p><strong>Weight:</strong> If you want to determine whether your character’s gear is heavy enough to slow him or her down more than the armor already does, total the weight of all the character’s items, including armor, weapons, and gear. Compare this total to the character’s Strength on <em>Table: Carrying Capacity</em>. Depending on how the weight compares to the character’s carrying capacity, he or she may be carrying a light, medium, or heavy load. Like armor, a character’s load affects his or her maximum Dexterity bonus to AC, carries a check penalty (which works like an armor check penalty), reduces the character’s speed, and affects how fast the character can run, as shown on <em>Table: Carrying Loads</em>. Additionally, a character’s base speed is affected when carrying a medium or heavy load, as shown on <em>Table: Reduced Speeds for Encumbered Characters</em>. A medium or heavy load counts as medium or heavy armor for the purpose of abilities or skills that are restricted by armor. Carrying a light load does not encumber a character.</p>
+
+<p>If your character is wearing armor, use the worse figure (from armor or from load) for each category. Do not stack the penalties.</p>
+
+<table id="carrying-loads-table" class="table table-bordered table-hover table-striped" data-caption="Table: Carrying Loads">
+  <thead>
+    <tr>
+      <th>Load</th>
+      <th>Max Dex</th>
+      <th>Check Penalty</th>
+      <th>Run Speed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Medium</td>
+      <td>+3</td>
+      <td>-3</td>
+      <td>×4</td>
+    </tr>
+    <tr>
+      <td>Heavy</td>
+      <td>+1</td>
+      <td>-6</td>
+      <td>×3</td>
+    </tr>
+  </tbody>
+</table>
+
+<table id="reduced-speed-table" class="table table-bordered table-hover table-striped" data-caption="Table: Reduced Speeds for Encumbered Characters">
+  <thead>
+    <tr>
+      <th>Base Speed</th>
+      <th>Reduced Speed</th>
+      <th>Base Speed</th>
+      <th>Reduced Speed</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>20 ft.</td>
+      <td>15 ft.</td>
+      <td>70 ft.</td>
+      <td>50 ft.</td>
+    </tr>
+    <tr>
+      <td>30 ft.</td>
+      <td>20 ft.</td>
+      <td>80 ft.</td>
+      <td>55 ft.</td>
+    </tr>
+    <tr>
+      <td>40 ft.</td>
+      <td>30 ft.</td>
+      <td>90 ft.</td>
+      <td>60 ft.</td>
+    </tr>
+    <tr>
+      <td>50 ft.</td>
+      <td>35 ft.</td>
+      <td>100 ft.</td>
+      <td>70 ft.</td>
+    </tr>
+    <tr>
+      <td>60 ft.</td>
+      <td>40 ft.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Lifting and Dragging:</strong> A character can lift as much as his or her maximum load over his or her head.</p>
+
+<p>A character can lift as much as double his or her maximum load off the ground, but he or she can only stagger around with it. While overloaded in this way, the character loses any Dexterity bonus to AC and can move only 5 feet per round (as a full-round action).</p>
+
+<p>A character can generally push or drag along the ground as much as five times his or her maximum load. Favorable conditions can double these numbers, and bad circumstances can reduce them to one-half or less.</p>
+
+<p><strong>Bigger and Smaller Creatures:</strong> The figures on <em>Table: Carrying Capacity</em> are for Medium bipedal creatures. A larger bipedal creature can carry more weight depending on its size category, as follows: Large ×2, Huge ×4, Gargantuan ×8, Colossal ×16. A smaller creature can carry less weight depending on its size category, as follows: Small ×¾, Tiny ×½, Diminutive ×¼, Fine ×⅛.</p>
+
+<p>Quadrupeds can carry heavier loads than characters can. Instead of the multipliers given above, multiply the value corresponding to the creature’s Strength score from <em>Table: Carrying Capacity</em> by the appropriate modifier, as follows: Fine ×¼, Diminutive ×½, Tiny ×¾, Small ×1, Medium ×1½, Large ×3, Huge ×6, Gargantuan ×12, Colossal ×24.</p>
+
+<p><strong>Tremendous Strength:</strong> For Strength scores not shown on <em>Table: Carrying Capacity</em>, find the Strength score between 20 and 29 that has the same number in the "ones" digit as the creature’s Strength score does and multiply the numbers in that for by 4 for every ten points the creature’s strength is above the score for that row.</p>
+
+<table id="carrying-capacity-table" class="table table-bordered table-hover table-striped" data-caption="Table: Carrying Capacity">
+  <thead>
+    <tr>
+      <th>Strength Score</th>
+      <th>Light Load</th>
+      <th>Medium Load</th>
+      <th>Heavy Load</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>3 lb. or less</td>
+      <td>4-6 lb.</td>
+      <td>7-10 lb.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>6 lb. or less</td>
+      <td>7-13 lb.</td>
+      <td>14-20 lb.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>10 lb. or less</td>
+      <td>11-20 lb.</td>
+      <td>21-30 lb.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>13 lb. or less</td>
+      <td>14-26 lb.</td>
+      <td>27-40 lb.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>16 lb. or less</td>
+      <td>17-33 lb.</td>
+      <td>34-50 lb.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>20 lb. or less</td>
+      <td>21-40 lb.</td>
+      <td>41-60 lb.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>23 lb. or less</td>
+      <td>24-46 lb.</td>
+      <td>47-70 lb.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>26 lb. or less</td>
+      <td>27-53 lb.</td>
+      <td>54-80 lb.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>30 lb. or less</td>
+      <td>31-60 lb.</td>
+      <td>61-90 lb.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>33 lb. or less</td>
+      <td>34-66 lb.</td>
+      <td>67-100 lb.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>38 lb. or less</td>
+      <td>39-76 lb.</td>
+      <td>77-115 lb.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>43 lb. or less</td>
+      <td>44-86 lb.</td>
+      <td>87-130 lb.</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>50 lb. or less</td>
+      <td>51-100 lb.</td>
+      <td>101-150 lb.</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>58 lb. or less</td>
+      <td>59-116 lb.</td>
+      <td>117-175 lb.</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>66 lb. or less</td>
+      <td>67-133 lb.</td>
+      <td>134-200 lb.</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>76 lb. or less</td>
+      <td>77-153 lb.</td>
+      <td>154-230 lb.</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>86 lb. or less</td>
+      <td>87-173 lb.</td>
+      <td>174-260 lb.</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>100 lb. or less</td>
+      <td>101-200 lb.</td>
+      <td>201-300 lb.</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>116 lb. or less</td>
+      <td>117-233 lb.</td>
+      <td>234-350 lb.</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>133 lb. or less</td>
+      <td>134-266 lb.</td>
+      <td>267-400 lb.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>153 lb. or less</td>
+      <td>154-306 lb.</td>
+      <td>307-460 lb.</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>173 lb. or less</td>
+      <td>174-346 lb.</td>
+      <td>347-520 lb.</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>200 lb. or less</td>
+      <td>201-400 lb.</td>
+      <td>401-600 lb.</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>233 lb. or less</td>
+      <td>234-466 lb.</td>
+      <td>467-700 lb.</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td>266 lb. or less</td>
+      <td>267-533 lb.</td>
+      <td>534-800 lb.</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>306 lb. or less</td>
+      <td>307-613 lb.</td>
+      <td>614-920 lb.</td>
+    </tr>
+    <tr>
+      <td>27</td>
+      <td>346 lb. or less</td>
+      <td>347-693 lb.</td>
+      <td>694-1,040 lb.</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>400 lb. or less</td>
+      <td>401-800 lb.</td>
+      <td>801-1,200 lb.</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>466 lb. or less</td>
+      <td>467-933 lb.</td>
+      <td>934-1,400 lb.</td>
+    </tr>
+    <tr>
+      <td>+10</td>
+      <td>×4</td>
+      <td>×4</td>
+      <td>×4</td>
+    </tr>
+  </tbody>
+</table>
+
+        </div>
+        
+
+
+    </article>
+</section>
+
+        <footer id="page-foot" class="container">
+            <p><a href="http://pannotia.jekyll.dev:8888/todo/">To do</a> | <a href="http://pannotia.jekyll.dev:8888/admin/">Admin</a></p>
+            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+        </footer>
+        <script src="http://pannotia.jekyll.dev:8888/assets/js/jquery.min.js"></script>
+        <script src="http://pannotia.jekyll.dev:8888/assets/js/bootstrap.min.js"></script>
+        <script src="http://pannotia.jekyll.dev:8888/assets/js/bootstrap-submenu.min.js"></script>
+        <script>
+            $('.dropdown-submenu > a').submenupicker();
+        </script>
+    </body>
+</html>

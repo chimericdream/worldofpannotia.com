@@ -1,0 +1,42 @@
+---
+title: "Dragon Strike (Ritual)"
+
+spell:
+  schools:
+    - name: "Conjuration"
+      subschools: [Summoning]
+      descriptors: [Fire]
+  spellcraftDc: 50
+  components: [V, S, Ritual, XP]
+  castingTime: "10 minutes"
+  range: "75 ft."
+  effect: "Ten summoned adult red dragons"
+  duration: "20 rounds"
+  dismissable: true
+  savingThrow: "None (see text)"
+  spellResistance: "No"
+  xpCost: 2000
+  toDevelop:
+    gp: 450000
+    time: "9 days"
+    xp: 18000
+    seeds:
+      - desc: "summon"
+        dc: "14"
+    factors:
+      - desc: "summon creature other than outsider"
+        dc: "+10"
+      - desc: "summon CR 14 creature"
+        dc: "+24"
+      - desc: "summon ten creatures"
+        dc: "&times;10"
+    mitigatingFactors:
+      - desc: "eleven additional casters contributing 9th-level spell slots"
+        dc: "-187"
+      - desc: "burn 2,000 XP per caster"
+        dc: "-240"
+      - desc: "3d6 backlash"
+        dc: "-3"
+  description: |
+    This spell summons ten adult red dragons. They appear where the character designates and act immediately. They attack the character's opponents to the best of their abilities (on the first round, they all prefer to simultaneously breathe fire on an enemy, if possible). The character can direct the dragons not to attack, to attack particular enemies, or to perform other actions.
+---
