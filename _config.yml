@@ -5,7 +5,7 @@ plugins:     ./plugins
 layouts:     ./src/_layouts
 data_source: ./src/_data
 
-url: http://worldofpannotia.com
+url: http://chimericdream.github.io/worldofpannotia.com
 
 # Handling Reading
 safe:         false
