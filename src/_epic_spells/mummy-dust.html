@@ -1,0 +1,36 @@
+---
+title: "Mummy Dust"
+
+spell:
+  schools:
+    - name: "Necromancy"
+      subschools: []
+      descriptors: [Evil]
+  spellcraftDc: 35
+  components: [V, S, M, XP]
+  castingTime: "1 standard action"
+  range: "Touch"
+  effect: "Two 18-HD mummies"
+  duration: "Instantaneous"
+  savingThrow: "None"
+  spellResistance: "No"
+  xpCost: 2000
+  materialComponents: ["Specially prepared mummy dust (10,000 gp)"]
+  toDevelop:
+    gp: 315000
+    time: "7 days"
+    xp: 12600
+    seeds:
+      - desc: "animate dead"
+        dc: "23"
+    factors:
+      - desc: "1-action casting time"
+        dc: "+20"
+    mitigatingFactors:
+      - desc: "burn 400 XP"
+        dc: "-4"
+      - desc: "expensive material component"
+        dc: "ad hoc -4"
+  description: |
+    When the character sprinkles the dust of ground mummies in conjunction with casting mummy dust, two Large 18-HD mummies (see below) spring up from the dust in an area adjacent to the character. The mummies follow the character's every command according to their abilities, until they are destroyed or the character loses control of them by attempting to control more Hit Dice of undead than he or she has caster levels.
+---

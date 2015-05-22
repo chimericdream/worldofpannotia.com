@@ -1,0 +1,56 @@
+---
+title: "Create Living Vault (Ritual)"
+
+spell:
+  schools:
+    - name: "Conjuration"
+      subschools: [Creation]
+      descriptors: []
+  spellcraftDc: 58
+  components: [V, S, XP, Ritual]
+  castingTime: "100 days, 11 minutes"
+  range: "0 ft."
+  effect: "One living vault, 50 ft. by 50 ft. by 10 ft."
+  duration: "Instantaneous"
+  savingThrow: "None"
+  spellResistance: "None"
+  xpCost: 20000
+  materialComponents: ["large chunk of stone"]
+  toDevelop:
+    gp: 540000
+    time: "11 days"
+    xp: 21600
+    seeds:
+      - desc: "animate"
+        dc: "25"
+      - desc: "fortify"
+        dc: "27"
+    factors:
+      - desc: "allow vault to \"grow\" to proper size in 4d4 days"
+        dc: "ad hoc +20"
+      - desc: "increase HD of object by 92"
+        dc: "+184"
+      - desc: "grant magical immunity"
+        dc: "ad hoc +105"
+      - desc: "increase damage reduction to 30 (+29 DC) and to /+7"
+        dc: "+18"
+      - desc: "permanent"
+        dc: "&times;5"
+    mitigatingFactors:
+      - desc: "increase casting time by 10 minutes"
+        dc: "-20"
+      - desc: "increase casting time by 100 days"
+        dc: "-200"
+      - desc: "16d6 backlash"
+        dc: "-16"
+      - desc: "seven additional casters contributing one epic spell slot"
+        dc: "-133"
+      - desc: "four additional casters contributing one 2nd-level spell slot"
+        dc: "-12"
+      - desc: "one additional caster contributing one 1st-level spell slot"
+        dc: "-1"
+      - desc: "burn 20,000 XP per epic caster"
+        dc: "-1,600"
+  description: |
+    The character creates a construct known as a living vault to protect and hide his or her treasures. Upon completion, the vault initially measures only 5 feet on a side, but it gradually increases to its proper size over the following 4d4 days. The vault is attuned to the character, allowing him or her alone entrance and egress in a manner similar to a dimension door spell. When the character desires the vault to hide itself, he or she gives it a simple command. To summon the vault, the character may cast a sending spell or arrange some other manner to contact it.
+---
