@@ -1,2 +1,4 @@
 .jekyll-metadata
 _site
+npm-debug.log
+node_modules
