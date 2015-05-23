@@ -5,5 +5,5 @@ crumbTitles: [Game Rules, Magic]
 ---
 
 {% for item in site.domains %}
- * [{{ item.title }}]({{ item.url }})
+ * [{{ item.title }}]({{ site.url }}{{ item.url }})
 {% endfor %}
