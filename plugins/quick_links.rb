@@ -26,7 +26,7 @@ module Jekyll
               title = domain.data["title"]+" Domain"
             end
             return <<-MARKUP.strip
-              <a href="#{site.config["url"]}/#{domain.url}" title="#{domain.data["title"]} Domain"><em>#{title}</em></a>
+              <a href="#{site.config["url"]}#{domain.url}" title="#{domain.data["title"]} Domain"><em>#{title}</em></a>
             MARKUP
           end
         end
@@ -63,7 +63,7 @@ eos
               title = epic_spell.data["title"]
             end
             return <<-MARKUP.strip
-              <a href="#{site.config["url"]}/#{epic_spell.url}" title="#{epic_spell.data["title"]}"><em>#{title}</em></a>
+              <a href="#{site.config["url"]}#{epic_spell.url}" title="#{epic_spell.data["title"]}"><em>#{title}</em></a>
             MARKUP
           end
         end
@@ -100,7 +100,7 @@ eos
               title = feat.data["title"]
             end
             return <<-MARKUP.strip
-              <a href="#{site.config["url"]}/#{feat.url}" title="#{feat.data["title"]}"><em>#{title}</em></a>
+              <a href="#{site.config["url"]}#{feat.url}" title="#{feat.data["title"]}"><em>#{title}</em></a>
             MARKUP
           end
         end
@@ -137,7 +137,7 @@ eos
               title = plane.data["title"]
             end
             return <<-MARKUP.strip
-              <a href="#{site.config["url"]}/#{plane.url}" title="#{plane.data["title"]}"><em>#{title}</em></a>
+              <a href="#{site.config["url"]}#{plane.url}" title="#{plane.data["title"]}"><em>#{title}</em></a>
             MARKUP
           end
         end
@@ -174,7 +174,7 @@ eos
               title = skill.data["title"]
             end
             return <<-MARKUP.strip
-              <a href="#{site.config["url"]}/#{skill.url}" title="#{skill.data["title"]}"><em>#{title}</em></a>
+              <a href="#{site.config["url"]}#{skill.url}" title="#{skill.data["title"]}"><em>#{title}</em></a>
             MARKUP
           end
         end
@@ -211,7 +211,7 @@ eos
               title = spell.data["title"]
             end
             return <<-MARKUP.strip
-              <a href="#{site.config["url"]}/#{spell.url}" title="#{spell.data["title"]}"><em>#{title}</em></a>
+              <a href="#{site.config["url"]}#{spell.url}" title="#{spell.data["title"]}"><em>#{title}</em></a>
             MARKUP
           end
         end
