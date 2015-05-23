@@ -138,7 +138,6 @@
             showBanner();
             grunt.option('force', true);
             grunt.task.run([
-                'shell:jekyll',
                 'buildcontrol:pages'
             ]);
         });
