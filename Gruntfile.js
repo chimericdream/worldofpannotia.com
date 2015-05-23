@@ -77,9 +77,30 @@
                         }
                     ]
                 }
+            },
+            buildcontrol: {
+                options: {
+                    dir: 'dist',
+                    commit: true,
+                    push: true,
+                    message: 'Built %sourceName% from commit %sourceCommit% on branch %sourceBranch%'
+                },
+                pages: {
+                    options: {
+                        remote: 'git@github.com:chimericdream/worldofpannotia.com.git',
+                        branch: 'gh-pages'
+                    }
+                },
+                local: {
+                    options: {
+                        remote: '../',
+                        branch: 'build'
+                    }
+                }
             }
         });
 
+        grunt.loadNpmTasks('grunt-build-control');
         grunt.loadNpmTasks('grunt-contrib-clean');
         grunt.loadNpmTasks('grunt-contrib-copy');
         grunt.loadNpmTasks('grunt-shell');
@@ -113,16 +134,13 @@
             ]);
         });
 
-//        grunt.registerTask('deploy', 'Copy the source files in to the dist directory and build the documentation', function() {
-//            showBanner();
-//            grunt.option('force', true);
-//            grunt.task.run([
-//                'clean:deploy',
-//                'clean:apidoc',
-//                'copy:main',
-//                'replace:pannotia_info',
-//                'shell:apigen'
-//            ]);
-//        });
+        grunt.registerTask('deploy', 'Copy the source files in to the dist directory and build the documentation', function() {
+            showBanner();
+            grunt.option('force', true);
+            grunt.task.run([
+                'shell:jekyll'
+                'buildcontrol:pages'
+            ]);
+        });
     };
 })();
