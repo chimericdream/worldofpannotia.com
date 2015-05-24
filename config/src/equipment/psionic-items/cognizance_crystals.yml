@@ -1,0 +1,6 @@
+collections:
+  cognizance_crystals:
+    output:    true
+    permalink: /equipment/psionic-items/cognizance-crystals/:path/
+
+defaults:

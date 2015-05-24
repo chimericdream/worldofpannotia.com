@@ -1,0 +1,6 @@
+collections:
+  epic_staffs:
+    output:    true
+    permalink: /equipment/epic-magic-items/staffs/:path/
+
+defaults:

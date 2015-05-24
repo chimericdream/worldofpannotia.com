@@ -1,0 +1,6 @@
+collections:
+  traps:
+    output:    true
+    permalink: /game-rules/adventuring/traps/:path/
+
+defaults:

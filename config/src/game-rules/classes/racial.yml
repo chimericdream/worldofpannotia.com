@@ -1,0 +1,6 @@
+collections:
+  racial_classes:
+    output:    true
+    permalink: /game-rules/classes/racial/:path/
+
+defaults:

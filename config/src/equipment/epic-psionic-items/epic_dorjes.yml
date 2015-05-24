@@ -1,0 +1,6 @@
+collections:
+  epic_dorjes:
+    output:    true
+    permalink: /equipment/epic-psionic-items/dorjes/:path/
+
+defaults:

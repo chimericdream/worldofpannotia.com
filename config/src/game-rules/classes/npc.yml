@@ -1,0 +1,6 @@
+collections:
+  npc_classes:
+    output:    true
+    permalink: /game-rules/classes/npc/:path/
+
+defaults:

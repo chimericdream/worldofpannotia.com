@@ -1,0 +1,6 @@
+collections:
+  staffs:
+    output:    true
+    permalink: /equipment/magic-items/staffs/:path/
+
+defaults:

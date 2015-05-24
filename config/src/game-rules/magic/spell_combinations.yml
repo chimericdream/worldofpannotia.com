@@ -1,0 +1,50 @@
+collections:
+  spell_combinations:
+    output:    true
+    permalink: /game-rules/magic/spell-combinations/spell-combination-index/:path/
+
+defaults:
+  - scope:
+      path: "game-rules/magic/spell-combinations"
+    values:
+      activeSection: "game-rules/magic/spell-combinations/overview"
+      subSectionParent: "game-rules/magic/spell-combinations/overview"
+      subSectionNav:
+        - title: "Overview"
+          url: "game-rules/magic/spell-combinations/overview"
+        - title: "Developing spell Combinations"
+          url: "game-rules/magic/spell-combinations/developing-spell-combinations"
+        - title: "Spell Combination Index"
+          url: "game-rules/magic/spell-combinations/spell-combination-index"
+
+  - scope:
+      path: ""
+      type: spell_combinations
+    values:
+      layout:           "game-rules/magic/spell-combination"
+      crumbs:           [game-rules, magic, spell-combinations/overview]
+      crumbTitles:      [Game Rules, Magic, Spell Combinations]
+      activeSubSection: "game-rules/magic/spell-combinations/spell-combination-index"
+      combo:
+        schools:            [] # {name: "", subschools: [], descriptors: []}
+        classes:            [] # {name: "", abbr: "", level: 0}
+        domains:            [] # same format as classes
+        componentSpells:    []
+        components:         []
+        castingTime:        ""
+        range:              ""
+        area:               ""
+        effect:             ""
+        target:             ""
+        duration:           ""
+        dismissable:        false
+        savingThrow:        ""
+        spellResistance:    ""
+        xpCost:             0
+        xpCostSpecial:      ""
+        materialComponents: []
+        focus:              ""
+        divineFocus:        ""
+        special:            ""
+        fluffText:          ""
+        description:        ""

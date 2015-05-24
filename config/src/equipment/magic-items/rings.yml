@@ -1,0 +1,6 @@
+collections:
+  rings:
+    output:    true
+    permalink: /equipment/magic-items/rings/:path/
+
+defaults:

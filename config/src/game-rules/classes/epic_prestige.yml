@@ -1,0 +1,6 @@
+collections:
+  epic_prestige_classes:
+    output:    true
+    permalink: /game-rules/classes/epic-prestige/:path/
+
+defaults:

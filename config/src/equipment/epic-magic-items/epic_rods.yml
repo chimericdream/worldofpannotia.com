@@ -1,0 +1,6 @@
+collections:
+  epic_rods:
+    output:    true
+    permalink: /equipment/epic-magic-items/rods/:path/
+
+defaults:

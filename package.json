@@ -5,9 +5,9 @@
   "version": "0.6.0",
   "homepage": "https://github.com/chimericdream/worldofpannotia.com",
   "author": {
-      "name": "Bill Parrott",
-      "email": "bill@chimericdream.com",
-      "url": "http://chimericdream.com/"
+    "name": "Bill Parrott",
+    "email": "bill@chimericdream.com",
+    "url": "http://chimericdream.com/"
   },
   "copyright": "2014-15 Bill Parrott",
   "license": {
@@ -19,7 +19,12 @@
     "grunt-build-control": "^0.5.0",
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-copy": "^0.8.0",
+    "grunt-convert": "^0.1.12",
+    "grunt-jekyll": "^0.4.2",
+    "grunt-json-merge": "^0.2.2",
+    "grunt-merge-json": "^0.9.5",
     "grunt-shell": "1.x",
-    "grunt-text-replace": "^0.4.0"
+    "grunt-text-replace": "^0.4.0",
+    "grunt-yaml": "^0.4.1"
   }
 }

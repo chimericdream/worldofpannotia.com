@@ -1,0 +1,6 @@
+collections:
+  potions_oils:
+    output:    true
+    permalink: /equipment/magic-items/potions-oils/:path/
+
+defaults:

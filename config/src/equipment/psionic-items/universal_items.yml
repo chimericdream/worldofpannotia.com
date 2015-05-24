@@ -1,0 +1,6 @@
+collections:
+  universal_items:
+    output:    true
+    permalink: /equipment/psionic-items/universal/:path/
+
+defaults:

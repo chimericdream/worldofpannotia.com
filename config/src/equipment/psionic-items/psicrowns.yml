@@ -1,0 +1,6 @@
+collections:
+  psicrowns:
+    output:    true
+    permalink: /equipment/psionic-items/psicrowns/:path/
+
+defaults:

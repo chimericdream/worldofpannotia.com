@@ -1,0 +1,6 @@
+collections:
+  organizations:
+    output:    true
+    permalink: /setting/politics/organizations/:path/
+
+defaults:

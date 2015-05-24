@@ -1,0 +1,6 @@
+collections:
+  credits:
+    output:    true
+    permalink: /misc/credits/:path/
+
+defaults:

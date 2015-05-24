@@ -4,33 +4,40 @@
     module.exports = function(grunt) {
         grunt.initConfig({
             pkg: grunt.file.readJSON('package.json'),
-            shell: {
-                jekyll: {
+            jekyll: {
+                dev: {
                     options: {
-                        stderr: false
-                    },
-                    command: 'jekyll build'
+                        execOptions: {
+                            maxBuffer: 1024 * 1024 * 64
+                        },
+                        config: '_config.yml,config/dest/config.yml,_dev-config.yml'
+                    }
                 },
-                jekyll_dev: {
+                prod: {
                     options: {
-                        stderr: false
-                    },
-                    command: 'jekyll build --config _config.yml,_dev-config.yml'
+                        execOptions: {
+                            maxBuffer: 1024 * 1024 * 64
+                        },
+                        config: '_config.yml,config/dest/config.yml'
+                    }
                 }
             },
-            copy: {
-                main: {
-                    files: [
-                        {
-                            cwd: 'src/',
-                            expand: true,
-                            src: '**',
-                            dest: 'dist/'
-                        }
-                    ]
+            clean: {
+                jekyll_config: {
+                    src: ['config/dest', 'config/intermediate']
                 }
             },
             replace: {
+                jekyll_config: {
+                    src: ['config.yml/dest/config.yml'],
+                    overwrite: true,
+                    replacements: [
+                        {
+                            from: /  - null[\r\n]/g,
+                            to: ''
+                        }
+                    ]
+                },
                 pannotia_info: {
                     src: ['dist/**/*.php'],
                     overwrite: true,
@@ -97,14 +104,51 @@
                         branch: 'build'
                     }
                 }
+            },
+            yaml: {
+                jekyll_config: {
+                    options: {
+                        ignored: /^_/,
+                        space: 4
+                    },
+                    files: [
+                        {expand: true, cwd: 'config/', src: ['**/*.yml'], dest: 'config/intermediate'}
+                    ]
+                }
+            },
+            'merge-json': {
+                options: {
+                    replacer: null,
+                    space: '    '
+                },
+                jekyll_config: {
+                    files: {
+                        'config/intermediate/merged.json': ['config/intermediate/**/*.json']
+                    }
+                }
+            },
+            convert: {
+                jekyll_config: {
+                    files: [
+                        {
+                            src: ['config/intermediate/merged.json'],
+                            dest: 'config/dest/config.yml',
+                            ext: '.yml'
+                        }
+                    ]
+                }
             }
         });
 
         grunt.loadNpmTasks('grunt-build-control');
         grunt.loadNpmTasks('grunt-contrib-clean');
         grunt.loadNpmTasks('grunt-contrib-copy');
+        grunt.loadNpmTasks('grunt-convert');
+        grunt.loadNpmTasks('grunt-jekyll');
+        grunt.loadNpmTasks('grunt-merge-json');
         grunt.loadNpmTasks('grunt-shell');
         grunt.loadNpmTasks('grunt-text-replace');
+        grunt.loadNpmTasks('grunt-yaml');
 
         function showBanner() {
             grunt.config('dev', grunt.option('dev') || false);
@@ -122,7 +166,8 @@
             showBanner();
             grunt.option('force', true);
             grunt.task.run([
-                'shell:jekyll'
+                'jekyll_config',
+                'jekyll:prod'
             ]);
         });
 
@@ -130,7 +175,20 @@
             showBanner();
             grunt.option('force', true);
             grunt.task.run([
-                'shell:jekyll_dev'
+                'jekyll_config',
+                'jekyll:dev'
+            ]);
+        });
+
+        grunt.registerTask('jekyll_config', 'Build the Jekyll configuration from the folder of yaml files', function() {
+            showBanner();
+            grunt.option('force', true);
+            grunt.task.run([
+                'clean:jekyll_config',
+                'yaml:jekyll_config',
+                'merge-json:jekyll_config',
+                'convert:jekyll_config',
+                'replace:jekyll_config'
             ]);
         });
 
