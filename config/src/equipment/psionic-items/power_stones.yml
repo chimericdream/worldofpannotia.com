@@ -1,0 +1,6 @@
+collections:
+  power_stones:
+    output:    true
+    permalink: /equipment/psionic-items/power-stones/:path/
+
+defaults:

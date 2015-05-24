@@ -1,0 +1,6 @@
+collections:
+  epic_psionic_weapon_abilities:
+    output:    true
+    permalink: /equipment/epic-psionic-items/weapons/abilities/:path/
+
+defaults:

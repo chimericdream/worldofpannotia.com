@@ -1,0 +1,6 @@
+collections:
+  base_classes:
+    output:    true
+    permalink: /game-rules/classes/base/:path/
+
+defaults:

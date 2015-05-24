@@ -1,0 +1,6 @@
+collections:
+  monsters:
+    output:    true
+    permalink: /monsters/entries/:path/
+
+defaults:

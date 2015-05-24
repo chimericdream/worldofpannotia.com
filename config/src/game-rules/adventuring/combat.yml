@@ -1,0 +1,24 @@
+defaults:
+  - scope:
+      path: "game-rules/adventuring/combat"
+    values:
+      sectionTitle: "Combat"
+      sectionNav:
+        - title: "Overview"
+          url: "game-rules/adventuring/combat/overview"
+        - title: "Mechanics"
+          url: "game-rules/adventuring/combat/mechanics"
+        - title: "Initiative"
+          url: "game-rules/adventuring/combat/initiative"
+        - title: "Attacks of Opportunity"
+          url: "game-rules/adventuring/combat/attacks-of-opportunity"
+        - title: "Combat Actions"
+          url: "game-rules/adventuring/combat/combat-actions"
+        - title: "Injury &amp; Death"
+          url: "game-rules/adventuring/combat/injury-death"
+        - title: "Movement"
+          url: "game-rules/adventuring/combat/movement"
+        - title: "Combat Modifiers"
+          url: "game-rules/adventuring/combat/combat-modifiers"
+        - title: "Special Attacks"
+          url: "game-rules/adventuring/combat/special-attacks"

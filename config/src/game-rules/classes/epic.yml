@@ -1,0 +1,6 @@
+collections:
+  epic_classes:
+    output:    true
+    permalink: /game-rules/classes/epic/:path/
+
+defaults:

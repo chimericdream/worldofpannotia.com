@@ -1,0 +1,10 @@
+collections:
+  skills:
+    output:    true
+    permalink: /game-rules/skills/:path/
+
+  epic_skills:
+    output:    true
+    permalink: /game-rules/skills/epic/:path/
+
+defaults:

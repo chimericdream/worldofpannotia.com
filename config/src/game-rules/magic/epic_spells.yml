@@ -1,0 +1,55 @@
+collections:
+  epic_spells:
+    output:    true
+    permalink: /game-rules/magic/epic-spells/epic-spell-index/:path/
+
+defaults:
+  - scope:
+      path: "game-rules/magic/epic-spells"
+    values:
+      subSectionParent: "game-rules/magic/epic-spells/overview"
+      subSectionNav:
+        - title: "Overview"
+          url: "game-rules/magic/epic-spells/overview"
+        - title: "Developing Epic Spells"
+          url: "game-rules/magic/epic-spells/developing-epic-spells"
+        - title: "Seeds"
+          url: "game-rules/magic/epic-spells/seeds"
+        - title: "Epic Spell Index"
+          url: "game-rules/magic/epic-spells/epic-spell-index"
+
+  - scope:
+      path: ""
+      type: epic_spells
+    values:
+      layout:           "game-rules/magic/epic-spell"
+      crumbs:           [game-rules, magic, epic-spells/overview]
+      crumbTitles:      [Game Rules, Magic, Epic Spells]
+      activeSection:    "game-rules/magic/epic-spells/overview"
+      activeSubSection: "game-rules/magic/epic-spells/epic-spell-index"
+      spell:
+        schools:            [] # {name: "", subschools: [], descriptors: []}
+        spellcraftDc:       0
+        components:         []
+        castingTime:        ""
+        range:              ""
+        area:               ""
+        effect:             ""
+        target:             ""
+        duration:           ""
+        dismissable:        false
+        savingThrow:        ""
+        spellResistance:    ""
+        xpCost:             0
+        materialComponents: []
+        focus:              ""
+        divineFocus:        ""
+        toDevelop:
+          gp:                0
+          time:              ""
+          xp:                0
+          seeds:             [] # {desc: "", dc: ""}
+          factors:           [] # same format as seeds
+          mitigatingFactors: [] # same format as seeds
+        description:        ""
+

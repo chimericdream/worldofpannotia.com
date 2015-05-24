@@ -1,0 +1,6 @@
+collections:
+  epic_rings:
+    output:    true
+    permalink: /equipment/epic-magic-items/rings/:path/
+
+defaults:

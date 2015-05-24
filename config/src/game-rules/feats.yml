@@ -1,0 +1,39 @@
+collections:
+  feats:
+    output:    true
+    permalink: /game-rules/feats/feat-index/:path/
+
+  epic_feats:
+    output:    true
+    permalink: /game-rules/feats/epic/:path/
+
+defaults:
+  - scope:
+      path: "game-rules/feats"
+    values:
+      sectionTitle: "Feats"
+      sectionNav:
+        - title: "Overview"
+          url: "game-rules/feats/overview"
+        - title: "Feat Descriptions"
+          url: "game-rules/feats/descriptions"
+        - title: "Feat Index"
+          url: "game-rules/feats/feat-index"
+
+  - scope:
+      path: ""
+      type: feats
+    values:
+      layout:        "game-rules/feat"
+      crumbs:        [game-rules, feats/overview]
+      crumbTitles:   [Game Rules, Feats]
+      activeSection: "game-rules/feats/feat-index"
+      feat:
+        name:         ""
+        types:        []
+        description:  ""
+        prerequisite: ""
+        benefit:      ""
+        normal:       ""
+        special:      ""
+

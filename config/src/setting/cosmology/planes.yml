@@ -1,0 +1,10 @@
+collections:
+  planes:
+    output:    false
+
+defaults:
+  - scope:
+      path: "setting/cosmology/planes"
+    values:
+      crumbs:      [setting, cosmology]
+      crumbTitles: [Setting, Cosmology]

@@ -1,0 +1,6 @@
+collections:
+  artifacts:
+    output:    true
+    permalink: /equipment/artifacts/:path/
+
+defaults:

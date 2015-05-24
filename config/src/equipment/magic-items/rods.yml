@@ -1,0 +1,6 @@
+collections:
+  rods:
+    output:    true
+    permalink: /equipment/magic-items/rods/:path/
+
+defaults:

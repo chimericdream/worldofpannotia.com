@@ -1,0 +1,6 @@
+collections:
+  epic_specific_weapons:
+    output:    true
+    permalink: /equipment/epic-magic-items/weapons/specific/:path/
+
+defaults:

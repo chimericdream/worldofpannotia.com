@@ -1,0 +1,6 @@
+collections:
+  prestige_classes:
+    output:    true
+    permalink: /game-rules/classes/prestige/:path/
+
+defaults:

@@ -1,0 +1,6 @@
+collections:
+  races:
+    output:    true
+    permalink: /game-rules/races/:path/
+
+defaults:

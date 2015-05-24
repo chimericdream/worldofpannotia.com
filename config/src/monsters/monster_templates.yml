@@ -1,0 +1,6 @@
+collections:
+  monster_templates:
+    output:    true
+    permalink: /monsters/templates/:path/
+
+defaults:

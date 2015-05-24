@@ -1,0 +1,6 @@
+collections:
+  epic_armor_abilities:
+    output:    true
+    permalink: /equipment/epic-magic-items/armor/abilities/:path/
+
+defaults:
