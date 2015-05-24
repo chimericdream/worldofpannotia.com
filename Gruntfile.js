@@ -7,17 +7,11 @@
             jekyll: {
                 dev: {
                     options: {
-                        execOptions: {
-                            maxBuffer: 1024 * 1024 * 64
-                        },
                         config: '_config.yml,config/dest/config.yml,_dev-config.yml'
                     }
                 },
                 prod: {
                     options: {
-                        execOptions: {
-                            maxBuffer: 1024 * 1024 * 64
-                        },
                         config: '_config.yml,config/dest/config.yml'
                     }
                 }
