@@ -29,7 +29,7 @@
             },
             replace: {
                 jekyll_config: {
-                    src: ['config.yml/dest/config.yml'],
+                    src: ['config/dest/config.yml'],
                     overwrite: true,
                     replacements: [
                         {
