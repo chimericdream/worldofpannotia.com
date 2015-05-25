@@ -1,0 +1,16 @@
+defaults:
+  - scope:
+      path: "game-rules/divine-rules"
+    values:
+      sectionTitle: "Divine Rules"
+      sectionNav:
+        - title: "Divine Ranks"
+          url: "game-rules/divine-rules/divine-ranks"
+        - title: "Divine Characteristics"
+          url: "game-rules/divine-rules/divine-characteristics"
+        - title: "Salient Divine Abilities"
+          url: "game-rules/divine-rules/salient-divine-abilities"
+        - title: "Divine Minions"
+          url: "game-rules/divine-rules/divine-minions"
+        - title: "Becoming a God"
+          url: "game-rules/divine-rules/becoming-a-god"

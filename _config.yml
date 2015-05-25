@@ -23,7 +23,8 @@ unpublished: false
 
 # Plugins
 whitelist: []
-gems:      []
+gems:
+  - jekyll-redirect-from
 
 # Conversion
 markdown:    kramdown

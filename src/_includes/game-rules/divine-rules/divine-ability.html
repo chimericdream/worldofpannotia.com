@@ -1,0 +1,27 @@
+{% assign ability = include.ability %}
+
+{% capture ogc %}
+<h4>{{ ability.name }}</h4>
+{% if ability.prerequisite != "" %}
+<h5>Prerequisite</h5>
+{{ ability.prerequisite | markdownify }}
+{% endif %}
+<h5>Benefit</h5>
+{{ ability.benefit | markdownify }}
+{% if ability.notes != "" %}
+<h5>Notes</h5>
+{{ ability.notes | markdownify }}
+{% endif %}
+{% if ability.rest != "" %}
+<h5>Rest</h5>
+{{ ability.rest | markdownify }}
+{% endif %}
+{% if ability.portfolioElements != "" %}
+<h5>Suggested Portfolio Elements</h5>
+{{ ability.portfolioElements | markdownify }}
+{% endif %}
+{% endcapture %}
+
+{% if ability.description != "" %}{{ ability.description | markdownify }}{% endif %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}

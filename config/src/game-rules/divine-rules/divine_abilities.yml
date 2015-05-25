@@ -1,6 +1,0 @@
-collections:
-  divine_abilities:
-    output:    true
-    permalink: /game-rules/divine-rules/divine-abilities/:path/
-
-defaults:

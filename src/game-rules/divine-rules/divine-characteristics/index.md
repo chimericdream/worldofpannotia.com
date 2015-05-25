@@ -23,7 +23,7 @@ Deities receive maximum hit points for each Hit Die.
 Deities can move much more quickly than mortals. A deity's base land speed depends on its form (biped or quadruped) and its size, as shown on the following table. Some deities are exceptions, with speeds faster or slower than the norm.
 
 |---
-| Size | Biped* | Quadruped**
+| Size | Biped<sup>1</sup> | Quadruped<sup>2</sup>
 |-|-|-
 | Fine | 20 ft. | 60 ft.
 | Diminutive | 30 ft. | 70 ft.
@@ -35,7 +35,7 @@ Deities can move much more quickly than mortals. A deity's base land speed depen
 | Gargantuan | 120 ft. | 160 ft.
 | Colossal | 140 ft. | 180 ft.
 |===
-| *Or any form with two or fewer legs.<br>**Or any form with three or more legs. | !cs | !cs
+| <sup>1</sup>Or any form with two or fewer legs.<br><sup>2</sup>Or any form with three or more legs. | !cs | !cs
 {: #deity-speed-table .table .table-bordered .table-hover .table-striped data-caption="Table: Deity Speed" }
 
 Note: Use the Biped column for burrow and swim speeds for all deities regardless of form. Use half the value in the Biped column for climb speeds for all deities. Use twice the value in the Quadruped column for fly speeds for all deities capable of flying.
