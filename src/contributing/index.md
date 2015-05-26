@@ -7,3 +7,5 @@ title: Contributing to Pannotia
 [Monster creation &amp; conversion process]({{ site.url }}/contributing/monster-creation-conversion-process/)
 
 [Sample stat block]({{ site.url }}/contributing/sample-stat-block/)
+
+[Useful links]({{ site.url }}/contributing/useful-links/)
