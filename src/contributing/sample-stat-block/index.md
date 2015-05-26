@@ -1,7 +1,7 @@
 ---
 title: Sample Stat Block
-crumbs: [admin]
-crumbTitles: [Admin Section]
+crumbs: [contributing]
+crumbTitles: [Contributing]
 creature:
     name: Name
     cr:   10
@@ -47,7 +47,7 @@ creature:
 ---
 
 
-{% include stat-block-full.html creature=page.creature %}
+{% include _other/stat-block.html creature=page.creature %}
 <!--
 <p><strong>AC</strong> XX, <strong>touch</strong> XX, <strong>flat-footed</strong> XX (+XX armor, +XX Dex, +X size, +X natural, +X deflection)[; <strong>defenses</strong>][ Dodge][; Mobility][; Deflect Arrows][; Two-Weapon Defense]</p>
 <p><strong>HP</strong> XXX (XX HD)[; <strong><a href="#">fast healing</a></strong> XX][; <strong>DR</strong> XX/X]</p>
