@@ -1,13 +1,3 @@
 collections:
   status_conditions:
-    output:    true
-    permalink: /game-rules/adventuring/status-conditions/:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: status_conditions
-    values:
-      layout:      "game-rules/adventuring/status-condition"
-      crumbs:      [game-rules, adventuring]
-      crumbTitles: [Game Rules, Adventuring]
+    output:    false

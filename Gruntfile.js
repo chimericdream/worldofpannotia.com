@@ -175,8 +175,6 @@
         });
 
         grunt.registerTask('jekyll_config', 'Build the Jekyll configuration from the folder of yaml files', function() {
-            showBanner();
-            grunt.option('force', true);
             grunt.task.run([
                 'clean:jekyll_config',
                 'yaml:jekyll_config',
