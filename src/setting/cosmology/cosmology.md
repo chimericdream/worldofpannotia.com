@@ -254,7 +254,7 @@ crumbTitles: [Setting]
         <td>&mdash;</td>
     </tr>
 </table>
-<h4>Outer Planes</h4>
+{: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="asdfasdf" }<h4>Outer Planes</h4>
 <table class="table table-bordered table-hover">
     <tr><th colspan="5">Outer Planes</th></tr>
     <tr>
@@ -453,3 +453,4 @@ crumbTitles: [Setting]
         </td>
     </tr>
 </table>
+{: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="asdfasdf" }

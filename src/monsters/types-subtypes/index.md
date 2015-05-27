@@ -87,7 +87,7 @@ crumbTitles: [Monsters]
             <tr><td>Medium</td><td>20</td><td></td><td></td></tr>
         </tbody>
     </table>
-</div>
+{: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="asdfasdf" }</div>
 
 <div id="dragon" class="type-box">
     <h5>Dragon Type</h5>
@@ -424,7 +424,7 @@ crumbTitles: [Monsters]
         <tr><td>21 or more</td><td>5d6</td></tr>
     </tbody>
 </table>
-<p>A swarm's attacks are nonmagical, unless the swarm's description states otherwise. Damage reduction sufficient to reduce a swarm attack's damage to 0, being incorporeal, and other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, poison, blood drain, or other special attacks in addition to normal damage.</p>
+{: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="asdfasdf" }<p>A swarm's attacks are nonmagical, unless the swarm's description states otherwise. Damage reduction sufficient to reduce a swarm attack's damage to 0, being incorporeal, and other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, poison, blood drain, or other special attacks in addition to normal damage.</p>
 <p>Swarms do not threaten creatures in their square, and do not make attacks of opportunity with their swarm attack. However, they distract foes whose squares they occupy, as described below.</p>
 <p><em>Distraction (Ex):</em> Any living creature vulnerable to a swarm's damage that begins its turn with a swarm in its square is nauseated for 1 round; a Fortitude save (DC 10 + &#189; swarm's HD + swarm's Con modifier; the exact DC is given in a swarm's description) negates the effect. Spellcasting or concentrating on spells within the area of a swarm requires a <em>concentration</em> check (DC 20 + spell level). Using skills that involve patience and concentration requires a DC 20 <em>concentration</em> check.</p>
 
