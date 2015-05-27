@@ -90,7 +90,7 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Hustle | &ndash; | &ndash; | &ndash; | &ndash;
 | Run | &ndash; | &ndash; | &ndash; | &ndash;
 |===
-| <sup>1</sup>Tactical movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet. | !cs | !cs | !cs | !cs
+| <sup>1</sup> Tactical movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet. | !cs | !cs | !cs | !cs
 {: #movement-and-distance-table .table .table-bordered .table-hover .table-striped data-caption="Table: Movement and Distance" }
 
 |---
@@ -101,7 +101,7 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Poor visibility | &times;2
 | Impassable | &ndash;
 |===
-| <sup>1</sup>May require a skill check | !cs
+| <sup>1</sup> May require a skill check | !cs
 {: #hampered-movement-table .table .table-bordered .table-hover .table-striped data-caption="Table: Hampered Movement" }
 
 |---
@@ -146,7 +146,7 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Longship (sailed and rowed) | 3 miles | 72 miles
 | Galley (rowed and sailed) | 4 miles | 96 miles
 |===
-| <sup>1</sup>Quadrupeds, such as horses, can carry heavier loads than characters can. See _Carrying Capacity_, above, for more information.<br><sup>2</sup> Rafts, barges, keelboats, and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, so add an additional 42 miles to the daily distance traveled. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. | !cs | !cs
+| <sup>1</sup> Quadrupeds, such as horses, can carry heavier loads than characters can. See _Carrying Capacity_, above, for more information.<br><sup>2</sup> Rafts, barges, keelboats, and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, so add an additional 42 miles to the daily distance traveled. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. | !cs | !cs
 {: #mounts-and-vehicles-table .table .table-bordered .table-hover .table-striped data-caption="Table: Mounts and Vehicles" }
 
 #### Moving in Three Dimensions {#moving-in-3-dims}

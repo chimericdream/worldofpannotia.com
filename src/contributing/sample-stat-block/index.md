@@ -50,7 +50,7 @@ creature:
 {% include _other/stat-block.html creature=page.creature %}
 <!--
 <p><strong>AC</strong> XX, <strong>touch</strong> XX, <strong>flat-footed</strong> XX (+XX armor, +XX Dex, +X size, +X natural, +X deflection)[; <strong>defenses</strong>][ Dodge][; Mobility][; Deflect Arrows][; Two-Weapon Defense]</p>
-<p><strong>HP</strong> XXX (XX HD)[; <strong><a href="#">fast healing</a></strong> XX][; <strong>DR</strong> XX/X]</p>
+<p><strong>HP</strong> XXX (XX HD)[; <strong>fast healing</strong> XX][; <strong>DR</strong> XX/X]</p>
 <p><a href="{{ site.url }}/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage Threshold</em></a> XX; <a href="{{ site.url }}/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage DC</em></a> XX</p>
 <p>[<strong>Immune</strong> immunities]</p>
 <p><strong>Resist</strong> [resistances][; <strong>SR</strong> XX][; <strong>PR</strong> XX]</p>

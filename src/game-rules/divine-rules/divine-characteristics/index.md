@@ -35,7 +35,7 @@ Deities can move much more quickly than mortals. A deity's base land speed depen
 | Gargantuan | 120 ft. | 160 ft.
 | Colossal | 140 ft. | 180 ft.
 |===
-| <sup>1</sup>Or any form with two or fewer legs.<br><sup>2</sup>Or any form with three or more legs. | !cs | !cs
+| <sup>1</sup> Or any form with two or fewer legs.<br><sup>2</sup> Or any form with three or more legs. | !cs | !cs
 {: #deity-speed-table .table .table-bordered .table-hover .table-striped data-caption="Table: Deity Speed" }
 
 Note: Use the Biped column for burrow and swim speeds for all deities regardless of form. Use half the value in the Biped column for climb speeds for all deities. Use twice the value in the Quadruped column for fly speeds for all deities capable of flying.

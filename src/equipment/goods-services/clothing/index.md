@@ -20,7 +20,7 @@ Assume a character owns at least one outfit of normal clothes. Pick any one of t
 | Scholar's outfit | 5 gp | 6 lb.<sup>1</sup>
 | Traveler's outfit | 1 gp | 5 lb.<sup>1</sup>
 |===
-| <sup>1</sup>These items weigh &#188; this amount when made for Small characters. Containers for Small characters also carry &#188; the normal amount. | !cs | !cs
+| <sup>1</sup> These items weigh &#188; this amount when made for Small characters. Containers for Small characters also carry &#188; the normal amount. | !cs | !cs
 {: #clothing-table .table .table-bordered .table-hover .table-striped data-caption="Table: Clothing" }
 
 **Artisan's Outfit:** This outfit includes a shirt with buttons, a skirt or pants with a drawstring, shoes, and perhaps a cap or hat. It may also include a belt or a leather or cloth apron for carrying tools.

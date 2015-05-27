@@ -55,10 +55,7 @@ ability:
     | Shakes | Contact 13 | 1 day | 1d8 Dex
     | Slimy doom | Contact 14 | 1 day | 1d4 Con<sup>2</sup>
     |===
-    | <sup>1</sup>Each time the victim takes 2 or more damage from the disease, he must make another Fortitude save or be permanently blinded. | !cs | !cs | !cs
-    | <sup>2</sup>When damaged, character must succeed on another saving throw or 1 point of damage is permanent drain instead. | !cs | !cs | !cs
-    | <sup>3</sup>The victim must make three successful Fortitude saving throws in a row to recover from devil chills. | !cs | !cs | !cs
-    | <sup>4</sup>Successful saves do not allow the character to recover. Only magical healing can save the character. | !cs | !cs | !cs
+    | <sup>1</sup> Each time the victim takes 2 or more damage from the disease, he must make another Fortitude save or be permanently blinded.<br><sup>2</sup> When damaged, character must succeed on another saving throw or 1 point of damage is permanent drain instead.<br><sup>3</sup> The victim must make three successful Fortitude saving throws in a row to recover from devil chills.<br><sup>4</sup> Successful saves do not allow the character to recover. Only magical healing can save the character. | !cs | !cs | !cs
     {: #disease-table .table .table-bordered .table-hover .table-striped data-caption="Table: Diseases" }
 
     **Healing a Disease:** Use of the Heal skill can help a diseased character. Every time a diseased character makes a saving throw against disease effects, the healer makes a check. The diseased character can use the healer's result in place of his saving throw if the Heal check result is higher. The diseased character must be in the healer's care and must have spent the previous 8 hours resting.

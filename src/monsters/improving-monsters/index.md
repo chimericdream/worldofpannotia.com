@@ -75,7 +75,7 @@ Note that if a creature acquires a character class, it improves according to its
 | Undead | d12 | HD &times;&#189; (as wizard) | Will | 4 + Int mod per HD<sup>2</sup>
 | Vermin | d8 | HD &times;&#190; (as cleric) | Fort | 2 + Int mod per HD<sup>2</sup>
 |===
-| All types have a number of feats equal to 1 + 1 per 3 Hit Dice.<br><sup>1</sup>As long as a creature has an Intelligence of at least 1, it gains a minimum of 1 skill point per Hit Die.<br><sup>2</sup>Creatures with an Intelligence score of "&ndash;" gain no skill points or feats. | !cs | !cs | !cs | !cs
+| All types have a number of feats equal to 1 + 1 per 3 Hit Dice.<br><sup>1</sup> As long as a creature has an Intelligence of at least 1, it gains a minimum of 1 skill point per Hit Die.<br><sup>2</sup> Creatures with an Intelligence score of "&ndash;" gain no skill points or feats. | !cs | !cs | !cs | !cs
 {: #creature-improvement-table .table .table-bordered .table-hover .table-striped data-caption="Table: Creature Improvement by Type" }
 
 #### Size Increases
@@ -96,7 +96,7 @@ A size increase affects any special ability the creature has that is affected by
 | Huge | Gargantuan | +8 | Same | +4 | +4 | -2
 | Gargantuan | Colossal | +8 | Same | +4 | +5 | -4
 |===
-| <sup>1</sup>Repeat the adjustment if the creature moves up more than one size category. | !cs | !cs | !cs | !cs | !cs | !cs
+| <sup>1</sup> Repeat the adjustment if the creature moves up more than one size category. | !cs | !cs | !cs | !cs | !cs | !cs
 {: #stat-changes-by-size-table .table .table-bordered .table-hover .table-striped data-caption="Table: Changes to Statistics by Size" }
 
 |---
@@ -111,7 +111,7 @@ A size increase affects any special ability the creature has that is affected by
 | 2d6 | 3d6
 | 2d8 | 3d8
 |===
-| <sup>1</sup>Repeat the adjustment if the creature moves up more than one size category. | !cs
+| <sup>1</sup> Repeat the adjustment if the creature moves up more than one size category. | !cs
 {: #increased-damage-by-size-table .table .table-bordered .table-hover .table-striped data-caption="Table: Increased Damage By Size" }
 
 ### Advanced Monster Challenge Rating
@@ -162,7 +162,7 @@ When you improve a monster by adding Hit Dice, use Table: Improved Monster CR In
 | Monster possesses special attacks or qualities that improve combat effectiveness in a minor way | +1 to CR
 | Template added | + template CR modifier
 |===
-| <sup>1</sup>Do not apply this increase if you advance a monster by class levels. (Monsters advanced by class levels are assumed to use the elite array.) | !cs
+| <sup>1</sup> Do not apply this increase if you advance a monster by class levels. (Monsters advanced by class levels are assumed to use the elite array.) | !cs
 {: #cr-increase-for-improved-monsters-table .table .table-bordered .table-hover .table-striped data-caption="Table: CR Increase for Improved Monster" }
 
 #### Increasing Size

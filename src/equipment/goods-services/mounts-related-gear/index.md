@@ -40,7 +40,7 @@ Armor for a horse (a Large nonhumanoid creature) costs four times as much as arm
 | Medium | 30 ft. | 35 ft. | 40 ft.
 | Heavy | 30 ft.<sup>1</sup> | 35 ft.<sup>1</sup> | 40 ft.<sup>1</sup>
 |===
-| <sup>1</sup>A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple. Flying mounts can't fly in medium or heavy barding. | !cs | !cs | !cs
+| <sup>1</sup> A mount wearing heavy armor moves at only triple its normal speed when running instead of quadruple. Flying mounts can't fly in medium or heavy barding. | !cs | !cs | !cs
 {: #barding-speed-reduction-table .table .table-bordered .table-hover .table-striped data-caption="Table: Base Speed Reduction by Barding Type" }
 
 Removing and fitting barding takes five times as long as the figures given on Table: Donning Armor. A barded animal cannot be used to carry any load other than the rider and normal saddlebags.

@@ -18,7 +18,7 @@ crumbTitles: [Game Rules, Adventuring, Combat]
 | Shaken or frightened | -2 | -2
 | Squeezing through a space | -4 | -4
 |===
-| <sup>1</sup>An entangled character also takes a -4 penalty to Dexterity, which may affect his attack roll.<br><sup>2</sup>The defender loses any Dexterity bonus to AC. This bonus doesn't apply if the target is blinded.<br><sup>3</sup>Most ranged weapons can't be used while the attacker is prone, but you can use a crossbow or shuriken while prone at no penalty. | !cs | !cs
+| <sup>1</sup> An entangled character also takes a -4 penalty to Dexterity, which may affect his attack roll.<br><sup>2</sup> The defender loses any Dexterity bonus to AC. This bonus doesn't apply if the target is blinded.<br><sup>3</sup> Most ranged weapons can't be used while the attacker is prone, but you can use a crossbow or shuriken while prone at no penalty. | !cs | !cs
 {: #attack-roll-modifiers-table .table .table-bordered .table-hover .table-striped data-caption="Table: Attack Roll Modifiers" }
 
 |---
@@ -38,7 +38,7 @@ crumbTitles: [Game Rules, Adventuring, Combat]
 | Squeezing through a space | -4 | -4
 | Stunned | -2<sup>1</sup> | -2<sup>1</sup>
 |===
-| <sup>1</sup>The defender loses any Dexterity bonus to AC.<br><sup>2</sup>An entangled character takes a -4 penalty to Dexterity.<br><sup>3</sup>Roll randomly to see which grappling combatant you strike. That defender loses any Dexterity bonus to AC.<br><sup>4</sup>Treat the defender's Dexterity as 0 (-5 modifier). Rogues can sneak attack helpless or pinned defenders. | !cs | !cs
+| <sup>1</sup> The defender loses any Dexterity bonus to AC.<br><sup>2</sup> An entangled character takes a -4 penalty to Dexterity.<br><sup>3</sup> Roll randomly to see which grappling combatant you strike. That defender loses any Dexterity bonus to AC.<br><sup>4</sup> Treat the defender's Dexterity as 0 (-5 modifier). Rogues can sneak attack helpless or pinned defenders. | !cs | !cs
 {: #armor-class-modifiers .table .table-bordered .table-hover .table-striped data-caption="Table: Armor Class Modifiers" }
 
 ### Cover {#cover}

@@ -300,9 +300,7 @@ The maximum ages are for player characters. Most people in the world at large di
 | Maenad | 90 years | 150 years | 220 years | +2d% years
 | Xeph | 45 years | 85 years | 120 years | +2d20 years
 |===
-| <sup>1</sup> At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha. | !cs | !cs | !cs | !cs
-| <sup>2</sup> At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha. | !cs | !cs | !cs | !cs
-| <sup>3</sup> At venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha. | !cs | !cs | !cs | !cs
+| <sup>1</sup> At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br><sup>2</sup> At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br><sup>3</sup> At venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha | !cs | !cs | !cs | !cs
 {: #aging-effects-table .table .table-bordered .table-hover .table-striped data-caption="Table: Aging Effects" }
 
 #### Height and Weight {#height-weight}

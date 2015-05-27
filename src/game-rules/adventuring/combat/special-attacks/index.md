@@ -269,7 +269,7 @@ You can use a melee attack with a slashing or bludgeoning weapon to strike a wea
 | Heavy steel shield | 10 | 20
 | Tower shield | 5 | 20
 |===
-| <sup>1</sup>The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br><sup>2</sup>Varies by material. | !cs | !cs
+| <sup>1</sup> The HP value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br><sup>2</sup> Varies by material. | !cs | !cs
 {: #sunder-table .table .table-bordered .table-hover .table-striped data-caption="Table: Common Armor, Weapon, and Shield Hardness and Hit Points" }
 
 **Step 1:** Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the Improved Sunder feat, you don't incur an attack of opportunity for making the attempt.)

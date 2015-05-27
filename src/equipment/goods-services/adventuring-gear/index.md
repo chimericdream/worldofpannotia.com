@@ -72,7 +72,7 @@ title: "Adventuring Gear"
 | Waterskin | 1 gp | 4 lb.<sup>1</sup>
 | Whetstone | 2 cp | 1 lb.
 |===
-| <sup>1</sup>These items weigh &#188; this amount when made for Small characters. Containers for Small characters also carry &#188; the normal amount.<br>&Dagger; No weight, or no weight worth noting. | !cs | !cs
+| <sup>1</sup> These items weigh &#188; this amount when made for Small characters. Containers for Small characters also carry &#188; the normal amount.<br>&Dagger; No weight, or no weight worth noting. | !cs | !cs
 {: #adventuring-gear-table .table .table-bordered .table-hover .table-striped data-caption="Table: Adventuring Gear" }
 
 **Caltrops:** A caltrop is a four-pronged iron spike crafted so that one prong faces up no matter how the caltrop comes to rest. You scatter caltrops on the ground in the hope that your enemies step on them or are at least forced to slow down to avoid them. One 2- pound bag of caltrops covers an area 5 feet square.
@@ -138,7 +138,7 @@ You can pour a pint of oil on the ground to cover an area 5 feet square, provide
 | Sled | 20 gp | 300 pounds | 1 ton
 | Wagon | 35 gp | 400 pounds | 2 tons
 |===
-| <sup>1</sup>Empty weight | !cs | !cs | !cs
+| <sup>1</sup> Empty weight | !cs | !cs | !cs
 {: #hauling-vehicles-table .table .table-bordered .table-hover .table-striped data-caption="Table: Hauling Vehicles Carrying Capacity" }
 
 |---
@@ -154,7 +154,7 @@ You can pour a pint of oil on the ground to cover an area 5 feet square, provide
 | Saddlebags | 4 gp | 8 pounds | 5 cubic feet
 | Spell Component Pouch | 5 gp | &#188; pound<sup>2</sup> | &#8539;th cubic foot
 |===
-| <sup>1</sup>Empty weight<br><sup>2</sup>These items weigh &#188; this amount and carry &#188; the normal amount when made for Small characters | !cs | !cs | !cs
+| <sup>1</sup> Empty weight<br><sup>2</sup> These items weigh &#188; this amount and carry &#188; the normal amount when made for Small characters | !cs | !cs | !cs
 {: #dry-goods-container-table .table .table-bordered .table-hover .table-striped data-caption="Table: Dry Goods Containers Carrying Capacity" }
 
 |---
@@ -169,5 +169,5 @@ You can pour a pint of oil on the ground to cover an area 5 feet square, provide
 | Ink/Potion Vial | 1 gp | &Dagger; | 1 ounce
 | Waterskin | 1 gp | &Dagger; | &#189; gallon
 |===
-| <sup>1</sup>Empty weight<br>&Dagger; No weight worth noting | !cs | !cs | !cs
+| <sup>1</sup> Empty weight<br>&Dagger; No weight worth noting | !cs | !cs | !cs
 {: #liquid-container-table .table .table-bordered .table-hover .table-striped data-caption="Table: Liquid Containers Carrying Capacity" }

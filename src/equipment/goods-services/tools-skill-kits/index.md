@@ -29,7 +29,7 @@ title: "Tools &amp; Skill Kits"
 | Tool, masterwork | 50 gp | 1 lb.
 | Water clock | 1,000 gp | 200 lb.
 |===
-| <sup>1</sup>These items weigh &#188; this amount when made for Small characters. Containers for Small characters also carry &#188; the normal amount.<br>&Dagger; No weight, or no weight worth noting. | !cs | !cs
+| <sup>1</sup> These items weigh &#188; this amount when made for Small characters. Containers for Small characters also carry &#188; the normal amount.<br>&Dagger; No weight, or no weight worth noting. | !cs | !cs
 {: #tools-skill-kits-table .table .table-bordered .table-hover .table-striped data-caption="Table: Tools and Skill Kits" }
 
 **Alchemist's Lab:** An alchemist's lab always has the perfect tool for making alchemical items, so it provides a +2 circumstance bonus on _craft (alchemy)_ checks. It has no bearing on the costs related to the _craft (alchemy)_ skill. Without this lab, a character with the _craft (alchemy)_ skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.
@@ -44,7 +44,7 @@ title: "Tools &amp; Skill Kits"
 
 When unlocked, one end of the codex slides off to reveal the hollow area. However, if this area is pulled with the wrong combination word (ie - someone is trying to guess the password), there is a 10% chance the hammer will break the vial inside.
 
-Because of the nature of a codex, the _<a href="#">knock</a>_ spell is not sufficient to open the container. Since codices consist of at least three separate locking mechanisms, each casting of the _<a href="#">knock</a>_ spell is only able to unlock up to two at a time, meaning that at all times, at least one of the mechanisms remains locked and protecting the information stored inside.
+Because of the nature of a codex, the _knock_ spell is not sufficient to open the container. Since codices consist of at least three separate locking mechanisms, each casting of the _knock_ spell is only able to unlock up to two at a time, meaning that at all times, at least one of the mechanisms remains locked and protecting the information stored inside.
 
 |---
 | Codex | Cost | Weight
@@ -69,7 +69,7 @@ Because of the nature of a codex, the _<a href="#">knock</a>_ spell is not suffi
 
 **Potion Belt:** This broad leather belt has a large steel clasp in the front. It is made of thick, tough leather to hold the weight of several flasks of liquid or vials of potions and poisons. Typical potion belts have eight leather straps, four on each side, that can be fitted around the neck of a flask or vial, securing it to the belt. An item secured in this manner may be retrieved as a move action.
 
-If the character has the <a href="#">Quick Draw</a> feat, drawing a flask or vial may be done as a free action.
+If the character has the Quick Draw feat, drawing a flask or vial may be done as a free action.
 
 **Note:** This item only allows a character to grasp a flask or vial. Drinking a potion or applying an oil is still a standard action that provokes an attack of opportunity.
 
@@ -77,7 +77,7 @@ If the character has the <a href="#">Quick Draw</a> feat, drawing a flask or via
 
 **Scroll Bandolier:** This bandolier is made of a flexible leather or cloth. It is a non-magical item with several small pouches along its length, allowing a character to store up to ten scrolls for easy retrieval. As a move action, a character may draw a scroll from the bandolier to cast the spell.
 
-If the character has the <a href="#">Quick Draw</a> feat, this may be done as a free action.
+If the character has the Quick Draw feat, this may be done as a free action.
 
 **Note:** Casting a spell from a scroll is still a standard action that provokes an attack of opportunity.
 
