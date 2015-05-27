@@ -29,7 +29,7 @@ title: "Tools &amp; Skill Kits"
 | Tool, masterwork | 50 gp | 1 lb.
 | Water clock | 1,000 gp | 200 lb.
 |===
-| <sup>1</sup> These items weigh &#188; this amount when made for Small characters. Containers for Small characters also carry &#188; the normal amount.<br>&Dagger; No weight, or no weight worth noting. | !cs | !cs
+| <sup>1</sup> These items weigh &#188; this amount when made for Small characters. Containers for Small characters also carry &#188; the normal amount.<br>&Dagger; No weight, or no weight worth noting. |<|<
 {: #tools-skill-kits-table .table .table-bordered .table-hover .table-striped data-caption="Table: Tools and Skill Kits" }
 
 **Alchemist's Lab:** An alchemist's lab always has the perfect tool for making alchemical items, so it provides a +2 circumstance bonus on _craft (alchemy)_ checks. It has no bearing on the costs related to the _craft (alchemy)_ skill. Without this lab, a character with the _craft (alchemy)_ skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.

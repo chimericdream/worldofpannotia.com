@@ -24,8 +24,8 @@ ability:
     The numbers on this table include bonus spells that a deity receives for having a sufficiently high ability score, as well as one additional spell of each level at which the deity gains at least one bonus spell. This additional spell is one of the benefits of the Divine Spellcasting salient divine ability.
 
     |---
-    | Score | Modifier | Spells per Day | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
-    | !rs | !rs | 10th | 11th | 12th | 13th | 14th | 15th | 16th | 17th | 18th | 19th | 20th | 21st | 22nd | 23rd | 24th | 25th
+    | Score | Modifier | Spells per Day |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<
+    |^|^| 10th | 11th | 12th | 13th | 14th | 15th | 16th | 17th | 18th | 19th | 20th | 21st | 22nd | 23rd | 24th | 25th
     |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-
     | 10-11 | +0 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
     | 12-13 | +1 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
@@ -53,6 +53,6 @@ ability:
     | 56-57 | +23 | 5 | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | &ndash; | &ndash;
     | 58-59 | +24 | 5 | 5 | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2 | &ndash;
     | 60-61 | +25 | 5 | 5 | 5 | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2
-    | etc&hellip; | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+    | etc&hellip; |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<
     {: #divine-spellcasting-table .table .table-bordered .table-hover .table-striped data-caption="Table: Divine Spellcasting" }
 ---

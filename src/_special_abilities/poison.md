@@ -74,6 +74,6 @@ ability:
     | Deathblade | Injury DC 20 | 1d6 Con | 2d6 Con | 1,800 gp
     | Purple worm poison | Injury DC 24 | 1d6 Str | 2d6 Str | 700 gp
     |===
-    | <sup>1</sup> Permanent drain, not temporary damage. | !cs | !cs | !cs | !cs
+    | <sup>1</sup> Permanent drain, not temporary damage. |<|<|<|<
     {: #poison-table .table .table-bordered .table-hover .table-striped data-caption="Table: Poisons" }
 ---

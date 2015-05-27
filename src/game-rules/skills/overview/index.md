@@ -71,7 +71,7 @@ An opposed check is a check whose success or failure is determined by comparing 
 | Steal a coin pouch | _sleight of hand_ (Dex) | _spot_ (Wis)
 | Tie a prisoner securely | _use rope_ (Dex) | _escape artist_ (Dex)
 |===
-| <sup>1</sup> An _intimidate_ check is opposed by the target's level check, not a skill check. See the _intimidate_ skill description for more information. | !cs | !cs
+| <sup>1</sup> An _intimidate_ check is opposed by the target's level check, not a skill check. See the _intimidate_ skill description for more information. |<|<
 {: #opposed-checks-table .table .table-bordered .table-hover .table-striped data-caption="Table: Example Opposed Checks" }
 
 ##### Trying Again {#trying-again}
@@ -150,7 +150,7 @@ This synergy bonus increases as follows: a character will receive +2 for having 
 | 40 | +9
 | 45 | +10
 | 50 | +11
-| etc... | !cs
+| etc... |<
 {: #synergy-bonus-table .table .table-bordered .table-hover .table-striped data-caption="Table: Synergy Bonuses" }
 
 |---

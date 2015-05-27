@@ -7,8 +7,8 @@ title: "Wealth &amp; Money"
 The most common coin is the gold piece (gp). A gold piece is worth 10 silver pieces. Each silver piece is worth 10 copper pieces (cp). In addition to copper, silver, and gold coins, there are also platinum pieces (pp), which are each worth 10 gp. The standard coin weighs about a third of an ounce (fifty to the pound).
 
 |---
-| Coin | Exchange Value | !cs | !cs | !cs
-| !rs | CP | SP | GP | PP
+| Coin | Exchange Value |<|<|<
+|^| CP | SP | GP | PP
 |-|-|-|-
 | Copper piece (cp) | 1 | 1/10 | 1/100 | 1/1,000
 | Silver piece (sp) | 10 | 1 | 1/10 | 1/100

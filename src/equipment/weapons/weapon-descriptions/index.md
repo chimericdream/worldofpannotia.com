@@ -3,45 +3,45 @@ title: "Weapon Descriptions"
 ---
 
 |---
-| Weapon | Cost | Damage | !cs | Critical | Range Increment | Weight<sup>1</sup> | Type<sup>2</sup>
-| !rs | !rs | Small | Medium| !rs | !rs | !rs | !rs
+| Weapon | Cost | Damage |<| Critical | Range Increment | Weight<sup>1</sup> | Type<sup>2</sup>
+|^|^| Small | Medium|^|^|^|^
 |-|-|-|-|-|-|-|-
-| **Unarmed Attacks** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Unarmed Attacks** |<|<|<|<|<|<|<
 | &mdash; Gauntlet | 2 gp | 1d2 | 1d3 | &times;2 | &ndash; | 1 lb. | Bludgeoning
 | &mdash; Unarmed strike | &ndash; | 1d2<sup>3</sup> | 1d3<sup>3</sup> | &times;2 | &ndash; | &ndash; | Bludgeoning
-| **Light Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Light Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Dagger | 2 gp | 1d3 | 1d4 | 19-20/&times;2 | 10 ft. | 1 lb. | Piercing or slashing
 | &mdash; Dagger, punching | 2 gp | 1d3 | 1d4 | &times;3 | &ndash; | 1 lb. | Piercing
 | &mdash; Gauntlet, spiked | 5 gp | 1d3 | 1d4 | &times;2 | &ndash; | 1 lb. | Piercing
 | &mdash; Mace, light | 5 gp | 1d4 | 1d6 | &times;2 | &ndash; | 4 lb. | Bludgeoning
 | &mdash; Sickle | 6 gp | 1d4 | 1d6 | &times;2 | &ndash; | 2 lb. | Slashing
-| **One-Handed Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **One-Handed Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Club | &ndash; | 1d4 | 1d6 | &times;2 | 10 ft. | 3 lb. | Bludgeoning
 | &mdash; Mace, heavy | 12 gp | 1d6 | 1d8 | &times;2 | &ndash; | 8 lb. | Bludgeoning
 | &mdash; Morningstar | 8 gp | 1d6 | 1d8 | &times;2 | &ndash; | 6 lb. | Bludgeoning and piercing
 | &mdash; Shortspear | 1 gp | 1d4 | 1d6 | &times;2 | 20 ft. | 3 lb. | Piercing
-| **Two-Handed Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Two-Handed Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Longspear<sup>4</sup> | 5 gp | 1d6 | 1d8 | &times;3 | &ndash; | 9 lb. | Piercing
 | &mdash; Quarterstaff<sup>5</sup> | &ndash; | 1d4/1d4 | 1d6/1d6 | &times;2 | &ndash; | 4 lb. | Bludgeoning
 | &mdash; Spear | 2 gp | 1d6 | 1d8 | &times;3 | 20 ft. | 6 lb. | Piercing
-| **Ranged Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Ranged Weapons** |<|<|<|<|<|<|<
 | &mdash; Crossbow, heavy | 50 gp | 1d8 | 1d10 | 19-20/&times;2 | 120 ft. | 8 lb. | Piercing
 | &mdash; Crossbow, light | 35 gp | 1d6 | 1d8 | 19-20/&times;2 | 80 ft. | 4 lb. | Piercing
 | &mdash; Dart | 5 sp | 1d3 | 1d4 | &times;2 | 20 ft. | &#189; lb. | Piercing
 | &mdash; Javelin | 1 gp | 1d4 | 1d6 | &times;2 | 30 ft. | 2 lb. | Piercing
 | &mdash; Sling | &ndash; | 1d3 | 1d4 | &times;2 | 50 ft. | 0 lb. | Bludgeoning
-| **Ammunition** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Ammunition** |<|<|<|<|<|<|<
 | &mdash; Bolts, crossbow (10) | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | 1 lb. | &ndash;
 | &mdash; Bolt, signal | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | &#8539; lb. | &ndash;
 | &mdash; Bullets, sling (10) | 1 sp | &ndash; | &ndash; | &ndash; | &ndash; | 5 lb. | &ndash;
 |===
-| <sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage. | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| <sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage. |<|<|<|<|<|<|<
 {: #simple-weapons-table .table .table-bordered .table-hover .table-striped data-caption="Table: Simple Weapons" }
 
 |---
 | Weapon | Cost | Dmg (S) | Dmg (M) | Critical | Range Increment | Weight<sup>1</sup> | Type<sup>2</sup>
 |-|-|-|-|-|-|-|-
-| **Light Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Light Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Axe, throwing | 8 gp | 1d4 | 1d6 | &times;2 | 10 ft. | 2 lb. | Slashing
 | &mdash; Hammer, light | 1 gp | 1d3 | 1d4 | &times;2 | 20 ft. | 2 lb. | Bludgeoning
 | &mdash; Handaxe | 6 gp | 1d4 | 1d6 | &times;3 | &ndash; | 3 lb. | Slashing
@@ -52,7 +52,7 @@ title: "Weapon Descriptions"
 | &mdash; Spiked armor | special | 1d4 | 1d6 | &times;2 | &ndash; | special | Piercing
 | &mdash; Spiked shield, light | special | 1d3 | 1d4 | &times;2 | &ndash; | special | Piercing
 | &mdash; Sword, short | 10 gp | 1d4 | 1d6 | 19-20/&times;2 | &ndash; | 2 lb. | Piercing
-| **One-Handed Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **One-Handed Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Battleaxe | 10 gp | 1d6 | 1d8 | &times;3 | &ndash; | 6 lb. | Slashing
 | &mdash; Flail | 8 gp | 1d6 | 1d8 | &times;2 | &ndash; | 5 lb. | Bludgeoning
 | &mdash; Longsword | 15 gp | 1d6 | 1d8 | 19-20/&times;2 | &ndash; | 4 lb. | Slashing
@@ -63,7 +63,7 @@ title: "Weapon Descriptions"
 | &mdash; Spiked shield, heavy | special | 1d4 | 1d6 | &times;2 | &ndash; | special | Piercing
 | &mdash; Trident | 15 gp | 1d6 | 1d8 | &times;2 | 10 ft. | 4 lb. | Piercing
 | &mdash; Warhammer | 12 gp | 1d6 | 1d8 | &times;3 | &ndash; | 5 lb. | Bludgeoning
-| **Two-Handed Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Two-Handed Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Falchion | 75 gp | 1d6 | 2d4 | 18-20/&times;2 | &ndash; | 8 lb. | Slashing
 | &mdash; Glaive<sup>4</sup> | 8 gp | 1d8 | 1d10 | &times;3 | &ndash; | 10 lb. | Slashing
 | &mdash; Greataxe | 20 gp | 1d10 | 1d12 | &times;3 | &ndash; | 12 lb. | Slashing
@@ -75,14 +75,14 @@ title: "Weapon Descriptions"
 | &mdash; Lance<sup>4</sup> | 10 gp | 1d6 | 1d8 | &times;3 | &ndash; | 10 lb. | Piercing
 | &mdash; Ranseur<sup>4</sup> | 10 gp | 1d6 | 2d4 | &times;3 | &ndash; | 12 lb. | Piercing
 | &mdash; Scythe | 18 gp | 1d6 | 2d4 | &times;4 | &ndash; | 10 lb. | Piercing or slashing
-| **Ranged Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Ranged Weapons** |<|<|<|<|<|<|<
 | &mdash; Longbow | 75 gp | 1d6 | 1d8 | &times;3 | 100 ft. | 3 lb. | Piercing
 | &mdash; Longbow, composite | 100 gp | 1d6 | 1d8 | &times;3 | 110 ft. | 3 lb. | Piercing
 | &mdash; Longbow, variable composite | 750 gp | 1d6 | 1d8 | &times;3 | 110 ft. | 5 lb. | Piercing
 | &mdash; Shortbow | 30 gp | 1d4 | 1d6 | &times;3 | 60 ft. | 2 lb. | Piercing
 | &mdash; Shortbow, composite | 75 gp | 1d4 | 1d6 | &times;3 | 70 ft. | 2 lb. | Piercing
 | &mdash; Shortbow, variable composite | 500 gp | 1d4 | 1d6 | &times;3 | 70 ft. | 3 lb. | Piercing
-| **Ammunition** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Ammunition** |<|<|<|<|<|<|<
 | &mdash; Arrows (20) | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | 3 lb. | &ndash;
 | &mdash; Arrow, alchemical | 10 gp<sup>5</sup> | *<sup>5</sup> | *<sup>5</sup> | &ndash; | *<sup>5</sup> | &#189; lb. | &ndash;
 | &mdash; Arrows, barbed (10) | 5 gp | *<sup>5</sup> | *<sup>5</sup> | &ndash; | *<sup>5</sup> | 2 lb. | &ndash;
@@ -90,22 +90,22 @@ title: "Weapon Descriptions"
 | &mdash; Arrows, rope cutting (10) | 5 gp | *<sup>5</sup> | *<sup>5</sup> | &ndash; | &ndash; | 2 lb. | Slashing
 | &mdash; Arrow, signal | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | &#8539; lb. | &ndash;
 |===
-| <sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.<br><sup>4</sup> Reach weapon.<br><sup>5</sup> See item description | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| <sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.<br><sup>4</sup> Reach weapon.<br><sup>5</sup> See item description |<|<|<|<|<|<|<
 {: #martial-weapons-table .table .table-bordered .table-hover .table-striped data-caption="Table: Martial Weapons" }
 
 |---
 | Weapon | Cost | Dmg (S) | Dmg (M) | Critical | Range Increment | Weight<sup>1</sup> | Type<sup>2</sup>
 |-|-|-|-|-|-|-|-
-| **Light Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Light Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Kama | 2 gp | 1d4 | 1d6 | &times;2 | &ndash; | 2 lb. | Slashing
 | &mdash; Nunchaku | 2 gp | 1d4 | 1d6 | &times;2 | &ndash; | 2 lb. | Bludgeoning
 | &mdash; Sai | 1 gp | 1d3 | 1d4 | &times;2 | 10 ft. | 1 lb. | Bludgeoning
 | &mdash; Siangham | 3 gp | 1d4 | 1d6 | &times;2 | &ndash; | 1 lb. | Piercing
-| **One-Handed Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **One-Handed Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Sword, bastard | 35 gp | 1d8 | 1d10 | 19-20/&times;2 | &ndash; | 6 lb. | Slashing
 | &mdash; Waraxe, dwarven | 30 gp | 1d8 | 1d10 | &times;3 | &ndash; | 8 lb. | Slashing
 | &mdash; Whip<sup>4</sup> | 1 gp | 1d2<sup>3</sup> | 1d3<sup>3</sup> | &times;2 |  | 2 lb. | Slashing
-| **Two-Handed Melee Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Two-Handed Melee Weapons** |<|<|<|<|<|<|<
 | &mdash; Axe, orc double<sup>5</sup> | 60 gp | 1d6/1d6 | 1d8/1d8 | &times;3 | &ndash; | 15 lb. | Slashing
 | &mdash; Chain, spiked<sup>4</sup> | 25 gp | 1d6 | 2d4 | &times;2 | &ndash; | 10 lb. | Piercing
 | &mdash; Flail, dire<sup>5</sup> | 90 gp | 1d6/1d6 | 1d8/1d8 | &times;2 | &ndash; | 10 lb. | Bludgeoning
@@ -113,7 +113,7 @@ title: "Weapon Descriptions"
 | &mdash; Hammer, gnome hooked<sup>5</sup> | 20 gp | 1d6/1d4 | 1d8/1d6 | &times;3/&times;4 | &ndash; | 6 lb. | Bludgeoning and piercing
 | &mdash; Sword, two-bladed<sup>5</sup> | 100 gp | 1d6/1d6 | 1d8/1d8 | 19-20/&times;2 | &ndash; | 10 lb. | Slashing
 | &mdash; Urgrosh, dwarven<sup>5</sup> | 50 gp | 1d6/1d4 | 1d8/1d6 | &times;3 | &ndash; | 12 lb. | Slashing or piercing
-| **Ranged Weapons** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Ranged Weapons** |<|<|<|<|<|<|<
 | &mdash; Bolas | 5 gp | 1d3<sup>3</sup> | 1d4<sup>3</sup> | &times;2 | 10 ft. | 2 lb. | Bludgeoning
 | &mdash; Crossbow, hand | 100 gp | 1d3 | 1d4 | 19-20/&times;2 | 30 ft. | 2 lb. | Piercing
 | &mdash; Crossbow, repeating heavy | 400 gp | 1d8 | 1d10 | 19-20/&times;2 | 120 ft. | 12 lb. | Piercing
@@ -121,11 +121,11 @@ title: "Weapon Descriptions"
 | &mdash; Great boomerang | 250 gp | 2d4<sup>6</sup> | 2d6<sup>6</sup> | &times;2 | 40 ft. | 30 lb. | Bludgeoning
 | &mdash; Net | 20 gp | &ndash; | &ndash; | 10 ft. | 6 lb. | &ndash; |
 | &mdash; Shuriken (5) | 1 gp | 1 | 1d2 | &times;2 | 10 ft. | &#189; lb. | Piercing
-| **Ammunition** | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Ammunition** |<|<|<|<|<|<|<
 | &mdash; Bolts, crossbow (10) | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | 1 lb. | &ndash;
 | &mdash; Bolts, repeating crossbow (5) | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | 1 lb. | &ndash;
 |===
-| <sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.<br><sup>4</sup> Reach weapon.<br><sup>5</sup> Double weapon.<br><sup>6</sup> See description. | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| <sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.<br><sup>4</sup> Reach weapon.<br><sup>5</sup> Double weapon.<br><sup>6</sup> See description. |<|<|<|<|<|<|<
 {: #exotic-weapons-table .table .table-bordered .table-hover .table-striped data-caption="Table: Exotic Weapons" }
 
 Weapons found on Table: Weapons that have special options for the wielder ("you") are described below. Splash weapons are described under Special Substances and Items.

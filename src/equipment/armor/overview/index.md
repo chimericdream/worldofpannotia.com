@@ -61,8 +61,8 @@ You can't add the masterwork quality to armor or a shield after it is created; i
 Armor and shields for unusually big creatures, unusually little creatures, and nonhumanoid creatures have different costs and weights from those given on Table: Armor and Shields. Refer to the appropriate line on the table below and apply the multipliers to cost and weight for the armor type in question.
 
 |---
-| Size | Humanoid | !cs | Nonhumanoid | !cs
-| !rs | Cost | Weight | Cost | Weight
+| Size | Humanoid |<| Nonhumanoid |<
+|^| Cost | Weight | Cost | Weight
 |-|-|-|-|-
 | Tiny or smaller<sup>1</sup> | &times;&#189; | &times;1/10 | &times;1 | &times;1/10
 | Small | &times;1 | &times;&#189; | &times;2 | &times;&#189;
@@ -72,7 +72,7 @@ Armor and shields for unusually big creatures, unusually little creatures, and n
 | Gargantuan | &times;8 | &times;8 | &times;16 | &times;8
 | Colossal | &times;16 | &times;12 | &times;32 | &times;12
 |===
-| <sup>1</sup> Divide armor bonus by 2. | !cs | !cs | !cs | !cs
+| <sup>1</sup> Divide armor bonus by 2. |<|<|<|<
 {: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="Table: Armor for Unusual Creatures" }
 
 ### Getting Into and Out of Armor
@@ -93,5 +93,5 @@ The time required to don armor depends on its type; see Table: Donning Armor.
 | Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutes<sup>1</sup> | 1 minute | 1 minute<sup>1</sup>
 | Half-plate or full plate | 4 minutes<sup>2</sup> | 4 minutes<sup>1</sup> | 1d4+1 minutes<sup>1</sup>
 |===
-| <sup>1</sup> If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Two characters can't help each other don armor at the same time.<br><sup>2</sup> The wearer must have help to don this armor. Without help, it can be donned only hastily. | !cs | !cs | !cs
+| <sup>1</sup> If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Two characters can't help each other don armor at the same time.<br><sup>2</sup> The wearer must have help to don this armor. Without help, it can be donned only hastily. |<|<|<
 {: #donning-armor-table .table .table-bordered .table-hover .table-striped data-caption="Table: Donning Armor" }

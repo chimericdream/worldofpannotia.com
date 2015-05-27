@@ -35,8 +35,8 @@ For ability scores lower than 10, the procedure is different. First, determine t
 The separate table for Intelligence ensures that no PC ends up with an Intelligence score lower than 3. This is important, because creatures with an Intelligence score lower than 3 are not playable characters. Creatures with any ability score lower than 1 are also not playable.
 
 |---
-| Generated Score | Monster Intelligence Score | !cs | !cs | !cs
-| !rs | 3 | 4–5 | 6–7 | 8–9
+| Generated Score | Monster Intelligence Score |<|<|<
+|^| 3 | 4–5 | 6–7 | 8–9
 |-|-|-|-|-
 | 18 | 10 | 12 | 14 | 16
 | 17 | 9 | 11 | 13 | 15
@@ -57,8 +57,8 @@ The separate table for Intelligence ensures that no PC ends up with an Intellige
 {: #monster-pc-int-scores-table .table .table-bordered .table-hover .table-striped data-caption="Monster PCs' Intelligence Scores" }
 
 |---
-| Generated Score | Monster Ability Score (Str, Dex, Con, Wis, Cha) | !cs | !cs | !cs | !cs
-| !rs | 1 | 2–3 | 4–5 | 6–7 | 8–9
+| Generated Score | Monster Ability Score (Str, Dex, Con, Wis, Cha) |<|<|<|<
+|^| 1 | 2–3 | 4–5 | 6–7 | 8–9
 |-|-|-|-|-|-
 | 18 | 8 | 10 | 12 | 14 | 16
 | 17 | 7 | 9 | 11 | 13 | 15

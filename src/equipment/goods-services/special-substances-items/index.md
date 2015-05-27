@@ -16,7 +16,7 @@ title: "Special Substances &amp; Items"
 | Thunderstone | 30 gp | 1 lb.
 | Tindertwig | 1 gp | &Dagger;
 |===
-| &Dagger; No weight, or no weight worth noting. | !cs | !cs
+| &Dagger; No weight, or no weight worth noting. |<|<
 {: #special-items-table .table .table-bordered .table-hover .table-striped data-caption="Table: Special Substances and Items" }
 
 Any of these substances except for the everburning torch and holy water can be made by a character with the _craft (alchemy)_ skill.
