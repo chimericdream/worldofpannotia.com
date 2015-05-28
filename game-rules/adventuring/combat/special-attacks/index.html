@@ -20,6 +20,19 @@
         <link rel="stylesheet" href="http://chimericdream.github.io/worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
         <style>
             body {padding-top: 70px;}
+            :target::before {
+                background-attachment: scroll;
+                background-image: url("http://chimericdream.github.io/worldofpannotia.com/assets/images/icons/sword-pointer.png");
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                content: " ";
+                display: block;
+                height: calc(70px + 1em);
+                margin-bottom: -1em;
+                margin-left: -110px;
+                margin-top: -70px;
+                padding-top: 70px;
+            }
             table[data-caption]::before {
                 content: attr(data-caption);
                 display: table-caption;
@@ -33,6 +46,16 @@
                 content: "&ndash;";
                 text-align: center;
             }
+            .table-bordered > thead > tr > th,
+            .table-bordered > thead > tr > td {
+                border-bottom-width: 1px;
+            }
+            .table-bordered > thead > tr:last-of-type {
+                border-bottom: 2px solid #ddd;
+            }
+            .table-bordered > tfoot > tr:first-of-type > td {
+                border-top-width: 2px;
+            }
             h1,h2,h3,h4,h5,h6 {
                 font-weight: bold;
             }
@@ -42,6 +65,12 @@
             .panel > .list-group:last-child .indented-list-group-item:last-child,
             .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
                 border-bottom-left-radius: 0px;
+            }
+            ol > li > ol > li {
+                list-style-type: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style-type: lower-roman;
             }
         </style>
     </head>
@@ -181,22 +210,16 @@
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury & Death">Injury & Death</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury &amp; Death">Injury &amp; Death</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Special Abilities" class="dropdown-toggle" data-toggle="dropdown" role="button">Special Abilities</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/" title="Special Abilities">Special Abilities</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Carrying, Movement, & Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, & Exploration</a>
+                                    <a href="#" title="Carrying, Movement, &amp; Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, &amp; Exploration</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
@@ -204,7 +227,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Wilderness & Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness & Environment</a>
+                                    <a href="#" title="Wilderness &amp; Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness &amp; Environment</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
@@ -237,18 +260,18 @@
                 <li class="dropdown">
                     <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/wealth-money/" title="Wealth & Money">Wealth & Money</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/wealth-money/" title="Wealth &amp; Money">Wealth &amp; Money</a></li>
                         <li class="dropdown-submenu">
-                            <a href="#" title="Goods & Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods & Services</a>
+                            <a href="#" title="Goods &amp; Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods &amp; Services</a>
                             <ul class="dropdown-menu">
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances & Items">Special Substances & Items</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/tools-skill-sets/" title="Tools & Skill Sets">Tools & Skill Sets</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances &amp; Items">Special Substances &amp; Items</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/tools-skill-kits/" title="Tools &amp; Skill Kits">Tools &amp; Skill Kits</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, & Lodging">Food, Drink, & Lodging</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts & Related Gear">Mounts & Related Gear</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, &amp; Lodging">Food, Drink, &amp; Lodging</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts &amp; Related Gear">Mounts &amp; Related Gear</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/transport/" title="Transport">Transport</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting & Services">Spellcasting & Services</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting &amp; Services">Spellcasting &amp; Services</a></li>
                             </ul>
                         </li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
@@ -288,7 +311,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Potions & Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions & Oils</a>
+                                    <a href="#" title="Potions &amp; Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions &amp; Oils</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/overview/" title="Overview">Overview</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/descriptions/" title="Descriptions">Descriptions</a></li>
@@ -423,7 +446,7 @@
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Potions & Oils">Potions & Oils</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rings/" title="Rings">Rings</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rods/" title="Rods">Rods</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
@@ -500,8 +523,9 @@
                     <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button">Monsters <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/introduction/" title="Introduction">Introduction</a></li>
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/types-subtypes/" title="Types & Subtypes">Types & Subtypes</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/types-subtypes/" title="Types &amp; Subtypes">Types &amp; Subtypes</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/monsters-as-races/" title="Monsters as Races">Monsters as Races</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Entries" class="dropdown-toggle" data-toggle="dropdown" role="button">Entries</a>
                             <ul class="dropdown-menu">
@@ -528,7 +552,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/overview/" title="Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/regions-countries/" title="Regions & Countries">Regions & Countries</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/regions-countries/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
                             </ul>
                         </li>
@@ -576,6 +600,7 @@
                 <li class="dropdown">
                     <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/changes-from-dd-35/" title="Changes from D&amp;D 3.5">Changes from D&amp;D 3.5</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/credits/" title="Credits">Credits</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
                     </ul>
@@ -622,62 +647,23 @@
     <article id="main-content" class="row">
         <div class="col-xs-12 col-sm-8 col-md-9">
             <table id="special-attacks-table" class="table table-bordered table-hover table-striped" data-caption="Table: Special Attacks">
-  <thead>
-    <tr>
-      <th>Special Attack</th>
-      <th>Brief Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aid another</td>
-      <td>Grant an ally a +2 bonus on attacks or AC</td>
-    </tr>
-    <tr>
-      <td>Bull rush</td>
-      <td>Push an opponent back 5 feet or more</td>
-    </tr>
-    <tr>
-      <td>Charge</td>
-      <td>Move up to twice your speed and attack with +2 bonus</td>
-    </tr>
-    <tr>
-      <td>Disarm</td>
-      <td>Knock a weapon from your opponent’s hands</td>
-    </tr>
-    <tr>
-      <td>Feint</td>
-      <td>Negate your opponent’s Dex bonus to AC</td>
-    </tr>
-    <tr>
-      <td>Grapple</td>
-      <td>Wrestle with an opponent</td>
-    </tr>
-    <tr>
-      <td>Overrun</td>
-      <td>Plow past or over an opponent as you move</td>
-    </tr>
-    <tr>
-      <td>Sunder</td>
-      <td>Strike an opponent’s weapon or shield</td>
-    </tr>
-    <tr>
-      <td>Throw splash weapon</td>
-      <td>Throw container of dangerous liquid at target</td>
-    </tr>
-    <tr>
-      <td>Trip</td>
-      <td>Trip an opponent</td>
-    </tr>
-    <tr>
-      <td>Turn (rebuke) undead</td>
-      <td>Channel positive (or negative) energy to turn away (or awe) undead</td>
-    </tr>
-    <tr>
-      <td>Two-weapon fighting</td>
-      <td>Fight with a weapon in each hand</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th>Special Attack</th><th>Brief Description</th></tr>
+</thead>
+<tbody>
+<tr><td>Aid another</td><td>Grant an ally a +2 bonus on attacks or AC</td></tr>
+<tr><td>Bull rush</td><td>Push an opponent back 5 feet or more</td></tr>
+<tr><td>Charge</td><td>Move up to twice your speed and attack with +2 bonus</td></tr>
+<tr><td>Disarm</td><td>Knock a weapon from your opponent's hands</td></tr>
+<tr><td>Feint</td><td>Negate your opponent's Dex bonus to AC</td></tr>
+<tr><td>Grapple</td><td>Wrestle with an opponent</td></tr>
+<tr><td>Overrun</td><td>Plow past or over an opponent as you move</td></tr>
+<tr><td>Sunder</td><td>Strike an opponent's weapon or shield</td></tr>
+<tr><td>Throw splash weapon</td><td>Throw container of dangerous liquid at target</td></tr>
+<tr><td>Trip</td><td>Trip an opponent</td></tr>
+<tr><td>Turn (rebuke) undead</td><td>Channel positive (or negative) energy to turn away (or awe) undead</td></tr>
+<tr><td>Two-weapon fighting</td><td>Fight with a weapon in each hand</td></tr>
+</tbody>
 </table>
 
 <h3 id="aid-another">Aid Another</h3>
@@ -909,102 +895,30 @@
 <p>You can use a melee attack with a slashing or bludgeoning weapon to strike a weapon or shield that your opponent is holding. If you’re attempting to sunder a weapon or shield, follow the steps outlined here. (Attacking held objects other than weapons or shields is covered below.)</p>
 
 <table id="sunder-table" class="table table-bordered table-hover table-striped" data-caption="Table: Common Armor, Weapon, and Shield Hardness and Hit Points">
-  <thead>
-    <tr>
-      <th>Weapon or Shield</th>
-      <th>Hardness</th>
-      <th>HP<sup>1</sup></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Light blade</td>
-      <td>10</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>One-handed blade</td>
-      <td>10</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Two-handed blade</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Light metal-hafted weapon</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>One-handed metal-hafted weapon</td>
-      <td>10</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>Light hafted weapon</td>
-      <td>5</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>One-handed hafted weapon</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Two-handed hafted weapon</td>
-      <td>5</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Projectile weapon</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Armor</td>
-      <td>special<sup>2</sup></td>
-      <td>armor bonus × 5</td>
-    </tr>
-    <tr>
-      <td>Buckler</td>
-      <td>10</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Light wooden shield</td>
-      <td>5</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>Heavy wooden shield</td>
-      <td>5</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Light steel shield</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Heavy steel shield</td>
-      <td>10</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>Tower shield</td>
-      <td>5</td>
-      <td>20</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td><sup>1</sup>The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br /><sup>2</sup>Varies by material.</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-  </tfoot>
+<thead>
+<tr><th>Weapon or Shield</th><th>Hardness</th><th>HP<sup>1</sup></th></tr>
+</thead>
+<tbody>
+<tr><td>Light blade</td><td>10</td><td>2</td></tr>
+<tr><td>One-handed blade</td><td>10</td><td>5</td></tr>
+<tr><td>Two-handed blade</td><td>10</td><td>10</td></tr>
+<tr><td>Light metal-hafted weapon</td><td>10</td><td>10</td></tr>
+<tr><td>One-handed metal-hafted weapon</td><td>10</td><td>20</td></tr>
+<tr><td>Light hafted weapon</td><td>5</td><td>2</td></tr>
+<tr><td>One-handed hafted weapon</td><td>5</td><td>5</td></tr>
+<tr><td>Two-handed hafted weapon</td><td>5</td><td>10</td></tr>
+<tr><td>Projectile weapon</td><td>5</td><td>5</td></tr>
+<tr><td>Armor</td><td>special<sup>2</sup></td><td>armor bonus &times; 5</td></tr>
+<tr><td>Buckler</td><td>10</td><td>5</td></tr>
+<tr><td>Light wooden shield</td><td>5</td><td>7</td></tr>
+<tr><td>Heavy wooden shield</td><td>5</td><td>15</td></tr>
+<tr><td>Light steel shield</td><td>10</td><td>10</td></tr>
+<tr><td>Heavy steel shield</td><td>10</td><td>20</td></tr>
+<tr><td>Tower shield</td><td>5</td><td>20</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="3"><sup>1</sup> The HP value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br /><sup>2</sup> Varies by material.</td></tr>
+</tfoot>
 </table>
 
 <p><strong>Step 1:</strong> Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the Improved Sunder feat, you don’t incur an attack of opportunity for making the attempt.)</p>
@@ -1080,50 +994,20 @@
 <p><strong>Destroying Undead:</strong> If you have twice as many levels (or more) as the undead have Hit Dice, you destroy any that you would normally turn.</p>
 
 <table id="turning-undead-table" class="table table-bordered table-hover table-striped" data-caption="Table: Turning Undead">
-  <thead>
-    <tr>
-      <th>Turning Check Result</th>
-      <th>Most Powerful Undead Affected (Maximum Hit Dice)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0 or lower</td>
-      <td>Cleric’s level - 4</td>
-    </tr>
-    <tr>
-      <td>1-3</td>
-      <td>Cleric’s level - 3</td>
-    </tr>
-    <tr>
-      <td>4-6</td>
-      <td>Cleric’s level - 2</td>
-    </tr>
-    <tr>
-      <td>7-9</td>
-      <td>Cleric’s level - 1</td>
-    </tr>
-    <tr>
-      <td>10-12</td>
-      <td>Cleric’s level</td>
-    </tr>
-    <tr>
-      <td>13-15</td>
-      <td>Cleric’s level + 1</td>
-    </tr>
-    <tr>
-      <td>16-18</td>
-      <td>Cleric’s level + 2</td>
-    </tr>
-    <tr>
-      <td>19-21</td>
-      <td>Cleric’s level + 3</td>
-    </tr>
-    <tr>
-      <td>22 or higher</td>
-      <td>Cleric’s level + 4</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th>Turning Check Result</th><th>Most Powerful Undead Affected (Maximum Hit Dice)</th></tr>
+</thead>
+<tbody>
+<tr><td>0 or lower</td><td>Cleric's level - 4</td></tr>
+<tr><td>1-3</td><td>Cleric's level - 3</td></tr>
+<tr><td>4-6</td><td>Cleric's level - 2</td></tr>
+<tr><td>7-9</td><td>Cleric's level - 1</td></tr>
+<tr><td>10-12</td><td>Cleric's level</td></tr>
+<tr><td>13-15</td><td>Cleric's level + 1</td></tr>
+<tr><td>16-18</td><td>Cleric's level + 2</td></tr>
+<tr><td>19-21</td><td>Cleric's level + 3</td></tr>
+<tr><td>22 or higher</td><td>Cleric's level + 4</td></tr>
+</tbody>
 </table>
 
 <h4 id="evil-clerics-and-undead">Evil Clerics and Undead</h4>
@@ -1172,35 +1056,15 @@
 <p>Table: Two-Weapon Fighting Penalties summarizes the interaction of all these factors.</p>
 
 <table id="two-weapon-fighting-table" class="table table-bordered table-hover table-striped" data-caption="Table: Two-Weapon Fighting Penalties">
-  <thead>
-    <tr>
-      <th>Circumstances</th>
-      <th>Primary Hand</th>
-      <th>Off Hand</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Normal penalties</td>
-      <td>-6</td>
-      <td>-10</td>
-    </tr>
-    <tr>
-      <td>Off-hand weapon is light</td>
-      <td>-4</td>
-      <td>-8</td>
-    </tr>
-    <tr>
-      <td>Two-Weapon Fighting feat</td>
-      <td>-4</td>
-      <td>-4</td>
-    </tr>
-    <tr>
-      <td>Off-hand weapon is light and Two-Weapon Fighting feat</td>
-      <td>-2</td>
-      <td>-2</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th>Circumstances</th><th>Primary Hand</th><th>Off Hand</th></tr>
+</thead>
+<tbody>
+<tr><td>Normal penalties</td><td>-6</td><td>-10</td></tr>
+<tr><td>Off-hand weapon is light</td><td>-4</td><td>-8</td></tr>
+<tr><td>Two-Weapon Fighting feat</td><td>-4</td><td>-4</td></tr>
+<tr><td>Off-hand weapon is light and Two-Weapon Fighting feat</td><td>-2</td><td>-2</td></tr>
+</tbody>
 </table>
 
 <p><strong>Double Weapons:</strong> You can use a double weapon to make an extra attack with the off-hand end of the weapon as if you were fighting with two weapons. The penalties apply as if the off-hand end of the weapon were a light weapon.</p>
@@ -1269,8 +1133,10 @@
 </section>
 
         <footer id="page-foot" class="container">
-            <p><a href="http://chimericdream.github.io/worldofpannotia.com/todo/">To do</a> | <a href="http://chimericdream.github.io/worldofpannotia.com/admin/">Admin</a></p>
-            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+            <section class="row">
+                <div class="col-xs-12 col-sm-6"><p>&copy; 2007-15 Bill Parrott</p></div>
+                <div class="col-xs-12 col-sm-6 text-right"><p><a href="http://chimericdream.github.io/worldofpannotia.com/contributing/">Contribute to Pannotia</a></p></div>
+            </section>
         </footer>
         <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/jquery.min.js"></script>
         <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/bootstrap.min.js"></script>
