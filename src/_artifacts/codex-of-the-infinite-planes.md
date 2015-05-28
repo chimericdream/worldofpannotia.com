@@ -19,4 +19,5 @@ artifact:
     | 51–75 | Ultimate Imprisonment:Reader's soul is captured (as _trap the soul_; no save allowed) in arandom gem somewhere on the plane while his or her body is entombed beneaththe earth (as _imprisonment_).
     | 76–100 | Death: The reader utters a _wailof the banshee_ and then is subject to a _destruction_ spell. Thisrepeats every round for 10 rounds until the reader is dead.
     {: #codex-of-the-infinite-planes-table .table .table-bordered .table-hover .table-striped data-caption="Table: Codex of the Infinite Planes" }
+
 ---

@@ -30,4 +30,5 @@ combo:
     |-|-|-|-|-|-
     | **Fast Healing** | 4 | 8 | 12 | 16 | 20
     {: #combo-fast-healing-table .table .table-bordered .table-hover .table-striped data-caption="Table: Fast Healing Gained" }
+
 ---

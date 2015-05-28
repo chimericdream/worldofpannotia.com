@@ -55,4 +55,5 @@ ability:
     | 60-61 | +25 | 5 | 5 | 5 | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2 | 2 | 2
     | etc&hellip; |<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<|<
     {: #divine-spellcasting-table .table .table-bordered .table-hover .table-striped data-caption="Table: Divine Spellcasting" }
+
 ---

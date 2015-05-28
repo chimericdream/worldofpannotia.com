@@ -76,4 +76,5 @@ ability:
     |===
     | <sup>1</sup> Permanent drain, not temporary damage. |<|<|<|<
     {: #poison-table .table .table-bordered .table-hover .table-striped data-caption="Table: Poisons" }
+
 ---

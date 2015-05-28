@@ -27,6 +27,7 @@ combo:
     | 6 | Hot | 2d4 points
     | 7 | Warm | None
     {: #metalskin-heat-metal-damage-table .table .table-bordered .table-hover .table-striped data-caption="Table: Heat Metal Damage" }
+
   description: |
     The warded creature's skin turns to a shimmering metal, and it gains resistance to blows, cuts, stabs, and slashes as per the normal stoneskin spell. However, this resistance is much higher than normal. The subject gains damage reduction 25/adamantine and magic. (It ignores the first 25 points of damage each time it takes damage from a weapon, though a magic adamantine weapon bypasses the reduction.) Once the spell has prevented a total of 25 points of damage per caster level (maximum 500 points), it is discharged.
 ---
