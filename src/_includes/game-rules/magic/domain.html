@@ -5,10 +5,10 @@
 {{ domain.grantedPower }}
 
 <h3>Spells</h3>
-{{ domain.spells | markdownify | liquify }}
+{{ domain.spells | pmarkdownify | liquify }}
 
 {% if domain.notes != "" %}<h4>Notes</h4>
-{{ domain.notes | markdownify }}{% endif %}
+{{ domain.notes | pmarkdownify }}{% endif %}
 {% endcapture %}
 
 {% include _other/ogc-block.html ogc_content=ogc %}
