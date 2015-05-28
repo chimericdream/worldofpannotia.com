@@ -20,6 +20,19 @@
         <link rel="stylesheet" href="http://chimericdream.github.io/worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
         <style>
             body {padding-top: 70px;}
+            :target::before {
+                background-attachment: scroll;
+                background-image: url("http://chimericdream.github.io/worldofpannotia.com/assets/images/icons/sword-pointer.png");
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                content: " ";
+                display: block;
+                height: calc(70px + 1em);
+                margin-bottom: -1em;
+                margin-left: -110px;
+                margin-top: -70px;
+                padding-top: 70px;
+            }
             table[data-caption]::before {
                 content: attr(data-caption);
                 display: table-caption;
@@ -33,6 +46,16 @@
                 content: "&ndash;";
                 text-align: center;
             }
+            .table-bordered > thead > tr > th,
+            .table-bordered > thead > tr > td {
+                border-bottom-width: 1px;
+            }
+            .table-bordered > thead > tr:last-of-type {
+                border-bottom: 2px solid #ddd;
+            }
+            .table-bordered > tfoot > tr:first-of-type > td {
+                border-top-width: 2px;
+            }
             h1,h2,h3,h4,h5,h6 {
                 font-weight: bold;
             }
@@ -42,6 +65,12 @@
             .panel > .list-group:last-child .indented-list-group-item:last-child,
             .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
                 border-bottom-left-radius: 0px;
+            }
+            ol > li > ol > li {
+                list-style-type: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style-type: lower-roman;
             }
         </style>
     </head>
@@ -181,22 +210,16 @@
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury & Death">Injury & Death</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury &amp; Death">Injury &amp; Death</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Special Abilities" class="dropdown-toggle" data-toggle="dropdown" role="button">Special Abilities</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/" title="Special Abilities">Special Abilities</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Carrying, Movement, & Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, & Exploration</a>
+                                    <a href="#" title="Carrying, Movement, &amp; Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, &amp; Exploration</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
@@ -204,7 +227,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Wilderness & Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness & Environment</a>
+                                    <a href="#" title="Wilderness &amp; Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness &amp; Environment</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
@@ -237,18 +260,18 @@
                 <li class="dropdown">
                     <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/wealth-money/" title="Wealth & Money">Wealth & Money</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/wealth-money/" title="Wealth &amp; Money">Wealth &amp; Money</a></li>
                         <li class="dropdown-submenu">
-                            <a href="#" title="Goods & Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods & Services</a>
+                            <a href="#" title="Goods &amp; Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods &amp; Services</a>
                             <ul class="dropdown-menu">
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances & Items">Special Substances & Items</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/tools-skill-sets/" title="Tools & Skill Sets">Tools & Skill Sets</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances &amp; Items">Special Substances &amp; Items</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/tools-skill-kits/" title="Tools &amp; Skill Kits">Tools &amp; Skill Kits</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, & Lodging">Food, Drink, & Lodging</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts & Related Gear">Mounts & Related Gear</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, &amp; Lodging">Food, Drink, &amp; Lodging</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts &amp; Related Gear">Mounts &amp; Related Gear</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/transport/" title="Transport">Transport</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting & Services">Spellcasting & Services</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting &amp; Services">Spellcasting &amp; Services</a></li>
                             </ul>
                         </li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
@@ -288,7 +311,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Potions & Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions & Oils</a>
+                                    <a href="#" title="Potions &amp; Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions &amp; Oils</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/overview/" title="Overview">Overview</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/descriptions/" title="Descriptions">Descriptions</a></li>
@@ -423,7 +446,7 @@
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Potions & Oils">Potions & Oils</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rings/" title="Rings">Rings</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rods/" title="Rods">Rods</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
@@ -500,8 +523,9 @@
                     <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button">Monsters <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/introduction/" title="Introduction">Introduction</a></li>
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/types-subtypes/" title="Types & Subtypes">Types & Subtypes</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/types-subtypes/" title="Types &amp; Subtypes">Types &amp; Subtypes</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/monsters-as-races/" title="Monsters as Races">Monsters as Races</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Entries" class="dropdown-toggle" data-toggle="dropdown" role="button">Entries</a>
                             <ul class="dropdown-menu">
@@ -528,7 +552,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/overview/" title="Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/regions-countries/" title="Regions & Countries">Regions & Countries</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/regions-countries/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
                             </ul>
                         </li>
@@ -576,6 +600,7 @@
                 <li class="dropdown">
                     <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/changes-from-dd-35/" title="Changes from D&amp;D 3.5">Changes from D&amp;D 3.5</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/credits/" title="Credits">Credits</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
                     </ul>
@@ -657,46 +682,19 @@
 <p>Some checks are made against a Difficulty Class (DC). The DC is a number (set using the skill rules as a guideline) that you must score as a result on your skill check in order to succeed.</p>
 
 <table id="difficulty-class-table" class="table table-bordered table-hover table-striped" data-caption="Table: Difficulty Class Examples">
-  <thead>
-    <tr>
-      <th>Difficulty (DC)</th>
-      <th>Example (Skill Used)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Very easy (0)</td>
-      <td>Notice something large in plain sight (<em>spot</em>)</td>
-    </tr>
-    <tr>
-      <td>Easy (5)</td>
-      <td>Climb a knotted rope (<em>climb</em>)</td>
-    </tr>
-    <tr>
-      <td>Average (10)</td>
-      <td>Hear an approaching guard (<em>listen</em>)</td>
-    </tr>
-    <tr>
-      <td>Tough (15)</td>
-      <td>Rig a wagon wheel to fall off (<em>disable device</em>)</td>
-    </tr>
-    <tr>
-      <td>Challenging (20)</td>
-      <td>Swim in stormy water (<em>swim</em>)</td>
-    </tr>
-    <tr>
-      <td>Formidable (25)</td>
-      <td>Open an average lock (<em>open lock</em>)</td>
-    </tr>
-    <tr>
-      <td>Heroic (30)</td>
-      <td>Leap across a 30-foot chasm (<em>sump</em>)</td>
-    </tr>
-    <tr>
-      <td>Nearly impossible (40)</td>
-      <td>Track a squad of orcs across hard ground after 24 hours of rainfall (<em>survival</em>)</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th>Difficulty (DC)</th><th>Example (Skill Used)</th></tr>
+</thead>
+<tbody>
+<tr><td>Very easy (0)</td><td>Notice something large in plain sight (_spot_)</td></tr>
+<tr><td>Easy (5)</td><td>Climb a knotted rope (_climb_)</td></tr>
+<tr><td>Average (10)</td><td>Hear an approaching guard (_listen_)</td></tr>
+<tr><td>Tough (15)</td><td>Rig a wagon wheel to fall off (_disable device_)</td></tr>
+<tr><td>Challenging (20)</td><td>Swim in stormy water (_swim_)</td></tr>
+<tr><td>Formidable (25)</td><td>Open an average lock (_open lock_)</td></tr>
+<tr><td>Heroic (30)</td><td>Leap across a 30-foot chasm (_sump_)</td></tr>
+<tr><td>Nearly impossible (40)</td><td>Track a squad of orcs across hard ground after 24 hours of rainfall (_survival_)</td></tr>
+</tbody>
 </table>
 
 <h5 id="opposed-checks">Opposed Checks</h5>
@@ -704,62 +702,22 @@
 <p>An opposed check is a check whose success or failure is determined by comparing the check result to another character’s check result. In an opposed check, the higher result succeeds, while the lower result fails. In case of a tie, the higher skill modifier wins. If these scores are the same, roll again to break the tie.</p>
 
 <table id="opposed-checks-table" class="table table-bordered table-hover table-striped" data-caption="Table: Example Opposed Checks">
-  <thead>
-    <tr>
-      <th>Task</th>
-      <th>Skill (Key Ability)</th>
-      <th>Opposing Skill (Key Ability)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Con someone</td>
-      <td><em>bluff</em> (Cha)</td>
-      <td><em>sense motive</em> (Wis)</td>
-    </tr>
-    <tr>
-      <td>Pretend to be someone else</td>
-      <td><em>disguise</em> (Cha)</td>
-      <td><em>spot</em> (Wis)</td>
-    </tr>
-    <tr>
-      <td>Create a false map</td>
-      <td><em>forgery</em> (Int)</td>
-      <td><em>forgery</em> (Int)</td>
-    </tr>
-    <tr>
-      <td>Hide from someone</td>
-      <td><em>hide</em> (Dex)</td>
-      <td><em>spot</em> (Wis)</td>
-    </tr>
-    <tr>
-      <td>Make a bully back down</td>
-      <td><em>intimidate</em> (Cha)</td>
-      <td>Special<sup>1</sup></td>
-    </tr>
-    <tr>
-      <td>Sneak up on someone</td>
-      <td><em>move silently</em> (Dex)</td>
-      <td><em>listen</em> (Wis)</td>
-    </tr>
-    <tr>
-      <td>Steal a coin pouch</td>
-      <td><em>sleight of hand</em> (Dex)</td>
-      <td><em>spot</em> (Wis)</td>
-    </tr>
-    <tr>
-      <td>Tie a prisoner securely</td>
-      <td><em>use rope</em> (Dex)</td>
-      <td><em>escape artist</em> (Dex)</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td><sup>1</sup> An <em>intimidate</em> check is opposed by the target’s level check, not a skill check. See the <em>intimidate</em> skill description for more information.</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-  </tfoot>
+<thead>
+<tr><th>Task</th><th>Skill (Key Ability)</th><th>Opposing Skill (Key Ability)</th></tr>
+</thead>
+<tbody>
+<tr><td>Con someone</td><td>_bluff_ (Cha)</td><td>_sense motive_ (Wis)</td></tr>
+<tr><td>Pretend to be someone else</td><td>_disguise_ (Cha)</td><td>_spot_ (Wis)</td></tr>
+<tr><td>Create a false map</td><td>_forgery_ (Int)</td><td>_forgery_ (Int)</td></tr>
+<tr><td>Hide from someone</td><td>_hide_ (Dex)</td><td>_spot_ (Wis)</td></tr>
+<tr><td>Make a bully back down</td><td>_intimidate_ (Cha)</td><td>Special<sup>1</sup></td></tr>
+<tr><td>Sneak up on someone</td><td>_move silently_ (Dex)</td><td>_listen_ (Wis)</td></tr>
+<tr><td>Steal a coin pouch</td><td>_sleight of hand_ (Dex)</td><td>_spot_ (Wis)</td></tr>
+<tr><td>Tie a prisoner securely</td><td>_use rope_ (Dex)</td><td>_escape artist_ (Dex)</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="3"><sup>1</sup> An _intimidate_ check is opposed by the target's level check, not a skill check. See the _intimidate_ skill description for more information.</td></tr>
+</tfoot>
 </table>
 
 <h5 id="trying-again">Trying Again</h5>
@@ -828,217 +786,67 @@
 <p>This synergy bonus increases as follows: a character will receive +2 for having a minimum of 5 ranks in the requisite skill(s), then an additional +1 for every 5 ranks beyond that (e.g. - +2 at 5 ranks, +3 at 10 ranks, +4 at 15 ranks, and so on).</p>
 
 <table id="synergy-bonus-table" class="table table-bordered table-hover table-striped" data-caption="Table: Synergy Bonuses">
-  <thead>
-    <tr>
-      <th># of Ranks in Each Skill</th>
-      <th>Bonus</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>5</td>
-      <td>+2</td>
-    </tr>
-    <tr>
-      <td>10</td>
-      <td>+3</td>
-    </tr>
-    <tr>
-      <td>15</td>
-      <td>+4</td>
-    </tr>
-    <tr>
-      <td>20</td>
-      <td>+5</td>
-    </tr>
-    <tr>
-      <td>25</td>
-      <td>+6</td>
-    </tr>
-    <tr>
-      <td>30</td>
-      <td>+7</td>
-    </tr>
-    <tr>
-      <td>35</td>
-      <td>+8</td>
-    </tr>
-    <tr>
-      <td>40</td>
-      <td>+9</td>
-    </tr>
-    <tr>
-      <td>45</td>
-      <td>+10</td>
-    </tr>
-    <tr>
-      <td>50</td>
-      <td>+11</td>
-    </tr>
-    <tr>
-      <td>etc…</td>
-      <td>!cs</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th># of Ranks in Each Skill</th><th>Bonus</th></tr>
+</thead>
+<tbody>
+<tr><td>5</td><td>+2</td></tr>
+<tr><td>10</td><td>+3</td></tr>
+<tr><td>15</td><td>+4</td></tr>
+<tr><td>20</td><td>+5</td></tr>
+<tr><td>25</td><td>+6</td></tr>
+<tr><td>30</td><td>+7</td></tr>
+<tr><td>35</td><td>+8</td></tr>
+<tr><td>40</td><td>+9</td></tr>
+<tr><td>45</td><td>+10</td></tr>
+<tr><td>50</td><td>+11</td></tr>
+<tr><td colspan="2">etc...</td></tr>
+</tbody>
 </table>
 
 <table id="skill-synergy-table" class="table table-bordered table-hover table-striped" data-caption="Table: Skill Synergies">
-  <thead>
-    <tr>
-      <th>Requisite ranks in…</th>
-      <th>Gives a bonus on…</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><em>autohypnosis</em></td>
-      <td><em>knowledge (psionics)</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>bluff</em></td>
-      <td><em>diplomacy</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>bluff</em></td>
-      <td><em>disguise</em> checks to act in character</td>
-    </tr>
-    <tr>
-      <td><em>bluff</em></td>
-      <td><em>intimidate</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>bluff</em></td>
-      <td><em>sense motive</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>bluff</em></td>
-      <td><em>sleight of hand</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>concentration</em></td>
-      <td><em>autohypnosis</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>craft</em></td>
-      <td>related <em>appraise</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>decipher script</em></td>
-      <td><em>use magic device</em> checks involving scrolls</td>
-    </tr>
-    <tr>
-      <td><em>escape artist</em></td>
-      <td><em>use rope</em> checks involving bindings</td>
-    </tr>
-    <tr>
-      <td><em>handle animal</em></td>
-      <td><em>ride</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>handle animal</em></td>
-      <td>wild empathy checks</td>
-    </tr>
-    <tr>
-      <td><em>jump</em></td>
-      <td><em>tumble</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (arcana)</em></td>
-      <td><em>spellcraft</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (architecture and engineering)</em></td>
-      <td><em>search</em> checks involving secret doors and similar compartments</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (dungeoneering)</em></td>
-      <td><em>survival</em> checks when underground</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (geography)</em></td>
-      <td><em>survival</em> checks to keep from getting lost or for avoiding hazards</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (history)</em></td>
-      <td>bardic knowledge checks</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (local)</em></td>
-      <td><em>gather information</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (local)</em></td>
-      <td><em>research</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (nature)</em></td>
-      <td><em>survival</em> checks in aboveground natural environments</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (nobility and royalty)</em></td>
-      <td><em>diplomacy</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (the planes)</em></td>
-      <td><em>survival</em> checks when on other planes</td>
-    </tr>
-    <tr>
-      <td><em>knowledge (psionics)</em></td>
-      <td><em>psicraft</em></td>
-    </tr>
-    <tr>
-      <td><em>knowledge (religion)</em></td>
-      <td>checks to turn or rebuke undead</td>
-    </tr>
-    <tr>
-      <td><em>psicraft</em></td>
-      <td><em>use psionic device</em> checks involving power stones</td>
-    </tr>
-    <tr>
-      <td><em>search</em></td>
-      <td><em>survival</em> checks when following tracks</td>
-    </tr>
-    <tr>
-      <td><em>sense motive</em></td>
-      <td><em>bluff</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>sense motive</em></td>
-      <td><em>diplomacy</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>spellcraft</em></td>
-      <td><em>use magic device</em> involving scrolls</td>
-    </tr>
-    <tr>
-      <td><em>survival</em></td>
-      <td><em>knowledge (nature)</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>tumble</em></td>
-      <td><em>balance</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>tumble</em></td>
-      <td><em>jump</em> checks</td>
-    </tr>
-    <tr>
-      <td><em>use magic device</em></td>
-      <td><em>spellcraft</em> checks to decipher scrolls</td>
-    </tr>
-    <tr>
-      <td><em>use psionic device</em></td>
-      <td><em>psicraft</em> checks to address power stones</td>
-    </tr>
-    <tr>
-      <td><em>use rope</em></td>
-      <td><em>climb</em> checks involving climbing ropes</td>
-    </tr>
-    <tr>
-      <td><em>use rope</em></td>
-      <td><em>escape artist</em> checks involving ropes</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th>Requisite ranks in...</th><th>Gives a bonus on...</th></tr>
+</thead>
+<tbody>
+<tr><td>_autohypnosis_</td><td>_knowledge (psionics)_ checks</td></tr>
+<tr><td>_bluff_</td><td>_diplomacy_ checks</td></tr>
+<tr><td>_bluff_</td><td>_disguise_ checks to act in character</td></tr>
+<tr><td>_bluff_</td><td>_intimidate_ checks</td></tr>
+<tr><td>_bluff_</td><td>_sense motive_ checks</td></tr>
+<tr><td>_bluff_</td><td>_sleight of hand_ checks</td></tr>
+<tr><td>_concentration_</td><td>_autohypnosis_ checks</td></tr>
+<tr><td>_craft_</td><td>related _appraise_ checks</td></tr>
+<tr><td>_decipher script_</td><td>_use magic device_ checks involving scrolls</td></tr>
+<tr><td>_escape artist_</td><td>_use rope_ checks involving bindings</td></tr>
+<tr><td>_handle animal_</td><td>_ride_ checks</td></tr>
+<tr><td>_handle animal_</td><td>wild empathy checks</td></tr>
+<tr><td>_jump_</td><td>_tumble_ checks</td></tr>
+<tr><td>_knowledge (arcana)_</td><td>_spellcraft_ checks</td></tr>
+<tr><td>_knowledge (architecture and engineering)_</td><td>_search_ checks involving secret doors and similar compartments</td></tr>
+<tr><td>_knowledge (dungeoneering)_</td><td>_survival_ checks when underground</td></tr>
+<tr><td>_knowledge (geography)_</td><td>_survival_ checks to keep from getting lost or for avoiding hazards</td></tr>
+<tr><td>_knowledge (history)_</td><td>bardic knowledge checks</td></tr>
+<tr><td>_knowledge (local)_</td><td>_gather information_ checks</td></tr>
+<tr><td>_knowledge (local)_</td><td>_research_ checks</td></tr>
+<tr><td>_knowledge (nature)_</td><td>_survival_ checks in aboveground natural environments</td></tr>
+<tr><td>_knowledge (nobility and royalty)_</td><td>_diplomacy_ checks</td></tr>
+<tr><td>_knowledge (the planes)_</td><td>_survival_ checks when on other planes</td></tr>
+<tr><td>_knowledge (psionics)_</td><td>_psicraft_</td></tr>
+<tr><td>_knowledge (religion)_</td><td>checks to turn or rebuke undead</td></tr>
+<tr><td>_psicraft_</td><td>_use psionic device_ checks involving power stones</td></tr>
+<tr><td>_search_</td><td>_survival_ checks when following tracks</td></tr>
+<tr><td>_sense motive_</td><td>_bluff_ checks</td></tr>
+<tr><td>_sense motive_</td><td>_diplomacy_ checks</td></tr>
+<tr><td>_spellcraft_</td><td>_use magic device_ involving scrolls</td></tr>
+<tr><td>_survival_</td><td>_knowledge (nature)_ checks</td></tr>
+<tr><td>_tumble_</td><td>_balance_ checks</td></tr>
+<tr><td>_tumble_</td><td>_jump_ checks</td></tr>
+<tr><td>_use magic device_</td><td>_spellcraft_ checks to decipher scrolls</td></tr>
+<tr><td>_use psionic device_</td><td>_psicraft_ checks to address power stones</td></tr>
+<tr><td>_use rope_</td><td>_climb_ checks involving climbing ropes</td></tr>
+<tr><td>_use rope_</td><td>_escape artist_ checks involving ropes</td></tr>
+</tbody>
 </table>
 
 <h3 id="ability-checks">Ability Checks</h3>
@@ -1055,8 +863,10 @@
 </section>
 
         <footer id="page-foot" class="container">
-            <p><a href="http://chimericdream.github.io/worldofpannotia.com/todo/">To do</a> | <a href="http://chimericdream.github.io/worldofpannotia.com/admin/">Admin</a></p>
-            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+            <section class="row">
+                <div class="col-xs-12 col-sm-6"><p>&copy; 2007-15 Bill Parrott</p></div>
+                <div class="col-xs-12 col-sm-6 text-right"><p><a href="http://chimericdream.github.io/worldofpannotia.com/contributing/">Contribute to Pannotia</a></p></div>
+            </section>
         </footer>
         <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/jquery.min.js"></script>
         <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/bootstrap.min.js"></script>

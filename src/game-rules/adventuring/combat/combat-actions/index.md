@@ -69,7 +69,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Use spell-like ability | Yes
 | Use supernatural ability | No
 |===
-| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> If you aid someone performing an action that would normally provoke an attack of opportunity, then the act of aiding another provokes an attack of opportunity as well.<br><sup>3</sup> If the object is being held, carried, or worn by a creature, yes. If not, no. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> If you aid someone performing an action that would normally provoke an attack of opportunity, then the act of aiding another provokes an attack of opportunity as well.<br><sup>3</sup> If the object is being held, carried, or worn by a creature, yes. If not, no. |<
 {: #standard-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Standard Actions in Combat" }
 
 |---
@@ -89,7 +89,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Ready or loose a shield<sup>2</sup> | No
 | Retrieve a stored item | Yes
 |===
-| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the Two- Weapon Fighting feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the Two- Weapon Fighting feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one. |<
 {: #move-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Move Actions in Combat" }
 
 |---
@@ -109,7 +109,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Use touch spell on up to six friends | Yes
 | Withdraw<sup>2</sup> | No
 |===
-| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> May be taken as a standard action if you are limited to taking only a single action in a round. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> May be taken as a standard action if you are limited to taking only a single action in a round. |<
 {: #full-round-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Full-Round Actions in Combat" }
 
 |---
@@ -122,7 +122,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Prepare spell components to cast a spell<sup>2</sup> | No
 | Speak | No
 |===
-| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> Unless the component is an extremely large or awkward item. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> Unless the component is an extremely large or awkward item. |<
 {: #free-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Free Actions in Combat" }
 
 |---
@@ -133,7 +133,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Trip an opponent<sup>2</sup> | Yes
 | Use feat<sup>3</sup> | Varies
 |===
-| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> These attack forms substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full attack action, or even as an attack of opportunity.<br><sup>3</sup> The description of a feat defines its effect. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> These attack forms substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full attack action, or even as an attack of opportunity.<br><sup>3</sup> The description of a feat defines its effect. |<
 {: #other-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Other Actions in Combat" }
 
 |---
@@ -142,7 +142,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Delay | No
 | 5-foot step | No
 |===
-| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity. |<
 {: #non-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Non-Actions in Combat" }
 
 ### Standard Actions {#standard-actions}

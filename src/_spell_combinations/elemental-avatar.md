@@ -27,4 +27,5 @@ combo:
     |-|-|-|-|-
     | ** Ability Score Adjustments** | Str +4, Dex +14, Con +6 | Str +14, Dex -2, Con +8 | Str +4, Dex +10, Con +6 | Str +10, Dex +4, Con +8
     {: #elemental-form-ability-scores-table .table .table-bordered .table-hover .table-striped data-caption="Table: Elemental Form Ability Scores" }
+
 ---

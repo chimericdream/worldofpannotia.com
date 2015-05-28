@@ -22,7 +22,7 @@ title: "Spellcasting and Services"
 | Spell, 8th-level | Caster level &times;80 gp<sup>1</sup>
 | Spell, 9th-level | Caster level &times;90 gp<sup>1</sup>
 |===
-| <sup>1</sup> See spell description for additional costs. If the additional costs put the spell's total cost above 3,000 gp, that spell is not generally available. | !cs
+| <sup>1</sup> See spell description for additional costs. If the additional costs put the spell's total cost above 3,000 gp, that spell is not generally available. |<
 {: #spellcasting-services-table .table .table-bordered .table-hover .table-striped data-caption="Table: Spellcasting and Services" }
 
 Sometimes the best solution for a problem is to hire someone else to take care of it.

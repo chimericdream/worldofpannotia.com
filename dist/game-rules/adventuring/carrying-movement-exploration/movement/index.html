@@ -20,6 +20,19 @@
         <link rel="stylesheet" href="http://chimericdream.github.io/worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
         <style>
             body {padding-top: 70px;}
+            :target::before {
+                background-attachment: scroll;
+                background-image: url("http://chimericdream.github.io/worldofpannotia.com/assets/images/icons/sword-pointer.png");
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                content: " ";
+                display: block;
+                height: calc(70px + 1em);
+                margin-bottom: -1em;
+                margin-left: -110px;
+                margin-top: -70px;
+                padding-top: 70px;
+            }
             table[data-caption]::before {
                 content: attr(data-caption);
                 display: table-caption;
@@ -33,6 +46,16 @@
                 content: "&ndash;";
                 text-align: center;
             }
+            .table-bordered > thead > tr > th,
+            .table-bordered > thead > tr > td {
+                border-bottom-width: 1px;
+            }
+            .table-bordered > thead > tr:last-of-type {
+                border-bottom: 2px solid #ddd;
+            }
+            .table-bordered > tfoot > tr:first-of-type > td {
+                border-top-width: 2px;
+            }
             h1,h2,h3,h4,h5,h6 {
                 font-weight: bold;
             }
@@ -42,6 +65,12 @@
             .panel > .list-group:last-child .indented-list-group-item:last-child,
             .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
                 border-bottom-left-radius: 0px;
+            }
+            ol > li > ol > li {
+                list-style-type: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style-type: lower-roman;
             }
         </style>
     </head>
@@ -181,22 +210,16 @@
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury & Death">Injury & Death</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury &amp; Death">Injury &amp; Death</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Special Abilities" class="dropdown-toggle" data-toggle="dropdown" role="button">Special Abilities</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/" title="Special Abilities">Special Abilities</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Carrying, Movement, & Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, & Exploration</a>
+                                    <a href="#" title="Carrying, Movement, &amp; Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, &amp; Exploration</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
@@ -204,7 +227,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Wilderness & Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness & Environment</a>
+                                    <a href="#" title="Wilderness &amp; Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness &amp; Environment</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
@@ -237,18 +260,18 @@
                 <li class="dropdown">
                     <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/wealth-money/" title="Wealth & Money">Wealth & Money</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/wealth-money/" title="Wealth &amp; Money">Wealth &amp; Money</a></li>
                         <li class="dropdown-submenu">
-                            <a href="#" title="Goods & Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods & Services</a>
+                            <a href="#" title="Goods &amp; Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods &amp; Services</a>
                             <ul class="dropdown-menu">
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances & Items">Special Substances & Items</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/tools-skill-sets/" title="Tools & Skill Sets">Tools & Skill Sets</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances &amp; Items">Special Substances &amp; Items</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/tools-skill-kits/" title="Tools &amp; Skill Kits">Tools &amp; Skill Kits</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, & Lodging">Food, Drink, & Lodging</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts & Related Gear">Mounts & Related Gear</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, &amp; Lodging">Food, Drink, &amp; Lodging</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts &amp; Related Gear">Mounts &amp; Related Gear</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/transport/" title="Transport">Transport</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting & Services">Spellcasting & Services</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting &amp; Services">Spellcasting &amp; Services</a></li>
                             </ul>
                         </li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
@@ -288,7 +311,7 @@
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Potions & Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions & Oils</a>
+                                    <a href="#" title="Potions &amp; Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions &amp; Oils</a>
                                     <ul class="dropdown-menu">
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/overview/" title="Overview">Overview</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/descriptions/" title="Descriptions">Descriptions</a></li>
@@ -423,7 +446,7 @@
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Potions & Oils">Potions & Oils</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rings/" title="Rings">Rings</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rods/" title="Rods">Rods</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
@@ -500,8 +523,9 @@
                     <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button">Monsters <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/introduction/" title="Introduction">Introduction</a></li>
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/types-subtypes/" title="Types & Subtypes">Types & Subtypes</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/types-subtypes/" title="Types &amp; Subtypes">Types &amp; Subtypes</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/monsters-as-races/" title="Monsters as Races">Monsters as Races</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Entries" class="dropdown-toggle" data-toggle="dropdown" role="button">Entries</a>
                             <ul class="dropdown-menu">
@@ -528,7 +552,7 @@
                             <ul class="dropdown-menu">
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/overview/" title="Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/regions-countries/" title="Regions & Countries">Regions & Countries</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/regions-countries/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
                             </ul>
                         </li>
@@ -576,6 +600,7 @@
                 <li class="dropdown">
                     <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/changes-from-dd-35/" title="Changes from D&amp;D 3.5">Changes from D&amp;D 3.5</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/credits/" title="Credits">Credits</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
                     </ul>
@@ -688,391 +713,99 @@
 <p><strong>Waterborne Movement:</strong> See Table: Mounts and Vehicles for speeds for water vehicles.</p>
 
 <table id="movement-and-distance-table" class="table table-bordered table-hover table-striped" data-caption="Table: Movement and Distance">
-  <thead>
-    <tr>
-      <th>One Round (Tactical)<sup>1</sup></th>
-      <th>Speed</th>
-      <th>!cs</th>
-      <th>!cs</th>
-      <th>!cs</th>
-    </tr>
-    <tr>
-      <th>!rs</th>
-      <th>15 feet</th>
-      <th>20 feet</th>
-      <th>30 feet</th>
-      <th>40 feet</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Walk</td>
-      <td>15 ft.</td>
-      <td>20 ft.</td>
-      <td>30 ft.</td>
-      <td>40 ft.</td>
-    </tr>
-    <tr>
-      <td>Hustle</td>
-      <td>30 ft.</td>
-      <td>40 ft.</td>
-      <td>60 ft.</td>
-      <td>80 ft.</td>
-    </tr>
-    <tr>
-      <td>Run (×3)</td>
-      <td>45 ft.</td>
-      <td>60 ft.</td>
-      <td>90 ft.</td>
-      <td>120 ft.</td>
-    </tr>
-    <tr>
-      <td>Run (×4)</td>
-      <td>60 ft.</td>
-      <td>80 ft.</td>
-      <td>120 ft.</td>
-      <td>160 ft.</td>
-    </tr>
-    <tr>
-      <td>One Minute (Local)</td>
-      <td>!cs</td>
-      <td>!cs</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-    <tr>
-      <td>Walk</td>
-      <td>150 ft.</td>
-      <td>200 ft.</td>
-      <td>300 ft.</td>
-      <td>400 ft.</td>
-    </tr>
-    <tr>
-      <td>Hustle</td>
-      <td>300 ft.</td>
-      <td>400 ft.</td>
-      <td>600 ft.</td>
-      <td>800 ft.</td>
-    </tr>
-    <tr>
-      <td>Run (×3)</td>
-      <td>450 ft.</td>
-      <td>600 ft.</td>
-      <td>900 ft.</td>
-      <td>1,200 ft.</td>
-    </tr>
-    <tr>
-      <td>Run (×4)</td>
-      <td>600 ft.</td>
-      <td>800 ft.</td>
-      <td>1,200 ft.</td>
-      <td>1,600 ft.</td>
-    </tr>
-    <tr>
-      <td>One Hour (Overland)</td>
-      <td>!cs</td>
-      <td>!cs</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-    <tr>
-      <td>Walk</td>
-      <td>1½ miles</td>
-      <td>2 miles</td>
-      <td>3 miles</td>
-      <td>4 miles</td>
-    </tr>
-    <tr>
-      <td>Hustle</td>
-      <td>3 miles</td>
-      <td>4 miles</td>
-      <td>6 miles</td>
-      <td>8 miles</td>
-    </tr>
-    <tr>
-      <td>Run</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-    </tr>
-    <tr>
-      <td>One Day (Overland)</td>
-      <td>!cs</td>
-      <td>!cs</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-    <tr>
-      <td>Walk</td>
-      <td>12 miles</td>
-      <td>16 miles</td>
-      <td>24 miles</td>
-      <td>32 miles</td>
-    </tr>
-    <tr>
-      <td>Hustle</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-    </tr>
-    <tr>
-      <td>Run</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-      <td>–</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td><sup>1</sup>Tactical movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet.</td>
-      <td>!cs</td>
-      <td>!cs</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-  </tfoot>
+<thead>
+<tr><th rowspan="2">One Round (Tactical)<sup>1</sup></th><th colspan="4">Speed</th></tr>
+<tr><th>15 feet</th><th>20 feet</th><th>30 feet</th><th>40 feet</th></tr>
+</thead>
+<tbody>
+<tr><td>Walk</td><td>15 ft.</td><td>20 ft.</td><td>30 ft.</td><td>40 ft.</td></tr>
+<tr><td>Hustle</td><td>30 ft.</td><td>40 ft.</td><td>60 ft.</td><td>80 ft.</td></tr>
+<tr><td>Run (&times;3)</td><td>45 ft.</td><td>60 ft.</td><td>90 ft.</td><td>120 ft.</td></tr>
+<tr><td>Run (&times;4)</td><td>60 ft.</td><td>80 ft.</td><td>120 ft.</td><td>160 ft.</td></tr>
+<tr><td colspan="5">One Minute (Local)</td></tr>
+<tr><td>Walk</td><td>150 ft.</td><td>200 ft.</td><td>300 ft.</td><td>400 ft.</td></tr>
+<tr><td>Hustle</td><td>300 ft.</td><td>400 ft.</td><td>600 ft.</td><td>800 ft.</td></tr>
+<tr><td>Run (&times;3)</td><td>450 ft.</td><td>600 ft.</td><td>900 ft.</td><td>1,200 ft.</td></tr>
+<tr><td>Run (&times;4)</td><td>600 ft.</td><td>800 ft.</td><td>1,200 ft.</td><td>1,600 ft.</td></tr>
+<tr><td colspan="5">One Hour (Overland)</td></tr>
+<tr><td>Walk</td><td>1&#189; miles</td><td>2 miles</td><td>3 miles</td><td>4 miles</td></tr>
+<tr><td>Hustle</td><td>3 miles</td><td>4 miles</td><td>6 miles</td><td>8 miles</td></tr>
+<tr><td>Run</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+<tr><td colspan="5">One Day (Overland)</td></tr>
+<tr><td>Walk</td><td>12 miles</td><td>16 miles</td><td>24 miles</td><td>32 miles</td></tr>
+<tr><td>Hustle</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+<tr><td>Run</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="5"><sup>1</sup> Tactical movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet.</td></tr>
+</tfoot>
 </table>
 
 <table id="hampered-movement-table" class="table table-bordered table-hover table-striped" data-caption="Table: Hampered Movement">
-  <thead>
-    <tr>
-      <th>Condition</th>
-      <th>Additional Movement Cost</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Difficult terrain</td>
-      <td>×2</td>
-    </tr>
-    <tr>
-      <td>Obstacle<sup>1</sup></td>
-      <td>×2</td>
-    </tr>
-    <tr>
-      <td>Poor visibility</td>
-      <td>×2</td>
-    </tr>
-    <tr>
-      <td>Impassable</td>
-      <td>–</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td><sup>1</sup>May require a skill check</td>
-      <td>!cs</td>
-    </tr>
-  </tfoot>
+<thead>
+<tr><th>Condition</th><th>Additional Movement Cost</th></tr>
+</thead>
+<tbody>
+<tr><td>Difficult terrain</td><td>&times;2</td></tr>
+<tr><td>Obstacle<sup>1</sup></td><td>&times;2</td></tr>
+<tr><td>Poor visibility</td><td>&times;2</td></tr>
+<tr><td>Impassable</td><td>&ndash;</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="2"><sup>1</sup> May require a skill check</td></tr>
+</tfoot>
 </table>
 
 <table id="terrain-and-overland-movement-table" class="table table-bordered table-hover table-striped" data-caption="Table: Terrain and Overland Movement">
-  <thead>
-    <tr>
-      <th>Terrain</th>
-      <th>Highway</th>
-      <th>Road or Trail</th>
-      <th>Trackless</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Desert, sandy</td>
-      <td>×1</td>
-      <td>×½</td>
-      <td>×½</td>
-    </tr>
-    <tr>
-      <td>Forest</td>
-      <td>×1</td>
-      <td>×1</td>
-      <td>×½</td>
-    </tr>
-    <tr>
-      <td>Hills</td>
-      <td>×1</td>
-      <td>×¾</td>
-      <td>×½</td>
-    </tr>
-    <tr>
-      <td>Jungle</td>
-      <td>×1</td>
-      <td>×¾</td>
-      <td>×¼</td>
-    </tr>
-    <tr>
-      <td>Moor</td>
-      <td>×1</td>
-      <td>×1</td>
-      <td>×¾</td>
-    </tr>
-    <tr>
-      <td>Mountains</td>
-      <td>×¾</td>
-      <td>×¾</td>
-      <td>×½</td>
-    </tr>
-    <tr>
-      <td>Plains</td>
-      <td>×1</td>
-      <td>×1</td>
-      <td>×¾</td>
-    </tr>
-    <tr>
-      <td>Swamp</td>
-      <td>×1</td>
-      <td>×¾</td>
-      <td>×½</td>
-    </tr>
-    <tr>
-      <td>Tundra, frozen</td>
-      <td>×1</td>
-      <td>×¾</td>
-      <td>×¾</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th>Terrain</th><th>Highway</th><th>Road or Trail</th><th>Trackless</th></tr>
+</thead>
+<tbody>
+<tr><td>Desert, sandy</td><td>&times;1</td><td>&times;&#189;</td><td>&times;&#189;</td></tr>
+<tr><td>Forest</td><td>&times;1</td><td>&times;1</td><td>&times;&#189;</td></tr>
+<tr><td>Hills</td><td>&times;1</td><td>&times;&#190;</td><td>&times;&#189;</td></tr>
+<tr><td>Jungle</td><td>&times;1</td><td>&times;&#190;</td><td>&times;&#188;</td></tr>
+<tr><td>Moor</td><td>&times;1</td><td>&times;1</td><td>&times;&#190;</td></tr>
+<tr><td>Mountains</td><td>&times;&#190;</td><td>&times;&#190;</td><td>&times;&#189;</td></tr>
+<tr><td>Plains</td><td>&times;1</td><td>&times;1</td><td>&times;&#190;</td></tr>
+<tr><td>Swamp</td><td>&times;1</td><td>&times;&#190;</td><td>&times;&#189;</td></tr>
+<tr><td>Tundra, frozen</td><td>&times;1</td><td>&times;&#190;</td><td>&times;&#190;</td></tr>
+</tbody>
 </table>
 
 <table id="mounts-and-vehicles-table" class="table table-bordered table-hover table-striped" data-caption="Table: Mounts and Vehicles">
-  <thead>
-    <tr>
-      <th>Mount/Vehicle</th>
-      <th>Per Hour</th>
-      <th>Per Day</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Mount (carrying load)</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-    <tr>
-      <td>Light horse or light warhorse</td>
-      <td>6 miles</td>
-      <td>48 miles</td>
-    </tr>
-    <tr>
-      <td>Light horse (151-450 lb.)<sup>1</sup></td>
-      <td>4 miles</td>
-      <td>32 miles</td>
-    </tr>
-    <tr>
-      <td>Light warhorse (231-690 lb.)<sup>1</sup></td>
-      <td>4 miles</td>
-      <td>32 miles</td>
-    </tr>
-    <tr>
-      <td>Heavy horse or heavy warhorse</td>
-      <td>5 miles</td>
-      <td>40 miles</td>
-    </tr>
-    <tr>
-      <td>Heavy horse (201-600 lb.)<sup>1</sup></td>
-      <td>3½ miles</td>
-      <td>28 miles</td>
-    </tr>
-    <tr>
-      <td>Heavy warhorse (301-900 lb.)<sup>1</sup></td>
-      <td>3½ miles</td>
-      <td>28 miles</td>
-    </tr>
-    <tr>
-      <td>Pony or warpony</td>
-      <td>4 miles</td>
-      <td>32 miles</td>
-    </tr>
-    <tr>
-      <td>Pony (76-225 lb.)<sup>1</sup></td>
-      <td>3 miles</td>
-      <td>24 miles</td>
-    </tr>
-    <tr>
-      <td>Warpony (101-300 lb.)<sup>1</sup></td>
-      <td>3 miles</td>
-      <td>24 miles</td>
-    </tr>
-    <tr>
-      <td>Donkey or mule</td>
-      <td>3 miles</td>
-      <td>24 miles</td>
-    </tr>
-    <tr>
-      <td>Donkey (51-150 lb.)<sup>1</sup></td>
-      <td>2 miles</td>
-      <td>16 miles</td>
-    </tr>
-    <tr>
-      <td>Mule (231-690 lb.)<sup>1</sup></td>
-      <td>2 miles</td>
-      <td>16 miles</td>
-    </tr>
-    <tr>
-      <td>Dog, riding</td>
-      <td>4 miles</td>
-      <td>32 miles</td>
-    </tr>
-    <tr>
-      <td>Dog, riding (101-300 lb.)<sup>1</sup></td>
-      <td>3 miles</td>
-      <td>24 miles</td>
-    </tr>
-    <tr>
-      <td>Cart or wagon</td>
-      <td>2 miles</td>
-      <td>16 miles</td>
-    </tr>
-    <tr>
-      <td>Ship</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-    <tr>
-      <td>Raft or barge (poled or towed)<sup>2</sup></td>
-      <td>½ mile</td>
-      <td>5 miles</td>
-    </tr>
-    <tr>
-      <td>Keelboat (rowed)<sup>2</sup></td>
-      <td>1 mile</td>
-      <td>10 miles</td>
-    </tr>
-    <tr>
-      <td>Rowboat (rowed)<sup>2</sup></td>
-      <td>1½ miles</td>
-      <td>15 miles</td>
-    </tr>
-    <tr>
-      <td>Sailing ship (sailed)</td>
-      <td>2 miles</td>
-      <td>48 miles</td>
-    </tr>
-    <tr>
-      <td>Warship (sailed and rowed)</td>
-      <td>2½ miles</td>
-      <td>60 miles</td>
-    </tr>
-    <tr>
-      <td>Longship (sailed and rowed)</td>
-      <td>3 miles</td>
-      <td>72 miles</td>
-    </tr>
-    <tr>
-      <td>Galley (rowed and sailed)</td>
-      <td>4 miles</td>
-      <td>96 miles</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td><sup>1</sup>Quadrupeds, such as horses, can carry heavier loads than characters can. See <em>Carrying Capacity</em>, above, for more information.<br /><sup>2</sup> Rafts, barges, keelboats, and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, so add an additional 42 miles to the daily distance traveled. These vehicles can’t be rowed against any significant current, but they can be pulled upstream by draft animals on the shores.</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-  </tfoot>
+<thead>
+<tr><th>Mount/Vehicle</th><th>Per Hour</th><th>Per Day</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="3">Mount (carrying load)</td></tr>
+<tr><td>Light horse or light warhorse</td><td>6 miles</td><td>48 miles</td></tr>
+<tr><td>Light horse (151-450 lb.)<sup>1</sup></td><td>4 miles</td><td>32 miles</td></tr>
+<tr><td>Light warhorse (231-690 lb.)<sup>1</sup></td><td>4 miles</td><td>32 miles</td></tr>
+<tr><td>Heavy horse or heavy warhorse</td><td>5 miles</td><td>40 miles</td></tr>
+<tr><td>Heavy horse (201-600 lb.)<sup>1</sup></td><td>3&#189; miles</td><td>28 miles</td></tr>
+<tr><td>Heavy warhorse (301-900 lb.)<sup>1</sup></td><td>3&#189; miles</td><td>28 miles</td></tr>
+<tr><td>Pony or warpony</td><td>4 miles</td><td>32 miles</td></tr>
+<tr><td>Pony (76-225 lb.)<sup>1</sup></td><td>3 miles</td><td>24 miles</td></tr>
+<tr><td>Warpony (101-300 lb.)<sup>1</sup></td><td>3 miles</td><td>24 miles</td></tr>
+<tr><td>Donkey or mule</td><td>3 miles</td><td>24 miles</td></tr>
+<tr><td>Donkey (51-150 lb.)<sup>1</sup></td><td>2 miles</td><td>16 miles</td></tr>
+<tr><td>Mule (231-690 lb.)<sup>1</sup></td><td>2 miles</td><td>16 miles</td></tr>
+<tr><td>Dog, riding</td><td>4 miles</td><td>32 miles</td></tr>
+<tr><td>Dog, riding (101-300 lb.)<sup>1</sup></td><td>3 miles</td><td>24 miles</td></tr>
+<tr><td>Cart or wagon</td><td>2 miles</td><td>16 miles</td></tr>
+<tr><td colspan="3">Ship</td></tr>
+<tr><td>Raft or barge (poled or towed)<sup>2</sup></td><td>&#189; mile</td><td>5 miles</td></tr>
+<tr><td>Keelboat (rowed)<sup>2</sup></td><td>1 mile</td><td>10 miles</td></tr>
+<tr><td>Rowboat (rowed)<sup>2</sup></td><td>1&#189; miles</td><td>15 miles</td></tr>
+<tr><td>Sailing ship (sailed)</td><td>2 miles</td><td>48 miles</td></tr>
+<tr><td>Warship (sailed and rowed)</td><td>2&#189; miles</td><td>60 miles</td></tr>
+<tr><td>Longship (sailed and rowed)</td><td>3 miles</td><td>72 miles</td></tr>
+<tr><td>Galley (rowed and sailed)</td><td>4 miles</td><td>96 miles</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="3"><sup>1</sup> Quadrupeds, such as horses, can carry heavier loads than characters can. See _Carrying Capacity_, above, for more information.<br /><sup>2</sup> Rafts, barges, keelboats, and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, so add an additional 42 miles to the daily distance traveled. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores.</td></tr>
+</tfoot>
 </table>
 
 <h4 id="moving-in-3-dims">Moving in Three Dimensions</h4>
@@ -1106,122 +839,24 @@
 <p><em>Between Down and Up:</em> An average, poor, or clumsy flier must fly level for a minimum distance after descending and before climbing. Any flier can begin descending after a climb without an intervening distance of level flight.</p>
 
 <table id="maneuverability-table" class="table table-bordered table-hover table-striped" data-caption="Table: Maneuverability">
-  <thead>
-    <tr>
-      <th> </th>
-      <th>Maneuverability</th>
-      <th>!cs</th>
-      <th>!cs</th>
-      <th>!cs</th>
-      <th>!cs</th>
-    </tr>
-    <tr>
-      <th>!rs</th>
-      <th>Perfect</th>
-      <th>Good</th>
-      <th>Average</th>
-      <th>Poor</th>
-      <th>Clumsy</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Minimum forward speed</td>
-      <td>None</td>
-      <td>None</td>
-      <td>Half</td>
-      <td>Half</td>
-      <td>Half</td>
-    </tr>
-    <tr>
-      <td>Hover</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>No</td>
-      <td>No</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td>Move backward</td>
-      <td>Yes</td>
-      <td>Yes</td>
-      <td>No</td>
-      <td>No</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td>Reverse</td>
-      <td>Free</td>
-      <td>-5 ft.</td>
-      <td>No</td>
-      <td>No</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td>Turn</td>
-      <td>Any</td>
-      <td>90°/5 ft.</td>
-      <td>45°/5 ft.</td>
-      <td>45°/5 ft.</td>
-      <td>45°/10 ft.</td>
-    </tr>
-    <tr>
-      <td>Turn in place</td>
-      <td>Any</td>
-      <td>+90°/-5 ft.</td>
-      <td>+45°/-5 ft.</td>
-      <td>No</td>
-      <td>No</td>
-    </tr>
-    <tr>
-      <td>Maximum turn</td>
-      <td>Any</td>
-      <td>Any</td>
-      <td>90°</td>
-      <td>45°</td>
-      <td>45°</td>
-    </tr>
-    <tr>
-      <td>Up angle</td>
-      <td>Any</td>
-      <td>Any</td>
-      <td>60°</td>
-      <td>45°</td>
-      <td>45°</td>
-    </tr>
-    <tr>
-      <td>Up speed</td>
-      <td>Full</td>
-      <td>Half</td>
-      <td>Half</td>
-      <td>Half</td>
-      <td>Half</td>
-    </tr>
-    <tr>
-      <td>Down angle</td>
-      <td>Any</td>
-      <td>Any</td>
-      <td>Any</td>
-      <td>45°</td>
-      <td>45°</td>
-    </tr>
-    <tr>
-      <td>Down speed</td>
-      <td>Double</td>
-      <td>Double</td>
-      <td>Double</td>
-      <td>Double</td>
-      <td>Double</td>
-    </tr>
-    <tr>
-      <td>Between down and up</td>
-      <td>0</td>
-      <td>0</td>
-      <td>5 ft.</td>
-      <td>10 ft.</td>
-      <td>20 ft.</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th rowspan="2">&nbsp;</th><th colspan="5">Maneuverability</th></tr>
+<tr><th>Perfect</th><th>Good</th><th>Average</th><th>Poor</th><th>Clumsy</th></tr>
+</thead>
+<tbody>
+<tr><td>Minimum forward speed</td><td>None</td><td>None</td><td>Half</td><td>Half</td><td>Half</td></tr>
+<tr><td>Hover</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr>
+<tr><td>Move backward</td><td>Yes</td><td>Yes</td><td>No</td><td>No</td><td>No</td></tr>
+<tr><td>Reverse</td><td>Free</td><td>-5 ft.</td><td>No</td><td>No</td><td>No</td></tr>
+<tr><td>Turn</td><td>Any</td><td>90&deg;/5 ft.</td><td>45&deg;/5 ft.</td><td>45&deg;/5 ft.</td><td>45&deg;/10 ft.</td></tr>
+<tr><td>Turn in place</td><td>Any</td><td>+90&deg;/-5 ft.</td><td>+45&deg;/-5 ft.</td><td>No</td><td>No</td></tr>
+<tr><td>Maximum turn</td><td>Any</td><td>Any</td><td>90&deg;</td><td>45&deg;</td><td>45&deg;</td></tr>
+<tr><td>Up angle</td><td>Any</td><td>Any</td><td>60&deg;</td><td>45&deg;</td><td>45&deg;</td></tr>
+<tr><td>Up speed</td><td>Full</td><td>Half</td><td>Half</td><td>Half</td><td>Half</td></tr>
+<tr><td>Down angle</td><td>Any</td><td>Any</td><td>Any</td><td>45&deg;</td><td>45&deg;</td></tr>
+<tr><td>Down speed</td><td>Double</td><td>Double</td><td>Double</td><td>Double</td><td>Double</td></tr>
+<tr><td>Between down and up</td><td>0</td><td>0</td><td>5 ft.</td><td>10 ft.</td><td>20 ft.</td></tr>
+</tbody>
 </table>
 
 <h4 id="evasion-and-pursuit">Evasion and Pursuit</h4>
@@ -1244,8 +879,10 @@
 </section>
 
         <footer id="page-foot" class="container">
-            <p><a href="http://chimericdream.github.io/worldofpannotia.com/todo/">To do</a> | <a href="http://chimericdream.github.io/worldofpannotia.com/admin/">Admin</a></p>
-            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+            <section class="row">
+                <div class="col-xs-12 col-sm-6"><p>&copy; 2007-15 Bill Parrott</p></div>
+                <div class="col-xs-12 col-sm-6 text-right"><p><a href="http://chimericdream.github.io/worldofpannotia.com/contributing/">Contribute to Pannotia</a></p></div>
+            </section>
         </footer>
         <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/jquery.min.js"></script>
         <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/bootstrap.min.js"></script>

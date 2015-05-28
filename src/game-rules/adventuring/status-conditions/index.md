@@ -8,5 +8,5 @@ If more than one condition affects a character, apply them all. If certain effec
 
 {% for item in site.status_conditions %}
 ##### {{ item.title }}
-{{ item.condition["description"] | markdownify | liquify }}
+{{ item.condition["description"] | pmarkdownify | liquify }}
 {% endfor %}

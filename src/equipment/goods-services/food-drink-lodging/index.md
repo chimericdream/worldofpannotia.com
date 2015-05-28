@@ -20,7 +20,7 @@ title: "Food, Drink, &amp; Lodging"
 | Wine, Common (pitcher) | 2 sp | 6 lb.
 | Wine, Fine (bottle) | 10 gp | 1&#189; lb.
 |===
-| &Dagger; No weight, or no weight worth noting. | !cs | !cs
+| &Dagger; No weight, or no weight worth noting. |<|<
 {: #food-drink-lodging-table .table .table-bordered .table-hover .table-striped data-caption="Table: Food, Drink, and Lodging" }
 
 **Inn:** Poor accommodations at an inn amount to a place on the floor near the hearth. Common accommodations consist of a place on a raised, heated floor, the use of a blanket and a pillow. Good accommodations consist of a small, private room with one bed, some amenities, and a covered chamber pot in the corner.

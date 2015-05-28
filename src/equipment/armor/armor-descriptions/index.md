@@ -3,38 +3,38 @@ title: "Armor Descriptions"
 ---
 
 |---
-| Armor | Cost | Armor/Shield Bonus | Maximum Dex Bonus | Armor Check Penalty | Arcane Spell Failure Chance | Speed | !cs | Weight<sup>1</sup>
-| !rs | !rs | !rs | !rs | !rs | !rs | (30 ft.) | (20 ft.) | !rs
+| Armor | Cost | Armor/Shield Bonus | Maximum Dex Bonus | Armor Check Penalty | Arcane Spell Failure Chance | Speed |<| Weight<sup>1</sup>
+|^|^|^|^|^|^| (30 ft.) | (20 ft.) |^
 |-|-|-|-|-|-|-|-|-
-| **Light armor** | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Light armor** |<|<|<|<|<|<|<|<
 | &mdash; Mages' robes | 500 gp | +0 | &ndash; | 0 | 0% | 30 ft. | 20 ft. | 5 lb.
 | &mdash; Padded | 5 gp | +1 | +8 | 0 | 5% | 30 ft. | 20 ft. | 10 lb.
 | &mdash; Leather | 10 gp | +2 | +6 | 0 | 10% | 30 ft. | 20 ft. | 15 lb.
 | &mdash; Studded leather | 25 gp | +3 | +5 | -1 | 15% | 30 ft. | 20 ft. | 20 lb.
 | &mdash; Chain shirt | 100 gp | +4 | +4 | -2 | 20% | 30 ft. | 20 ft. | 25 lb.
-| **Medium armor** | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Medium armor** |<|<|<|<|<|<|<|<
 | &mdash; Hide | 15 gp | +3 | +4 | -3 | 20% | 20 ft. | 15 ft. | 25 lb.
 | &mdash; Scale mail | 50 gp | +4 | +3 | -4 | 25% | 20 ft. | 15 ft. | 30 lb.
 | &mdash; Chainmail | 150 gp | +5 | +2 | -5 | 30% | 20 ft. | 15 ft. | 40 lb.
 | &mdash; Breastplate | 200 gp | +5 | +3 | -4 | 25% | 20 ft. | 15 ft. | 30 lb.
-| **Heavy armor** | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Heavy armor** |<|<|<|<|<|<|<|<
 | &mdash; Splint mail | 200 gp | +6 | +0 | -7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 45 lb.
 | &mdash; Banded mail | 250 gp | +6 | +1 | -6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 35 lb.
 | &mdash; Half-plate | 600 gp | +7 | +0 | -7 | 40% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 50 lb.
 | &mdash; Full plate | 1,500 gp | +8 | +1 | -6 | 35% | 20 ft.<sup>2</sup> | 15 ft.<sup>2</sup> | 50 lb.
-| **Shields** | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Shields** |<|<|<|<|<|<|<|<
 | &mdash; Buckler | 15 gp | +1 | &ndash; | -1 | 5% | &ndash; | &ndash; | 5 lb.
 | &mdash; Shield, light wooden | 3 gp | +1 | &ndash; | -1 | 5% | &ndash; | &ndash; | 5 lb.
 | &mdash; Shield, light steel | 9 gp | +1 | &ndash; | -1 | 5% | &ndash; | &ndash; | 6 lb.
 | &mdash; Shield, heavy wooden | 7 gp | +2 | &ndash; | -2 | 15% | &ndash; | &ndash; | 10 lb.
 | &mdash; Shield, heavy steel | 20 gp | +2 | &ndash; | -2 | 15% | &ndash; | &ndash; | 15 lb.
 | &mdash; Shield, tower | 30 gp | +4<sup>3</sup> | +2 | -10 | 50% | &ndash; | &ndash; | 45 lb.
-| **Extras** | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| **Extras** |<|<|<|<|<|<|<|<
 | &mdash; Armor spikes | +50 gp | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | +10 lb.
 | &mdash; Gauntlet, locked | 8 gp | &ndash; | &ndash; | Special | <sup>4</sup> | &ndash; | &ndash; | +5 lb.
 | &mdash; Shield spikes | +10 gp | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | +5 lb.
 |===
-| <sup>1</sup> Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.<br><sup>2</sup> When running in heavy armor, you move only triple your speed, not quadruple.<br><sup>3</sup> A tower shield can instead grant you cover. See the description.<br><sup>4</sup> Hand not free to cast spells. | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| <sup>1</sup> Weight figures are for armor sized to fit Medium characters. Armor fitted for Small characters weighs half as much, and armor fitted for Large characters weighs twice as much.<br><sup>2</sup> When running in heavy armor, you move only triple your speed, not quadruple.<br><sup>3</sup> A tower shield can instead grant you cover. See the description.<br><sup>4</sup> Hand not free to cast spells. |<|<|<|<|<|<|<|<
 {: #armor-table .table .table-bordered .table-hover .table-striped data-caption="Table: Armor and Shields" }
 
 Any special benefits or accessories to the types of armor found on Table: Armor and Shields are described below.

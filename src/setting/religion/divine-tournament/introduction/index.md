@@ -13,8 +13,8 @@ crumbTitles: [Setting, Religion, Divine Tournament]
  * A challenger may not challenge the same opponent within 500 years
 
 |---
-| Difference in Rank | Winner is Lower Rank | !cs | Winner is Higher Rank | !cs
-| !rs | Ranks gained by winner | Ranks lost by loser | Ranks gained by winner | Ranks lost by loser
+| Difference in Rank | Winner is Lower Rank |<| Winner is Higher Rank |<
+|^| Ranks gained by winner | Ranks lost by loser | Ranks gained by winner | Ranks lost by loser
 |-|-|-|-|-
 | 0 | 1 | 0 | 1 | 0
 | 1 - 4 | 1 | 1 | 1 | 1

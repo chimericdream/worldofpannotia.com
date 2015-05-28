@@ -41,14 +41,14 @@ Each ability, after changes made because of race, has a modifier ranging from -5
 The modifier is the number you apply to the die roll when your character tries to do something related tothat ability. You also use the modifier with some numbers that aren't die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.
 
 |---
-| Score| Modifier| Bonus Spells (by Spell Level) | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
-| !rs | !rs | 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th
+| Score| Modifier| Bonus Spells (by Spell Level) |<|<|<|<|<|<|<|<|<
+|^|^| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th
 |-|-|-|-|-|-|-|-|-|-|-|-
-| 1 | -5 | Can't cast spells tied to this ability | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
-| 2-3 | -4 | Can't cast spells tied to this ability | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
-| 4-5 | -3 | Can't cast spells tied to this ability | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
-| 6-7 | -2 | Can't cast spells tied to this ability | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
-| 8-9 | -1 | Can't cast spells tied to this ability | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| 1 | -5 | Can't cast spells tied to this ability |<|<|<|<|<|<|<|<|<
+| 2-3 | -4 | Can't cast spells tied to this ability |<|<|<|<|<|<|<|<|<
+| 4-5 | -3 | Can't cast spells tied to this ability |<|<|<|<|<|<|<|<|<
+| 6-7 | -2 | Can't cast spells tied to this ability |<|<|<|<|<|<|<|<|<
+| 8-9 | -1 | Can't cast spells tied to this ability |<|<|<|<|<|<|<|<|<
 | 10-11 | 0 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
 | 12-13 | +1 | &ndash; | 1 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
 | 14-15 | +2 | &ndash; | 1 | 1 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
@@ -67,7 +67,7 @@ The modifier is the number you apply to the die roll when your character tries t
 | 40-41 | +15 | &ndash; | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2 | 2
 | 42-43 | +16 | &ndash; | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3 | 2
 | 44-45 | +17 | &ndash; | 5 | 4 | 4 | 4 | 4 | 3 | 3 | 3 | 3
-| etc&hellip; | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs | !cs
+| etc&hellip; |<|<|<|<|<|<|<|<|<|<|<
 {: #ability-scores-spells-table .table .table-bordered .table-hover .table-striped data-caption="Table: Ability Modifiers and Bonus Spells" }
 
 #### Abilities and Spellcasters {#abilities-spellcasters}
@@ -300,7 +300,7 @@ The maximum ages are for player characters. Most people in the world at large di
 | Maenad | 90 years | 150 years | 220 years | +2d% years
 | Xeph | 45 years | 85 years | 120 years | +2d20 years
 |===
-| <sup>1</sup> At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br><sup>2</sup> At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br><sup>3</sup> At venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha | !cs | !cs | !cs | !cs
+| <sup>1</sup> At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br><sup>2</sup> At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br><sup>3</sup> At venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha |<|<|<|<
 {: #aging-effects-table .table .table-bordered .table-hover .table-striped data-caption="Table: Aging Effects" }
 
 #### Height and Weight {#height-weight}

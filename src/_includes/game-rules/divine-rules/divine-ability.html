@@ -4,24 +4,24 @@
 <h4>{{ ability.name }}</h4>
 {% if ability.prerequisite != "" %}
 <h5>Prerequisite</h5>
-{{ ability.prerequisite | markdownify }}
+{{ ability.prerequisite | pmarkdownify }}
 {% endif %}
 <h5>Benefit</h5>
-{{ ability.benefit | markdownify }}
+{{ ability.benefit | pmarkdownify }}
 {% if ability.notes != "" %}
 <h5>Notes</h5>
-{{ ability.notes | markdownify }}
+{{ ability.notes | pmarkdownify }}
 {% endif %}
 {% if ability.rest != "" %}
 <h5>Rest</h5>
-{{ ability.rest | markdownify }}
+{{ ability.rest | pmarkdownify }}
 {% endif %}
 {% if ability.portfolioElements != "" %}
 <h5>Suggested Portfolio Elements</h5>
-{{ ability.portfolioElements | markdownify }}
+{{ ability.portfolioElements | pmarkdownify }}
 {% endif %}
 {% endcapture %}
 
-{% if ability.description != "" %}{{ ability.description | markdownify }}{% endif %}
+{% if ability.description != "" %}{{ ability.description | pmarkdownify }}{% endif %}
 
 {% include _other/ogc-block.html ogc_content=ogc %}
