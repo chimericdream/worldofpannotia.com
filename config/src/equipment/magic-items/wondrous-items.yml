@@ -4,3 +4,25 @@ collections:
     permalink: /equipment/magic-items/wondrous-items/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: wondrous_items
+    values:
+      layout: "equipment/magic-items/wondrous-item"
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        slot: ""
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""

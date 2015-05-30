@@ -4,3 +4,16 @@ collections:
     permalink: /equipment/artifacts/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: artifacts
+    values:
+      layout: "equipment/artifact"
+      artifact:
+        type: "minor"
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        manifesterLevel: ""
+        weight: ""
+        description: ""

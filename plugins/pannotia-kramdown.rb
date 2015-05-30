@@ -272,7 +272,7 @@ module Jekyll
             currtable.add_section('tfoot')
 
           # Kramdown IAL block
-          elsif line =~ /^ {0,3}\{:(?!:|\/)(\\\}|[^\}]+)\}\s*?\n/
+          elsif line =~ /^ {0,3}\{:(?!:|\/)(\\\}|[^\}]+)\}\s*?(?:\n|$)/
             currtable.parse_ial_block(line)
 
           # Table row

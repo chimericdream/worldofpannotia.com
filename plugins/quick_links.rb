@@ -1,23 +1,29 @@
 module Jekyll
   module PannotiaLinkTags
     VERSION = "0.1.0"
-    Syntax = /(\w+(?:\-\w+)*)(?: "([^"]+)")?/
+    Syntax = /(\w+(?:\-\w+)*)(?: "([^"]+)")?(?: #(\w+(?:\-\w+)*))?/
 
     class ItemLink
       def initialize(tag_name, markup, tokens)
         if !markup
-          raise SyntaxError.new("Syntax Error in '#{tag_name}' - Valid syntax: '#{tag_name} <slug>' or '#{tag_name} <slug> \"link text\"'")
+          raise SyntaxError.new("Syntax Error in '#{tag_name}' - Valid syntax: '#{tag_name} <slug>', '#{tag_name} <slug> \"link text\"', or '#{tag_name} <slug> \"link text\" \#link-fragment'")
         end
 
         matches = markup.strip.scan(Syntax)
         @item_tag = tag_name
         @item_slug = matches[0][0]
-        @item_link_text = nil
-        if matches.length > 1
-          @item_link_text = matches[1][0]
+        @item_link_text = ''
+        @item_link_fragment = ''
+        if matches[0][1]
+          @item_link_text = matches[0][1]
+        end
+        if matches[0][2]
+          @item_link_fragment = '#' + matches[0][2]
         end
 
         case tag_name
+        when "artifact_link"
+          @item_collection = "artifacts"
         when "domain_link"
           @item_collection = "domains"
         when "epic_spell_link"
@@ -30,6 +36,8 @@ module Jekyll
           @item_collection = "skills"
         when "spell_link"
           @item_collection = "spells"
+        when "wondrous_item_link"
+          @item_collection = "wondrous_items"
         else
           raise SyntaxError.new("Syntax Error in '#{tag_name}' - Unknown link type.")
         end
@@ -41,27 +49,28 @@ module Jekyll
 
         collection.docs.each do |item|
           if @item_slug == item.basename_without_ext
-            if @item_link_text != nil
+            if @item_link_text != ''
               title = @item_link_text
             else
               case @item_collection
               when "domains"
-                title = item.data["title"] + " Domain"
+                title = item.data["title"] + ' Domain'
               else
                 title = item.data["title"]
               end
             end
 
+            url = site.config['url'] + item.url + @item_link_fragment
+            link_text = "<em>#{title}</em>"
+
             case @item_collection
-            when "domains", "feats", "planes"
-              return <<-MARKUP.strip
-                <a href="#{site.config["url"]}#{item.url}" title="#{title}">#{title}</a>
-              MARKUP
-            else
-              return <<-MARKUP.strip
-                <a href="#{site.config["url"]}#{item.url}" title="#{title}"><em>#{title}</em></a>
-              MARKUP
+            when "artifacts", "domains", "feats", "planes"
+              link_text = title
             end
+
+            return <<-MARKUP.strip
+              <a href="#{url}" title="#{title}">#{link_text}</a>
+            MARKUP
           end
         end
 
@@ -75,8 +84,10 @@ eos
   end
 end
 
+Liquid::Template.register_tag("artifact_link", Jekyll::PannotiaLinkTags::ItemLink)
 Liquid::Template.register_tag("domain_link", Jekyll::PannotiaLinkTags::ItemLink)
 Liquid::Template.register_tag("epic_spell_link", Jekyll::PannotiaLinkTags::ItemLink)
 Liquid::Template.register_tag("feat_link", Jekyll::PannotiaLinkTags::ItemLink)
 Liquid::Template.register_tag("skill_link", Jekyll::PannotiaLinkTags::ItemLink)
 Liquid::Template.register_tag("spell_link", Jekyll::PannotiaLinkTags::ItemLink)
+Liquid::Template.register_tag("wondrous_item_link", Jekyll::PannotiaLinkTags::ItemLink)

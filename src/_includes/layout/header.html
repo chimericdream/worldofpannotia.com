@@ -39,6 +39,10 @@
                 margin-top: -70px;
                 padding-top: 70px;
             }
+            p:target::before {
+                height: calc(70px + 1.45em);
+                margin-bottom: -1.45em;
+            }
             table[data-caption]::before {
                 content: attr(data-caption);
                 display: table-caption;
