@@ -4,6 +4,8 @@ module Jekyll
     safe :true
     priority :high
 
+    $mkconverter = nil
+
     def matches(ext)
       ext =~ /^\.(md|markdown)$/i
     end
@@ -13,13 +15,14 @@ module Jekyll
     end
 
     def convert(content)
+      site = Jekyll::Site.new(@config)
+      $mkconverter = site.getConverterImpl(Jekyll::Converters::Markdown)
+
       # do your own thing with the content
       content = parse_extended_tables(content)
 
       # Now call the standard Markdown converter
-      site = Jekyll::Site.new(@config)
-      mkconverter = site.getConverterImpl(Jekyll::Converters::Markdown)
-      mkconverter.convert(content)
+      $mkconverter.convert(content)
     end
 
     def parse_extended_tables(content)
@@ -50,7 +53,9 @@ module Jekyll
             if self.rowspan > 1
               content << " rowspan=\"#{self.rowspan}\""
             end
-            content << ">#{self.contents}</#{self.type}>"
+            content << ">"
+            content << $mkconverter.convert(self.contents)
+            content << "</#{self.type}>"
           end
 
           content
