@@ -7,7 +7,7 @@ item:
   casterLevel: "5th"
   prerequisites:
     feats: ["{% feat_link craft-wondrous-item %}"]
-    spells: ["{% spell_link animate-dead %}", "{% spell_link daylight %}", "{% spell_link detect-invisibility %}"]
+    spells: ["{% spell_link animate-dead %}", "{% spell_link daylight %}", "{% spell_link see-invisibility %}"]
     special: []
   slot: ""
   marketPrice: 8000

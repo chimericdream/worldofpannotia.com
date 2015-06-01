@@ -18,8 +18,9 @@ module Jekyll
       site = Jekyll::Site.new(@config)
       $mkconverter = site.getConverterImpl(Jekyll::Converters::Markdown)
 
-      # do your own thing with the content
-      content = parse_extended_tables(content)
+      if !content.nil?
+        content = parse_extended_tables(content)
+      end
 
       # Now call the standard Markdown converter
       $mkconverter.convert(content)

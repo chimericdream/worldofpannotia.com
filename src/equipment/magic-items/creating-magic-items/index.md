@@ -183,7 +183,7 @@ Item Creation Feat Required: {% feat_link brew-potion %} or {% feat_link brew-gr
 | 5th<sup>3</sup> | 2,250 gp | 2,500 gp | 3,250 gp | &ndash;
 | 6th<sup>3</sup> | 3,300 gp | 3,600 gp | 4,800 gp | &ndash;
 |===
-| <sup>1</sup>Costs assume that the creator makes the potion at the minimum caster level.<br><sup>2</sup>Caster level is &#189; class level.<br><sup>3</sup>Requires the Brew Greater Potion feat. |<|<|<|<
+| <sup>1</sup>Costs assume that the creator makes the potion at the minimum caster level.<br><sup>2</sup>Caster level is &#189; class level.<br><sup>3</sup>Requires the {% feat_link brew-greater-potion %} feat. |<|<|<|<
 {: #potion-price-table .table .table-bordered .table-hover .table-striped data-caption="Table: Potion Base Prices (By Brewer's Class)" }
 
 |---

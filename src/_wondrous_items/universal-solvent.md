@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: ""
   description: |
-    This substance has the unique property of being able to dissolve _sovereign glue_ and tanglefoot bags. Applying the solvent is a standard action__.
+    This substance has the unique property of being able to dissolve _sovereign glue_ and tanglefoot bags. Applying the solvent is a standard action.
 ---

@@ -32,6 +32,8 @@ module Jekyll
           @item_collection = "feats"
         when "plane_link"
           @item_collection = "planes"
+        when "rod_link"
+          @item_collection = "rods"
         when "skill_link"
           @item_collection = "skills"
         when "spell_link"
@@ -64,7 +66,7 @@ module Jekyll
             link_text = "<em>#{title}</em>"
 
             case @item_collection
-            when "artifacts", "domains", "feats", "planes"
+            when "artifacts", "domains", "feats", "planes", "rods"
               link_text = title
             end
 
@@ -84,10 +86,6 @@ eos
   end
 end
 
-Liquid::Template.register_tag("artifact_link", Jekyll::PannotiaLinkTags::ItemLink)
-Liquid::Template.register_tag("domain_link", Jekyll::PannotiaLinkTags::ItemLink)
-Liquid::Template.register_tag("epic_spell_link", Jekyll::PannotiaLinkTags::ItemLink)
-Liquid::Template.register_tag("feat_link", Jekyll::PannotiaLinkTags::ItemLink)
-Liquid::Template.register_tag("skill_link", Jekyll::PannotiaLinkTags::ItemLink)
-Liquid::Template.register_tag("spell_link", Jekyll::PannotiaLinkTags::ItemLink)
-Liquid::Template.register_tag("wondrous_item_link", Jekyll::PannotiaLinkTags::ItemLink)
+['artifact_link', 'domain_link', 'epic_spell_link', 'feat_link', 'rod_link', 'skill_link', 'spell_link', 'wondrous_item_link'].each do |link|
+  Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
+end

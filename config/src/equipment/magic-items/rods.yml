@@ -4,3 +4,24 @@ collections:
     permalink: /equipment/magic-items/rods/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: rods
+    values:
+      layout: "equipment/magic-items/rod"
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""

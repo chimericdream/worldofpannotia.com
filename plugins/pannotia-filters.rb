@@ -1,5 +1,6 @@
 module Jekyll
   module PannotiaFilters
+    include Liquid::StandardFilters
     include Jekyll::Filters
 
     module DebugFilters
@@ -36,6 +37,17 @@ module Jekyll
         converter.convert(input)
       end
     end
+
+    module InlinePmarkdownify
+      def inline_pmarkdownify(input)
+        site = @context.registers[:site]
+        converter = site.getConverterImpl(Jekyll::PannotiaKramdown)
+        content = converter.convert(input)
+        content = strip_newlines(content)
+        content = content.sub(/^<p>(.+)<\/p>$/, '\1')
+        content
+      end
+    end
   end
 end
 
@@ -43,3 +55,4 @@ Liquid::Template.register_filter(Jekyll::PannotiaFilters::DebugFilters)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::Liquify)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::NumberFormat)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::Pmarkdownify)
+Liquid::Template.register_filter(Jekyll::PannotiaFilters::InlinePmarkdownify)
