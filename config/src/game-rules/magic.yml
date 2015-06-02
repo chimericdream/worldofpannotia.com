@@ -5,7 +5,7 @@ defaults:
       sectionTitle: "Magic"
       sectionNav:
         - title: "Overview"
-          url: "game-rules/magic/overview"
+          url: "game-rules/magic"
         - title: "Spell Descriptions"
           url: "game-rules/magic/spell-descriptions"
         - title: "Arcane Spells"
@@ -19,6 +19,6 @@ defaults:
         - title: "Spell Lists"
           url: "game-rules/magic/spell-lists"
         - title: "Spell Combinations"
-          url: "game-rules/magic/spell-combinations/overview"
+          url: "game-rules/magic/spell-combinations"
         - title: "Epic Spells"
-          url: "game-rules/magic/epic-spells/overview"
+          url: "game-rules/magic/epic-spells"

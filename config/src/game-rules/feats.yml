@@ -14,7 +14,7 @@ defaults:
       sectionTitle: "Feats"
       sectionNav:
         - title: "Overview"
-          url: "game-rules/feats/overview"
+          url: "game-rules/feats"
         - title: "Feat Descriptions"
           url: "game-rules/feats/descriptions"
         - title: "Feat Index"
@@ -25,7 +25,7 @@ defaults:
       type: feats
     values:
       layout:        "game-rules/feat"
-      crumbs:        [game-rules, feats/overview]
+      crumbs:        [game-rules, feats]
       crumbTitles:   [Game Rules, Feats]
       activeSection: "game-rules/feats/feat-index"
       feat:

@@ -7,11 +7,11 @@ defaults:
   - scope:
       path: "game-rules/magic/spell-combinations"
     values:
-      activeSection: "game-rules/magic/spell-combinations/overview"
-      subSectionParent: "game-rules/magic/spell-combinations/overview"
+      activeSection: "game-rules/magic/spell-combinations"
+      subSectionParent: "game-rules/magic/spell-combinations"
       subSectionNav:
         - title: "Overview"
-          url: "game-rules/magic/spell-combinations/overview"
+          url: "game-rules/magic/spell-combinations"
         - title: "Developing spell Combinations"
           url: "game-rules/magic/spell-combinations/developing-spell-combinations"
         - title: "Spell Combination Index"
@@ -22,7 +22,7 @@ defaults:
       type: spell_combinations
     values:
       layout:           "game-rules/magic/spell-combination"
-      crumbs:           [game-rules, magic, spell-combinations/overview]
+      crumbs:           [game-rules, magic, spell-combinations]
       crumbTitles:      [Game Rules, Magic, Spell Combinations]
       activeSubSection: "game-rules/magic/spell-combinations/spell-combination-index"
       combo:

@@ -5,7 +5,7 @@ defaults:
       sectionTitle: "Combat"
       sectionNav:
         - title: "Overview"
-          url: "game-rules/adventuring/combat/overview"
+          url: "game-rules/adventuring/combat"
         - title: "Mechanics"
           url: "game-rules/adventuring/combat/mechanics"
         - title: "Initiative"

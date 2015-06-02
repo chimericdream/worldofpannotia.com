@@ -7,10 +7,10 @@ defaults:
   - scope:
       path: "game-rules/magic/epic-spells"
     values:
-      subSectionParent: "game-rules/magic/epic-spells/overview"
+      subSectionParent: "game-rules/magic/epic-spells"
       subSectionNav:
         - title: "Overview"
-          url: "game-rules/magic/epic-spells/overview"
+          url: "game-rules/magic/epic-spells"
         - title: "Developing Epic Spells"
           url: "game-rules/magic/epic-spells/developing-epic-spells"
         - title: "Seeds"
@@ -23,9 +23,9 @@ defaults:
       type: epic_spells
     values:
       layout:           "game-rules/magic/epic-spell"
-      crumbs:           [game-rules, magic, epic-spells/overview]
+      crumbs:           [game-rules, magic, epic-spells]
       crumbTitles:      [Game Rules, Magic, Epic Spells]
-      activeSection:    "game-rules/magic/epic-spells/overview"
+      activeSection:    "game-rules/magic/epic-spells"
       activeSubSection: "game-rules/magic/epic-spells/epic-spell-index"
       spell:
         schools:            [] # {name: "", subschools: [], descriptors: []}
