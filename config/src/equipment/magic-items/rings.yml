@@ -4,3 +4,24 @@ collections:
     permalink: /equipment/magic-items/rings/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: rings
+    values:
+      layout: "equipment/magic-items/ring"
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""
