@@ -38,6 +38,8 @@ module Jekyll
           @item_collection = "skills"
         when "spell_link"
           @item_collection = "spells"
+        when "staff_link"
+          @item_collection = "staffs"
         when "wondrous_item_link"
           @item_collection = "wondrous_items"
         else
@@ -66,7 +68,7 @@ module Jekyll
             link_text = "<em>#{title}</em>"
 
             case @item_collection
-            when "artifacts", "domains", "feats", "planes", "rods"
+            when "artifacts", "domains", "feats", "planes", "rods", "staffs"
               link_text = title
             end
 
@@ -86,6 +88,7 @@ eos
   end
 end
 
-['artifact_link', 'domain_link', 'epic_spell_link', 'feat_link', 'rod_link', 'skill_link', 'spell_link', 'wondrous_item_link'].each do |link|
+['artifact', 'domain', 'epic_spell', 'feat', 'rod', 'skill', 'spell', 'staff', 'wondrous_item'].each do |tag|
+  link = tag + "_link"
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
 end
