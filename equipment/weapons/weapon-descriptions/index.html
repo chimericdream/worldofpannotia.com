@@ -33,6 +33,10 @@
                 margin-top: -70px;
                 padding-top: 70px;
             }
+            p:target::before {
+                height: calc(70px + 1.45em);
+                margin-bottom: -1.45em;
+            }
             table[data-caption]::before {
                 content: attr(data-caption);
                 display: table-caption;
@@ -96,7 +100,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Races" class="dropdown-toggle" data-toggle="dropdown" role="button">Races</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/races/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/races/" title="Races Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/races/descriptions/" title="Descriptions">Descriptions</a></li>
                             </ul>
                         </li>
@@ -115,7 +119,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Skills" class="dropdown-toggle" data-toggle="dropdown" role="button">Skills</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/" title="Skills Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/using-skills/" title="Using Skills">Using Skills</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/descriptions/" title="Descriptions">Descriptions</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/epic-skill-uses/" title="Epic Skill Uses">Epic Skill Uses</a></li>
@@ -124,7 +128,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Feats" class="dropdown-toggle" data-toggle="dropdown" role="button">Feats</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/" title="Feats Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/descriptions/" title="Descriptions">Descriptions</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Feat Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Feat Lists</a>
@@ -146,7 +150,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Magic" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/" title="Magic Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-descriptions/" title="Spell Descriptions">Spell Descriptions</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/arcane-spells/" title="Arcane Spells">Arcane Spells</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/divine-spells/" title="Divine Spells">Divine Spells</a></li>
@@ -166,7 +170,7 @@
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Spell Combinations" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Combinations</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-combinations/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-combinations/" title="Spell Combinations Overview">Overview</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-combinations/developing-spell-combinations/" title="Developing Spell Combinations">Developing Spell Combinations</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-combinations/spell-combination-index/" title="Spell Combination Index">Spell Combination Index</a></li>
                                     </ul>
@@ -174,7 +178,7 @@
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Epic Spells" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Spells</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/" title="Epic Spells Overview">Overview</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/developing-epic-spells/" title="Developing Epic Spells">Developing Epic Spells</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/seeds/" title="Seeds">Seeds</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/epic-spell-index/" title="Epic Spell Index">Epic Spell Index</a></li>
@@ -185,7 +189,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Psionics" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionics</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/" title="Psionics Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/power-descriptions/" title="Power Descriptions">Power Descriptions</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/power-index/" title="Power Index">Power Index</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/disciplines/" title="Disciplines">Disciplines</a></li>
@@ -205,7 +209,7 @@
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Combat" class="dropdown-toggle" data-toggle="dropdown" role="button">Combat</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/" title="Combat Overview">Overview</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/mechanics/" title="Mechanics">Mechanics</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
@@ -238,7 +242,7 @@
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Traps" class="dropdown-toggle" data-toggle="dropdown" role="button">Traps</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/traps/overview/" title="Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/traps/" title="Traps Overview">Overview</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/traps/designing-a-trap/" title="Designing a Trap">Designing a Trap</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/traps/specific-traps/" title="Specific Traps">Specific Traps</a></li>
                                     </ul>
@@ -278,199 +282,122 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/armor/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/armor/" title="Armor Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/armor/armor-descriptions/" title="Armor Descriptions">Armor Descriptions</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/weapons/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/weapons/" title="Weapons Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/weapons/weapon-descriptions/" title="Weapon Descriptions">Weapon Descriptions</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Magical Armor Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/armor-abilities/" title="Magical Armor Abilities">Armor Abilities</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/specific-armor/" title="Specific Magical Armor">Specific Armor</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Magical Weapons Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/weapon-abilities/" title="Magical Weapon Abilities">Weapon Abilities</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/specific-weapons/" title="Specific Magical Weapons">Specific Weapons</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Potions &amp; Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions &amp; Oils</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Rings" class="dropdown-toggle" data-toggle="dropdown" role="button">Rings</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Rods" class="dropdown-toggle" data-toggle="dropdown" role="button">Rods</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Scrolls" class="dropdown-toggle" data-toggle="dropdown" role="button">Scrolls</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/scrolls/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/scrolls/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Staffs" class="dropdown-toggle" data-toggle="dropdown" role="button">Staffs</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/staffs/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/staffs/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Wands" class="dropdown-toggle" data-toggle="dropdown" role="button">Wands</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wands/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wands/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Wondrous Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Wondrous Items</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wondrous-items/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wondrous-items/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/" title="Psionic Items Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/creating-psionic-items/" title="Creating Psionic Items">Creating Psionic Items</a></li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                                    <a href="#" title="Psionic Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/" title="Psionic Armor Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/armor-abilities/" title="Psionic Armor Abilities">Armor Abilities</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/specific-armor/" title="Specific Psionic Armor">Specific Armor</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                                    <a href="#" title="Psionic Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/" title="Psionic Weapons Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/weapon-abilities/" title="Psionic Weapon Abilities">Weapon Abilities</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/specific-weapons/" title="Specific Psionic Weapons">Specific Weapons</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Cognizance Crystals" class="dropdown-toggle" data-toggle="dropdown" role="button">Cognizance Crystals</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/cognizance-crystals/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/cognizance-crystals/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Dorjes" class="dropdown-toggle" data-toggle="dropdown" role="button">Dorjes</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/dorjes/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/dorjes/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Power Stones" class="dropdown-toggle" data-toggle="dropdown" role="button">Power Stones</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/power-stones/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/power-stones/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Psicrowns" class="dropdown-toggle" data-toggle="dropdown" role="button">Psicrowns</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psicrowns/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psicrowns/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Psionic Tattoos" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Tattoos <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psionic-tattoos/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psionic-tattoos/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Universal Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Universal Items</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/universal-items/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/universal-items/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Epic Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Magic Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/" title="Epic Magic Items Overview">Overview</a></li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                                    <a href="#" title="Epic Magical Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/" title="Epic Magical Armor Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/armor-abilities/" title="Epic Magical Armor Abilities">Armor Abilities</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/specific-armor/" title="Specific Epic Magical Armor">Specific Armor</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                                    <a href="#" title="Epic Magical Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/" title="Epic Magical Weapons Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/weapon-abilities/" title="Epic Magical Weapon Abilities">Weapon Abilities</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/specific-weapons/" title="Specific Epic Magical Weapons">Specific Weapons</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rings/" title="Rings">Rings</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rods/" title="Rods">Rods</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/staffs/" title="Staffs">Staffs</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Epic Potions &amp; Oils">Potions &amp; Oils</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rings/" title="Epic Rings">Rings</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rods/" title="Epic Rods">Rods</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Epic Scrolls">Scrolls</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/staffs/" title="Epic Staffs">Staffs</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/wondrous-items/" title="Epic Wondrous Items">Wondrous Items</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Epic Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Psionic Items</a>
                             <ul class="dropdown-menu">
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/" title="Epic Psionic Items Overview">Overview</a></li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                                    <a href="#" title="Epic Psionic Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/" title="Epic Psionic Armor Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/armor-abilities/" title="Epic Psionic Armor Abilities">Armor Abilities</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/specific-armor/" title="Specific Epic Psionic Armor">Specific Armor</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                                    <a href="#" title="Epic Psionic Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/" title="Epic Psionic Weapons Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/weapon-abilities/" title="Epic Psionic Weapon Abilities">Weapon Abilities</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/specific-weapons/" title="Specific Epic Psionic Weapons">Specific Weapons</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
@@ -484,13 +411,13 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Intelligent Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/" title="Intelligent Items Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/descriptions/" title="Intelligent Item Descriptions">Descriptions</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Epic Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Intelligent Items</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/epic-intelligent-items/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/epic-intelligent-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/epic/" title="Epic Intelligent Items Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/epic/descriptions/" title="Epic Intelligent Item Descriptions">Descriptions</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -498,13 +425,13 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Cursed Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Cursed Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/" title="Cursed Items Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/descriptions/" title="Cursed Item Descriptions">Descriptions</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Epic Cursed Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Cursed Items</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/epic-cursed-items/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/epic-cursed-items/descriptions/" title="Descriptions">Descriptions</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/epic/" title="Epic Cursed Items Overview">Overview</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/epic/descriptions/" title="Epic Cursed Item Descriptions">Descriptions</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -512,7 +439,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Artifacts" class="dropdown-toggle" data-toggle="dropdown" role="button">Artifacts</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/artifacts/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/artifacts/" title="Artifacts Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/artifacts/minor-artifacts/" title="Minor Artifacts">Minor Artifacts</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/artifacts/major-artifacts/" title="Major Artifacts">Major Artifacts</a></li>
                             </ul>
@@ -522,7 +449,7 @@
                 <li class="dropdown">
                     <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button">Monsters <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/introduction/" title="Introduction">Introduction</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/" title="Monsters Introduction">Introduction</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/types-subtypes/" title="Types &amp; Subtypes">Types &amp; Subtypes</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/monsters-as-races/" title="Monsters as Races">Monsters as Races</a></li>
@@ -535,10 +462,10 @@
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
-                            <a href="#" title="Templates" class="dropdown-toggle" data-toggle="dropdown" role="button">Templates</a>
+                            <a href="#" title="Creature Templates" class="dropdown-toggle" data-toggle="dropdown" role="button">Templates</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/templates/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/templates/template-index/" title="Template Index">Template Index</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/templates/" title="Creature Templates Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/templates/template-index/" title="Creature Template Index">Template Index</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -546,11 +473,11 @@
                 <li class="dropdown">
                     <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button">Setting <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/introduction/" title="Introduction">Introduction</a></li>
+                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/" title="Introduction to Pannotia">Introduction</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Geography" class="dropdown-toggle" data-toggle="dropdown" role="button">Geography</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/" title="Geography Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/regions-countries/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
@@ -559,7 +486,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Cosmology" class="dropdown-toggle" data-toggle="dropdown" role="button">Cosmology</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/cosmology/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/cosmology/" title="Cosmology Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/cosmology/planar-traits/" title="Planar Traits">Planar Traits</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/cosmology/planes/" title="Planes">Planes</a></li>
                             </ul>
@@ -567,12 +494,12 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Religion" class="dropdown-toggle" data-toggle="dropdown" role="button">Religion</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/" title="Religion Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/deities/" title="Deities">Deities</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="The Divine Tournament" class="dropdown-toggle" data-toggle="dropdown" role="button">The Divine Tournament</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/divine-tournament/introduction/" title="Introduction">Introduction</a></li>
+                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/divine-tournament/" title="Introduction to the Divine Tournament">Introduction</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/divine-tournament/history/" title="History">History</a></li>
                                         <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/divine-tournament/entering-the-tournament/" title="Entering the Tournament">Entering the Tournament</a></li>
                                     </ul>
@@ -582,7 +509,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Politics" class="dropdown-toggle" data-toggle="dropdown" role="button">Politics</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/politics/overview/" title="Overview">Overview</a></li>
+                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/politics/" title="Politics Overview">Overview</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/politics/organizations/" title="Organizations">Organizations</a></li>
                                 <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/politics/npcs/" title="NPCs">NPCs</a></li>
                             </ul>
@@ -639,139 +566,887 @@
         <div class="col-xs-12">
             <table id="simple-weapons-table" class="table table-bordered table-hover table-striped" data-caption="Table: Simple Weapons">
 <thead>
-<tr><th rowspan="2">Weapon</th><th rowspan="2">Cost</th><th colspan="2">Damage</th><th rowspan="2">Critical</th><th rowspan="2">Range Increment</th><th rowspan="2">Weight<sup>1</sup></th><th rowspan="2">Type<sup>2</sup></th></tr>
-<tr><th>Small</th><th>Medium</th></tr>
+<tr><th rowspan="2"><p>Weapon</p>
+</th><th rowspan="2"><p>Cost</p>
+</th><th colspan="2"><p>Damage</p>
+</th><th rowspan="2"><p>Critical</p>
+</th><th rowspan="2"><p>Range Increment</p>
+</th><th rowspan="2"><p>Weight<sup>1</sup></p>
+</th><th rowspan="2"><p>Type<sup>2</sup></p>
+</th></tr>
+<tr><th><p>Small</p>
+</th><th><p>Medium</p>
+</th></tr>
 </thead>
 <tbody>
-<tr><td colspan="8">**Unarmed Attacks**</td></tr>
-<tr><td>&mdash; Gauntlet</td><td>2 gp</td><td>1d2</td><td>1d3</td><td>&times;2</td><td>&ndash;</td><td>1 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Unarmed strike</td><td>&ndash;</td><td>1d2<sup>3</sup></td><td>1d3<sup>3</sup></td><td>&times;2</td><td>&ndash;</td><td>&ndash;</td><td>Bludgeoning</td></tr>
-<tr><td colspan="8">**Light Melee Weapons**</td></tr>
-<tr><td>&mdash; Dagger</td><td>2 gp</td><td>1d3</td><td>1d4</td><td>19-20/&times;2</td><td>10 ft.</td><td>1 lb.</td><td>Piercing or slashing</td></tr>
-<tr><td>&mdash; Dagger, punching</td><td>2 gp</td><td>1d3</td><td>1d4</td><td>&times;3</td><td>&ndash;</td><td>1 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Gauntlet, spiked</td><td>5 gp</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>&ndash;</td><td>1 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Mace, light</td><td>5 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&ndash;</td><td>4 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Sickle</td><td>6 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&ndash;</td><td>2 lb.</td><td>Slashing</td></tr>
-<tr><td colspan="8">**One-Handed Melee Weapons**</td></tr>
-<tr><td>&mdash; Club</td><td>&ndash;</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>10 ft.</td><td>3 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Mace, heavy</td><td>12 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>&ndash;</td><td>8 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Morningstar</td><td>8 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>&ndash;</td><td>6 lb.</td><td>Bludgeoning and piercing</td></tr>
-<tr><td>&mdash; Shortspear</td><td>1 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>20 ft.</td><td>3 lb.</td><td>Piercing</td></tr>
-<tr><td colspan="8">**Two-Handed Melee Weapons**</td></tr>
-<tr><td>&mdash; Longspear<sup>4</sup></td><td>5 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>&ndash;</td><td>9 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Quarterstaff<sup>5</sup></td><td>&ndash;</td><td>1d4/1d4</td><td>1d6/1d6</td><td>&times;2</td><td>&ndash;</td><td>4 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Spear</td><td>2 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>20 ft.</td><td>6 lb.</td><td>Piercing</td></tr>
-<tr><td colspan="8">**Ranged Weapons**</td></tr>
-<tr><td>&mdash; Crossbow, heavy</td><td>50 gp</td><td>1d8</td><td>1d10</td><td>19-20/&times;2</td><td>120 ft.</td><td>8 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Crossbow, light</td><td>35 gp</td><td>1d6</td><td>1d8</td><td>19-20/&times;2</td><td>80 ft.</td><td>4 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Dart</td><td>5 sp</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>20 ft.</td><td>&#189; lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Javelin</td><td>1 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>30 ft.</td><td>2 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Sling</td><td>&ndash;</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>50 ft.</td><td>0 lb.</td><td>Bludgeoning</td></tr>
-<tr><td colspan="8">**Ammunition**</td></tr>
-<tr><td>&mdash; Bolts, crossbow (10)</td><td>1 gp</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>1 lb.</td><td>&ndash;</td></tr>
-<tr><td>&mdash; Bolt, signal</td><td>1 gp</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&#8539; lb.</td><td>&ndash;</td></tr>
-<tr><td>&mdash; Bullets, sling (10)</td><td>1 sp</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>5 lb.</td><td>&ndash;</td></tr>
+<tr><td colspan="8"><p><strong>Unarmed Attacks</strong></p>
+</td></tr>
+<tr><td><p>— Gauntlet</p>
+</td><td><p>2 gp</p>
+</td><td><p>1d2</p>
+</td><td><p>1d3</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>1 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Unarmed strike</p>
+</td><td><p>–</p>
+</td><td><p>1d2<sup>3</sup></p>
+</td><td><p>1d3<sup>3</sup></p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Light Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Dagger</p>
+</td><td><p>2 gp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>10 ft.</p>
+</td><td><p>1 lb.</p>
+</td><td><p>Piercing or slashing</p>
+</td></tr>
+<tr><td><p>— Dagger, punching</p>
+</td><td><p>2 gp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>1 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Gauntlet, spiked</p>
+</td><td><p>5 gp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>1 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Mace, light</p>
+</td><td><p>5 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>4 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Sickle</p>
+</td><td><p>6 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>One-Handed Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Club</p>
+</td><td><p>–</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>10 ft.</p>
+</td><td><p>3 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Mace, heavy</p>
+</td><td><p>12 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>8 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Morningstar</p>
+</td><td><p>8 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>6 lb.</p>
+</td><td><p>Bludgeoning and piercing</p>
+</td></tr>
+<tr><td><p>— Shortspear</p>
+</td><td><p>1 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>20 ft.</p>
+</td><td><p>3 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Two-Handed Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Longspear<sup>4</sup></p>
+</td><td><p>5 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>9 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Quarterstaff<sup>5</sup></p>
+</td><td><p>–</p>
+</td><td><p>1d4/1d4</p>
+</td><td><p>1d6/1d6</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>4 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Spear</p>
+</td><td><p>2 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×3</p>
+</td><td><p>20 ft.</p>
+</td><td><p>6 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Ranged Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Crossbow, heavy</p>
+</td><td><p>50 gp</p>
+</td><td><p>1d8</p>
+</td><td><p>1d10</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>120 ft.</p>
+</td><td><p>8 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Crossbow, light</p>
+</td><td><p>35 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>80 ft.</p>
+</td><td><p>4 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Dart</p>
+</td><td><p>5 sp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×2</p>
+</td><td><p>20 ft.</p>
+</td><td><p>½ lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Javelin</p>
+</td><td><p>1 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>30 ft.</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Sling</p>
+</td><td><p>–</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×2</p>
+</td><td><p>50 ft.</p>
+</td><td><p>0 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Ammunition</strong></p>
+</td></tr>
+<tr><td><p>— Bolts, crossbow (10)</p>
+</td><td><p>1 gp</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>1 lb.</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Bolt, signal</p>
+</td><td><p>1 gp</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>⅛ lb.</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Bullets, sling (10)</p>
+</td><td><p>1 sp</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>5 lb.</p>
+</td><td><p>–</p>
+</td></tr>
 </tbody>
 <tfoot>
-<tr><td colspan="8"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br /><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br /><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.</td></tr>
+<tr><td colspan="8"><p><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br /><sup>2</sup> When two types are given, the weapon is both types if the entry specifies “and”, or either type (player’s choice at time of attack) if the entry specifies “or”.<br /><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.</p>
+</td></tr>
 </tfoot>
 </table>
 
 <table id="martial-weapons-table" class="table table-bordered table-hover table-striped" data-caption="Table: Martial Weapons">
 <thead>
-<tr><th>Weapon</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range Increment</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th></tr>
+<tr><th><p>Weapon</p>
+</th><th><p>Cost</p>
+</th><th><p>Dmg (S)</p>
+</th><th><p>Dmg (M)</p>
+</th><th><p>Critical</p>
+</th><th><p>Range Increment</p>
+</th><th><p>Weight<sup>1</sup></p>
+</th><th><p>Type<sup>2</sup></p>
+</th></tr>
 </thead>
 <tbody>
-<tr><td colspan="8">**Light Melee Weapons**</td></tr>
-<tr><td>&mdash; Axe, throwing</td><td>8 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>10 ft.</td><td>2 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Hammer, light</td><td>1 gp</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>20 ft.</td><td>2 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Handaxe</td><td>6 gp</td><td>1d4</td><td>1d6</td><td>&times;3</td><td>&ndash;</td><td>3 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Kukri</td><td>8 gp</td><td>1d3</td><td>1d4</td><td>18-20/&times;2</td><td>&ndash;</td><td>2 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Pick, light</td><td>4 gp</td><td>1d3</td><td>1d4</td><td>&times;4</td><td>&ndash;</td><td>3 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Sap</td><td>1 gp</td><td>1d4<sup>3</sup></td><td>1d6<sup>3</sup></td><td>&times;2</td><td>&ndash;</td><td>2 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Shield, light</td><td>special</td><td>1d2</td><td>1d3</td><td>&times;2</td><td>&ndash;</td><td>special</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Spiked armor</td><td>special</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&ndash;</td><td>special</td><td>Piercing</td></tr>
-<tr><td>&mdash; Spiked shield, light</td><td>special</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>&ndash;</td><td>special</td><td>Piercing</td></tr>
-<tr><td>&mdash; Sword, short</td><td>10 gp</td><td>1d4</td><td>1d6</td><td>19-20/&times;2</td><td>&ndash;</td><td>2 lb.</td><td>Piercing</td></tr>
-<tr><td colspan="8">**One-Handed Melee Weapons**</td></tr>
-<tr><td>&mdash; Battleaxe</td><td>10 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>&ndash;</td><td>6 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Flail</td><td>8 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>&ndash;</td><td>5 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Longsword</td><td>15 gp</td><td>1d6</td><td>1d8</td><td>19-20/&times;2</td><td>&ndash;</td><td>4 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Pick, heavy</td><td>8 gp</td><td>1d4</td><td>1d6</td><td>&times;4</td><td>&ndash;</td><td>6 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Rapier</td><td>20 gp</td><td>1d4</td><td>1d6</td><td>18-20/&times;2</td><td>&ndash;</td><td>2 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Scimitar</td><td>15 gp</td><td>1d4</td><td>1d6</td><td>18-20/&times;2</td><td>&ndash;</td><td>4 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Shield, heavy</td><td>special</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>&ndash;</td><td>special</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Spiked shield, heavy</td><td>special</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&ndash;</td><td>special</td><td>Piercing</td></tr>
-<tr><td>&mdash; Trident</td><td>15 gp</td><td>1d6</td><td>1d8</td><td>&times;2</td><td>10 ft.</td><td>4 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Warhammer</td><td>12 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>&ndash;</td><td>5 lb.</td><td>Bludgeoning</td></tr>
-<tr><td colspan="8">**Two-Handed Melee Weapons**</td></tr>
-<tr><td>&mdash; Falchion</td><td>75 gp</td><td>1d6</td><td>2d4</td><td>18-20/&times;2</td><td>&ndash;</td><td>8 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Glaive<sup>4</sup></td><td>8 gp</td><td>1d8</td><td>1d10</td><td>&times;3</td><td>&ndash;</td><td>10 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Greataxe</td><td>20 gp</td><td>1d10</td><td>1d12</td><td>&times;3</td><td>&ndash;</td><td>12 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Greatclub</td><td>5 gp</td><td>1d8</td><td>1d10</td><td>&times;2</td><td>&ndash;</td><td>8 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Flail, heavy</td><td>15 gp</td><td>1d8</td><td>1d10</td><td>19-20/&times;2</td><td>&ndash;</td><td>10 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Greatsword</td><td>50 gp</td><td>1d10</td><td>2d6</td><td>19-20/&times;2</td><td>&ndash;</td><td>8 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Guisarme<sup>4</sup></td><td>9 gp</td><td>1d6</td><td>2d4</td><td>&times;3</td><td>&ndash;</td><td>12 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Halberd</td><td>10 gp</td><td>1d8</td><td>1d10</td><td>&times;3</td><td>&ndash;</td><td>12 lb.</td><td>Piercing or slashing</td></tr>
-<tr><td>&mdash; Lance<sup>4</sup></td><td>10 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>&ndash;</td><td>10 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Ranseur<sup>4</sup></td><td>10 gp</td><td>1d6</td><td>2d4</td><td>&times;3</td><td>&ndash;</td><td>12 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Scythe</td><td>18 gp</td><td>1d6</td><td>2d4</td><td>&times;4</td><td>&ndash;</td><td>10 lb.</td><td>Piercing or slashing</td></tr>
-<tr><td colspan="8">**Ranged Weapons**</td></tr>
-<tr><td>&mdash; Longbow</td><td>75 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>100 ft.</td><td>3 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Longbow, composite</td><td>100 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>110 ft.</td><td>3 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Longbow, variable composite</td><td>750 gp</td><td>1d6</td><td>1d8</td><td>&times;3</td><td>110 ft.</td><td>5 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Shortbow</td><td>30 gp</td><td>1d4</td><td>1d6</td><td>&times;3</td><td>60 ft.</td><td>2 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Shortbow, composite</td><td>75 gp</td><td>1d4</td><td>1d6</td><td>&times;3</td><td>70 ft.</td><td>2 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Shortbow, variable composite</td><td>500 gp</td><td>1d4</td><td>1d6</td><td>&times;3</td><td>70 ft.</td><td>3 lb.</td><td>Piercing</td></tr>
-<tr><td colspan="8">**Ammunition**</td></tr>
-<tr><td>&mdash; Arrows (20)</td><td>1 gp</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>3 lb.</td><td>&ndash;</td></tr>
-<tr><td>&mdash; Arrow, alchemical</td><td>10 gp<sup>5</sup></td><td>*<sup>5</sup></td><td>*<sup>5</sup></td><td>&ndash;</td><td>*<sup>5</sup></td><td>&#189; lb.</td><td>&ndash;</td></tr>
-<tr><td>&mdash; Arrows, barbed (10)</td><td>5 gp</td><td>*<sup>5</sup></td><td>*<sup>5</sup></td><td>&ndash;</td><td>*<sup>5</sup></td><td>2 lb.</td><td>&ndash;</td></tr>
-<tr><td>&mdash; Arrows, flight (20)</td><td>5 gp</td><td>*<sup>5</sup></td><td>*<sup>5</sup></td><td>&ndash;</td><td>*<sup>5</sup></td><td>1 lb.</td><td>&ndash;</td></tr>
-<tr><td>&mdash; Arrows, rope cutting (10)</td><td>5 gp</td><td>*<sup>5</sup></td><td>*<sup>5</sup></td><td>&ndash;</td><td>&ndash;</td><td>2 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Arrow, signal</td><td>1 gp</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&#8539; lb.</td><td>&ndash;</td></tr>
+<tr><td colspan="8"><p><strong>Light Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Axe, throwing</p>
+</td><td><p>8 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>10 ft.</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Hammer, light</p>
+</td><td><p>1 gp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×2</p>
+</td><td><p>20 ft.</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Handaxe</p>
+</td><td><p>6 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>3 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Kukri</p>
+</td><td><p>8 gp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>18-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Pick, light</p>
+</td><td><p>4 gp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×4</p>
+</td><td><p>–</p>
+</td><td><p>3 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Sap</p>
+</td><td><p>1 gp</p>
+</td><td><p>1d4<sup>3</sup></p>
+</td><td><p>1d6<sup>3</sup></p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Shield, light</p>
+</td><td><p>special</p>
+</td><td><p>1d2</p>
+</td><td><p>1d3</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>special</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Spiked armor</p>
+</td><td><p>special</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>special</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Spiked shield, light</p>
+</td><td><p>special</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>special</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Sword, short</p>
+</td><td><p>10 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>One-Handed Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Battleaxe</p>
+</td><td><p>10 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>6 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Flail</p>
+</td><td><p>8 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>5 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Longsword</p>
+</td><td><p>15 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>4 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Pick, heavy</p>
+</td><td><p>8 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×4</p>
+</td><td><p>–</p>
+</td><td><p>6 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Rapier</p>
+</td><td><p>20 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>18-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Scimitar</p>
+</td><td><p>15 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>18-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>4 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Shield, heavy</p>
+</td><td><p>special</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>special</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Spiked shield, heavy</p>
+</td><td><p>special</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>special</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Trident</p>
+</td><td><p>15 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×2</p>
+</td><td><p>10 ft.</p>
+</td><td><p>4 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Warhammer</p>
+</td><td><p>12 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>5 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Two-Handed Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Falchion</p>
+</td><td><p>75 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>2d4</p>
+</td><td><p>18-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>8 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Glaive<sup>4</sup></p>
+</td><td><p>8 gp</p>
+</td><td><p>1d8</p>
+</td><td><p>1d10</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>10 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Greataxe</p>
+</td><td><p>20 gp</p>
+</td><td><p>1d10</p>
+</td><td><p>1d12</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>12 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Greatclub</p>
+</td><td><p>5 gp</p>
+</td><td><p>1d8</p>
+</td><td><p>1d10</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>8 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Flail, heavy</p>
+</td><td><p>15 gp</p>
+</td><td><p>1d8</p>
+</td><td><p>1d10</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>10 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Greatsword</p>
+</td><td><p>50 gp</p>
+</td><td><p>1d10</p>
+</td><td><p>2d6</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>8 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Guisarme<sup>4</sup></p>
+</td><td><p>9 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>2d4</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>12 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Halberd</p>
+</td><td><p>10 gp</p>
+</td><td><p>1d8</p>
+</td><td><p>1d10</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>12 lb.</p>
+</td><td><p>Piercing or slashing</p>
+</td></tr>
+<tr><td><p>— Lance<sup>4</sup></p>
+</td><td><p>10 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>10 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Ranseur<sup>4</sup></p>
+</td><td><p>10 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>2d4</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>12 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Scythe</p>
+</td><td><p>18 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>2d4</p>
+</td><td><p>×4</p>
+</td><td><p>–</p>
+</td><td><p>10 lb.</p>
+</td><td><p>Piercing or slashing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Ranged Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Longbow</p>
+</td><td><p>75 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×3</p>
+</td><td><p>100 ft.</p>
+</td><td><p>3 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Longbow, composite</p>
+</td><td><p>100 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×3</p>
+</td><td><p>110 ft.</p>
+</td><td><p>3 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Longbow, variable composite</p>
+</td><td><p>750 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>×3</p>
+</td><td><p>110 ft.</p>
+</td><td><p>5 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Shortbow</p>
+</td><td><p>30 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×3</p>
+</td><td><p>60 ft.</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Shortbow, composite</p>
+</td><td><p>75 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×3</p>
+</td><td><p>70 ft.</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Shortbow, variable composite</p>
+</td><td><p>500 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×3</p>
+</td><td><p>70 ft.</p>
+</td><td><p>3 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Ammunition</strong></p>
+</td></tr>
+<tr><td><p>— Arrows (20)</p>
+</td><td><p>1 gp</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>3 lb.</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Arrow, alchemical</p>
+</td><td><p>10 gp<sup>5</sup></p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>–</p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>½ lb.</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Arrows, barbed (10)</p>
+</td><td><p>5 gp</p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>–</p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>2 lb.</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Arrows, flight (20)</p>
+</td><td><p>5 gp</p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>–</p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>1 lb.</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Arrows, rope cutting (10)</p>
+</td><td><p>5 gp</p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>*<sup>5</sup></p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Arrow, signal</p>
+</td><td><p>1 gp</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>⅛ lb.</p>
+</td><td><p>–</p>
+</td></tr>
 </tbody>
 <tfoot>
-<tr><td colspan="8"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br /><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br /><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.<br /><sup>4</sup> Reach weapon.<br /><sup>5</sup> See item description</td></tr>
+<tr><td colspan="8"><p><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br /><sup>2</sup> When two types are given, the weapon is both types if the entry specifies “and”, or either type (player’s choice at time of attack) if the entry specifies “or”.<br /><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.<br /><sup>4</sup> Reach weapon.<br /><sup>5</sup> See item description</p>
+</td></tr>
 </tfoot>
 </table>
 
 <table id="exotic-weapons-table" class="table table-bordered table-hover table-striped" data-caption="Table: Exotic Weapons">
 <thead>
-<tr><th>Weapon</th><th>Cost</th><th>Dmg (S)</th><th>Dmg (M)</th><th>Critical</th><th>Range Increment</th><th>Weight<sup>1</sup></th><th>Type<sup>2</sup></th></tr>
+<tr><th><p>Weapon</p>
+</th><th><p>Cost</p>
+</th><th><p>Dmg (S)</p>
+</th><th><p>Dmg (M)</p>
+</th><th><p>Critical</p>
+</th><th><p>Range Increment</p>
+</th><th><p>Weight<sup>1</sup></p>
+</th><th><p>Type<sup>2</sup></p>
+</th></tr>
 </thead>
 <tbody>
-<tr><td colspan="8">**Light Melee Weapons**</td></tr>
-<tr><td>&mdash; Kama</td><td>2 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&ndash;</td><td>2 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Nunchaku</td><td>2 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&ndash;</td><td>2 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Sai</td><td>1 gp</td><td>1d3</td><td>1d4</td><td>&times;2</td><td>10 ft.</td><td>1 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Siangham</td><td>3 gp</td><td>1d4</td><td>1d6</td><td>&times;2</td><td>&ndash;</td><td>1 lb.</td><td>Piercing</td></tr>
-<tr><td colspan="8">**One-Handed Melee Weapons**</td></tr>
-<tr><td>&mdash; Sword, bastard</td><td>35 gp</td><td>1d8</td><td>1d10</td><td>19-20/&times;2</td><td>&ndash;</td><td>6 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Waraxe, dwarven</td><td>30 gp</td><td>1d8</td><td>1d10</td><td>&times;3</td><td>&ndash;</td><td>8 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Whip<sup>4</sup></td><td>1 gp</td><td>1d2<sup>3</sup></td><td>1d3<sup>3</sup></td><td>&times;2</td><td></td><td>2 lb.</td><td>Slashing</td></tr>
-<tr><td colspan="8">**Two-Handed Melee Weapons**</td></tr>
-<tr><td>&mdash; Axe, orc double<sup>5</sup></td><td>60 gp</td><td>1d6/1d6</td><td>1d8/1d8</td><td>&times;3</td><td>&ndash;</td><td>15 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Chain, spiked<sup>4</sup></td><td>25 gp</td><td>1d6</td><td>2d4</td><td>&times;2</td><td>&ndash;</td><td>10 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Flail, dire<sup>5</sup></td><td>90 gp</td><td>1d6/1d6</td><td>1d8/1d8</td><td>&times;2</td><td>&ndash;</td><td>10 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Fullblade</td><td>100 gp</td><td>2d6</td><td>3d6</td><td>19-20/&times;2</td><td>&ndash;</td><td>25 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Hammer, gnome hooked<sup>5</sup></td><td>20 gp</td><td>1d6/1d4</td><td>1d8/1d6</td><td>&times;3/&times;4</td><td>&ndash;</td><td>6 lb.</td><td>Bludgeoning and piercing</td></tr>
-<tr><td>&mdash; Sword, two-bladed<sup>5</sup></td><td>100 gp</td><td>1d6/1d6</td><td>1d8/1d8</td><td>19-20/&times;2</td><td>&ndash;</td><td>10 lb.</td><td>Slashing</td></tr>
-<tr><td>&mdash; Urgrosh, dwarven<sup>5</sup></td><td>50 gp</td><td>1d6/1d4</td><td>1d8/1d6</td><td>&times;3</td><td>&ndash;</td><td>12 lb.</td><td>Slashing or piercing</td></tr>
-<tr><td colspan="8">**Ranged Weapons**</td></tr>
-<tr><td>&mdash; Bolas</td><td>5 gp</td><td>1d3<sup>3</sup></td><td>1d4<sup>3</sup></td><td>&times;2</td><td>10 ft.</td><td>2 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Crossbow, hand</td><td>100 gp</td><td>1d3</td><td>1d4</td><td>19-20/&times;2</td><td>30 ft.</td><td>2 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Crossbow, repeating heavy</td><td>400 gp</td><td>1d8</td><td>1d10</td><td>19-20/&times;2</td><td>120 ft.</td><td>12 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Crossbow, repeating light</td><td>250 gp</td><td>1d6</td><td>1d8</td><td>19-20/&times;2</td><td>80 ft.</td><td>6 lb.</td><td>Piercing</td></tr>
-<tr><td>&mdash; Great boomerang</td><td>250 gp</td><td>2d4<sup>6</sup></td><td>2d6<sup>6</sup></td><td>&times;2</td><td>40 ft.</td><td>30 lb.</td><td>Bludgeoning</td></tr>
-<tr><td>&mdash; Net</td><td>20 gp</td><td>&ndash;</td><td>&ndash;</td><td>10 ft.</td><td>6 lb.</td><td>&ndash;</td><td></td></tr>
-<tr><td>&mdash; Shuriken (5)</td><td>1 gp</td><td>1</td><td>1d2</td><td>&times;2</td><td>10 ft.</td><td>&#189; lb.</td><td>Piercing</td></tr>
-<tr><td colspan="8">**Ammunition**</td></tr>
-<tr><td>&mdash; Bolts, crossbow (10)</td><td>1 gp</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>1 lb.</td><td>&ndash;</td></tr>
-<tr><td>&mdash; Bolts, repeating crossbow (5)</td><td>1 gp</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td><td>1 lb.</td><td>&ndash;</td></tr>
+<tr><td colspan="8"><p><strong>Light Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Kama</p>
+</td><td><p>2 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Nunchaku</p>
+</td><td><p>2 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Sai</p>
+</td><td><p>1 gp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>×2</p>
+</td><td><p>10 ft.</p>
+</td><td><p>1 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Siangham</p>
+</td><td><p>3 gp</p>
+</td><td><p>1d4</p>
+</td><td><p>1d6</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>1 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>One-Handed Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Sword, bastard</p>
+</td><td><p>35 gp</p>
+</td><td><p>1d8</p>
+</td><td><p>1d10</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>6 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Waraxe, dwarven</p>
+</td><td><p>30 gp</p>
+</td><td><p>1d8</p>
+</td><td><p>1d10</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>8 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Whip<sup>4</sup></p>
+</td><td><p>1 gp</p>
+</td><td><p>1d2<sup>3</sup></p>
+</td><td><p>1d3<sup>3</sup></p>
+</td><td><p>×2</p>
+</td><td>
+</td><td><p>2 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Two-Handed Melee Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Axe, orc double<sup>5</sup></p>
+</td><td><p>60 gp</p>
+</td><td><p>1d6/1d6</p>
+</td><td><p>1d8/1d8</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>15 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Chain, spiked<sup>4</sup></p>
+</td><td><p>25 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>2d4</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>10 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Flail, dire<sup>5</sup></p>
+</td><td><p>90 gp</p>
+</td><td><p>1d6/1d6</p>
+</td><td><p>1d8/1d8</p>
+</td><td><p>×2</p>
+</td><td><p>–</p>
+</td><td><p>10 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Fullblade</p>
+</td><td><p>100 gp</p>
+</td><td><p>2d6</p>
+</td><td><p>3d6</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>25 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Hammer, gnome hooked<sup>5</sup></p>
+</td><td><p>20 gp</p>
+</td><td><p>1d6/1d4</p>
+</td><td><p>1d8/1d6</p>
+</td><td><p>×3/×4</p>
+</td><td><p>–</p>
+</td><td><p>6 lb.</p>
+</td><td><p>Bludgeoning and piercing</p>
+</td></tr>
+<tr><td><p>— Sword, two-bladed<sup>5</sup></p>
+</td><td><p>100 gp</p>
+</td><td><p>1d6/1d6</p>
+</td><td><p>1d8/1d8</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>–</p>
+</td><td><p>10 lb.</p>
+</td><td><p>Slashing</p>
+</td></tr>
+<tr><td><p>— Urgrosh, dwarven<sup>5</sup></p>
+</td><td><p>50 gp</p>
+</td><td><p>1d6/1d4</p>
+</td><td><p>1d8/1d6</p>
+</td><td><p>×3</p>
+</td><td><p>–</p>
+</td><td><p>12 lb.</p>
+</td><td><p>Slashing or piercing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Ranged Weapons</strong></p>
+</td></tr>
+<tr><td><p>— Bolas</p>
+</td><td><p>5 gp</p>
+</td><td><p>1d3<sup>3</sup></p>
+</td><td><p>1d4<sup>3</sup></p>
+</td><td><p>×2</p>
+</td><td><p>10 ft.</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Crossbow, hand</p>
+</td><td><p>100 gp</p>
+</td><td><p>1d3</p>
+</td><td><p>1d4</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>30 ft.</p>
+</td><td><p>2 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Crossbow, repeating heavy</p>
+</td><td><p>400 gp</p>
+</td><td><p>1d8</p>
+</td><td><p>1d10</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>120 ft.</p>
+</td><td><p>12 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Crossbow, repeating light</p>
+</td><td><p>250 gp</p>
+</td><td><p>1d6</p>
+</td><td><p>1d8</p>
+</td><td><p>19-20/×2</p>
+</td><td><p>80 ft.</p>
+</td><td><p>6 lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td><p>— Great boomerang</p>
+</td><td><p>250 gp</p>
+</td><td><p>2d4<sup>6</sup></p>
+</td><td><p>2d6<sup>6</sup></p>
+</td><td><p>×2</p>
+</td><td><p>40 ft.</p>
+</td><td><p>30 lb.</p>
+</td><td><p>Bludgeoning</p>
+</td></tr>
+<tr><td><p>— Net</p>
+</td><td><p>20 gp</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>10 ft.</p>
+</td><td><p>6 lb.</p>
+</td><td><p>–</p>
+</td><td>
+</td></tr>
+<tr><td><p>— Shuriken (5)</p>
+</td><td><p>1 gp</p>
+</td><td><p>1</p>
+</td><td><p>1d2</p>
+</td><td><p>×2</p>
+</td><td><p>10 ft.</p>
+</td><td><p>½ lb.</p>
+</td><td><p>Piercing</p>
+</td></tr>
+<tr><td colspan="8"><p><strong>Ammunition</strong></p>
+</td></tr>
+<tr><td><p>— Bolts, crossbow (10)</p>
+</td><td><p>1 gp</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>1 lb.</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Bolts, repeating crossbow (5)</p>
+</td><td><p>1 gp</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>1 lb.</p>
+</td><td><p>–</p>
+</td></tr>
 </tbody>
 <tfoot>
-<tr><td colspan="8"><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br /><sup>2</sup> When two types are given, the weapon is both types if the entry specifies "and", or either type (player's choice at time of attack) if the entry specifies "or".<br /><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.<br /><sup>4</sup> Reach weapon.<br /><sup>5</sup> Double weapon.<br /><sup>6</sup> See description.</td></tr>
+<tr><td colspan="8"><p><sup>1</sup> Weight figures are for Medium weapons. A Small weapon weighs half as much, and a Large weapon weighs twice as much.<br /><sup>2</sup> When two types are given, the weapon is both types if the entry specifies “and”, or either type (player’s choice at time of attack) if the entry specifies “or”.<br /><sup>3</sup> The weapon deals nonlethal damage rather than lethal damage.<br /><sup>4</sup> Reach weapon.<br /><sup>5</sup> Double weapon.<br /><sup>6</sup> See description.</p>
+</td></tr>
 </tfoot>
 </table>
 
