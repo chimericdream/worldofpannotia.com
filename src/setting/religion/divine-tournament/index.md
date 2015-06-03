@@ -9,7 +9,7 @@ crumbTitles: [Setting, Religion, Divine Tournament]
  * May only challenge level or higher
  * Victor gains divine ranks according to table
  * Loser loses divine ranks according to table
-   * If the challenger is the loser, the victor gains no ranks, and the challenger loses 1 &#189; times the normal amount, rounded down
+   * If the challenger is the loser, the victor gains no ranks, and the challenger loses 1&#189; times the normal amount, rounded down
  * A challenger may not challenge the same opponent within 500 years
 
 |---

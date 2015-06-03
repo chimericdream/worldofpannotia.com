@@ -5,8 +5,7 @@ crumbs: [misc]
 crumbTitles: [Misc]
 ---
 
-#### OPEN GAME LICENSE Version 1.0a
-{: .text-center }
+**OPEN GAME LICENSE Version 1.0a**
 
 The following text is the property of Wizards of the Coast, Inc. and is Copyright 2000 Wizards of the Coast, Inc ("Wizards"). All Rights Reserved.
 
