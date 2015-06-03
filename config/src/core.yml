@@ -5,6 +5,7 @@ defaults:
     values:
       layout:           "main"
       permalink:        /:path/
+      showPageTitle:    true
       crumbs:           []
       crumbTitles:      []
       sectionTitle:     ""

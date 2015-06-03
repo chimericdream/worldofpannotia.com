@@ -1,7 +1,7 @@
 {% include layout/header.html %}
 
 <section class="container">
-    {% if page.url != "/index.html" %}
+    {% if page.showPageTitle %}
     <header class="row">
         <h2 class="col-xs-12">{{ page.title }}</h2>
     </header>
