@@ -48,6 +48,12 @@ module Jekyll
         content
       end
     end
+
+    module SchemelessUrl
+      def schemeless(input)
+        input.sub(/^(?:(?:ht|f)tps?:)?(.+)$/i, '\1')
+      end
+    end
   end
 end
 
@@ -56,3 +62,4 @@ Liquid::Template.register_filter(Jekyll::PannotiaFilters::Liquify)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::NumberFormat)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::Pmarkdownify)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::InlinePmarkdownify)
+Liquid::Template.register_filter(Jekyll::PannotiaFilters::SchemelessUrl)
