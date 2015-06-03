@@ -4,3 +4,24 @@ collections:
     permalink: /equipment/magic-items/potions-oils/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: potions_oils
+    values:
+      layout: "equipment/magic-items/potion"
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""
