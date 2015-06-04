@@ -1,0 +1,65 @@
+---
+title: Reborn
+---
+
+<h4>Background</h4>
+
+In the world of the Reborn, deities were once mortal creatures. They vie for power, competing in the Immortal Arena as well as across the planes. Sometimes, these battles result in the death of a deity. When this occurs, a Reborn is created.
+
+The Reborn are a select few individuals, born only at the moment of death of a deity, who are reincarnated from the soul of a god. Reborn individuals often take up positions of power, drawing from the strengths bestowed upon them by their rebirth. Though they do not retain any memory of their former lives, they have a higher level of conciousness, and are natural rulers.
+
+**"The Noble"**
+
+The Noble is the benevolent ruler. They are the most soft spoken of the Reborn, and their apparent softness aids them greatly in their dealings with other creatures. Nobles are the leaders of entire kingdoms and rely on their sharp intellect and keen intuition to guide their rule.
+
+**"The Brigand"**
+
+These Reborn often live just outside the law. They manage similar sweeping changes as the Noble, though less immediately apparent. Brigands rely on their quick wit and agile reflexes to maintain their lands.
+
+**"The Warrior"**
+
+By far the most violent of the Reborn is the Warrior. These souls crave power and often clash with the Brigand and the Noble. Warriors are leaders of armies and other such forces, and they rely on brute strength to keep their subjects in line.
+
+<h4>Game Information</h4>
+
+The Reborn is a template that can be added to any intelligent humanoid creature (referred to from here on as the base creature). The base creature's type remains the same, but they gain the Reborn subtype along with the changes specified below.
+
+**Alignment:** The alignment of a Reborn is the same as the alignment of the deity whose soul is being reincarnated.
+
+**Level Adjust:** +4
+
+**Abilities &amp; other changes:** If the deity's soul is LG, LN, or NG, the Reborn becomes a "Noble" (see descriptions below). If the soul is CG or CN, the Reborn becomes a "Brigand". If the soul is LE, CE or NE, the Reborn becomes a "Warrior". If the soul is N, the Reborn may become any of the above variations. They are not limited to race.
+
+> **"The Noble"**
+>
+> LG, LN, N, NG
+>
+> _Abilities:_ +4 Cha, +4 Wis, +4 Int
+>
+> _Skills:_ +6 racial bonus to _diplomacy_ and _sense motive_
+>
+> _Spell-Like Abilities:_ 3/day - _zone of truth_; 1/day - _detect thoughts_
+
+> **"The Brigand"**
+>
+> CG, CN, N
+>
+> _Abilities:_ +4 Cha, +4 Dex, +4 Int
+>
+> _Skills:_ +6 racial bonus to _bluff_ and _hide_
+>
+> _Spell-Like Abilities:_ 3/day - _invisibility_; 1/day - _detect thoughts_
+
+> **"The Warrior"**
+>
+> LE, CE, NE, N
+>
+> _Abilities:_ +4 Cha, +4 Str, +4 Con
+>
+> _Skills:_ +6 racial bonus to _intimidate_ and _survival_
+>
+> _Spell-Like Abilities:_ 3/day - _flaming sphere_; 1/day - _detect thoughts_
+
+**Past Experience (Ex):** 3/day, gain a +4 bonus on any single skill check. For a moment, the Reborn remembers a pertinent experience from his past life that imparts on him the ability to accomplish something he would not otherwise do. The Reborn must choose to use this ability before he makes the skill check to which the bonus will apply.
+
+**Reborn Sense (Su):** Any reborn that comes within 100 ft of another Reborn is automatically entitled to a check to sense the other. Reborns are closely linked with one another, and their fates often cross paths, whether for good or ill. The DC to detect the other reborn is 10 + the Reborn's Cha modifier, and the check is a level check plus the sensing Reborn's Wis modifier. If a Reborn wanted to avoid detection, he/she may make a level check (d20 + level) instead of using the standard DC.
