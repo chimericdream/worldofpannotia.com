@@ -7,13 +7,13 @@ domain:
 
     Add _survival_ to your list of cleric class skills.
   spells: |
-     1. {% spell_link longstrider %}
-     1. {% spell_link locate-object %}
-     1. {% spell_link fly %}
-     1. {% spell_link dimension-door %}
-     1. {% spell_link teleport %}
-     1. {% spell_link find-the-path %}
-     1. {% spell_link teleport-greater %}
-     1. {% spell_link phase-door %}
-     1. {% spell_link astral-projection %}
+    1. {% spell_link longstrider %}
+    1. {% spell_link locate-object %}
+    1. {% spell_link fly %}
+    1. {% spell_link dimension-door %}
+    1. {% spell_link teleport %}
+    1. {% spell_link find-the-path %}
+    1. {% spell_link teleport-greater %}
+    1. {% spell_link phase-door %}
+    1. {% spell_link astral-projection %}
 ---
