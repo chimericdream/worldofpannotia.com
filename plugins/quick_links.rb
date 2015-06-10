@@ -1,29 +1,23 @@
 module Jekyll
   module PannotiaLinkTags
-    VERSION = "0.1.0"
     Syntax = /(?<slug>\w+(?:\-\w+)*)(?: "(?<titleText>[^"]+)")?(?: #(?<fragment>\w+(?:\-\w+)*))?/
 
     class ItemLink
       def initialize(tag_name, markup, tokens)
-        if !markup
+        if !markup || (markup.strip =~ Syntax).nil? || !(markup.strip =~ Syntax)
           raise SyntaxError.new("Syntax Error in '#{tag_name}' - Valid syntax: '#{tag_name} <slug>', '#{tag_name} <slug> \"link text\"', or '#{tag_name} <slug> \"link text\" \#link-fragment'")
         end
 
-        begin
-          matches = markup.strip.match(Syntax)
-          @item_tag = tag_name
-          @item_slug = matches['slug']
-          @item_link_text = ''
-          @item_link_fragment = ''
-          if matches['titleText']
-            @item_link_text = matches['titleText']
-          end
-          if matches['fragment']
-            @item_link_fragment = '#' + matches['fragment']
-          end
-        rescue => detail
-          puts matches.inspect
-          raise detail
+        matches = markup.strip.match(Syntax)
+        @item_tag = tag_name
+        @item_slug = matches['slug']
+        @item_link_text = ''
+        @item_link_fragment = ''
+        if matches['titleText']
+          @item_link_text = matches['titleText']
+        end
+        if matches['fragment']
+          @item_link_fragment = '#' + matches['fragment']
         end
 
         case tag_name
@@ -95,9 +89,62 @@ eos
       end
     end
   end
+
+  module PannotiaEmbedTags
+    class ItemEmbed
+      Syntax = /^(?<slug>\w+(?:\-\w+)*)$/
+
+      def initialize(tag_name, markup, tokens)
+        if !markup || (markup.strip =~ Syntax).nil? || !(markup.strip =~ Syntax)
+          raise SyntaxError.new("Syntax Error in '#{tag_name}' - Valid syntax: '#{tag_name} <slug>'")
+        end
+
+        matches = markup.strip.match(Syntax)
+
+        @item_tag = tag_name
+        @item_slug = matches['slug']
+
+        case tag_name
+        when "plane_embed"
+          @item_collection = "planes"
+        else
+          raise SyntaxError.new("Syntax Error in '#{tag_name}' - Unknown embed type.")
+        end
+      end
+
+      def render(context)
+        site = context.registers[:site]
+        collection = site.collections[@item_collection]
+
+        collection.docs.each do |item|
+          if @item_slug == item.basename_without_ext
+            case @item_collection
+            when 'planes'
+              return <<-eos
+##### #{item.data["title"]}
+
+#{item.content}
+eos
+            end
+          end
+        end
+
+        raise ArgumentError.new <<-eos
+Could not find page "#{@item_slug}" in collection "#{@item_collection}" in tag '#{@item_tag}'.
+
+Make sure the page exists and the name is correct.
+eos
+      end
+    end
+  end
 end
 
 ['artifact', 'domain', 'epic_spell', 'feat', 'psicrown', 'ring', 'rod', 'skill', 'spell', 'staff', 'wondrous_item'].each do |tag|
   link = tag + "_link"
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
+end
+
+['plane'].each do |tag|
+  embed = tag + "_embed"
+  Liquid::Template.register_tag(embed, Jekyll::PannotiaEmbedTags::ItemEmbed)
 end
