@@ -44,8 +44,7 @@ module Jekyll
         converter = site.getConverterImpl(Jekyll::PannotiaKramdown)
         content = converter.convert(input)
         content = strip_newlines(content)
-        content = content.sub(/^<p>(.+)<\/p>$/, '\1')
-        content
+        content.sub(/^\<p\>(.+)\<\/p\>$/, '\1')
       end
     end
 

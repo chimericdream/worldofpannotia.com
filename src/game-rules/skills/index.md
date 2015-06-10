@@ -200,3 +200,33 @@ This synergy bonus increases as follows: a character will receive +2 for having 
 Sometimes a character tries to do something to which no specific skill really applies. In these cases, you make an ability check. An ability check is a roll of 1d20 plus the appropriate ability modifier. Essentially, you're making an untrained skill check.
 
 In some cases, an action is a straight test of one's ability with no luck involved. Just as you wouldn't make a height check to see who is taller, you don't make a Strength check to see who is stronger.
+
+### Skill Descriptions
+
+This section describes each skill, including common uses and typical modifiers. Characters can sometimes use skills for purposes other than those noted here.
+
+#### Skill Description Format
+
+Here is the format for skill descriptions.
+
+**Skill Name**
+
+The skill name line includes (in addition to the name of the skill) the following information.
+
+ * **Key Ability:** The abbreviation of the ability whose modifier applies to the skill check. _Exception:_Speak Language has "None" as its key ability because the use of this skill does not require a check.
+ * **Trained Only:** If this notation is included in the skill name line, you must have at least 1 rank in the skill to use it. If it is omitted, the skill can be used untrained (with a rank of 0). If any special notes apply to trained or untrained use, they are covered in the Untrained section (see below).
+ * **Armor Check Penalty:** If this notation is included in the skill name line, an armor check penalty applies (when appropriate) to checks using this skill. If this entry is absent, an armor check penalty does not apply.
+
+The skill name line is followed by a general description of what using the skill represents. After the description are a few other types of information:
+
+ * **Check:** What a character ("you" in the skill description) can do with a successful skill check and the check's DC.
+ * **Action:** The type of action using the skill requires, or the amount of time required for a check.
+ * **Try Again:** Any conditions that apply to successive attempts to use the skill successfully. If the skill doesn't allow you to attempt the same task more than once, or if failure carries an inherent penalty (such as with the Climb skill), you can't take 20. If this paragraph is omitted, the skill can be retried without any inherent penalty, other than the additional time required.
+ * **Special:** Any extra facts that apply to the skill, such as special effects deriving from its use or bonuses that certain characters receive because of class, feat choices, or race.
+ * **Synergy:** Some skills grant a bonus to the use of one or more other skills because of a synergistic effect. This entry, when present, indicates what bonuses this skill may grant or receive because of such synergies. See <a href="{{ site.url }}/game-rules/skills-feats/basics/#skill-synergy-table">Table: Skill Synergies</a> for a complete list of bonuses granted by synergy between skills (or between a skill and a class feature).
+ * **Restriction:** The full utility of certain skills is restricted to characters of certain classes or characters who possess certain feats. This entry indicates whether any such restrictions exist for the skill.
+ * **Untrained:** This entry indicates what a character without at least 1 rank in the skill can do with it. If this entry doesn't appear, it means that the skill functions normally for untrained characters (if it can be used untrained) or that an untrained character can't attempt checks with this skill (for skills that are designated as 'Trained Only').
+
+{% for skill in site.skills %}
+skill_embed {{ skill.name }}
+{% endfor %}

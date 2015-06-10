@@ -5,7 +5,7 @@ item:
   aura: "Faint conjuration"
   casterLevel: "5th"
   prerequisites:
-    feats: [Brew Potion]
+    feats: ["Brew Potion"]
     spells: ["{% spell_link cure-light-wounds %}", "{% spell_link resistance %}"]
     special: []
   marketPrice: 250

@@ -8,3 +8,18 @@ collections:
     permalink: /game-rules/skills/epic/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: skills
+    values:
+      skill:
+        key_ability:         ""
+        trained_only:        false
+        armor_check_penalty: false
+        check:               ""
+        action:              ""
+        try_again:           ""
+        special:             ""
+        synergy:             ""
+        restriction:         ""
+        untrained:           ""

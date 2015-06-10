@@ -1,7 +1,7 @@
 module Jekyll
   module PannotiaLinkTags
     VERSION = "0.1.0"
-    Syntax = /(\w+(?:\-\w+)*)(?: "([^"]+)")?(?: #(\w+(?:\-\w+)*))?/
+    Syntax = /(?<slug>\w+(?:\-\w+)*)(?: "(?<titleText>[^"]+)")?(?: #(?<fragment>\w+(?:\-\w+)*))?/
 
     class ItemLink
       def initialize(tag_name, markup, tokens)
@@ -9,16 +9,21 @@ module Jekyll
           raise SyntaxError.new("Syntax Error in '#{tag_name}' - Valid syntax: '#{tag_name} <slug>', '#{tag_name} <slug> \"link text\"', or '#{tag_name} <slug> \"link text\" \#link-fragment'")
         end
 
-        matches = markup.strip.scan(Syntax)
-        @item_tag = tag_name
-        @item_slug = matches[0][0]
-        @item_link_text = ''
-        @item_link_fragment = ''
-        if matches[0][1]
-          @item_link_text = matches[0][1]
-        end
-        if matches[0][2]
-          @item_link_fragment = '#' + matches[0][2]
+        begin
+          matches = markup.strip.match(Syntax)
+          @item_tag = tag_name
+          @item_slug = matches['slug']
+          @item_link_text = ''
+          @item_link_fragment = ''
+          if matches['titleText']
+            @item_link_text = matches['titleText']
+          end
+          if matches['fragment']
+            @item_link_fragment = '#' + matches['fragment']
+          end
+        rescue => detail
+          puts matches.inspect
+          raise detail
         end
 
         case tag_name
@@ -32,6 +37,8 @@ module Jekyll
           @item_collection = "feats"
         when "plane_link"
           @item_collection = "planes"
+        when "psicrown_link"
+          @item_collection = "psicrowns"
         when "ring_link"
           @item_collection = "rings"
         when "rod_link"
@@ -70,7 +77,7 @@ module Jekyll
             link_text = "<em>#{title}</em>"
 
             case @item_collection
-            when 'artifacts', 'domains', 'feats', 'planes', 'rings', 'rods', 'staffs'
+            when 'artifacts', 'domains', 'feats', 'planes', 'psicrowns', 'rings', 'rods', 'staffs'
               link_text = title
             end
 
@@ -90,7 +97,7 @@ eos
   end
 end
 
-['artifact', 'domain', 'epic_spell', 'feat', 'ring', 'rod', 'skill', 'spell', 'staff', 'wondrous_item'].each do |tag|
+['artifact', 'domain', 'epic_spell', 'feat', 'psicrown', 'ring', 'rod', 'skill', 'spell', 'staff', 'wondrous_item'].each do |tag|
   link = tag + "_link"
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
 end
