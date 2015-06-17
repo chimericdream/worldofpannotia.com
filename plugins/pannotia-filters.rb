@@ -53,6 +53,16 @@ module Jekyll
         input.sub(/^(?:(?:ht|f)tps?:)?(.+)$/i, '\1')
       end
     end
+
+    module CollectionItemSlug
+      def item_slug(input)
+        if input["relative_path"].nil? or input["collection"].nil?
+          raise SyntaxError.new("Syntax Error in 'item_slug' - Not a valid collection item.")
+        end
+        collection = input["collection"]
+        input["relative_path"].sub(/^_#{collection}\/(.+)\.(?:md|html)$/, '\1')
+      end
+    end
   end
 end
 
@@ -62,3 +72,4 @@ Liquid::Template.register_filter(Jekyll::PannotiaFilters::NumberFormat)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::Pmarkdownify)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::InlinePmarkdownify)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::SchemelessUrl)
+Liquid::Template.register_filter(Jekyll::PannotiaFilters::CollectionItemSlug)

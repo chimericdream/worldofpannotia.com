@@ -7,6 +7,8 @@ data_source: ./src/_data
 
 url: "//chimericdream.github.io/worldofpannotia.com"
 
+debug: false
+
 # Handling Reading
 safe:         false
 include:      [".htaccess", ".nojekyll"]
@@ -25,6 +27,11 @@ unpublished: false
 whitelist: []
 gems:
   - jekyll-redirect-from
+
+lunr_search:
+  js_dir: "assets/js"
+
+enable_search: false
 
 # Conversion
 markdown:    kramdown

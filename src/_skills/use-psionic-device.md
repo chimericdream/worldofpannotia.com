@@ -14,8 +14,6 @@ skill:
     You must consciously choose what to emulate. That is, you must know what you are trying to emulate when you make an emulation check. The DCs for various tasks involving _use psionic device_ are summarized on the table below.
 
     |---
-    <table id="use-psionic-device-table" class="table table-bordered table-hover">
-    <caption>Table: _use psionic device_ DCs</caption>
     | _use psionic device_ DC | Task
     |-|-
     | 25 | Activate blindly
@@ -26,7 +24,7 @@ skill:
     | 25 | Emulate a race
     | 20 | Use a dorje
     | 20 + manifester level | Use a power stone
-    {: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="asdfasdf" }
+    {: #use-psionic-device-table .table .table-bordered .table-hover .table-striped data-caption="Table: Use Psionic Device DCs" }
 
     _Activate Blindly:_ Some psionic items are activated by special specific thoughts or conceptions. You can activate such items as if you were using the activation method, even if you're not and even if you don't know it. You do have to use something equivalent. You have to wave the item around or otherwise attempt to get it to activate. You get a special +2 bonus if you've activated the item at least once before.
 
@@ -49,11 +47,9 @@ skill:
     _Use a Power Stone:_ Normally, to manifest a power from a power stone, you must have the power stone's power on your class power list. This use of the skill allows you to use a power stone as if you had a particular power on your class power list. The _use psionic device_ DC is equal to 20 + the manifester level of the power you are trying to manifest from the power stone.
 
     _Note:_Before you use a power stone, you must first have addressed it to determine what powers it contains. In addition, manifesting a power from a power stone requires a minimum score (10 + power level) in the appropriate ability. If you don't have a high enough score, you must emulate the ability score with a separate _use psionic device_ check (see above). This use of the skill applies to other power completion psionic items.
-  action: ""
-    None. The _use psionic device_ check is made as part of the action (if any) required to activate the psionic item.
-  try_again: ""
-    Yes, but if you ever roll a natural 1 while attempting to activate an item and you fail, you can't try to activate it again for a day.
-  special: ""
+  action: "None. The _use psionic device_ check is made as part of the action (if any) required to activate the psionic item."
+  try_again: "Yes, but if you ever roll a natural 1 while attempting to activate an item and you fail, you can't try to activate it again for a day."
+  special: |
     You cannot take 10 with this skill.
 
     You can't aid another on _use psionic device_ checks. Only the user of the item can attempt such a check.
@@ -64,4 +60,4 @@ skill:
      * If you have 5 or more ranks in _use psionic device_, you get a synergy bonus on _psicraft_ checks to address power stones.
   restriction: ""
   untrained: ""
-
+---

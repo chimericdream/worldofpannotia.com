@@ -14,7 +14,7 @@ skill:
     Use the table below to determine the effectiveness of _diplomacy_ checks (or Charisma checks) made to influence the attitude of a nonplayer character, or wild empathy checks made to influence the attitude of an animal or magical beast.
 
     |---
-    | Initial Attitude</th><th colspan="5" class="center">New Attitude (DC to achieve) |<|<|<|<
+    | Initial Attitude |: New Attitude (DC to achieve) :|<|<|<|<
     |^| Hostile | Unfriendly | Indifferent | Friendly | Helpful
     |-|-|-|-|-|-
     | Hostile | Less than 20 | 20 | 25 | 35 | 50

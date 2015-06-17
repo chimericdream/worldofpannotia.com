@@ -1,7 +1,7 @@
 ---
-title: Overview
-crumbs: [game-rules, races]
-crumbTitles: [Game Rules, Races]
+title: Races
+crumbs: [game-rules]
+crumbTitles: [Game Rules]
 ---
 
 ### Favored Class {#favored-class}
@@ -25,3 +25,58 @@ A Small character gets a +1 size bonus to Armor Class, a +1 size bonus on attack
 A Small character generally moves about two-thirds as fast as a Medium character.
 
 A Small character must use smaller weapons than a Medium character.
+
+### Playable Races
+
+**Common Player Races**
+
+ * {% race_link dark-elf %}
+ * {% race_link dromite %}
+ * {% race_link duergar %}
+ * {% race_link dwarf %}
+ * {% race_link elan %}
+ * {% race_link elf %}
+ * {% race_link faldirin %}: Frail, but intelligent and charismatic, Faldirin are a feline race primarily comprised of storytellers, sages, crafters, and aristocrats.
+ * {% race_link gnome %}
+ * {% race_link halfling %}
+ * {% race_link human %}
+ * {% race_link maenad %}
+ * {% race_link xeph %}
+
+**Uncommon Player Races**
+
+ * {% race_link elfling %}
+ * {% race_link half-elf %}
+ * {% race_link half-giant %}
+ * {% race_link half-orc %}
+ * {% race_link thaellegoth %}
+
+**Rare Player Races**
+
+ * {% race_link archon-hound %}
+ * {% race_link azer %}
+ * {% race_link blue %}
+ * {% race_link bugbear %}
+ * {% race_link centaur %}
+ * {% race_link doppelganger %}
+ * {% race_link gargoyle %}
+ * {% race_link genie-janni %}
+ * {% race_link giant-hill %}
+ * {% race_link giant-stone %}
+ * {% race_link gnoll %}
+ * {% race_link goblin %}
+ * {% race_link grimlock %}
+ * {% race_link hobgoblin %}
+ * {% race_link kobold %}
+ * {% race_link lizardfolk %}
+ * {% race_link minotaur %}
+ * {% race_link ogre %}
+ * {% race_link planetouched-aasimar %}
+ * {% race_link planetouched-tiefling %}
+ * {% race_link rakshasa %}
+ * {% race_link satyr %}
+ * {% race_link scorpionfolk %}
+ * {% race_link sprite-pixie %}
+ * {% race_link troglodyte %}
+ * {% race_link troll %}
+ * {% race_link unbodied %}

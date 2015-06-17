@@ -4,3 +4,28 @@ collections:
     permalink: /game-rules/races/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: races
+    values:
+      layout:        "game-rules/race"
+      crumbs:        [game-rules, races]
+      crumbTitles:   [Game Rules, Races]
+      activeSection: "game-rules/races"
+      race:
+        description: ""
+        personality: ""
+        physicalDescription: ""
+        relations: ""
+        alignment: ""
+        lands: ""
+        religion: ""
+        language: ""
+        names: ""
+        maleNames: ""
+        femaleNames: ""
+        adventurers: ""
+        levelAdjust: 0
+        traits: ""
+        qualities: []
+        alternateLAOptions: []

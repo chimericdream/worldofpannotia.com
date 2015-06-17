@@ -1,7 +1,7 @@
 {% assign feat = include.feat %}
 
 {% capture ogc %}
-<h4>{{ feat.name }}{% if feat.types.size > 0 %} [{{ feat.types | sort | join:'][' }}]{% endif %}</h4>
+<h4>{{ include.title }}{% if feat.types.size > 0 %} [{{ feat.types | sort | join:'][' }}]{% endif %}</h4>
 {% if feat.prerequisite != "" %}
 <h5>Prerequisite</h5>
 {{ feat.prerequisite | pmarkdownify }}

@@ -15,7 +15,7 @@ skill:
     | Ransack a chest full of junk to find a certain item | 10
     | Notice a typical secret door or a simple trap | 20
     | Find a difficult nonmagical trap (rogue only)<sup>1</sup> | 21 or higher
-    | Find a magic trap (rogue only)**<sup>1 </sup>** | 25 + level of spell used to create trap
+    | Find a magic trap (rogue only)<sup>1</sup> | 25 + level of spell used to create trap
     | Notice a well-hidden secret door | 30
     | Find a footprint | Varies<sup>2</sup>
     |===

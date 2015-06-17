@@ -1,6 +1,11 @@
 module Jekyll
+  OPEN_VAR = /(?:\{\{ *)?/
+  CLOSE_VAR = /(?:(?: *\| *[-_a-zA-Z0-9]+)* *\}\})?/
+  SLUG_SYNTAX = /(?<slug>#{OPEN_VAR}\w+(?:(?:\-|\.)\w+)*#{CLOSE_VAR})/
+  FRAGMENT_SYNTAX = /(?: #(?<fragment>#{OPEN_VAR}\w+(?:(?:\-|\.)\w+)*#{CLOSE_VAR}))/
+
   module PannotiaLinkTags
-    Syntax = /(?<slug>\w+(?:\-\w+)*)(?: "(?<titleText>[^"]+)")?(?: #(?<fragment>\w+(?:\-\w+)*))?/
+    Syntax = /#{SLUG_SYNTAX}(?: "(?<titleText>[^"]+)")?#{FRAGMENT_SYNTAX}?/
 
     class ItemLink
       def initialize(tag_name, markup, tokens)
@@ -11,11 +16,13 @@ module Jekyll
         matches = markup.strip.match(Syntax)
         @item_tag = tag_name
         @item_slug = matches['slug']
+
         @item_link_text = ''
-        @item_link_fragment = ''
         if matches['titleText']
           @item_link_text = matches['titleText']
         end
+
+        @item_link_fragment = ''
         if matches['fragment']
           @item_link_fragment = '#' + matches['fragment']
         end
@@ -25,6 +32,10 @@ module Jekyll
           @item_collection = "artifacts"
         when "domain_link"
           @item_collection = "domains"
+        when "epic_feat_link"
+          @item_collection = "epic_feats"
+        when "epic_skill_link"
+          @item_collection = "epic_skills"
         when "epic_spell_link"
           @item_collection = "epic_spells"
         when "feat_link"
@@ -33,6 +44,8 @@ module Jekyll
           @item_collection = "planes"
         when "psicrown_link"
           @item_collection = "psicrowns"
+        when "race_link"
+          @item_collection = "races"
         when "ring_link"
           @item_collection = "rings"
         when "rod_link"
@@ -54,8 +67,11 @@ module Jekyll
         site = context.registers[:site]
         collection = site.collections[@item_collection]
 
+        partial = Liquid::Template.parse(@item_slug)
+        slug = partial.render!(context)
+
         collection.docs.each do |item|
-          if @item_slug == item.basename_without_ext
+          if slug == item.basename_without_ext
             if @item_link_text != ''
               title = @item_link_text
             else
@@ -67,11 +83,16 @@ module Jekyll
               end
             end
 
-            url = site.config['url'] + item.url + @item_link_fragment
+            case @item_collection
+            when 'epic_skills', 'skills'
+              url = site.config['url'] + "/game-rules/skills/\#" + slug
+            else
+              url = site.config['url'] + item.url + @item_link_fragment
+            end
             link_text = "<em>#{title}</em>"
 
             case @item_collection
-            when 'artifacts', 'domains', 'feats', 'planes', 'psicrowns', 'rings', 'rods', 'staffs'
+            when 'artifacts', 'domains', 'epic_feats', 'feats', 'planes', 'psicrowns', 'races', 'rings', 'rods', 'staffs'
               link_text = title
             end
 
@@ -82,7 +103,7 @@ module Jekyll
         end
 
         raise ArgumentError.new <<-eos
-Could not find page "#{@item_slug}" in collection "#{@item_collection}" in tag '#{@item_tag}'.
+Could not find page "#{slug}" in collection "#{@item_collection}" in tag '#{@item_tag}'.
 
 Make sure the page exists and the name is correct.
 eos
@@ -92,7 +113,7 @@ eos
 
   module PannotiaEmbedTags
     class ItemEmbed
-      Syntax = /^(?<slug>\w+(?:\-\w+)*)$/
+      Syntax = /^#{SLUG_SYNTAX}$/
 
       def initialize(tag_name, markup, tokens)
         if !markup || (markup.strip =~ Syntax).nil? || !(markup.strip =~ Syntax)
@@ -105,8 +126,12 @@ eos
         @item_slug = matches['slug']
 
         case tag_name
+        when "epic_skill_embed"
+          @item_collection = "epic_skills"
         when "plane_embed"
           @item_collection = "planes"
+        when "skill_embed"
+          @item_collection = "skills"
         else
           raise SyntaxError.new("Syntax Error in '#{tag_name}' - Unknown embed type.")
         end
@@ -116,8 +141,11 @@ eos
         site = context.registers[:site]
         collection = site.collections[@item_collection]
 
+        partial = Liquid::Template.parse(@item_slug)
+        slug = partial.render!(context)
+
         collection.docs.each do |item|
-          if @item_slug == item.basename_without_ext
+          if slug == item.basename_without_ext
             case @item_collection
             when 'planes'
               return <<-eos
@@ -125,12 +153,68 @@ eos
 
 #{item.content}
 eos
+            when 'epic_skills'
+              return <<-eos
+#### #{item.data["title"]}
+
+#{item.content}
+eos
+            when 'skills'
+              trained = armor_check = check = action = try_again = special = synergy = restriction = untrained = ""
+              skill = item.data["skill"]
+
+              if skill["trained_only"]
+                trained = "; Trained Only"
+              end
+              if skill["armor_check_penalty"]
+                armor_check = "; Armor Check Penalty"
+              end
+              if skill["check"] && skill["check"] != ""
+                check = "**Check:** " + skill["check"]
+              end
+              if skill["action"] && skill["action"] != ""
+                action = "**Action:** " + skill["action"]
+              end
+              if skill["try_again"] && skill["try_again"] != ""
+                try_again = "**Try Again:** " + skill["try_again"]
+              end
+              if skill["special"] && skill["special"] != ""
+                special = "**Special:** " + skill["special"]
+              end
+              if skill["synergy"] && skill["synergy"] != ""
+                synergy = "**Synergy:**\n\n" + skill["synergy"]
+              end
+              if skill["restriction"] && skill["restriction"] != ""
+                restriction = "**Restriction:** " + skill["restriction"]
+              end
+              if skill["untrained"] && skill["untrained"] != ""
+                untrained = "**Untrained:** " + skill["untrained"]
+              end
+              return <<-eos
+#### #{item.data["title"]} (#{skill["key_ability"]}#{trained}#{armor_check}) \{\##{slug}\}
+
+#{skill["description"]}
+
+#{check}
+
+#{action}
+
+#{try_again}
+
+#{special}
+
+#{synergy}
+
+#{restriction}
+
+#{untrained}
+eos
             end
           end
         end
 
         raise ArgumentError.new <<-eos
-Could not find page "#{@item_slug}" in collection "#{@item_collection}" in tag '#{@item_tag}'.
+Could not find page "#{slug}" in collection "#{@item_collection}" in tag '#{@item_tag}'.
 
 Make sure the page exists and the name is correct.
 eos
@@ -139,12 +223,12 @@ eos
   end
 end
 
-['artifact', 'domain', 'epic_spell', 'feat', 'psicrown', 'ring', 'rod', 'skill', 'spell', 'staff', 'wondrous_item'].each do |tag|
+['artifact', 'domain', 'epic_feat', 'epic_skill', 'epic_spell', 'feat', 'psicrown', 'race', 'ring', 'rod', 'skill', 'spell', 'staff', 'wondrous_item'].each do |tag|
   link = tag + "_link"
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
 end
 
-['plane'].each do |tag|
+['epic_skill', 'plane', 'skill'].each do |tag|
   embed = tag + "_embed"
   Liquid::Template.register_tag(embed, Jekyll::PannotiaEmbedTags::ItemEmbed)
 end

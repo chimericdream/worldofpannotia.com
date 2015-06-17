@@ -19,6 +19,8 @@ defaults:
           url: "game-rules/feats/descriptions"
         - title: "Feat Index"
           url: "game-rules/feats/feat-index"
+        - title: "Epic Feats"
+          url: "game-rules/feats/epic-feats"
 
   - scope:
       path: ""
@@ -29,7 +31,6 @@ defaults:
       crumbTitles:   [Game Rules, Feats]
       activeSection: "game-rules/feats/feat-index"
       feat:
-        name:         ""
         types:        []
         description:  ""
         prerequisite: ""
@@ -37,3 +38,19 @@ defaults:
         normal:       ""
         special:      ""
 
+  - scope:
+      path: ""
+      type: epic_feats
+    values:
+      layout:        "game-rules/feat"
+      crumbs:        [game-rules, feats, epic-feats]
+      crumbTitles:   [Game Rules, Feats, Epic Feats]
+      activeSection: "game-rules/feats/epic-feats"
+      feat:
+        name:         ""
+        types:        []
+        description:  ""
+        prerequisite: ""
+        benefit:      ""
+        normal:       ""
+        special:      ""

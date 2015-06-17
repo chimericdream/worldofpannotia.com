@@ -31,13 +31,14 @@ module Jekyll
 
       currtable = nil
 
-      $tablecell = Struct.new(:parent, :contents, :type, :colspan, :rowspan) do
+      $tablecell = Struct.new(:parent, :contents, :type, :colspan, :rowspan, :align) do
         def initialize(*)
           super
           self.contents ||= ''
           self.type ||= 'td'
           self.colspan ||= 1
           self.rowspan ||= 1
+          self.align ||= 'left'
         end
 
         def render()
@@ -47,6 +48,7 @@ module Jekyll
           end
 
           if self.contents != '<' and self.contents != '^'
+            set_alignment
             content << "<#{self.type}"
             if self.colspan > 1
               content << " colspan=\"#{self.colspan}\""
@@ -54,12 +56,33 @@ module Jekyll
             if self.rowspan > 1
               content << " rowspan=\"#{self.rowspan}\""
             end
+            if self.align != 'left'
+              content << ' class="'
+              if self.align == 'right'
+                content << 'text-right'
+              else
+                content << 'text-center'
+              end
+              content << '"'
+            end
             content << ">"
             content << $mkconverter.convert(self.contents)
             content << "</#{self.type}>"
           end
 
           content
+        end
+
+        def set_alignment()
+          text_center = self.contents.match(/^:[\t ]*(?<contents>.+)[\t ]*:$/)
+          text_right = self.contents.match(/^[\t ]*(?<contents>[^:].+)[\t ]*:$/)
+          if !text_center.nil?
+            self.contents = text_center['contents'].strip
+            self.align = 'center'
+          elsif !text_right.nil?
+            self.contents = text_right['contents'].strip
+            self.align = 'right'
+          end
         end
       end
 
