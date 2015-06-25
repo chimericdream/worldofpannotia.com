@@ -1,0 +1,41 @@
+{% assign class = include.class %}
+
+{% if class.requirements %}
+    <h3>Requirements</h3>
+
+    {% if class.requirements.race and class.requirements.race != "" %}
+        <p><strong>Race:</strong> {{ class.requirements.race | inline_pmarkdownify | liquify }}</p>
+    {% endif %}
+
+    {% if class.requirements.alignment and class.requirements.alignment != "" %}
+        <p><strong>Alignment:</strong> {{ class.requirements.alignment | inline_pmarkdownify | liquify }}</p>
+    {% endif %}
+
+    {% if class.requirements.baseAttack and class.requirements.baseAttack > 0 %}
+        <p><strong>Base Attack:</strong> +{{ class.requirements.baseAttack }}</p>
+    {% endif %}
+
+    {% if class.requirements.skills and class.requirements.skills.size > 0 %}
+        <p><strong>Skills:</strong> {% for skill in class.requirements.skills %}{{ skill.name | inline_pmarkdownify | liquify }} {{ skill.ranks }} ranks{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {% endif %}
+
+    {% if class.requirements.feats and class.requirements.feats.size > 0 %}
+        <p><strong>Feats: </strong> {{ class.requirements.feats | join:', ' | inline_pmarkdownify | liquify }}</p>
+    {% endif %}
+
+    {% if class.requirements.spellcasting and class.requirements.spellcasting != "" %}
+        <p><strong>Spellcasting:</strong> {{ class.requirements.spellcasting | inline_pmarkdownify | liquify }}</p>
+    {% endif %}
+
+    {% if class.requirements.psionics and class.requirements.psionics != "" %}
+        <p><strong>Psionics:</strong> {{ class.requirements.psionics | inline_pmarkdownify | liquify }}</p>
+    {% endif %}
+
+    {% if class.requirements.languages and class.requirements.languages != "" %}
+        <p><strong>Languages:</strong> {{ class.requirements.languages | inline_pmarkdownify | liquify }}</p>
+    {% endif %}
+
+    {% if class.requirements.special and class.requirements.special != "" %}
+        <p><strong>Special:</strong> {{ class.requirements.special | pmarkdownify | liquify }}</p>
+    {% endif %}
+{% endif %}

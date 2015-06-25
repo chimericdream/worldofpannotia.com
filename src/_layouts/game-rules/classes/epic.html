@@ -1,0 +1,19 @@
+---
+layout: "main"
+---
+
+{% assign non_epic = nil %}
+{% assign class_slug = nil %}
+{% assign prestige_class_slug = nil %}
+
+{% if page.epic_progression %}
+    {% if page.non_epic_class %}
+        {% assign non_epic = page.non_epic_class | collection_item:"base_classes" %}
+        {% assign class_slug = page.non_epic_class %}
+    {% else %}
+        {% assign non_epic = page.non_epic_prestige_class | collection_item:"prestige_classes" %}
+        {% assign prestige_class_slug = page.non_epic_prestige_class %}
+    {% endif %}
+{% endif %}
+
+{% include game-rules/classes/epic.html class=page.class parent_class=non_epic parent_class_slug=class_slug parent_prc_slug=prestige_class_slug title=page.title abbr=page.abbr %}

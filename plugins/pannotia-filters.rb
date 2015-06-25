@@ -17,6 +17,9 @@ module Jekyll
 
     module Liquify
       def liquify(input)
+        if input.nil?
+          return ""
+        end
         Liquid::Template.parse(input).render(@context)
       end
     end
@@ -32,6 +35,9 @@ module Jekyll
 
     module Pmarkdownify
       def pmarkdownify(input)
+        if input.nil?
+          return ""
+        end
         site = @context.registers[:site]
         converter = site.getConverterImpl(Jekyll::PannotiaKramdown)
         converter.convert(input)
@@ -63,6 +69,29 @@ module Jekyll
         input["relative_path"].sub(/^_#{collection}\/(.+)\.(?:md|html)$/, '\1')
       end
     end
+
+    module CollectionItem
+      def collection_item(slug, coll)
+        site = @context.registers[:site]
+        collection = site.collections[coll]
+
+        if collection.nil?
+          raise SyntaxError.new("Empty collection: #{coll}")
+        end
+
+        collection.docs.each do |item|
+          if slug == item.basename_without_ext
+            return item
+          end
+        end
+
+        raise ArgumentError.new <<-eos
+Could not find page "#{slug}" in collection "#{coll}".
+
+Make sure the page exists and the name is correct.
+eos
+      end
+    end
   end
 end
 
@@ -73,3 +102,4 @@ Liquid::Template.register_filter(Jekyll::PannotiaFilters::Pmarkdownify)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::InlinePmarkdownify)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::SchemelessUrl)
 Liquid::Template.register_filter(Jekyll::PannotiaFilters::CollectionItemSlug)
+Liquid::Template.register_filter(Jekyll::PannotiaFilters::CollectionItem)

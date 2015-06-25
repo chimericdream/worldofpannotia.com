@@ -1,11 +1,9 @@
 collections:
   skills:
-    output:    true
-    permalink: /game-rules/skills/:path/
+    output:    false
 
   epic_skills:
-    output:    true
-    permalink: /game-rules/skills/epic/:path/
+    output:    false
 
 defaults:
   - scope:

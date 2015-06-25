@@ -1,0 +1,51 @@
+<h3>Game Rule Info</h3>
+
+{% if include.parent %}
+    {% if include.parent.gameRuleInfo.abilities and include.parent.gameRuleInfo.abilities != "" %}<p><strong>Abilities:</strong> {{ include.parent.gameRuleInfo.abilities | inline_pmarkdownify | liquify }}</p>{% endif %}
+    {% if include.parent.gameRuleInfo.alignment and include.parent.gameRuleInfo.alignment != "" %}<p><strong>Alignment:</strong> {{ include.parent.gameRuleInfo.alignment | inline_pmarkdownify | liquify }}</p>{% endif %}
+    {% if include.parent.gameRuleInfo.hitDie and include.parent.gameRuleInfo.hitDie != "" %}<p><strong>Hit Die:</strong> {{ include.parent.gameRuleInfo.hitDie | inline_pmarkdownify | liquify }}</p>{% endif %}
+
+    <h4>Class Skills</h4>
+    <p>The {{ include.title }}'s class skills are {{ include.parent.gameRuleInfo.classSkills | join:', ' | inline_pmarkdownify | liquify }}.</p>
+
+    {% if include.parent.gameRuleInfo.classSkillsSpecial and include.parent.gameRuleInfo.classSkillsSpecial != "" %}
+        {{ include.parent.gameRuleInfo.classSkillsSpecial | pmarkdownify | liquify }}
+    {% endif %}
+
+    <p><strong>Skill Points per level:</strong> {{ include.parent.gameRuleInfo.skillPoints }} + Int modifier</p>
+{% else %}
+    {% if include.class.gameRuleInfo.abilities and include.class.gameRuleInfo.abilities != "" %}<p><strong>Abilities:</strong> {{ include.class.gameRuleInfo.abilities | inline_pmarkdownify | liquify }}</p>{% endif %}
+    {% if include.class.gameRuleInfo.alignment and include.class.gameRuleInfo.alignment != "" %}<p><strong>Alignment:</strong> {{ include.class.gameRuleInfo.alignment | inline_pmarkdownify | liquify }}</p>{% endif %}
+    {% if include.class.gameRuleInfo.hitDie and include.class.gameRuleInfo.hitDie != "" %}<p><strong>Hit Die:</strong> {{ include.class.gameRuleInfo.hitDie | inline_pmarkdownify | liquify }}</p>{% endif %}
+
+    <h4>Class Skills</h4>
+    <p>The {{ include.title }}'s class skills are {{ include.class.gameRuleInfo.classSkills | join:', ' | inline_pmarkdownify | liquify }}.</p>
+
+    {% if include.class.gameRuleInfo.classSkillsSpecial and include.class.gameRuleInfo.classSkillsSpecial != "" %}
+        {{ include.class.gameRuleInfo.classSkillsSpecial | pmarkdownify | liquify }}
+    {% endif %}
+
+    {% if include.class_type && include.class_type == "prc" %}
+        <p><strong>Skill Points per level:</strong> {{ include.class.gameRuleInfo.skillPoints }} + Int modifier</p>
+    {% else %}
+        <p><strong>Skill Points at 1st level:</strong> ({{ include.class.gameRuleInfo.skillPoints }} + Int modifier) &times; 4</p>
+        <p><strong>Skill Points at each additional level:</strong> {{ include.class.gameRuleInfo.skillPoints }} + Int modifier</p>
+    {% endif %}
+{% endif %}
+
+{{ include.class.gameRuleInfo.classTables | pmarkdownify | liquify }}
+
+{% if include.class.gameRuleInfo.classFeatures and include.class.gameRuleInfo.classFeatures.size > 0 %}
+    <h4>Class Features</h4>
+    <p>All of the following are class features of the {{ include.title }}.</p>
+
+    {% for feature in include.class.gameRuleInfo.classFeatures %}
+        <p><strong>{{ feature.name }}{% if feature.type != "" %} ({{ feature.type }}){% endif %}</strong></p>
+
+        {{ feature.desc | pmarkdownify | liquify }}
+    {% endfor %}
+{% endif %}
+
+{% if include.class.gameRuleInfo.additionalInfo and include.class.gameRuleInfo.additionalInfo != "" %}
+    {{ include.class.gameRuleInfo.additionalInfo | pmarkdownify | liquify }}
+{% endif %}

@@ -1,21 +1,24 @@
 {% assign feat = include.feat %}
 
 {% capture ogc %}
-<h4>{{ include.title }}{% if feat.types.size > 0 %} [{{ feat.types | sort | join:'][' }}]{% endif %}</h4>
-{% if feat.prerequisite != "" %}
-<h5>Prerequisite</h5>
-{{ feat.prerequisite | pmarkdownify }}
-{% endif %}
-<h5>Benefit</h5>
-{{ feat.benefit | pmarkdownify }}
-{% if feat.normal != "" %}
-<h5>Normal</h5>
-{{ feat.normal | pmarkdownify }}
-{% endif %}
-{% if feat.special != "" %}
-<h5>Special</h5>
-{{ feat.special | pmarkdownify }}
-{% endif %}
+    <h4>{{ include.title }}{% if feat.types.size > 0 %} [{{ feat.types | sort | join:'][' }}]{% endif %}</h4>
+    {% if feat.prerequisite != "" %}
+        <h5>Prerequisite</h5>
+        {{ feat.prerequisite | pmarkdownify }}
+    {% endif %}
+
+    <h5>Benefit</h5>
+    {{ feat.benefit | pmarkdownify }}
+
+    {% if feat.normal != "" %}
+        <h5>Normal</h5>
+        {{ feat.normal | pmarkdownify }}
+    {% endif %}
+
+    {% if feat.special != "" %}
+        <h5>Special</h5>
+        {{ feat.special | pmarkdownify }}
+    {% endif %}
 {% endcapture %}
 
 {% if feat.description != "" %}{{ feat.description | pmarkdownify }}{% endif %}

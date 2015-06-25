@@ -3,4 +3,60 @@ collections:
     output:    true
     permalink: /game-rules/classes/epic/:path/
 
+  epic_prestige_classes:
+    output:    true
+    permalink: /game-rules/classes/epic/:path/
+
 defaults:
+  - scope:
+      path: ""
+      type: epic_classes
+    values:
+      layout:        "game-rules/classes/epic"
+      crumbs:        [game-rules, classes, epic-classes]
+      crumbTitles:   [Game Rules, Classes, Epic Classes]
+      activeSection: "game-rules/classes/epic-classes"
+      class:
+        gameRuleInfo:
+          classTables: ""
+          classFeatures: [] # {name: "", type: "", desc: ""}
+          additionalInfo: ""
+
+  - scope:
+      path: ""
+      type: epic_prestige_classes
+    values:
+      layout:        "game-rules/classes/epic"
+      crumbs:        [game-rules, classes, epic-classes]
+      crumbTitles:   [Game Rules, Classes, Epic Classes]
+      activeSection: "game-rules/classes/epic-classes"
+      class:
+        description: ""
+        adventures: ""
+        characteristics: ""
+        alignment: ""
+        religion: ""
+        background: ""
+        races: ""
+        otherClasses: ""
+        role: ""
+        requirements:
+          race: ""
+          alignment: ""
+          baseAttack: 0
+          skills: []
+          feats: []
+          spellcasting: ""
+          psionics: ""
+          languages: ""
+          special: ""
+        gameRuleInfo:
+          abilities: ""
+          alignment: ""
+          hitDie: ""
+          classSkills: []
+          classSkillsSpecial: ""
+          skillPoints: 0
+          classTables: ""
+          classFeatures: [] # {name: "", type: "", desc: ""}
+          additionalInfo: ""

@@ -4,3 +4,31 @@ collections:
     permalink: /game-rules/classes/npc/:path/
 
 defaults:
+  - scope:
+      path: ""
+      type: npc_classes
+    values:
+      layout:        "game-rules/classes/base"
+      crumbs:        [game-rules, classes, npc-classes]
+      crumbTitles:   [Game Rules, Classes, NPC Classes]
+      activeSection: "game-rules/classes/npc-classes"
+      class:
+        description: ""
+        adventures: ""
+        characteristics: ""
+        alignment: ""
+        religion: ""
+        background: ""
+        races: ""
+        otherClasses: ""
+        role: ""
+        gameRuleInfo:
+          abilities: ""
+          alignment: ""
+          hitDie: ""
+          classSkills: []
+          classSkillsSpecial: ""
+          skillPoints: 0
+          classTables: ""
+          classFeatures: [] # {name: "", type: "", desc: ""}
+          additionalInfo: ""

@@ -4,3 +4,49 @@ collections:
     permalink: /game-rules/classes/base/:path/
 
 defaults:
+  - scope:
+      path: "game-rules/classes"
+    values:
+      sectionTitle: "Classes"
+      sectionNav:
+        - title: "Overview"
+          url: "game-rules/classes"
+        - title: "Prestige Classes"
+          url: "game-rules/classes/prestige-classes"
+        - title: "Epic Classes"
+          url: "game-rules/classes/epic-classes"
+        - title: "Epic Prestige Classes"
+          url: "game-rules/classes/epic-prestige-classes"
+        - title: "NPC Classes"
+          url: "game-rules/classes/npc-classes"
+        - title: "Racial Classes"
+          url: "game-rules/classes/racial-classes"
+
+  - scope:
+      path: ""
+      type: base_classes
+    values:
+      layout:        "game-rules/classes/base"
+      crumbs:        [game-rules, classes]
+      crumbTitles:   [Game Rules, Classes]
+      activeSection: "game-rules/classes"
+      class:
+        description: ""
+        adventures: ""
+        characteristics: ""
+        alignment: ""
+        religion: ""
+        background: ""
+        races: ""
+        otherClasses: ""
+        role: ""
+        gameRuleInfo:
+          abilities: ""
+          alignment: ""
+          hitDie: ""
+          classSkills: []
+          classSkillsSpecial: ""
+          skillPoints: 0
+          classTables: ""
+          classFeatures: [] # {name: "", type: "", desc: ""}
+          additionalInfo: ""

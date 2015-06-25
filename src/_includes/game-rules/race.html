@@ -3,92 +3,92 @@
 <h3>{{ include.title }}</h3>
 
 {% if race.description != "" %}
-{{ race.description | pmarkdownify }}
+    {{ race.description | pmarkdownify }}
 {% endif %}
 
 {% if race.personality != "" %}
-<p><strong>Personality</strong></p>
-{{ race.personality | pmarkdownify }}
+    <p><strong>Personality</strong></p>
+    {{ race.personality | pmarkdownify }}
 {% endif %}
 
 {% if race.physicalDescription != "" %}
-<p><strong>Physical Description</strong></p>
-{{ race.physicalDescription | pmarkdownify }}
+    <p><strong>Physical Description</strong></p>
+    {{ race.physicalDescription | pmarkdownify }}
 {% endif %}
 
 {% if race.relations != "" %}
-<p><strong>Relations</strong></p>
-{{ race.relations | pmarkdownify }}
+    <p><strong>Relations</strong></p>
+    {{ race.relations | pmarkdownify }}
 {% endif %}
 
 {% if race.alignment != "" %}
-<p><strong>Alignment</strong></p>
-{{ race.alignment | pmarkdownify }}
+    <p><strong>Alignment</strong></p>
+    {{ race.alignment | pmarkdownify }}
 {% endif %}
 
 {% if race.lands != "" %}
-<p><strong>Lands</strong></p>
-{{ race.lands | pmarkdownify }}
+    <p><strong>Lands</strong></p>
+    {{ race.lands | pmarkdownify }}
 {% endif %}
 
 {% if race.religion != "" %}
-<p><strong>Religion</strong></p>
-{{ race.religion | pmarkdownify }}
+    <p><strong>Religion</strong></p>
+    {{ race.religion | pmarkdownify }}
 {% endif %}
 
 {% if race.language != "" %}
-<p><strong>Language</strong></p>
-{{ race.language | pmarkdownify }}
+    <p><strong>Language</strong></p>
+    {{ race.language | pmarkdownify }}
 {% endif %}
 
 {% if race.names != "" %}
-<p><strong>Names</strong></p>
-{{ race.names | pmarkdownify }}
+    <p><strong>Names</strong></p>
+    {{ race.names | pmarkdownify }}
 {% endif %}
 
 {% if race.maleNames != "" %}
-<p><strong>Male Names</strong></p>
-{{ race.maleNames | pmarkdownify }}
+    <p><strong>Male Names</strong></p>
+    {{ race.maleNames | pmarkdownify }}
 {% endif %}
 
 {% if race.femaleNames != "" %}
-<p><strong>Female Names</strong></p>
-{{ race.femaleNames | pmarkdownify }}
+    <p><strong>Female Names</strong></p>
+    {{ race.femaleNames | pmarkdownify }}
 {% endif %}
 
 {% if race.adventurers != "" %}
-<p><strong>Adventurers</strong></p>
-{{ race.adventurers | pmarkdownify }}
+    <p><strong>Adventurers</strong></p>
+    {{ race.adventurers | pmarkdownify }}
 {% endif %}
 
 {% if race.levelAdjust > 0 %}
-<p><strong>Level Adjustment: </strong> +{{ race.levelAdjust }}.</p>
+    <p><strong>Level Adjustment: </strong> +{{ race.levelAdjust }}.</p>
 {% endif %}
 
 {% capture ogc %}
-{% if race.traits != "" %}
-<h4>Racial Traits</h4>
-{{ race.traits | pmarkdownify }}
-{% endif %}
+    {% if race.traits != "" %}
+        <h4>Racial Traits</h4>
+        {{ race.traits | pmarkdownify }}
+    {% endif %}
 
-{% if race.qualities.size > 0 %}
-<h4>Special Qualities</h4>
-{% for quality in race.qualities %}
-<p><strong>{{ quality.name }}{% if quality.type != "" %} ({{ quality.type }}){% endif %}</strong></p>
+    {% if race.qualities.size > 0 %}
+        <h4>Special Qualities</h4>
+        {% for quality in race.qualities %}
+            <p><strong>{{ quality.name }}{% if quality.type != "" %} ({{ quality.type }}){% endif %}</strong></p>
 
-{{ quality.desc | pmarkdownify }}
-{% endfor %}
-{% endif %}
+            {{ quality.desc | pmarkdownify }}
+        {% endfor %}
+    {% endif %}
 
-{% if race.alternateLAOptions.size > 0 %}
-<h4>Alternate Level Adjustment Options</h4>
-{% for opt in race.alternateLAOptions %}
-<p><strong>Effective Character Level:</strong> {{ opt.baseEcl }} + class levels.</p>
-<p><strong>Level Adjustment:</strong> +{{ opt.levelAdjust }}.</p>
+    {% if race.alternateLAOptions.size > 0 %}
+        <h4>Alternate Level Adjustment Options</h4>
+        {% for opt in race.alternateLAOptions %}
+            <p><strong>Effective Character Level:</strong> {{ opt.baseEcl }} + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +{{ opt.levelAdjust }}.</p>
 
-{{ opt.traits | pmarkdownify }}
-{% endfor %}
-{% endif %}
+            {{ opt.traits | pmarkdownify }}
+        {% endfor %}
+    {% endif %}
 {% endcapture %}
 
 {% include _other/ogc-block.html ogc_content=ogc %}
