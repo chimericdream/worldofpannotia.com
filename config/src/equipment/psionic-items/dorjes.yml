@@ -2,5 +2,3 @@ collections:
   dorjes:
     output:    true
     permalink: /equipment/psionic-items/dorjes/:path/
-
-defaults:

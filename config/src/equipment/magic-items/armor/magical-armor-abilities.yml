@@ -2,5 +2,3 @@ collections:
   magical_armor_abilities:
     output:    true
     permalink: /equipment/magic-items/armor/abilities/:path/
-
-defaults:

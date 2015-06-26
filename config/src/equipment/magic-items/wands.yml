@@ -2,5 +2,3 @@ collections:
   wands:
     output:    true
     permalink: /equipment/magic-items/wands/:path/
-
-defaults:

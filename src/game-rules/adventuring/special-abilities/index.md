@@ -30,6 +30,8 @@ _Supernatural:_ Supernatural abilities are magical and go away in an {% spell_li
 #### Abilities
 
 {% for item in site.special_abilities %}
-##### {{ item.title }}{% if item.types.size > 0 %} ({{ item.types | join:" or " }}){% endif %}
-{{ item.ability["description"] | pmarkdownify | liquify }}
+
+{% assign ability_slug = item | item_slug %}
+{% special_ability_embed {{ ability_slug }} %}
+
 {% endfor %}

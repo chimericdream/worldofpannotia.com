@@ -2,5 +2,3 @@ collections:
   specific_magical_armor:
     output:    true
     permalink: /equipment/magic-items/armor/specific/:path/
-
-defaults:

@@ -2,5 +2,3 @@ collections:
   specific_psionic_armor:
     output:    true
     permalink: /equipment/psionic-items/armor/specific/:path/
-
-defaults:

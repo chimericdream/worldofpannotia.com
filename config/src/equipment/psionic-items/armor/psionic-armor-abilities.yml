@@ -2,5 +2,3 @@ collections:
   psionic_armor_abilities:
     output:    true
     permalink: /equipment/psionic-items/armor/abilities/:path/
-
-defaults:

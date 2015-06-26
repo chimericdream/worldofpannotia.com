@@ -2,5 +2,3 @@ collections:
   adventuring_gear:
     output:    true
     permalink: /equipment/adventuring-gear/:path/
-
-defaults:

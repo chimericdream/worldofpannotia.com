@@ -2,5 +2,3 @@ collections:
   epic_specific_armor:
     output:    true
     permalink: /equipment/epic-magic-items/armor/specific/:path/
-
-defaults:

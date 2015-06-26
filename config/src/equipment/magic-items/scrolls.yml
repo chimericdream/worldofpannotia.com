@@ -2,5 +2,3 @@ collections:
   scrolls:
     output:    true
     permalink: /equipment/magic-items/scrolls/:path/
-
-defaults:

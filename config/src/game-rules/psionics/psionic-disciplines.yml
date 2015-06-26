@@ -2,5 +2,3 @@ collections:
   psionic_disciplines:
     output:    true
     permalink: /game-rules/psionics/disciplines/:path/
-
-defaults:

@@ -2,5 +2,3 @@ collections:
   epic_potions_oils:
     output:    true
     permalink: /equipment/epic-magic-items/potions-oils/:path/
-
-defaults:

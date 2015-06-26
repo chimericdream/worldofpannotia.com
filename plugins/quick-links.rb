@@ -33,6 +33,8 @@ module Jekyll
           @item_collection = "artifacts"
         when "base_class_link"
           @item_collection = "base_classes"
+        when "cursed_item_link"
+          @item_collection = "cursed_items"
         when "domain_link"
           @item_collection = "domains"
         when "epic_class_link"
@@ -67,10 +69,14 @@ module Jekyll
           @item_collection = "rods"
         when "skill_link"
           @item_collection = "skills"
+        when "special_ability_link"
+          @item_collection = "special_abilities"
         when "spell_link"
           @item_collection = "spells"
         when "staff_link"
           @item_collection = "staffs"
+        when "status_condition_link"
+          @item_collection = "status_conditions"
         when "wondrous_item_link"
           @item_collection = "wondrous_items"
         else
@@ -105,6 +111,10 @@ module Jekyll
             case @item_collection
             when 'epic_skills', 'skills'
               url = site.config['url'] + "/game-rules/skills/\#" + slug
+            when 'status_conditions'
+              url = site.config['url'] + "/game-rules/adventuring/status-conditions/\#" + slug
+            when 'special_abilities'
+              url = site.config['url'] + "/game-rules/adventuring/special-abilities/\#" + slug
             else
               url = site.config['url'] + item.url + @item_link_fragment
             end
@@ -151,6 +161,10 @@ eos
           @item_collection = "planes"
         when "skill_embed"
           @item_collection = "skills"
+        when "special_ability_embed"
+          @item_collection = "special_abilities"
+        when "status_condition_embed"
+          @item_collection = "status_conditions"
         else
           raise SyntaxError.new("Syntax Error in '#{tag_name}' - Unknown embed type.")
         end
@@ -228,6 +242,23 @@ eos
 
 #{untrained}
 eos
+            when 'special_abilities'
+              ability = item.data["ability"]
+              types = ""
+              if !ability["types"].nil?
+                types = " (" + ability["types"].join(" or ") + ")"
+              end
+              return <<-eos
+##### #{item.data["title"]}#{types} \{\##{slug}\}
+
+#{ability["description"]}
+eos
+            when 'status_conditions'
+              return <<-eos
+##### #{item.data["title"]} \{\##{slug}\}
+
+#{item.data["condition"]["description"]}
+eos
             end
           end
         end
@@ -242,12 +273,12 @@ eos
   end
 end
 
-['artifact', 'base_class', 'domain', 'epic_class', 'epic_feat', 'epic_prestige_class', 'epic_skill', 'epic_spell', 'feat', 'npc_class', 'power', 'prestige_class', 'psicrown', 'race', 'racial_class', 'ring', 'rod', 'skill', 'spell', 'staff', 'wondrous_item'].each do |tag|
+['artifact', 'base_class', 'cursed_item', 'domain', 'epic_class', 'epic_feat', 'epic_prestige_class', 'epic_skill', 'epic_spell', 'feat', 'npc_class', 'power', 'prestige_class', 'psicrown', 'race', 'racial_class', 'ring', 'rod', 'skill', 'special_ability', 'spell', 'staff', 'status_condition', 'wondrous_item'].each do |tag|
   link = tag + "_link"
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
 end
 
-['epic_skill', 'plane', 'skill'].each do |tag|
+['epic_skill', 'plane', 'skill', 'special_ability', 'status_condition'].each do |tag|
   embed = tag + "_embed"
   Liquid::Template.register_tag(embed, Jekyll::PannotiaEmbedTags::ItemEmbed)
 end

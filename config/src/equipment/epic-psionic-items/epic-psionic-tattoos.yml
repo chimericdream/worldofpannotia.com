@@ -2,5 +2,3 @@ collections:
   epic_psionic_tattoos:
     output:    true
     permalink: /equipment/epic-psionic-items/psionic-tattoos/:path/
-
-defaults:

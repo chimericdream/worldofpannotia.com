@@ -2,5 +2,3 @@ collections:
   armor:
     output:    true
     permalink: /equipment/armor/:path/
-
-defaults:

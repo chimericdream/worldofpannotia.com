@@ -2,5 +2,3 @@ collections:
   specific_psionic_weapons:
     output:    true
     permalink: /equipment/psionic-items/weapons/specific/:path/
-
-defaults:
