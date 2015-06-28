@@ -1,4 +1,3 @@
 collections:
-  epic_weapon_abilities:
-    output:    true
-    permalink: /equipment/epic-magic-items/weapons/abilities/:path/
+  epic_magic_weapon_abilities:
+    output:    false

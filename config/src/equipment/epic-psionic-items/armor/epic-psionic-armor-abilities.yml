@@ -1,4 +1,3 @@
 collections:
   epic_psionic_armor_abilities:
-    output:    true
-    permalink: /equipment/epic-psionic-items/armor/abilities/:path/
+    output:    false
