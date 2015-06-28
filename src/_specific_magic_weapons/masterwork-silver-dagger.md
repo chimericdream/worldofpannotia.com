@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Silver Dagger, Masterwork"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="masterwork-silver-dagger"><strong>Silver Dagger, Masterwork:</strong> This masterwork alchemical silver dagger is nonmagical. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
-No aura (nonmagical); Price 322 gp.
+This masterwork alchemical silver dagger is nonmagical. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
+; Price 322 gp.
 

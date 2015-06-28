@@ -31,7 +31,7 @@ race:
   qualities:
     - name: "Change Shape"
       type: "Su"
-      desc: "A rakshasa can assume any humanoid form, or revert to its own form, as a standard action. In humanoid form, a rakshasa loses its claw and bite attacks (although it often equips itself with weapons and armor instead). A rakshasa remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, but the rakshasa reverts to its natural form when killed. A _true seeing_ spell reveals its natural form."
+      desc: "A rakshasa can assume any humanoid form, or revert to its own form, as a standard action. In humanoid form, a rakshasa loses its claw and bite attacks (although it often equips itself with weapons and armor instead). A rakshasa remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, but the rakshasa reverts to its natural form when killed. A {% spell_link true-seeing %} spell reveals its natural form."
     - name: "Detect Thoughts"
       type: "Su"
       desc: "A rakshasa can continuously use _detect thoughts_ as the spell (caster level 7+HD; Will DC 12+Cha mod negates). It can suppress or resume this ability as a free action."

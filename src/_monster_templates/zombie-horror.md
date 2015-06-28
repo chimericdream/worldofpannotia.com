@@ -64,7 +64,7 @@ A Horror Zombie loses most special qualities of the base creature. It retains an
 
 **Fast Healing (Ex):** Each round, a Horror Zombie heals up to 10 points of damage.
 
-**Horror Zombie's Curse (Su):** Any creature bitten by a Horror Zombie must succeed a Fortitude save vs. a DC of 12 + the Horror Zombie's total HD (maximum DC 30). Failure on this save means the creature has contracted the Horror Zombie's Curse, and will take 1d3 Constitution damage each day. Some creatures can live for several weeks with this curse before finally dying. When a cursed creature dies (whether from the Horror Zombie's Curse or for other reasons), it rises 1d4 minutes later as another Horror Zombie. Only _remove curse_, _limited wish_, _wish_, or _miracle_ spell will rid a creature of the Horror Zombie's Curse.
+**Horror Zombie's Curse (Su):** Any creature bitten by a Horror Zombie must succeed a Fortitude save vs. a DC of 12 + the Horror Zombie's total HD (maximum DC 30). Failure on this save means the creature has contracted the Horror Zombie's Curse, and will take 1d3 Constitution damage each day. Some creatures can live for several weeks with this curse before finally dying. When a cursed creature dies (whether from the Horror Zombie's Curse or for other reasons), it rises 1d4 minutes later as another Horror Zombie. Only _remove curse_, {% spell_link limited-wish %}, {% spell_link wish %}, or {% spell_link miracle %} spell will rid a creature of the Horror Zombie's Curse.
 
 **Turn Resistance (Su):** Horror Zombies have +3 turn resistance.
 

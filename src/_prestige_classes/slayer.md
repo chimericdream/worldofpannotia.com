@@ -73,7 +73,7 @@ class:
         desc: |
           After reaching 6th level, a slayer is protected from all devices, powers, and spells that reveal location. This ability protects against information gathering by clairsentience powers or effects that reveal location.
 
-          The ability even foils _bend reality_, _limited wish_, _miracle_, _reality revision_, and _wish_when they are used to gain information about the slayer's location (however, _metafaculty_can pierce this protective barrier). In the case of _remote viewing_ or _scrying_ that scans an area a slayer is in, the effect works, but the slayer simply isn't detected. _Remote viewing_ or _scrying_ attempts that are targeted specifically at a slayer do not work. This ability is active as long as the slayer is psionically focused.
+          The ability even foils _bend reality_, {% spell_link limited-wish %}, {% spell_link miracle %}, _reality revision_, and {% spell_link wish %}when they are used to gain information about the slayer's location (however, _metafaculty_can pierce this protective barrier). In the case of _remote viewing_ or _scrying_ that scans an area a slayer is in, the effect works, but the slayer simply isn't detected. _Remote viewing_ or _scrying_ attempts that are targeted specifically at a slayer do not work. This ability is active as long as the slayer is psionically focused.
       - name: "Breach Power Resistance"
         type: "Su"
         desc: |
@@ -81,7 +81,7 @@ class:
       - name: "Cerebral Immunity"
         type: "Su"
         desc: |
-          On reaching 9th level, a slayer gains protection from all devices, powers, and spells that influence the mind. This ability shields her against almost all mind-affecting powers and effects (though the slayer can selectively allow powers or spells to affect her). The ability even foils _bend reality_, _limited wish_, _miracle_, _reality revision_, and _wish_ when they are used to mentally influence a slayer. This ability is active as long as the slayer is psionically focused.
+          On reaching 9th level, a slayer gains protection from all devices, powers, and spells that influence the mind. This ability shields her against almost all mind-affecting powers and effects (though the slayer can selectively allow powers or spells to affect her). The ability even foils _bend reality_, {% spell_link limited-wish %}, {% spell_link miracle %}, _reality revision_, and {% spell_link wish %} when they are used to mentally influence a slayer. This ability is active as long as the slayer is psionically focused.
       - name: "Blast Feedback"
         type: "Su"
         desc: |

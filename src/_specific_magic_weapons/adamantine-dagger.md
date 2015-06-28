@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Adamantine Dagger"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="adamantine-dagger"><strong>Adamantine Dagger:</strong> This nonmagical dagger is made out of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
-No aura (nonmagical); Price 3,002 gp.
+This nonmagical dagger is made out of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
+; Price 3,002 gp.
 

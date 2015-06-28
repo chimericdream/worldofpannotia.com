@@ -1,14 +1,14 @@
 ---
-title: ""
+title: "Banded Mail of Luck"
 type: "armor"
 
 item:
   shortDesc: ""
-  aura: ""
-  casterLevel: ""
+  aura: "Strong enchantment"
+  casterLevel: "12th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
+    spells: ["_bless_"]
     special: []
   slot: ""
   marketPrice: 0
@@ -20,6 +20,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="banded-mail-of-luck">**Banded Mail of Luck:** Ten 100-gp gems adorn this _+3 banded mail_. Once per week, the armor allows its wearer to require that an attack roll made against him be rerolled. He must take whatever consequences come from the second roll. The wearer's player must decide whether to have the attack roll rerolled before damage is rolled.
-Strong enchantment; CL 12th; Craft Magic Arms and Armor, _bless_; Price 18,900 gp; Cost 10,150 gp + 700 XP.
+Ten 100-gp gems adorn this _+3 banded mail_. Once per week, the armor allows its wearer to require that an attack roll made against him be rerolled. He must take whatever consequences come from the second roll. The wearer's player must decide whether to have the attack roll rerolled before damage is rolled.
+; Price 18,900 gp; Cost 10,150 gp + 700 XP.
 

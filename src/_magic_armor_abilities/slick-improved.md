@@ -7,11 +7,9 @@ ability:
   casterLevel: "10th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_grease_"]
+    spells: ["{% spell_link grease %}"]
     special: []
   marketPriceSpecial: "+15,000 gp"
-  description: ""
+  description: |
+    As slick, except it grants a +10 competence bonus on _escape artist_ checks.
 ---
-As slick, except it grants a +10 competence bonus on _escape artist_ checks.
-
-

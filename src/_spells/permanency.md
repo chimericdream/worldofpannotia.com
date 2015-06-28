@@ -62,12 +62,12 @@ spell:
     | Spell | Minimum Caster Level | XP Cost
     |-|-|-
     | _alarm_ | 9th | 500 XP
-    | _animate objects_ | 14th | 3,000 XP
+    | {% spell_link animate-objects %} | 14th | 3,000 XP
     | _dancing lights_ | 9th | 500 XP
     | _gate_ | 17th | 7,500 XP
     | _ghost sound_ | 9th | 500 XP
     | _gust of wind_ | 11th | 1,500 XP
-    | _invisibility_ | 10th | 1,000 XP
+    | {% spell_link invisibility %} | 10th | 1,000 XP
     | _mage's private sanctum_ | 13th | 2,500 XP
     | _magic mouth_ | 10th | 1,000 XP
     | _phase door_ | 15th | 3,500 XP
@@ -86,7 +86,7 @@ spell:
     | _symbol of weakness_ | 15th | 3,500 XP
     | _teleportation circle_ | 17th | 4,500 XP
     | _wall of fire_ | 12th | 2,000 XP
-    | _wall of force_ | 13th | 2,500 XP
+    | {% spell_link wall-of-force %} | 13th | 2,500 XP
     | _web_ | 10th | 1,000 XP
     {: .table .table-bordered .table-hover }
 

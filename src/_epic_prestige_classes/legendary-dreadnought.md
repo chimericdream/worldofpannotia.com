@@ -54,7 +54,7 @@ class:
       - name: "Unstoppable"
         type: "Ex"
         desc: |
-          At 1st level, the legendary dreadnought can concentrate his or her power, gaining a +20 bonus on his or her Strength check to break or burst a door or item once per day, plus one additional time per day every five levels thereafter. As a special use of this ability, the legendary dreadnought can attempt to break a _wall of force_ (Strength DC 32, and the character applies his or her unstoppable bonus to this check as well). Alternatively, the legendary dreadnought can apply the +20 bonus to a single attack roll.
+          At 1st level, the legendary dreadnought can concentrate his or her power, gaining a +20 bonus on his or her Strength check to break or burst a door or item once per day, plus one additional time per day every five levels thereafter. As a special use of this ability, the legendary dreadnought can attempt to break a {% spell_link wall-of-force %} (Strength DC 32, and the character applies his or her unstoppable bonus to this check as well). Alternatively, the legendary dreadnought can apply the +20 bonus to a single attack roll.
       - name: "Unmovable"
         type: "Ex"
         desc: |

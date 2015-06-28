@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "Darkwood Shield"
 type: "shield"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -20,7 +20,7 @@ item:
   weight: ""
   description: ""
 ---
-<p id="darkwood-shield">**Darkwood Shield:** This nonmagical heavy wooden shield is made out of darkwood. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield.
+This nonmagical heavy wooden shield is made out of darkwood. It has no enhancement bonus, but its construction material makes it lighter than a normal wooden shield.
 It weighs 5 pounds and has no armor check penalty.
-No aura (nonmagical); Price 257 gp.
+; Price 257 gp.
 

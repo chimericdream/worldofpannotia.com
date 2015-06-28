@@ -31,7 +31,7 @@ race:
       desc: "Twice per day, a janni can magically change a creature's size. This works just like an _enlarge person_ or _reduce person_ spell (the janni chooses when using the ability), except that the ability can work on the janni. A DC 12+Cha mod Fortitude save negates the effect. The save DC is Charisma-based. This is the equivalent of a 2nd-level spell."
     - name: "Spell-Like Abilities"
       type: "Sp"
-      desc: "3/day-_invisibility_ (self only), _speak with animals_. Caster level 12th. Once per day a janni can _create food and water_ (caster level 7th) and can use _ethereal jaunt_ (caster level 12th) for 1 hour. The save ~DCs are Charisma-based."
+      desc: "3/day-{% spell_link invisibility %} (self only), _speak with animals_. Caster level 12th. Once per day a janni can _create food and water_ (caster level 7th) and can use {% spell_link ethereal-jaunt %} (caster level 12th) for 1 hour. The save ~DCs are Charisma-based."
     - name: "Elemental Endurance"
       type: "Ex"
       desc: "Jann can survive on the Elemental Planes of Air, Earth, Fire, or Water for up to 48 hours. Failure to return to the Material Plane before that time expires causes a janni to take 1 point of damage per additional hour spent on the elemental plane, until it dies or returns to the Material Plane."

@@ -33,7 +33,7 @@ race:
       desc: "A doppelganger can continuously use _detect thoughts_ as the spell (caster level 18th; Will DC 12+Cha mod negates). It can suppress or resume this ability as a free action. The save DC is Charisma-based."
     - name: "Change Shape"
       type: "Su"
-      desc: "A doppelganger can assume the shape of any Small or Medium humanoid. In humanoid form, the doppelganger loses its natural attacks. A doppelganger can remain in its humanoid form until it chooses to assume a new one. A change in form cannot be dispelled, but a doppelganger reverts to its natural form when killed. A _true seeing_ spell or ability reveals its natural form."
+      desc: "A doppelganger can assume the shape of any Small or Medium humanoid. In humanoid form, the doppelganger loses its natural attacks. A doppelganger can remain in its humanoid form until it chooses to assume a new one. A change in form cannot be dispelled, but a doppelganger reverts to its natural form when killed. A {% spell_link true-seeing %} spell or ability reveals its natural form."
   alternateLAOptions:
     - baseEcl: 7
       levelAdjust: 5

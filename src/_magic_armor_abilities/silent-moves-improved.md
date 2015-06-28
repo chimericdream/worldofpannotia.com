@@ -7,11 +7,9 @@ ability:
   casterLevel: "10th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_silence_"]
+    spells: ["{% spell_link silence %}"]
     special: []
   marketPriceSpecial: "+15,000 gp"
-  description: ""
+  description: |
+    As silent moves, except it grants a +10 competence bonus on _move silently_ checks.
 ---
-As silent moves, except it grants a +10 competence bonus on _move silently_ checks.
-
-

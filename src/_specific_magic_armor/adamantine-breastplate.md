@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "Adamantine Breastplate"
 type: "armor"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -20,6 +20,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="adamantine-breastplate">**Adamantine Breastplate:** This nonmagical breastplate is made of adamantine, giving its wearer damage reduction of 2/&ndash;.
-No aura (nonmagical); Price 10,200 gp.
+This nonmagical breastplate is made of adamantine, giving its wearer damage reduction of 2/&ndash;.
+; Price 10,200 gp.
 

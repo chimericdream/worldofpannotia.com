@@ -164,7 +164,7 @@ class:
         desc: "A monk of 17th level or higher can speak with any living creature."
       - name: "Empty Body"
         type: "Su"
-        desc: "At 19th level, a monk gains the ability to assume an ethereal state for 1 round per monk level per day, as though using the spell _etherealness_. She may go ethereal on a number of different occasions during any single day, as long as the total number of rounds spent in an ethereal state does not exceed her monk level."
+        desc: "At 19th level, a monk gains the ability to assume an ethereal state for 1 round per monk level per day, as though using the spell {% spell_link etherealness %}. She may go ethereal on a number of different occasions during any single day, as long as the total number of rounds spent in an ethereal state does not exceed her monk level."
       - name: "Perfect Self"
         type: ""
         desc: "At 20th level, a monk becomes a magical creature. She is forevermore treated as an outsider rather than as a humanoid (or whatever the monk's creature type was) for the purpose of spells and magical effects. Additionally, the monk gains damage reduction 10/magic, which allows her to ignore the first 10 points of damage from any attack made by a nonmagical weapon or by any natural attack made by a creature that doesn't have similar damage reduction. Unlike other outsiders, the monk can still be brought back from the dead as if she were a member of her previous creature type."

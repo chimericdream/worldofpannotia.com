@@ -80,7 +80,7 @@ class:
 
           At 7th level, the _proselytize_ ability includes _deific face_ once per day, plus one additional time per day per ten levels thereafter. When the high proselytizer speaks, he or she can cause a blinding burst to shine from his or her face. _Deific face_ functions against all in the audience who are not enraptured as the _sunburst_ spell cast by a 20th-level cleric. The _deific face_ can occur at any point during his or her speech.
 
-          At 9th level, the _proselytize_ ability includes _deific aura_ once per day, plus one additional time per day per ten levels thereafter. When the high proselytizer speaks, he or she can cause a rolling wave of deific power to spring from his or her body that functions as either a _blasphemy, dictum, holy word,_ or _word of chaos_ spell (as appropriate for his or her alignment), affecting only those in the audience who have resisted becoming enraptured. _Deific aura_ otherwise functions as the relevant spell cast by a 20th-level cleric. The _deific aura_ can occur at any point during his or her speech.
+          At 9th level, the _proselytize_ ability includes _deific aura_ once per day, plus one additional time per day per ten levels thereafter. When the high proselytizer speaks, he or she can cause a rolling wave of deific power to spring from his or her body that functions as either a _blasphemy, dictum, holy word,_ or {% spell_link word-of-chaos %} spell (as appropriate for his or her alignment), affecting only those in the audience who have resisted becoming enraptured. _Deific aura_ otherwise functions as the relevant spell cast by a 20th-level cleric. The _deific aura_ can occur at any point during his or her speech.
       - name: "Heal"
         type: "Sp"
         desc: |

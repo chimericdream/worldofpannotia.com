@@ -48,7 +48,7 @@ The Reborn is a template that can be added to any intelligent humanoid creature 
 >
 > _Skills:_ +6 racial bonus to _bluff_ and _hide_
 >
-> _Spell-Like Abilities:_ 3/day - _invisibility_; 1/day - _detect thoughts_
+> _Spell-Like Abilities:_ 3/day - {% spell_link invisibility %}; 1/day - _detect thoughts_
 
 > **"The Warrior"**
 >

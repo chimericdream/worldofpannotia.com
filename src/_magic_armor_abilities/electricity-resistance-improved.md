@@ -7,11 +7,9 @@ ability:
   casterLevel: "7th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_resist energy_"]
+    spells: ["{% spell_link resist-energy %}"]
     special: []
   marketPriceSpecial: "+42,000 gp"
-  description: ""
+  description: |
+    As electricity resistance, except it absorbs the first 20 points of electricity damage per attack.
 ---
-As electricity resistance, except it absorbs the first 20 points of electricity damage per attack.
-
-

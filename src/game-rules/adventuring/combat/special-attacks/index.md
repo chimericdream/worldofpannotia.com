@@ -272,7 +272,7 @@ You can use a melee attack with a slashing or bludgeoning weapon to strike a wea
 | <sup>1</sup> The HP value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br><sup>2</sup> Varies by material. |<|<
 {: #sunder-table .table .table-bordered .table-hover .table-striped data-caption="Table: Common Armor, Weapon, and Shield Hardness and Hit Points" }
 
-**Step 1:** Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the Improved Sunder feat, you don't incur an attack of opportunity for making the attempt.)
+**Step 1:** Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the {% feat_link improved-sunder %} feat, you don't incur an attack of opportunity for making the attempt.)
 
 **Step 2:** Opposed Rolls. You and the defender make opposed attack rolls with your respective weapons. The wielder of a two-handed weapon on a sunder attempt gets a +4 bonus on this roll, and the wielder of a light weapon takes a -4 penalty. If the combatants are of different sizes, the larger combatant gets a bonus on the attack roll of +4 per difference in size category.
 

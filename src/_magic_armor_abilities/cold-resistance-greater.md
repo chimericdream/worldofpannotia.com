@@ -7,11 +7,9 @@ ability:
   casterLevel: "11th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_resist energy_"]
+    spells: ["{% spell_link resist-energy %}"]
     special: []
   marketPriceSpecial: "+66,000 gp"
-  description: ""
+  description: |
+    As cold resistance, except it absorbs the first 30 points of cold damage per attack.
 ---
-As cold resistance, except it absorbs the first 30 points of cold damage per attack.
-
-

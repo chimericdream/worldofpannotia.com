@@ -64,7 +64,7 @@ creature:
 <p><strong>Ranged</strong> weapon +XX (damage)[; Manyshot][; Rapid Shot]</p>
 <p><strong>Space</strong> XX ft.; <strong>Reach</strong> XX ft.</p>
 <p><strong>Base Atk</strong> +XX; <strong>Grp</strong> +XX</p>
-<p>[<strong>Atk Options</strong> ][ Blind-Fight][; Cleave][; Combat Reflexes][; Far Shot][; Great Cleave][; Improved Bull Rush][; Improved Disarm][; Improved Feint][; Improved Overrun][; Improved Precise Shot][; Improved Sunder][; Improved Trip][; Mounted Combat][; Point Blank Shot][; Power Attack][; Powerful Charge][; Precise Shot][; Quick Draw][; Rapid Reload][; Spirited Charge][; Spring Attack][; Stunning Fist][; Trample][; Whirlwind Attack][; metamagic feats (if the creature casts spontaneously)]</p>
+<p>[<strong>Atk Options</strong> ][ Blind-Fight][; Cleave][; Combat Reflexes][; Far Shot][; Great Cleave][; Improved Bull Rush][; Improved Disarm][; Improved Feint][; Improved Overrun][; Improved Precise Shot][; {% feat_link improved-sunder %}][; Improved Trip][; Mounted Combat][; Point Blank Shot][; Power Attack][; Powerful Charge][; Precise Shot][; Quick Draw][; Rapid Reload][; Spirited Charge][; Spring Attack][; Stunning Fist][; Trample][; Whirlwind Attack][; metamagic feats (if the creature casts spontaneously)]</p>
 <p>[<strong>Special Atks</strong> special attacks][; Snatch Arrows]</p>
 <p>[<strong>Special Actions</strong> special actions]</p>
 <p>[<strong>Spells</strong> (CL XX, +XX melee touch, +XX ranged touch):][; Spell Penetration]</p>

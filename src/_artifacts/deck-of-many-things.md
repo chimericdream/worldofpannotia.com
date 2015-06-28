@@ -72,7 +72,7 @@ artifact:
 
     _Ruin:_ As implied by its name, when this card is drawn, all nonmagical possessions of the drawer are lost.
 
-    _Skull:_ A dread wraith appears. Treat this creature as an unturnable undead. The character must fight it alone &ndash; if others help, they get dread wraiths to fight as well. If the character is slain, she is slain forever and cannot be revived, even with a _wish_ or a _miracle_.
+    _Skull:_ A dread wraith appears. Treat this creature as an unturnable undead. The character must fight it alone &ndash; if others help, they get dread wraiths to fight as well. If the character is slain, she is slain forever and cannot be revived, even with a {% spell_link wish %} or a {% spell_link miracle %}.
 
     _Star:_ The 2 points are added to any ability the character chooses. They cannot be divided among two abilities.
 
@@ -84,5 +84,5 @@ artifact:
 
     _Vizier:_ This card empowers the character drawing it with the one-time ability to call upon a source of wisdom to solve any single problem or answer fully any question upon her request. The query or request must be made within one year. Whether the information gained can be successfully acted upon is another question entirely.
 
-    _The Void:_ This black card spells instant disaster. The character's body continues to function, as though comatose, but her psyche is trapped in a prison somewhere &ndash; in an object on a far plane or planet, possibly in the possession of an outsider. A _wish_ or a _miracle_ does not bring the character back, instead merely revealing the plane of entrapment. Draw no more cards.
+    _The Void:_ This black card spells instant disaster. The character's body continues to function, as though comatose, but her psyche is trapped in a prison somewhere &ndash; in an object on a far plane or planet, possibly in the possession of an outsider. A {% spell_link wish %} or a {% spell_link miracle %} does not bring the character back, instead merely revealing the plane of entrapment. Draw no more cards.
 ---

@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Shifter's Sorrow"
 
 item:
   shortDesc: ""
-  aura: ""
-  casterLevel: ""
+  aura: "Strong transmutation"
+  casterLevel: "15th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
+    spells: ["_baleful polymorph_"]
     special: []
   slot: ""
   marketPrice: 0
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="shifters-sorrow"><strong>Shifter's Sorrow:</strong> This <em>+1/+1 two-bladed sword</em> has blades of alchemical silver. The weapon deals an extra 2d6 points of damage against any creature with the shapechanger subtype. When a shapechanger or a creature in an alternate form (such as a druid using wild shape) is struck by the weapon, it must make a DC 15 Will save or return to its natural form.
-Strong transmutation; CL 15th; Craft Arms and Armor, <em>baleful polymorph</em>; Price 12,780 gp; Cost 6,780 gp + 480 XP; Weight 10 lb.
+This _+1/+1 two-bladed sword_ has blades of alchemical silver. The weapon deals an extra 2d6 points of damage against any creature with the shapechanger subtype. When a shapechanger or a creature in an alternate form (such as a druid using wild shape) is struck by the weapon, it must make a DC 15 Will save or return to its natural form.
+; Price 12,780 gp; Cost 6,780 gp + 480 XP; Weight 10 lb.
 

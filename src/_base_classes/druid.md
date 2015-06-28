@@ -158,7 +158,7 @@ class:
         desc: "At 9th level, a druid gains immunity to all poisons."
       - name: "A Thousand Faces"
         type: "Su"
-        desc: "At 13th level, a druid gains the ability to change her appearance at will, as if using the _disguise self_ spell, but only while in her normal form. This affects the druid's body but not her possessions. It is not an illusory effect, but a minor physical alteration of the druid's appearance, within the limits described for the spell."
+        desc: "At 13th level, a druid gains the ability to change her appearance at will, as if using the {% spell_link disguise-self %} spell, but only while in her normal form. This affects the druid's body but not her possessions. It is not an illusory effect, but a minor physical alteration of the druid's appearance, within the limits described for the spell."
       - name: "Timeless Body"
         type: "Ex"
         desc: |

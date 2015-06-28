@@ -5,7 +5,7 @@ ability:
   prerequisite: |
     Cha 29.
   benefit: |
-    This ability is similar to the _wish_ spell. The deity merely thinks of something and then makes it so. Doing this requires at least a standard action.
+    This ability is similar to the {% spell_link wish %} spell. The deity merely thinks of something and then makes it so. Doing this requires at least a standard action.
   notes: |
     The deity can duplicate any spell of 9th level or lower as a standard action. The duplicated spell has no material or XP component, and the DC of its saving throw (if one is allowed) is 20 + the deity's rank + the deity's Charisma modifier.
 

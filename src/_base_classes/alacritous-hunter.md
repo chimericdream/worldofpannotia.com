@@ -122,7 +122,7 @@ class:
         desc: "At 9th level, an Alacritous Hunter gains immunity to all poisons."
       - name: "A Thousand Faces"
         type: "Su"
-        desc: "At 13th level, an Alacritous Hunter gains the ability to change her appearance at will, as if using the _disguise self_ spell, but only while in her normal form. This affects the Alacritous Hunter's body but not her possessions. It is not an illusory effect, but a minor physical alteration of the Alacritous Hunter's appearance, within the limits described for the spell."
+        desc: "At 13th level, an Alacritous Hunter gains the ability to change her appearance at will, as if using the {% spell_link disguise-self %} spell, but only while in her normal form. This affects the Alacritous Hunter's body but not her possessions. It is not an illusory effect, but a minor physical alteration of the Alacritous Hunter's appearance, within the limits described for the spell."
       - name: "Timeless Body"
         type: "Ex"
         desc: |

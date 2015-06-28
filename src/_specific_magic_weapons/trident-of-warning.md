@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Trident of Warning"
 
 item:
   shortDesc: ""
-  aura: ""
-  casterLevel: ""
+  aura: "Moderate divination"
+  casterLevel: "7th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
+    spells: ["_locate creature_"]
     special: []
   slot: ""
   marketPrice: 0
@@ -19,5 +19,5 @@ item:
   weight: ""
   description: ""
 ---
-<p id="trident-of-warning"><strong>Trident of Warning:</strong> A weapon of this type enables its wielder to determine the location, depth, kind, and number of aquatic predators within 680 feet. A <em>trident of warning</em> must be grasped and pointed in order for the character using it to gain such information, and it requires 1 round to scan a hemisphere with a radius of 680 feet. The weapon is otherwise a <em>+2 trident</em>.
-Moderate divination; CL 7th; Craft Magic Arms and Armor, <em>locate creature</em>; Price 10,115 gp; Cost 5,057 gp and 5 sp + 405 XP.
+A weapon of this type enables its wielder to determine the location, depth, kind, and number of aquatic predators within 680 feet. A _trident of warning_ must be grasped and pointed in order for the character using it to gain such information, and it requires 1 round to scan a hemisphere with a radius of 680 feet. The weapon is otherwise a _+2 trident_.
+; Price 10,115 gp; Cost 5,057 gp and 5 sp + 405 XP.

@@ -205,7 +205,7 @@ Most spells require 1 standard action to cast. You can cast such a spell either 
 
 _Note:_ You retain your Dexterity bonus to AC while casting.
 
-**Spell Components:** To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a _silence_ spell, you can't cast such a spell. A spellcaster who has been deafened has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.
+**Spell Components:** To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a {% spell_link silence %} spell, you can't cast such a spell. A spellcaster who has been deafened has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.
 
 To cast a spell with a somatic (S) component, you must gesture freely with at least one hand. You can't cast a spell of this type while bound, grappling, or with both your hands full or occupied.
 

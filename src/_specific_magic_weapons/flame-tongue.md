@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Flame Tongue"
 
 item:
   shortDesc: ""
-  aura: ""
-  casterLevel: ""
+  aura: "Moderate evocation"
+  casterLevel: "12th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
+    spells: ["_scorching ray_", "_flame blade_, _flame strike_, or _fireball_"]
     special: []
   slot: ""
   marketPrice: 0
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="flame-tongue"><strong>Flame Tongue:</strong> This is a <em>+1 flaming burst longsword</em>. Once per day, the sword can blast forth a fiery ray at any target within 30 feet as a ranged touch attack. The ray deals 4d6 points of fire damage on a successful hit.
-Moderate evocation; CL 12th; Craft Magic Arms and Armor, <em>scorching ray</em>, and <em>flame blade, flame strike</em>, or <em>fireball</em>; Price 20,715 gp; Cost 10,515 gp + 816 XP.
+This is a _+1 flaming burst longsword_. Once per day, the sword can blast forth a fiery ray at any target within 30 feet as a ranged touch attack. The ray deals 4d6 points of fire damage on a successful hit.
+; Price 20,715 gp; Cost 10,515 gp + 816 XP.
 

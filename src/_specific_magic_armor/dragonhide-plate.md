@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "Dragonhide Plate"
 type: "armor"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -20,6 +20,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="dragonhide-plate">**Dragonhide Plate:** This suit of full plate is made of dragonhide, rather than metal, so druids can wear it. It is otherwise identical to masterwork full plate.
-No aura (nonmagical); Price 3,300 gp.
+This suit of full plate is made of dragonhide, rather than metal, so druids can wear it. It is otherwise identical to masterwork full plate.
+; Price 3,300 gp.
 

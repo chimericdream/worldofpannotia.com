@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Masterwork Cold Iron Longsword"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="masterwork-cold-iron-longsword"><strong>Masterwork Cold Iron Longsword:</strong> This nonmagical longsword is crafted out of cold iron. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
-No aura (nonmagical); Price 330 gp.
+This nonmagical longsword is crafted out of cold iron. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
+; Price 330 gp.
 

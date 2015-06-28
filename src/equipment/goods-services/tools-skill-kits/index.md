@@ -57,7 +57,7 @@ Because of the nature of a codex, the _knock_ spell is not sufficient to open th
 
 **Disguise Kit:** The kit is the perfect tool for disguise and provides a +2 circumstance bonus on _disguise_ checks. A disguise kit is exhausted after ten uses.
 
-**Healer's Kit:** It is the perfect tool for healing and provides a +2 circumstance bonus on _heal_ checks. A healer's kit is exhausted after ten uses.
+**Healer's Kit:** It is the perfect tool for healing and provides a +2 circumstance bonus on {% spell_link heal %} checks. A healer's kit is exhausted after ten uses.
 
 **Holy Symbol, Silver or Wooden:** A holy symbol focuses positive energy. A cleric or paladin uses it as the focus for his spells and as a tool for turning undead. Each religion has its own holy symbol.
 

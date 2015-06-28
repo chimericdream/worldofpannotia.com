@@ -14,7 +14,7 @@ ability:
      * Immunity to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).
      * Uses its Charisma modifier for _concentration_ checks.
      * Not at risk of death from massive damage, but when reduced to 0 hit points or less, it is immediately destroyed.
-     * Not affected by _raise dead_ and _reincarnate_ spells or abilities. _Resurrection_ and _true resurrection_ can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.
+     * Not affected by _raise dead_ and _reincarnate_ spells or abilities. _Resurrection_ and {% spell_link true-resurrection %} can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.
      * Undead do not breathe, eat, or sleep.
   portfolioElements: |
     Death, undead.

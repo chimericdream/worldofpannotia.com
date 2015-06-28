@@ -13,9 +13,9 @@ artifact:
 
     If he fails, the device acts as a _stone of weight_. Discarding or destroying it results in 5d6 points of damage to the character and the disappearance of the talisman.
 
-    If he succeeds, the talisman remains with the character for 5d6 hours, or until a _wish_ is made with it, whichever comes first. It then disappears.
+    If he succeeds, the talisman remains with the character for 5d6 hours, or until a {% spell_link wish %} is made with it, whichever comes first. It then disappears.
 
-    If he rolls a natural 20, the character finds it impossible to be rid of the talisman for as many months as he has points of Charisma. In addition, the artifact grants him one _wish_ for every 6 points of the character's Charisma. It also grows warm and throbs whenever its possessor comes within 20 feet of a mechanical or magic trap. (If the talisman is not held, its warning heat and pulses are of no avail.)
+    If he rolls a natural 20, the character finds it impossible to be rid of the talisman for as many months as he has points of Charisma. In addition, the artifact grants him one {% spell_link wish %} for every 6 points of the character's Charisma. It also grows warm and throbs whenever its possessor comes within 20 feet of a mechanical or magic trap. (If the talisman is not held, its warning heat and pulses are of no avail.)
 
     Regardless of which reaction results, a _talisman of reluctant wishes_ disappears when its time period expires, leaving behind a 10,000 gp diamond in its stead.
 ---

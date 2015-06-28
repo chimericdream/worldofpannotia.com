@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "Mithril Heavy Shield"
 type: "shield"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -20,6 +20,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="mithril-heavy-shield">**Mithril Heavy Shield:** This heavy shield is made of mithril and thus is much lighter than a standard steel shield. It has a 5% arcane spell failure chance and no armor check penalty. It weighs 5 pounds.
-No aura (nonmagical); Price 1,020 gp.
+This heavy shield is made of mithril and thus is much lighter than a standard steel shield. It has a 5% arcane spell failure chance and no armor check penalty. It weighs 5 pounds.
+; Price 1,020 gp.
 

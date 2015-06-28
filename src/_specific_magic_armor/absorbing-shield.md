@@ -1,14 +1,14 @@
 ---
-title: ""
+title: "Absorbing Shield"
 type: "shield"
 
 item:
   shortDesc: ""
-  aura: ""
-  casterLevel: ""
+  aura: "Strong transmutation"
+  casterLevel: "17th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
+    spells: ["_disintegrate_"]
     special: []
   slot: ""
   marketPrice: 0
@@ -20,6 +20,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="absorbing-shield">**Absorbing Shield:** This _+1 heavy steel shield_ is flat black and seems to absorb light. Once every two days, on command, it can _disintegrate_ an object that it touches, as the spell but requiring a melee touch attack.
-Strong transmutation; CL 17th; Craft Magic Arms and Armor, _disintegrate_; Price 50,170 gp; Cost 25,170 gp + 2,000 XP.
+This _+1 heavy steel shield_ is flat black and seems to absorb light. Once every two days, on command, it can _disintegrate_ an object that it touches, as the spell but requiring a melee touch attack.
+; Price 50,170 gp; Cost 25,170 gp + 2,000 XP.
 

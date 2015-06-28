@@ -1,10 +1,10 @@
 ---
-title: ""
+title: "Dwarven Plate"
 type: "armor"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -20,6 +20,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="dwarven-plate">**Dwarven Plate:** This full plate is made of adamantine, giving its wearer damage reduction of 3/&ndash;.
-No aura (nonmagical); Price 16,500 gp.
+This full plate is made of adamantine, giving its wearer damage reduction of 3/&ndash;.
+; Price 16,500 gp.
 

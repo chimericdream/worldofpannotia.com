@@ -112,9 +112,9 @@ class:
 
       Assassins choose their spells from the following list: 1st Level: _disguise self, detect poison, feather fall, ghost sound, jump, obscuring mist, sleep, true strike._
 
-      **2nd Level:** _alter self_, _cat's grace_, _darkness_, _fox's cunning_, _illusory script_, _invisibility_, _pass without trace_, _spider climb_, _undetectable alignment_.
+      **2nd Level:** _alter self_, _cat's grace_, _darkness_, _fox's cunning_, _illusory script_, {% spell_link invisibility %}, _pass without trace_, _spider climb_, _undetectable alignment_.
 
       **3rd Level:** _deep slumber_, _deeper darkness_, _false life_, _magic circle against good_, _misdirection_, _nondetection_.
 
-      **4th Level:** _clairaudience/clairvoyance_, _dimension door_, _freedom of movement_, _glibness_, _greater invisibility_, _locate creature_, _modify memory_, _poison_.
+      **4th Level:** {% spell_link clairaudience/clairvoyance %}, _dimension door_, _freedom of movement_, _glibness_, _greater invisibility_, _locate creature_, _modify memory_, _poison_.
 ---

@@ -28,7 +28,7 @@ Characters with darkvision can see lit areas normally as well as dark areas with
 | Lantern, hooded | 30 ft. | 60 ft. | 6 hr./pint
 | Sunrod | 30 ft. | 60 ft. | 6 hr.
 | Torch | 20 ft. | 40 ft. | 1 hr.
-| _continual flame_ | 20 ft. | 40 ft. | Permanent
+| {% spell_link continual-flame %} | 20 ft. | 40 ft. | Permanent
 | _dancing lights_(torches) | 20 ft. (each) | 40 ft. (each) | 1 min.
 | _daylight_ | 60 ft. | 120 ft. | 30 min.
 | _light_ | 20 ft. | 40 ft. | 10 min.

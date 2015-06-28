@@ -1,9 +1,9 @@
 ---
-title: ""
+title: "Adamantine Battleaxe"
 
 item:
   shortDesc: ""
-  aura: ""
+  aura: "No aura (nonmagical)"
   casterLevel: ""
   prerequisites:
     feats: []
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="adamantine-battleaxe"><strong>Adamantine Battleaxe:</strong> This nonmagical axe is made out of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
-No aura (nonmagical); Price 3,010 gp.
+This nonmagical axe is made out of adamantine. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
+; Price 3,010 gp.
 

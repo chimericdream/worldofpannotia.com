@@ -7,11 +7,9 @@ ability:
   casterLevel: "3rd"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_resist energy_"]
+    spells: ["{% spell_link resist-energy %}"]
     special: []
   marketPriceSpecial: "+18,000 gp"
-  description: ""
+  description: |
+    A suit of armor with this ability normally has a reddish hue and often is decorated with a draconic motif. The armor absorbs the first 10 points of fire damage per attack that the wearer would normally take (similar to the {% spell_link resist-energy %} spell).
 ---
-A suit of armor with this ability normally has a reddish hue and often is decorated with a draconic motif. The armor absorbs the first 10 points of fire damage per attack that the wearer would normally take (similar to the _resist energy_ spell).
-
-

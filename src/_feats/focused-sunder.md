@@ -6,7 +6,7 @@ feat:
   description: |
     You can sense the stress points on others' weapons.
   prerequisite: |
-    Str 13, Power Attack, Improved Sunder.
+    Str 13, Power Attack, {% feat_link improved-sunder %}.
   benefit: |
     To use this feat, you must expend your psionic focus.
 

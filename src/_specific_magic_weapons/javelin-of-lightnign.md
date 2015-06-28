@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Javelin of Lightning"
 
 item:
   shortDesc: ""
-  aura: ""
-  casterLevel: ""
+  aura: "Faint evocation"
+  casterLevel: "5th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
+    spells: ["_lightning bolt_"]
     special: []
   slot: ""
   marketPrice: 0
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="javelin-of-lightnign"><strong>Javelin of Lightning:</strong> This javelin becomes a 5d6 <em>lightning bolt</em> when thrown (Reflex DC 14 half ). It is consumed in the attack.
-Faint evocation; CL 5th; Craft Magic Arms and Armor, <em>lightning bolt</em>; Price 1,500 gp; Cost 750 gp + 30 XP.
+This javelin becomes a 5d6 _lightning bolt_ when thrown (Reflex DC 14 half ). It is consumed in the attack.
+; Price 1,500 gp; Cost 750 gp + 30 XP.
 

@@ -39,7 +39,7 @@ skill:
   action: "Creating a disguise requires 1d3&times;10 minutes of work."
   try_again: "Yes. You may try to redo a failed disguise, but once others know that a disguise was attempted, they'll be more suspicious."
   special: |
-    Magic that alters your form, such as _alter self_, _disguise self_, _polymorph_, or _shapechange_, grants you a +10 bonus on _disguise_ checks (see the individual spell descriptions). You must succeed on a _disguise_ check with a +10 bonus to duplicate the appearance of a specific individual using the _veil_spell. Divination magic that allows people to see through illusions (such as _true seeing_) does not penetrate a mundane disguise, but it can negate the magical component of a magically enhanced one.
+    Magic that alters your form, such as _alter self_, {% spell_link disguise-self %}, _polymorph_, or _shapechange_, grants you a +10 bonus on _disguise_ checks (see the individual spell descriptions). You must succeed on a _disguise_ check with a +10 bonus to duplicate the appearance of a specific individual using the _veil_spell. Divination magic that allows people to see through illusions (such as {% spell_link true-seeing %}) does not penetrate a mundane disguise, but it can negate the magical component of a magically enhanced one.
 
     You must make a _disguise_ check when you cast a _simulacrum_spell to determine how good the likeness is.
 

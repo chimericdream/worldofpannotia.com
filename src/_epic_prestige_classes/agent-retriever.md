@@ -60,7 +60,7 @@ class:
       - name: "Uncanny Location"
         type: "Sp"
         desc: |
-          When a agent retriever spends one day attuning him or herself to a person or object he or she is seeking, he or she automatically determines that person's or item's location as the _discern location_ spell. Once he or she has established a sense of the location, the agent retriever can maintain this uncanny link even if the target moves, but only so long as he or she hunts down this person or item to the exclusion of all other pursuits. If he or she ever turns aside to undertake a second pursuit, the _uncanny location_ ends, and the agent retriever must spend another day to reattune him or herself to the target.
+          When a agent retriever spends one day attuning him or herself to a person or object he or she is seeking, he or she automatically determines that person's or item's location as the {% spell_link discern-location %} spell. Once he or she has established a sense of the location, the agent retriever can maintain this uncanny link even if the target moves, but only so long as he or she hunts down this person or item to the exclusion of all other pursuits. If he or she ever turns aside to undertake a second pursuit, the _uncanny location_ ends, and the agent retriever must spend another day to reattune him or herself to the target.
       - name: "Tracking Bonus"
         type: "Ex"
         desc: |
@@ -68,15 +68,15 @@ class:
       - name: "Plane Shift"
         type: "Sp"
         desc: |
-          The agent retriever can use _plane shift_ as a 14th-level caster once per day starting at 2nd level, plus one additional time per day every five levels thereafter.
+          The agent retriever can use {% spell_link plane-shift %} as a 14th-level caster once per day starting at 2nd level, plus one additional time per day every five levels thereafter.
       - name: "Force Sphere"
         type: "Sp"
         desc: |
-          The agent retriever gains the ability to call forth a _force sphere_. The agent retriever can attempt to enclose any creature or object he or she can see within 30 feet. The target is allowed a Reflex saving throw (DC 20 + &#189; the class level of the agent retriever + the agent retriever's Dexterity modifier). Those who fail are then encapsulated in a sphere of force with a radius of up to 50 feet (the sphere is only as large as it needs to be, up to its maximum radius). Those trapped inside cannot escape except with methods that can bypass or destroy a _wall of forc_ e. The sphere persists as long as the agent retriever desires, up to a maximum of seven days. A captured target does not count toward the capacity of the agent retriever's _plane shift_ ability, and the agent retriever can plane shift with the target despite the presence of the _force sphere_. The agent retriever can use this power once per day at 3rd level, plus one additional time per day every five levels thereafter.
+          The agent retriever gains the ability to call forth a _force sphere_. The agent retriever can attempt to enclose any creature or object he or she can see within 30 feet. The target is allowed a Reflex saving throw (DC 20 + &#189; the class level of the agent retriever + the agent retriever's Dexterity modifier). Those who fail are then encapsulated in a sphere of force with a radius of up to 50 feet (the sphere is only as large as it needs to be, up to its maximum radius). Those trapped inside cannot escape except with methods that can bypass or destroy a _wall of forc_ e. The sphere persists as long as the agent retriever desires, up to a maximum of seven days. A captured target does not count toward the capacity of the agent retriever's {% spell_link plane-shift %} ability, and the agent retriever can plane shift with the target despite the presence of the _force sphere_. The agent retriever can use this power once per day at 3rd level, plus one additional time per day every five levels thereafter.
       - name: "Ethereal Jaunt"
         type: "Sp"
         desc: |
-          The agent retriever can use _ethereal jaunt_ as a 14th-level caster once per day at 4th level, plus one additional time per day every five levels thereafter.
+          The agent retriever can use {% spell_link ethereal-jaunt %} as a 14th-level caster once per day at 4th level, plus one additional time per day every five levels thereafter.
       - name: "Bonus Feats"
         type: ""
         desc: |

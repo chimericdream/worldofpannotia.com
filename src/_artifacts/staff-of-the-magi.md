@@ -21,11 +21,11 @@ artifact:
     The following powers drain 1 charge per usage:
 
      * _Dispel magic_
-     * _Fireball_ (10d6 damage, Reflex DC 17 half )
-     * _Ice storm_
-     * _Invisibility_
+     * {% spell_link Fireball %} (10d6 damage, Reflex DC 17 half )
+     * {% spell_link Ice-storm %}
+     * {% spell_link Invisibility %}
      * _Knock_
-     * _Lightning bolt_ (10d6 damage, Reflex DC 17 half )
+     * {% spell_link Lightning-bolt %} (10d6 damage, Reflex DC 17 half )
      * _Passwall_
      * _Pyrotechnics_ (Will or Fortitude DC 16 negates)
      * _Wall of fire_
@@ -34,8 +34,8 @@ artifact:
     These powers drain 2 charges per usage:
 
      * _Monster summoning IX_
-     * _Plane shift_ (Will DC 21 negates)
-     * _Telekinesis_ (400 lb. maximum weight; Will DC 19 negates)
+     * {% spell_link Plane-shift %} (Will DC 21 negates)
+     * {% spell_link Telekinesis %} (400 lb. maximum weight; Will DC 19 negates)
 
     A _staff of the magi_ gives the wielder spell resistance 23. If this is willingly lowered, however, the staff can also be used to absorb arcane spell energy directed at its wielder, as a _rod of absorption_ does. Unlike the rod, this staff converts spell levels into charges rather than retaining them as spell energy usable by a spellcaster. If the staff absorbs enough spell levels to exceed its limit of 50 charges, it explodes as if a retributive strike had been performed (see below). The wielder has no idea how many spell levels are cast at her, for the staff does not communicate this knowledge as a _rod of absorption_ does. (Thus, absorbing spells can be risky.)
 

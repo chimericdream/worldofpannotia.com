@@ -95,13 +95,13 @@ class:
 
       Blackguards choose their spells from the following list:
 
-      **1st Level:** _cause fear_, _corrupt weapon_, _cure light wounds_, _doom_, _inflict light wounds_, _magic weapon_, _summon monster I*_.
+      **1st Level:** _cause fear_, _corrupt weapon_, {% spell_link cure-light-wounds %}, _doom_, {% spell_link inflict-light-wounds %}, _magic weapon_, _summon monster I*_.
 
-      **2nd Level:** _bull's strength_, _cure moderate wounds_, _darkness_, _death knell_, _eagle's splendor_, _inflict moderate wounds_, _shatter_, _summon monster II*_.
+      **2nd Level:** {% spell_link bulls-strength %}, {% spell_link cure-moderate-wounds %}, _darkness_, _death knell_, _eagle's splendor_, {% spell_link inflict-moderate-wounds %}, _shatter_, _summon monster II*_.
 
-      **3rd Level:** _contagion_, _cure serious wounds_, _deeper darkness_, _inflict serious wounds_, _protection from energy_, _summon monster III*_.
+      **3rd Level:** _contagion_, {% spell_link cure-serious-wounds %}, _deeper darkness_, {% spell_link inflict-serious-wounds %}, _protection from energy_, _summon monster III*_.
 
-      **4th Level:** _cure critical wounds_, _freedom of movement_, _inflict critical wounds_, _poison_, _summon monster IV*_.
+      **4th Level:** {% spell_link cure-critical-wounds %}, _freedom of movement_, {% spell_link inflict-critical-wounds %}, _poison_, _summon monster IV*_.
 
       * Evil creatures only.
 

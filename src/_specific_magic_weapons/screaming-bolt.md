@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Screaming Bolt"
 
 item:
   shortDesc: ""
-  aura: ""
-  casterLevel: ""
+  aura: "Faint enchantment"
+  casterLevel: "5th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
+    spells: ["_doom_"]
     special: []
   slot: ""
   marketPrice: 0
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="screaming-bolt"><strong>Screaming Bolt:</strong> One of these <em>+2 bolts</em> screams when fired, forcing all enemies of the wielder within 20 feet of the path of the bolt to succeed on a DC 14 Will save or become shaken. This is a mind-affecting fear effect.
-Faint enchantment; CL 5th; Craft Magic Arms and Armor, <em>doom</em>; Price 267gp; Cost 128 gp and 5 sp + 10 XP.
+One of these _+2 bolts_ screams when fired, forcing all enemies of the wielder within 20 feet of the path of the bolt to succeed on a DC 14 Will save or become shaken. This is a mind-affecting fear effect.
+; Price 267gp; Cost 128 gp and 5 sp + 10 XP.
 

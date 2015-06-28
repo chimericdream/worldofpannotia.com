@@ -1,13 +1,13 @@
 ---
-title: ""
+title: "Assassin's Dagger"
 
 item:
   shortDesc: ""
-  aura: ""
-  casterLevel: ""
+  aura: "Moderate necromancy"
+  casterLevel: "9th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
+    spells: ["_slay living_"]
     special: []
   slot: ""
   marketPrice: 0
@@ -19,6 +19,6 @@ item:
   weight: ""
   description: ""
 ---
-<p id="assassins-dagger"><strong>Assassin's Dagger:</strong> This wicked-looking, curved <em>+2 dagger</em> provides a +1 bonus to the DC of a Fortitude save forced by the death attack of an assassin.
-Moderate necromancy; CL 9th; Craft Magic Arms and Armor, <em>slay living</em>; Price 18,302 gp; Cost 9,302 gp + 720 XP.
+This wicked-looking, curved _+2 dagger_ provides a +1 bonus to the DC of a Fortitude save forced by the death attack of an assassin.
+; Price 18,302 gp; Cost 9,302 gp + 720 XP.
 

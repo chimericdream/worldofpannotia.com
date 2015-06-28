@@ -7,11 +7,9 @@ ability:
   casterLevel: "5th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_invisibility_"]
+    spells: ["{% spell_link invisibility %}"]
     special: []
   marketPriceSpecial: "+3,750 gp"
-  description: ""
+  description: |
+    This armor is jet black and blurs the wearer whenever she tries to hide, granting a +5 competence bonus on _hide_ checks. (The armor's armor check penalty still applies normally.)
 ---
-This armor is jet black and blurs the wearer whenever she tries to hide, granting a +5 competence bonus on _hide_ checks. (The armor's armor check penalty still applies normally.)
-
-

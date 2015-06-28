@@ -86,7 +86,7 @@ Not all items adhere to these formulas directly. The reasons for this are severa
 |---
 | Spell Effect | Base Price | Example
 |-|-|-
-| Single use, spell completion | Spell level<sup>1</sup> &times; caster level &times; 25 gp | Scroll of _haste_
+| Single use, spell completion | Spell level<sup>1</sup> &times; caster level &times; 25 gp | Scroll of {% spell_link haste %}
 | Single use, use-activated | Spell level<sup>1</sup> &times; caster level &times; 50 gp | _Potion of cure light wounds_
 | 50 charges, spell trigger | Spell level<sup>1</sup> &times; caster level &times; 750 gp | _Wand of fireball_
 | Command word | Spell level<sup>1</sup> &times; caster level &times; 1,800 gp | _Cape of the mountebank_
@@ -345,7 +345,7 @@ To create an intelligent item, a character must have a caster level of 15th or h
 
 A creator can add new magical abilities to a magic item with no restrictions. The cost to do this is the same as if the item was not magical. Thus, a _+1 longsword_ can be made into a _+2 vorpal longsword_, with the cost to create it being equal to that of a _+2 vorpal sword_ minus the cost of a _+1 sword_.
 
-If the item is one that occupies a specific place on a character's body the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer _invisibility_ to her _ring of protection +2_, the cost of adding this ability is the same as for creating a _ring of invisibility_ multiplied by 1.5.
+If the item is one that occupies a specific place on a character's body the cost of adding any additional ability to that item increases by 50%. For example, if a character adds the power to confer {% spell_link invisibility %} to her _ring of protection +2_, the cost of adding this ability is the same as for creating a _ring of invisibility_ multiplied by 1.5.
 
 ### Body Slot Affinities
 
