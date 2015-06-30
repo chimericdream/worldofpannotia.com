@@ -20,7 +20,7 @@ race:
      * Medium size.
      * An aasimar's base land speed is 30 feet.
      * Darkvision: Aasimars can see in the dark up to 60 feet.
-     * Racial Skills: Aasimars have a +2 racial bonus on _spot_ and _listen_ checks.
+     * Racial Skills: Aasimars have a +2 racial bonus on {% skill_link spot %} and {% skill_link listen %} checks.
      * Racial Feats: An aasimar gains feats according to its class levels.
      * Special Attacks (see above): Daylight.
      * Special Qualities (see above): Resistance to acid 5, cold 5, and electricity 5.

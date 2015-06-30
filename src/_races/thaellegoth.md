@@ -20,10 +20,10 @@ race:
      * Medium: As Medium creatures, thaellegoth have no special bonuses or penalties due to their size.
      * Thaellegoth base land speed is 30 feet.
      * Low-Light Vision: A thaellegoth can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.
-     * +3 racial bonus on _listen_, _search_, _spot_, and _survival_ checks.
-     * -2 racial penalty on _diplomacy_ and _gather information_ checks.
+     * +3 racial bonus on {% skill_link listen %}, {% skill_link search %}, {% skill_link spot %}, and {% skill_link survival %} checks.
+     * -2 racial penalty on {% skill_link diplomacy %} and {% skill_link gather-information %} checks.
      * Mixed Blood: For all effects related to race, a thaellegoth is considered both an elf and an orc. However, in cases where these distinctions would conflict with one another, a thaellegoth is considered to be the more beneficial race.
-     * Hardened by Nature: Due to the fact that they are forced to live in the wild, thaellegoth are considered to be under the effect of an _endure elements_ spell at all times. This is considered a supernatural ability.
+     * Hardened by Nature: Due to the fact that they are forced to live in the wild, thaellegoth are considered to be under the effect of an {% spell_link endure-elements %} spell at all times. This is considered a supernatural ability.
      * Automatic Languages: Common, Orc. Bonus Languages: Elven, Giant, Gnoll, Goblin, Undercommon.
      * Favored Class: Barbarian or Martial Ranger.
 
@@ -33,12 +33,12 @@ race:
      * Medium: As Medium creatures, thaellegoth have no special bonuses or penalties due to their size.
      * Thaellegoth base land speed is 30 feet.
      * Darkvision out to 120 feet.
-     * Light Sensitivity: Thaellegoth are dazzled in bright sunlight or within the radius of a _daylight_ spell.
-     * +3 racial bonus on _listen_, _search_, _spot_, and _survival_ checks.
-     * -2 racial penalty on _diplomacy_ and _gather information_ checks.
+     * Light Sensitivity: Thaellegoth are dazzled in bright sunlight or within the radius of a {% spell_link daylight %} spell.
+     * +3 racial bonus on {% skill_link listen %}, {% skill_link search %}, {% skill_link spot %}, and {% skill_link survival %} checks.
+     * -2 racial penalty on {% skill_link diplomacy %} and {% skill_link gather-information %} checks.
      * Mixed Blood: For all effects related to race, a thaellegoth is considered both a dark elf and an orc. However, in cases where these distinctions would conflict with one another, a thaellegoth is considered to be the more beneficial race.
-     * Hardened by Nature: Due to the fact that they are forced to live in the wild, thaellegoth are considered to be under the effect of an _endure elements_ spell at all times. This is considered a supernatural ability.
-     * Spell-Like Ability: Thaellegoth characters may pick one of the following at character creation: 1/day - _faerie fire_, _darkness_, or _spider climb_.
+     * Hardened by Nature: Due to the fact that they are forced to live in the wild, thaellegoth are considered to be under the effect of an {% spell_link endure-elements %} spell at all times. This is considered a supernatural ability.
+     * Spell-Like Ability: Thaellegoth characters may pick one of the following at character creation: 1/day - {% spell_link faerie-fire %}, {% spell_link darkness %}, or {% spell_link spider-climb %}.
      * Automatic Languages: Orc, Undercommon. Bonus Languages: Common, Giant, Gnoll, Goblin.
      * Favored Class: Barbarian or Martial Ranger.
 ---

@@ -6,7 +6,7 @@ title: Mummy
 
 LE Large Undead
 
-**Init** -1 (-1 Dex); **Senses** Darkvision 60 ft; _listen_ +9, _spot_ +9
+**Init** -1 (-1 Dex); **Senses** Darkvision 60 ft; {% skill_link listen %} +9, {% skill_link spot %} +9
 
 <hr class="dashed" />
 
@@ -38,7 +38,7 @@ LE Large Undead
 
 **Feats** Alertness, Blind-Fight, Great Fortitude, Lightning Reflexes, Power Attack, Toughness, Weapon Focus (slam)
 
-**Skills** _hide_ -5, _listen_ +9, _move silently_ +10, _spot_ +9
+**Skills** {% skill_link hide %} -5, {% skill_link listen %} +9, {% skill_link move-silently %} +10, {% skill_link spot %} +9
 
 <hr class="dashed" />
 

@@ -1,24 +1,22 @@
 ---
-title: ""
+title: "Shapeshifter's Armor"
 
 item:
   shortDesc: ""
   aura: ""
-  casterLevel: ""
+  casterLevel: "21st"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}", "{% epic_feat_link craft-epic-magic-arms-and-armor %}"]
+    spells: ["{% spell_link shapechange %} or _wild shape_ ability"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 400165
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 200165
+    xp: 14000
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This suit of _+6 hide armor_ grants its full Armor Class bonus regardless of any form the wearer takes (with {% spell_link polymorph %}, {% spell_link shapechange %}, _wild shape_, or similar abilities).
 ---
-<p id="shapeshifters-armor">**Shapeshifter's Armor:** This suit of _+6 hide armor_ grants its full Armor Class bonus regardless of any form the wearer takes (with _polymorph_, _shapechange_, _wild shape_, or similar abilities).
-_Caster Level:_ 21st; _Prerequisites:_ Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, _shapechange_ or _wild shape_ ability; _Market Price:_ 400,165 gp; _Cost to Create:_ 200,165 gp + 14,000 XP.
-

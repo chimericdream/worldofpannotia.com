@@ -56,6 +56,6 @@ You can take a 5-foot step as part of your readied action, but only if you don't
 
 **Readying to Counterspell:** You may ready a counterspell against a spellcaster (often with the trigger "if she starts casting a spell"). In this case, when the spellcaster starts a spell, you get a chance to identify it with a Spellcraft check (DC 15 + spell level). If you do, and if you can cast that same spell (are able to cast it and have it prepared, if you prepare spells), you can cast the spell as a counterspell and automatically ruin the other spellcaster's spell. Counterspelling works even if one spell is divine and the other arcane.
 
-A spellcaster can use _dispel magic_ to counterspell another spellcaster, but it doesn't always work.
+A spellcaster can use {% spell_link dispel-magic %} to counterspell another spellcaster, but it doesn't always work.
 
 **Readying a Weapon against a Charge:** You can ready certain piercing weapons, setting them to receive charges. A readied weapon of this type deals double damage if you score a hit with it against a charging character.

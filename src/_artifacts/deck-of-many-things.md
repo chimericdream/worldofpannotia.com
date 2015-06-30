@@ -46,7 +46,7 @@ artifact:
 
     _Comet:_ The character must single-handedly defeat the next hostile monster or monsters encountered, or the benefit is lost. If successful, the character gains enough XP to attain the next experience level.
 
-    _Donjon:_ This card signifies imprisonment &ndash; either by the _imprisonment_ spell or by some powerful being. All gear and spells are stripped from the victim in any case. Draw no more cards.
+    _Donjon:_ This card signifies imprisonment &ndash; either by the {% spell_link imprisonment %} spell or by some powerful being. All gear and spells are stripped from the victim in any case. Draw no more cards.
 
     _Euryale:_ The medusalike visage of this card brings a curse that only the fates card or a deity can remove. The –1 penalty on all saving throws is otherwise permanent.
 

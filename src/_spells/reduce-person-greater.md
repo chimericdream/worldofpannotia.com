@@ -26,5 +26,5 @@ spell:
 
     Multiple magical effects that reduce size do not stack.
 
-    _Reduce person, greater_ counters and dispels _enlarge person_ or _enlarge person, greater_.
+    _Reduce person, greater_ counters and dispels {% spell_link enlarge-person %} or _enlarge person, greater_.
 ---

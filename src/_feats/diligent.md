@@ -4,5 +4,5 @@ title: "Diligent"
 feat:
   types: ["General"]
   benefit: |
-    You get a +2 bonus on all _appraise_ checks and _decipher script_ checks.
+    You get a +2 bonus on all {% skill_link appraise %} checks and {% skill_link decipher-script %} checks.
 ---

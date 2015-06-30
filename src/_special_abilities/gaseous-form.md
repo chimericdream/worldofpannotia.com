@@ -13,5 +13,5 @@ ability:
 
     Gaseous creatures can't enter water or other liquid. They are not ethereal or incorporeal. They are affected by winds or other forms of moving air to the extent that the wind pushes them in the direction the wind is moving. However, even the strongest wind can't disperse or damage a creature in gaseous form.
 
-    Discerning a creature in gaseous form from natural mist requires a DC 15 _spot_ check. Creatures in gaseous form attempting to hide in an area with mist, smoke, or other gas gain a +20 bonus.
+    Discerning a creature in gaseous form from natural mist requires a DC 15 {% skill_link spot %} check. Creatures in gaseous form attempting to hide in an area with mist, smoke, or other gas gain a +20 bonus.
 ---

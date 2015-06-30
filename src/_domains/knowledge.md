@@ -3,7 +3,7 @@ title: "Knowledge"
 
 domain:
   grantedPower: |
-    Add all _knowledge_ skills to your list of cleric class skills.
+    Add all {% skill_link knowledge %} skills to your list of cleric class skills.
 
     You cast divination spells at +1 caster level.
   spells: |

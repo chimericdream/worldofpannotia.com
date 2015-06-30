@@ -9,6 +9,8 @@ defaults:
       type: rods
     values:
       layout: "equipment/magic-items/rod"
+      crumbs: [equipment, magic-items, rods]
+      crumbTitles: [Equipment, Magic Items, Rods]
       item:
         shortDesc: ""
         aura: ""

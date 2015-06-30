@@ -9,6 +9,8 @@ defaults:
       type: rings
     values:
       layout: "equipment/magic-items/ring"
+      crumbs: [equipment, magic-items, rings]
+      crumbTitles: [Equipment, Magic Items, Rings]
       item:
         shortDesc: ""
         aura: ""

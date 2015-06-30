@@ -3,7 +3,7 @@ title: "Mind"
 
 domain:
   grantedPower: |
-    Gain a +2 bonus on _bluff_, _diplomacy_, and _sense motive_ checks. Gain a +2 bonus on Will saves against enchantment spells and effects.
+    Gain a +2 bonus on {% skill_link bluff %}, {% skill_link diplomacy %}, and {% skill_link sense-motive %} checks. Gain a +2 bonus on Will saves against enchantment spells and effects.
   spells: |
     1. {% spell_link comprehend-languages %}
     1. {% spell_link detect-thoughts %}

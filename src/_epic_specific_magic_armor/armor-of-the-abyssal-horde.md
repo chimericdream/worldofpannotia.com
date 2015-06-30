@@ -1,24 +1,22 @@
 ---
-title: ""
+title: "Armor of the Abyssal Horde"
 
 item:
   shortDesc: ""
   aura: ""
-  casterLevel: ""
+  casterLevel: "20th"
   prerequisites:
-    feats: []
-    spells: []
-    special: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}", "{% epic_feat_link craft-epic-magic-arms-and-armor %}"]
+    spells: ["{% spell_link energy-drain %}"]
+    special: ["creator must be evil"]
   slot: ""
-  marketPrice: 0
+  marketPrice: 768260
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 385260
+    xp: 17660
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This _+6 full plate armor's_ clawed gauntlets are effectively +4 keen weapons (1d10/19-20) that afflict the target as if she had been struck by an {% spell_link energy-drain %} spell (Fortitude negates DC 23). The armor bestows two negative levels on any nonevil creature wearing it. These negative levels persist as long as the armor is worn and disappear when the armor is removed. The negative levels never result in actual level loss, but they cannot be overcome in any way (including {% spell_link restoration %} spells) while the armor is worn.
 ---
-<p id="armor-of-the-abyssal-horde">**Armor of the Abyssal Horde:** This_+6 full plate armor's_ clawed gauntlets are effectively +4 keen weapons (1d10/19-20) that afflict the target as if she had been struck by an _energy drain_ spell (Fortitude negates DC 23). The armor bestows two negative levels on any nonevil creature wearing it. These negative levels persist as long as the armor is worn and disappear when the armor is removed. The negative levels never result in actual level loss, but they cannot be overcome in any way (including _restoration_ spells) while the armor is worn.
-_Caster Level:_ 20th; _Prerequisites:_ Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, creator must be evil, _energy drain_; _Market Price:_ 768,260 gp; _Cost to Create:_ 385,260 gp + 17,660 XP.
-

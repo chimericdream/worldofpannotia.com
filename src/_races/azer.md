@@ -34,6 +34,6 @@ race:
       levelAdjust: 4
       traits: |
          * Racial Hit Dice: An azer begins with two levels of outsider, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +3, Ref +3, and Will +3.
-         * Racial Skills: An azer's outsider levels give it skill points equal to 5 * (8 + Int modifier). Its class skills are _appraise_, _climb_, _craft_, _hide_, _jump_, _listen_, _search_, and _spot_.
+         * Racial Skills: An azer's outsider levels give it skill points equal to 5 * (8 + Int modifier). Its class skills are {% skill_link appraise %}, {% skill_link climb %}, {% skill_link craft %}, {% skill_link hide %}, {% skill_link jump %}, {% skill_link listen %}, {% skill_link search %}, and {% skill_link spot %}.
          * Racial Feats: An azer's outsider levels give it one feat.
 ---

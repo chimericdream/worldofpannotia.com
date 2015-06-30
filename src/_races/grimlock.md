@@ -19,7 +19,7 @@ race:
      * +4 Strength, +2 Dexterity, +2 Constitution, -2 Wisdom, -4 Charisma.
      * Medium size.
      * A grimlock's base land speed is 30 feet.
-     * Racial Skills: Grimlocks gain a +10 racial bonus on _hide_ checks in mountain or underground settings.
+     * Racial Skills: Grimlocks gain a +10 racial bonus on {% skill_link hide %} checks in mountain or underground settings.
      * Weapon Proficiency: A grimlock is automatically proficient with the battleaxe.
      * +4 natural armor bonus.
      * Special Qualities: Blindsight 40 ft., immunities, scent.
@@ -40,6 +40,6 @@ race:
       levelAdjust: 2
       traits: |
          * Racial Hit Dice: A grimlock begins with two levels of monstrous humanoid, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.
-         * Racial Skills: A grimlock's monstrous humanoid levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are _climb_, _hide_, _listen_, and _spot_.
+         * Racial Skills: A grimlock's monstrous humanoid levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link climb %}, {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A grimlock's monstrous humanoid levels give it one feat.
 ---

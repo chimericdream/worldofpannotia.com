@@ -66,7 +66,7 @@ class:
       - name: "Protective Aura"
         type: "Sp"
         desc: |
-          Starting at 3rd level, the guardian paramount can use a special form of {% spell_link shield-other %} once per day, plus one additional time per day every three levels thereafter. When a guardian paramount creates a _protective aura_ , the transferred wounds are dealt to the guardian paramount as subdual damage, not normal damage, as with the _shield other_ spell. Otherwise, the guardian paramount's _protective aura_ functions like the {% spell_link shield-other %} spell cast by an 8th-level cleric.
+          Starting at 3rd level, the guardian paramount can use a special form of {% spell_link shield-other %} once per day, plus one additional time per day every three levels thereafter. When a guardian paramount creates a _protective aura_ , the transferred wounds are dealt to the guardian paramount as subdual damage, not normal damage, as with the {% spell_link shield-other %} spell. Otherwise, the guardian paramount's _protective aura_ functions like the {% spell_link shield-other %} spell cast by an 8th-level cleric.
       - name: "Adjust Probability"
         type: "Ex"
         desc: |

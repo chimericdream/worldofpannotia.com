@@ -75,7 +75,7 @@ class:
         desc: |
           Druids are proficient with the following weapons: club, dagger, dart, quarterstaff, scimitar, sickle, shortspear, sling, and spear. They are also proficient with all natural attacks (claw, bite, and so forth) of any form they assume with wild shape.
 
-          Druids are proficient with light and medium armor but are prohibited from wearing metal armor; thus, they may wear only padded, leather, or hide armor. (A druid may also wear wooden armor that has been altered by the _ironwood_ spell so that it functions as though it were steel. See the _ironwood_ spell description) Druids are proficient with shields (except tower shields) but must use only wooden ones.
+          Druids are proficient with light and medium armor but are prohibited from wearing metal armor; thus, they may wear only padded, leather, or hide armor. (A druid may also wear wooden armor that has been altered by the {% spell_link ironwood %} spell so that it functions as though it were steel. See the {% spell_link ironwood %} spell description) Druids are proficient with shields (except tower shields) but must use only wooden ones.
 
           A druid who wears prohibited armor or carries a prohibited shield is unable to cast druid spells or use any of her supernatural or spell-like class abilities while doing so and for 24 hours thereafter.
       - name: "Spells"
@@ -168,7 +168,7 @@ class:
     additionalInfo: |
       #### Ex-Druids
 
-      A druid who ceases to revere nature, changes to a prohibited alignment, or teaches the Druidic language to a nondruid loses all spells and druid abilities (including her animal companion, but not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as a druid until she atones (see the _atonement_ spell description).
+      A druid who ceases to revere nature, changes to a prohibited alignment, or teaches the Druidic language to a nondruid loses all spells and druid abilities (including her animal companion, but not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as a druid until she atones (see the {% spell_link atonement %} spell description).
 
       #### The Druid's Animal Companion
 

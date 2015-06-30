@@ -8,5 +8,5 @@ feat:
   prerequisite: |
     Wis 13.
   benefit: |
-    You gain a +4 bonus on _concentration_ checks you make to become psionically focused.
+    You gain a +4 bonus on {% skill_link concentration %} checks you make to become psionically focused.
 ---

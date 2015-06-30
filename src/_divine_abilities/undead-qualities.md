@@ -12,9 +12,9 @@ ability:
      * Not subject to critical hits, nonlethal damage, ability drain, or energy drain. Immune to damage to its physical ability scores (Strength, Dexterity, and Constitution), as well as to fatigue and exhaustion effects.
      * Cannot heal damage on its own if it has no Intelligence score, although it can be healed. Negative energy can heal undead creatures. The fast healing special quality works regardless of the creature's Intelligence score.
      * Immunity to any effect that requires a Fortitude save (unless the effect also works on objects or is harmless).
-     * Uses its Charisma modifier for _concentration_ checks.
+     * Uses its Charisma modifier for {% skill_link concentration %} checks.
      * Not at risk of death from massive damage, but when reduced to 0 hit points or less, it is immediately destroyed.
-     * Not affected by _raise dead_ and _reincarnate_ spells or abilities. _Resurrection_ and {% spell_link true-resurrection %} can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.
+     * Not affected by {% spell_link raise-dead %} and {% spell_link reincarnate %} spells or abilities. {% spell_link resurrection %} and {% spell_link true-resurrection %} can affect undead creatures. These spells turn undead creatures back into the living creatures they were before becoming undead.
      * Undead do not breathe, eat, or sleep.
   portfolioElements: |
     Death, undead.

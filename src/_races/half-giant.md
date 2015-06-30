@@ -17,7 +17,7 @@ race:
   levelAdjust: 1
   traits: |
      * +2 Strength, +2 Constitution, -2 Dexterity: Half-giants are tough and strong, but not too nimble.
-     * Giant: Half-giants are not subject to spells or effects that affect humanoids only, such as _charm person_ or _dominate person_.
+     * Giant: Half-giants are not subject to spells or effects that affect humanoids only, such as {% spell_link charm-person %} or {% spell_link dominate-person %}.
      * Medium: As Medium creatures, half-giants have no special bonuses or penalties due to their size.
      * Half-giant base land speed is 30 feet.
      * Low-Light Vision: A half-giant can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. He retains the ability to distinguish color and detail under these conditions.

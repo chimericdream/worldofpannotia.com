@@ -7,7 +7,7 @@ ability:
   benefit: |
     When struck by an attack from an opponent the deity has designated as its dodge target, the deity may make a Reflex save (DC 10 + damage dealt) to negate all damage from the attack.
 
-    If the deity passes within 5 feet of a trap, the deity is entitled to a _search_ check to notice it as if the deity were actively looking for it.
+    If the deity passes within 5 feet of a trap, the deity is entitled to a {% skill_link search %} check to notice it as if the deity were actively looking for it.
 
     The deity can assess the exact value of any treasure it can see.
 

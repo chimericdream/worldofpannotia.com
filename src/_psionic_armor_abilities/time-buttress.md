@@ -6,7 +6,7 @@ ability:
   aura: "Strong psychoportation"
   manifesterLevel: "17th"
   prerequisites:
-    feats: []"{% feat_link craft-psionic-arms-and-armor %}"
+    feats: ["{% feat_link craft-psionic-arms-and-armor %}"]
     powers: ["{% power_link timeless-body %}"]
     special: []
   marketPriceSpecial: "+5 bonus"

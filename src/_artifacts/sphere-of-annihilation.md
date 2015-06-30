@@ -19,7 +19,7 @@ artifact:
 
     If two or more creatures vie for control of a _sphere of annihilation_, the rolls are opposed. If none are successful, the sphere slips toward the one who rolled lowest.
 
-    Should a _gate_ spell be cast upon a _sphere of annihilation_, there is a 50% chance (01–50 on d%) that the spell destroys it, a 35% chance (51–85) that the spell does nothing, and a 15% chance (86–100) that a gap is torn in the spatial fabric, catapulting everything within a 180-foot radius into another plane. If a _rod of cancellation_ touches a _sphere of annihilation_, they negate each other in a tremendous explosion. Everything within a 60-foot radius takes 2d6x10 points of damage. _Dispel_ _magic_ and _mage's disjunction_ have no effect on a sphere.
+    Should a {% spell_link gate %} spell be cast upon a _sphere of annihilation_, there is a 50% chance (01–50 on d%) that the spell destroys it, a 35% chance (51–85) that the spell does nothing, and a 15% chance (86–100) that a gap is torn in the spatial fabric, catapulting everything within a 180-foot radius into another plane. If a _rod of cancellation_ touches a _sphere of annihilation_, they negate each other in a tremendous explosion. Everything within a 60-foot radius takes 2d6x10 points of damage. _Dispel_ _magic_ and {% spell_link mages-disjunction %} have no effect on a sphere.
 
     See also _talisman of the sphere_ (below).
 ---

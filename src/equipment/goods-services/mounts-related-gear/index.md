@@ -57,7 +57,7 @@ Warhorses and warponies can be ridden easily into combat. Light horses, ponies, 
 
 **Saddle, Exotic:** An exotic saddle is like a normal saddle of the same sort except that it is designed for an unusual mount. Exotic saddles come in military, pack, and riding styles.
 
-**Saddle, Military:** A military saddle braces the rider, providing a +2 circumstance bonus on _ride_ checks related to staying in the saddle. If you're knocked unconscious while in a military saddle, you have a 75% chance to stay in the saddle (compared to 50% for a riding saddle).
+**Saddle, Military:** A military saddle braces the rider, providing a +2 circumstance bonus on {% skill_link ride %} checks related to staying in the saddle. If you're knocked unconscious while in a military saddle, you have a 75% chance to stay in the saddle (compared to 50% for a riding saddle).
 
 **Saddle, Pack:** A pack saddle holds gear and supplies, but not a rider. It holds as much gear as the mount can carry.
 

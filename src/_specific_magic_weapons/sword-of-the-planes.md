@@ -7,18 +7,16 @@ item:
   casterLevel: "7th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_blur_"]
+    spells: ["{% spell_link blur %}"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 22310
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 11155
+    xp: 892
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    A _+1 short sword_ with a thin, dull gray blade, this weapon provides a +4 bonus on its wielder's attack and damage rolls when he is making a sneak attack with it.
 ---
-A _+1 short sword_ with a thin, dull gray blade, this weapon provides a +4 bonus on its wielder's attack and damage rolls when he is making a sneak attack with it.
-; Price 22,310 gp; Cost 11,155 gp + 892 XP.
-

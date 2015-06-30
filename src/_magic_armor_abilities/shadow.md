@@ -11,5 +11,5 @@ ability:
     special: []
   marketPriceSpecial: "+3,750 gp"
   description: |
-    This armor is jet black and blurs the wearer whenever she tries to hide, granting a +5 competence bonus on _hide_ checks. (The armor's armor check penalty still applies normally.)
+    This armor is jet black and blurs the wearer whenever she tries to hide, granting a +5 competence bonus on {% skill_link hide %} checks. (The armor's armor check penalty still applies normally.)
 ---

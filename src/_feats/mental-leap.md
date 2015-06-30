@@ -6,7 +6,7 @@ feat:
   description: |
     You can make amazing jumps.
   prerequisite: |
-    Str 13, _jump_ 5 ranks.
+    Str 13, {% skill_link jump %} 5 ranks.
   benefit: |
-    To use this feat, you must expend your psionic focus. You gain a +10 bonus on a _jump_ check.
+    To use this feat, you must expend your psionic focus. You gain a +10 bonus on a {% skill_link jump %} check.
 ---

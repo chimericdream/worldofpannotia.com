@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: "3 lb"
   description: |
-    Appearing as a normal helmet, a _helm of comprehend languages and read magic_ grants its wearer the ability to understand the spoken words of any creature and to read text in any language and any magical writing. The wearer gains a +5 competence bonus on _decipher script_ checks to understand messages written in incomplete, archaic, or exotic forms. Note that understanding a magical text does not necessarily imply spell use.
+    Appearing as a normal helmet, a _helm of comprehend languages and read magic_ grants its wearer the ability to understand the spoken words of any creature and to read text in any language and any magical writing. The wearer gains a +5 competence bonus on {% skill_link decipher-script %} checks to understand messages written in incomplete, archaic, or exotic forms. Note that understanding a magical text does not necessarily imply spell use.
 ---

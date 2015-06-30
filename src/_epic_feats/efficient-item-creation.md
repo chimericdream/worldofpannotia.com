@@ -4,7 +4,7 @@ title: "Efficient Item Creation"
 feat:
   types: ["Epic"]
   prerequisite: |
-    Item creation feat to be selected, _knowledge (arcana)_ 24 ranks, _spellcraft_ 24 ranks.
+    Item creation feat to be selected, {% skill_link knowledge 'Knowledge (Arcana)' %} 24 ranks, {% skill_link spellcraft %} 24 ranks.
   benefit: |
     Select an item creation feat. Creating a magic item using that feat requires one day per 10,000 gp of the item's market price, with a minimum of one day.
   normal: |

@@ -4,7 +4,7 @@ title: "Uncanny Accuracy"
 feat:
   types: ["Epic"]
   prerequisite: |
-    Dex 21, base attack bonus +11, Point Blank Shot, Precise Shot, Improved Precise Shot, _spot_ 20 ranks.
+    Dex 21, base attack bonus +11, Point Blank Shot, Precise Shot, Improved Precise Shot, {% skill_link spot %} 20 ranks.
   benefit: |
     The character's ranged attacks ignore the miss chance granted to targets by total concealment. The character must aim his or her attacks at the correct square to gain advantage of this feat.
   normal: |

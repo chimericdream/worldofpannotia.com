@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Everwhirling Chain"
 
 item:
   shortDesc: ""
@@ -7,18 +7,16 @@ item:
   casterLevel: "23rd"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}", "{% epic_feat_link craft-epic-magic-arms-and-armor %}"]
-    spells: []
+    spells: ["{% spell_link animate-objects %}", "{% spell_link haste %}", "{% spell_link shield %} or {% spell_link shield-of-faith %}"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 5220325
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 2610325
+    xp: 52200
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This _+4 defending everdancing spiked chain of speed_ continuously twitches in its wielder's hands. The wielder of the _everwhirling chain_ can use it to make any number of attacks of opportunity per round (as if he or she had the {% epic_feat_link improved-combat-reflexes %} feat).
 ---
-<p id="everwhirling-chain">**Everwhirling Chain:** This _+4 defending everdancing spiked chain of speed_ continuously twitches in its wielder's hands. The wielder of the _everwhirling chain_ can use it to make any number of attacks of opportunity per round (as if he or she had the Improved Combat Reflexes feat).
-{% spell_link animate-objects %}, {% spell_link haste %}, {% spell_link shield %} (or {% spell_link shield-of-faith %}); _Market Price:_ 5,220,325 gp; _Cost to Create:_ 2,610,325 gp + 52,200 XP.
-

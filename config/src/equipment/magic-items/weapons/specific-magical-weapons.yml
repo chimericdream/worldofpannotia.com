@@ -1,6 +1,7 @@
 collections:
   specific_magic_weapons:
-    output:    false
+    output:    true
+    permalink: /equipment/magic-items/weapons/specific/:path/
 
 defaults:
   - scope:
@@ -8,6 +9,8 @@ defaults:
       type: specific_magic_weapons
     values:
       layout: "equipment/magic-items/wondrous-item"
+      crumbs: [equipment, magic-items, weapons]
+      crumbTitles: [Equipment, Magic Items, Weapons]
       item:
         shortDesc: ""
         aura: ""

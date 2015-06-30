@@ -35,8 +35,8 @@ skill:
   try_again: "Yes, for memorize and willpower uses, though a success doesn't cancel the effects of a previous failure. No for the other uses."
   special: ""
   synergy: |
-     * If you have 5 or more ranks in _autohypnosis_, you get a synergy bonus on _knowledge (psionics)_ checks.
-     * If you have 5 or more ranks in _concentration_, you get a synergy bonus on _autohypnosis_ checks.
+     * If you have 5 or more ranks in _autohypnosis_, you get a synergy bonus on {% skill_link knowledge 'Knowledge (Psionics)' %} checks.
+     * If you have 5 or more ranks in {% skill_link concentration %}, you get a synergy bonus on _autohypnosis_ checks.
   restriction: ""
   untrained: ""
 ---

@@ -6,7 +6,7 @@ ability:
   aura: "Strong abjuration"
   casterLevel: "15th"
   prerequisites:
-    feats: "{% feat_link craft-magic-arms-and-armor %}"[]
+    feats: ["{% feat_link craft-magic-arms-and-armor %}"]
     spells: ["{% spell_link spell-resistance %}"]
     special: []
   marketPriceSpecial: "+2 bonus (SR 13), +3 bonus (SR 15), +4 bonus (SR 17), +5 bonus (SR 19)"

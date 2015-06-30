@@ -14,7 +14,7 @@ item:
   marketPriceSpecial: "Price 900 gp (gray); 3,000 gp (rust); 6,300 gp (tan)"
   weight: ""
   description: |
-    This small sack appears normal and empty. However, anyone reaching into the bag feels a small, fuzzy ball. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the _handle animal_ skill. Each of the three kinds of a _bag of tricks_ produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.
+    This small sack appears normal and empty. However, anyone reaching into the bag feels a small, fuzzy ball. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the {% skill_link handle-animal %} skill. Each of the three kinds of a _bag of tricks_ produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.
 
     The heavy warhorse appears with harness and tack and accepts the character who drew it from the bag as a rider.
 

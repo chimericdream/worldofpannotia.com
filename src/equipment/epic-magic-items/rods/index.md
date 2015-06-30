@@ -35,7 +35,3 @@ Standard epic rods are described below.
 | 98 | {% epic_rod_link wyrm 'Wyrm (Red)' %} | 1,897,400 gp
 | 99-100 | {% epic_rod_link epic-might %} | 4,293,432 gp
 {: #epic-rods-table .table .table-bordered .table-hover .table-striped data-caption="Table: Epic Rods" }
-
-{% comment %}
-loop through rods
-{% endcomment %}

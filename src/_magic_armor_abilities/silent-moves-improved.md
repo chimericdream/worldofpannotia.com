@@ -11,5 +11,5 @@ ability:
     special: []
   marketPriceSpecial: "+15,000 gp"
   description: |
-    As silent moves, except it grants a +10 competence bonus on _move silently_ checks.
+    As silent moves, except it grants a +10 competence bonus on {% skill_link move-silently %} checks.
 ---

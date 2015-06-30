@@ -4,13 +4,14 @@
 <section class="row">
     <aside class="col-xs-12 col-sm-4 col-sm-push-8">
         {% if item.slot != "" %}<p><strong>Body Slot:</strong> {{ item.slot }}</p>{% endif %}
-        <p><strong>Aura:</strong> {{ item.aura | inline_pmarkdownify | liquify }}</p>
-        <p><strong>Caster Level:</strong> {{ item.casterLevel | inline_pmarkdownify | liquify}}</p>
-        <p><strong>Market Price:</strong> {% if item.marketPrice > 0 %}{{ item.marketPrice | number_format }} gp{% else %}{{ item.marketPriceSpecial }}{% endif %}</p>
+        {% if item.aura %}<p><strong>Aura:</strong> {{ item.aura | inline_pmarkdownify | liquify }}</p>{% endif %}
+        {% if item.casterLevel %}<p><strong>Caster Level:</strong> {{ item.casterLevel | inline_pmarkdownify | liquify }}</p>{% endif %}
+        {% if item.manifesterLevel %}<p><strong>Manifester Level:</strong> {{ item.manifesterLevel | inline_pmarkdownify | liquify }}</p>{% endif %}
+        {% if (item.marketPrice && item.marketPrice > 0) || (item.marketPriceSpecial && item.marketPriceSpecial != "") %}<p><strong>Market Price:</strong> {% if item.marketPrice > 0 %}{{ item.marketPrice | number_format }} gp{% else %}{{ item.marketPriceSpecial | inline_pmarkdownify | liquify }}{% endif %}</p>{% endif %}
         {% if item.weight != "" %}<p><strong>Weight:</strong> {{ item.weight }}</p>{% endif %}
     </aside>
     <article class="col-xs-12 col-sm-8 col-sm-pull-4">
-        <h3>{{ item.title }}</h3>
+        <h3>{{ page.title }}</h3>
 
         {{ item.description | pmarkdownify | liquify }}
 
@@ -34,7 +35,7 @@
         {% if item.costToCreateSpecial and item.costToCreateSpecial != "" %}
         {{ item.costToCreateSpecial | pmarkdownify | liquify }}
         {% else %}
-        <p>{% if item.costToCreate.gp > 0 %}{{ item.costToCreate.gp | number_format }} gp{% if item.costToCreate.xp > 0 %}; {% endif %}{% endif %}{% if item.costToCreate.xp > 0 %}{{ item.costToCreate.xp | number_format }} XP{% endif %}</p>
+        <p>{% if item.costToCreate.gp > 0 %}{{ item.costToCreate.gp | number_format }} gp{% if item.costToCreate.sp && item.costToCreate.sp > 0 %} {{ item.costToCreate.sp | number_format }} sp{% endif %}{% if item.costToCreate.xp > 0 %}; {% endif %}{% endif %}{% if item.costToCreate.xp > 0 %}{{ item.costToCreate.xp | number_format }} XP{% endif %}</p>
         {% endif %}
         {% endif %}
     </article>

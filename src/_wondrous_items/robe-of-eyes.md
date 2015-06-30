@@ -18,7 +18,7 @@ item:
 
     The _robe of eyes_ sees all forms of invisible or ethereal things within 120 feet.
 
-    The wearer of a _robe of eyes_ gains a +10 competence bonus on _search_ checks and _spot_ checks. She retains her Dexterity bonus to AC even when flat-footed, and she can't be flanked. However, she is not able to avert her eyes or close her eyes when confronted by a creature with a gaze attack.
+    The wearer of a _robe of eyes_ gains a +10 competence bonus on {% skill_link search %} checks and {% skill_link spot %} checks. She retains her Dexterity bonus to AC even when flat-footed, and she can't be flanked. However, she is not able to avert her eyes or close her eyes when confronted by a creature with a gaze attack.
 
     A {% spell_link light %} or {% spell_link continual-flame %} spell cast directly on a _robe of eyes_ causes it to be blinded for 1d3 minutes. A {% spell_link daylight %} spell blinds it for 2d4 minutes.
 ---

@@ -7,7 +7,7 @@ ability:
   casterLevel: "5th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["{% spell_link blindness/deafness %}"]
+    spells: ["{% spell_link blindness-deafness %}"]
     special: []
   marketPriceSpecial: "+1 bonus"
   description: |

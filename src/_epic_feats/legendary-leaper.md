@@ -4,7 +4,7 @@ title: "Legendary Leaper"
 feat:
   types: ["Epic"]
   prerequisite: |
-    _jump_ 24 ranks.
+    {% skill_link jump %} 24 ranks.
   benefit: |
     The character need only move 5 feet in a straight line to make a running jump.
   normal: |

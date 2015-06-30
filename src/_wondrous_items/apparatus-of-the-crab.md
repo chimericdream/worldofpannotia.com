@@ -8,7 +8,7 @@ item:
   prerequisites:
     feats: ["{% feat_link craft-wondrous-item %}"]
     spells: ["{% spell_link animate-objects %}", "{% spell_link continual-flame %}"]
-    special: ["creator must have 8 ranks in the _knowledge (architecture and engineering)_ skill"]
+    special: ["creator must have 8 ranks in the {% skill_link knowledge 'Knowledge (Architecture and Engineering)' %} skill"]
   slot: ""
   marketPrice: 90000
   marketPriceSpecial: ""

@@ -54,7 +54,7 @@ item:
 
     Strong conjuration and transmutation; CL 15th; {% spell_link animate-objects %}, {% spell_link etherealness %}, {% spell_link fly %}, {% spell_link plane-shift %}; Price 28,500 gp.
 
-    _Onyx Dog:_ When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. (It has the scent ability and adds +4 to its _spot_ and _search_ checks.) It has 60-foot darkvision, and it can {% spell_link see-invisibility %}. An _onyx dog_ can be used once per week for up to 6 hours. It obeys only its owner.
+    _Onyx Dog:_ When commanded, this statuette changes into a creature with the same properties as a riding dog except that it is endowed with an Intelligence of 8, can communicate in Common, and has exceptional olfactory and visual abilities. (It has the scent ability and adds +4 to its {% skill_link spot %} and {% skill_link search %} checks.) It has 60-foot darkvision, and it can {% spell_link see-invisibility %}. An _onyx dog_ can be used once per week for up to 6 hours. It obeys only its owner.
     {: #onyx-dog-figurine }
 
     Moderate transmutation; CL 11th; {% spell_link animate-objects %}; Price 15,500 gp.

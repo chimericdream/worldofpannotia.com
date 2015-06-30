@@ -139,48 +139,46 @@ Most magic armor and shields only have enhancement bonuses. Such items can also 
 |---
 | Minor | Medium | Major | Special Ability | Base Price Modifier
 |-|-|-|-|-
-| 01-20 | 01-10 | 01-05 | {% magic_shield_ability arrow-catching %} | +1 bonus<sup>1</sup>
-| 21-40 | 11-20 | 06-08 | {% magic_shield_ability bashing %} | +1 bonus<sup>1</sup>
-| 41-50 | 21-25 | 09-10 | {% magic_shield_ability blinding %} | +1 bonus<sup>1</sup>
-| 51-75 | 26-40 | 11-15 | {% magic_shield_ability fortification 'Fortification, Light' %} | +1 bonus<sup>1</sup>
-| 76-92 | 41-50 | 16-20 | {% magic_shield_ability arrow-deflection %} | +2 bonus<sup>1</sup>
-| 93-97 | 51-57 | 21-25 | {% magic_shield_ability animated %} | +2 bonus<sup>1</sup>
-| 98-99 | 58-59 | &nbsp; | {% magic_shield_ability spell-resistance 'Spell Resistance (13)' %} | +2 bonus<sup>1</sup>
-| &nbsp; | xx-xx | xx-xx | {% magic_shield_ability wandbearing %} | +6,000 gp
-| &nbsp; | 60-63 | 26-28 | {% magic_shield_ability acid-resistance %} | +18,000 gp
-| &nbsp; | 64-67 | 29-31 | {% magic_shield_ability cold-resistance %} | +18,000 gp
-| &nbsp; | 68-71 | 32-34 | {% magic_shield_ability electricity-resistance %} | +18,000 gp
-| &nbsp; | 72-75 | 35-37 | {% magic_shield_ability fire-resistance %} | +18,000 gp
-| &nbsp; | 76-79 | 38-40 | {% magic_shield_ability sonic-resistance %} | +18,000 gp
-| &nbsp; | 80-85 | 41-46 | {% magic_shield_ability ghost-touch %} | +3 bonus<sup>1</sup>
-| &nbsp; | 86-95 | 47-56 | {% magic_shield_ability fortification 'Fortification, Moderate %} | +3 bonus<sup>1</sup>
-| &nbsp; | 96-98 | 57-58 | {% magic_shield_ability spell-resistance 'Spell Resistance (15)' %} | +3 bonus<sup>1</sup>
-| &nbsp; | 99 | 59 | {% magic_shield_ability wild %} | +3 bonus<sup>1</sup>
-| &nbsp; | &nbsp; | 60-64 | {% magic_shield_ability acid-resistance-improved %} | +42,000 gp
-| &nbsp; | &nbsp; | 65-69 | {% magic_shield_ability cold-resistance-improved %} | +42,000 gp
-| &nbsp; | &nbsp; | 70-74 | {% magic_shield_ability electricity-resistance-improved %} | +42,000 gp
-| &nbsp; | &nbsp; | 75-79 | {% magic_shield_ability fire-resistance-improved %} | +42,000 gp
-| &nbsp; | &nbsp; | 80-84 | {% magic_shield_ability sonic-resistance-improved %} | +42,000 gp
-| &nbsp; | &nbsp; | 85-86 | {% magic_shield_ability spell-resistance 'Spell Resistance (17)' %} | +4 bonus<sup>1</sup>
-| &nbsp; | &nbsp; | 87 | {% magic_shield_ability undead-controlling %} | +49,000 gp
-| &nbsp; | &nbsp; | 88-91 | {% magic_shield_ability fortification 'Fortification, Heavy' %} | +5 bonus<sup>1</sup>
-| &nbsp; | &nbsp; | 92-93 | {% magic_shield_ability reflecting %} | +5 bonus<sup>1</sup>
-| &nbsp; | &nbsp; | 94 | {% magic_shield_ability spell-resistance 'Spell Resistance (19)' %} | +5 bonus<sup>1</sup>
-| &nbsp; | &nbsp; | 95 | {% magic_shield_ability acid-resistance-greater %} | +66,000 gp
-| &nbsp; | &nbsp; | 96 | {% magic_shield_ability cold-resistance-greater %} | +66,000 gp
-| &nbsp; | &nbsp; | 97 | {% magic_shield_ability electricity-resistance-greater %} | +66,000 gp
-| &nbsp; | &nbsp; | 98 | {% magic_shield_ability fire-resistance-greater %} | +66,000 gp
-| &nbsp; | &nbsp; | 99 | {% magic_shield_ability sonic-resistance-greater %} | +66,000 gp
+| 01-20 | 01-10 | 01-05 | {% magic_shield_ability_link arrow-catching %} | +1 bonus<sup>1</sup>
+| 21-40 | 11-20 | 06-08 | {% magic_shield_ability_link bashing %} | +1 bonus<sup>1</sup>
+| 41-50 | 21-25 | 09-10 | {% magic_shield_ability_link blinding %} | +1 bonus<sup>1</sup>
+| 51-75 | 26-40 | 11-15 | {% magic_shield_ability_link fortification 'Fortification, Light' %} | +1 bonus<sup>1</sup>
+| 76-92 | 41-50 | 16-20 | {% magic_shield_ability_link arrow-deflection %} | +2 bonus<sup>1</sup>
+| 93-97 | 51-57 | 21-25 | {% magic_shield_ability_link animated %} | +2 bonus<sup>1</sup>
+| 98-99 | 58-59 | &nbsp; | {% magic_shield_ability_link spell-resistance 'Spell Resistance (13)' %} | +2 bonus<sup>1</sup>
+| &nbsp; | xx-xx | xx-xx | {% magic_shield_ability_link wandbearing %} | +6,000 gp
+| &nbsp; | 60-63 | 26-28 | {% magic_shield_ability_link acid-resistance %} | +18,000 gp
+| &nbsp; | 64-67 | 29-31 | {% magic_shield_ability_link cold-resistance %} | +18,000 gp
+| &nbsp; | 68-71 | 32-34 | {% magic_shield_ability_link electricity-resistance %} | +18,000 gp
+| &nbsp; | 72-75 | 35-37 | {% magic_shield_ability_link fire-resistance %} | +18,000 gp
+| &nbsp; | 76-79 | 38-40 | {% magic_shield_ability_link sonic-resistance %} | +18,000 gp
+| &nbsp; | 80-85 | 41-46 | {% magic_shield_ability_link ghost-touch %} | +3 bonus<sup>1</sup>
+| &nbsp; | 86-95 | 47-56 | {% magic_shield_ability_link fortification 'Fortification, Moderate %} | +3 bonus<sup>1</sup>
+| &nbsp; | 96-98 | 57-58 | {% magic_shield_ability_link spell-resistance 'Spell Resistance (15)' %} | +3 bonus<sup>1</sup>
+| &nbsp; | 99 | 59 | {% magic_shield_ability_link wild %} | +3 bonus<sup>1</sup>
+| &nbsp; | &nbsp; | 60-64 | {% magic_shield_ability_link acid-resistance-improved %} | +42,000 gp
+| &nbsp; | &nbsp; | 65-69 | {% magic_shield_ability_link cold-resistance-improved %} | +42,000 gp
+| &nbsp; | &nbsp; | 70-74 | {% magic_shield_ability_link electricity-resistance-improved %} | +42,000 gp
+| &nbsp; | &nbsp; | 75-79 | {% magic_shield_ability_link fire-resistance-improved %} | +42,000 gp
+| &nbsp; | &nbsp; | 80-84 | {% magic_shield_ability_link sonic-resistance-improved %} | +42,000 gp
+| &nbsp; | &nbsp; | 85-86 | {% magic_shield_ability_link spell-resistance 'Spell Resistance (17)' %} | +4 bonus<sup>1</sup>
+| &nbsp; | &nbsp; | 87 | {% magic_shield_ability_link undead-controlling %} | +49,000 gp
+| &nbsp; | &nbsp; | 88-91 | {% magic_shield_ability_link fortification 'Fortification, Heavy' %} | +5 bonus<sup>1</sup>
+| &nbsp; | &nbsp; | 92-93 | {% magic_shield_ability_link reflecting %} | +5 bonus<sup>1</sup>
+| &nbsp; | &nbsp; | 94 | {% magic_shield_ability_link spell-resistance 'Spell Resistance (19)' %} | +5 bonus<sup>1</sup>
+| &nbsp; | &nbsp; | 95 | {% magic_shield_ability_link acid-resistance-greater %} | +66,000 gp
+| &nbsp; | &nbsp; | 96 | {% magic_shield_ability_link cold-resistance-greater %} | +66,000 gp
+| &nbsp; | &nbsp; | 97 | {% magic_shield_ability_link electricity-resistance-greater %} | +66,000 gp
+| &nbsp; | &nbsp; | 98 | {% magic_shield_ability_link fire-resistance-greater %} | +66,000 gp
+| &nbsp; | &nbsp; | 99 | {% magic_shield_ability_link sonic-resistance-greater %} | +66,000 gp
 | 100 | 100 | 100 | Roll twice again<sup>2</sup> | &nbsp;
 |===
 | <sup>1</sup>Add to enhancement bonus on Table: Armor and Shields to determine total market price.<br><sup>2</sup>If you roll a special ability twice, only one counts. If you roll two versions of the same special ability, use the better. |<|<|<|<
 {: #shield-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Magic Shield Special Abilities" }
 
-{% comment %}
-loop through armor abilities
-{% endcomment %}
-
 ### Specific Armors
+
+The following specific suits of armor usually are preconstructed with exactly the qualities described here.
 
 |---
 | Minor | Medium | Major | Specific Armor | Market Price
@@ -198,11 +196,6 @@ loop through armor abilities
 | &nbsp; | &nbsp; | 76-90 | {% specific_magic_armor_link mithril-full-plate-of-speed %} | 26,500 gp
 | &nbsp; | &nbsp; | 91-100 | {% specific_magic_armor_link demon-armor %} | 52,260 gp
 {: #specific-armors-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Armors" }
-The following specific suits of armor usually are preconstructed with exactly the qualities described here.
-
-{% comment %}
-loop through specific armors
-{% endcomment %}
 
 ### Specific Shields
 
@@ -220,7 +213,3 @@ The following specific shields usually are preconstructed with exactly the quali
 | &nbsp; | 96-100 | 61-90 | {% specific_magic_shield_link winged-shield %} | 17,257 gp
 | &nbsp; | &nbsp; | 91-100 | {% specific_magic_shield_link absorbing-shield %} | 50,170 gp
 {: #specific-shields-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Shields" }
-
-{% comment %}
-loop through specific shields
-{% endcomment %}

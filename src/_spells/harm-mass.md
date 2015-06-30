@@ -17,5 +17,5 @@ spell:
   range:              "Close (25 ft. + 5 ft./2 levels)"
   target:             "One or more creatures, no two of which can be more than 30 ft. apart"
   description:        |
-    This spell functions like _harm_, except as noted above. The maximum damage to each creature is 250.
+    This spell functions like {% spell_link harm %}, except as noted above. The maximum damage to each creature is 250.
 ---

@@ -4,12 +4,12 @@ title: "Track"
 feat:
   types: ["General"]
   benefit: |
-    To find tracks or to follow them for 1 mile requires a successful _survival_ check. You must make another _survival_ check every time the tracks become difficult to follow.
+    To find tracks or to follow them for 1 mile requires a successful {% skill_link survival %} check. You must make another {% skill_link survival %} check every time the tracks become difficult to follow.
 
     You move at half your normal speed (or at your normal speed with a -5 penalty on the check, or at up to twice your normal speed with a -20 penalty on the check). The DC depends on the surface and the prevailing conditions, as given on the table below:
 
     |---
-    | Surface | _survival_ DC | Surface | _survival_ DC
+    | Surface | {% skill_link survival %} DC | Surface | {% skill_link survival %} DC
     |-|-|-|-
     | Very soft ground | 5 | Firm ground | 15
     | Soft ground | 10 | Hard ground | 20
@@ -23,10 +23,10 @@ feat:
 
     _Hard Ground:_ Any surface that doesn't hold footprints at all, such as bare rock or an indoor floor. Most streambeds fall into this category, since any footprints left behind are obscured or washed away. The creature leaves only traces (scuff marks or displaced pebbles).
 
-    Several modifiers may apply to the _survival_ check, as given on the table below.
+    Several modifiers may apply to the {% skill_link survival %} check, as given on the table below.
 
     |---
-    | Condition | _survival_ DC Modifier
+    | Condition | {% skill_link survival %} DC Modifier
     |-|-
     | Every three creatures in the group being tracked | -1
     | Size of creature or creatures being tracked:<sup>1</sup> |<
@@ -51,9 +51,9 @@ feat:
     | <sup>1</sup> For a group of mixed sizes, apply only the modifier for the largest size category.<br><sup>2</sup> Apply only the largest modifier from this category. |<
     {: #track-dc-modifier-table .table .table-bordered .table-hover .table-striped data-caption="Table: Track DC Modifiers" }
 
-    If you fail a _survival_ check, you can retry after 1 hour (outdoors) or 10 minutes (indoors) of searching.
+    If you fail a {% skill_link survival %} check, you can retry after 1 hour (outdoors) or 10 minutes (indoors) of searching.
   normal: |
-    Without this feat, you can use the _survival_ skill to find tracks, but you can follow them only if the DC for the task is 10 or lower. Alternatively, you can use the _search_ skill to find a footprint or similar sign of a creature's passage using the DCs given above, but you can't use _search_ to follow tracks, even if someone else has already found them.
+    Without this feat, you can use the {% skill_link survival %} skill to find tracks, but you can follow them only if the DC for the task is 10 or lower. Alternatively, you can use the {% skill_link search %} skill to find a footprint or similar sign of a creature's passage using the DCs given above, but you can't use {% skill_link search %} to follow tracks, even if someone else has already found them.
   special: |
     A ranger automatically has Track as a bonus feat. He need not select it.
 

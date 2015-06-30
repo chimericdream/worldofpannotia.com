@@ -55,19 +55,19 @@ class:
     additionalInfo: |
       #### Terrain Mastery Benefits
 
-      **Aquatic:** You gain a +4 competence bonus on _swim_ checks, or a +10-foot bonus to your swim speed if you have one. You gain a +1 insight bonus on attack and damage rolls against aquatic creatures.
+      **Aquatic:** You gain a +4 competence bonus on {% skill_link swim %} checks, or a +10-foot bonus to your swim speed if you have one. You gain a +1 insight bonus on attack and damage rolls against aquatic creatures.
 
       **Desert:** You resist effects that tire you. You are immune to fatigue, and anything that would cause you to become exhausted makes you fatigued instead. You gain a +1 insight bonus on attack and damage rolls against desert creatures.
 
-      **Forest:** You have a +4 competence bonus on _hide_ checks. You gain a +1 insight bonus on attack and damage rolls against forest creatures.
+      **Forest:** You have a +4 competence bonus on {% skill_link hide %} checks. You gain a +1 insight bonus on attack and damage rolls against forest creatures.
 
-      **Hills:** You gain a +4 competence bonus on _listen_ checks. You gain a +1 insight bonus on attack and damage rolls against hills creatures.
+      **Hills:** You gain a +4 competence bonus on {% skill_link listen %} checks. You gain a +1 insight bonus on attack and damage rolls against hills creatures.
 
-      **Marsh:** You have a +4 competence bonus on _move silently_ checks. You gain a +1 insight bonus on attack and damage rolls against marsh creatures.
+      **Marsh:** You have a +4 competence bonus on {% skill_link move-silently %} checks. You gain a +1 insight bonus on attack and damage rolls against marsh creatures.
 
-      **Mountains:** You gain a +4 competence bonus on _climb_ checks, or a +10-foot bonus to your climb speed if you have one. You gain a +1 insight bonus on attack and damage rolls against mountain creatures.
+      **Mountains:** You gain a +4 competence bonus on {% skill_link climb %} checks, or a +10-foot bonus to your climb speed if you have one. You gain a +1 insight bonus on attack and damage rolls against mountain creatures.
 
-      **Plains:** You have a +4 competence bonus on _spot_ checks. You gain a +1 insight bonus on attack and damage rolls against plains creatures.
+      **Plains:** You have a +4 competence bonus on {% skill_link spot %} checks. You gain a +1 insight bonus on attack and damage rolls against plains creatures.
 
       **Underground:** You have 60-foot darkvision, or 120-foot darkvision if you already had darkvision from another source. You gain a +1 insight bonus on attack and damage rolls against underground creatures.
 
@@ -77,7 +77,7 @@ class:
 
       **Cold (Planar):** This kind of planar terrain mastery provides you with resistance to cold 20. You gain a +1 insight bonus on attack and damage rolls against outsiders and elementals with the cold subtype.
 
-      **Shifting (Planar):** You instinctively anticipate shifts in the reality of the plane that bring you closer to your destination, giving you the spell-like ability to use _dimension door_ (as the spell cast at your character level) once every 1d4 rounds. You gain a +1 insight bonus on attack and damage rolls against outsiders and elementals native to a shifting plane.
+      **Shifting (Planar):** You instinctively anticipate shifts in the reality of the plane that bring you closer to your destination, giving you the spell-like ability to use {% spell_link dimension-door %} (as the spell cast at your character level) once every 1d4 rounds. You gain a +1 insight bonus on attack and damage rolls against outsiders and elementals native to a shifting plane.
 
       **Aligned (Planar):** You have the instinctive ability to mimic the dominant alignment of the plane. You incur none of the penalties for having an alignment at odds with that of the plane, and spells and abilities that harm those of the opposite alignment don't affect you. You have the dominant alignment of the plane with regard to magic, but your behavior and any alignment-related Class Features you have are unaffected.
 

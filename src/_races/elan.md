@@ -17,7 +17,7 @@ race:
   levelAdjust: 0
   traits: |
      * -2 Charisma
-     * Aberration: Elans are not subject to spells or effects that affect humanoids only, such as _charm person_ or _dominate person_.
+     * Aberration: Elans are not subject to spells or effects that affect humanoids only, such as {% spell_link charm-person %} or {% spell_link dominate-person %}.
      * Medium: As Medium creatures, elans have no special bonuses or penalties due to their size.
      * Elan base land speed is 30 feet.
      * Elans (unlike most aberrations) do not have darkvision.

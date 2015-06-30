@@ -11,5 +11,5 @@ ability:
     special: []
   marketPriceSpecial: "+15,000 gp"
   description: |
-    As slick, except it grants a +10 competence bonus on _escape artist_ checks.
+    As slick, except it grants a +10 competence bonus on {% skill_link escape-artist %} checks.
 ---

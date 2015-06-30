@@ -2,3 +2,28 @@ collections:
   epic_staffs:
     output:    true
     permalink: /equipment/epic-magic-items/staffs/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: epic_staffs
+    values:
+      layout: "equipment/magic-items/staff"
+      crumbs: [equipment, epic-magic-items, staffs]
+      crumbTitles: [Equipment, Epic Magic Items, Staffs]
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""

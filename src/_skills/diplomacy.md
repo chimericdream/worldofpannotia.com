@@ -7,11 +7,11 @@ skill:
   trained_only: false
   armor_check_penalty: false
   check: |
-    You can change the attitudes of others (nonplayer characters) with a successful _diplomacy_ check; see the Influencing NPC Attitudes sidebar, below, for basic DCs. In negotiations, participants roll opposed Diplomacy checks, and the winner gains the advantage. Opposed checks also resolve situations when two advocates or diplomats plead opposite cases in a hearing before a third party.
+    You can change the attitudes of others (nonplayer characters) with a successful {% skill_link diplomacy %} check; see the Influencing NPC Attitudes sidebar, below, for basic DCs. In negotiations, participants roll opposed Diplomacy checks, and the winner gains the advantage. Opposed checks also resolve situations when two advocates or diplomats plead opposite cases in a hearing before a third party.
 
     #### Influencing NPC Attitudes
 
-    Use the table below to determine the effectiveness of _diplomacy_ checks (or Charisma checks) made to influence the attitude of a nonplayer character, or wild empathy checks made to influence the attitude of an animal or magical beast.
+    Use the table below to determine the effectiveness of {% skill_link diplomacy %} checks (or Charisma checks) made to influence the attitude of a nonplayer character, or wild empathy checks made to influence the attitude of an animal or magical beast.
 
     |---
     | Initial Attitude |: New Attitude (DC to achieve) :|<|<|<|<
@@ -33,14 +33,14 @@ skill:
     | Friendly | Wishes you well | Chat, advise, offer limited help, advocate
     | Helpful | Will take risks to help you | Protect, back up, heal, aid
     {: #npc-attitude-table .table .table-bordered .table-hover .table-striped data-caption="Table: NPC Attitudes" }
-  action: "Changing others' attitudes with _diplomacy_ generally takes at least 1 full minute (10 consecutive full-round actions). In some situations, this time requirement may greatly increase. A rushed _diplomacy_ check can be made as a full-round action, but you take a -10 penalty on the check."
-  try_again: "Optional, but not recommended because retries usually do not work. Even if the initial _diplomacy_ check succeeds, the other character can be persuaded only so far, and a retry may do more harm than good. If the initial check fails, the other character has probably become more firmly committed to his position, and a retry is futile."
+  action: "Changing others' attitudes with {% skill_link diplomacy %} generally takes at least 1 full minute (10 consecutive full-round actions). In some situations, this time requirement may greatly increase. A rushed {% skill_link diplomacy %} check can be made as a full-round action, but you take a -10 penalty on the check."
+  try_again: "Optional, but not recommended because retries usually do not work. Even if the initial {% skill_link diplomacy %} check succeeds, the other character can be persuaded only so far, and a retry may do more harm than good. If the initial check fails, the other character has probably become more firmly committed to his position, and a retry is futile."
   special: |
-    A half-elf has a +2 racial bonus on _diplomacy_ checks.
+    A half-elf has a +2 racial bonus on {% skill_link diplomacy %} checks.
 
-    If you have the Negotiator feat, you get a +2 bonus on _diplomacy_ checks.
+    If you have the Negotiator feat, you get a +2 bonus on {% skill_link diplomacy %} checks.
   synergy: |
-     * If you have 5 or more ranks in _bluff_, _knowledge (nobility and royalty)_, or _sense motive_, you get a synergy bonus on _diplomacy_ checks.
+     * If you have 5 or more ranks in {% skill_link bluff %}, {% skill_link knowledge 'Knowledge (Nobility and Royalty)' %}, or {% skill_link sense-motive %}, you get a synergy bonus on {% skill_link diplomacy %} checks.
   restriction: ""
   untrained: ""
 ---

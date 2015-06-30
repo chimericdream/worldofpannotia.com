@@ -8,18 +8,16 @@ item:
   casterLevel: "17th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_disintegrate_"]
+    spells: ["{% spell_link disintegrate %}"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 50170
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 25170
+    xp: 2000
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This _+1 heavy steel shield_ is flat black and seems to absorb light. Once every two days, on command, it can {% spell_link disintegrate %} an object that it touches, as the spell but requiring a melee touch attack.
 ---
-This _+1 heavy steel shield_ is flat black and seems to absorb light. Once every two days, on command, it can _disintegrate_ an object that it touches, as the spell but requiring a melee touch attack.
-; Price 50,170 gp; Cost 25,170 gp + 2,000 XP.
-

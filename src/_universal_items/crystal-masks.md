@@ -20,23 +20,23 @@ item:
 
     A crystal mask is treated as eyewear or goggles for the purpose of determining which items can be worn on the body.
 
-    _Crystal Mask of Detection:_ The wearer of a _crystal mask of detection_ can make _search_ checks with a +10 competence bonus.
+    _Crystal Mask of Detection:_ The wearer of a _crystal mask of detection_ can make {% skill_link search %} checks with a +10 competence bonus.
 
     Moderate clairsentience; ML 7th; creator must have 10 ranks in Search; Price 10,000 gp.
 
-    _Crystal Mask of Discernment:_ The wearer of a _crystal mask of discernment_ can make _sense motive_ checks with a +10 insight bonus.
+    _Crystal Mask of Discernment:_ The wearer of a _crystal mask of discernment_ can make {% skill_link sense-motive %} checks with a +10 insight bonus.
 
     Moderate clairsentience; ML 7th; creator must have 10 ranks in Sense Motive; Price 10,000 gp.
 
-    _Crystal Mask of Dread:_ The wearer of a _crystal mask of dread_ can attempt to frighten other beings to her will. The wearer makes all _intimidate_ checks with a +10 competence bonus.
+    _Crystal Mask of Dread:_ The wearer of a _crystal mask of dread_ can attempt to frighten other beings to her will. The wearer makes all {% skill_link intimidate %} checks with a +10 competence bonus.
 
     Moderate clairsentience; ML 7th; creator must have 10 ranks in Intimidate; Price 10,000 gp.
 
-    _Crystal Mask of Insightful Detection:_ The wearer of a _crystal mask of insightful detection_ can make _search_ checks and _spot_ checks with a +9 insight bonus.
+    _Crystal Mask of Insightful Detection:_ The wearer of a _crystal mask of insightful detection_ can make {% skill_link search %} checks and {% skill_link spot %} checks with a +9 insight bonus.
 
     Moderate clairsentience; ML 7th; creator must have 9 ranks in both Search and Spot; Price 20,250 gp.
 
-    _Crystal Mask of Knowledge:_ Each of the various _crystal masks of knowledge_ grants the wearer a +5 competence bonus on a specific type of _knowledge_ check.
+    _Crystal Mask of Knowledge:_ Each of the various _crystal masks of knowledge_ grants the wearer a +5 competence bonus on a specific type of {% skill_link knowledge %} check.
 
     Faint clairsentience; ML 3rd; creator must have 5 ranks in the Knowledge skill of the appropriate type; Price 2,500 gp.
 

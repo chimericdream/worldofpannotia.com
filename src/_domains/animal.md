@@ -5,7 +5,7 @@ domain:
   grantedPower: |
     You can use speak with animals once per day as a spell-like ability.
 
-    Add _knowledge (nature)_ to your list of cleric class skills.
+    Add {% skill_link knowledge 'Knowledge (Nature)' %} to your list of cleric class skills.
   spells: |
     1. {% spell_link calm-animals %}
     1. {% spell_link hold-animal %}

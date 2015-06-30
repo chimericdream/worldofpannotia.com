@@ -9,6 +9,8 @@ defaults:
       type: wondrous_items
     values:
       layout: "equipment/magic-items/wondrous-item"
+      crumbs: [equipment, magic-items, wondrous-items]
+      crumbTitles: [Equipment, Magic Items, Wondrous Items]
       item:
         shortDesc: ""
         aura: ""

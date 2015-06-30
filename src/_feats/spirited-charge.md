@@ -4,7 +4,7 @@ title: "Spirited Charge"
 feat:
   types: ["General", "Fighter"]
   prerequisite: |
-    _ride_ 1 rank, Mounted Combat, Ride-By Attack.
+    {% skill_link ride %} 1 rank, Mounted Combat, Ride-By Attack.
   benefit: |
     When mounted and using the charge action, you deal double damage with a melee weapon (or triple damage with a lance).
   special: |

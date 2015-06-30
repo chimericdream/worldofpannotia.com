@@ -74,10 +74,10 @@ class:
         desc: "Paladins are proficient with all simple and martial weapons, with all types of armor (heavy, medium, and light), and with shields (except tower shields)."
       - name: "Aura of Good"
         type: "Ex"
-        desc: "The power of a paladin's aura of good (see the _detect good_ spell) is equal to her paladin level."
+        desc: "The power of a paladin's aura of good (see the {% spell_link detect-good %} spell) is equal to her paladin level."
       - name: "Detect Evil"
         type: "Sp"
-        desc: "At will, a paladin can use _detect evil_, as the spell."
+        desc: "At will, a paladin can use {% spell_link detect-evil %}, as the spell."
       - name: "Smite Evil"
         type: "Su"
         desc: |
@@ -129,7 +129,7 @@ class:
           Should the paladin's mount die, it immediately disappears, leaving behind any equipment it was carrying. The paladin may not summon another mount for thirty days or until she gains a paladin level, whichever comes first, even if the mount is somehow returned from the dead. During this thirty-day period, the paladin takes a -1 penalty on attack and weapon damage rolls.
       - name: "Remove Disease"
         type: "Sp"
-        desc: "At 6th level, a paladin can produce a _remove disease_ effect, as the spell, once per week. She can use this ability one additional time per week for every three levels after 6th (twice per week at 9th, three times at 12th, and so forth)."
+        desc: "At 6th level, a paladin can produce a {% spell_link remove-disease %} effect, as the spell, once per week. She can use this ability one additional time per week for every three levels after 6th (twice per week at 9th, three times at 12th, and so forth)."
       - name: "Code of Conduct"
         type: ""
         desc: |

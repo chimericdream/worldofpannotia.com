@@ -20,7 +20,7 @@ race:
      * Medium size.
      * A tiefling's base land speed is 30 feet.
      * Darkvision out to 60 feet.
-     * Racial Skills: Tieflings have a +2 racial bonus on _bluff_ and _hide_ checks.
+     * Racial Skills: Tieflings have a +2 racial bonus on {% skill_link bluff %} and {% skill_link hide %} checks.
      * Racial Feats: A tiefling gains feats according to its class levels.
      * Special Attacks (see above): Darkness.
      * Special Qualities (see above): Resistance to cold 5, electricity 5, and fire 5.

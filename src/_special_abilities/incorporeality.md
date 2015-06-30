@@ -13,7 +13,7 @@ ability:
 
     Incorporeal creatures are immune to critical hits, extra damage from being favored enemies, and from sneak attacks. They move in any direction (including up or down) at will. They do not need to walk on the ground. They can pass through solid objects at will, although they cannot see when their eyes are within solid matter.
 
-    Incorporeal creatures hiding inside solid objects get a +2 circumstance bonus on _listen_ checks, because solid objects carry sound well. Pinpointing an opponent from inside a solid object uses the same rules as pinpointing invisible opponents (see <a href="#invisibility">Invisibility</a>, below).
+    Incorporeal creatures hiding inside solid objects get a +2 circumstance bonus on {% skill_link listen %} checks, because solid objects carry sound well. Pinpointing an opponent from inside a solid object uses the same rules as pinpointing invisible opponents (see <a href="#invisibility">Invisibility</a>, below).
 
     Incorporeal creatures are inaudible unless they decide to make noise.
 

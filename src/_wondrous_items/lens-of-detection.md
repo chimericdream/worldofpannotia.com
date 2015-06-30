@@ -14,7 +14,7 @@ item:
   marketPriceSpecial: ""
   weight: "1 lb"
   description: |
-    This circular prism enables its user to detect minute details, granting a +5 bonus on _search_ checks.
+    This circular prism enables its user to detect minute details, granting a +5 bonus on {% skill_link search %} checks.
 
-    It also aids in following tracks, adding a +5 bonus on _survival_ checks when tracking. The lens is about 6 inches in diameter and set in a frame with a handle.
+    It also aids in following tracks, adding a +5 bonus on {% skill_link survival %} checks when tracking. The lens is about 6 inches in diameter and set in a frame with a handle.
 ---

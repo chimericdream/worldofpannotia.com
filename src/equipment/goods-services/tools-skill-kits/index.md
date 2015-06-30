@@ -34,17 +34,17 @@ title: "Tools &amp; Skill Kits"
 
 **Alchemist's Lab:** An alchemist's lab always has the perfect tool for making alchemical items, so it provides a +2 circumstance bonus on _craft (alchemy)_ checks. It has no bearing on the costs related to the _craft (alchemy)_ skill. Without this lab, a character with the _craft (alchemy)_ skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides.
 
-**Artisan's Tools:** These special tools include the items needed to pursue any craft. Without them, you have to use improvised tools (-2 penalty on _craft_ checks), if you can do the job at all.
+**Artisan's Tools:** These special tools include the items needed to pursue any craft. Without them, you have to use improvised tools (-2 penalty on {% skill_link craft %} checks), if you can do the job at all.
 
-**Artisan's Tools, Masterwork:** These tools serve the same purpose as artisan's tools (above), but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on _craft_ checks made with them.
+**Artisan's Tools, Masterwork:** These tools serve the same purpose as artisan's tools (above), but masterwork artisan's tools are the perfect tools for the job, so you get a +2 circumstance bonus on {% skill_link craft %} checks made with them.
 
-**Climber's Kit:** This is the perfect tool for climbing and gives you a +2 circumstance bonus on _climb_ checks.
+**Climber's Kit:** This is the perfect tool for climbing and gives you a +2 circumstance bonus on {% skill_link climb %} checks.
 
 **Codex:** This item looks much like a scroll case. However, it has several (3 to 6) bands near the center. These can be rotated around the cylinder, and are typically covered with runes or numbers, though some may have magical writing only visible with certain spells. The premise of a codex is to safely store documents or plans of extreme secrecy or importance. Inside, the paper to be protected is wrapped around a vial of acid or other corrosive substance. When the codex is locked, any attempt to forcibly open it will cause a small hammer to break the vial, destroying the document. Due to their nature, codices are very rare and expensive. However, when a normal lock will not suffice and magic is not an option, they are a viable alternative. Without the proper code, the codex cannot be unlocked.
 
 When unlocked, one end of the codex slides off to reveal the hollow area. However, if this area is pulled with the wrong combination word (ie - someone is trying to guess the password), there is a 10% chance the hammer will break the vial inside.
 
-Because of the nature of a codex, the _knock_ spell is not sufficient to open the container. Since codices consist of at least three separate locking mechanisms, each casting of the _knock_ spell is only able to unlock up to two at a time, meaning that at all times, at least one of the mechanisms remains locked and protecting the information stored inside.
+Because of the nature of a codex, the {% spell_link knock %} spell is not sufficient to open the container. Since codices consist of at least three separate locking mechanisms, each casting of the {% spell_link knock %} spell is only able to unlock up to two at a time, meaning that at all times, at least one of the mechanisms remains locked and protecting the information stored inside.
 
 |---
 | Codex | Cost | Weight
@@ -55,7 +55,7 @@ Because of the nature of a codex, the _knock_ spell is not sufficient to open th
 | 6 letter / digit combination | 5000 gp | 2 lb.
 {: #codex-types-table .table .table-bordered .table-hover .table-striped data-caption="Table: Codex Types" }
 
-**Disguise Kit:** The kit is the perfect tool for disguise and provides a +2 circumstance bonus on _disguise_ checks. A disguise kit is exhausted after ten uses.
+**Disguise Kit:** The kit is the perfect tool for disguise and provides a +2 circumstance bonus on {% skill_link disguise %} checks. A disguise kit is exhausted after ten uses.
 
 **Healer's Kit:** It is the perfect tool for healing and provides a +2 circumstance bonus on {% spell_link heal %} checks. A healer's kit is exhausted after ten uses.
 
@@ -63,9 +63,9 @@ Because of the nature of a codex, the _knock_ spell is not sufficient to open th
 
 **Unholy Symbols:** An unholy symbol is like a holy symbol except that it focuses negative energy and is used by evil clerics (or by neutral clerics who want to cast evil spells or command undead).
 
-**Magnifying Glass:** This simple lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and at least a full-round action. A magnifying glass grants a +2 circumstance bonus on _appraise_ checks involving any item that is small or highly detailed.
+**Magnifying Glass:** This simple lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and at least a full-round action. A magnifying glass grants a +2 circumstance bonus on {% skill_link appraise %} checks involving any item that is small or highly detailed.
 
-**Musical Instrument, Common or Masterwork:** A masterwork instrument grants a +2 circumstance bonus on _perform_ checks involving its use.
+**Musical Instrument, Common or Masterwork:** A masterwork instrument grants a +2 circumstance bonus on {% skill_link perform %} checks involving its use.
 
 **Potion Belt:** This broad leather belt has a large steel clasp in the front. It is made of thick, tough leather to hold the weight of several flasks of liquid or vials of potions and poisons. Typical potion belts have eight leather straps, four on each side, that can be fitted around the neck of a flask or vial, securing it to the belt. An item secured in this manner may be retrieved as a move action.
 
@@ -73,7 +73,7 @@ If the character has the Quick Draw feat, drawing a flask or vial may be done as
 
 **Note:** This item only allows a character to grasp a flask or vial. Drinking a potion or applying an oil is still a standard action that provokes an attack of opportunity.
 
-**Scale, Merchant's:** A scale grants a +2 circumstance bonus on _appraise_ checks involving items that are valued by weight, including anything made of precious metals.
+**Scale, Merchant's:** A scale grants a +2 circumstance bonus on {% skill_link appraise %} checks involving items that are valued by weight, including anything made of precious metals.
 
 **Scroll Bandolier:** This bandolier is made of a flexible leather or cloth. It is a non-magical item with several small pouches along its length, allowing a character to store up to ten scrolls for easy retrieval. As a move action, a character may draw a scroll from the bandolier to cast the spell.
 
@@ -85,9 +85,9 @@ If the character has the Quick Draw feat, this may be done as a free action.
 
 **Spellbook, Wizard's (Blank):** A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).
 
-**Thieves' Tools:** This kit contains the tools you need to use the _disable device_ and _open lock_ skills. Without these tools, you must improvise tools, and you take a -2 circumstance penalty on _disable device_ and _open lock_ checks.
+**Thieves' Tools:** This kit contains the tools you need to use the {% skill_link disable-device %} and {% skill_link open-lock %} skills. Without these tools, you must improvise tools, and you take a -2 circumstance penalty on {% skill_link disable-device %} and {% skill_link open-lock %} checks.
 
-**Thieves' Tools, Masterwork:** This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on _disable device_ and _open lock_ checks.
+**Thieves' Tools, Masterwork:** This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on {% skill_link disable-device %} and {% skill_link open-lock %} checks.
 
 **Tool, Masterwork:** This well-made item is the perfect tool for the job. It grants a +2 circumstance bonus on a related skill check (if any). Bonuses provided by multiple masterwork items used toward the same skill check do not stack.
 

@@ -3,7 +3,7 @@ title: "Community"
 
 domain:
   grantedPower: |
-    Use calm emotions as a spell-like ability once per day. Gain a +2 competence bonus on _diplomacy_ checks.
+    Use calm emotions as a spell-like ability once per day. Gain a +2 competence bonus on {% skill_link diplomacy %} checks.
   spells: |
     1. {% spell_link bless %}
     1. {% spell_link status %}

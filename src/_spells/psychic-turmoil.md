@@ -24,5 +24,5 @@ spell:
   description:        |
     With this spell, you create an invisible field that leeches away the power points of psionic characters standing within the emanation. Nonpsionic characters are unaffected.
 
-    When the spell is cast and at the beginning of each of your subsequent turns, psionic creatures within the area of the psychic turmoil lose 1 power point per manifester level they have. Characters who succeed on a Will save when they first come into contact with the emanation lose only half as many power points (round down) each round. Characters get only one save attempt against any particular psychic turmoil effect, even if they leave the spell's area and later return.
+    When the spell is cast and at the beginning of each of your subsequent turns, psionic creatures within the area of the {% spell_link psychic-turmoil %} lose 1 power point per manifester level they have. Characters who succeed on a Will save when they first come into contact with the emanation lose only half as many power points (round down) each round. Characters get only one save attempt against any particular {% spell_link psychic-turmoil %} effect, even if they leave the spell's area and later return.
 ---

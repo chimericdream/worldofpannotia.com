@@ -26,7 +26,7 @@ Magic items are divided into categories: armor, weapons, potions, rings, rods, s
 
 #### Magic Items and Detect Magic
 
-When _detect magic_ identifies a magic item's school of magic, this information refers to the school of the spell placed within the potion, scroll, or wand, or the prerequisite given for the item. The description of each item provides its aura strength and the school it belongs to.
+When {% spell_link detect-magic %} identifies a magic item's school of magic, this information refers to the school of the spell placed within the potion, scroll, or wand, or the prerequisite given for the item. The description of each item provides its aura strength and the school it belongs to.
 
 If more than one spell is given as a prerequisite, use the highest-level spell. If no spells are included in the prerequisites, use the following default guidelines.
 
@@ -56,9 +56,9 @@ A command word can be a real word, but when this is the case, the holder of the 
 
 Sometimes the command word to activate an item is written right on the item. Occasionally, it might be hidden within a pattern or design engraved on, carved into, or built into the item, or the item might bear a clue to the command word.
 
-The _knowledge (arcana)_ and _knowledge (history)_ skills might be useful in helping to identify command words or deciphering clues regarding them. A successful check against DC 30 is needed to come up with the word itself. If that check is failed, succeeding on a second check (DC 25) might provide some insight into a clue.
+The {% skill_link knowledge 'Knowledge (Arcana)' %} and {% skill_link knowledge 'Knowledge (History)' %} skills might be useful in helping to identify command words or deciphering clues regarding them. A successful check against DC 30 is needed to come up with the word itself. If that check is failed, succeeding on a second check (DC 25) might provide some insight into a clue.
 
-The spells _identify_ and _analyze dweomer_ both reveal command words.
+The spells {% spell_link identify %} and {% spell_link analyze-dweomer %} both reveal command words.
 
 **Use Activated:** This type of item simply has to be used in order to activate it. Use activation is generally straightforward and self-explanatory.
 
@@ -114,7 +114,7 @@ Magic items, unless otherwise noted, take damage as nonmagical items of the same
 
 #### Repairing Magic Items
 
-Some magic items take damage over the course of an adventure. It costs no more to repair a magic item with the _craft_ skill than it does to repair its nonmagical counterpart. The _make whole_ spell also repairs a damaged &ndash; but not completely broken &ndash; magic item.
+Some magic items take damage over the course of an adventure. It costs no more to repair a magic item with the {% skill_link craft %} skill than it does to repair its nonmagical counterpart. The {% spell_link make-whole %} spell also repairs a damaged &ndash; but not completely broken &ndash; magic item.
 
 #### Intelligent Items
 
@@ -142,9 +142,9 @@ Some individual items, notably those that simply store spells, don't get full-bl
 
 Items with full descriptions have their powers detailed, and each of the following topics is covered in notational form at the end of the description.
 
-**Aura:** Most of the time, a _detect magic_ spell will reveal the school of magic associated with a magic item and the strength of the aura an item emits. This information (when applicable) is given at the beginning of the item's notational entry. See the _detect magic_ spell description for details.
+**Aura:** Most of the time, a {% spell_link detect-magic %} spell will reveal the school of magic associated with a magic item and the strength of the aura an item emits. This information (when applicable) is given at the beginning of the item's notational entry. See the {% spell_link detect-magic %} spell description for details.
 
-**Caster Level:** The next item in a notational entry of a magical item gives the caster level of the item, indicating its relative power. The caster level determines the item's saving throw bonus, as well as range or other level-dependent aspects of the powers of the item (if variable). It also determines the level that must be contended with should the item come under the effect of a _dispel magic_ spell or similar situation. This information is given in the form "CL x," where "CL" is an abbreviation for caster level and "x" is an ordinal number representing the caster level itself.
+**Caster Level:** The next item in a notational entry of a magical item gives the caster level of the item, indicating its relative power. The caster level determines the item's saving throw bonus, as well as range or other level-dependent aspects of the powers of the item (if variable). It also determines the level that must be contended with should the item come under the effect of a {% spell_link dispel-magic %} spell or similar situation. This information is given in the form "CL x," where "CL" is an abbreviation for caster level and "x" is an ordinal number representing the caster level itself.
 
 For potions, scrolls, and wands, the creator can set the caster level of an item at any number high enough to cast the stored spell and not higher than her own caster level. For other magic items, the caster level is determined by the item itself. In this case, the creator's caster level must be as high as the item's caster level (and prerequisites may effectively put a higher minimum on the creator's level).
 

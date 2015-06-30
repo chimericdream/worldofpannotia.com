@@ -6,7 +6,7 @@ feat:
   prerequisite: |
     Int 13, Combat Expertise.
   benefit: |
-    You can make a _bluff_ check to feint in combat as a move action.
+    You can make a {% skill_link bluff %} check to feint in combat as a move action.
   normal: |
     Feinting in combat is a standard action.
 

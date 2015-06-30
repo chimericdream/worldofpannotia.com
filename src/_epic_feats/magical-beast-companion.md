@@ -4,7 +4,7 @@ title: "Magical Beast Companion"
 feat:
   types: ["Wild", "Epic"]
   prerequisite: |
-    _knowledge (nature)_ 24 ranks, _wild shape_ 6/day.
+    {% skill_link knowledge 'Knowledge (Nature)' %} 24 ranks, _wild shape_ 6/day.
   benefit: |
     The following magical beasts are added to the lists of animal companions from which you can select.
 

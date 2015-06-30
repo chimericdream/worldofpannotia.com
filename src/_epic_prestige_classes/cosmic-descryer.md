@@ -61,7 +61,7 @@ class:
       - name: "Superior Planar Summoning"
         type: "Ex"
         desc: |
-          Beginning at 1st level, the cosmic descryer can increase the power of any of the following spells&ndash;_elemental swarm, gate, greater planar ally, greater planar binding, summon monster IX,_ or _summon nature's ally I_ X&ndash;to affect or summon outsiders of 4 Hit Dice higher than the spell's normal limit or conjure creatures with 4 Hit Dice of advancement. Every four levels thereafter, the cosmic descryer can increase the number of extra Hit Dice by 4.
+          Beginning at 1st level, the cosmic descryer can increase the power of any of the following spells&ndash;{% spell_link elemental-swarm %}, {% spell_link gate %}, {% spell_link planar-ally-greater %}, {% spell_link planar-binding-greater %}, {% spell_link summon-monster-ix %}, or {% spell_link summon-natures-ally-ix %}&ndash;to affect or summon outsiders of 4 Hit Dice higher than the spell's normal limit or conjure creatures with 4 Hit Dice of advancement. Every four levels thereafter, the cosmic descryer can increase the number of extra Hit Dice by 4.
       - name: "Naturalization"
         type: "Ex"
         desc: |
@@ -69,7 +69,7 @@ class:
       - name: "Enduring Gate"
         type: "Su"
         desc: |
-          Starting at 3rd level, as a full-round action, the cosmic descryer can make any casting of the _gate_ spell remain for a full day, rather than disappearing after 1 round per caster level. Every three levels thereafter, the cosmic descryer can increase the duration of _gate_ by one additional day.
+          Starting at 3rd level, as a full-round action, the cosmic descryer can make any casting of the {% spell_link gate %} spell remain for a full day, rather than disappearing after 1 round per caster level. Every three levels thereafter, the cosmic descryer can increase the duration of {% spell_link gate %} by one additional day.
       - name: "Bonus Feat"
         type: "Ex"
         desc: |
@@ -79,6 +79,6 @@ class:
       - name: "Cosmic Connection"
         type: "Su"
         desc: |
-          At 7th level, the cosmic descryer may join with the massive energy of the multiverse once per day, plus one additional time per day every five levels thereafter. The cosmic descryer can remain connected for a number of minutes equal to his or her class level. While connected, the character is immune to critical hits, is a native on any plane he or she visits, and can use _dimension door_ at will as a 20th-level caster. The cosmic descryer can draw off excess energy from the multiverse itself to increase his or her effective caster level or enhance any attack roll, saving throw, skill check, or ability check. Drawing off excess energy from the multiverse is dangerous, and it deals the cosmic descryer 5 points of damage for each +1 bonus applied to a single roll or +1 caster level on a single spell.
+          At 7th level, the cosmic descryer may join with the massive energy of the multiverse once per day, plus one additional time per day every five levels thereafter. The cosmic descryer can remain connected for a number of minutes equal to his or her class level. While connected, the character is immune to critical hits, is a native on any plane he or she visits, and can use {% spell_link dimension-door %} at will as a 20th-level caster. The cosmic descryer can draw off excess energy from the multiverse itself to increase his or her effective caster level or enhance any attack roll, saving throw, skill check, or ability check. Drawing off excess energy from the multiverse is dangerous, and it deals the cosmic descryer 5 points of damage for each +1 bonus applied to a single roll or +1 caster level on a single spell.
     additionalInfo: ""
 ---

@@ -11,5 +11,5 @@ ability:
     special: []
   marketPriceSpecial: "+33,750 gp"
   description: |
-    As shadow, except it grants a +15 competence bonus on _hide_ checks.
+    As shadow, except it grants a +15 competence bonus on {% skill_link hide %} checks.
 ---

@@ -3,7 +3,7 @@ title: "Trickery"
 
 domain:
   grantedPower: |
-    Add _bluff_, _disguise_, and _hide_ to your list of cleric class skills.
+    Add {% skill_link bluff %}, {% skill_link disguise %}, and {% skill_link hide %} to your list of cleric class skills.
   spells: |
     1. {% spell_link disguise-self %}
     1. {% spell_link invisibility %}

@@ -20,10 +20,10 @@ artifact:
     | 5 | –1 penalty on all attacks, saves, and checks for 1 hour
     | 6 | –4 penalty to AC for 10 minutes
     | 7 | +1 morale bonus on attacks and on saves against fear for 10 minutes
-    | 8 | Gain effects of _blur_ for 10 minutes
+    | 8 | Gain effects of {% spell_link blur %} for 10 minutes
     | 9 | +1 insight bonus on all attacks, saves, and checks for 1 hour
-    | 10 | Gain effects of _freedom of movement_ for 1 hour
-    | 11 | Gain one _limitedwish_ (must be used within 1 minute)
+    | 10 | Gain effects of {% spell_link freedom-of-movement %} for 1 hour
+    | 11 | Gain one _limited wish_ (must be used within 1 minute)
     | 12 | Gain 10,000 XP and may roll again next round
     {: #rogues-dice-table .table .table-bordered .table-hover .table-striped data-caption="Table: Rogue's Dice Effects" }
 

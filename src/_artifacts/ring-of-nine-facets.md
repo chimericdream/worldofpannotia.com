@@ -19,7 +19,7 @@ artifact:
     | 3 | Wearer gains +5 naturalarmor bonus
     | 4 | Wearer gains low-lightvision
     | 5 | Wearer gains fast healing 1
-    | 6 | Wearer can _fly_ atwill
+    | 6 | Wearer can {% spell_link fly %} atwill
     | 7 | Wearer gains coldresistance 30
     | 8 | Wearer gains _freedom ofmovement_
     | 9 | Wearer gains +5 resistancebonus on saving throws

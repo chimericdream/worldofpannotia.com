@@ -25,7 +25,7 @@ ability:
 
     This ability cannot confer class levels or class abilities.
 
-    The deity can change physical qualities such as hair color, hair texture, skin color, and gender. The deity can use this ability to create disguises, gaining a bonus of +15 on its _disguise_ checks.
+    The deity can change physical qualities such as hair color, hair texture, skin color, and gender. The deity can use this ability to create disguises, gaining a bonus of +15 on its {% skill_link disguise %} checks.
 
     The deity can use its Alter Size ability simultaneously with this one to become as small as a grain of sand or as large as 1,600 feet in the assumed form's greatest dimension.
   portfolioElements: |

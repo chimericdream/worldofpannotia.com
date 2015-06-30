@@ -19,7 +19,7 @@ spell:
   spellResistance:    "Yes"
   fluffText:          "As the vampire was preparing to bite his victim, Dwovar touched him, uttering a short phrase. The vampire shuddered as his pale flesh regained its color. Suddenly, he stepped away, fearing for his new life."
   description:        |
-    This spell functions as _raise dead_, except that it can restore life to a creature who has been turned into an undead creature. You force the creature's soul back into its undead body. Undead creatures with turn resistance may add that bonus to their Will save to resist this effect.
+    This spell functions as {% spell_link raise-dead %}, except that it can restore life to a creature who has been turned into an undead creature. You force the creature's soul back into its undead body. Undead creatures with turn resistance may add that bonus to their Will save to resist this effect.
 
     An undead creature who is resurrected in this way loses all of its undead abilities and returns to its previous form.
 

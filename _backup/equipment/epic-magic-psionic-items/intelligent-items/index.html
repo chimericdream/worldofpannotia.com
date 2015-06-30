@@ -44,7 +44,7 @@ The first step in determining the properties of a random intelligent epic magic 
 To find the market price for an epic magic item, use these expanded guidelines, adjusting as necessary to find an appropriate final price. Each point of Intelligence bonus, Wisdom bonus, or Charisma bonus increases the item's market price by 400 gp. Any form of communication possessed by the item increases its market price by the number shown on Table: Epic Item Communication. Each primary ability possessed by the item increases its market price by 2, 000 to 10, 000 gp (average 6, 000 gp). Each extraordinary ability possessed by the item increases its market price by 15, 000 to 35, 000 gp (average 25, 000 gp). A special purpose increases the item's market price by 50, 000 gp. An awesome power increases the item's market price by 100, 000 gp.
 
 <h3 id="alignment">Intelligent Item Alignment</h3>
-Any item with Intelligence has an alignment. Make sure that the alignment choosen or determine randomly (using Table: Item Alignment) matches any alignment-oriented special abilities of the item. Any character whose alignment is not compatible with that of the item gains one negative level for every 10 points of the weapon's Ego (see Item Ego, below) if he or she so much as picks up the item. Although this never results in actual level loss, the negative levels remain as long as the item is in hand and cannot be overcome in any way (including _restoration_ spells). These negative levels are cumulative with any other penalties the item might already place on inappropriate wielders.
+Any item with Intelligence has an alignment. Make sure that the alignment choosen or determine randomly (using Table: Item Alignment) matches any alignment-oriented special abilities of the item. Any character whose alignment is not compatible with that of the item gains one negative level for every 10 points of the weapon's Ego (see Item Ego, below) if he or she so much as picks up the item. Although this never results in actual level loss, the negative levels remain as long as the item is in hand and cannot be overcome in any way (including {% spell_link restoration %} spells). These negative levels are cumulative with any other penalties the item might already place on inappropriate wielders.
 <table id="item-alignment-table" class="table table-bordered table-hover">
     <caption>Table: Item Alignment</caption>
     <thead>
@@ -75,7 +75,7 @@ Like a character, an intelligent item speaks Common plus one language per point 
         | d% | Communication Mode | Market Price Modifier
     </thead>
     <tfoot>
-        <tr><td colspan="3">1 The possessor receives some signal (a throb or tingle, for example) when the item's ability functions.<br>2 The possessor feels urges and sometimes emotions from the item that encourage or discourage certain courses of action.<br>3 Speaks Common plus one language per point of Intelligence bonus. Roll d%: 01-05, the item cannot read any languages; 06-75, the item can read any language it can speak (+1, 000 gp to market price); 76-90, it can read all languages (+2, 000 gp to market price); 91-100, it can read all languages as well as _read magic_ (+3, 000 gp to market price).<br>4 The item can communicate silently with any wielder who has an Intelligence of 1 or higher, regardless of any language barrier.
+        <tr><td colspan="3">1 The possessor receives some signal (a throb or tingle, for example) when the item's ability functions.<br>2 The possessor feels urges and sometimes emotions from the item that encourage or discourage certain courses of action.<br>3 Speaks Common plus one language per point of Intelligence bonus. Roll d%: 01-05, the item cannot read any languages; 06-75, the item can read any language it can speak (+1, 000 gp to market price); 76-90, it can read all languages (+2, 000 gp to market price); 91-100, it can read all languages as well as {% spell_link read-magic %} (+3, 000 gp to market price).<br>4 The item can communicate silently with any wielder who has an Intelligence of 1 or higher, regardless of any language barrier.
     </tfoot>
     <tbody>
         | 01-10 | Semiempathy<sup>1</sup> | +1, 000 gp
@@ -104,19 +104,19 @@ Using the number of capabilities determined above, find the item's specific abil
         | 25-28 | Wielder has free use of Sunder
         | 29-32 | Wielder has free use of Expertise
         | 33-39 | _Detect_ [opposing alignment] at will
-        | 40-42 | _Find traps_ at will
+        | 40-42 | {% spell_link find-traps %} at will
         | 43-47 | _Detect secret doors_ at will
-        | 48-54 | _Detect magic_ at will
+        | 48-54 | {% spell_link detect-magic %} at will
         | 55-57 | Wielder has free use of uncanny dodge (as a 5th-level barbarian)
         | 58-60 | Wielder has free use of evasion
-        | 61-65 | Wielder can use _see invisibility_ at will
-        | 66-70 | {% spell_link Cure-light-wounds %} (1d8+5) on wielder 1/day
-        | 71-75 | _Feather fall_ on wielder 1/day
-        | 76 | _Locate object_ in a 120-ft. radius
+        | 61-65 | Wielder can use {% spell_link see-invisibility %} at will
+        | 66-70 | {% spell_link cure-light-wounds %} (1d8+5) on wielder 1/day
+        | 71-75 | {% spell_link feather-fall %} on wielder 1/day
+        | 76 | {% spell_link locate-object %} in a 120-ft. radius
         | 77 | Wielder does not need to sleep
         | 78 | Wielder does not need to breathe
-        | 79 | _Jump_ for 20 minutes on wielder 1/day
-        | 80 | _Spider climb_ for 20 minutes on wielder 1/day
+        | 79 | {% spell_link jump %} for 20 minutes on wielder 1/day
+        | 80 | {% spell_link spider-climb %} for 20 minutes on wielder 1/day
         | 81-90 | Roll twice again on this table
         | 91-100 | Roll on Table: Intelligent Item Extraordinary Powers instead
     </tbody>
@@ -132,37 +132,37 @@ If the same ability is rolled twice or more, the range, frequency, or effectiven
         <tr><td colspan="3">1 Choose an ability score of the item (usually the highest) at the time the item is created or randomly generated. Add that ability's bonus to the given DC.
     </tfoot>
     <tbody>
-        | 01-05 | _charm person_ (DC 11<sup>1</sup>) on contact | 3/day
-        | 06-10 | {% spell_link clairaudience/clairvoyance %} (100-ft. range, 1 minute per use) | 3/day
-        | 11-15 | _magic missile_ (200-ft. range, 3 missiles) | 3/day
+        | 01-05 | {% spell_link charm-person %} (DC 11<sup>1</sup>) on contact | 3/day
+        | 06-10 | {% spell_link clairaudience-clairvoyance %} (100-ft. range, 1 minute per use) | 3/day
+        | 11-15 | {% spell_link magic-missile %} (200-ft. range, 3 missiles) | 3/day
         | 16-20 | {% spell_link shield %} on wielder | 3/day
-        | 21-25 | _detect thoughts_ (100-ft. range, 1 minute per use) | 3/day
-        | 26-30 | _levitation_ (wielder only, 10 minute duration) | 3/day
+        | 21-25 | {% spell_link detect-thoughts %} (100-ft. range, 1 minute per use) | 3/day
+        | 26-30 | {% spell_link levitation %} (wielder only, 10 minute duration) | 3/day
         | 31-35 | {% spell_link invisibility %} (wielder only, up to 30 minutes per use) | 3/day
-        | 36-40 | _fly_ (30 minutes per use) | 2/day
+        | 36-40 | {% spell_link fly %} (30 minutes per use) | 2/day
         | 41-45 | {% spell_link lightning-bolt %} (8d6 points of damage, 200-ft. range, DC 13<sup>1</sup>) | 1/day
-        | 46-50 | {% spell_link summon-monster-III %} | 1/day
-        | 51-55 | _telepathy_ (100 ft. range) | 2/day
-        | 56-60 | _cat's grace_ (wielder only) | 1/day
+        | 46-50 | {% spell_link summon-monster-iii %} | 1/day
+        | 51-55 | {% spell_link telepathy %} (100 ft. range) | 2/day
+        | 56-60 | {% spell_link cats-grace %} (wielder only) | 1/day
         | 61-65 | {% spell_link bulls-strength %} (wielder only) | 1/day
         | 66-70 | {% spell_link haste %} (wielder only, 10 rounds) | 1/day
         | 71-73 | {% spell_link telekinesis %} (250 lb. maximum, 1 minute each use) | 2/day
         | 74-76 | {% spell_link heal %} | 1/day
-        | 77 | _teleport, _ 600 lb. maximum | 1/day
-        | 78 | _globe of invulnerability_ | 1/day
+        | 77 | {% spell_link teleport %}, 600 lb. maximum | 1/day
+        | 78 | {% spell_link globe-of-invulnerability %} | 1/day
         | 79 | {% spell_link stoneskin %} (wielder only, 10 minutes per use) | 2/day
-        | 80 | _feeblemind_ by touch | 2/day
+        | 80 | {% spell_link feeblemind %} by touch | 2/day
         | 81 | {% spell_link true-seeing %} | At will
         | 82 | {% spell_link wall-of-force %} | 1/day
-        | 83 | {% spell_link summon-monster-VI %} | 1/day
-        | 84 | _finger of death_ (100 ft. range, DC 17<sup>1</sup>) | 1/day
-        | 85 | _passwall_ | At will
+        | 83 | {% spell_link summon-monster-vi %} | 1/day
+        | 84 | {% spell_link finger-of-death %} (100 ft. range, DC 17<sup>1</sup>) | 1/day
+        | 85 | {% spell_link passwall %} | At will
         | 86-90</td><td colspan="2">Roll twice again on this table
         | 91-100</td><td colspan="2">Roll again on this table, and then roll for a special purpose on Table: Intelligent Item Purpose
     </tbody>
 </table>
 {: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="asdfasdf" }
-If the same power is rolled twice, the uses per day are doubled. (If {% spell_link true-seeing %} or _passwall_ is rolled twice, roll again.) Powers function only when the item is drawn and held, and the possessor is concentrating upon the desired effect. Activating a power is a standard action. An intelligent item might activate a power on its own.
+If the same power is rolled twice, the uses per day are doubled. (If {% spell_link true-seeing %} or {% spell_link passwall %} is rolled twice, roll again.) Powers function only when the item is drawn and held, and the possessor is concentrating upon the desired effect. Activating a power is a standard action. An intelligent item might activate a power on its own.
 <table id="awesome-powers-table" class="table table-bordered table-hover">
     <caption>Table: Intelligent Item Awesome Powers</caption>
     <thead>
@@ -172,23 +172,23 @@ If the same power is rolled twice, the uses per day are doubled. (If {% spell_li
         <tr><td colspan="3">1 Choose an ability score of the item (usually the highest) at the time the item is created or randomly generated. Add that ability's bonus to the listed DC.<br>2 The weapon can only summon monsters whose alignment has no components that oppose the item's alignment.
     </tfoot>
     <tbody>
-        | 01-04 | _astral projection_ | 1/day
+        | 01-04 | {% spell_link astral-projection %} | 1/day
         | 05-08 | {% spell_link bulls-strength %} (wielder only; intensified; +10 enhancement bonus toStrength) | 1/day
-        | 09-12 | _cat's grace_ (wielder only; intensified; +10 enhancement bonus toDexterity) | 1/day
-        | 13-16 | _chain lightning_ (enhanced; 20d6 damage; DC 16<sup>1</sup>) | 1/day
-        | 17-20 | _dominate monster_ (DC 19<sup>1</sup>) on contact | 1/day
+        | 09-12 | {% spell_link cats-grace %} (wielder only; intensified; +10 enhancement bonus toDexterity) | 1/day
+        | 13-16 | {% spell_link chain-lightning %} (enhanced; 20d6 damage; DC 16<sup>1</sup>) | 1/day
+        | 17-20 | {% spell_link dominate-monster %} (DC 19<sup>1</sup>) on contact | 1/day
         | 21-24 | _endurance_ (wielder only; intensified; +10 enhancement bonus toConstitution) | 1/day
-        | 25-28 | _energy drain_ (DC 19<sup>1</sup>) on contact | 1/day
-        | 29-32 | _finger of death_ (heightened to 9th level; DC 19<sup>1</sup>) | 1/day
-        | 33-36 | _foresight_ (wielder only) | 1/day
-        | 37-40 | _gate_ | 1/day
+        | 25-28 | {% spell_link energy-drain %} (DC 19<sup>1</sup>) on contact | 1/day
+        | 29-32 | {% spell_link finger-of-death %} (heightened to 9th level; DC 19<sup>1</sup>) | 1/day
+        | 33-36 | {% spell_link foresight %} (wielder only) | 1/day
+        | 37-40 | {% spell_link gate %} | 1/day
         | 41-44 | {% spell_link haste %} (wielder only; extended; 40-round duration) | 3/day
         | 45-48 | _improved invisibility_ (wielder only; extended; 40-minute duration) | 2/day
-        | 49-52 | _mass heal_ 1/day 53-56 _Meteor swarm_ (DC 19<sup>1</sup>) | 1/day
-        | 57-60 | _phase door_ 2/day 61-64 _Prismatic sphere_ (DC 19<sup>1</sup>) | 1/day
+        | 49-52 | _mass heal_ 1/day 53-56 {% spell_link meteor-swarm %} (DC 19<sup>1</sup>) | 1/day
+        | 57-60 | {% spell_link phase-door %} 2/day 61-64 {% spell_link prismatic-sphere %} (DC 19<sup>1</sup>) | 1/day
         | 65-68 | {% spell_link stoneskin %} (wielder only; extended; 400-minute duration) | 3/day
-        | 69-72 | {% spell_link summon-monster-IX %} 2 (extended; 40-round duration) | 1/day
-        | 73-76 | _sunburst_ (heightened to 9th level; DC 19<sup>1</sup>) | 2/day
+        | 69-72 | {% spell_link summon-monster-ix %} 2 (extended; 40-round duration) | 1/day
+        | 73-76 | {% spell_link sunburst %} (heightened to 9th level; DC 19<sup>1</sup>) | 2/day
         | 77-80</td><th>teleport without error</th><td>2/day
         | 81-90</td><td colspan="2">Roll twice again on this table
         | 91-100</td><td colspan="2">Roll again on this table, and then roll for a special purpose on nonepic magic item Table: Intelligent Item Purpose.
@@ -236,11 +236,11 @@ A special purpose power operates only when the item is in pursuit of its special
     </tfoot>
     <tbody>
         | 01-10 | _blindness_<sup>1</sup> (DC 17<sup>2</sup>) for 2d6 rounds
-        | 11-20 | _confusion_<sup>1</sup> (DC 19<sup>2</sup>) for 2d6 rounds
-        | 21-25 | _fear_<sup>1</sup> (DC 19<sup>2</sup>) for 1d4 rounds
-        | 26-55 | _hold monster_<sup>1</sup> (DC 19<sup>2</sup>) for 1d4 rounds
-        | 56-65 | _slay living_<sup>1</sup> (DC 20<sup>2</sup>)
-        | 66-75 | _disintegrate_<sup>1</sup> (DC 21<sup>2</sup>)
+        | 11-20 | {% spell_link confusion %}<sup>1</sup> (DC 19<sup>2</sup>) for 2d6 rounds
+        | 21-25 | {% spell_link fear %}<sup>1</sup> (DC 19<sup>2</sup>) for 1d4 rounds
+        | 26-55 | {% spell_link hold-monster %}<sup>1</sup> (DC 19<sup>2</sup>) for 1d4 rounds
+        | 56-65 | {% spell_link slay-living %}<sup>1</sup> (DC 20<sup>2</sup>)
+        | 66-75 | {% spell_link disintegrate %}<sup>1</sup> (DC 21<sup>2</sup>)
         | 76-80 | {% spell_link true-resurrection %} on wielder, one time only
         | 81-100 | +4 luck bonus on all saving throws, +4 deflection AC bonus, spell resistance 30
     </tbody>
@@ -267,7 +267,7 @@ Ego is a measure of the total power and force of personality that an item posses
         | Special purpose | 4
         | Telepathic ability | 1
         | Read languages ability | 1
-        | _read magic_ ability | 1
+        | {% spell_link read-magic %} ability | 1
         | Each +1 of Intelligence bonus | 1
         | Each +1 of Wisdom bonus | 1
         | Each +1 of Charisma bonus | 1

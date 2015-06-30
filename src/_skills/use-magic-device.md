@@ -7,14 +7,14 @@ skill:
   trained_only: true
   armor_check_penalty: false
   check: |
-    You can use this skill to read a spell or to activate a magic item. _use magic device_ lets you use a magic item as if you had the spell ability or class features of another class, as if you were a different race, or as if you were of a different alignment.
+    You can use this skill to read a spell or to activate a magic item. {% skill_link use-magic-device %} lets you use a magic item as if you had the spell ability or class features of another class, as if you were a different race, or as if you were of a different alignment.
 
-    You make a _use magic device_ check each time you activate a device such as a wand. If you are using the check to emulate an alignment or some other quality in an ongoing manner, you need to make the relevant _use magic device_ check once per hour.
+    You make a {% skill_link use-magic-device %} check each time you activate a device such as a wand. If you are using the check to emulate an alignment or some other quality in an ongoing manner, you need to make the relevant {% skill_link use-magic-device %} check once per hour.
 
-    You must consciously choose which requirement to emulate. That is, you must know what you are trying to emulate when you make a _use magic device_ check for that purpose. The DCs for various tasks involving _use magic device_ checks are summarized on the table below.
+    You must consciously choose which requirement to emulate. That is, you must know what you are trying to emulate when you make a {% skill_link use-magic-device %} check for that purpose. The DCs for various tasks involving {% skill_link use-magic-device %} checks are summarized on the table below.
 
     |---
-    | Task | _use magic device_ DC
+    | Task | {% skill_link use-magic-device %} DC
     |-|-
     | Activate blindly | 25
     | Decipher a written spell | 25 + spell level
@@ -26,37 +26,37 @@ skill:
     | Emulate an alignment | 30
     {: #use-magic-device-table .table .table-bordered .table-hover .table-striped data-caption="Table: Use Magic Device DCs" }
 
-    _Activate Blindly:_ Some magic items are activated by special words, thoughts, or actions. You can activate such an item as if you were using the activation word, thought, or action, even when you're not and even if you don't know it. You do have to perform some equivalent activity in order to make the check. That is, you must speak, wave the item around, or otherwise attempt to get it to activate. You get a special +2 bonus on your _use magic device_ check if you've activated the item in question at least once before. If you fail by 9 or less, you can't activate the device. If you fail by 10 or more, you suffer a mishap. A mishap means that magical energy gets released but it doesn't do what you wanted it to do. The default mishaps are that the item affects the wrong target or that uncontrolled magical energy is released, dealing 2d6 points of damage to you. This mishap is in addition to the chance for a mishap that you normally run when you cast a spell from a scroll that you could not otherwise cast yourself.
+    _Activate Blindly:_ Some magic items are activated by special words, thoughts, or actions. You can activate such an item as if you were using the activation word, thought, or action, even when you're not and even if you don't know it. You do have to perform some equivalent activity in order to make the check. That is, you must speak, wave the item around, or otherwise attempt to get it to activate. You get a special +2 bonus on your {% skill_link use-magic-device %} check if you've activated the item in question at least once before. If you fail by 9 or less, you can't activate the device. If you fail by 10 or more, you suffer a mishap. A mishap means that magical energy gets released but it doesn't do what you wanted it to do. The default mishaps are that the item affects the wrong target or that uncontrolled magical energy is released, dealing 2d6 points of damage to you. This mishap is in addition to the chance for a mishap that you normally run when you cast a spell from a scroll that you could not otherwise cast yourself.
 
-    _Decipher a Written Spell:_ This usage works just like deciphering a written spell with the _spellcraft_ skill, except that the DC is 5 points higher. Deciphering a written spell requires 1 minute of concentration.
+    _Decipher a Written Spell:_ This usage works just like deciphering a written spell with the {% skill_link spellcraft %} skill, except that the DC is 5 points higher. Deciphering a written spell requires 1 minute of concentration.
 
-    _Emulate an Ability Score:_ To cast a spell from a scroll, you need a high score in the appropriate ability (Intelligence for wizard spells, Wisdom for divine spells, or Charisma for sorcerer or bard spells). Your effective ability score (appropriate to the class you're emulating when you try to cast the spell from the scroll) is your _use magic device_ check result minus 15. If you already have a high enough score in the appropriate ability, you don't need to make this check.
+    _Emulate an Ability Score:_ To cast a spell from a scroll, you need a high score in the appropriate ability (Intelligence for wizard spells, Wisdom for divine spells, or Charisma for sorcerer or bard spells). Your effective ability score (appropriate to the class you're emulating when you try to cast the spell from the scroll) is your {% skill_link use-magic-device %} check result minus 15. If you already have a high enough score in the appropriate ability, you don't need to make this check.
 
-    _Emulate an Alignment:_ Some magic items have positive or negative effects based on the user's alignment. _use magic device_ lets you use these items as if you were of an alignment of your choice. You can emulate only one alignment at a time.
+    _Emulate an Alignment:_ Some magic items have positive or negative effects based on the user's alignment. {% skill_link use-magic-device %} lets you use these items as if you were of an alignment of your choice. You can emulate only one alignment at a time.
 
-    _Emulate a Class Feature:_ Sometimes you need to use a class feature to activate a magic item. In this case, your effective level in the emulated class equals your _use magic device_ check result minus 20. This skill does not let you actually use the class feature of another class. It just lets you activate items as if you had that class feature. If the class whose feature you are emulating has an alignment requirement, you must meet it, either honestly or by emulating an appropriate alignment with a separate _use magic device_ check (see above).
+    _Emulate a Class Feature:_ Sometimes you need to use a class feature to activate a magic item. In this case, your effective level in the emulated class equals your {% skill_link use-magic-device %} check result minus 20. This skill does not let you actually use the class feature of another class. It just lets you activate items as if you had that class feature. If the class whose feature you are emulating has an alignment requirement, you must meet it, either honestly or by emulating an appropriate alignment with a separate {% skill_link use-magic-device %} check (see above).
 
     _Emulate a Race:_ Some magic items work only for members of certain races, or work better for members of those races. You can use such an item as if you were a race of your choice. You can emulate only one race at a time.
 
-    _Use a Scroll:_ If you are casting a spell from a scroll, you have to decipher it first. Normally, to cast a spell from a scroll, you must have the scroll's spell on your class spell list. _use magic device_ allows you to use a scroll as if you had a particular spell on your class spell list. The DC is equal to 20 + the caster level of the spell you are trying to cast from the scroll. In addition, casting a spell from a scroll requires a minimum score (10 + spell level) in the appropriate ability. If you don't have a sufficient score in that ability, you must emulate the ability score with a separate _use magic device_ check (see above).
+    _Use a Scroll:_ If you are casting a spell from a scroll, you have to decipher it first. Normally, to cast a spell from a scroll, you must have the scroll's spell on your class spell list. {% skill_link use-magic-device %} allows you to use a scroll as if you had a particular spell on your class spell list. The DC is equal to 20 + the caster level of the spell you are trying to cast from the scroll. In addition, casting a spell from a scroll requires a minimum score (10 + spell level) in the appropriate ability. If you don't have a sufficient score in that ability, you must emulate the ability score with a separate {% skill_link use-magic-device %} check (see above).
 
     This use of the skill also applies to other spell completion magic items.
 
     _Use a Wand:_ Normally, to use a wand, you must have the wand's spell on your class spell list. This use of the skill allows you to use a wand as if you had a particular spell on your class spell list. This use of the skill also applies to other spell trigger magic items, such as staffs.
   action: |
-    None. The _use magic device_ check is made as part of the action (if any) required to activate the magic item.
+    None. The {% skill_link use-magic-device %} check is made as part of the action (if any) required to activate the magic item.
   try_again: |
     Yes, but if you ever roll a natural 1 while attempting to activate an item and you fail, then you can't try to activate that item again for 24 hours.
   special: |
     You cannot take 10 with this skill.
 
-    You can't aid another on _use magic device_ checks. Only the user of the item may attempt such a check.
+    You can't aid another on {% skill_link use-magic-device %} checks. Only the user of the item may attempt such a check.
 
-    If you have the Magical Aptitude feat, you get a +2 bonus on _use magic device_ checks.
+    If you have the Magical Aptitude feat, you get a +2 bonus on {% skill_link use-magic-device %} checks.
   synergy: |
-     * If you have 5 or more ranks in _spellcraft_, you get a synergy bonus on _use magic device_ checks related to scrolls.
-     * If you have 5 or more ranks in _decipher script_, you get a synergy bonus on _use magic device_ checks related to scrolls.
-     * If you have 5 or more ranks in _use magic device_, you get a +2 bonus to _spellcraft_ checks made to decipher spells on scrolls.
+     * If you have 5 or more ranks in {% skill_link spellcraft %}, you get a synergy bonus on {% skill_link use-magic-device %} checks related to scrolls.
+     * If you have 5 or more ranks in {% skill_link decipher-script %}, you get a synergy bonus on {% skill_link use-magic-device %} checks related to scrolls.
+     * If you have 5 or more ranks in {% skill_link use-magic-device %}, you get a +2 bonus to {% skill_link spellcraft %} checks made to decipher spells on scrolls.
   restriction: ""
   untrained: ""
 ---

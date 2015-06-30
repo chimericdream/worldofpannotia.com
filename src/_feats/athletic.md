@@ -4,5 +4,5 @@ title: "Athletic"
 feat:
   types: ["General"]
   benefit: |
-    You get a +2 bonus on all _climb_ checks and _swim_ checks.
+    You get a +2 bonus on all {% skill_link climb %} checks and {% skill_link swim %} checks.
 ---

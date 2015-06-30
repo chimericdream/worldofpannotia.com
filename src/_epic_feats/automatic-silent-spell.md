@@ -4,7 +4,7 @@ title: "Automatic Silent Spell"
 feat:
   types: ["Epic"]
   prerequisite: |
-    Silent Spell, _spellcraft_ 24 ranks, ability to cast 9th-level arcane or divine spells.
+    Silent Spell, {% skill_link spellcraft %} 24 ranks, ability to cast 9th-level arcane or divine spells.
   benefit: |
     The character may cast all 0-, 1st-, 2nd-, and 3rd-level spells as silent spells without using higher-level spell slots.
   special: |

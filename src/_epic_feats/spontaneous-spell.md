@@ -4,7 +4,7 @@ title: "Spontaneous Spell"
 feat:
   types: ["Epic"]
   prerequisite: |
-    _spellcraft_ 25 ranks, ability to cast the maximum normal spell level of at least one spell-casting class.
+    {% skill_link spellcraft %} 25 ranks, ability to cast the maximum normal spell level of at least one spell-casting class.
   benefit: |
     Select a spell the character can cast. The character may spontaneously convert any prepared spell of the selected spell's level into the selected spell, just as a cleric channels energy to convert spells into _cure_ spells.
   special: |

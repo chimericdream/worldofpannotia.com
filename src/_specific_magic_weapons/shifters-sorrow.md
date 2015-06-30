@@ -7,18 +7,16 @@ item:
   casterLevel: "15th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_baleful polymorph_"]
+    spells: ["{% spell_link baleful-polymorph %}"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 12780
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 6780
+    xp: 480
   costToCreateSpecial: ""
-  weight: ""
-  description: ""
+  weight: "10 lb"
+  description: |
+    This _+1/+1 two-bladed sword_ has blades of alchemical silver. The weapon deals an extra 2d6 points of damage against any creature with the shapechanger subtype. When a shapechanger or a creature in an alternate form (such as a druid using wild shape) is struck by the weapon, it must make a DC 15 Will save or return to its natural form.
 ---
-This _+1/+1 two-bladed sword_ has blades of alchemical silver. The weapon deals an extra 2d6 points of damage against any creature with the shapechanger subtype. When a shapechanger or a creature in an alternate form (such as a druid using wild shape) is struck by the weapon, it must make a DC 15 Will save or return to its natural form.
-; Price 12,780 gp; Cost 6,780 gp + 480 XP; Weight 10 lb.
-

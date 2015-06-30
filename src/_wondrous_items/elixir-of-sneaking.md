@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: ""
   description: |
-    This draught of liquid grants the drinker the ability to walk softly and dampens sound around her slightly, granting a +10 competence bonus on _move silently_ checks for 1 hour.
+    This draught of liquid grants the drinker the ability to walk softly and dampens sound around her slightly, granting a +10 competence bonus on {% skill_link move-silently %} checks for 1 hour.
 ---

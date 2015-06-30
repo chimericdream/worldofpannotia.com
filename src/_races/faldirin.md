@@ -20,8 +20,8 @@ race:
      * Medium: As medium creatures, Faldirin have no special bonuses or penalties due to their size.
      * Faldirin base land speed is 40 ft.
      * Low-Light Vision: Faldirin can see twice as far as a human in starlight, moonlight, torchlight, and similar conditions of poor illumination. She retains the ability to distinguish color and detail under these conditions.
-     * +2 racial bonus on _diplomacy_ and _sense motive_ checks. Faldirin are natural speakers, and are quick to pick up subtleties in another's words and movements.
-     * +2 to two _craft_ skills of the character's choice. The Faldirins' natural affinity for creating makes them excellent crafters. Once this choice is made, it cannot be changed.
+     * +2 racial bonus on {% skill_link diplomacy %} and {% skill_link sense-motive %} checks. Faldirin are natural speakers, and are quick to pick up subtleties in another's words and movements.
+     * +2 to two {% skill_link craft %} skills of the character's choice. The Faldirins' natural affinity for creating makes them excellent crafters. Once this choice is made, it cannot be changed.
      * Automatic Languages: Common and Faldirin. Bonus Languages: Any (other than secret languages, such as Druidic).
      * Favored Class: Aristocrat or Inventor. A multiclass Faldirin's Aristocrat or Inventor levels do not count when determining whether he takes an experience point penalty for multiclassing. Faldirin are natural speakers and creators. _Note: Only one of these classes can serve as the favored class for any given character. The player chooses at the time of character creation which class is treated as the favored class. The other is treated normally when multiclassing_.
 ---

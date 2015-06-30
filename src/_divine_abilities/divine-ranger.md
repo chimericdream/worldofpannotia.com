@@ -3,7 +3,7 @@ title: "Divine Ranger"
 
 ability:
   prerequisite: |
-    Ranger level 20th, Wis 25, _survival_ 40 ranks, _knowledge (nature)_ 30 ranks.
+    Ranger level 20th, Wis 25, {% skill_link survival %} 40 ranks, {% skill_link knowledge 'Knowledge (Nature)' %} 30 ranks.
   benefit: |
     Any weapon the deity wields against one of its favored enemies is treated as a bane weapon against that creature type. Thus, its enhancement bonus is increased by +2 and it deals +2d6 points of damage.
 

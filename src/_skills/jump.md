@@ -9,20 +9,20 @@ skill:
   check: |
     The DC and the distance you can cover vary according to the type of jump you are attempting (see below).
 
-    Your _jump_ check is modified by your speed. If your speed is 30 feet then no modifier based on speed applies to the check. If your speed is less than 30 feet, you take a -6 penalty for every 10 feet of speed less than 30 feet. If your speed is greater than 30 feet, you gain a +4 bonus for every 10 feet beyond 30 feet.
+    Your {% skill_link jump %} check is modified by your speed. If your speed is 30 feet then no modifier based on speed applies to the check. If your speed is less than 30 feet, you take a -6 penalty for every 10 feet of speed less than 30 feet. If your speed is greater than 30 feet, you gain a +4 bonus for every 10 feet beyond 30 feet.
 
-    All _jump_ DCs given here assume that you get a running start, which requires that you move at least 20 feet in a straight line before attempting the jump. If you do not get a running start, the DC for the jump is doubled.
+    All {% skill_link jump %} DCs given here assume that you get a running start, which requires that you move at least 20 feet in a straight line before attempting the jump. If you do not get a running start, the DC for the jump is doubled.
 
     Distance moved by jumping is counted against your normal maximum movement in a round.
 
-    If you have ranks in _jump_ and you succeed on a _jump_ check, you land on your feet (when appropriate). If you attempt a _jump_ check untrained, you land prone unless you beat the DC by 5 or more.
+    If you have ranks in {% skill_link jump %} and you succeed on a {% skill_link jump %} check, you land on your feet (when appropriate). If you attempt a {% skill_link jump %} check untrained, you land prone unless you beat the DC by 5 or more.
 
     _Long Jump:_ A long jump is a horizontal jump, made across a gap like a chasm or stream. At the midpoint of the jump, you attain a vertical height equal to one-quarter of the horizontal distance. The DC for the jump is equal to the distance jumped (in feet).
 
-    If your check succeeds, you land on your feet at the far end. If you fail the check by less than 5, you don't clear the distance, but you can make a DC 15 Reflex save to grab the far edge of the gap. You end your movement grasping the far edge. If that leaves you dangling over a chasm or gap, getting up requires a move action and a DC 15 _climb_ check.
+    If your check succeeds, you land on your feet at the far end. If you fail the check by less than 5, you don't clear the distance, but you can make a DC 15 Reflex save to grab the far edge of the gap. You end your movement grasping the far edge. If that leaves you dangling over a chasm or gap, getting up requires a move action and a DC 15 {% skill_link climb %} check.
 
     |---
-    | Long Jump Distance | _jump_ DC<sup>1</sup>
+    | Long Jump Distance | {% skill_link jump %} DC<sup>1</sup>
     |-|-
     | 5 feet | 5
     | 10 feet | 10
@@ -36,10 +36,10 @@ skill:
 
     _High Jump:_ A high jump is a vertical leap made to reach a ledge high above or to grasp something overhead. The DC is equal to 4 times the distance to be cleared.
 
-    If you jumped up to grab something, a successful check indicates that you reached the desired height. If you wish to pull yourself up, you can do so with a move action and a DC 15 _climb_ check. If you fail the _jump_ check, you do not reach the height, and you land on your feet in the same spot from which you jumped. As with a long jump, the DC is doubled if you do not get a running start of at least 20 feet.
+    If you jumped up to grab something, a successful check indicates that you reached the desired height. If you wish to pull yourself up, you can do so with a move action and a DC 15 {% skill_link climb %} check. If you fail the {% skill_link jump %} check, you do not reach the height, and you land on your feet in the same spot from which you jumped. As with a long jump, the DC is doubled if you do not get a running start of at least 20 feet.
 
     |---
-    | High Jump Distance<sup>1</sup>  | _jump_ DC<sup>2</sup>
+    | High Jump Distance<sup>1</sup>  | {% skill_link jump %} DC<sup>2</sup>
     |-|-
     | 1 foot | 4
     | 2 feet | 8
@@ -71,24 +71,24 @@ skill:
     | Fine | &#189; ft.
     {: #vertical-reach-table .table .table-bordered .table-hover .table-striped data-caption="Table: Vertical Reach by Creature Size" }
 
-    _Hop Up:_ You can jump up onto an object as tall as your waist, such as a table or small boulder, with a DC 10 _jump_ check. Doing so counts as 10 feet of movement, so if your speed is 30 feet, you could move 20 feet, then hop up onto a counter. You do not need to get a running start to hop up, so the DC is not doubled if you do not get a running start.
+    _Hop Up:_ You can jump up onto an object as tall as your waist, such as a table or small boulder, with a DC 10 {% skill_link jump %} check. Doing so counts as 10 feet of movement, so if your speed is 30 feet, you could move 20 feet, then hop up onto a counter. You do not need to get a running start to hop up, so the DC is not doubled if you do not get a running start.
 
     _Jumping Down:_ If you intentionally jump from a height, you take less damage than you would if you just fell. The DC to jump down from a height is 15. You do not have to get a running start to jump down, so the DC is not doubled if you do not get a running start.
 
     If you succeed on the check, you take falling damage as if you had dropped 10 fewer feet than you actually did.
-  action: "None. A _jump_ check is included in your movement, so it is part of a move action. If you run out of movement mid-jump, your next action (either on this turn or, if necessary, on your next turn) must be a move action to complete the jump."
+  action: "None. A {% skill_link jump %} check is included in your movement, so it is part of a move action. If you run out of movement mid-jump, your next action (either on this turn or, if necessary, on your next turn) must be a move action to complete the jump."
   try_again: ""
   special: |
     Effects that increase your movement also increase your jumping distance, since your check is modified by your speed.
 
-    If you have the Run feat, you get a +4 bonus on _jump_ checks for any jumps made after a running start.
+    If you have the Run feat, you get a +4 bonus on {% skill_link jump %} checks for any jumps made after a running start.
 
-    A halfling has a +2 racial bonus on _jump_ checks because halflings are agile and athletic.
+    A halfling has a +2 racial bonus on {% skill_link jump %} checks because halflings are agile and athletic.
 
-    If you have the Acrobatic feat, you get a +2 bonus on _jump_ checks.
+    If you have the Acrobatic feat, you get a +2 bonus on {% skill_link jump %} checks.
   synergy: |
-     * If you have 5 or more ranks in _tumble_, you get a synergy bonus on _jump_ checks.
-     * If you have 5 or more ranks in _jump_, you get a synergy bonus on _tumble_ checks.
+     * If you have 5 or more ranks in {% skill_link tumble %}, you get a synergy bonus on {% skill_link jump %} checks.
+     * If you have 5 or more ranks in {% skill_link jump %}, you get a synergy bonus on {% skill_link tumble %} checks.
   restriction: ""
   untrained: ""
 ---

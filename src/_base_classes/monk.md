@@ -149,7 +149,7 @@ class:
         desc: "At 11th level, a monk gains immunity to poisons of all kinds."
       - name: "Abundant Step"
         type: "Su"
-        desc: "At 12th level or higher, a monk can slip magically between spaces, as if using the spell _dimension door_, once per day. Her caster level for this effect is one-half her monk level (rounded down)."
+        desc: "At 12th level or higher, a monk can slip magically between spaces, as if using the spell {% spell_link dimension-door %}, once per day. Her caster level for this effect is one-half her monk level (rounded down)."
       - name: "Diamond Soul"
         type: "Ex"
         desc: "At 13th level, a monk gains spell resistance equal to her current monk level + 10. In order to affect the monk with a spell, a spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the monk's spell resistance."

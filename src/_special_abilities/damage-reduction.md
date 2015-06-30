@@ -16,7 +16,7 @@ ability:
 
     A few very powerful monsters are vulnerable only to epic weapons; that is, magic weapons with at least a +6 enhancement bonus. Such creatures' natural weapons are also treated as epic weapons for the purpose of overcoming damage reduction.
 
-    Some monsters are vulnerable to chaotic-, evil-, good-, or lawful-aligned weapons. When a cleric casts _align weapon_, affected weapons might gain one or more of these properties, and certain magic weapons have these properties as well. A creature with an alignment subtype (chaotic, evil, good, or lawful) can overcome this type of damage reduction with its natural weapons and weapons it wields as if the weapons or natural weapons had an alignment (or alignments) that match the subtype(s) of the creature.
+    Some monsters are vulnerable to chaotic-, evil-, good-, or lawful-aligned weapons. When a cleric casts {% spell_link align-weapon %}, affected weapons might gain one or more of these properties, and certain magic weapons have these properties as well. A creature with an alignment subtype (chaotic, evil, good, or lawful) can overcome this type of damage reduction with its natural weapons and weapons it wields as if the weapons or natural weapons had an alignment (or alignments) that match the subtype(s) of the creature.
 
     When a damage reduction entry has a dash (&ndash;) after the slash, no weapon negates the damage reduction.
 

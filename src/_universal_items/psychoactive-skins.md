@@ -20,7 +20,7 @@ item:
 
     Up to three skins can be worn simultaneously, although only the outermost is active in any given round (the powers of hidden skins cannot be manifested). Skin layers can be changed with a command thought as a standard action, which causes a lower-layer skin to come to the surface.
 
-    _Skin of the Chameleon:_ This psychoactive skin adjusts to surrounding textures and colors, continually granting the wearer a +10 enhancement bonus on _hide_ checks.
+    _Skin of the Chameleon:_ This psychoactive skin adjusts to surrounding textures and colors, continually granting the wearer a +10 enhancement bonus on {% skill_link hide %} checks.
 
     Faint psychometabolism; ML 3rd; Craft Universal Item, _chameleon_; Price 18,000 gp; Weight 2 lb.
 
@@ -44,7 +44,7 @@ item:
 
     Strong metacreativity; ML 15th; Craft Universal Item, _psionic iron body_; Price 129,600 gp; Weight 2 lb.
 
-    _Skin of Nimbleness:_ This psychoactive skin continually grants the wearer a +10 competence bonus on _tumble_ checks.
+    _Skin of Nimbleness:_ This psychoactive skin continually grants the wearer a +10 competence bonus on {% skill_link tumble %} checks.
 
     Moderate psychometabolism; ML 8th; Craft Universal Item, creator must have 10 ranks in Tumble; Price 10,000 gp; Weight 2 lb.
 
@@ -56,7 +56,7 @@ item:
 
     Strong clairsentience; ML 17th; Craft Universal Item, _power resistance_; Price 151,000 gp; Weight 2 lb.
 
-    _Skin of the Spider:_ This psychoactive skin continually grants the wearer a +20 competence bonus on _climb_ checks and continually affects the wearer as the _body equilibrium_ power. Three times per day, the wearer can manifest _entangling ectoplasm_ against a target within 30 feet.
+    _Skin of the Spider:_ This psychoactive skin continually grants the wearer a +20 competence bonus on {% skill_link climb %} checks and continually affects the wearer as the _body equilibrium_ power. Three times per day, the wearer can manifest _entangling ectoplasm_ against a target within 30 feet.
 
     Faint psychometabolism; ML 3rd; Craft Universal Item, creator must have 10 ranks in Climb, _body equilibrium, entangling ectoplasm_; Price 79,080 gp; Weight 2 lb.
 

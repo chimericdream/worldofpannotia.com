@@ -106,15 +106,15 @@ class:
       - name: "Hide in Plain Sight"
         type: "Su"
         desc: |
-          At 8th level, an assassin can use the _hide_ skill even while being observed. As long as he is within 10 feet of some sort of shadow, an assassin can hide himself from view in the open without having anything to actually hide behind. He cannot, however, hide in his own shadow.
+          At 8th level, an assassin can use the {% skill_link hide %} skill even while being observed. As long as he is within 10 feet of some sort of shadow, an assassin can hide himself from view in the open without having anything to actually hide behind. He cannot, however, hide in his own shadow.
     additionalInfo: |
       #### Assassin Spell List
 
       Assassins choose their spells from the following list: 1st Level: _disguise self, detect poison, feather fall, ghost sound, jump, obscuring mist, sleep, true strike._
 
-      **2nd Level:** _alter self_, _cat's grace_, _darkness_, _fox's cunning_, _illusory script_, {% spell_link invisibility %}, _pass without trace_, _spider climb_, _undetectable alignment_.
+      **2nd Level:** {% spell_link alter-self %}, {% spell_link cats-grace %}, {% spell_link darkness %}, {% spell_link foxs-cunning %}, {% spell_link illusory-script %}, {% spell_link invisibility %}, _pass without trace_, {% spell_link spider-climb %}, {% spell_link undetectable-alignment %}.
 
-      **3rd Level:** _deep slumber_, _deeper darkness_, _false life_, _magic circle against good_, _misdirection_, _nondetection_.
+      **3rd Level:** {% spell_link deep-slumber %}, {% spell_link deeper-darkness %}, {% spell_link false-life %}, {% spell_link magic-circle-against-good %}, {% spell_link misdirection %}, {% spell_link nondetection %}.
 
-      **4th Level:** {% spell_link clairaudience/clairvoyance %}, _dimension door_, _freedom of movement_, _glibness_, _greater invisibility_, _locate creature_, _modify memory_, _poison_.
+      **4th Level:** {% spell_link clairaudience-clairvoyance %}, {% spell_link dimension-door %}, {% spell_link freedom-of-movement %} {% spell_link glibness %}, _greater invisibility_, {% spell_link locate-creature %}, {% spell_link modify-memory %}, {% spell_link poison %}.
 ---

@@ -17,7 +17,7 @@ race:
   levelAdjust: 4
   traits: |
      * +10 Strength, -2 Dexterity, +4 Constitution, -4 Intelligence, -4 Charisma.
-     * Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on _hide_ checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.
+     * Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on {% skill_link hide %} checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.
      * Space/Reach: 10 feet/10 feet.
      * An ogre's base land speed is 40 feet.
      * Darkvision out to 60 feet.
@@ -30,12 +30,12 @@ race:
       levelAdjust: 3
       traits: |
          * Racial Hit Dice: An ogre begins with two levels of giant, which provide 2d8 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +3, Ref +0, and Will +0.
-         * Racial Skills: An ogre's giant levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are _climb_, _listen_, and _spot_.
+         * Racial Skills: An ogre's giant levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link climb %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: An ogre's giant levels give it one feat.
     - baseEcl: 6
       levelAdjust: 2
       traits: |
          * Racial Hit Dice: An ogre begins with four levels of giant, which provide 4d8 Hit Dice, a base attack bonus of +3, and base saving throw bonuses of Fort +4, Ref +1, and Will +1.
-         * Racial Skills: An ogre's giant levels give it skill points equal to 7 * (2 + Int modifier, minimum 1). Its class skills are _climb_, _listen_, and _spot_.
+         * Racial Skills: An ogre's giant levels give it skill points equal to 7 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link climb %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: An ogre's giant levels give it two feats.
 ---

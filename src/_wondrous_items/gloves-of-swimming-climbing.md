@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: ""
   description: |
-    These apparently normal lightweight gloves grant a +5 competence bonus on _swim_ checks and _climb_ checks. Both gloves must be worn for the magic to be effective.
+    These apparently normal lightweight gloves grant a +5 competence bonus on {% skill_link swim %} checks and {% skill_link climb %} checks. Both gloves must be worn for the magic to be effective.
 ---

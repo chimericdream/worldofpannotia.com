@@ -2,7 +2,7 @@
 title: "Open Lock"
 
 skill:
-  description: "Attempting an _open lock_ check without a set of thieves' tools imposes a -2 circumstance penalty on the check, even if a simple tool is employed. If you use masterwork thieves' tools, you gain a +2 circumstance bonus on the check."
+  description: "Attempting an {% skill_link open-lock %} check without a set of thieves' tools imposes a -2 circumstance penalty on the check, even if a simple tool is employed. If you use masterwork thieves' tools, you gain a +2 circumstance bonus on the check."
   key_ability: "DEX"
   trained_only: true
   armor_check_penalty: false
@@ -17,7 +17,7 @@ skill:
     {: #open-lock-dc-table .table .table-bordered .table-hover .table-striped data-caption="Table: Open Lock DCs" }
   action: "Opening a lock is a full-round action."
   try_again: ""
-  special: "If you have the Nimble Fingers feat, you get a +2 bonus on _open lock_ checks."
+  special: "If you have the Nimble Fingers feat, you get a +2 bonus on {% skill_link open-lock %} checks."
   synergy: ""
   restriction: ""
   untrained: "You cannot pick locks untrained, but you might successfully force them open."

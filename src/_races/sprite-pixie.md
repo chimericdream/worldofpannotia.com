@@ -17,10 +17,10 @@ race:
   levelAdjust: 4
   traits: |
      * -4 Strength, +8 Dexterity, +6 Intelligence, +4 Wisdom, +6 Charisma.
-     * Small size. +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on _hide_ checks, -4 penalty on grapple checks, lifting and carrying limits &#190; those of Medium characters.
+     * Small size. +1 bonus to Armor Class, +1 bonus on attack rolls, +4 bonus on {% skill_link hide %} checks, -4 penalty on grapple checks, lifting and carrying limits &#190; those of Medium characters.
      * A pixie's base land speed is 20 feet. It also has a fly speed of 60 feet (good).
      * Low-light vision.
-     * Skills: Pixies have a +2 racial bonus on _listen_, _search_, and _spot_ checks.
+     * Skills: Pixies have a +2 racial bonus on {% skill_link listen %}, {% skill_link search %}, and {% skill_link spot %} checks.
      * Racial Feats: A pixie receives Dodge and Weapon Finesse as bonus feats.
      * +1 natural armor bonus.
      * Special Attacks (see above): Spell-like abilities.

@@ -7,7 +7,7 @@ ability:
 
     _Courage:_ The enchanted creatures become immune to fear effects and receive a +2 morale bonus on attack rolls, weapon damage rolls, skill checks, and Will saves.
 
-    _Despair:_ The enchanted creatures are affected as by an improved version of the _crushing despair_ spell: affected creatures suffer a -4 penalty on attack rolls, damage rolls, saves, and checks unless they make a successful Will save (DC 10 + deity's Charisma modifier + deity's divine rank). The effect lasts one day.
+    _Despair:_ The enchanted creatures are affected as by an improved version of the {% spell_link crushing-despair %} spell: affected creatures suffer a -4 penalty on attack rolls, damage rolls, saves, and checks unless they make a successful Will save (DC 10 + deity's Charisma modifier + deity's divine rank). The effect lasts one day.
 
     _Dread:_ The enchanted creatures must make successful Wisdom checks (DC = the deity's divine rank) to attack or fight. If the check fails, the creature flees in panic for 1d4 rounds. If the check succeeds, the creature does not have to check again for 10 minutes. The enchanted creatures also suffer a -2 morale penalty on attack rolls, weapon damage rolls, skill checks, and Will saves.
 

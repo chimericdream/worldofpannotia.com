@@ -7,18 +7,16 @@ item:
   casterLevel: "5th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["_lightning bolt_"]
+    spells: ["{% spell_link lightning-bolt %}"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 1500
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 750
+    xp: 30
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This javelin becomes a 5d6 {% spell_link lightning-bolt %} when thrown (Reflex DC 14 half). It is consumed in the attack.
 ---
-This javelin becomes a 5d6 _lightning bolt_ when thrown (Reflex DC 14 half ). It is consumed in the attack.
-; Price 1,500 gp; Cost 750 gp + 30 XP.
-

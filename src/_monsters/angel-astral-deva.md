@@ -6,7 +6,7 @@ title: Angel, Astral Deva
 
 Always Good (any) Medium Outsider (Angel, Extraplanar, Good)
 
-**Init** +9 (+5 Dex); **Senses** darkvision 60 ft., low-light vision; _listen_ +22, _spot_ +22
+**Init** +9 (+5 Dex); **Senses** darkvision 60 ft., low-light vision; {% skill_link listen %} +22, {% skill_link spot %} +22
 
 **Languages** Celestial (3 ranks), Draconic (3 ranks), Infernal (3 ranks); tongues
 
@@ -52,7 +52,7 @@ Always Good (any) Medium Outsider (Angel, Extraplanar, Good)
 
 **Abilities** Str 25, Dex 21, Con 21, Int 21, Wis 21, Cha 23
 
-**Skills** _bluff_ +17, _concentration_ +20, any three _craft_ or _knowledge_ +20 (plus synergy bonuses), _diplomacy_ +27, _escape artist_ +20, _hide_ +20, _intimidate_ +23, _listen_ +22, _move silently_ +20, _sense motive_ +22, _spot_ +22
+**Skills** {% skill_link bluff %} +17, {% skill_link concentration %} +20, any three {% skill_link craft %} or {% skill_link knowledge %} +20 (plus synergy bonuses), {% skill_link diplomacy %} +27, {% skill_link escape-artist %} +20, {% skill_link hide %} +20, {% skill_link intimidate %} +23, {% skill_link listen %} +22, {% skill_link move-silently %} +20, {% skill_link sense-motive %} +22, {% skill_link spot %} +22
 
 **Feats** {% feat_link alertness %}; {% feat_link cleave %}; {% feat_link great-fortitude %}; {% feat_link improved-initiative %}; {% feat_link power-attack %}
 

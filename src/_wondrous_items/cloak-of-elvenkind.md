@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: "1 lb"
   description: |
-    This cloak of neutral gray cloth is indistinguishable from an ordinary cloak of the same color. However, when worn with the hood drawn up around the head, it gives the wearer a +5 competence bonus on _hide_ checks.
+    This cloak of neutral gray cloth is indistinguishable from an ordinary cloak of the same color. However, when worn with the hood drawn up around the head, it gives the wearer a +5 competence bonus on {% skill_link hide %} checks.
 ---

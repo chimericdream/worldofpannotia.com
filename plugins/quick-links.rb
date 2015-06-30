@@ -41,14 +41,34 @@ module Jekyll
           @item_collection = "epic_classes"
         when "epic_feat_link"
           @item_collection = "epic_feats"
+        when "epic_magic_armor_ability_link", "epic_magic_shield_ability_link"
+          @item_collection = "epic_magic_armor_abilities"
+        when "epic_magic_weapon_ability_link"
+          @item_collection = "epic_magic_weapon_abilities"
         when "epic_prestige_class_link"
           @item_collection = "epic_prestige_classes"
+        when "epic_ring_link"
+          @item_collection = "epic_rings"
+        when "epic_rod_link"
+          @item_collection = "epic_rods"
         when "epic_skill_link"
           @item_collection = "epic_skills"
+        when "epic_specific_magic_armor_link"
+          @item_collection = "epic_specific_magic_armor"
+        when "epic_specific_magic_weapon_link"
+          @item_collection = "epic_specific_magic_weapons"
         when "epic_spell_link"
           @item_collection = "epic_spells"
+        when "epic_staff_link"
+          @item_collection = "epic_staffs"
+        when "epic_wondrous_item_link"
+          @item_collection = "epic_wondrous_items"
         when "feat_link"
           @item_collection = "feats"
+        when "magic_armor_ability_link", "magic_shield_ability_link"
+          @item_collection = "magic_armor_abilities"
+        when "magic_weapon_ability_link"
+          @item_collection = "magic_weapon_abilities"
         when "npc_class_link"
           @item_collection = "npc_classes"
         when "plane_link"
@@ -59,6 +79,10 @@ module Jekyll
           @item_collection = "prestige_classes"
         when "psicrown_link"
           @item_collection = "psicrowns"
+        when "psionic_armor_ability_link", "psionic_shield_ability_link"
+          @item_collection = "psionic_armor_abilities"
+        when "psionic_weapon_ability_link"
+          @item_collection = "psionic_weapon_abilities"
         when "race_link"
           @item_collection = "races"
         when "racial_class_link"
@@ -69,6 +93,10 @@ module Jekyll
           @item_collection = "rods"
         when "skill_link"
           @item_collection = "skills"
+        when "specific_magic_armor_link", "specific_magic_shield_link"
+          @item_collection = "specific_magic_armor"
+        when "specific_magic_weapon_link"
+          @item_collection = "specific_magic_weapons"
         when "special_ability_link"
           @item_collection = "special_abilities"
         when "spell_link"
@@ -121,7 +149,7 @@ module Jekyll
             link_text = "<em>#{title}</em>"
 
             case @item_collection
-            when 'artifacts', 'base_classes', 'domains', 'epic_classes', 'epic_feats', 'epic_prestige_classes', 'feats', 'npc_classes', 'planes', 'prestige_classes', 'psicrowns', 'races', 'racial_classes', 'rings', 'rods', 'staffs'
+            when 'artifacts', 'base_classes', 'domains', 'epic_classes', 'epic_feats', 'epic_prestige_classes', 'epic_rings', 'epic_rods', 'epic_staffs', 'feats', 'npc_classes', 'planes', 'prestige_classes', 'psicrowns', 'races', 'racial_classes', 'rings', 'rods', 'staffs'
               link_text = title
             end
 
@@ -273,7 +301,7 @@ eos
   end
 end
 
-['artifact', 'base_class', 'cursed_item', 'domain', 'epic_class', 'epic_feat', 'epic_prestige_class', 'epic_skill', 'epic_spell', 'feat', 'npc_class', 'power', 'prestige_class', 'psicrown', 'race', 'racial_class', 'ring', 'rod', 'skill', 'special_ability', 'spell', 'staff', 'status_condition', 'wondrous_item'].each do |tag|
+['artifact', 'base_class', 'cursed_item', 'domain', 'epic_class', 'epic_feat', 'epic_magic_armor_ability', 'epic_magic_shield_ability', 'epic_magic_weapon_ability', 'epic_prestige_class', 'epic_ring', 'epic_rod', 'epic_skill', 'epic_specific_magic_armor', 'epic_specific_magic_weapon', 'epic_spell', 'epic_staff', 'epic_wondrous_item', 'feat', 'magic_armor_ability', 'magic_shield_ability', 'magic_weapon_ability', 'npc_class', 'power', 'prestige_class', 'psicrown', 'psionic_armor_ability', 'psionic_shield_ability', 'psionic_weapon_ability', 'race', 'racial_class', 'ring', 'rod', 'skill', 'special_ability', 'specific_magic_armor', 'specific_magic_shield', 'specific_magic_weapon', 'spell', 'staff', 'status_condition', 'wondrous_item'].each do |tag|
   link = tag + "_link"
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
 end

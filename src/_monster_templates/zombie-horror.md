@@ -64,7 +64,7 @@ A Horror Zombie loses most special qualities of the base creature. It retains an
 
 **Fast Healing (Ex):** Each round, a Horror Zombie heals up to 10 points of damage.
 
-**Horror Zombie's Curse (Su):** Any creature bitten by a Horror Zombie must succeed a Fortitude save vs. a DC of 12 + the Horror Zombie's total HD (maximum DC 30). Failure on this save means the creature has contracted the Horror Zombie's Curse, and will take 1d3 Constitution damage each day. Some creatures can live for several weeks with this curse before finally dying. When a cursed creature dies (whether from the Horror Zombie's Curse or for other reasons), it rises 1d4 minutes later as another Horror Zombie. Only _remove curse_, {% spell_link limited-wish %}, {% spell_link wish %}, or {% spell_link miracle %} spell will rid a creature of the Horror Zombie's Curse.
+**Horror Zombie's Curse (Su):** Any creature bitten by a Horror Zombie must succeed a Fortitude save vs. a DC of 12 + the Horror Zombie's total HD (maximum DC 30). Failure on this save means the creature has contracted the Horror Zombie's Curse, and will take 1d3 Constitution damage each day. Some creatures can live for several weeks with this curse before finally dying. When a cursed creature dies (whether from the Horror Zombie's Curse or for other reasons), it rises 1d4 minutes later as another Horror Zombie. Only {% spell_link remove-curse %}, {% spell_link limited-wish %}, {% spell_link wish %}, or {% spell_link miracle %} spell will rid a creature of the Horror Zombie's Curse.
 
 **Turn Resistance (Su):** Horror Zombies have +3 turn resistance.
 
@@ -74,7 +74,7 @@ _Special:_ Horror Zombies with more than 20 total Hit Dice have maximum base sav
 
 **Abilities:** A Horror Zombie's Strength increases by +4, its Dexterity increases by +4, it has no Constitution score, its Wisdom changes to 10, and its Charisma and Intelligence change to 1.
 
-**Skills:** A Horror Zombie has a +6 racial bonus on _climb_, _jump_, _listen_, and _spot_. Horror Zombies are not able to use any other skills. They receive a total number of skill points equal to their Hit Dice +3 to be allocated equally among these skills. If the Horror Zombie does not have a number of Hit Dice evenly divisible by 4, the remaining skill points will be assigned in the following order: _spot_, _listen_, and _climb_.
+**Skills:** A Horror Zombie has a +6 racial bonus on {% skill_link climb %}, {% skill_link jump %}, {% skill_link listen %}, and {% skill_link spot %}. Horror Zombies are not able to use any other skills. They receive a total number of skill points equal to their Hit Dice +3 to be allocated equally among these skills. If the Horror Zombie does not have a number of Hit Dice evenly divisible by 4, the remaining skill points will be assigned in the following order: {% skill_link spot %}, {% skill_link listen %}, and {% skill_link climb %}.
 
 **Feats:** A Horror Zombie loses all feats of the base creature and gains Multiattack, Run and Toughness (&times;3).
 

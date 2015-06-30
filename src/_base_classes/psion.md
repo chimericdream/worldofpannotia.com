@@ -224,7 +224,7 @@ class:
       | Observant | +3 bonus on {% skill_link spot %} checks
       | Poised | +3 bonus on {% skill_link balance %} checks
       | Resolved | +2 bonus on Will saves
-      | Sage | +3 bonus on checks involving any one _knowledge_ skill owner already knows; once chosen, this does not vary
+      | Sage | +3 bonus on checks involving any one {% skill_link knowledge %} skill owner already knows; once chosen, this does not vary
       | Single-minded | +3 bonus on {% skill_link concentration %} checks
       | Sneaky | +3 bonus on {% skill_link move-silently %} checks
       | Sympathetic | +3 bonus on {% skill_link sense-motive %} checks

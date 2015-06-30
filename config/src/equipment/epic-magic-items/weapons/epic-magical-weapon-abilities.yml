@@ -1,3 +1,13 @@
 collections:
   epic_magic_weapon_abilities:
-    output:    false
+    output:    true
+    permalink: /equipment/epic-magic-items/weapons/abilities/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: epic_magic_weapon_abilities
+    values:
+      layout: "equipment/magic-items/wondrous-item"
+      crumbs: [equipment, epic-magic-items, weapons]
+      crumbTitles: [Equipment, Epic Magic Items, Weapons]

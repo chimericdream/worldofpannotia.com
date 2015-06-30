@@ -1,23 +1,22 @@
 ---
-title: ""
+title: "Warlord's Breastplate"
 
 item:
   shortDesc: ""
   aura: ""
-  casterLevel: ""
+  casterLevel: "21st"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-magic-arms-and-armor %}", "{% epic_feat_link craft-epic-magic-arms-and-armor %}"]
+    spells: ["{% spell_link charm-monster %}", "{% spell_link sympathy %}"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 416200
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 210200
+    xp: 14120
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This _+6 mithril breastplate_ has an armor check penalty of -1, a maximum Dexterity bonus of +5, and an arcane spell failure chance of 15%. It is considered light armor and weighs 15 pounds. It grants the wearer a +4 enhancement bonus to Charisma and allows the wearer to attract and lead a number of followers as if he or she had the {% feat_link leadership %} feat (though this power doesn't allow the wearer to attract a cohort). If the wearer already has the {% feat_link leadership %} feat, this armor has no cumulative effect on his or her followers.
 ---
-<p id="warlords-breastplate">**Warlord's Breastplate:** This _+6 mithril breastplate_ has an armor check penalty of -1, a maximum Dexterity bonus of +5, and an arcane spell failure chance of 15%. It is considered light armor and weighs 15 pounds. It grants the wearer a +4 enhancement bonus to Charisma and allows the wearer to attract and lead a number of followers as if he or she had the Leadership feat (though this power doesn't allow the wearer to attract a cohort). If the wearer already has the Leadership feat, this armor has no cumulative effect on his or her followers.
-_Caster Level:_ 21st; _Prerequisites:_ Craft Magic Arms and Armor, Craft Epic Magic Arms and Armor, _charm monster_, _sympathy_; _Market Price:_ 416,200 gp; _Cost to Create:_ 210,200 gp + 14,120 XP.

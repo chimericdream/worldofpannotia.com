@@ -9,7 +9,7 @@ Standard epic rings are described below.
 |---
 | d% | Ring | Market Price
 |-|-|-
-| 01–08 | {% epic_ring_link universal energy-resistance-greater %} | 308,000 gp
+| 01–08 | {% epic_ring_link universal-energy-resistance-greater %} | 308,000 gp
 | 09–13 | {% epic_ring_link energy-immunity 'Energy Immunity (Acid)' %} | 240,000 gp
 | 14–15 | {% epic_ring_link energy-immunity 'Energy Immunity (Cold)' %} | 240,000 gp
 | 19–23 | {% epic_ring_link energy-immunity 'Energy Immunity (Electricity)' %} | 240,000 gp
@@ -38,7 +38,3 @@ Standard epic rings are described below.
 | 100 | {% epic_ring_link universal-energy-immunity %} | 2,160,000 gp
 | xx-xx | {% epic_ring_link epic-skill-greater %} | 6,250,000 gp
 {: #epic-rings-table .table .table-bordered .table-hover .table-striped data-caption="Table: Epic Rings" }
-
-{% comment %}
-loop through rings
-{% endcomment %}

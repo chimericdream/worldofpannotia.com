@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Mace of Ruin"
 
 item:
   shortDesc: ""
@@ -7,18 +7,16 @@ item:
   casterLevel: "21st"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}", "{% epic_feat_link craft-epic-magic-arms-and-armor %}"]
-    spells: []
+    spells: ["{% spell_link disintegrate %}"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 1000312
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 500312
+    xp: 20000
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This _+7 heavy mace_ ignores the hardness or damage reduction of any object or creature it strikes. Furthermore, the weapon can deal critical hits to objects and constructs as if they were living creatures.
 ---
-<p id="mace-of-ruin">**Mace of Ruin:** This _+7 heavy mace_ ignores the hardness or damage reduction of any object or creature it strikes. Furthermore, the weapon can deal critical hits to objects and constructs as if they were living creatures.
-_disintegrate_; _Market Price:_ 1,000,312 gp; _Cost to Create:_ 500,312 gp + 20,000 XP.
-

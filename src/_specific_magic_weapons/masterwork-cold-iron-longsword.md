@@ -10,15 +10,13 @@ item:
     spells: []
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 330
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This nonmagical longsword is crafted out of cold iron. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
 ---
-This nonmagical longsword is crafted out of cold iron. As a masterwork weapon, it has a +1 enhancement bonus on attack rolls.
-; Price 330 gp.
-

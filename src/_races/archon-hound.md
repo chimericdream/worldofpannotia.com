@@ -51,12 +51,12 @@ race:
       levelAdjust: 6
       traits: |
          * Racial Hit Dice: A hound archon begins with three levels of outsider, which provide 3d8 Hit Dice, a base attack bonus of +3, and base saving throw bonuses of Fort +3, Ref +3, and Will +3.
-         * Racial Skills: A hound archon's outsider levels give it skill points equal to 6 * (8 + Int modifier). Its class skills are _concentration_, _hide_, _jump_, _listen_, _move silently_, _sense motive_, _spot_, and _survival_.
+         * Racial Skills: A hound archon's outsider levels give it skill points equal to 6 * (8 + Int modifier). Its class skills are {% skill_link concentration %}, {% skill_link hide %}, {% skill_link jump %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link sense-motive %}, {% skill_link spot %}, and {% skill_link survival %}.
          * Racial Feats: A hound archon's outsider levels give it two feats.
     - baseEcl: 11
       levelAdjust: 5
       traits: |
          * Racial Hit Dice: A hound archon begins with six levels of outsider, which provide 6d8 Hit Dice, a base attack bonus of +6, and base saving throw bonuses of Fort +5, Ref +5, and Will +5.
-         * Racial Skills: A hound archon's outsider levels give it skill points equal to 9 * (8 + Int modifier). Its class skills are _concentration_, _hide_, _jump_, _listen_, _move silently_, _sense motive_, _spot_, and _survival_.
+         * Racial Skills: A hound archon's outsider levels give it skill points equal to 9 * (8 + Int modifier). Its class skills are {% skill_link concentration %}, {% skill_link hide %}, {% skill_link jump %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link sense-motive %}, {% skill_link spot %}, and {% skill_link survival %}.
          * Racial Feats: A hound archon's outsider levels give it three feats.
 ---

@@ -4,7 +4,7 @@ title: "Self-concealment"
 feat:
   types: ["Epic"]
   prerequisite: |
-    Dex 30, _hide_ 30 ranks, _tumble_ 30 ranks, improved evasion.
+    Dex 30, {% skill_link hide %} 30 ranks, {% skill_link tumble %} 30 ranks, improved evasion.
   benefit: |
     Attacks against the character have a 10% miss chance, similar to the effect of concealment. The character loses this benefit whenever he or she would lose his or her Dexterity bonus to AC.
   special: |

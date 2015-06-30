@@ -1,3 +1,13 @@
 collections:
   magic_armor_abilities:
-    output:    false
+    output:    true
+    permalink: /equipment/magic-items/armor/abilities/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: magic_armor_abilities
+    values:
+      layout: "equipment/magic-items/wondrous-item"
+      crumbs: [equipment, magic-items, armor]
+      crumbTitles: [Equipment, Magic Items, Armor &amp; Shields]

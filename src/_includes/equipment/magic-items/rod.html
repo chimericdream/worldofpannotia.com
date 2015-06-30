@@ -3,8 +3,9 @@
 {% capture ogc %}
 <section class="row">
     <aside class="col-xs-12 col-sm-4 col-sm-push-8">
-        <p><strong>Aura:</strong> {{ rod.aura | inline_pmarkdownify | liquify }}</p>
-        <p><strong>Caster Level:</strong> {{ rod.casterLevel | inline_pmarkdownify | liquify }}</p>
+        {% if rod.aura %}<p><strong>Aura:</strong> {{ rod.aura | inline_pmarkdownify | liquify }}</p>{% endif %}
+        {% if rod.casterLevel %}<p><strong>Caster Level:</strong> {{ rod.casterLevel | inline_pmarkdownify | liquify }}</p>{% endif %}
+        {% if rod.manifesterLevel %}<p><strong>Manifester Level:</strong> {{ rod.manifesterLevel | inline_pmarkdownify | liquify }}</p>{% endif %}
         <p><strong>Market Price:</strong> {% if rod.marketPrice > 0 %}{{ rod.marketPrice | number_format }} gp{% else %}{{ rod.marketPriceSpecial }}{% endif %}</p>
         {% if rod.weight and rod.weight != "" %}<p><strong>Weight:</strong> {{ rod.weight }}</p>{% endif %}
     </aside>

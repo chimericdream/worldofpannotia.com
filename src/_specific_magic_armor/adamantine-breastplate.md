@@ -11,15 +11,13 @@ item:
     spells: []
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 10200
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This nonmagical breastplate is made of adamantine, giving its wearer damage reduction of 2/&ndash;.
 ---
-This nonmagical breastplate is made of adamantine, giving its wearer damage reduction of 2/&ndash;.
-; Price 10,200 gp.
-

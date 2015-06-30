@@ -31,8 +31,8 @@ skill:
 
     If you have the Psionic Affinity feat, you get a +2 bonus on _psicraft_ checks.
   synergy: |
-     * If you have 5 or more ranks in _psicraft_, you get a synergy bonus on _use psionic device_ checks related to power stones.
-     * If you have 5 or more ranks in _use psionic device_, you get a synergy bonus on _psicraft_ checks to address power stones.
+     * If you have 5 or more ranks in _psicraft_, you get a synergy bonus on {% skill_link use-psionic-device %} checks related to power stones.
+     * If you have 5 or more ranks in {% skill_link use-psionic-device %}, you get a synergy bonus on _psicraft_ checks to address power stones.
   restriction: ""
   untrained: ""
 ---

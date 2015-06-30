@@ -13,5 +13,5 @@ ability:
      * The creature retains the ability scores of its original form.
      * The creature retains its hit points and saves.
      * The creature retains any spellcasting ability it had in its original form, although it must be able to speak intelligibly to cast spells with verbal components and it must have humanlike hands to cast spells with somatic components.
-     * The creature is effectively camouflaged as a creature of its new form, and gains a +10 bonus on _disguise_ checks if it uses this ability to create a disguise.
+     * The creature is effectively camouflaged as a creature of its new form, and gains a +10 bonus on {% skill_link disguise %} checks if it uses this ability to create a disguise.
 ---

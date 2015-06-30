@@ -9,6 +9,8 @@ defaults:
       type: potions_oils
     values:
       layout: "equipment/magic-items/potion"
+      crumbs: [equipment, magic-items, potions-oils]
+      crumbTitles: [Equipment, Magic Items, Potions &amp; Oils]
       item:
         shortDesc: ""
         aura: ""

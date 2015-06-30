@@ -23,11 +23,7 @@ Standard epic staffs are described below.
 | 64-71 | {% epic_staff_link domination %} | 464,400 gp
 | 72-79 | {% epic_staff_link fiery-power %} | 500,000 gp
 | 80-87 | {% epic_staff_link natures-fury %} | 500,000 gp
-| 88-95 | {% epic_staff_link hierophants %} | 501,187 gp
+| 88-95 | {% epic_staff_link the-hierophant %} | 501,187 gp
 | 96-98 | {% epic_staff_link cosmos %} | 683,487 gp
 | 99-100 | {% epic_staff_link necromancy %} | 1,505,312 gp
 {: #epic-staffs-table .table .table-bordered .table-hover .table-striped data-caption="Table: Epic Staffs" }
-
-{% comment %}
-loop through staffs
-{% endcomment %}

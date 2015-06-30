@@ -20,7 +20,7 @@ class:
     classSkillsSpecial: |
       #### Domains and Class Skills
 
-      A cleric who chooses the Animal or Plant domain adds {% skill_link knowledge "Knowledge (Nature)" %} to the cleric class skills listed above. A cleric who chooses the Knowledge domain adds all _knowledge_ skills to the list. A cleric who chooses the Travel domain adds {% skill_link survival %} to the list. A cleric who chooses the Trickery domain adds {% skill_link bluff %}", "{% skill_link disguise %}, and {% skill_link hide %} to the list.
+      A cleric who chooses the Animal or Plant domain adds {% skill_link knowledge "Knowledge (Nature)" %} to the cleric class skills listed above. A cleric who chooses the Knowledge domain adds all {% skill_link knowledge %} skills to the list. A cleric who chooses the Travel domain adds {% skill_link survival %} to the list. A cleric who chooses the Trickery domain adds {% skill_link bluff %}", "{% skill_link disguise %}, and {% skill_link hide %} to the list.
     skillPoints: 2
     classTables: |
       |---
@@ -84,7 +84,7 @@ class:
           A cleric who chooses the War domain receives the Weapon Focus feat related to his deity's weapon as a bonus feat. He also receives the appropriate Martial Weapon Proficiency feat as a bonus feat, if the weapon falls into that category.
       - name: "Aura"
         type: "Ex"
-        desc: "A cleric of a chaotic, evil, good, or lawful deity has a particularly powerful aura corresponding to the deity's alignment (see the _detect evil_ spell for details). Clerics who don't worship a specific deity but choose the Chaos, Evil, Good, or Law domain have a similarly powerful aura of the corresponding alignment."
+        desc: "A cleric of a chaotic, evil, good, or lawful deity has a particularly powerful aura corresponding to the deity's alignment (see the {% spell_link detect-evil %} spell for details). Clerics who don't worship a specific deity but choose the Chaos, Evil, Good, or Law domain have a similarly powerful aura of the corresponding alignment."
       - name: "Spells"
         type: ""
         desc: |
@@ -128,5 +128,5 @@ class:
     additionalInfo: |
       #### Ex-Clerics
 
-      A cleric who grossly violates the code of conduct required by his god loses all spells and class features, except for armor and shield proficiencies and proficiency with simple weapons. He cannot thereafter gain levels as a cleric of that god until he atones (see the _atonement_ spell description).
+      A cleric who grossly violates the code of conduct required by his god loses all spells and class features, except for armor and shield proficiencies and proficiency with simple weapons. He cannot thereafter gain levels as a cleric of that god until he atones (see the {% spell_link atonement %} spell description).
 ---

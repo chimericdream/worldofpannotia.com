@@ -89,7 +89,7 @@ class:
         desc: |
           At 4th level and higher, while incorporeal, a psion uncarnate can assume the likeness of any Small, Medium, or Large creature as a standard action that does not provoke attacks of opportunity. The character's abilities do not change, but he appears to be the creature that he assumes the likeness of, allowing him the ability to effectively disguise himself and bluff those who might wonder at his true nature. Each physical interaction with a creature requires a successful Bluff check (opposed by the creature's Sense Motive check) to convince the creature of the psion uncarnate's new appearance. The psion uncarnate must not do anything to give away his true (incorporeal) nature in order for the bluff to be successful; for instance, if he accepts an item from another creature only to have it fall through his immaterial hands, the Bluff check automatically fails. However, a Bluff check would be allowed if the psion uncarnate uses his telekinetic force ability (see below) to hold the received item.
 
-          When using his assume likeness ability, a psion uncarnate has an additional +10 circumstance bonus on Disguise checks. If he can read an opponent's mind, he gets a further +4 circumstance bonus on _bluff_ and _disguise_ checks.
+          When using his assume likeness ability, a psion uncarnate has an additional +10 circumstance bonus on Disguise checks. If he can read an opponent's mind, he gets a further +4 circumstance bonus on {% skill_link bluff %} and {% skill_link disguise %} checks.
       - name: "Telekinetic Force"
         type: "Su"
         desc: |

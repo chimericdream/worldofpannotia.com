@@ -210,7 +210,7 @@ class:
 
       _Spell Resistance (Ex):_ If the master is 11th level or higher, a familiar gains spell resistance equal to the master's level + 5. To affect the familiar with a spell, another spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the familiar's spell resistance.
 
-      _Scry on Familiar (Sp):_ If the master is 13th level or higher, he may scry on his familiar (as if casting the _scrying_ spell) once per day.
+      _Scry on Familiar (Sp):_ If the master is 13th level or higher, he may scry on his familiar (as if casting the {% spell_link scrying %} spell) once per day.
 
       #### Arcane Spells and Armor
 

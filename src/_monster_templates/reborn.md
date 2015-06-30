@@ -36,7 +36,7 @@ The Reborn is a template that can be added to any intelligent humanoid creature 
 >
 > _Abilities:_ +4 Cha, +4 Wis, +4 Int
 >
-> _Skills:_ +6 racial bonus to _diplomacy_ and _sense motive_
+> _Skills:_ +6 racial bonus to {% skill_link diplomacy %} and _sense motive_
 >
 > _Spell-Like Abilities:_ 3/day - _zone of truth_; 1/day - _detect thoughts_
 
@@ -46,7 +46,7 @@ The Reborn is a template that can be added to any intelligent humanoid creature 
 >
 > _Abilities:_ +4 Cha, +4 Dex, +4 Int
 >
-> _Skills:_ +6 racial bonus to _bluff_ and _hide_
+> _Skills:_ +6 racial bonus to {% skill_link bluff %} and _hide_
 >
 > _Spell-Like Abilities:_ 3/day - {% spell_link invisibility %}; 1/day - _detect thoughts_
 
@@ -56,9 +56,9 @@ The Reborn is a template that can be added to any intelligent humanoid creature 
 >
 > _Abilities:_ +4 Cha, +4 Str, +4 Con
 >
-> _Skills:_ +6 racial bonus to _intimidate_ and _survival_
+> _Skills:_ +6 racial bonus to {% skill_link intimidate %} and _survival_
 >
-> _Spell-Like Abilities:_ 3/day - _flaming sphere_; 1/day - _detect thoughts_
+> _Spell-Like Abilities:_ 3/day - {% spell_link flaming-sphere %}; 1/day - _detect thoughts_
 
 **Past Experience (Ex):** 3/day, gain a +4 bonus on any single skill check. For a moment, the Reborn remembers a pertinent experience from his past life that imparts on him the ability to accomplish something he would not otherwise do. The Reborn must choose to use this ability before he makes the skill check to which the bonus will apply.
 

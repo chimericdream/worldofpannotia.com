@@ -9,6 +9,8 @@ defaults:
       type: staffs
     values:
       layout: "equipment/magic-items/staff"
+      crumbs: [equipment, magic-items, staffs]
+      crumbTitles: [Equipment, Magic Items, Staffs]
       item:
         shortDesc: ""
         aura: ""

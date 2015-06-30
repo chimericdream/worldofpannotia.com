@@ -11,7 +11,7 @@ The aboleth is a revolting fishlike amphibian found primarily in subterranean la
 
 LE Huge <a href="{{ site.url }}/monsters/additional-info/#aberration">Aberration</a> (<a href="{{ site.url }}/monsters/additional-info/#aquatic">Aquatic</a>)
 
-**Init** +2 (+2 Dex); **Senses** <a href="{{ site.url }}/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.; _listen_ +17, _spot_ +17
+**Init** +2 (+2 Dex); **Senses** <a href="{{ site.url }}/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.; {% skill_link listen %} +17, {% skill_link spot %} +17
 
 **Languages** _3 ranks:_ Aboleth, Aquan, Undercommon
 
@@ -51,7 +51,7 @@ LE Huge <a href="{{ site.url }}/monsters/additional-info/#aberration">Aberration
 
 **Feats** {% feat_link alertness %}, {% feat_link iron-will %}, {% feat_link combat-casting %}
 
-**Skills** _concentration_ +17, _knowledge (arcana)_ +12, _knowledge (psionicss)_ +12, _listen_ +17, _spot_ +17, _swim_ +17
+**Skills** {% skill_link concentration %} +17, {% skill_link knowledge 'Knowledge (Arcana)' %} +12, _knowledge (psionicss)_ +12, {% skill_link listen %} +17, {% skill_link spot %} +17, {% skill_link swim %} +17
 
 ----
 
@@ -67,7 +67,7 @@ A {% spell_link remove-disease %} spell cast before the transformation is comple
 
 **Mucus Cloud (Ex):** An aboleth underwater surrounds itself with a viscous cloud of mucus roughly 1 foot thick. Any creature coming into contact with and inhaling this substance must succeed on a DC 20 Fortitude save or lose the ability to breathe air for the next 3 hours. An affected creature suffocates in 2d6 minutes if removed from the water. Renewed contact with the mucus cloud and failing another Fortitude save continues the effect for another 3 hours. The save DC is Constitution-based.
 
-**Skills:** An aboleth has a +8 racial bonus on any _swim_ check to perform some special action or avoid a hazard. It can always choose to take 10 on a _swim_ check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.
+**Skills:** An aboleth has a +8 racial bonus on any {% skill_link swim %} check to perform some special action or avoid a hazard. It can always choose to take 10 on a {% skill_link swim %} check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.
 
 ----
 

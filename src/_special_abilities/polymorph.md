@@ -5,7 +5,7 @@ ability:
   description: |
     Magic can cause creatures and characters to change their shapes &ndash; sometimes against their will, but usually to gain an advantage. Polymorphed creatures retain their own minds but have new physical forms.
 
-    The _polymorph_ spell defines the general polymorph effect.
+    The {% spell_link polymorph %} spell defines the general polymorph effect.
 
     Since creatures do not change types, a slaying or bane weapon designed to kill or harm creatures of a specific type affects those creatures even if they are polymorphed. Likewise, a creature polymorphed into the form of a creature of a different type is not subject to slaying and bane effects directed at that type of creature.
 

@@ -20,7 +20,7 @@ race:
      * Medium size.
      * A bugbear's base land speed is 30 feet.
      * +3 natural armor bonus.
-     * +4 racial bonus on _move silently_ checks.
+     * +4 racial bonus on {% skill_link move-silently %} checks.
      * Special Qualities: Darkvision 60 ft., scent, powerful build.
      * Automatic Languages: Common, Goblin. Bonus Languages: Draconic, Elven, Giant, Gnoll, Orc.
      * Favored Class: Rogue.
@@ -38,6 +38,6 @@ race:
       levelAdjust: 2
       traits: |
          * Racial Hit Dice: A bugbear begins with three levels of humanoid, which provide 3d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +1, Ref +3, and Will +1.
-         * Racial Skills: A bugbear's humanoid levels give it skill points equal to 6 * (2 + Int modifier). Its class skills are _climb_, _hide_, _listen_, _move silently_, _search_, and _spot_.
+         * Racial Skills: A bugbear's humanoid levels give it skill points equal to 6 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link hide %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link search %}, and {% skill_link spot %}.
          * Racial Feats: A bugbear's humanoid levels give it two feats.
 ---

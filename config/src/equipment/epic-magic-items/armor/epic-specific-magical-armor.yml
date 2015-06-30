@@ -1,6 +1,7 @@
 collections:
   epic_specific_magic_armor:
-    output:    false
+    output:    true
+    permalink: /equipment/epic-magic-items/armor/specific/:path/
 
 defaults:
   - scope:
@@ -8,6 +9,8 @@ defaults:
       type: epic_specific_magic_armor
     values:
       layout: "equipment/magic-items/wondrous-item"
+      crumbs: [equipment, epic-magic-items, armor]
+      crumbTitles: [Equipment, Epic Magic Items, Armor &amp; Shields]
       item:
         shortDesc: ""
         aura: ""

@@ -15,7 +15,7 @@ Achaierais speak Infernal. They weigh about 750 pounds.
     
         **Init** +2 (+2 Dex); **Senses**
         <a href="{{ site.url }}/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.;
-        _listen_ +11, _spot_ +11
+        {% skill_link listen %} +11, {% skill_link spot %} +11
     
     **Languages** 3 ranks: Infernal
 
@@ -55,17 +55,17 @@ Achaierais speak Infernal. They weigh about 750 pounds.
     
     **Feats** Dodge, Mobility, Spring Attack
     
-        **Skills** _balance_ +11, _bluff_ +5,
-        _climb_ +14, _diplomacy_ +10, _hide_ +9,
-        _jump_ +22, _listen_ +11, _move silently_ +11,
-        _sense motive_ +11, _spot_ +11, _tumble_ +4
+        **Skills** {% skill_link balance %} +11, {% skill_link bluff %} +5,
+        {% skill_link climb %} +14, {% skill_link diplomacy %} +10, {% skill_link hide %} +9,
+        {% skill_link jump %} +22, {% skill_link listen %} +11, {% skill_link move-silently %} +11,
+        {% skill_link sense-motive %} +11, {% skill_link spot %} +11, {% skill_link tumble %} +4
     
 
     <hr />
     <h4>Spells, Psionics, Special Qualities, &amp; Special Abilities</h4>
     <p id="black-cloud">**Black Cloud (Ex)**: Up to three times per day an achaierai can release a choking, toxic black cloud.
-    Those other than achaierai within 10 feet instantly take 2d6 points of damage. They must also succeed on a DC 15 Fortitude save or be affected for 3 hours as though by an <a href="#">_insanity_</a> spell (caster level 16th). The save DC is Constitution-based. 
-    **Skills:** An achaierai has a +8 racial bonus on all _jump_ checks.
+    Those other than achaierai within 10 feet instantly take 2d6 points of damage. They must also succeed on a DC 15 Fortitude save or be affected for 3 hours as though by an <a href="#">{% spell_link insanity %}</a> spell (caster level 16th). The save DC is Constitution-based. 
+    **Skills:** An achaierai has a +8 racial bonus on all {% skill_link jump %} checks.
 
     <hr />
     <h4>Other Information</h4>

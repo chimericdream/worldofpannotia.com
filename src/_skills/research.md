@@ -11,12 +11,12 @@ skill:
 
     If you want to find out about a specific rumor, or a specific item, or obtain a map, or do something else along those lines, the DC for the check is 15 to 25, or even higher.
 
-    The primary difference between _gather information_ and _research_ is how the information is obtained. _gather information_ involves rubbing elbows with the locals at a bar or the market, whereas _research_ involves poring through scrolls and other documents in a temple, library, guild, or other such location.
+    The primary difference between {% skill_link gather-information %} and _research_ is how the information is obtained. {% skill_link gather-information %} involves rubbing elbows with the locals at a bar or the market, whereas _research_ involves poring through scrolls and other documents in a temple, library, guild, or other such location.
   action: "A typical _research_ check takes 1d4+1 hours."
   try_again: "Yes, but it takes time for each check. Furthermore, you may draw attention to yourself if you repeatedly pursue a certain type of information."
   special: "If you have the Investigator feat, you get a +2 bonus on _research_ checks."
   synergy: |
-     * If you have 5 or more ranks in _knowledge (local)_, you get a synergy bonus on _research_ checks.
+     * If you have 5 or more ranks in {% skill_link knowledge 'Knowledge (Local)' %}, you get a synergy bonus on _research_ checks.
   restriction: ""
   untrained: ""
 ---

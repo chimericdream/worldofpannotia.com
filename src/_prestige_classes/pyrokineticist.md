@@ -73,7 +73,7 @@ class:
       - name: "Firewalk"
         type: "Su"
         desc: |
-          Beginning at 6th level, as a free action a pyrokineticist can expend her psionic focus (see the _concentration_ skill description) to literally walk on air. She moves at her normal speed in all directions, including vertically, but cannot move more than double her speed in a round. A firewalking pyro leaves footprints of flame in the air that disperse in 2 rounds, but her tread does not deal damage. She must pay 1 power point per round spent traveling in this fashion.
+          Beginning at 6th level, as a free action a pyrokineticist can expend her psionic focus (see the {% skill_link concentration %} skill description) to literally walk on air. She moves at her normal speed in all directions, including vertically, but cannot move more than double her speed in a round. A firewalking pyro leaves footprints of flame in the air that disperse in 2 rounds, but her tread does not deal damage. She must pay 1 power point per round spent traveling in this fashion.
       - name: "Fear No Fire"
         type: "Ex"
         desc: |

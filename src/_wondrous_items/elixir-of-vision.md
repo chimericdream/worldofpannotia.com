@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: ""
   description: |
-    Drinking this elixir grants the imbiber the ability to notice acute details with great accuracy (+10 competence bonus on _search_ checks for 1 hour).
+    Drinking this elixir grants the imbiber the ability to notice acute details with great accuracy (+10 competence bonus on {% skill_link search %} checks for 1 hour).
 ---

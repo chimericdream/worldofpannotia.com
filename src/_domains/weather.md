@@ -3,7 +3,7 @@ title: "Weather"
 
 domain:
   grantedPower: |
-    _survival_ is a class skill.
+    {% skill_link survival %} is a class skill.
   spells: |
     1. {% spell_link obscuring-mist %}
     1. {% spell_link fog-cloud %}

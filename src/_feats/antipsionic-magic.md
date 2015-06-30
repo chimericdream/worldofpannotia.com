@@ -6,7 +6,7 @@ feat:
   description: |
     Your spells are more potent when used against psionic characters and creatures.
   prerequisite: |
-    _spellcraft_ 5 ranks.
+    {% skill_link spellcraft %} 5 ranks.
   benefit: |
     You get a get a +2 bonus on caster level checks made to overcome a psionic creature's power resistance.
 

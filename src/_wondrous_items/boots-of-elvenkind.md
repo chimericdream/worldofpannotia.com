@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: "1 lb"
   weight: ""
   description: |
-    These soft boots enable the wearer to move quietly in virtually any surroundings, granting a +5 competence bonus on _move silently_ checks.
+    These soft boots enable the wearer to move quietly in virtually any surroundings, granting a +5 competence bonus on {% skill_link move-silently %} checks.
 ---

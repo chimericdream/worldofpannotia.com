@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: ""
   description: |
-    A character drinking this liquid gains an intuitive ability to hide (+10 competence bonus on _hide_ checks for 1 hour).
+    A character drinking this liquid gains an intuitive ability to hide (+10 competence bonus on {% skill_link hide %} checks for 1 hour).
 ---

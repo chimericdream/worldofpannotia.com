@@ -53,7 +53,7 @@ class:
       - name: "Favored Enemy"
         type: "Ex"
         desc: |
-          When she enters the class, a slayer formally declares a type of psionic creature as the enemy she detests above all others. Due to her extensive study of her foes and training in the proper techniques for combating them, she gains a +2 bonus on _bluff_, _listen_, _sense motive_, _spot_, and _survival_ checks when using these skills against her favored enemy.
+          When she enters the class, a slayer formally declares a type of psionic creature as the enemy she detests above all others. Due to her extensive study of her foes and training in the proper techniques for combating them, she gains a +2 bonus on {% skill_link bluff %}, {% skill_link listen %}, {% skill_link sense-motive %}, {% skill_link spot %}, and {% skill_link survival %} checks when using these skills against her favored enemy.
 
           Likewise, she gets a +2 bonus on weapon damage rolls against creatures of this kind. At 4th level the bonuses increase to +4, at 7th level to +6, and at 10th level to +8.
       - name: "Enemy Sense"
@@ -73,7 +73,7 @@ class:
         desc: |
           After reaching 6th level, a slayer is protected from all devices, powers, and spells that reveal location. This ability protects against information gathering by clairsentience powers or effects that reveal location.
 
-          The ability even foils _bend reality_, {% spell_link limited-wish %}, {% spell_link miracle %}, _reality revision_, and {% spell_link wish %}when they are used to gain information about the slayer's location (however, _metafaculty_can pierce this protective barrier). In the case of _remote viewing_ or _scrying_ that scans an area a slayer is in, the effect works, but the slayer simply isn't detected. _Remote viewing_ or _scrying_ attempts that are targeted specifically at a slayer do not work. This ability is active as long as the slayer is psionically focused.
+          The ability even foils _bend reality_, {% spell_link limited-wish %}, {% spell_link miracle %}, _reality revision_, and {% spell_link wish %}when they are used to gain information about the slayer's location (however, _metafaculty_can pierce this protective barrier). In the case of _remote viewing_ or {% spell_link scrying %} that scans an area a slayer is in, the effect works, but the slayer simply isn't detected. _Remote viewing_ or {% spell_link scrying %} attempts that are targeted specifically at a slayer do not work. This ability is active as long as the slayer is psionically focused.
       - name: "Breach Power Resistance"
         type: "Su"
         desc: |

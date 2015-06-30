@@ -60,7 +60,7 @@ Most magic weapons only have enhancement bonuses. They can also have special abi
 |-|-|-
 | 01-08 | {% epic_magic_weapon_ability_link acidic-blast %} | +6 bonus
 | 09-16 | {% epic_magic_weapon_ability_link fiery-blast %} | +6 bonus
-| 17-24 | {% epic_magic_weapon_ability_link icy blast %} | +6 bonus
+| 17-24 | {% epic_magic_weapon_ability_link icy-blast %} | +6 bonus
 | 25-32 | {% epic_magic_weapon_ability_link lightning-blast %} | +6 bonus
 | 33-40 | {% epic_magic_weapon_ability_link mighty-disruption %} | +6 bonus
 | 41-48 | {% epic_magic_weapon_ability_link sonic-blast %} | +6 bonus
@@ -100,29 +100,21 @@ Most magic weapons only have enhancement bonuses. They can also have special abi
 | <sup>1</sup>Add to enhancement bonus on Table: Weapons to determine total market price.<br><sup>2</sup>If a special ability is rolled twice, only one counts. If two versions of the same special ability are rolled, use the better. |<|<
 {: #ranged-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Ranged Weapon Special Abilities" }
 
-{% comment %}
-loop through weapon abilities
-{% endcomment %}
-
 ### Specific Weapons
 
 |---
 | d% | Specific Weapon | Market Price
 |-|-|-
-| 01-18  | {% specific_epic_magic_weapon_link stormbrand %} | 235,350 gp
-| 19-33  | {% specific_epic_magic_weapon_link quarterstaff-of-alacrity %} | 462,600 gp
-| 34-48  | {% specific_epic_magic_weapon_link souldrinker %} | 478,335 gp
-| 49-60  | {% specific_epic_magic_weapon_link backstabber %} | 770,310 gp
-| 61-68  | {% specific_epic_magic_weapon_link mace-of-ruin %} | 1,000,312 gp
-| 69-72  | {% specific_epic_magic_weapon_link gripsoul %} | 1,856,500 gp
-| 73-78  | {% specific_epic_magic_weapon_link elven-greatbow %} | 2,900,400 gp
-| 79-64  | {% specific_epic_magic_weapon_link finaldeath %} | 3,580,308 gp
-| 85-90  | {% specific_epic_magic_weapon_link chaosbringer %} | 4,025,350 gp
-| 91-94  | {% specific_epic_magic_weapon_link holy-devastator %} | 4,620,315 gp
-| 95-98  | {% specific_epic_magic_weapon_link unholy-despoiler %} | 4,620,315 gp
-| 99-100 | {% specific_epic_magic_weapon_link everwhirling-chain %} | 5,220,325 gp
+| 01-18  | {% epic_specific_magic_weapon_link stormbrand %} | 235,350 gp
+| 19-33  | {% epic_specific_magic_weapon_link quarterstaff-of-alacrity %} | 462,600 gp
+| 34-48  | {% epic_specific_magic_weapon_link souldrinker %} | 478,335 gp
+| 49-60  | {% epic_specific_magic_weapon_link backstabber %} | 770,310 gp
+| 61-68  | {% epic_specific_magic_weapon_link mace-of-ruin %} | 1,000,312 gp
+| 69-72  | {% epic_specific_magic_weapon_link gripsoul %} | 1,856,500 gp
+| 73-78  | {% epic_specific_magic_weapon_link elven-greatbow %} | 2,900,400 gp
+| 79-64  | {% epic_specific_magic_weapon_link finaldeath %} | 3,580,308 gp
+| 85-90  | {% epic_specific_magic_weapon_link chaosbringer %} | 4,025,350 gp
+| 91-94  | {% epic_specific_magic_weapon_link holy-devastator %} | 4,620,315 gp
+| 95-98  | {% epic_specific_magic_weapon_link unholy-despoiler %} | 4,620,315 gp
+| 99-100 | {% epic_specific_magic_weapon_link everwhirling-chain %} | 5,220,325 gp
 {: #specific-weapons-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Weapons" }
-
-{% comment %}
-loop through specific weapons
-{% endcomment %}

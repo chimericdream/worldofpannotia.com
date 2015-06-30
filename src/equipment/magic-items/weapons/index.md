@@ -22,7 +22,7 @@ Ammunition fired from a projectile weapon with an enhancement bonus of +1 or hig
 
 **Magic Ammunition and Breakage:** When a magic arrow, crossbow bolt, or sling bullet misses its target, there is a 50% chance it breaks or otherwise is rendered useless. A magic arrow, bolt, or bullet that hits is destroyed.
 
-**Light Generation:** Fully 30% of magic weapons shed light equivalent to a _light_ spell (bright light in a 20-foot radius, shadowy light in a 40-foot radius). These glowing weapons are quite obviously magical. Such a weapon can't be concealed when drawn, nor can its light be shut off. Some of the specific weapons detailed below always or never glow, as defined in their descriptions.
+**Light Generation:** Fully 30% of magic weapons shed light equivalent to a {% spell_link light %} spell (bright light in a 20-foot radius, shadowy light in a 40-foot radius). These glowing weapons are quite obviously magical. Such a weapon can't be concealed when drawn, nor can its light be shut off. Some of the specific weapons detailed below always or never glow, as defined in their descriptions.
 
 **Hardness and Hit Points:** An attacker cannot damage a magic weapon that has an enhancement bonus unless his own weapon has at least as high an enhancement bonus as the weapon or shield struck. Each +1 of enhancement bonus also adds 1 to the weapon's or shield's hardness and hit points.
 
@@ -228,10 +228,6 @@ In addition to enhancement bonuses, weapons can have one or more of the special 
 | <sup>1</sup>Add to enhancement bonus on Table: Weapons to determine total market price.<br><sup>2</sup>Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivalents can't total more than +10. |<|<|<|<
 {: #ranged-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Magic Ranged Weapon Special Abilities" }
 
-{% comment %}
-loop through weapon abilities
-{% endcomment %}
-
 ### Specific Weapons
 
 The following specific weapons usually are preconstructed with exactly the qualities described here.
@@ -241,13 +237,13 @@ The following specific weapons usually are preconstructed with exactly the quali
 |-|-|-|-|-
 | 01-15 | &nbsp; | &nbsp; | {% specific_magic_weapon_link sleep-arrow %} | 132 gp
 | 16-25 | &nbsp; | &nbsp; | {% specific_magic_weapon_link screaming-bolt %} | 267 gp
-| 26-45 | &nbsp; | &nbsp; | {% specific_magic_weapon_link silver-dagger-masterwork %} | 322 gp
-| 46-65 | &nbsp; | &nbsp; | {% specific_magic_weapon_link cold-iron-longsword-masterwork %} | 330 gp
+| 26-45 | &nbsp; | &nbsp; | {% specific_magic_weapon_link masterwork-silver-dagger %} | 322 gp
+| 46-65 | &nbsp; | &nbsp; | {% specific_magic_weapon_link masterwork-cold-iron-longsword %} | 330 gp
 | 66-75 | 01-09 | &nbsp; | {% specific_magic_weapon_link javelin-of-lightning %} | 1,500 gp
 | 76-80 | 10-15 | &nbsp; | {% specific_magic_weapon_link slaying-arrow %} | 2,282 gp
 | 81-90 | 16-24 | &nbsp; | {% specific_magic_weapon_link adamantine-dagger %} | 3,002 gp
 | 91-100 | 25-33 | &nbsp; | {% specific_magic_weapon_link adamantine-battleaxe %} | 3,010 gp
-| &nbsp; | 34-37 | &nbsp; | {% specific_magic_weapon_link slaying-arrow-greater %} | 4,057 gp
+| &nbsp; | 34-37 | &nbsp; | {% specific_magic_weapon_link slaying-arrow 'Slaying Arrow, Greater' %} | 4,057 gp
 | &nbsp; | 38-40 | &nbsp; | {% specific_magic_weapon_link shatterspike %} | 4,315 gp
 | &nbsp; | 41-46 | &nbsp; | {% specific_magic_weapon_link dagger-of-venom %} | 8,302 gp
 | &nbsp; | 47-51 | &nbsp; | {% specific_magic_weapon_link trident-of-warning %} | 10,115 gp
@@ -274,7 +270,3 @@ The following specific weapons usually are preconstructed with exactly the quali
 | &nbsp; | &nbsp; | 98-99 | {% specific_magic_weapon_link holy-avenger %} | 120,630 gp
 | &nbsp; | &nbsp; | 100 | {% specific_magic_weapon_link luck-blade 'Luck Blade (3 wishes)' %} | 142,960 gp
 {: #specific-weapons-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Weapons" }
-
-{% comment %}
-loop through specific weapons
-{% endcomment %}

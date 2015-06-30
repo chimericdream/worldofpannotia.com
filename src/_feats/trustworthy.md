@@ -6,5 +6,5 @@ feat:
   description: |
     Other people find you easy to talk to.
   benefit: |
-    You gain a +2 bonus to _bluff_ and _diplomacy_.
+    You gain a +2 bonus to {% skill_link bluff %} and {% skill_link diplomacy %}.
 ---

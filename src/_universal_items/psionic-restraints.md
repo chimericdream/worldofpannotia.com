@@ -14,7 +14,7 @@ item:
   marketPriceSpecial: "Varies. See text."
   weight: "1 lb."
   description: |
-    Each of the various psionic restraints is an iron cuff that cunningly locks around the wrist (DC 27 _open lock_ check). The cuff limits the total number of power points a psionic creature wearing it can use in 1 round (regardless of the creature's total power point reserve), or completely damps the ability to use psionics. All types of psionic restraints prevent the free manifesting of powers.
+    Each of the various psionic restraints is an iron cuff that cunningly locks around the wrist (DC 27 {% skill_link open-lock %} check). The cuff limits the total number of power points a psionic creature wearing it can use in 1 round (regardless of the creature's total power point reserve), or completely damps the ability to use psionics. All types of psionic restraints prevent the free manifesting of powers.
 
     |---
     | Restraint Type | Allowed Power Points/Round | Market Price

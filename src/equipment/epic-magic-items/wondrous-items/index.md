@@ -52,7 +52,3 @@ Standard epic wondrous items are described below.
 | 97-98  | {% epic_wondrous_item_link bracers-of-epic-armor 'Bracers of Epic Armor (+15)' %} | 2,250,000 gp
 | 99-100 | {% epic_wondrous_item_link bracers-of-relentless-might %} | 4,384,000 gp
 {: #epic-wondrous-items-table .table .table-bordered .table-hover .table-striped data-caption="Table: Epic Wondrous Items" }
-
-{% comment %}
-loop through items
-{% endcomment %}

@@ -6,7 +6,7 @@ feat:
   prerequisite: |
     Caster Level 1st.
   benefit: |
-    You gain _use magic device_ as a class skill.
+    You gain {% skill_link use-magic-device %} as a class skill.
 
     Additionally, you can recharge any charged item (typically a staff or wand) by paying the appropriate time, XP and gp costs, even if you would not normally be able to craft the item (due to spell knowledge, or even due to spells not appearing on your spell list).
 

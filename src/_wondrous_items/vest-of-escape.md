@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: ""
   description: |
-    Hidden within secret pockets of this simple silk vest are lockpicks that provide a +4 competence bonus on _open lock_ checks. The vest also grants its wearer a +6 competence bonus on _escape artist_ checks.
+    Hidden within secret pockets of this simple silk vest are lockpicks that provide a +4 competence bonus on {% skill_link open-lock %} checks. The vest also grants its wearer a +6 competence bonus on {% skill_link escape-artist %} checks.
 ---

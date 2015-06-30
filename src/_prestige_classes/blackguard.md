@@ -51,11 +51,11 @@ class:
       - name: "Aura of Evil"
         type: "Ex"
         desc: |
-          The power of a blackguard's aura of evil (see the _detect evil_ spell) is equal to his class level plus his cleric level, if any.
+          The power of a blackguard's aura of evil (see the {% spell_link detect-evil %} spell) is equal to his class level plus his cleric level, if any.
       - name: "Detect Good"
         type: "Sp"
         desc: |
-          At will, a blackguard can use detect good as a spell-like ability, duplicating the effect of the _detect good_ spell.
+          At will, a blackguard can use detect good as a spell-like ability, duplicating the effect of the {% spell_link detect-good %} spell.
       - name: "Poison Use"
         type: ""
         desc: |
@@ -95,19 +95,19 @@ class:
 
       Blackguards choose their spells from the following list:
 
-      **1st Level:** _cause fear_, _corrupt weapon_, {% spell_link cure-light-wounds %}, _doom_, {% spell_link inflict-light-wounds %}, _magic weapon_, _summon monster I*_.
+      **1st Level:** {% spell_link cause-fear %}, _corrupt weapon_, {% spell_link cure-light-wounds %}, {% spell_link doom %}, {% spell_link inflict-light-wounds %}, {% spell_link magic-weapon %}, _summon monster I*_.
 
-      **2nd Level:** {% spell_link bulls-strength %}, {% spell_link cure-moderate-wounds %}, _darkness_, _death knell_, _eagle's splendor_, {% spell_link inflict-moderate-wounds %}, _shatter_, _summon monster II*_.
+      **2nd Level:** {% spell_link bulls-strength %}, {% spell_link cure-moderate-wounds %}, {% spell_link darkness %}, {% spell_link death-knell %}, {% spell_link eagles-splendor %}, {% spell_link inflict-moderate-wounds %}, {% spell_link shatter %}, _summon monster II*_.
 
-      **3rd Level:** _contagion_, {% spell_link cure-serious-wounds %}, _deeper darkness_, {% spell_link inflict-serious-wounds %}, _protection from energy_, _summon monster III*_.
+      **3rd Level:** {% spell_link contagion %}, {% spell_link cure-serious-wounds %}, {% spell_link deeper-darkness %}, {% spell_link inflict-serious-wounds %}, {% spell_link protection-from-energy %}, {% spell_link summon-monster-iii %}*.
 
-      **4th Level:** {% spell_link cure-critical-wounds %}, _freedom of movement_, {% spell_link inflict-critical-wounds %}, _poison_, _summon monster IV*_.
+      **4th Level:** {% spell_link cure-critical-wounds %}, {% spell_link freedom-of-movement %} {% spell_link inflict-critical-wounds %}, {% spell_link poison %}, {% spell_link summon-monster-iv %}*.
 
       * Evil creatures only.
 
       #### Corrupt Weapon
 
-      Blackguards have access to a special spell, _corrupt weapon_, which is the opposing counterpart of the paladin spell _bless weapon_. Instead of improving a weapon's effectiveness against evil foes, _corrupt weapon_ makes a weapon more effective against good foes.
+      Blackguards have access to a special spell, {% spell_link corrupt-weapon %}, which is the opposing counterpart of the paladin spell {% spell_link bless-weapon %}. Instead of improving a weapon's effectiveness against evil foes, {% spell_link corrupt-weapon %} makes a weapon more effective against good foes.
 
       #### Fallen Paladins
 

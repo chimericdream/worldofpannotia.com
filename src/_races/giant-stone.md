@@ -17,11 +17,11 @@ race:
   levelAdjust: 9
   traits: |
      * +16 Strength, +4 Dexterity, +8 Constitution, +2 Wisdom.
-     * Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on _hide_ checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.
+     * Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on {% skill_link hide %} checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.
      * Space/Reach: 10 feet/10 feet.
      * A stone giant's base land speed is 40 feet.
      * Darkvision out to 60 feet and Low-light vision.
-     * Racial Skills: A stone giant has a +8 racial bonus on _hide_ checks in rocky terrain.
+     * Racial Skills: A stone giant has a +8 racial bonus on {% skill_link hide %} checks in rocky terrain.
      * +11 natural armor bonus.
      * Special Attacks: Rock throwing.
      * Special Qualities: Rock catching.
@@ -39,30 +39,30 @@ race:
       levelAdjust: 8
       traits: |
          * Racial Hit Dice: A stone giant begins with three levels of giant, which provide 3d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +3, Ref +1, and Will +1.
-         * Racial Skills: A stone giant's giant levels give it skill points equal to 6 * (2 + Int modifier). Its class skills are _climb_, _hide_, _listen_, and _spot_.
+         * Racial Skills: A stone giant's giant levels give it skill points equal to 6 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A stone giant's giant levels give it two feats.
     - baseEcl: 13
       levelAdjust: 7
       traits: |
          * Racial Hit Dice: A stone giant begins with six levels of giant, which provide 6d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +5, Ref +2, and Will +2.
-         * Racial Skills: A stone giant's giant levels give it skill points equal to 9 * (2 + Int modifier). Its class skills are _climb_, _hide_, _listen_, and _spot_.
+         * Racial Skills: A stone giant's giant levels give it skill points equal to 9 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A stone giant's giant levels give it three feats.
     - baseEcl: 15
       levelAdjust: 6
       traits: |
          * Racial Hit Dice: A stone giant begins with nine levels of giant, which provide 9d8 Hit Dice, a base attack bonus of +6, and base saving throw bonuses of Fort +6, Ref +3, and Will +3.
-         * Racial Skills: A stone giant's giant levels give it skill points equal to 12 * (2 + Int modifier). Its class skills are _climb_, _hide_, _listen_, and _spot_.
+         * Racial Skills: A stone giant's giant levels give it skill points equal to 12 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A stone giant's giant levels give it four feats.
     - baseEcl: 17
       levelAdjust: 5
       traits: |
          * Racial Hit Dice: A stone giant begins with twelve levels of giant, which provide 12d8 Hit Dice, a base attack bonus of +8, and base saving throw bonuses of Fort +8, Ref +4, and Will +4.
-         * Racial Skills: A stone giant's giant levels give it skill points equal to 15 * (2 + Int modifier). Its class skills are _climb_, _hide_, _listen_, and _spot_.
+         * Racial Skills: A stone giant's giant levels give it skill points equal to 15 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A stone giant's giant levels give it five feats.
     - baseEcl: 18
       levelAdjust: 4
       traits: |
          * Racial Hit Dice: A stone giant begins with fourteen levels of giant, which provide 14d8 Hit Dice, a base attack bonus of +10, and base saving throw bonuses of Fort +9, Ref +4, and Will +4.
-         * Racial Skills: A stone giant's giant levels give it skill points equal to 17 * (2 + Int modifier). Its class skills are _climb_, _hide_, _listen_, and _spot_.
+         * Racial Skills: A stone giant's giant levels give it skill points equal to 17 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A stone giant's giant levels give it five feats.
 ---

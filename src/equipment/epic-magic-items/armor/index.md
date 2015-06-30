@@ -92,10 +92,6 @@ Most magic armor and shields only have enhancement bonuses. Such items can also 
 | <sup>1</sup>Add to enhancement bonus on Table: Epic Armor and Shields to determine total market price.<br><sup>2</sup>If a special ability is rolled twice, only one counts. If two versions of the same special ability are rolled, use the better. |<|<
 {: #armor-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Armor Special Abilities" }
 
-{% comment %}
-loop through armor abilities
-{% endcomment %}
-
 |---
 | d% | Shield Special Ability | Market Price Modifier<sup>1</sup>
 |-|-|-
@@ -122,24 +118,16 @@ loop through armor abilities
 | <sup>1</sup>Add to enhancement bonus on Table: Epic Armor and Shields to determine total market price.<br><sup>2</sup>If you roll a special ability twice, only one counts. If you roll two versions of the same special ability, use the better. |<|<
 {: #shield-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Shield Special Abilities" }
 
-{% comment %}
-loop through shield abilities
-{% endcomment %}
-
 ### Specific Armors &amp; Shields
 
 |---
 | d% | Specific Armor or Shield | Market Price
 |-|-|-
-| 01-20 | {% specific_epic_magic_armor_link shapeshifters-armor %} | 400,165 gp
-| 21-40 | {% specific_epic_magic_armor_link warlords-breastplate %} | 416,200 gp
-| 41-57 | {% specific_epic_magic_armor_link dragonskin-armor %} | 564,550 gp
-| 58-71 | {% specific_epic_magic_armor_link armor-of-the-celestial-battalion %} | 616,300 gp
-| 72-82 | {% specific_epic_magic_armor_link armor-of-the-abyssal-horde %} | 768,260 gp
-| 83-93 | {% specific_epic_magic_armor_link antimagic-armor %} | 871,500 gp
-| 94-100 | {% specific_epic_magic_armor_link bulwark-of-the-great-dragon %} | 1,612,980 gp
+| 01-20 | {% epic_specific_magic_armor_link shapeshifters-armor %} | 400,165 gp
+| 21-40 | {% epic_specific_magic_armor_link warlords-breastplate %} | 416,200 gp
+| 41-57 | {% epic_specific_magic_armor_link dragonskin-armor %} | 564,550 gp
+| 58-71 | {% epic_specific_magic_armor_link armor-of-the-celestial-battalion %} | 616,300 gp
+| 72-82 | {% epic_specific_magic_armor_link armor-of-the-abyssal-horde %} | 768,260 gp
+| 83-93 | {% epic_specific_magic_armor_link antimagic-armor %} | 871,500 gp
+| 94-100 | {% epic_specific_magic_armor_link bulwark-of-the-great-dragon %} | 1,612,980 gp
 {: #specific-armor-shields-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Epic Magic Armor and Shields" }
-
-{% comment %}
-loop through specific armor
-{% endcomment %}

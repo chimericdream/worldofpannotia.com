@@ -8,13 +8,13 @@ skill:
   armor_check_penalty: false
   check: ""
   action: "Not applicable."
-  try_again: "Not applicable. There are no _speak language_ checks to fail."
+  try_again: "Not applicable. There are no {% skill_link speak-language %} checks to fail."
   special: |
-    The _speak language_ skill doesn't work like other skills. Languages work as follows.
+    The {% skill_link speak-language %} skill doesn't work like other skills. Languages work as follows.
 
      * You start at 1st level knowing one or two languages (based on your race) at Rank 3 (see below), plus an additional number of languages at Rank 2 equal to your starting Intelligence bonus.
-     * Characters with the _speak language_ skill in class may spend one skill point to gain two Ranks in a language, or one Rank each in two languages. Characters who do not have the skill in class must spend one skill point per Rank in any given language.
-     * You don't make _speak language_ checks. You either know a language or you don't. Your level of understanding is based on how many ranks you have in a particular skill.
+     * Characters with the {% skill_link speak-language %} skill in class may spend one skill point to gain two Ranks in a language, or one Rank each in two languages. Characters who do not have the skill in class must spend one skill point per Rank in any given language.
+     * You don't make {% skill_link speak-language %} checks. You either know a language or you don't. Your level of understanding is based on how many ranks you have in a particular skill.
 
     When your character's Intelligence modifier increases at later levels, you gain an additional two ranks to spend in any of your racial bonus languages. If your bonus languages are all at Rank 3 already, you may use these ranks in other languages.
 

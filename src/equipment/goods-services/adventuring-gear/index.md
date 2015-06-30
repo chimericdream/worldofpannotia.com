@@ -89,7 +89,7 @@ Caltrops may not be effective against unusual opponents.
 
 **Flint and Steel:** Lighting a torch with flint and steel is a full-round action, and lighting any other fire with them takes at least that long.
 
-**Grappling Hook:** Throwing a grappling hook successfully requires a _use rope_ check (DC 10, +2 per 10 feet of distance thrown).
+**Grappling Hook:** Throwing a grappling hook successfully requires a {% skill_link use-rope %} check (DC 10, +2 per 10 feet of distance thrown).
 
 **Hammer:** If a hammer is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a spiked gauntlet of its size.
 
@@ -103,9 +103,9 @@ Caltrops may not be effective against unusual opponents.
 
 **Lantern, Hooded:** A hooded lantern clearly illuminates a 30-foot radius and provides shadowy illumination in a 60-foot radius. It burns for 6 hours on a pint of oil. You can carry a hooded lantern in one hand.
 
-**Lock:** The DC to open a lock with the _open lock_ skill depends on the lock's quality: simple (DC 20), average (DC 25), good (DC 30), or superior (DC 40).
+**Lock:** The DC to open a lock with the {% skill_link open-lock %} skill depends on the lock's quality: simple (DC 20), average (DC 25), good (DC 30), or superior (DC 40).
 
-**Manacles and Manacles, Masterwork:** Manacles can bind a Medium creature. A manacled creature can use the _escape artist_ skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 hit points.
+**Manacles and Manacles, Masterwork:** Manacles can bind a Medium creature. A manacled creature can use the {% skill_link escape-artist %} skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 hit points.
 
 Most manacles have locks; add the cost of the lock you want to the cost of the manacles.
 
@@ -121,7 +121,7 @@ You can pour a pint of oil on the ground to cover an area 5 feet square, provide
 
 **Rope, Hempen:** This rope has 2 hit points and can be burst with a DC 23 Strength check.
 
-**Rope, Silk:** This rope has 4 hit points and can be burst with a DC 24 Strength check. It is so supple that it provides a +2 circumstance bonus on _use rope_ checks.
+**Rope, Silk:** This rope has 4 hit points and can be burst with a DC 24 Strength check. It is so supple that it provides a +2 circumstance bonus on {% skill_link use-rope %} checks.
 
 **Spyglass:** Objects viewed through a spyglass are magnified to twice their size.
 

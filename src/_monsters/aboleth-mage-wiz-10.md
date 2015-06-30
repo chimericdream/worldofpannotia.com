@@ -8,7 +8,7 @@ title: Aboleth Mage (Wiz 10)
 
 LE Huge <a href="{{ site.url }}/monsters/additional-info/#aberration">Aberration</a> (<a href="{{ site.url }}/monsters/additional-info/#aquatic">Aquatic</a>)
 
-**Init** +8 (+4 Dex); **Senses** <a href="{{ site.url }}/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.; _listen_ +16, _spot_ +16
+**Init** +8 (+4 Dex); **Senses** <a href="{{ site.url }}/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.; {% skill_link listen %} +16, {% skill_link spot %} +16
 
 **Languages** _3 ranks:_ Aboleth, Aquan, Undercommon; _2 ranks:_ Common
 
@@ -50,7 +50,7 @@ LE Huge <a href="{{ site.url }}/monsters/additional-info/#aberration">Aberration
 
 **Feats:** {% feat_link combat-casting %}, {% feat_link empower-spell %}, {% feat_link eschew-materials %}, {% feat_link great-fortitude %}, {% feat_link improved-initiative %}, {% feat_link lightning-reflexes %}, {% feat_link scribe-scroll %}, {% feat_link spell-focus %}, {% feat_link spell-focus %}, {% feat_link spell-penetration %}
 
-**Skills:** _bluff_ +13, _concentration_ +28, _decipher script_ +29, _intimidate_ +14, _knowledge (arcana)_ +19, _knowledge (dungeoneering)_ +19, _knowledge (history)_ +19, _knowledge (psionics)_ +19, _knowledge (the planes)_ +19, _listen_ +16, _psicraft_ +19, _sense motive_ +15, _spellcraft_ +29, _spot_ +16, _swim_ +19
+**Skills:** {% skill_link bluff %} +13, {% skill_link concentration %} +28, {% skill_link decipher-script %} +29, {% skill_link intimidate %} +14, {% skill_link knowledge 'Knowledge (Arcana)' %} +19, {% skill_link knowledge 'Knowledge (Dungeoneering)' %} +19, {% skill_link knowledge 'Knowledge (History)' %} +19, {% skill_link knowledge 'Knowledge (Psionics)' %} +19, {% skill_link knowledge 'Knowledge (The Planes)' %} +19, {% skill_link listen %} +16, _psicraft_ +19, {% skill_link sense-motive %} +15, {% skill_link spellcraft %} +29, {% skill_link spot %} +16, {% skill_link swim %} +19
 
 ----
 
@@ -66,7 +66,7 @@ A {% spell_link remove-disease %} spell cast before the transformation is comple
 
 **Mucus Cloud (Ex):** An aboleth underwater surrounds itself with a viscous cloud of mucus roughly 1 foot thick. Any creature coming into contact with and inhaling this substance must succeed on a DC 22 Fortitude save or lose the ability to breathe air for the next 3 hours. An affected creature suffocates in 2d6 minutes if removed from the water. Renewed contact with the mucus cloud and failing another Fortitude save continues the effect for another 3 hours. The save DC is Constitution-based.
 
-**Skills:** An aboleth has a +8 racial bonus on any _swim_ check to perform some special action or avoid a hazard. It can always choose to take 10 on a _swim_ check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.
+**Skills:** An aboleth has a +8 racial bonus on any {% skill_link swim %} check to perform some special action or avoid a hazard. It can always choose to take 10 on a {% skill_link swim %} check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.
 
 **Spells/day:** 4/7/6/5/5/4
 

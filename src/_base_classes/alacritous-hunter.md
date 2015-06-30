@@ -132,5 +132,5 @@ class:
     additionalInfo: |
       #### Ex-Alacritous Hunters
 
-      An Alacritous Hunter who ceases to revere nature or changes to a prohibited alignment loses all Alacritous Hunter abilities (including her animal companion, but not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as an Alacritous Hunter until she atones (see the _atonement_ spell description).
+      An Alacritous Hunter who ceases to revere nature or changes to a prohibited alignment loses all Alacritous Hunter abilities (including her animal companion, but not including weapon, armor, and shield proficiencies). She cannot thereafter gain levels as an Alacritous Hunter until she atones (see the {% spell_link atonement %} spell description).
 ---

@@ -12,7 +12,7 @@ artifact:
     A long wooden staff, shod in iron and inscribed with sigils and runes of all types, this potent artifact contains many spell powers and other functions. Some of its powers use charges, while others don't. The following powers do not use charges:
 
      * _Detect magic_
-     * _Enlarge person_ (Fortitude DC 15 negates)
+     * {% spell_link enlarge-person %} (Fortitude DC 15 negates)
      * _Hold portal_
      * _Light_
      * _Mage armor_
@@ -21,21 +21,21 @@ artifact:
     The following powers drain 1 charge per usage:
 
      * _Dispel magic_
-     * {% spell_link Fireball %} (10d6 damage, Reflex DC 17 half )
-     * {% spell_link Ice-storm %}
-     * {% spell_link Invisibility %}
+     * {% spell_link fireball %} (10d6 damage, Reflex DC 17 half )
+     * {% spell_link ice-storm %}
+     * {% spell_link invisibility %}
      * _Knock_
-     * {% spell_link Lightning-bolt %} (10d6 damage, Reflex DC 17 half )
+     * {% spell_link lightning-bolt %} (10d6 damage, Reflex DC 17 half )
      * _Passwall_
-     * _Pyrotechnics_ (Will or Fortitude DC 16 negates)
+     * {% spell_link pyrotechnics %} (Will or Fortitude DC 16 negates)
      * _Wall of fire_
      * _Web_
 
     These powers drain 2 charges per usage:
 
      * _Monster summoning IX_
-     * {% spell_link Plane-shift %} (Will DC 21 negates)
-     * {% spell_link Telekinesis %} (400 lb. maximum weight; Will DC 19 negates)
+     * {% spell_link plane-shift %} (Will DC 21 negates)
+     * {% spell_link telekinesis %} (400 lb. maximum weight; Will DC 19 negates)
 
     A _staff of the magi_ gives the wielder spell resistance 23. If this is willingly lowered, however, the staff can also be used to absorb arcane spell energy directed at its wielder, as a _rod of absorption_ does. Unlike the rod, this staff converts spell levels into charges rather than retaining them as spell energy usable by a spellcaster. If the staff absorbs enough spell levels to exceed its limit of 50 charges, it explodes as if a retributive strike had been performed (see below). The wielder has no idea how many spell levels are cast at her, for the staff does not communicate this knowledge as a _rod of absorption_ does. (Thus, absorbing spells can be risky.)
 

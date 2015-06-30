@@ -15,5 +15,5 @@ spell:
       level: 7
   duration:           "1 round/level"
   description:        |
-    As psychic turmoil, except you gain 1 temporary hit point for each power point the spell takes from a psionic creature. The temporary hit points last for 1 hour.
+    As {% spell_link psychic-turmoil %}, except you gain 1 temporary hit point for each power point the spell takes from a psionic creature. The temporary hit points last for 1 hour.
 ---

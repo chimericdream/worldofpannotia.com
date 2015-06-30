@@ -18,7 +18,7 @@ item:
 
     A _third eye_ is treated as eyewear or goggles for the purpose of determining which items can be worn on the body.
 
-    _Aware:_ This kind of _third eye_ continually grants the wearer a +10 competence bonus on _spot_ checks.
+    _Aware:_ This kind of _third eye_ continually grants the wearer a +10 competence bonus on {% skill_link spot %} checks.
 
     Moderate clairsentience; ML 7th; Craft Universal Item, creator must have 10 ranks in Spot; Price 10,000 gp.
 
@@ -26,7 +26,7 @@ item:
 
     Strong telepathy; ML 15th; Craft Universal Item, _psionic mind blank_; Price 120,000 gp.
 
-    _Concentrate:_ This kind of _third eye_ continually grants the wearer a +10 competence bonus on _concentration_ checks.
+    _Concentrate:_ This kind of _third eye_ continually grants the wearer a +10 competence bonus on {% skill_link concentration %} checks.
 
     Moderate telepathy; ML 7th; Craft Universal Item, creator must have 10 ranks in Concentration; Price 10,000 gp.
 
@@ -38,7 +38,7 @@ item:
 
     Strong telepathy; ML 15th; Craft Universal Item, _bend reality_; Price 112,000 gp.
 
-    _Gather:_ This kind of _third eye_ continually grants the wearer a +10 competence bonus on _gather information_ checks.
+    _Gather:_ This kind of _third eye_ continually grants the wearer a +10 competence bonus on {% skill_link gather-information %} checks.
 
     Moderate clairsentience; ML 7th; Craft Universal Item, creator must have 10 ranks in Gather Information; Price 10,000 gp.
 
