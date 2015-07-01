@@ -1,7 +1,7 @@
 collections:
   spell_combinations:
     output:    true
-    permalink: /game-rules/magic/spell-combinations/spell-combination-index/:path/
+    permalink: /game-rules/magic/spell-combinations/combinations/:path/
 
 defaults:
   - scope:
@@ -15,7 +15,7 @@ defaults:
         - title: "Developing spell Combinations"
           url: "game-rules/magic/spell-combinations/developing-spell-combinations"
         - title: "Spell Combination Index"
-          url: "game-rules/magic/spell-combinations/spell-combination-index"
+          url: "game-rules/magic/spell-combinations/combinations"
 
   - scope:
       path: ""
@@ -24,7 +24,7 @@ defaults:
       layout:           "game-rules/magic/spell-combination"
       crumbs:           [game-rules, magic, spell-combinations]
       crumbTitles:      [Game Rules, Magic, Spell Combinations]
-      activeSubSection: "game-rules/magic/spell-combinations/spell-combination-index"
+      activeSubSection: "game-rules/magic/spell-combinations/combinations"
       combo:
         schools:            [] # {name: "", subschools: [], descriptors: []}
         classes:            [] # {name: "", abbr: "", level: 0}

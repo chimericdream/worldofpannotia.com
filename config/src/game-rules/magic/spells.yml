@@ -1,7 +1,7 @@
 collections:
   spells:
     output:    true
-    permalink: /game-rules/magic/spell-index/:path/
+    permalink: /game-rules/magic/spells/:path/
 
 
 defaults:
@@ -10,9 +10,9 @@ defaults:
       type: spells
     values:
       layout:        "game-rules/magic/spell"
-      crumbs:        [game-rules, magic, spell-index]
-      crumbTitles:   [Game Rules, Magic, Spell Index]
-      activeSection: "game-rules/magic/spell-index"
+      crumbs:        [game-rules, magic, spells]
+      crumbTitles:   [Game Rules, Magic, Spells]
+      activeSection: "game-rules/magic/spells"
       spell:
         schools:            [] # {name: "", subschools: [], descriptors: []}
         classes:            [] # {name: "", abbr: "", level: 0}

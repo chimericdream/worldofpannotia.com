@@ -13,7 +13,7 @@ defaults:
         - title: "Divine Spells"
           url: "game-rules/magic/divine-spells"
         - title: "Spell Index"
-          url: "game-rules/magic/spell-index"
+          url: "game-rules/magic/spells"
         - title: "Domains"
           url: "game-rules/magic/domains"
         - title: "Spell Lists"

@@ -1,7 +1,7 @@
 collections:
   epic_spells:
     output:    true
-    permalink: /game-rules/magic/epic-spells/epic-spell-index/:path/
+    permalink: /game-rules/magic/epic-spells/spells/:path/
 
 defaults:
   - scope:
@@ -16,7 +16,7 @@ defaults:
         - title: "Seeds"
           url: "game-rules/magic/epic-spells/seeds"
         - title: "Epic Spell Index"
-          url: "game-rules/magic/epic-spells/epic-spell-index"
+          url: "game-rules/magic/epic-spells/spells"
 
   - scope:
       path: ""
@@ -26,7 +26,7 @@ defaults:
       crumbs:           [game-rules, magic, epic-spells]
       crumbTitles:      [Game Rules, Magic, Epic Spells]
       activeSection:    "game-rules/magic/epic-spells"
-      activeSubSection: "game-rules/magic/epic-spells/epic-spell-index"
+      activeSubSection: "game-rules/magic/epic-spells/spells"
       spell:
         schools:            [] # {name: "", subschools: [], descriptors: []}
         spellcraftDc:       0

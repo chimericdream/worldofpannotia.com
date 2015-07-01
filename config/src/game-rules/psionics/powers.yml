@@ -1,4 +1,4 @@
 collections:
   psionic_powers:
     output:    true
-    permalink: /game-rules/psionics/powers/power-index/:path/
+    permalink: /game-rules/psionics/powers/:path/
