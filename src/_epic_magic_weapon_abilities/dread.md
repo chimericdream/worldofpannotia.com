@@ -2,14 +2,13 @@
 title: "Dread"
 
 ability:
-  shortDesc: ""
   aura: ""
   casterLevel: "22nd"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}", "{% epic_feat_link craft-epic-magic-arms-and-armor %}"]
     spells: ["{% spell_link summon-monster-ix %}"]
     special: []
-  marketPriceSpecial: "+7 bonus"
+  price: "+7 bonus"
   description: |
     A dread weapon excels at attacking one type of creature. Against its designated foe, its effective enhancement bonus is +4 better than its normal enhancement bonus. Further, it deals +4d6 points of bonus damage against the foe, and if it scores a successful critical hit against the foe, that creature must make a Fortitude save (DC 27) or be destroyed instantly and turned to dust. (This even affects creatures immune to critical hits or death magic.) To randomly determine a dread weapon's designated foe, roll on the following table.
 

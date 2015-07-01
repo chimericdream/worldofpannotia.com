@@ -2,14 +2,13 @@
 title: "Bloodletting"
 
 ability:
-  shortDesc: ""
   aura: "Moderate evocation"
   casterLevel: "10th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["{% spell_link mage-sword %}"]
+    spells: ["{% spell_link mages-sword %}"]
     special: []
-  marketPriceSpecial: "+2 bonus"
+  price: "+2 bonus"
   description: |
     A bloodletting weapon deals 1 additional point of damage per round. Each successful hit on an enemy increases this damage by an additional point. Creatures immune to critical hits (such as plants and constructs) are immune to the extra damage dealt by a bloodletting weapon.
 

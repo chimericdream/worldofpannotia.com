@@ -1,13 +1,18 @@
 collections:
   magic_weapon_abilities:
-    output:    true
-    permalink: /equipment/magic-items/weapons/abilities/:path/
+    output: false
 
 defaults:
   - scope:
       path: ""
       type: magic_weapon_abilities
     values:
-      layout: "equipment/magic-items/wondrous-item"
-      crumbs: [equipment, magic-items, weapons]
-      crumbTitles: [Equipment, Magic Items, Weapons]
+      ability:
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        price: ""
+        description: ""

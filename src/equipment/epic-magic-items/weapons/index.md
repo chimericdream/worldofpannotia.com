@@ -118,3 +118,16 @@ Most magic weapons only have enhancement bonuses. They can also have special abi
 | 95-98  | {% epic_specific_magic_weapon_link unholy-despoiler %} | 4,620,315 gp
 | 99-100 | {% epic_specific_magic_weapon_link everwhirling-chain %} | 5,220,325 gp
 {: #specific-weapons-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Weapons" }
+
+### Epic Weapon Ability Descriptions
+
+{% for item in site.epic_magic_weapon_abilities %}
+
+{% unless forloop.index == 1 %}
+* * *
+{% endunless %}
+
+{% assign ability_slug = item | item_slug %}
+{% epic_magic_weapon_ability_embed {{ ability_slug }} %}
+
+{% endfor %}

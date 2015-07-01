@@ -2,14 +2,13 @@
 title: "Distance"
 
 ability:
-  shortDesc: ""
   aura: "Moderate divination"
   casterLevel: "6th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
-    spells: ["{% spell_link clairaudience/clairvoyance %}"]
+    spells: ["{% spell_link clairaudience-clairvoyance %}"]
     special: []
-  marketPriceSpecial: "+1 bonus"
+  price: "+1 bonus"
   description: |
     This property can only be placed on a ranged weapon. A weapon of distance has double the range increment of other weapons of its kind.
 ---

@@ -133,28 +133,28 @@ If the item is a ranged weapon, a 01-15 result indicates that something (a desig
 {: #uncommon-weapon-table .table .table-bordered .table-hover .table-striped data-caption="Table: Uncommon Weapons" }
 
 |---
-| d% | Weapon |<| Weapon Cost<sup>1</sup>
-|-|-|-|-
-| 01-10 | Ammunition (roll again): |<|<
-| &nbsp; | 01-50 | Arrows (50) | +350 gp
-| &nbsp; | 51-80 | Bolts, crossbow (50) | +350 gp
-| &nbsp; | 81-100 | Bullets, sling (50) | +350 gp
-| 11-15 | Axe, throwing |<| +308 gp
-| 16-25 | Crossbow, heavy |<| +350 gp
-| 26-35 | Crossbow, light |<| +335 gp
-| 36-39 | Dart |<| +300 gp 5 sp
-| 40-41 | Javelin |<| +301 gp
-| 42-46 | Shortbow |<| +330 gp
-| 47-51 | Shortbow, composite (+0 Str bonus) |<| +375 gp
-| 52-56 | Shortbow, composite (+1 Str bonus) |<| +450 gp
-| 57-61 | Shortbow, composite (+2 Str bonus) |<| +525 gp
-| 62-65 | Sling |<| +300 gp
-| 66-75 | Longbow |<| +375 gp
-| 76-80 | Longbow, composite |<| +400 gp
-| 81-85 | Longbow, composite (+1 Str bonus) |<| +500 gp
-| 86-90 | Longbow, composite (+2 Str bonus) |<| +600 gp
-| 91-95 | Longbow, composite (+3 Str bonus) |<| +700 gp
-| 96-100 | Longbow, composite (+4 Str bonus) |<| +800 gp
+| d% | Weapon | Weapon Cost<sup>1</sup>
+|-|-|-
+| 01-10 | Ammunition (roll again) |<
+| &nbsp;&mdash;&nbsp;01-50 | Arrows (50) | +350 gp
+| &nbsp;&mdash;&nbsp;51-80 | Bolts, crossbow (50) | +350 gp
+| &nbsp;&mdash;&nbsp;81-100 | Bullets, sling (50) | +350 gp
+| 11-15 | Axe, throwing | +308 gp
+| 16-25 | Crossbow, heavy | +350 gp
+| 26-35 | Crossbow, light | +335 gp
+| 36-39 | Dart | +300 gp 5 sp
+| 40-41 | Javelin | +301 gp
+| 42-46 | Shortbow | +330 gp
+| 47-51 | Shortbow, composite (+0 Str bonus) | +375 gp
+| 52-56 | Shortbow, composite (+1 Str bonus) | +450 gp
+| 57-61 | Shortbow, composite (+2 Str bonus) | +525 gp
+| 62-65 | Sling | +300 gp
+| 66-75 | Longbow | +375 gp
+| 76-80 | Longbow, composite | +400 gp
+| 81-85 | Longbow, composite (+1 Str bonus) | +500 gp
+| 86-90 | Longbow, composite (+2 Str bonus) | +600 gp
+| 91-95 | Longbow, composite (+3 Str bonus) | +700 gp
+| 96-100 | Longbow, composite (+4 Str bonus) | +800 gp
 |===
 | <sup>1</sup>Add to enhancement bonus on Table: Weapons to determine total market price.<br>All magic weapons are masterwork weapons. |<|<|<
 {: #ranged-weapon-table .table .table-bordered .table-hover .table-striped data-caption="Table: Common Ranged Weapons" }
@@ -270,3 +270,16 @@ The following specific weapons usually are preconstructed with exactly the quali
 | &nbsp; | &nbsp; | 98-99 | {% specific_magic_weapon_link holy-avenger %} | 120,630 gp
 | &nbsp; | &nbsp; | 100 | {% specific_magic_weapon_link luck-blade 'Luck Blade (3 wishes)' %} | 142,960 gp
 {: #specific-weapons-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Weapons" }
+
+### Weapon Ability Descriptions
+
+{% for item in site.magic_weapon_abilities %}
+
+{% unless forloop.index == 1 %}
+* * *
+{% endunless %}
+
+{% assign ability_slug = item | item_slug %}
+{% magic_weapon_ability_embed {{ ability_slug }} %}
+
+{% endfor %}

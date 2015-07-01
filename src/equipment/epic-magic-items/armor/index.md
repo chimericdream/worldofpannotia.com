@@ -131,3 +131,16 @@ Most magic armor and shields only have enhancement bonuses. Such items can also 
 | 83-93 | {% epic_specific_magic_armor_link antimagic-armor %} | 871,500 gp
 | 94-100 | {% epic_specific_magic_armor_link bulwark-of-the-great-dragon %} | 1,612,980 gp
 {: #specific-armor-shields-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Epic Magic Armor and Shields" }
+
+### Epic Armor &amp; Shield Ability Descriptions
+
+{% for item in site.epic_magic_armor_abilities %}
+
+{% unless forloop.index == 1 %}
+* * *
+{% endunless %}
+
+{% assign ability_slug = item | item_slug %}
+{% epic_magic_armor_ability_embed {{ ability_slug }} %}
+
+{% endfor %}

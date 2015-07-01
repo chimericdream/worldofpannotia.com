@@ -2,14 +2,13 @@
 title: "Expansion"
 
 ability:
-  shortDesc: ""
   aura: "Strong transmutation"
   casterLevel: "15th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
     spells: ["{% spell_link polymorph-any-object %}"]
     special: []
-  marketPriceSpecial: "+4 bonus"
+  price: "+4 bonus"
   description: |
     This property can only be placed on a ranged weapon. Projectiles fired from a weapon of expansion are treated as three size categories larger for the purpose of damage dealt.
 

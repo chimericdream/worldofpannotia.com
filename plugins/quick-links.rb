@@ -3,7 +3,7 @@ module Jekyll
   CLOSE_VAR = /(?:(?: *\| *[-_a-zA-Z0-9]+)* *\}\})?/
   SLUG_SYNTAX = /(?<slug>#{OPEN_VAR}\w+(?:(?:\-|\.)\w+)*#{CLOSE_VAR})/
   FRAGMENT_SYNTAX = /(?: #(?<fragment>#{OPEN_VAR}\w+(?:(?:\-|\.)\w+)*#{CLOSE_VAR}))/
-  TITLE_SYNTAX = /(?: (?<quote>"|')(?<titleText>.+?)\quote)?/
+  TITLE_SYNTAX = /(?: (?:"(?<titleText1>[^"]+)"|'(?<titleText2>[^']+)'))?/
 
   module PannotiaLinkTags
     Syntax = /#{SLUG_SYNTAX}#{TITLE_SYNTAX}#{FRAGMENT_SYNTAX}?/
@@ -19,8 +19,12 @@ module Jekyll
         @item_slug = matches['slug']
 
         @item_link_text = ''
-        if matches['titleText']
-          @item_link_text = matches['titleText']
+        if matches['titleText1'] || matches['titleText2']
+          if matches['titleText1']
+            @item_link_text = matches['titleText1']
+          else
+            @item_link_text = matches['titleText2']
+          end
         end
 
         @item_link_fragment = ''
@@ -137,12 +141,20 @@ module Jekyll
             end
 
             case @item_collection
+            when 'epic_magic_armor_abilities', 'epic_magic_shield_abilities'
+              url = site.config['url'] + "/equipment/epic-magic-items/armor/\#ability--" + slug
+            when 'epic_magic_weapon_abilities'
+              url = site.config['url'] + "/equipment/epic-magic-items/weapons/\#ability--" + slug
             when 'epic_skills', 'skills'
-              url = site.config['url'] + "/game-rules/skills/\#" + slug
+              url = site.config['url'] + "/game-rules/skills/\#skill--" + slug
+            when 'magic_armor_abilities', 'magic_shield_abilities'
+              url = site.config['url'] + "/equipment/magic-items/armor/\#ability--" + slug
+            when 'magic_weapon_abilities'
+              url = site.config['url'] + "/equipment/magic-items/weapons/\#ability--" + slug
             when 'status_conditions'
-              url = site.config['url'] + "/game-rules/adventuring/status-conditions/\#" + slug
+              url = site.config['url'] + "/game-rules/adventuring/status-conditions/\#condition--" + slug
             when 'special_abilities'
-              url = site.config['url'] + "/game-rules/adventuring/special-abilities/\#" + slug
+              url = site.config['url'] + "/game-rules/adventuring/special-abilities/\#ability--" + slug
             else
               url = site.config['url'] + item.url + @item_link_fragment
             end
@@ -183,8 +195,16 @@ eos
         @item_slug = matches['slug']
 
         case tag_name
+        when "epic_magic_armor_ability_embed", "epic_magic_shield_ability_embed"
+          @item_collection = "epic_magic_armor_abilities"
+        when "epic_magic_weapon_ability_embed"
+          @item_collection = "epic_magic_weapon_abilities"
         when "epic_skill_embed"
           @item_collection = "epic_skills"
+        when "magic_armor_ability_embed", "magic_shield_ability_embed"
+          @item_collection = "magic_armor_abilities"
+        when "magic_weapon_ability_embed"
+          @item_collection = "magic_weapon_abilities"
         when "plane_embed"
           @item_collection = "planes"
         when "skill_embed"
@@ -198,28 +218,70 @@ eos
         end
       end
 
+      def liquify(input, context)
+        partial = Liquid::Template.parse(input)
+        partial.render!(context)
+      end
+
       def render(context)
         site = context.registers[:site]
         collection = site.collections[@item_collection]
 
-        partial = Liquid::Template.parse(@item_slug)
-        slug = partial.render!(context)
+        slug = liquify(@item_slug, context)
 
         collection.docs.each do |item|
           if slug == item.basename_without_ext
             case @item_collection
-            when 'planes'
+            when 'epic_skills', 'planes'
               return <<-eos
 ##### #{item.data["title"]}
 
 #{item.content}
 eos
-            when 'epic_skills'
-              return <<-eos
-#### #{item.data["title"]}
 
-#{item.content}
+            when 'epic_magic_armor_abilities', 'epic_magic_shield_abilities', 'epic_magic_weapon_abilities', 'magic_armor_abilities', 'magic_shield_abilities', 'magic_weapon_abilities'
+              subtext = ""
+              subtext_arr = []
+              ability = item.data["ability"]
+
+              if ability["aura"] && ability["aura"] != ""
+                subtext_arr.push(liquify(ability["aura"], context))
+              end
+              if ability["casterLevel"]
+                subtext_arr.push("CL " + liquify(ability["casterLevel"], context))
+              end
+              if ability["prerequisites"]
+                prereqs = []
+                if ability["prerequisites"]["feats"].size > 0
+                  prereqs.push(liquify(ability["prerequisites"]["feats"].join(", "), context))
+                end
+                if ability["prerequisites"]["spells"].size > 0
+                  prereqs.push(liquify(ability["prerequisites"]["spells"].join(", "), context))
+                end
+                if ability["prerequisites"]["special"].size > 0
+                  prereqs.push(liquify(ability["prerequisites"]["special"].join(", "), context))
+                end
+                if prereqs.size > 0
+                  subtext_arr.push("_Prerequisites:_ " + prereqs.join(", "))
+                end
+              end
+              if ability["price"]
+                subtext_arr.push("Price " + liquify(ability["price"], context))
+              end
+              if ability["description"]
+                description = liquify(ability["description"], context)
+              end
+              if subtext_arr.size > 0
+                subtext = subtext_arr.join("; ")
+              end
+              return <<-eos
+##### #{item.data["title"]} \{\#ability--#{slug}\}
+
+#{description}
+
+#{subtext}
 eos
+
             when 'skills'
               trained = armor_check = check = action = try_again = special = synergy = restriction = untrained = ""
               skill = item.data["skill"]
@@ -252,7 +314,7 @@ eos
                 untrained = "**Untrained:** " + skill["untrained"]
               end
               return <<-eos
-#### #{item.data["title"]} (#{skill["key_ability"]}#{trained}#{armor_check}) \{\##{slug}\}
+#### #{item.data["title"]} (#{skill["key_ability"]}#{trained}#{armor_check}) \{\#skill--#{slug}\}
 
 #{skill["description"]}
 
@@ -270,6 +332,7 @@ eos
 
 #{untrained}
 eos
+
             when 'special_abilities'
               ability = item.data["ability"]
               types = ""
@@ -277,19 +340,26 @@ eos
                 types = " (" + ability["types"].join(" or ") + ")"
               end
               return <<-eos
-##### #{item.data["title"]}#{types} \{\##{slug}\}
+##### #{item.data["title"]}#{types} \{\#ability--#{slug}\}
 
 #{ability["description"]}
 eos
+
             when 'status_conditions'
               return <<-eos
-##### #{item.data["title"]} \{\##{slug}\}
+##### #{item.data["title"]} \{\#condition--#{slug}\}
 
 #{item.data["condition"]["description"]}
 eos
             end
           end
         end
+
+"epic_magic_armor_abilities"
+"epic_magic_weapon_abilities"
+"magic_armor_abilities"
+"magic_weapon_abilities"
+
 
         raise ArgumentError.new <<-eos
 Could not find page "#{slug}" in collection "#{@item_collection}" in tag '#{@item_tag}'.
@@ -306,7 +376,7 @@ end
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
 end
 
-['epic_skill', 'plane', 'skill', 'special_ability', 'status_condition'].each do |tag|
+['epic_magic_armor_ability', 'epic_magic_shield_ability', 'epic_magic_weapon_ability', 'epic_skill', 'magic_armor_ability', 'magic_shield_ability', 'magic_weapon_ability', 'plane', 'skill', 'special_ability', 'status_condition'].each do |tag|
   embed = tag + "_embed"
   Liquid::Template.register_tag(embed, Jekyll::PannotiaEmbedTags::ItemEmbed)
 end

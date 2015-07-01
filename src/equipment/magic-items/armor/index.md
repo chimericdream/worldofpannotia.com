@@ -213,3 +213,16 @@ The following specific shields usually are preconstructed with exactly the quali
 | &nbsp; | 96-100 | 61-90 | {% specific_magic_shield_link winged-shield %} | 17,257 gp
 | &nbsp; | &nbsp; | 91-100 | {% specific_magic_shield_link absorbing-shield %} | 50,170 gp
 {: #specific-shields-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Shields" }
+
+### Armor &amp; Shield Ability Descriptions
+
+{% for item in site.magic_armor_abilities %}
+
+{% unless forloop.index == 1 %}
+* * *
+{% endunless %}
+
+{% assign ability_slug = item | item_slug %}
+{% magic_armor_ability_embed {{ ability_slug }} %}
+
+{% endfor %}

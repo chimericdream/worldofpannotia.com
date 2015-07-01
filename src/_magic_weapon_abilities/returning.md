@@ -2,14 +2,13 @@
 title: "Returning"
 
 ability:
-  shortDesc: ""
   aura: "Moderate transmutation"
   casterLevel: "7th"
   prerequisites:
     feats: ["{% feat_link craft-magic-arms-and-armor %}"]
     spells: ["{% spell_link telekinesis %}"]
     special: []
-  marketPriceSpecial: "+1 bonus"
+  price: "+1 bonus"
   description: |
     This special ability can only be placed on a weapon that can be thrown. A returning weapon flies through the air back to the creature that threw it. It returns to the thrower just before the creature's next turn (and is therefore ready to use again in that turn).
 
