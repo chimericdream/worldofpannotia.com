@@ -4,7 +4,7 @@ title: "Improved Whirlwind Attack"
 feat:
   types: ["Epic"]
   prerequisite: |
-    Int 13, Dex 23, Combat Expertise, Dodge, Mobility, Spring Attack, Whirlwind Attack.
+    Int 13, Dex 23, {% feat_link combat-expertise %}, Dodge, {% feat_link mobility %}, Spring Attack, Whirlwind Attack.
   benefit: |
     As a standard action, the character can make one melee attack for every five points of his or her base attack bonus (including epic attack bonus, round fractions down).
 

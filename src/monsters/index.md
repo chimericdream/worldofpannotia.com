@@ -28,7 +28,7 @@ If the creature has other modes of movement, these are given after (or in place 
 
 A creature's armor proficiencies (if it has any) depend on its type, but in general a creature is automatically proficient with any kind of armor it is described as wearing (light, medium, or heavy), and with all lighter kinds of armor.
 
-**Base Attack/Grapple:** The number before the slash on this line is the creature's base attack bonus (before any modifiers are applied). This number won't often be used, but it can be handy sometimes, especially if the creature has the Power Attack or Combat Expertise feats.
+**Base Attack/Grapple:** The number before the slash on this line is the creature's base attack bonus (before any modifiers are applied). This number won't often be used, but it can be handy sometimes, especially if the creature has the Power Attack or {% feat_link combat-expertise %} feats.
 
 The number after the slash is the creature's grapple bonus, which is used when the creature makes a grapple attack or when someone tries to grapple the creature. The grapple bonus includes all modifiers that apply to the creature's grapple checks (base attack bonus, Strength modifier, special size modifier, and any other applicable modifier, such as a racial bonus on grapple checks).
 

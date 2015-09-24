@@ -102,7 +102,7 @@ class:
 
           _Improved Evasion (Ex):_ This ability works like evasion, except that while the rogue still takes no damage on a successful Reflex saving throw against attacks henceforth she takes only half damage on a failed save. A helpless rogue does not gain the benefit of improved evasion.
 
-          _Opportunist (Ex):_ Once per round, the rogue can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as the rogue's attack of opportunity for that round. Even a rogue with the Combat Reflexes feat can't use the opportunist ability more than once per round.
+          _Opportunist (Ex):_ Once per round, the rogue can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as the rogue's attack of opportunity for that round. Even a rogue with the {% feat_link combat-reflexes %} feat can't use the opportunist ability more than once per round.
 
           _Skill Mastery:_ The rogue becomes so certain in the use of certain skills that she can use them reliably even under adverse conditions.
 

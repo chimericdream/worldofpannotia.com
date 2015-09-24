@@ -4,7 +4,7 @@ title: "Hold the Line"
 feat:
   types: ["General", "Fighter"]
   prerequisite: |
-    Combat Reflexes, base attack bonus +2.
+    {% feat_link combat-reflexes %}, base attack bonus +2.
   benefit: |
     You may make an attack of opportunity against a chagin opponent who enters an area you threaten. Your attack of opportunity happens immediately before the charge attack is resolved.
   normal: |

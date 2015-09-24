@@ -54,7 +54,7 @@ class:
 
           The blade can be broken (it has hardness 10 and 10 hit points); however, a soulknife can simply create another on his next move action. The moment he relinquishes his grip on his blade, it dissipates (unless he intends to throw it; see below). A mind blade is considered a magic weapon for the purpose of overcoming damage reduction.
 
-          A soulknife can use feats such as Power Attack or Combat Expertise in conjunction with the mind blade just as if it were a normal weapon. He can also choose mind blade for feats requiring a specific weapon choice, such as Weapon Specialization. Powers or spells that upgrade weapons can be used on a mind blade.
+          A soulknife can use feats such as Power Attack or {% feat_link combat-expertise %} in conjunction with the mind blade just as if it were a normal weapon. He can also choose mind blade for feats requiring a specific weapon choice, such as Weapon Specialization. Powers or spells that upgrade weapons can be used on a mind blade.
 
           A soulknife's mind blade improves as the character gains higher levels. At 4th level and every four levels thereafter, the mind blade gains a cumulative +1 enhancement bonus on attack rolls and damage rolls (+2 at 8th level, +3 at 12th level, +4 at 16th level, and +5 at 20th level).
 

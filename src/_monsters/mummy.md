@@ -36,7 +36,7 @@ LE Large Undead
 
 **SQ** Damage reduction 5/-, darkvision 60 ft, undead traits, vulnerability to fire
 
-**Feats** Alertness, Blind-Fight, Great Fortitude, Lightning Reflexes, Power Attack, Toughness, Weapon Focus (slam)
+**Feats** Alertness, {% feat_link blind-fight %}, Great Fortitude, Lightning Reflexes, Power Attack, Toughness, Weapon Focus (slam)
 
 **Skills** {% skill_link hide %} -5, {% skill_link listen %} +9, {% skill_link move-silently %} +10, {% skill_link spot %} +9
 

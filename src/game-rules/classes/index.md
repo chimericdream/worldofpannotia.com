@@ -4,7 +4,65 @@ crumbs: [game-rules]
 crumbTitles: [Game Rules]
 ---
 
-[Jump to class list.](#class-list)
+## Core Classes
+
+{% base_class_link aristocrat %}
+
+{% base_class_link barbarian %}
+
+{% base_class_link bard %}
+
+{% base_class_link cleric %}
+
+{% base_class_link druid %}
+
+{% base_class_link fighter %}
+
+{% base_class_link inventor %}
+
+{% base_class_link martial-artist %}
+
+{% base_class_link monk %}
+
+{% base_class_link paladin %}
+
+{% base_class_link psion %}
+
+{% base_class_link psychic-warrior %}
+
+{% base_class_link ranger %}
+
+{% base_class_link rogue %}
+
+{% base_class_link sorcerer %}
+
+{% base_class_link soulknife %}
+
+{% base_class_link wilder %}
+
+{% base_class_link wizard %}
+
+{% comment %}
+## Alternate Classes
+
+{% base_class_link alacritous-hunter %}
+
+{% base_class_link battle-sorcerer "Battle Sorcerer" %}
+
+{% base_class_link martial-ranger "Martial Ranger" %}
+
+{% base_class_link paladin-of-freedom "Paladin of Freedom" %}
+
+{% base_class_link paladin-of-slaughter "Paladin of Slaughter" %}
+
+{% base_class_link paladin-of-tyranny "Paladin of Tyranny" %}
+
+{% base_class_link sacred-paladin "Sacred Paladin" %}
+
+{% base_class_link sacred-ranger "Sacred Ranger" %}
+
+{% base_class_link specialist-sorcerer "Specialist Sorcerer" %}
+{% endcomment %}
 
 ### Multiclass Characters
 
@@ -107,33 +165,3 @@ Just as a high Intelligence score grants bonus spells to a wizard and a high Wis
 | 38–39 | 77 | 84 | 91 | 98 | 105 | 112 | 119 | 126 | 133 | 140
 | 40–41 | 82 | 90 | 97 | 105 | 112 | 120 | 127 | 135 | 142 | 150
 {: #ability-modifiers-power-points-table-2 .table .table-bordered .table-hover .table-striped data-caption="Table: Ability Modifiers and Bonus Power Points (Level 11-20)" }
-
-### Class List
-
- * {% base_class_link alacritous-hunter %}
- * {% base_class_link aristocrat %}
- * {% base_class_link barbarian %}
- * {% base_class_link bard %}
- * {% base_class_link cleric %}
- * {% base_class_link druid %}
- * {% base_class_link fighter %}
- * {% base_class_link inventor %}
- * {% base_class_link martial-artist %}
- * {% base_class_link monk %}
- * {% base_class_link paladin %}
-   * {% base_class_link paladin "Paladin of Freedom" #paladin-of-freedom %}
-   * {% base_class_link paladin "Paladin of Slaughter" #paladin-of-slaughter %}
-   * {% base_class_link paladin "Paladin of Tyranny" #paladin-of-tyranny %}
-   * {% base_class_link paladin "Paladin (Spellcaster)" #paladin-spellcaster %}
- * {% base_class_link psion %}
- * {% base_class_link psychic-warrior %}
- * {% base_class_link ranger %}
-   * {% base_class_link ranger "Martial Ranger" #martial-ranger %}
-   * {% base_class_link ranger "Ranger (Spellcaster)" #ranger-spellcaster %}
- * {% base_class_link rogue %}
- * {% base_class_link sorcerer %}
-   * {% base_class_link sorcerer "Battle Sorcerer" #battle-sorcerer %}
-   * {% base_class_link sorcerer "Specialist Sorcerer" #specialist-sorcerer %}
- * {% base_class_link soulknife %}
- * {% base_class_link wilder %}
- * {% base_class_link wizard %}

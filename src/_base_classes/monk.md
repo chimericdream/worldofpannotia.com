@@ -119,7 +119,7 @@ class:
           {: #small-large-monk-table .table .table-bordered .table-hover .table-striped data-caption="Table: Small or Large Monk Unarmed Damage" }
       - name: "Bonus Feat"
         type: ""
-        desc: "At 1st level, a monk may select either Improved Grapple or Stunning Fist as a bonus feat. At 2nd level, she may select either Combat Reflexes or Deflect Arrows as a bonus feat. At 6th level, she may select either Improved Disarm or Improved Trip as a bonus feat. A monk need not have any of the prerequisites normally required for these feats to select them."
+        desc: "At 1st level, a monk may select either Improved Grapple or Stunning Fist as a bonus feat. At 2nd level, she may select either {% feat_link combat-reflexes %} or Deflect Arrows as a bonus feat. At 6th level, she may select either Improved Disarm or Improved Trip as a bonus feat. A monk need not have any of the prerequisites normally required for these feats to select them."
       - name: "Evasion"
         type: "Ex"
         desc: "At 2nd level or higher if a monk makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if a monk is wearing light armor or no armor. A helpless monk does not gain the benefit of evasion."

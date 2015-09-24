@@ -41,17 +41,17 @@ race:
       traits: |
          * Racial Hit Dice: A janni begins with two levels of outsider, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +3, Ref +3, and Will +3.
          * Racial Skills: A janni's outsider levels give it skill points equal to 5 * (8 + Int modifier). Its class skills are {% skill_link appraise %}, {% skill_link concentration %}, _craft (any)_, {% skill_link escape-artist %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link ride %}, {% skill_link sense-motive %}, and {% skill_link spot %}.
-         * Racial Feats: A janni's outsider levels give it two feats. A janni receives Improved Initiative as a bonus feat.
+         * Racial Feats: A janni's outsider levels give it two feats. A janni receives {% feat_link improved-initiative %} as a bonus feat.
     - baseEcl: 10
       levelAdjust: 6
       traits: |
          * Racial Hit Dice: A janni begins with four levels of outsider, which provide 4d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +4, Ref +4, and Will +4.
          * Racial Skills: A janni's outsider levels give it skill points equal to 7 * (8 + Int modifier). Its class skills are {% skill_link appraise %}, {% skill_link concentration %}, _craft (any)_, {% skill_link escape-artist %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link ride %}, {% skill_link sense-motive %}, and {% skill_link spot %}.
-         * Racial Feats: A janni's outsider levels give it two feats. A janni receives Improved Initiative as a bonus feat.
+         * Racial Feats: A janni's outsider levels give it two feats. A janni receives {% feat_link improved-initiative %} as a bonus feat.
     - baseEcl: 11
       levelAdjust: 5
       traits: |
          * Racial Hit Dice: A janni begins with six levels of outsider, which provide 6d8 Hit Dice, a base attack bonus of +6, and base saving throw bonuses of Fort +5, Ref +5, and Will +5.
          * Racial Skills: A janni's outsider levels give it skill points equal to 9 * (8 + Int modifier). Its class skills are {% skill_link appraise %}, {% skill_link concentration %}, _craft (any)_, {% skill_link escape-artist %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link ride %}, {% skill_link sense-motive %}, and {% skill_link spot %}.
-         * Racial Feats: A janni's outsider levels give it three feats. A janni receives Improved Initiative as a bonus feat.
+         * Racial Feats: A janni's outsider levels give it three feats. A janni receives {% feat_link improved-initiative %} as a bonus feat.
 ---

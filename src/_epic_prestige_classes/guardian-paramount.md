@@ -54,7 +54,7 @@ class:
       - name: "Bonus Feats"
         type: ""
         desc: |
-          The guardian paramount gets a bonus feat at 1st level and an additional bonus feat every three levels thereafter. These bonus feats must be selected from the following list: Bulwark of Defense, Combat Archery, Damage Reduction, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Fortitude, Epic Reflexes, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Toughness, Epic Trapfinding, Epic Will, Exceptional Deflection, Fast Healing, Great Dexterity, Improved Combat Reflexes, Improved Sneak Attack, Improved Spell Resistance, Infinite Deflection, Legendary Climber, Lingering Damage, Mobile Defense, Perfect Health, Reflect Arrows, Self-Concealment, Sneak Attack of Opportunity, Spellcasting Harrier, and Uncanny Accuracy.
+          The guardian paramount gets a bonus feat at 1st level and an additional bonus feat every three levels thereafter. These bonus feats must be selected from the following list: Bulwark of Defense, Combat Archery, Damage Reduction, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Fortitude, Epic Reflexes, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Toughness, Epic Trapfinding, Epic Will, Exceptional Deflection, Fast Healing, Great Dexterity, Improved {% feat_link combat-reflexes %}, Improved Sneak Attack, Improved Spell Resistance, Infinite Deflection, Legendary Climber, Lingering Damage, Mobile Defense, Perfect Health, Reflect Arrows, Self-Concealment, Sneak Attack of Opportunity, Spellcasting Harrier, and Uncanny Accuracy.
       - name: "Uncanny Dodge Enabler"
         type: "Ex"
         desc: |

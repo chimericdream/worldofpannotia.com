@@ -3,7 +3,7 @@ title: "Darkness"
 
 domain:
   grantedPower: |
-    Free Blind-Fight feat.
+    Free {% feat_link blind-fight %} feat.
   spells: |
     1. {% spell_link obscuring-mist %}<sup>1</sup>
     1. {% spell_link blindness-deafness %}

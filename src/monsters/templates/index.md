@@ -28,7 +28,7 @@ If a template changes a creature's size, use Table: Changes to Statistics by Siz
 
 If the Hit Dice entry in a template description is missing, Hit Dice and hit points do not change unless the creature's Constitution modifier changes.
 
-**Initiative:** If a template changes the monster's Dexterity, or if it adds or removes the Improved Initiative feat, this entry changes.
+**Initiative:** If a template changes the monster's Dexterity, or if it adds or removes the {% feat_link improved-initiative %} feat, this entry changes.
 
 **Speed:** If a template modifies a creature's speed, the template states how that happens. More commonly, a template adds a new movement mode.
 

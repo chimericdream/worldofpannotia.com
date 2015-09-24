@@ -31,7 +31,7 @@ race:
       desc: |
         Grimlocks can sense all foes within 40 feet as a sighted creature would. Beyond that range, they treat all targets as having total concealment.
 
-        Grimlocks are susceptible to sound- and scent-based attacks, however, and are affected normally by loud noises and sonic spells (such as ghost sound or silence) and overpowering odors (such as stinking cloud or incense-heavy air). Negating a grimlock's sense of smell or hearing reduces this ability to normal ~Blind-Fight (as the feat). If both these senses are negated, a grimlock is effectively blinded.
+        Grimlocks are susceptible to sound- and scent-based attacks, however, and are affected normally by loud noises and sonic spells (such as ghost sound or silence) and overpowering odors (such as stinking cloud or incense-heavy air). Negating a grimlock's sense of smell or hearing reduces this ability to normal ~{% feat_link blind-fight %} (as the feat). If both these senses are negated, a grimlock is effectively blinded.
     - name: "Immunities"
       type: "Ex"
       desc: "Grimlocks are immune to gaze attacks, visual effects, illusions, and other attack forms that rely on sight."

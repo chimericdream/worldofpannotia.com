@@ -106,6 +106,7 @@
                     <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
                         <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/" title="Basics">Basics</a></li>
+                        <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/advancement/" title="Character Advancement">Character Advancement</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Races" class="dropdown-toggle" data-toggle="dropdown" role="button">Races</a>
                             <ul class="dropdown-menu">
@@ -116,7 +117,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
                             <ul class="dropdown-menu">
-                                <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/base-classes/" title="Base Classes">Base Classes</a></li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/" title="Base Classes">Overview</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-prestige-classes/" title="Epic Prestige Classes">Epic Prestige Classes</a></li>
@@ -308,22 +309,8 @@
                             <ul class="dropdown-menu">
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Magical Armor Overview">Overview</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/armor-abilities/" title="Magical Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/specific-armor/" title="Specific Magical Armor">Specific Armor</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Magical Weapons Overview">Overview</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/weapon-abilities/" title="Magical Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/specific-weapons/" title="Specific Magical Weapons">Specific Weapons</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Armor">Armor</a></li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Weapons">Weapons</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
@@ -607,18 +594,18 @@
 
 
 
-<p><strong>Level Adjustment: </strong> +8.</p>
+    <p><strong>Level Adjustment: </strong> +8.</p>
 
 
 
 
 <div class="ogc">
     
-
-<h4>Racial Traits</h4>
-<ul>
+    
+        <h4>Racial Traits</h4>
+        <ul>
   <li>+12 Strength, +4 Dexterity, +12 Constitution, -4 Intelligence (minimum 3), -2 Wisdom, -4 Charisma.</li>
-  <li>Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on <em>hide</em> checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.</li>
+  <li>Large size. -1 penalty to Armor Class, -1 penalty on attack rolls, -4 penalty on {% skill_link hide %} checks, +4 bonus on grapple checks, lifting and carrying limits double those of Medium characters.</li>
   <li>Space/Reach: 10 feet/10 feet.</li>
   <li>A troll’s base land speed is 30 feet.</li>
   <li>Darkvision out to 60 feet and Low-light vision.</li>
@@ -630,57 +617,57 @@
   <li>Favored Class: Fighter.</li>
 </ul>
 
+    
 
+    
+        <h4>Special Qualities</h4>
+        
+            <p><strong>Rend (Ex)</strong></p>
 
+            <p>If a troll hits with both claw attacks, it latches onto the opponent’s body and tears the flesh. This attack automatically deals an additional 2d6+(1 ½ str mod) points of damage.</p>
 
-<h4>Special Qualities</h4>
+        
+            <p><strong>Regeneration (Ex)</strong></p>
 
-<p><strong>Rend (Ex)</strong></p>
+            <p>Fire and acid deal normal damage to a troll. If a troll loses a limb or body part, the lost portion regrows in 3d6 minutes. The creature can reattach the severed member instantly by holding it to the stump.</p>
 
-<p>If a troll hits with both claw attacks, it latches onto the opponent’s body and tears the flesh. This attack automatically deals an additional 2d6+(1 ½ str mod) points of damage.</p>
+        
+    
 
+    
+        <h4>Alternate Level Adjustment Options</h4>
+        
+            <p><strong>Effective Character Level:</strong> 9 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +7.</p>
 
-<p><strong>Regeneration (Ex)</strong></p>
-
-<p>Fire and acid deal normal damage to a troll. If a troll loses a limb or body part, the lost portion regrows in 3d6 minutes. The creature can reattach the severed member instantly by holding it to the stump.</p>
-
-
-
-
-
-<h4>Alternate Level Adjustment Options</h4>
-
-<p><strong>Effective Character Level:</strong> 9 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +7.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A troll begins with two levels of giant, which provide 2d8 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +3, Ref +0, and Will +0.</li>
-  <li>Racial Skills: A troll’s giant levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are <em>listen</em> and <em>spot</em>.</li>
+  <li>Racial Skills: A troll’s giant levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link listen %} and {% skill_link spot %}.</li>
   <li>Racial Feats: A troll’s giant levels give it one feat.</li>
 </ul>
 
+        
+            <p><strong>Effective Character Level:</strong> 10 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +6.</p>
 
-<p><strong>Effective Character Level:</strong> 10 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +6.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A troll begins with four levels of giant, which provide 4d8 Hit Dice, a base attack bonus of +3, and base saving throw bonuses of Fort +4, Ref +1, and Will +1.</li>
-  <li>Racial Skills: A troll’s giant levels give it skill points equal to 7 * (2 + Int modifier, minimum 1). Its class skills are <em>listen</em> and <em>spot</em>.</li>
+  <li>Racial Skills: A troll’s giant levels give it skill points equal to 7 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link listen %} and {% skill_link spot %}.</li>
   <li>Racial Feats: A troll’s giant levels give it two feats.</li>
 </ul>
 
+        
+            <p><strong>Effective Character Level:</strong> 11 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +5.</p>
 
-<p><strong>Effective Character Level:</strong> 11 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +5.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A troll begins with six levels of giant, which provide 6d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +5, Ref +2, and Will +2.</li>
-  <li>Racial Skills: A troll’s giant levels give it skill points equal to 9 * (2 + Int modifier, minimum 1). Its class skills are <em>listen</em> and <em>spot</em>.</li>
+  <li>Racial Skills: A troll’s giant levels give it skill points equal to 9 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link listen %} and {% skill_link spot %}.</li>
   <li>Racial Feats: A troll’s giant levels give it three feats.</li>
 </ul>
 
-
-
+        
+    
 
 </div>
 

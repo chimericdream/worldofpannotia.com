@@ -4,7 +4,7 @@ title: "Improved Feint"
 feat:
   types: ["General", "Fighter"]
   prerequisite: |
-    Int 13, Combat Expertise.
+    Int 13, {% feat_link combat-expertise %}.
   benefit: |
     You can make a {% skill_link bluff %} check to feint in combat as a move action.
   normal: |

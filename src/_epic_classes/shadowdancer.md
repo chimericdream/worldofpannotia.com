@@ -34,6 +34,6 @@ class:
         desc: |
           The epic shadowdancer gains a bonus feat every three levels after 20th.
 
-          _Bonus Feat List:_ Blinding Speed, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Skill Focus, Epic Speed, Exceptional Deflection, Improved Combat Reflexes, Improved Darkvision, Improved Whirlwind Attack, Infinite Deflection, Legendary Leaper, Reflect Arrows, Self-Concealment, Spellcasting Harrier, Superior Initiative.
+          _Bonus Feat List:_ Blinding Speed, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Skill Focus, Epic Speed, Exceptional Deflection, Improved {% feat_link combat-reflexes %}, Improved Darkvision, Improved Whirlwind Attack, Infinite Deflection, Legendary Leaper, Reflect Arrows, Self-Concealment, Spellcasting Harrier, Superior Initiative.
     additionalInfo: ""
 ---

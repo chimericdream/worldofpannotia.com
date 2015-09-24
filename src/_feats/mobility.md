@@ -10,5 +10,5 @@ feat:
 
     Dodge bonuses stack with each other, unlike most types of bonuses.
   special: |
-    A fighter may select Mobility as one of his fighter bonus feats.
+    A fighter may select {% feat_link mobility %} as one of his fighter bonus feats.
 ---

@@ -54,8 +54,8 @@ class:
         desc: |
           At 2nd level, a duelist gains a +2 bonus on initiative checks.
 
-          At 8th level, the bonus increases to +4. This bonus stacks with the benefit provided by the Improved Initiative feat.
-      - name: "Enhanced Mobility"
+          At 8th level, the bonus increases to +4. This bonus stacks with the benefit provided by the {% feat_link improved-initiative %} feat.
+      - name: "Enhanced {% feat_link mobility %}"
         type: "Ex"
         desc: |
           When wearing no armor and not using a shield, a duelist gains an additional +4 bonus to AC against attacks of opportunity caused when she moves out of a threatened square.

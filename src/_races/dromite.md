@@ -24,7 +24,7 @@ race:
      * Naturally Psionic: Dromites gain 1 bonus power point at 1st level. This benefit does not grant them the ability to manifest powers unless they gain that ability through another source, such as levels in a psionic class.
      * Psi-Like Ability: 1/day&ndash;{% spell_link energy-ray %}. A dromite always deals the kind of energy damage that its chitin has resistance to (for example, a dromite who has resistance to cold 5 deals cold damage with its {% spell_link energy-ray %}). Manifester level is equal to &#189; Hit Dice (minimum 1st). The save DC is Charisma-based.
      * Scent: Its antennae give a dromite the scent ability. A dromite can detect opponents by scent within 30 feet. If the opponent is upwind, the range increases to 60 feet; if downwind, it drops to 15 feet. Strong scents, such as smoke or rotting garbage, can be detected at twice the ranges noted above. Overpowering scents, such as skunk musk or troglodyte stench, can be detected at triple normal range. When a dromite detects a scent, the exact location of the source is not revealed &ndash; only its presence somewhere within range. The dromite can take a move action to note the direction of the scent. Whenever the dromite comes within 5 feet of the source, the dromite pinpoints the source's location.
-     * Blind-Fight: Its antennae also give a dromite Blind-Fight as a bonus feat.
+     * {% feat_link blind-fight %}: Its antennae also give a dromite {% feat_link blind-fight %} as a bonus feat.
      * Compound Eyes: This feature of its anatomy gives a dromite a +2 racial bonus on {% skill_link spot %} checks.
      * Automatic Languages: Common. Bonus Languages: Dwarven, Gnome, Goblin, Terran.
      * Favored Class: Wilder.

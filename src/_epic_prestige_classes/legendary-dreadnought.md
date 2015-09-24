@@ -80,6 +80,6 @@ class:
         desc: |
           The legendary dreadnought gets a bonus feat at 5th level and an additional bonus feat every five levels thereafter. These bonus feats must be selected from the list below.
 
-          _Bonus Feat List:_ Armor Skin, Devastating Critical, Dire Charge, Epic Fortitude, Epic Prowess, Epic Toughness, Epic Weapon Focus, Epic Weapon Specialization, Fast Healing, Great Constitution, Great Strength, Improved Combat Reflexes, Overwhelming Critical, Penetrate Damage Reduction.
+          _Bonus Feat List:_ Armor Skin, Devastating Critical, Dire Charge, Epic Fortitude, Epic Prowess, Epic Toughness, Epic Weapon Focus, Epic Weapon Specialization, Fast Healing, Great Constitution, Great Strength, Improved {% feat_link combat-reflexes %}, Overwhelming Critical, Penetrate Damage Reduction.
     additionalInfo: ""
 ---

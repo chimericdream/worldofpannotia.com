@@ -4,7 +4,7 @@ title: "Improved Trip"
 feat:
   types: ["General", "Fighter"]
   prerequisite: |
-    Int 13, Combat Expertise.
+    Int 13, {% feat_link combat-expertise %}.
   benefit: |
     You do not provoke an attack of opportunity when you attempt to trip an opponent while you are unarmed. You also gain a +4 bonus on your Strength check to trip your opponent.
 

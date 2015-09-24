@@ -4,7 +4,7 @@ title: "Combat Archery"
 feat:
   types: ["Epic"]
   prerequisite: |
-    Dodge, Mobility, Point Blank Shot.
+    Dodge, {% feat_link mobility %}, Point Blank Shot.
   benefit: |
     The character does not incur any attacks of opportunity for firing a bow when threatened.
   normal: |

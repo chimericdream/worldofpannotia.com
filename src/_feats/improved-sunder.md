@@ -12,5 +12,5 @@ feat:
   normal: |
     Without this feat, you provoke an attack of opportunity when you strike at an object held or carried by another character.
   special: |
-    A fighter may select Improved Sunder as one of his fighter bonus feats.
+    A fighter may select {% feat_link improved-sunder %} as one of his fighter bonus feats.
 ---

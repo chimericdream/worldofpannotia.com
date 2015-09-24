@@ -1,5 +1,5 @@
 ---
-title: "Combat Reflexes"
+title: "Combat Rreflexes"
 
 feat:
   types: ["General", "Fighter"]
@@ -10,9 +10,9 @@ feat:
   normal: |
     A character without this feat can make only one attack of opportunity per round and can't make attacks of opportunity while flat-footed.
   special: |
-    The Combat Reflexes feat does not allow a rogue to use her opportunist ability more than once per round.
+    The {% feat_link combat-reflexes %} feat does not allow a rogue to use her opportunist ability more than once per round.
 
-    A fighter may select Combat Reflexes as one of his fighter bonus feats.
+    A fighter may select {% feat_link combat-reflexes %} as one of his fighter bonus feats.
 
-    A monk may select Combat Reflexes as a bonus feat at 2nd level.
+    A monk may select {% feat_link combat-reflexes %} as a bonus feat at 2nd level.
 ---

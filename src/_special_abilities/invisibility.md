@@ -41,13 +41,13 @@ ability:
 
     A creature with the scent ability can detect an invisible creature as it would a visible one.
 
-    A creature with the Blind-Fight feat has a better chance to hit an invisible creature. Roll the miss chance twice, and he misses only if both rolls indicate a miss. (Alternatively, make one 25% miss chance roll rather than two 50% miss chance rolls.)
+    A creature with the {% feat_link blind-fight %} feat has a better chance to hit an invisible creature. Roll the miss chance twice, and he misses only if both rolls indicate a miss. (Alternatively, make one 25% miss chance roll rather than two 50% miss chance rolls.)
 
     A creature with blindsight can attack (and otherwise interact with) creatures regardless of invisibility.
 
     An invisible burning torch still gives off light, as does an invisible object with a light spell (or similar spell) cast upon it.
 
-    Ethereal creatures are invisible. Since ethereal creatures are not materially present, Spot checks, Listen checks, Scent, Blind-Fight, and blindsight don't help locate them. Incorporeal creatures are often invisible. Scent, Blind-Fight, and blindsight don't help creatures find or attack invisible, incorporeal creatures, but Spot checks and possibly Listen checks can help.
+    Ethereal creatures are invisible. Since ethereal creatures are not materially present, Spot checks, Listen checks, Scent, {% feat_link blind-fight %}, and blindsight don't help locate them. Incorporeal creatures are often invisible. Scent, {% feat_link blind-fight %}, and blindsight don't help creatures find or attack invisible, incorporeal creatures, but Spot checks and possibly Listen checks can help.
 
     Invisible creatures cannot use gaze attacks.
 

@@ -30,7 +30,7 @@ class:
         desc: |
           The epic duelist gains a bonus feat every 3 levels after 10th. These bonus feats must be selected from the list below.
 
-          _Epic Duelist Bonus Feat List:_ Blinding Speed, Epic Prowess, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Weapon Focus (rapier), Exceptional Deflection<sup>1</sup>, Improved Combat Reflexes, Improved Whirlwind Attack, Infinite Deflection<sup>1</sup>, Perfect Two-Weapon Fighting, Superior Initiative, Two-Weapon Rend.
+          _Epic Duelist Bonus Feat List:_ Blinding Speed, Epic Prowess, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Weapon Focus (rapier), Exceptional Deflection<sup>1</sup>, Improved {% feat_link combat-reflexes %}, Improved Whirlwind Attack, Infinite Deflection<sup>1</sup>, Perfect Two-Weapon Fighting, Superior Initiative, Two-Weapon Rend.
 
           <sup>1</sup>The epic duelist need not have Improved Unarmed Strike to qualify for these feats, but in that case must be using a light or one-handed piercing weapon.
     additionalInfo: ""

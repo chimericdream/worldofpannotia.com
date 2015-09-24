@@ -106,6 +106,7 @@
                     <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
                         <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/" title="Basics">Basics</a></li>
+                        <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/advancement/" title="Character Advancement">Character Advancement</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Races" class="dropdown-toggle" data-toggle="dropdown" role="button">Races</a>
                             <ul class="dropdown-menu">
@@ -116,7 +117,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
                             <ul class="dropdown-menu">
-                                <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/base-classes/" title="Base Classes">Base Classes</a></li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/" title="Base Classes">Overview</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-prestige-classes/" title="Epic Prestige Classes">Epic Prestige Classes</a></li>
@@ -308,22 +309,8 @@
                             <ul class="dropdown-menu">
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Magical Armor Overview">Overview</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/armor-abilities/" title="Magical Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/specific-armor/" title="Specific Magical Armor">Specific Armor</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Magical Weapons Overview">Overview</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/weapon-abilities/" title="Magical Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/specific-weapons/" title="Specific Magical Weapons">Specific Weapons</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Armor">Armor</a></li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Weapons">Weapons</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
@@ -584,76 +571,98 @@
         <div class="col-xs-12">
             <p>If more than one condition affects a character, apply them all. If certain effects can’t combine, apply the most severe effect.</p>
 
-<h5 id="ability-damaged">Ability Damaged</h5>
+<h5 id="condition--ability-damaged">Ability Damaged</h5>
+
 <p>The character has temporarily lost 1 or more ability score points. Lost points return at a rate of 1 per day unless noted otherwise by the condition dealing the damage. A character with Strength 0 falls to the ground and is helpless. A character with Dexterity 0 is paralyzed. A character with Constitution 0 is dead. A character with Intelligence, Wisdom, or Charisma 0 is unconscious. Ability damage is different from penalties to ability scores, which go away when the conditions causing them go away.</p>
 
-<h5 id="ability-drained">Ability Drained</h5>
+<h5 id="condition--ability-drained">Ability Drained</h5>
+
 <p>The character has permanently lost 1 or more ability score points. The character can regain these points only through magical means. A character with Strength 0 falls to the ground and is helpless. A character with Dexterity 0 is paralyzed. A character with Constitution 0 is dead. A character with Intelligence, Wisdom, or Charisma 0 is unconscious.</p>
 
-<h5 id="blinded">Blinded</h5>
-<p>The character cannot see. He takes a -2 penalty to Armor Class, loses his Dexterity bonus to AC (if any), moves at half speed, and takes a -4 penalty on Search checks and on most Strength- and Dexterity-based skill checks. All checks and activities that rely on vision (such as reading and <em>spot</em> checks) automatically fail. All opponents are considered to have total concealment (50% miss chance) to the blinded character. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them.</p>
+<h5 id="condition--blinded">Blinded</h5>
 
-<h5 id="blown-away">Blown Away</h5>
+<p>The character cannot see. He takes a -2 penalty to Armor Class, loses his Dexterity bonus to AC (if any), moves at half speed, and takes a -4 penalty on Search checks and on most Strength- and Dexterity-based skill checks. All checks and activities that rely on vision (such as reading and {% skill_link spot %} checks) automatically fail. All opponents are considered to have total concealment (50% miss chance) to the blinded character. Characters who remain blinded for a long time grow accustomed to these drawbacks and can overcome some of them.</p>
+
+<h5 id="condition--blown-away">Blown Away</h5>
+
 <p>Depending on its size, a creature can be blown away by winds of high velocity. A creature on the ground that is blown away is knocked down and rolls 1d4 × 10 feet, taking 1d4 points of nonlethal damage per 10 feet. A flying creature that is blown away is blown back 2d6 × 10 feet and takes 2d6 points of nonlethal damage due to battering and buffering.</p>
 
-<h5 id="checked">Checked</h5>
+<h5 id="condition--checked">Checked</h5>
+
 <p>Prevented from achieving forward motion by an applied force, such as wind. Checked creatures on the ground merely stop. Checked flying creatures move back a distance specified in the description of the effect.</p>
 
-<h5 id="confused">Confused</h5>
+<h5 id="condition--confused">Confused</h5>
+
 <p>A <em>confused</em> character’s actions are determined by rolling d% at the beginning of his turn: 01-10, attack caster with melee or ranged weapons (or close with caster if attacking is not possible); 11-20, act normally; 21-50, do nothing but babble incoherently; 51-70, flee away from caster at top possible speed; 71-100, attack nearest creature (for this purpose, a familiar counts as part of the subject’s self ). A <em>confused</em> character who can’t carry out the indicated action does nothing but babble incoherently. Attackers are not at any special advantage when attacking a <em>confused</em> character. Any <em>confused</em> character who is attacked automatically attacks its attackers on its next turn, as long as it is still <em>confused</em> when its turn comes. A <em>confused</em> character does not make attacks of opportunity against any creature that it is not already devoted to attacking (either because of its most recent action or because it has just been attacked).</p>
 
-<h5 id="cowering">Cowering</h5>
+<h5 id="condition--cowering">Cowering</h5>
+
 <p>The character is frozen in fear and can take no actions. A cowering character takes a -2 penalty to Armor Class and loses her Dexterity bonus (if any).</p>
 
-<h5 id="dazed">Dazed</h5>
+<h5 id="condition--dazed">Dazed</h5>
+
 <p>The creature is unable to act normally. A dazed creature can take no actions, but has no penalty to AC.</p>
 
 <p>A dazed condition typically lasts 1 round.</p>
 
-<h5 id="dazzled">Dazzled</h5>
-<p>The creature is unable to see well because of overstimulation of the eyes. A dazzled creature takes a -1 penalty on attack rolls, <em>search</em> checks, and <em>spot</em> checks.</p>
+<h5 id="condition--dazzled">Dazzled</h5>
 
-<h5 id="dead">Dead</h5>
-<p>The character’s hit points are reduced to his <a href="//chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/#loss-of-hit-points">negative hit point threshold</a>, his Constitution drops to 0, or he is killed outright by a spell or effect. The character’s soul leaves his body. Dead characters cannot benefit from normal or magical healing, but they can be restored to life via magic. A dead body decays normally unless magically preserved, but magic that restores a dead character to life also restores the body either to full health or to its condition at the time of death (depending on the spell or device). Either way, resurrected characters need not worry about rigor mortis, decomposition, and other conditions that affect dead bodies.</p>
+<p>The creature is unable to see well because of overstimulation of the eyes. A dazzled creature takes a -1 penalty on attack rolls, {% skill_link search %} checks, and {% skill_link spot %} checks.</p>
 
-<h5 id="deafened">Deafened</h5>
-<p>A deafened character cannot hear. She takes a -4 penalty on initiative checks, automatically fails <em>listen</em> checks, and has a 20% chance of spell failure when casting spells with verbal components. Characters who remain deafened for a long time grow accustomed to these drawbacks and can overcome some of them.</p>
+<h5 id="condition--dead">Dead</h5>
 
-<h5 id="disabled">Disabled</h5>
+<p>The character’s hit points are reduced to his <a href="{{ site.url }}/game-rules/adventuring/combat/injury-death/#loss-of-hit-points">negative hit point threshold</a>, his Constitution drops to 0, or he is killed outright by a spell or effect. The character’s soul leaves his body. Dead characters cannot benefit from normal or magical healing, but they can be restored to life via magic. A dead body decays normally unless magically preserved, but magic that restores a dead character to life also restores the body either to full health or to its condition at the time of death (depending on the spell or device). Either way, resurrected characters need not worry about rigor mortis, decomposition, and other conditions that affect dead bodies.</p>
+
+<h5 id="condition--deafened">Deafened</h5>
+
+<p>A deafened character cannot hear. She takes a -4 penalty on initiative checks, automatically fails {% skill_link listen %} checks, and has a 20% chance of spell failure when casting spells with verbal components. Characters who remain deafened for a long time grow accustomed to these drawbacks and can overcome some of them.</p>
+
+<h5 id="condition--disabled">Disabled</h5>
+
 <p>A character with 0 hit points, or one who has negative hit points but has become stable and conscious, is disabled. A disabled character may take a single move action or standard action each round (but not both, nor can she take full-round actions). She moves at half speed. Taking move actions doesn’t risk further injury, but performing any standard action (or any other action the DM deems strenuous, including some free actions such as casting a quickened spell) deals 1 point of damage after the completion of the act. Unless the action increased the disabled character’s hit points, she is now in negative hit points and dying.</p>
 
 <p>A disabled character with negative hit points recovers hit points naturally if she is being helped. Otherwise, each day she has a 10% chance to start recovering hit points naturally (starting with that day); otherwise, she loses 1 hit point. Once an unaided character starts recovering hit points naturally, she is no longer in danger of losing hit points (even if her current hit points are negative).</p>
 
-<h5 id="dying">Dying</h5>
-<p>A dying character is unconscious and near death. She has fewer than 0 current hit points. A dying character can take no actions and is unconscious. At the end of each round (starting with the round in which the character dropped below 0 hit points), the character rolls d% to see whether she becomes stable. She has a 10% chance to become stable. If she does not, she loses 1 hit point. If a dying character reaches her <a href="//chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/#loss-of-hit-points">negative hit point threshold</a>, she is dead.</p>
+<h5 id="condition--dying">Dying</h5>
 
-<h5 id="energy-drained">Energy Drained</h5>
+<p>A dying character is unconscious and near death. She has fewer than 0 current hit points. A dying character can take no actions and is unconscious. At the end of each round (starting with the round in which the character dropped below 0 hit points), the character rolls d% to see whether she becomes stable. She has a 10% chance to become stable. If she does not, she loses 1 hit point. If a dying character reaches her <a href="{{ site.url }}/game-rules/adventuring/combat/injury-death/#loss-of-hit-points">negative hit point threshold</a>, she is dead.</p>
+
+<h5 id="condition--energy-drained">Energy Drained</h5>
+
 <p>The character gains one or more negative levels, which might permanently drain the character’s levels. If the subject has at least as many negative levels as Hit Dice, he dies. Each negative level gives a creature the following penalties: -1 penalty on attack rolls, saving throws, skill checks, ability checks; loss of 5 hit points; and -1 to effective level (for determining the power, duration, DC, and other details of spells or special abilities). In addition, a spellcaster loses one spell or spell slot from the highest spell level castable.</p>
 
-<h5 id="entangled">Entangled</h5>
-<p>The character is ensnared. Being entangled impedes movement, but does not entirely prevent it unless the bonds are anchored to an immobile object or tethered by an opposing force. An entangled creature moves at half speed, cannot run or charge, and takes a -2 penalty on all attack rolls and a -4 penalty to Dexterity. An entangled character who attempts to cast a spell must make a <em>concentration</em> check (DC 15 + the spell’s level) or lose the spell.</p>
+<h5 id="condition--entangled">Entangled</h5>
 
-<h5 id="exhausted">Exhausted</h5>
+<p>The character is ensnared. Being entangled impedes movement, but does not entirely prevent it unless the bonds are anchored to an immobile object or tethered by an opposing force. An entangled creature moves at half speed, cannot run or charge, and takes a -2 penalty on all attack rolls and a -4 penalty to Dexterity. An entangled character who attempts to cast a spell must make a {% skill_link concentration %} check (DC 15 + the spell’s level) or lose the spell.</p>
+
+<h5 id="condition--exhausted">Exhausted</h5>
+
 <p>An exhausted character moves at half speed and takes a -6 penalty to Strength and Dexterity. After 1 hour of complete rest, an exhausted character becomes fatigued. A fatigued character becomes exhausted by doing something else that would normally cause fatigue.</p>
 
-<h5 id="fascinated">Fascinated</h5>
-<p>A fascinated creature is entranced by a supernatural or spell effect. The creature stands or sits quietly, taking no actions other than to pay attention to the fascinating effect, for as long as the effect lasts. It takes a -4 penalty on skill checks made as reactions, such as <em>listen</em> and <em>spot</em> checks. Any potential threat, such as a hostile creature approaching, allows the fascinated creature a new saving throw against the fascinating effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at the fascinated creature, automatically breaks the effect. A fascinated creature’s ally may shake it free of the spell as a standard action.</p>
+<h5 id="condition--fascinated">Fascinated</h5>
 
-<h5 id="fatigued">Fatigued</h5>
+<p>A fascinated creature is entranced by a supernatural or spell effect. The creature stands or sits quietly, taking no actions other than to pay attention to the fascinating effect, for as long as the effect lasts. It takes a -4 penalty on skill checks made as reactions, such as {% skill_link listen %} and {% skill_link spot %} checks. Any potential threat, such as a hostile creature approaching, allows the fascinated creature a new saving throw against the fascinating effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a ranged weapon at the fascinated creature, automatically breaks the effect. A fascinated creature’s ally may shake it free of the spell as a standard action.</p>
+
+<h5 id="condition--fatigued">Fatigued</h5>
+
 <p>A fatigued character can neither run nor charge and takes a -2 penalty to Strength and Dexterity. Doing anything that would normally cause fatigue causes the fatigued character to become exhausted. After 8 hours of complete rest, fatigued characters are no longer fatigued.</p>
 
-<h5 id="flat-footed">Flat-Footed</h5>
+<h5 id="condition--flat-footed">Flat-Footed</h5>
+
 <p>A character who has not yet acted during a combat is flat-footed, not yet reacting normally to the situation. A flat-footed character loses his Dexterity bonus to AC (if any) and cannot make attacks of opportunity.</p>
 
-<h5 id="frightened">Frightened</h5>
+<h5 id="condition--frightened">Frightened</h5>
+
 <p>A frightened creature flees from the source of its fear as best it can. If unable to flee, it may fight. A frightened creature takes a -2 penalty on all attack rolls, saving throws, skill checks, and ability checks. A frightened creature can use special abilities, including spells, to flee; indeed, the creature must use such means if they are the only way to escape.</p>
 
 <p>Frightened is like shaken, except that the creature must flee if possible. Panicked is a more extreme state of fear.</p>
 
-<h5 id="grappling">Grappling</h5>
+<h5 id="condition--grappling">Grappling</h5>
+
 <p>Engaged in wrestling or some other form of hand-to-hand struggle with one or more attackers. A grappling character can undertake only a limited number of actions. He does not threaten any squares, and loses his Dexterity bonus to AC (if any) against opponents he isn’t grappling.</p>
 
-<h5 id="helpless">Helpless</h5>
+<h5 id="condition--helpless">Helpless</h5>
+
 <p>A helpless character is paralyzed, <em>held</em>, bound, sleeping, unconscious, or otherwise completely at an opponent’s mercy. A helpless target is treated as having a Dexterity of 0 (-5 modifier). Melee attacks against a helpless target get a +4 bonus (equivalent to attacking a prone target). Ranged attacks gets no special bonus against helpless targets. Rogues can sneak attack helpless targets.</p>
 
 <p>As a full-round action, an enemy can use a melee weapon to deliver a coup de grace to a helpless foe. An enemy can also use a bow or crossbow, provided he is adjacent to the target. The attacker automatically hits and scores a critical hit. (A rogue also gets her sneak attack damage bonus against a helpless foe when delivering a coup de grace.) If the defender survives, he must make a Fortitude save (DC 10 + damage dealt) or die.</p>
@@ -662,63 +671,79 @@
 
 <p>Creatures that are immune to critical hits do not take critical damage, nor do they need to make Fortitude saves to avoid being killed by a coup de grace.</p>
 
-<h5 id="incorporeal">Incorporeal</h5>
+<h5 id="condition--incorporeal">Incorporeal</h5>
+
 <p>Having no physical body. Incorporeal creatures are immune to all nonmagical attack forms. They can be harmed only by other incorporeal creatures, +1 or better magic weapons, spells, spell-like effects, or supernatural effects.</p>
 
-<h5 id="invisible">Invisible</h5>
+<h5 id="condition--invisible">Invisible</h5>
+
 <p>Visually undetectable. An invisible creature gains a +2 bonus on attack rolls against sighted opponents, and ignores its opponents’ Dexterity bonuses to AC (if any). (See Invisibility, under Special Abilities.)</p>
 
-<h5 id="knocked-down">Knocked Down</h5>
+<h5 id="condition--knocked-down">Knocked Down</h5>
+
 <p>Depending on their size, creatures can be knocked down by winds of high velocity. Creatures on the ground are knocked prone by the force of the wind. Flying creatures are instead blown back 1d6 × 10 feet.</p>
 
-<h5 id="nauseated">Nauseated</h5>
+<h5 id="condition--nauseated">Nauseated</h5>
+
 <p>Experiencing stomach distress. Nauseated creatures are unable to attack, cast spells, concentrate on spells, or do anything else requiring attention. The only action such a character can take is a single move action per turn.</p>
 
-<h5 id="panicked">Panicked</h5>
+<h5 id="condition--panicked">Panicked</h5>
+
 <p>A panicked creature must drop anything it holds and flee at top speed from the source of its fear, as well as any other dangers it encounters, along a random path. It can’t take any other actions. In addition, the creature takes a -2 penalty on all saving throws, skill checks, and ability checks. If cornered, a panicked creature cowers and does not attack, typically using the total defense action in combat. A panicked creature can use special abilities, including spells, to flee; indeed, the creature must use such means if they are the only way to escape.</p>
 
 <p>Panicked is a more extreme state of fear than shaken or frightened.</p>
 
-<h5 id="paralyzed">Paralyzed</h5>
+<h5 id="condition--paralyzed">Paralyzed</h5>
+
 <p>A paralyzed character is frozen in place and unable to move or act. A paralyzed character has effective Dexterity and Strength scores of 0 and is helpless, but can take purely mental actions. A winged creature flying in the air at the time that it becomes paralyzed cannot flap its wings and falls. A paralyzed swimmer can’t swim and may drown. A creature can move through a space occupied by a paralyzed creature – ally or not. Each square occupied by a paralyzed creature, however, counts as 2 squares.</p>
 
-<h5 id="petrified">Petrified</h5>
+<h5 id="condition--petrified">Petrified</h5>
+
 <p>A petrified character has been turned to stone and is considered unconscious. If a petrified character cracks or breaks, but the broken pieces are joined with the body as he returns to flesh, he is unharmed. If the character’s petrified body is incomplete when it returns to flesh, the body is likewise incomplete and there is some amount of permanent hit point loss and/or debilitation.</p>
 
-<h5 id="pinned">Pinned</h5>
+<h5 id="condition--pinned">Pinned</h5>
+
 <p>Held immobile (but not helpless) in a grapple.</p>
 
-<h5 id="prone">Prone</h5>
+<h5 id="condition--prone">Prone</h5>
+
 <p>The character is on the ground. An attacker who is prone has a -4 penalty on melee attack rolls and cannot use a ranged weapon (except for a crossbow). A defender who is prone gains a +4 bonus to Armor Class against ranged attacks, but takes a -4 penalty to AC against melee attacks.</p>
 
 <p>Standing up is a move-equivalent action that provokes an attack of opportunity.</p>
 
-<h5 id="shaken">Shaken</h5>
+<h5 id="condition--shaken">Shaken</h5>
+
 <p>A shaken character takes a -2 penalty on attack rolls, saving throws, skill checks, and ability checks.</p>
 
 <p>Shaken is a less severe state of fear than frightened or panicked.</p>
 
-<h5 id="sickened">Sickened</h5>
+<h5 id="condition--sickened">Sickened</h5>
+
 <p>The character takes a -2 penalty on all attack rolls, weapon damage rolls, saving throws, skill checks, and ability checks.</p>
 
-<h5 id="stable">Stable</h5>
+<h5 id="condition--stable">Stable</h5>
+
 <p>A character who was dying but who has stopped losing hit points and still has negative hit points is stable. The character is no longer dying, but is still unconscious. If the character has become stable because of aid from another character (such as a Heal check or magical healing), then the character no longer loses hit points. He has a 10% chance each hour of becoming conscious and disabled (even though his hit points are still negative).</p>
 
 <p>If the character became stable on his own and hasn’t had help, he is still at risk of losing hit points. Each hour, he has a 10% chance of becoming conscious and disabled. Otherwise he loses 1 hit point.</p>
 
-<h5 id="staggered">Staggered</h5>
+<h5 id="condition--staggered">Staggered</h5>
+
 <p>A character whose nonlethal damage exactly equals his current hit points is staggered. A staggered character may take a single move action or standard action each round (but not both, nor can she take full-round actions).</p>
 
 <p>A character whose current hit points exceed his nonlethal damage is no longer staggered; a character whose nonlethal damage exceeds his hit points becomes unconscious.</p>
 
-<h5 id="stunned">Stunned</h5>
+<h5 id="condition--stunned">Stunned</h5>
+
 <p>A stunned creature drops everything held, can’t take actions, takes a -2 penalty to AC, and loses his Dexterity bonus to AC (if any).</p>
 
-<h5 id="turned">Turned</h5>
+<h5 id="condition--turned">Turned</h5>
+
 <p>Affected by a turn undead attempt. Turned undead flee for 10 rounds (1 minute) by the best and fastest means available to them. If they cannot flee, they cower.</p>
 
-<h5 id="unconscious">Unconscious</h5>
-<p>Knocked out and helpless. Unconsciousness can result from having current hit points between -1 and your <a href="//chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/#loss-of-hit-points">negative hit point threshold</a>, or from nonlethal damage in excess of current hit points.</p>
+<h5 id="condition--unconscious">Unconscious</h5>
+
+<p>Knocked out and helpless. Unconsciousness can result from having current hit points between -1 and your <a href="{{ site.url }}/game-rules/adventuring/combat/injury-death/#loss-of-hit-points">negative hit point threshold</a>, or from nonlethal damage in excess of current hit points.</p>
 
 
         </div>

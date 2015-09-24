@@ -94,7 +94,7 @@ class:
           In addition, when determining the amound of followers the aristocrat may have, he may (if necessary) use the numbers from the Epic Leadership table, provided his leadership score is high enough. This does not allow for an aristocrat to gain a higher level cohort. It simply allows him more followers.
       - name: "Bonus Feats"
         type: ""
-        desc: "At 6th, 9th, 14th, and 19th level, the aristocrat gains a bonus feat. This feat must be selected from the following list, and the aristocrat must meet any prerequisites: Combat Expertise; Deceitful; Diplomat; Far Shot; Investigator; Iron Will; Mounted Archery; Mounted Combat; Negotiator; Persuasive; Point Blank Shot; Precise Shot; Skill Focus; Skill Focus, Greater; Skill Focus, Improved; Trustworthy; Weapon Focus (longsword, rapier, scimitar, longbow, or shortbow); Weapon Specialization (longsword, rapier, scimitar, longbow, or shortbow)"
+        desc: "At 6th, 9th, 14th, and 19th level, the aristocrat gains a bonus feat. This feat must be selected from the following list, and the aristocrat must meet any prerequisites: {% feat_link combat-expertise %}; Deceitful; Diplomat; Far Shot; Investigator; Iron Will; Mounted Archery; Mounted Combat; Negotiator; Persuasive; Point Blank Shot; Precise Shot; Skill Focus; Skill Focus, Greater; Skill Focus, Improved; Trustworthy; Weapon Focus (longsword, rapier, scimitar, longbow, or shortbow); Weapon Specialization (longsword, rapier, scimitar, longbow, or shortbow)"
       - name: "Inspire Greatness"
         type: ""
         desc: "At 11th level, an aristocrat gains the ability to inspire greatness in an ally. This ability is identical to the Bard ability of the same name."

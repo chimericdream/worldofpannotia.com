@@ -5,7 +5,7 @@ ability:
   description: |
     This is an extraordinary ability.
   prerequisite: |
-    Dex 29, Improved Initiative.
+    Dex 29, {% feat_link improved-initiative %}.
   benefit: |
     The deity goes first in the initiative order, no matter what its initiative result is or what initiative result anyone else in an encounter or battle has.
   notes: |

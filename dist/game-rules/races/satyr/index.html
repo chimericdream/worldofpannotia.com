@@ -106,6 +106,7 @@
                     <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
                         <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/" title="Basics">Basics</a></li>
+                        <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/advancement/" title="Character Advancement">Character Advancement</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Races" class="dropdown-toggle" data-toggle="dropdown" role="button">Races</a>
                             <ul class="dropdown-menu">
@@ -116,7 +117,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
                             <ul class="dropdown-menu">
-                                <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/base-classes/" title="Base Classes">Base Classes</a></li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/" title="Base Classes">Overview</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-prestige-classes/" title="Epic Prestige Classes">Epic Prestige Classes</a></li>
@@ -308,22 +309,8 @@
                             <ul class="dropdown-menu">
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Magical Armor Overview">Overview</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/armor-abilities/" title="Magical Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/specific-armor/" title="Specific Magical Armor">Specific Armor</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Magical Weapons Overview">Overview</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/weapon-abilities/" title="Magical Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/specific-weapons/" title="Specific Magical Weapons">Specific Weapons</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Armor">Armor</a></li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Weapons">Weapons</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
@@ -607,21 +594,21 @@
 
 
 
-<p><strong>Level Adjustment: </strong> +3.</p>
+    <p><strong>Level Adjustment: </strong> +3.</p>
 
 
 
 
 <div class="ogc">
     
-
-<h4>Racial Traits</h4>
-<ul>
+    
+        <h4>Racial Traits</h4>
+        <ul>
   <li>+2 Dexterity, +2 Constitution, +2 Intelligence, +2 Wisdom, +2 Charisma.</li>
   <li>Medium size.</li>
   <li>A satyr’s base land speed is 40 feet.</li>
   <li>Low-light vision.</li>
-  <li>Racial Skills: Satyrs have a +4 racial bonus on <em>hide</em>, <em>listen</em>, <em>move silently</em>, <em>perform</em>, and <em>spot</em> checks.</li>
+  <li>Racial Skills: Satyrs have a +4 racial bonus on {% skill_link hide %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link perform %}, and {% skill_link spot %} checks.</li>
   <li>+4 natural armor bonus.</li>
   <li>Natural Weapons: Head butt (1d6).</li>
   <li>Special Attacks: Pipes.</li>
@@ -630,44 +617,44 @@
   <li>Favored Class: Bard.</li>
 </ul>
 
+    
 
+    
+        <h4>Special Qualities</h4>
+        
+            <p><strong>Pipes (Su)</strong></p>
 
-
-<h4>Special Qualities</h4>
-
-<p><strong>Pipes (Su)</strong></p>
-
-<p>Satyrs can play a variety of magical tunes on their pan pipes. Usually, only one satyr in a group carries pipes. When it plays, all creatures within a 60-foot spread (except satyrs) must succeed on a DC 12+Cha mod Will save or be affected by <em>charm person</em>, <em>fear</em>, or <em>sleep</em> (caster level 10th; the satyr chooses the tune and its effect).</p>
+            <p>Satyrs can play a variety of magical tunes on their pan pipes. Usually, only one satyr in a group carries pipes. When it plays, all creatures within a 60-foot spread (except satyrs) must succeed on a DC 12+Cha mod Will save or be affected by {% spell_link charm-person %}, {% spell_link fear %}, or {% spell_link sleep %} (caster level 10th; the satyr chooses the tune and its effect).</p>
 
 <p>In the hands of other beings, these pipes have no special powers. A creature that successfully saves against any of the pipe’s effects cannot be affected by the same set of pipes for 24 hours. The save DC is Charisma-based.</p>
 
+        
+    
 
+    
+        <h4>Alternate Level Adjustment Options</h4>
+        
+            <p><strong>Effective Character Level:</strong> 5 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +3.</p>
 
-
-
-<h4>Alternate Level Adjustment Options</h4>
-
-<p><strong>Effective Character Level:</strong> 5 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +3.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A satyr begins with two levels of fey, which provide 2d6 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.</li>
-  <li>Racial Skills: A satyr’s fey levels give it skill points equal to 5 * (6 + Int modifier). Its class skills are <em>bluff</em>, <em>hide</em>, <em>knowledge (nature)</em>, <em>listen</em>, <em>move silently</em>, Perform, and <em>spot</em>.</li>
+  <li>Racial Skills: A satyr’s fey levels give it skill points equal to 5 * (6 + Int modifier). Its class skills are {% skill_link bluff %}, {% skill_link hide %}, {% skill_link knowledge ‘Knowledge (Nature)’ %}, {% skill_link listen %}, {% skill_link move-silently %}, Perform, and {% skill_link spot %}.</li>
   <li>Racial Feats: A satyr’s fey levels give it one feat. A satyr receives Alertness as a bonus feat.</li>
 </ul>
 
+        
+            <p><strong>Effective Character Level:</strong> 7 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +2.</p>
 
-<p><strong>Effective Character Level:</strong> 7 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +2.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A satyr begins with five levels of fey, which provide 5d6 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.</li>
-  <li>Racial Skills: A satyr’s fey levels give it skill points equal to 8 * (6 + Int modifier). Its class skills are <em>bluff</em>, <em>hide</em>, <em>knowledge (nature)</em>, <em>listen</em>, <em>move silently</em>, Perform, and <em>spot</em>.</li>
+  <li>Racial Skills: A satyr’s fey levels give it skill points equal to 8 * (6 + Int modifier). Its class skills are {% skill_link bluff %}, {% skill_link hide %}, {% skill_link knowledge ‘Knowledge (Nature)’ %}, {% skill_link listen %}, {% skill_link move-silently %}, Perform, and {% skill_link spot %}.</li>
   <li>Racial Feats: A satyr’s fey levels give it two feats. A satyr receives Alertness as a bonus feat.</li>
 </ul>
 
-
-
+        
+    
 
 </div>
 

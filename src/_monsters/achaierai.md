@@ -53,7 +53,7 @@ Achaierais speak Infernal. They weigh about 750 pounds.
         <a href="{{ site.url }}/game-rules/adventuring-combat/abilities-conditions/#darkvision">darkvision</a> 60 ft.,
         <a href="#black-cloud">black cloud</a>
     
-    **Feats** Dodge, Mobility, Spring Attack
+    **Feats** Dodge, {% feat_link mobility %}, Spring Attack
     
         **Skills** {% skill_link balance %} +11, {% skill_link bluff %} +5,
         {% skill_link climb %} +14, {% skill_link diplomacy %} +10, {% skill_link hide %} +9,

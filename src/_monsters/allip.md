@@ -12,7 +12,7 @@ An allip cannot speak intelligibly.
 
 NE Medium Undead (incorporeal)
 
-**Init** +5 (+1 Dex; +4 Improved Initiative); **Senses** darkvision 60 ft.; {% skill_link listen %} +8, {% skill_link spot %} +8
+**Init** +5 (+1 Dex; +4 {% feat_link improved-initiative %}); **Senses** darkvision 60 ft.; {% skill_link listen %} +8, {% skill_link spot %} +8
 
 **Aura** babble (60 ft., Will DC 16)
 
@@ -56,7 +56,7 @@ NE Medium Undead (incorporeal)
 
 **Skills** {% skill_link hide %} +8, {% skill_link intimidate %} +8, {% skill_link listen %} +8, {% skill_link search %} +5, {% skill_link spot %} +8
 
-**Feats** Improved Initiative, Lightning Reflexes
+**Feats** {% feat_link improved-initiative %}, Lightning Reflexes
 
 <hr />
 

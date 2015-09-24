@@ -4,7 +4,7 @@ title: "Improved Disarm"
 feat:
   types: ["General", "Fighter"]
   prerequisite: |
-    Int 13, Combat Expertise.
+    Int 13, {% feat_link combat-expertise %}.
   benefit: |
     You do not provoke an attack of opportunity when you attempt to disarm an opponent, nor does the opponent have a chance to disarm you. You also gain a +4 bonus on the opposed attack roll you make to disarm your opponent.
   normal: |

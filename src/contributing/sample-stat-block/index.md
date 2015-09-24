@@ -49,7 +49,7 @@ creature:
 
 {% include _other/stat-block.html creature=page.creature %}
 <!--
-<p><strong>AC</strong> XX, <strong>touch</strong> XX, <strong>flat-footed</strong> XX (+XX armor, +XX Dex, +X size, +X natural, +X deflection)[; <strong>defenses</strong>][ Dodge][; Mobility][; Deflect Arrows][; Two-Weapon Defense]</p>
+<p><strong>AC</strong> XX, <strong>touch</strong> XX, <strong>flat-footed</strong> XX (+XX armor, +XX Dex, +X size, +X natural, +X deflection)[; <strong>defenses</strong>][ Dodge][; {% feat_link mobility %}][; Deflect Arrows][; Two-Weapon Defense]</p>
 <p><strong>HP</strong> XXX (XX HD)[; <strong>fast healing</strong> XX][; <strong>DR</strong> XX/X]</p>
 <p><a href="{{ site.url }}/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage Threshold</em></a> XX; <a href="{{ site.url }}/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage DC</em></a> XX</p>
 <p>[<strong>Immune</strong> immunities]</p>
@@ -64,7 +64,7 @@ creature:
 <p><strong>Ranged</strong> weapon +XX (damage)[; Manyshot][; Rapid Shot]</p>
 <p><strong>Space</strong> XX ft.; <strong>Reach</strong> XX ft.</p>
 <p><strong>Base Atk</strong> +XX; <strong>Grp</strong> +XX</p>
-<p>[<strong>Atk Options</strong> ][ Blind-Fight][; Cleave][; Combat Reflexes][; Far Shot][; Great Cleave][; Improved Bull Rush][; Improved Disarm][; Improved Feint][; Improved Overrun][; Improved Precise Shot][; {% feat_link improved-sunder %}][; Improved Trip][; Mounted Combat][; Point Blank Shot][; Power Attack][; Powerful Charge][; Precise Shot][; Quick Draw][; Rapid Reload][; Spirited Charge][; Spring Attack][; Stunning Fist][; Trample][; Whirlwind Attack][; metamagic feats (if the creature casts spontaneously)]</p>
+<p>[<strong>Atk Options</strong> ][ {% feat_link blind-fight %}][; Cleave][; {% feat_link combat-reflexes %}][; Far Shot][; Great Cleave][; Improved Bull Rush][; Improved Disarm][; Improved Feint][; Improved Overrun][; Improved Precise Shot][; {% feat_link improved-sunder %}][; Improved Trip][; Mounted Combat][; Point Blank Shot][; Power Attack][; Powerful Charge][; Precise Shot][; Quick Draw][; Rapid Reload][; Spirited Charge][; Spring Attack][; Stunning Fist][; Trample][; Whirlwind Attack][; metamagic feats (if the creature casts spontaneously)]</p>
 <p>[<strong>Special Atks</strong> special attacks][; Snatch Arrows]</p>
 <p>[<strong>Special Actions</strong> special actions]</p>
 <p>[<strong>Spells</strong> (CL XX, +XX melee touch, +XX ranged touch):][; Spell Penetration]</p>

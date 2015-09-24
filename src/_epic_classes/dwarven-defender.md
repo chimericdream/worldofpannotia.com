@@ -42,6 +42,6 @@ class:
         desc: |
           The epic dwarven defender gains a bonus feat every five levels after 10th. These bonus feats must be selected from the list below.
 
-          _Bonus Feat List:_ Armor Skin, Bulwark of Defense, Damage Reduction, Devastating Critical, Energy Resistance, Epic Endurance, Epic Prowess, Epic Toughness, Epic Weapon Focus, Fast Healing, Improved Combat Reflexes, Improved Dark-vision, Instant Reload, Mobile Defense, Overwhelming Critical, Perfect Health, Spellcasting Harrier.
+          _Bonus Feat List:_ Armor Skin, Bulwark of Defense, Damage Reduction, Devastating Critical, Energy Resistance, Epic Endurance, Epic Prowess, Epic Toughness, Epic Weapon Focus, Fast Healing, Improved {% feat_link combat-reflexes %}, Improved Dark-vision, Instant Reload, Mobile Defense, Overwhelming Critical, Perfect Health, Spellcasting Harrier.
     additionalInfo: ""
 ---

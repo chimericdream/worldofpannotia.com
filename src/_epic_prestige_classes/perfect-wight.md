@@ -74,6 +74,6 @@ class:
         desc: |
           The perfect wight gets a bonus feat at 5th level and an additional bonus feat every five levels thereafter. These bonus feats must be selected from the list below.
 
-          _Bonus Feat List:_ Blinding Speed, Combat Archery, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Trapfinding, Improved Combat Reflexes, Improved Sneak Attack, Legendary Climber, Lingering Damage, Self-Concealment, Sneak Attack of Opportunity, Spellcasting Harrier, Superior Initiative, Uncanny Accuracy.
+          _Bonus Feat List:_ Blinding Speed, Combat Archery, Dexterous Fortitude, Dexterous Will, Epic Dodge, Epic Reputation, Epic Skill Focus, Epic Speed, Epic Trapfinding, Improved {% feat_link combat-reflexes %}, Improved Sneak Attack, Legendary Climber, Lingering Damage, Self-Concealment, Sneak Attack of Opportunity, Spellcasting Harrier, Superior Initiative, Uncanny Accuracy.
     additionalInfo: ""
 ---

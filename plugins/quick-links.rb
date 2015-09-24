@@ -75,6 +75,8 @@ module Jekyll
           @item_collection = "magic_weapon_abilities"
         when "npc_class_link"
           @item_collection = "npc_classes"
+        when "npc_link"
+          @item_collection = "npcs"
         when "plane_link"
           @item_collection = "planes"
         when "power_link"
@@ -118,14 +120,45 @@ module Jekyll
 
       def render(context)
         site = context.registers[:site]
-        collection = site.collections[@item_collection]
-
-        if collection.nil?
-          raise SyntaxError.new("Empty collection: #{@item_collection}")
-        end
 
         partial = Liquid::Template.parse(@item_slug)
         slug = partial.render!(context)
+
+        case @item_collection
+        when 'npcs'
+          return render_from_pages(site, slug)
+        else
+          return render_from_collection(site, slug)
+        end
+      end
+
+      def render_from_pages(site, slug)
+        site.pages.each do |page|
+          if page.data.has_key?("slug") and page.data["slug"] == @item_slug
+            if @item_link_text != ''
+              title = @item_link_text
+            else
+              title = page.data["title"]
+            end
+
+            case @item_collection
+            when 'npcs'
+              url = site.config['url'] + "/setting/politics/npcs/" + slug + "/"
+            end
+
+            return <<-MARKUP.strip
+              <a href="#{url}" title="#{title}">#{title}</a>
+            MARKUP
+          end
+        end
+      end
+
+      def render_from_collection(site, slug)
+        collection = site.collections[@item_collection]
+
+        if collection.nil? or collection.docs.empty?
+          raise SyntaxError.new("Empty collection: #{@item_collection}")
+        end
 
         collection.docs.each do |item|
           if slug == item.basename_without_ext
@@ -155,6 +188,8 @@ module Jekyll
               url = site.config['url'] + "/game-rules/adventuring/status-conditions/\#condition--" + slug
             when 'special_abilities'
               url = site.config['url'] + "/game-rules/adventuring/special-abilities/\#ability--" + slug
+            when 'npcs'
+              url = site.config['url'] + "/setting/politics/npcs/" + slug + "/"
             else
               url = site.config['url'] + item.url + @item_link_fragment
             end
@@ -371,7 +406,7 @@ eos
   end
 end
 
-['artifact', 'base_class', 'cursed_item', 'domain', 'epic_class', 'epic_feat', 'epic_magic_armor_ability', 'epic_magic_shield_ability', 'epic_magic_weapon_ability', 'epic_prestige_class', 'epic_ring', 'epic_rod', 'epic_skill', 'epic_specific_magic_armor', 'epic_specific_magic_weapon', 'epic_spell', 'epic_staff', 'epic_wondrous_item', 'feat', 'magic_armor_ability', 'magic_shield_ability', 'magic_weapon_ability', 'npc_class', 'power', 'prestige_class', 'psicrown', 'psionic_armor_ability', 'psionic_shield_ability', 'psionic_weapon_ability', 'race', 'racial_class', 'ring', 'rod', 'skill', 'special_ability', 'specific_magic_armor', 'specific_magic_shield', 'specific_magic_weapon', 'spell', 'staff', 'status_condition', 'wondrous_item'].each do |tag|
+['artifact', 'base_class', 'cursed_item', 'domain', 'epic_class', 'epic_feat', 'epic_magic_armor_ability', 'epic_magic_shield_ability', 'epic_magic_weapon_ability', 'epic_prestige_class', 'epic_ring', 'epic_rod', 'epic_skill', 'epic_specific_magic_armor', 'epic_specific_magic_weapon', 'epic_spell', 'epic_staff', 'epic_wondrous_item', 'feat', 'magic_armor_ability', 'magic_shield_ability', 'magic_weapon_ability', 'npc', 'npc_class', 'power', 'prestige_class', 'psicrown', 'psionic_armor_ability', 'psionic_shield_ability', 'psionic_weapon_ability', 'race', 'racial_class', 'ring', 'rod', 'skill', 'special_ability', 'specific_magic_armor', 'specific_magic_shield', 'specific_magic_weapon', 'spell', 'staff', 'status_condition', 'wondrous_item'].each do |tag|
   link = tag + "_link"
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
 end

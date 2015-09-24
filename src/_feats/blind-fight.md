@@ -12,7 +12,7 @@ feat:
   normal: |
     Regular attack roll modifiers for invisible attackers trying to hit you apply, and you lose your Dexterity bonus to AC. The speed reduction for darkness and poor visibility also applies.
   special: |
-    The Blind-Fight feat is of no use against a character who is the subject of a {% spell_link blink %} spell.
+    The {% feat_link blind-fight %} feat is of no use against a character who is the subject of a {% spell_link blink %} spell.
 
-    A fighter may select Blind-Fight as one of his fighter bonus feats.
+    A fighter may select {% feat_link blind-fight %} as one of his fighter bonus feats.
 ---

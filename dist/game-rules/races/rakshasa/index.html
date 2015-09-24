@@ -106,6 +106,7 @@
                     <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
                         <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/" title="Basics">Basics</a></li>
+                        <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/advancement/" title="Character Advancement">Character Advancement</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Races" class="dropdown-toggle" data-toggle="dropdown" role="button">Races</a>
                             <ul class="dropdown-menu">
@@ -116,7 +117,7 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
                             <ul class="dropdown-menu">
-                                <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/base-classes/" title="Base Classes">Base Classes</a></li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/" title="Base Classes">Overview</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-prestige-classes/" title="Epic Prestige Classes">Epic Prestige Classes</a></li>
@@ -308,22 +309,8 @@
                             <ul class="dropdown-menu">
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Magical Armor Overview">Overview</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/armor-abilities/" title="Magical Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/specific-armor/" title="Specific Magical Armor">Specific Armor</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Magical Weapons Overview">Overview</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/weapon-abilities/" title="Magical Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/specific-weapons/" title="Specific Magical Weapons">Specific Weapons</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/" title="Armor">Armor</a></li>
+                                <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/" title="Weapons">Weapons</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
                                 <li><a href="//chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
@@ -607,21 +594,21 @@
 
 
 
-<p><strong>Level Adjustment: </strong> +11.</p>
+    <p><strong>Level Adjustment: </strong> +11.</p>
 
 
 
 
 <div class="ogc">
     
-
-<h4>Racial Traits</h4>
-<ul>
+    
+        <h4>Racial Traits</h4>
+        <ul>
   <li>+2 Strength, +4 Dexterity, +6 Constitution, +2 Intelligence, +2 Wisdom, +6 Charisma.</li>
   <li>Medium size.</li>
   <li>A rakshasa’s base land speed is 40 feet.</li>
   <li>Darkvision out to 60 feet.</li>
-  <li>Racial Skills: A rakshasa has a +4 racial bonus on <em>bluff</em> and <em>disguise</em> checks, and it can gain further bonuses by using change shape (+10 on <em>disguise</em> checks) and <em>detect thoughts</em> (+4 on <em>bluff</em> and <em>disguise</em> checks).</li>
+  <li>Racial Skills: A rakshasa has a +4 racial bonus on {% skill_link bluff %} and {% skill_link disguise %} checks, and it can gain further bonuses by using change shape (+10 on {% skill_link disguise %} checks) and {% spell_link detect-thoughts %} (+4 on {% skill_link bluff %} and {% skill_link disguise %} checks).</li>
   <li>+9 natural armor bonus.</li>
   <li>Natural Weapons: Bite (1d6) and 2 claws (1d4).</li>
   <li>Detect Thoughts (Su): The save DC is 12 + the character’s Cha modifier.</li>
@@ -631,72 +618,72 @@
   <li>Favored Class: Sorcerer.</li>
 </ul>
 
+    
 
+    
+        <h4>Special Qualities</h4>
+        
+            <p><strong>Change Shape (Su)</strong></p>
 
+            <p>A rakshasa can assume any humanoid form, or revert to its own form, as a standard action. In humanoid form, a rakshasa loses its claw and bite attacks (although it often equips itself with weapons and armor instead). A rakshasa remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, but the rakshasa reverts to its natural form when killed. A {% spell_link true-seeing %} spell reveals its natural form.</p>
 
-<h4>Special Qualities</h4>
+        
+            <p><strong>Detect Thoughts (Su)</strong></p>
 
-<p><strong>Change Shape (Su)</strong></p>
+            <p>A rakshasa can continuously use {% spell_link detect-thoughts %} as the spell (caster level 7+HD; Will DC 12+Cha mod negates). It can suppress or resume this ability as a free action.</p>
 
-<p>A rakshasa can assume any humanoid form, or revert to its own form, as a standard action. In humanoid form, a rakshasa loses its claw and bite attacks (although it often equips itself with weapons and armor instead). A rakshasa remains in one form until it chooses to assume a new one. A change in form cannot be dispelled, but the rakshasa reverts to its natural form when killed. A <em>true seeing</em> spell reveals its natural form.</p>
+        
+            <p><strong></strong></p>
 
+            
 
-<p><strong>Detect Thoughts (Su)</strong></p>
+        
+    
 
-<p>A rakshasa can continuously use <em>detect thoughts</em> as the spell (caster level 7+HD; Will DC 12+Cha mod negates). It can suppress or resume this ability as a free action.</p>
+    
+        <h4>Alternate Level Adjustment Options</h4>
+        
+            <p><strong>Effective Character Level:</strong> 11 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +10.</p>
 
-
-<p><strong></strong></p>
-
-
-
-
-
-
-
-<h4>Alternate Level Adjustment Options</h4>
-
-<p><strong>Effective Character Level:</strong> 11 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +10.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A rakshasa begins with one level of outsider, which provide 1d8 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +2, Ref +2, and Will +2.</li>
-  <li>Racial Skills: A rakshasa’s outsider levels give it skill points equal to 4 * (8 + Int modifier). Its class skills are <em>bluff</em>, <em>disguise</em>, <em>listen</em>, <em>move silently</em>, <em>perform</em>, <em>sense motive</em>, and <em>spot</em>.</li>
+  <li>Racial Skills: A rakshasa’s outsider levels give it skill points equal to 4 * (8 + Int modifier). Its class skills are {% skill_link bluff %}, {% skill_link disguise %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link perform %}, {% skill_link sense-motive %}, and {% skill_link spot %}.</li>
   <li>Racial Feats: A rakshasa’s outsider levels give it one feat.</li>
 </ul>
 
+        
+            <p><strong>Effective Character Level:</strong> 12 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +9.</p>
 
-<p><strong>Effective Character Level:</strong> 12 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +9.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A rakshasa begins with three levels of outsider, which provide 3d8 Hit Dice, a base attack bonus of +3, and base saving throw bonuses of Fort +3, Ref +3, and Will +3.</li>
-  <li>Racial Skills: A rakshasa’s outsider levels give it skill points equal to 6 * (8 + Int modifier). Its class skills are <em>bluff</em>, <em>disguise</em>, <em>listen</em>, <em>move silently</em>, <em>perform</em>, <em>sense motive</em>, and <em>spot</em>.</li>
+  <li>Racial Skills: A rakshasa’s outsider levels give it skill points equal to 6 * (8 + Int modifier). Its class skills are {% skill_link bluff %}, {% skill_link disguise %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link perform %}, {% skill_link sense-motive %}, and {% skill_link spot %}.</li>
   <li>Racial Feats: A rakshasa’s outsider levels give it two feats.</li>
 </ul>
 
+        
+            <p><strong>Effective Character Level:</strong> 13 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +8.</p>
 
-<p><strong>Effective Character Level:</strong> 13 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +8.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A rakshasa begins with five levels of outsider, which provide 5d8 Hit Dice, a base attack bonus of +5, and base saving throw bonuses of Fort +4, Ref +4, and Will +4.</li>
-  <li>Racial Skills: A rakshasa’s outsider levels give it skill points equal to 8 * (8 + Int modifier). Its class skills are <em>bluff</em>, <em>disguise</em>, <em>listen</em>, <em>move silently</em>, <em>perform</em>, <em>sense motive</em>, and <em>spot</em>.</li>
+  <li>Racial Skills: A rakshasa’s outsider levels give it skill points equal to 8 * (8 + Int modifier). Its class skills are {% skill_link bluff %}, {% skill_link disguise %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link perform %}, {% skill_link sense-motive %}, and {% skill_link spot %}.</li>
   <li>Racial Feats: A rakshasa’s outsider levels give it two feats.</li>
 </ul>
 
+        
+            <p><strong>Effective Character Level:</strong> 14 + class levels.</p>
+            <p><strong>Level Adjustment:</strong> +7.</p>
 
-<p><strong>Effective Character Level:</strong> 14 + class levels.</p>
-<p><strong>Level Adjustment:</strong> +7.</p>
-
-<ul>
+            <ul>
   <li>Racial Hit Dice: A rakshasa begins with seven levels of outsider, which provide 7d8 Hit Dice, a base attack bonus of +7, and base saving throw bonuses of Fort +5, Ref +5, and Will +5.</li>
-  <li>Racial Skills: A rakshasa’s outsider levels give it skill points equal to 10 * (8 + Int modifier). Its class skills are <em>bluff</em>, <em>disguise</em>, <em>listen</em>, <em>move silently</em>, <em>perform</em>, <em>sense motive</em>, and <em>spot</em>.</li>
+  <li>Racial Skills: A rakshasa’s outsider levels give it skill points equal to 10 * (8 + Int modifier). Its class skills are {% skill_link bluff %}, {% skill_link disguise %}, {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link perform %}, {% skill_link sense-motive %}, and {% skill_link spot %}.</li>
   <li>Racial Feats: A rakshasa’s outsider levels give it three feats.</li>
 </ul>
 
-
-
+        
+    
 
 </div>
 
