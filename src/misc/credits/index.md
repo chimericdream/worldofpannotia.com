@@ -158,6 +158,10 @@ The following content was created by RKDN Studios. <span class="label label-succ
 
 _e.g. work posted on forums, message boards, etc._
 
+#### Martin Rayla
+
+I used [Martin's blog post on Gnome Stew about fantasy calendar creation](http://www.gnomestew.com/gming-advice/a-realistic-enough-for-fantasy-calendar/) as inspiration for the Pannotia's calendar.
+
 #### JiCi {#jici}
 
 [ENWorld Forum Member](http://www.enworld.org/member.php?userid=40121)
