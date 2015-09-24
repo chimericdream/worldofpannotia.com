@@ -14,7 +14,7 @@
         <script src="{{ site.url }}/assets/js/jquery-lunr-search.js"></script>
         <script>
             $(document).ready(function() {
-                $('.dropdown-submenu > a').submenupicker();
+                $('[data-submenu]').submenupicker();
                 $('#site-search-query').lunrSearch({
                     indexUrl: '{{ site.url }}/assets/js/index.json', // Url for the .json file containing search index data
                     results : 'site-#search-results',                // selector for containing search results element
