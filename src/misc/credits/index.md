@@ -179,3 +179,7 @@ The following content was created by JiCi.
 The following content was created by Nifft.
 
  * {% feat_link intuitive-artificer %}
+
+#### Other
+
+ * The sword icon used in places on the site is a modified version of [this image posted](http://s610.photobucket.com/user/CONCEPTS74/media/KitRaeMolotochtheSlayerSword_zps4fdc9645.png.html) on CONCEPT74's Photo Bucket page.
