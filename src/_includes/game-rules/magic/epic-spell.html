@@ -27,7 +27,7 @@
 {% if spell.materialComponents.size > 0 %}
 <p><strong>Material Components:</strong> {{ spell.materialComponents | join:'; ' }}.</p>
 {% endif %}
-{{ spell.description | pmarkdownify }}
+{{ spell.description | pmarkdownify | liquify }}
 {% endcapture %}
 
 {% include _other/ogc-block.html ogc_content=ogc %}

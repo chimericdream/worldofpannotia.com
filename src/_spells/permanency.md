@@ -76,16 +76,16 @@ spell:
     | {% spell_link shrink-item %} | 11th | 1,500 XP
     | {% spell_link solid-fog %} | 12th | 2,000 XP
     | {% spell_link stinking-cloud %} | 11th | 1,500 XP
-    | {% spell_link symbol-of death-of death %}of death| 16th | 4,000 XP
-    | {% spell_link symbol-of fear-of fear %}of fear| 14th | 3,000 XP
-    | {% spell_link symbol-of insanity-of insanity %}of insanity| 16th | 4,000 XP
-    | _symbol of pain_ | 13th | 2,500 XP
-    | _symbol of persuasion_ | 14th | 3,000 XP
-    | _symbol of sleep_ | 16th | 4,000 XP
-    | _symbol of stunning_ | 15th | 3,500 XP
-    | _symbol of weakness_ | 15th | 3,500 XP
+    | {% spell_link symbol-of-death %} | 16th | 4,000 XP
+    | {% spell_link symbol-of-fear %} | 14th | 3,000 XP
+    | {% spell_link symbol-of-insanity %} | 16th | 4,000 XP
+    | {% spell_link symbol-of-pain %} | 13th | 2,500 XP
+    | {% spell_link symbol-of-persuasion %} | 14th | 3,000 XP
+    | {% spell_link symbol-of-sleep %} | 16th | 4,000 XP
+    | {% spell_link symbol-of-stunning %} | 15th | 3,500 XP
+    | {% spell_link symbol-of-weakness %} | 15th | 3,500 XP
     | {% spell_link teleportation-circle %} | 17th | 4,500 XP
-    | {% spell_link wall-of fire-of fire %}of fire| 12th | 2,000 XP
+    | {% spell_link wall-of-fire %} | 12th | 2,000 XP
     | {% spell_link wall-of-force %} | 13th | 2,500 XP
     | {% spell_link web %} | 10th | 1,000 XP
     {: .table .table-bordered .table-hover }

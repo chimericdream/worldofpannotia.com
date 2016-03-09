@@ -19,11 +19,11 @@ skill:
     | 15 + spell level | When casting {% spell_link detect-magic %}, determine the school of magic involved in the aura of a single item or creature you can see. (If the aura is not a spell effect, the DC is 15 + one-half caster level.) No action required.
     | 19 | When using {% spell_link read-magic %}, identify a _symbol_. No action required.
     | 20 + spell level | Identify a spell that's already in place and in effect. You must be able to see or detect the effects of the spell. No action required. No retry.
-    | 20 + spell level | Identify materials created or shaped by magic, such as noting that an iron wall is the result of a {% spell_link wall-of iron-of iron %}of ironspell. No action required. No retry.
+    | 20 + spell level | Identify materials created or shaped by magic, such as noting that an iron wall is the result of a {% spell_link wall-of-iron %} spell. No action required. No retry.
     | 20 + spell level | Decipher a written spell (such as a scroll) without using {% spell_link read-magic %}. One try per day. Requires a full-round action.
     | 25 + spell level | After rolling a saving throw against a spell targeted on you, determine what that spell was. No action required. No retry.
     | 25 | Identify a potion. Requires 1 minute. No retry.
-    | 20 | Draw a diagram to allow {% spell_link dimensional-anchor %} to be cast on a {% spell_link magic-circle %} spell. Requires 10 minutes. No retry. This check is made secretly so you do not know the result.
+    | 20 | Draw a diagram to allow {% spell_link dimensional-anchor %} to be cast on a _Magic Circle (_{% spell_link magic-circle-against-chaos 'Chaos' %}, {% spell_link magic-circle-against-evil 'Evil' %}, {% spell_link magic-circle-against-good 'Good' %}, or {% spell_link magic-circle-against-law 'Law' %}_)_ spell. Requires 10 minutes. No retry. This check is made secretly so you do not know the result.
     | 30 or higher | Understand a strange or unique magical effect, such as the effects of a magic stream. Time required varies. No retry.
     {: #spellcraft-dc-table .table .table-bordered .table-hover .table-striped data-caption="Table: Spellcraft DCs" }
   action: "Varies, as noted above."

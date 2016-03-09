@@ -34,7 +34,7 @@
 {% if spell.divineFocus != "" %}
 <p><strong>Divine Focus:</strong> {{ spell.divineFocus }}.</p>
 {% endif %}
-{{ spell.description | pmarkdownify }}
+{{ spell.description | pmarkdownify | liquify }}
 {% endcapture %}
 
 {% if spell.fluffText != "" %}

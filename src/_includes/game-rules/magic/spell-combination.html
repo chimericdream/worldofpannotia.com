@@ -37,7 +37,7 @@
 {% if combo.divineFocus != "" %}
 <p><strong>Divine Focus:</strong> {{ combo.divineFocus }}.</p>
 {% endif %}
-{{ combo.description | pmarkdownify }}
+{{ combo.description | pmarkdownify | liquify }}
 {% if combo.special != "" %}
 <p><strong>Special:</strong> {{ combo.special | pmarkdownify | liquify }}.</p>
 {% endif %}

@@ -4,23 +4,23 @@
     <h4>{{ include.title }}{% if feat.types.size > 0 %} [{{ feat.types | sort | join:'][' }}]{% endif %}</h4>
     {% if feat.prerequisite != "" %}
         <h5>Prerequisite</h5>
-        {{ feat.prerequisite | pmarkdownify }}
+        {{ feat.prerequisite | pmarkdownify | liquify }}
     {% endif %}
 
     <h5>Benefit</h5>
-    {{ feat.benefit | pmarkdownify }}
+    {{ feat.benefit | pmarkdownify | liquify }}
 
     {% if feat.normal != "" %}
         <h5>Normal</h5>
-        {{ feat.normal | pmarkdownify }}
+        {{ feat.normal | pmarkdownify | liquify }}
     {% endif %}
 
     {% if feat.special != "" %}
         <h5>Special</h5>
-        {{ feat.special | pmarkdownify }}
+        {{ feat.special | pmarkdownify | liquify }}
     {% endif %}
 {% endcapture %}
 
-{% if feat.description != "" %}{{ feat.description | pmarkdownify }}{% endif %}
+{% if feat.description != "" %}{{ feat.description | pmarkdownify | liquify }}{% endif %}
 
 {% include _other/ogc-block.html ogc_content=ogc %}

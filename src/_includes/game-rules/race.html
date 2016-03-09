@@ -3,62 +3,62 @@
 <h3>{{ include.title }}</h3>
 
 {% if race.description != "" %}
-    {{ race.description | pmarkdownify }}
+    {{ race.description | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.personality != "" %}
     <p><strong>Personality</strong></p>
-    {{ race.personality | pmarkdownify }}
+    {{ race.personality | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.physicalDescription != "" %}
     <p><strong>Physical Description</strong></p>
-    {{ race.physicalDescription | pmarkdownify }}
+    {{ race.physicalDescription | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.relations != "" %}
     <p><strong>Relations</strong></p>
-    {{ race.relations | pmarkdownify }}
+    {{ race.relations | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.alignment != "" %}
     <p><strong>Alignment</strong></p>
-    {{ race.alignment | pmarkdownify }}
+    {{ race.alignment | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.lands != "" %}
     <p><strong>Lands</strong></p>
-    {{ race.lands | pmarkdownify }}
+    {{ race.lands | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.religion != "" %}
     <p><strong>Religion</strong></p>
-    {{ race.religion | pmarkdownify }}
+    {{ race.religion | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.language != "" %}
     <p><strong>Language</strong></p>
-    {{ race.language | pmarkdownify }}
+    {{ race.language | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.names != "" %}
     <p><strong>Names</strong></p>
-    {{ race.names | pmarkdownify }}
+    {{ race.names | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.maleNames != "" %}
     <p><strong>Male Names</strong></p>
-    {{ race.maleNames | pmarkdownify }}
+    {{ race.maleNames | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.femaleNames != "" %}
     <p><strong>Female Names</strong></p>
-    {{ race.femaleNames | pmarkdownify }}
+    {{ race.femaleNames | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.adventurers != "" %}
     <p><strong>Adventurers</strong></p>
-    {{ race.adventurers | pmarkdownify }}
+    {{ race.adventurers | pmarkdownify | liquify }}
 {% endif %}
 
 {% if race.levelAdjust > 0 %}
@@ -68,7 +68,7 @@
 {% capture ogc %}
     {% if race.traits != "" %}
         <h4>Racial Traits</h4>
-        {{ race.traits | pmarkdownify }}
+        {{ race.traits | pmarkdownify | liquify }}
     {% endif %}
 
     {% if race.qualities.size > 0 %}
@@ -76,7 +76,7 @@
         {% for quality in race.qualities %}
             <p><strong>{{ quality.name }}{% if quality.type != "" %} ({{ quality.type }}){% endif %}</strong></p>
 
-            {{ quality.desc | pmarkdownify }}
+            {{ quality.desc | pmarkdownify | liquify }}
         {% endfor %}
     {% endif %}
 
@@ -86,7 +86,7 @@
             <p><strong>Effective Character Level:</strong> {{ opt.baseEcl }} + class levels.</p>
             <p><strong>Level Adjustment:</strong> +{{ opt.levelAdjust }}.</p>
 
-            {{ opt.traits | pmarkdownify }}
+            {{ opt.traits | pmarkdownify | liquify }}
         {% endfor %}
     {% endif %}
 {% endcapture %}

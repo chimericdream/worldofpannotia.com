@@ -328,25 +328,25 @@ eos
                 armor_check = "; Armor Check Penalty"
               end
               if skill["check"] && skill["check"] != ""
-                check = "**Check:** " + skill["check"]
+                check = "**Check:** " + liquify(skill["check"], context)
               end
               if skill["action"] && skill["action"] != ""
-                action = "**Action:** " + skill["action"]
+                action = "**Action:** " + liquify(skill["action"], context)
               end
               if skill["try_again"] && skill["try_again"] != ""
-                try_again = "**Try Again:** " + skill["try_again"]
+                try_again = "**Try Again:** " + liquify(skill["try_again"], context)
               end
               if skill["special"] && skill["special"] != ""
-                special = "**Special:** " + skill["special"]
+                special = "**Special:** " + liquify(skill["special"], context)
               end
               if skill["synergy"] && skill["synergy"] != ""
-                synergy = "**Synergy:**\n\n" + skill["synergy"]
+                synergy = "**Synergy:**\n\n" + liquify(skill["synergy"], context)
               end
               if skill["restriction"] && skill["restriction"] != ""
-                restriction = "**Restriction:** " + skill["restriction"]
+                restriction = "**Restriction:** " + liquify(skill["restriction"], context)
               end
               if skill["untrained"] && skill["untrained"] != ""
-                untrained = "**Untrained:** " + skill["untrained"]
+                untrained = "**Untrained:** " + liquify(skill["untrained"], context)
               end
               return <<-eos
 #### #{item.data["title"]} (#{skill["key_ability"]}#{trained}#{armor_check}) \{\#skill--#{slug}\}
