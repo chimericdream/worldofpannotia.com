@@ -1,6 +1,5 @@
 ---
 title: Magic Overview
-redirect_from: "/game-rules/magic/"
 crumbs: [game-rules, magic]
 crumbTitles: [Game Rules, Magic]
 ---

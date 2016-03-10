@@ -10,9 +10,9 @@ The most common coin is the gold piece (gp). A gold piece is worth 10 silver pie
 | Coin | Exchange Value |<|<|<
 |^| CP | SP | GP | PP
 |-|-|-|-
-| Copper piece (cp) | 1 | 1/10 | 1/100 | 1/1,000
-| Silver piece (sp) | 10 | 1 | 1/10 | 1/100
-| Gold piece (gp) | 100 | 10 | 1 | 1/10
+| Copper piece (cp) | 1 | <sup>1</sup>&#8725;<sub>10</sub> | <sup>1</sup>&#8725;<sub>100</sub> | <sup>1</sup>&#8725;<sub>1,000</sub>
+| Silver piece (sp) | 10 | 1 | <sup>1</sup>&#8725;<sub>10</sub> | <sup>1</sup>&#8725;<sub>100</sub>
+| Gold piece (gp) | 100 | 10 | 1 | <sup>1</sup>&#8725;<sub>10</sub>
 | Platinum piece (pp) | 1,000 | 100 | 10 | 1
 {: #coins-table .table .table-bordered .table-hover .table-striped data-caption="Table: Coins" }
 

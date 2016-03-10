@@ -20,7 +20,7 @@ At your damage threshold or lower, you're dead.
 
 **Negative Hit Point Threshold:** If you take enough damage to bring you to negative hit points equal to (Con + HD) HP, you die.
 
-**Massive Damage Threshold:** If you ever sustain a single attack deals damage equal to or greater than your massive damage threshold (4 * Constitution score) and it doesn't kill you outright, you must make a Fortitude save DC 15 + your opponent's Base Attack Bonus. If this saving throw fails, you suffer the effects of massive damage, regardless of your current hit points. If you take this much damage or more from multiple attacks, but no one of them deals enough damage to individually trigger a save, the massive damage rule does not apply.
+**Massive Damage Threshold:** If you ever sustain a single attack deals damage equal to or greater than your massive damage threshold (4 &times; Constitution score) and it doesn't kill you outright, you must make a Fortitude save DC 15 + your opponent's Base Attack Bonus. If this saving throw fails, you suffer the effects of massive damage, regardless of your current hit points. If you take this much damage or more from multiple attacks, but no one of them deals enough damage to individually trigger a save, the massive damage rule does not apply.
 
 If an attack deals hit point damage and also changes the character's Constitution score (such as a strike with a poisoned weapon), apply all effects of the hit before determining whether the damage is enough to trigger the saving throw.
 

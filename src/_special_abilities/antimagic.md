@@ -2,6 +2,7 @@
 title: "Antimagic"
 
 ability:
+  types: []
   description: |
     An {% spell_link antimagic-field %} spell or effect cancels magic altogether. An antimagic effect has the following powers and characteristics.
 

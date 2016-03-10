@@ -321,6 +321,8 @@ eos
               trained = armor_check = check = action = try_again = special = synergy = restriction = untrained = ""
               skill = item.data["skill"]
 
+              title = liquify(item.data["title"], context)
+              description = liquify(skill["description"], context)
               if skill["trained_only"]
                 trained = "; Trained Only"
               end
@@ -349,9 +351,9 @@ eos
                 untrained = "**Untrained:** " + liquify(skill["untrained"], context)
               end
               return <<-eos
-#### #{item.data["title"]} (#{skill["key_ability"]}#{trained}#{armor_check}) \{\#skill--#{slug}\}
+#### #{title} (#{skill["key_ability"]}#{trained}#{armor_check}) \{\#skill--#{slug}\}
 
-#{skill["description"]}
+#{description}
 
 #{check}
 
@@ -371,20 +373,24 @@ eos
             when 'special_abilities'
               ability = item.data["ability"]
               types = ""
-              if !ability["types"].nil?
+              title = liquify(item.data["title"], context)
+              description = liquify(ability["description"], context)
+              if !ability["types"].empty?
                 types = " (" + ability["types"].join(" or ") + ")"
               end
               return <<-eos
-##### #{item.data["title"]}#{types} \{\#ability--#{slug}\}
+##### #{title}#{types} \{\#ability--#{slug}\}
 
-#{ability["description"]}
+#{description}
 eos
 
             when 'status_conditions'
+              title = liquify(item.data["title"], context)
+              description = liquify(item.data["condition"]["description"], context)
               return <<-eos
-##### #{item.data["title"]} \{\#condition--#{slug}\}
+##### #{title} \{\#condition--#{slug}\}
 
-#{item.data["condition"]["description"]}
+#{description}
 eos
             end
           end
