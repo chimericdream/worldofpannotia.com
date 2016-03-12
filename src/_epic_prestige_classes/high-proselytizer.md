@@ -92,5 +92,4 @@ class:
 
           _Bonus Feat List:_ Armor Skin, Automatic Quicken Spell, Automatic Silent Spell, Automatic Still Spell, Bonus Domain, Enhance Spell, Epic Reputation, Epic Spell Focus, Epic Spell Penetration, Epic Spellcasting, Epic Will, Extended Life Span, Great Charisma, Great Wisdom, Ignore Material Components, Improved Alignment-Based Casting, Improved Combat Casting, Improved Heighten Spell, Improved Metamagic, Improved Spell Capacity, Intensify Spell, Legendary Commander, Multispell, Negative Energy Burst, Per-manent Emanation, Planar Turning, Polyglot, Positive Energy Aura, Spectral Strike, Spell Stowaway, Spell Opportunity, Spontaneous Domain Access, Spontaneous Spell, Tenacious Magic, Undead Mastery, Zone of Animation.
     additionalInfo: ""
-</div>
-
+---
