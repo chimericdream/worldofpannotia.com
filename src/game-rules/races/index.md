@@ -18,7 +18,7 @@ Class-Related Languages: Clerics, druids, and wizards can choose certain languag
  * _Druid:_ Sylvan.
  * _Wizard:_ Draconic.
 
-### Small Characters {#small-cahracters}
+### Small Characters {#small-characters}
 
 A Small character gets a +1 size bonus to Armor Class, a +1 size bonus on attack rolls, and a +4 size bonus on {% skill_link hide %} checks. A Small character's carrying capacity is three-quarters of that of a Medium character.
 
