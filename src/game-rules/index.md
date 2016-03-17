@@ -41,7 +41,7 @@ Each ability, after changes made because of race, has a modifier ranging from -5
 The modifier is the number you apply to the die roll when your character tries to do something related tothat ability. You also use the modifier with some numbers that aren't die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.
 
 |---
-| Score| Modifier|: Bonus Spells (by Spell Level) :|<|<|<|<|<|<|<|<|<
+| Score | Modifier |: Bonus Spells (by Spell Level) :|<|<|<|<|<|<|<|<|<
 |^|^| 0 | 1st | 2nd | 3rd | 4th | 5th | 6th | 7th | 8th | 9th
 |-|-|-|-|-|-|-|-|-|-|-|-
 | 1 | -5 |: Can't cast spells tied to this ability :|<|<|<|<|<|<|<|<|<
