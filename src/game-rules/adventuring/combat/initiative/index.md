@@ -1,6 +1,6 @@
 ---
 title: Initiative
-crumbs: [game-rules, adventuring, combat/overview]
+crumbs: [game-rules, adventuring, combat]
 crumbTitles: [Game Rules, Adventuring, Combat]
 ---
 
