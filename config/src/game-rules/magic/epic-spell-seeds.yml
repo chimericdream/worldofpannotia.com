@@ -1,22 +1,15 @@
 collections:
-  spells:
-    output:    true
-    permalink: /game-rules/magic/spells/:path/
+  epic_spell_seeds:
+    output:    false
 
 
 defaults:
   - scope:
       path: ""
-      type: spells
+      type: epic_spell_seeds
     values:
-      layout:        "game-rules/magic/spell"
-      crumbs:        [game-rules, magic, spells]
-      crumbTitles:   [Game Rules, Magic, Spells]
-      activeSection: "game-rules/magic/spells"
-      spell:
+      seed:
         schools:            [] # {name: "", subschools: [], descriptors: []}
-        classes:            [] # {name: "", abbr: "", level: 0}
-        domains:            [] # same format as classes
         components:         []
         castingTime:        ""
         range:              ""
