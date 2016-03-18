@@ -25,5 +25,5 @@ power:
     You can't decrease the hardness of an object that already has hardness 0.
 
     Working Manipulated Metals: An object or portion thereof whose hardness is decreased or increased is permanently changed. Even hardening adamantine to 25 is possible. You can also harden or weaken a preforged weapon, a suit of armor, or some other finished item.
-  xpCost: "250 XP for each point by which the object’s hardness is altered."
+  xpCostSpecial: "250 XP for each point by which the object's hardness is altered."
 ---

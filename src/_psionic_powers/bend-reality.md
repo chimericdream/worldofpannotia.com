@@ -32,5 +32,5 @@ power:
     A duplicated power allows saving throws and power resistance as normal (but the save DC is for a 8th-level power).
 
     When bend reality duplicates a power that has an XP cost, you must pay that cost or 300 XP, whichever is more. When bend reality duplicates a spell with a material component, you must pay additional XP equal to the value of the material component divided by 5.
-  xpCost: "300 XP or more (see above)."
+  xpCostSpecial: "300 XP or more (see above)."
 ---

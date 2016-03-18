@@ -29,5 +29,5 @@ power:
     You can also remove all psionic effects penalizing the subject's ability scores, heal all ability damage, and remove any ability drain affecting the subject. Psychic chirurgery negates all forms of insanity, confusion, the effect of such powers as microcosm, and so on, but it does not restore levels or Constitution points lost due to death.
 
     Transfer Knowledge: If desired, you can use this power to directly transfer knowledge of a power you know to another psionic character. You can give a character knowledge of a power of any level that she can manifest, even if the power is not normally on the character's power list. Knowledge of powers gained through psychic chirurgery does not count toward the maximum number of powers a character can know per level.
-  xpCost: "Each time you use psychic chirurgery to implant knowledge of a power in another creature, you pay an XP cost equal to 1,000 &times; the level of the power implanted. If you and the subject are both willing to do so, you can split this cost evenly."
+  xpCostSpecial: "Each time you use psychic chirurgery to implant knowledge of a power in another creature, you pay an XP cost equal to 1,000 &times; the level of the power implanted. If you and the subject are both willing to do so, you can split this cost evenly."
 ---

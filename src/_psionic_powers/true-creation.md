@@ -15,5 +15,5 @@ power:
   powerPoints: 17
   description: |
     As psionic major creation, except items created are enduring and cannot be negated by dispelling magic or negating powers. For all intents and purposes, these items are completely real.
-  xpCost: "1/5 of the item's gold piece value, or a minimum of 1 XP."
+  xpCostSpecial: "1/5 of the item's gold piece value, or a minimum of 1 XP."
 ---

@@ -2,3 +2,33 @@ collections:
   psionic_powers:
     output:    true
     permalink: /game-rules/psionics/powers/:path/
+
+
+defaults:
+  - scope:
+      path: ""
+      type: psionic_powers
+    values:
+      layout:        "game-rules/psionics/power"
+      crumbs:        [game-rules, psionics, powers]
+      crumbTitles:   [Game Rules, Psionics, Powers]
+      activeSection: "game-rules/psionics/powers"
+      power:
+        disciplines:        [] # {name: "", subdisciplines: [], descriptors: []}
+        classes:            [] # {name: "", abbr: "", level: 0}
+        displays:           []
+        manifestingTime:    ""
+        range:              ""
+        area:               ""
+        targetOrEffect:     ""
+        effect:             ""
+        target:             ""
+        duration:           ""
+        dismissable:        false
+        savingThrow:        ""
+        powerResistance:    ""
+        xpCost:             0
+        xpCostSpecial:      ""
+        fluffText:          ""
+        description:        ""
+        augment:            ""

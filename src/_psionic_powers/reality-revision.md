@@ -34,5 +34,5 @@ power:
     You can try to use reality revision to produce more powerful effects than these, but doing so is dangerous. The manifestation may pervert your intent into a literal but undesirable fulfillment or only a partial fulfillment.
 
     Duplicated powers allow saves and power resistance as normal (but save DCs are calculated as though the power is 9th level).
-  xpCost: "The minimum XP cost for manifesting reality revision is 5,000 XP. When a manifestation duplicates a power that has an XP cost, you must pay 5,000 XP or that cost, whichever is more. When a manifestation creates or improves a psionic item, you must pay twice the normal XP cost for crafting or improving the item, plus an additional 5,000 XP."
+  xpCostSpecial: "The minimum XP cost for manifesting reality revision is 5,000 XP. When a manifestation duplicates a power that has an XP cost, you must pay 5,000 XP or that cost, whichever is more. When a manifestation creates or improves a psionic item, you must pay twice the normal XP cost for crafting or improving the item, plus an additional 5,000 XP."
 ---

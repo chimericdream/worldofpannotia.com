@@ -25,5 +25,5 @@ power:
     The subject can also choose to forget powers it acquired when advancing to its current level, replacing them with new ones.
 
     The subject can undo decisions of these sorts that were made at lower levels, if both the subject and the manifester agree to pay the necessary XP before this power is manifested (see below). The subject must abide by the standard rules for selecting skills and feats, and so it cannot take feats for which it doesn't qualify or take crossclass skills as class skills.
-  xpCost: "This power costs 50 XP to manifest to reformat choices made when the character reached her current level. For each additional previous level into which the revision reaches, the power costs an additional 50 XP. The manifester and subject split all XP costs evenly."
+  xpCostSpecial: "This power costs 50 XP to manifest to reformat choices made when the character reached her current level. For each additional previous level into which the revision reaches, the power costs an additional 50 XP. The manifester and subject split all XP costs evenly."
 ---
