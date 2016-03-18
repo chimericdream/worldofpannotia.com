@@ -7,9 +7,9 @@ ability:
   manifesterLevel: "10th"
   prerequisites:
     feats: ["{% feat_link craft-psionic-arms-and-armor %}"]
-    powers: ["{% power_link psionic-dimension-door %}"]
+    powers: ["{% power_link dimension-door-psionic %}"]
     special: []
-  marketPriceSpecial: "+40,320 gp"
+  price: "+40,320 gp"
   description: |
-    As a standard action, a suit of aporter armor or an aporter shield transports the wearer and her equipment to any spot within 800 feet that she can visualize or specify, as the {% power_link psionic-dimension-door %} power. The armor or shield can transport the wearer in this fashion twice per day.
+    As a standard action, a suit of aporter armor or an aporter shield transports the wearer and her equipment to any spot within 800 feet that she can visualize or specify, as the {% power_link dimension-door-psionic %} power. The armor or shield can transport the wearer in this fashion twice per day.
 ---

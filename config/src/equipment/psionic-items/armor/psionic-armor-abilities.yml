@@ -1,3 +1,18 @@
 collections:
   psionic_armor_abilities:
     output:    false
+
+defaults:
+  - scope:
+      path: ""
+      type: psionic_armor_abilities
+    values:
+      ability:
+        aura: ""
+        manifesterLevel: ""
+        prerequisites:
+          feats: []
+          powers: []
+          special: []
+        price: ""
+        description: ""

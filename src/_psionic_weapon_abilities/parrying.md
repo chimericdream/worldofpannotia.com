@@ -7,7 +7,7 @@ ability:
   manifesterLevel: "5th"
   prerequisites:
     feats: ["{% feat_link craft-psionic-arms-and-armor %}"]
-    powers: ["{% power_link defensive-precognition %}"]
+    powers: ["{% power_link precognition-defensive %}"]
     special: []
   marketPriceSpecial: "+8,000 gp"
   description: |

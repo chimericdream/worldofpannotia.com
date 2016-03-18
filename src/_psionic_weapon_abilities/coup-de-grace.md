@@ -7,7 +7,7 @@ ability:
   manifesterLevel: "19th"
   prerequisites:
     feats: ["{% feat_link craft-psionic-arms-and-armor %}"]
-    powers: ["{% power_link psionic-dominate %}"]
+    powers: ["{% power_link dominate-psionic %}"]
     special: []
   marketPriceSpecial: "+5 bonus"
   description: |

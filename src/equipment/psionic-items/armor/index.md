@@ -58,3 +58,15 @@ Most psionic armor and shields only have enhancement bonuses. Such items can als
 | <sup>1</sup>Add to enhancement bonus to determine total market price.<br><sup>2</sup>If you roll a special ability twice, only one counts. If you roll two versions of the same special ability, use the better. |<|<|<|<
 {: #psionic-shield-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Psionic Shield Special Abilities" }
 
+### Armor &amp; Shield Ability Descriptions
+
+{% for item in site.psionic_armor_abilities %}
+
+{% unless forloop.index == 1 %}
+* * *
+{% endunless %}
+
+{% assign ability_slug = item | item_slug %}
+{% psionic_armor_ability_embed {{ ability_slug }} %}
+
+{% endfor %}

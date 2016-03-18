@@ -7,7 +7,7 @@ ability:
   manifesterLevel: "5th"
   prerequisites:
     feats: ["{% feat_link craft-psionic-arms-and-armor %}"]
-    powers: ["{% power_link psionic-dimension-door %}"]
+    powers: ["{% power_link dimension-door-psionic %}"]
     special: []
   marketPriceSpecial: "+1 bonus"
   description: |

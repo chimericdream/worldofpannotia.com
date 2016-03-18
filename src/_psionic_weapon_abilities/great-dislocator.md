@@ -7,7 +7,7 @@ ability:
   manifesterLevel: "12th"
   prerequisites:
     feats: ["{% feat_link craft-psionic-arms-and-armor %}"]
-    powers: ["{% power_link psionic-plane-shift %}"]
+    powers: ["{% power_link plane-shift-psionic %}"]
     special: []
   marketPriceSpecial: "+4 bonus"
   description: |

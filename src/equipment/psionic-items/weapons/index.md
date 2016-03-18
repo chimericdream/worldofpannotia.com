@@ -55,6 +55,15 @@ Although they generally follow the rules for magic weapons, psionic weapons diff
 | <sup>1</sup>Add to enhancement bonus to determine total market price.<br><sup>2</sup>Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivalents can't total more than +10. |<|<|<|<
 {: #psionic-ranged-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Psionic Ranged Weapon Special Abilities" }
 
-{% comment %}
-loop through weapon abilities
-{% endcomment %}
+### Weapon Ability Descriptions
+
+{% for item in site.psionic_weapon_abilities %}
+
+{% unless forloop.index == 1 %}
+* * *
+{% endunless %}
+
+{% assign ability_slug = item | item_slug %}
+{% psionic_weapon_ability_embed {{ ability_slug }} %}
+
+{% endfor %}
