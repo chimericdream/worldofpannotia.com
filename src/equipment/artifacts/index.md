@@ -12,16 +12,24 @@ No table has been included to randomly generate specific artifacts, since these 
 
 Minor artifacts are not necessarily unique items. Even so, they are magic items that no longer can be created, at least by common mortal means.
 
+Listed below is a selection of the most well-known (not necessarily the most numerous) minor artifacts.
+
+{% for item in site.artifacts %}
+{% if item.artifact.type == "minor" %}
+ * [{{ item.title }}]({{ item.url }})
+{% endif %}
+{% endfor %}
+
 ### Major Artifacts
 
 Major artifacts are unique items &ndash; only one of each such item exists. These are the most potent of magic items, capable of altering the balance of a campaign.
 
 Unlike all other magic items, major artifacts are not easily destroyed. Each should have only a single, specific means of destruction.
 
-### Minor Artifact Descriptions
-
-Listed below is a selection of the most well-known (not necessarily the most numerous) minor artifacts.
-
-### Major Artifact Descriptions
-
 Listed below is a selection of the most well-known major artifacts. It is unlikely that an adventurer will ever come across one of these items, but when they do, the artifact's power holds the potential to alter the course of history.
+
+{% for item in site.artifacts %}
+{% if item.artifact.type == "major" %}
+ * [{{ item.title }}]({{ item.url }})
+{% endif %}
+{% endfor %}

@@ -9,6 +9,9 @@ defaults:
       type: artifacts
     values:
       layout: "equipment/artifact"
+      crumbs:        [equipment, artifacts]
+      crumbTitles:   [Equipment, Artifacts]
+      activeSection: "equipment/artifacts"
       artifact:
         type: "minor"
         shortDesc: ""
