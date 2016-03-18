@@ -4,4 +4,4 @@ crumbs: [game-rules, psionics]
 crumbTitles: [Game Rules, Psionics]
 ---
 
-{% include _other/index-list.html item_list=site.powers %}
+{% include _other/index-list.html item_list=site.psionic_powers %}
