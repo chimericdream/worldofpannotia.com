@@ -1,7 +1,7 @@
 ---
 title: "Metamagic Rod, Empower"
 
-rod:
+item:
   aura: "Strong (no school)"
   casterLevel: "17th"
   prerequisites:

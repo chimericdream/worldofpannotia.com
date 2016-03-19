@@ -1,7 +1,7 @@
 ---
 title: "Rod of Alertness"
 
-rod:
+item:
   aura: "Moderate abjuration, divination, enchantment, and evocation"
   casterLevel: "11th"
   prerequisites:

@@ -1,7 +1,7 @@
 ---
 title: "Rod of Enemy Detection"
 
-rod:
+item:
   aura: "Moderate divination"
   casterLevel: "10th"
   prerequisites:

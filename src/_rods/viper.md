@@ -1,7 +1,7 @@
 ---
 title: "Rod of the Viper"
 
-rod:
+item:
   aura: "Moderate necromancy"
   casterLevel: "10th"
   prerequisites:

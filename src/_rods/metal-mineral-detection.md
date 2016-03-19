@@ -1,7 +1,7 @@
 ---
 title: "Rod of Metal and Mineral Detection"
 
-rod:
+item:
   aura: "Moderate divination"
   casterLevel: "9th"
   prerequisites:

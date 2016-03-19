@@ -1,7 +1,7 @@
 ---
 title: "Rod of Cancellation"
 
-rod:
+item:
   aura: "Strong abjuration"
   casterLevel: "17th"
   prerequisites:

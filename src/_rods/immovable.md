@@ -1,7 +1,7 @@
 ---
 title: "Immovable Rod"
 
-rod:
+item:
   aura: "Moderate transmutation"
   casterLevel: "10th"
   prerequisites:

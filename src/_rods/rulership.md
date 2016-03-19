@@ -1,7 +1,7 @@
 ---
 title: "Rod of Rulership"
 
-rod:
+item:
   aura: "Strong enchantment"
   casterLevel: "20th"
   prerequisites:

@@ -1,7 +1,7 @@
 ---
 title: "Rod of Potions"
 
-rod:
+item:
   aura: "Strong transmutation"
   casterLevel: "13th"
   prerequisites:

@@ -1,7 +1,7 @@
 ---
 title: "Rod of Wonder"
 
-rod:
+item:
   aura: "Moderate enchantment"
   casterLevel: "10th"
   prerequisites:

@@ -1,7 +1,7 @@
 ---
 title: "Rod of Absorption"
 
-rod:
+item:
   aura: "Strong abjuration"
   casterLevel: "15th"
   prerequisites:

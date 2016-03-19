@@ -1,7 +1,7 @@
 ---
 title: "Rod of Negation"
 
-rod:
+item:
   aura: "Strong varied"
   casterLevel: "15th"
   prerequisites:

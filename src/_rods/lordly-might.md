@@ -1,7 +1,7 @@
 ---
 title: "Rod of Lordly Might"
 
-rod:
+item:
   aura: "Strong enchantment, evocation, necromancy, and transmutation"
   casterLevel: "19th"
   prerequisites:

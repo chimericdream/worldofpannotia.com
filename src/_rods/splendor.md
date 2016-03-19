@@ -1,7 +1,7 @@
 ---
 title: "Rod of Splendor"
 
-rod:
+item:
   aura: "Strong conjuration and transmutation"
   casterLevel: "12th"
   prerequisites:

@@ -1,7 +1,7 @@
 ---
 title: "Metamagic Rod, Silent"
 
-rod:
+item:
   aura: "Strong (no school)"
   casterLevel: "17th"
   prerequisites:

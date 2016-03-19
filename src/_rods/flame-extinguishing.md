@@ -1,7 +1,7 @@
 ---
 title: "Rod of Flame Extinguishing"
 
-rod:
+item:
   aura: "Strong transmutation"
   casterLevel: "12th"
   prerequisites:

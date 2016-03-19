@@ -1,7 +1,7 @@
 ---
 title: "Rod of Security"
 
-rod:
+item:
   aura: "Strong conjuuration"
   casterLevel: "20th"
   prerequisites:

@@ -1,7 +1,7 @@
 ---
 title: "Rod of the Python"
 
-rod:
+item:
   aura: "Moderate transmutation"
   casterLevel: "10th"
   prerequisites:

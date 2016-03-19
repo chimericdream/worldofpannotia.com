@@ -1,7 +1,7 @@
 ---
 title: "Rod of Thunder and Lightning"
 
-rod:
+item:
   aura: "Moderate evocation"
   casterLevel: "9th"
   prerequisites:

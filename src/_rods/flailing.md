@@ -1,7 +1,7 @@
 ---
 title: "Rod of Flailing"
 
-rod:
+item:
   aura: "Moderate enchantment"
   casterLevel: "9th"
   prerequisites:

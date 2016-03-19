@@ -1,7 +1,7 @@
 ---
 title: "Rod of Withering"
 
-rod:
+item:
   aura: "Strong necromancy"
   casterLevel: "13th"
   prerequisites:
