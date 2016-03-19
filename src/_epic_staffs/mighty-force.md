@@ -6,21 +6,20 @@ item:
   aura: ""
   casterLevel: "21st"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-staff %}", "{% epic_feat_link craft-epic-staff %}", "{% feat_link quicken-spell %}"]
+    spells: ["{% spell_link crushing-hand %}","{% spell_link forcecage %}", "{% spell_link shield %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 265000
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
   weight: ""
-  description: ""
----
-This staff has three powers.
-     * {% spell_link shield %} (quickened, 1 charge, may be activated once per round)
-     * _forcecage_ (1 charge)
-     * _crushing hand_ (1 charge)
-Craft Staff, Craft Epic Staff, Quicken Spell, _crushing hand_, _forcecage_, {% spell_link shield %}; _Market Price:_ 265,000 gp.
+  description: |
+    This staff has three powers.
 
+     * {% spell_link shield %} ({% feat_link quicken-spell "Quickened" %}, 1 charge, may be activated once per round)
+     * {% spell_link forcecage %} (1 charge)
+     * {% spell_link crushing-hand %} (1 charge)
+---

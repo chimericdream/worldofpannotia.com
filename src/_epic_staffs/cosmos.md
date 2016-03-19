@@ -6,21 +6,20 @@ item:
   aura: ""
   casterLevel: "27th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-staff %}", "{% epic_feat_link craft-epic-staff %}", "{% epic_feat_link intensify-spell %}"]
+    spells: ["{% spell_link chain-lightning %}", "{% spell_link meteor-swarm %}", "{% spell_link sunburst %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 683437
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
   weight: ""
-  description: ""
----
-This staff allows use of the following spells.
-     * _chain lightning_ (intensified, 1 charge, DC 29)
-     * _meteor swarm_ (intensified, 1 charge, DC 34)
-     * _sunburst_ (intensified, 1 charge, DC 32)
-Craft Staff, Craft Epic Staff, Intensify Spell, _chain lightning_, _meteor swarm_, _sunburst_; _Market Price:_ 683,437 gp.
+  description: |
+    This staff allows use of the following spells.
 
+     * {% spell_link chain-lightning %} ({% epic_feat_link intensify-spell "Intensified" %}, 1 charge, DC 29)
+     * {% spell_link meteor-swarm %} ({% epic_feat_link intensify-spell "Intensified" %}, 1 charge, DC 34)
+     * {% spell_link sunburst %} ({% epic_feat_link intensify-spell "Intensified" %}, 1 charge, DC 32)
+---

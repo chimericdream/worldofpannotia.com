@@ -6,22 +6,21 @@ item:
   aura: ""
   casterLevel: "27th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-staff %}", "{% epic_feat_link craft-epic-staff %}", "{% epic_feat_link intensify-spell %}", "{% feat_link heighten-spell %}", "{% epic_feat_link improved-heighten-spell %}"]
+    spells: ["{% spell_link circle-of-death %}", "{% spell_link create-greater-undead %}", "{% spell_link finger-of-death %}", "{% spell_link soul-bind %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 1505312
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 1290156
+    xp: 14303
   costToCreateSpecial: ""
   weight: ""
-  description: ""
----
-This staff allows use of the following spells.
-     * {% spell_link circle-of-death %} (intensified, 2 charges, DC 29)
-     * _create greater undead_ (1 charge)
-     * _finger of death_ (improved heightened to 16th, 2 charges, DC 34)
-     * _soul bind_ (improved heightened to 16th, 2 charges, DC 34). The soul trapped through the use of the _soul bind_ spell is trapped in the staff rather than a gem. Only by breaking the staff can the souls be freed.
-Craft Staff, Craft Epic Staff, Intensify Spell, Heighten Spell, Improved Heighten Spell, {% spell_link circle-of-death %}, _create greater undead_, _finger of death_, _soul bind_; _Market Price:_ 1,505,312 gp; _Cost to Create:_ 1,290,156 gp + 14,303 XP.
+  description: |
+    This staff allows use of the following spells.
 
+     * {% spell_link circle-of-death %} ({% epic_feat_link intensify-spell "Intensified" %}, 2 charges, DC 29)
+     * {% spell_link create-greater-undead %} (1 charge)
+     * {% spell_link finger-of-death %} ({% epic_feat_link improved-heighten-spell "Improved Heightened to 16th"%}, 2 charges, DC 34)
+     * {% spell_link soul-bind %} ({% epic_feat_link improved-heighten-spell "Improved Heightened to 16th"%}, 2 charges, DC 34). The soul trapped through the use of the {% spell_link soul-bind %} spell is trapped in the staff rather than a gem. Only by breaking the staff can the souls be freed.
+---

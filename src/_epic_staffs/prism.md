@@ -6,21 +6,20 @@ item:
   aura: ""
   casterLevel: "21st"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-staff %}", "{% epic_feat_link craft-epic-staff %}", "{% feat_link extend-spell %}"]
+    spells: ["{% spell_link prismatic-sphere %}", "{% spell_link prismatic-spray %}", "{% spell_link prismatic-wall %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 326812
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
   weight: ""
-  description: ""
----
-This staff allows use of the following spells.
-     * {% spell_link prismatic-sphere %} (extended, 1 charge, DC 25)
-     * {% spell_link prismatic-spray %} (extended, 1 charge, DC 22)
-     * {% spell_link prismatic-wall %} (extended, 1 charge, DC 23)
-Craft Staff, Craft Epic Staff, Extend Spell, {% spell_link prismatic-sphere %}, {% spell_link prismatic-spray %}, {% spell_link prismatic-wall %}; _Market Price:_ 326,812 gp.
+  description: |
+    This staff allows use of the following spells.
 
+     * {% spell_link prismatic-sphere %} ({% feat_link extend-spell "Extended" %}, 1 charge, DC 25)
+     * {% spell_link prismatic-spray %} ({% feat_link extend-spell "Extended" %}, 1 charge, DC 22)
+     * {% spell_link prismatic-wall %} ({% feat_link extend-spell "Extended" %}, 1 charge, DC 23)
+---
