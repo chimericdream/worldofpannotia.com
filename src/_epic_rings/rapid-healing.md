@@ -6,18 +6,16 @@ item:
   aura: ""
   casterLevel: "20th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link forge-ring %}", "{% epic_feat_link forge-epic-ring %}"]
+    spells: ["{% spell_link regenerate %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 300000
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This ring grants a living wearer {% special_ability_link fast-healing %} 3. It must be worn for 24 hours before its powers activate, and if removed it will not function again until it has been worn for 24 hours by the same individual.
 ---
-This ring grants a living wearer fast healing 3. It must be worn for 24 hours before its powers activate, and if removed it will not function again until it has been worn for 24 hours by the same individual.
-Forge Ring, Forge Epic Ring, _regenerate_; _Market Price:_ 300,000 gp.
-

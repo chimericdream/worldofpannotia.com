@@ -6,18 +6,16 @@ item:
   aura: ""
   casterLevel: "20th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link forge-ring %}", "{% epic_feat_link forge-epic-ring %}"]
+    spells: ["{% spell_link protection-from-energy %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 308000
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 154000
+    xp: 13080
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This ring functions as a {% ring_link energy-resistance "Greater Ring of Energy Resistance" %} for all types of energy &ndash; fire, cold, electricity, acid, and sonic. When the wearer would normally take such damage, subtract 30 points of damage per round from the amount before applying.
 ---
-This ring functions as a _ring of greater energy resistance_ for all types of energy &ndash; fire, cold, electricity, acid, and sonic. When the wearer would normally take such damage, subtract 30 points of damage per round from the amount before applying.
-Forge Ring, Forge Epic Ring, _protection from energy_; _Market Price:_ 308,000 gp; _Cost to Create:_ 154,000 gp + 13,080 XP.
-

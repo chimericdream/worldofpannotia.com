@@ -6,18 +6,16 @@ item:
   aura: ""
   casterLevel: "20th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link forge-ring %}", "{% epic_feat_link forge-epic-ring %}"]
+    spells: ["{% spell_link sequester %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 300000
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This ring becomes invisible when worn. Upon command, the wearer gains the benefits of a {% spell_link sequester %} spell (though he or she does not become comatose as normal for the spell).
 ---
-This ring becomes invisible when worn. Upon command, the wearer gains the benefits of a _sequester_ spell (though he or she does not become comatose as normal for the spell).
-Forge Ring, Forge Epic Ring, _sequester_; _Market Price:_ 300,000 gp.
-

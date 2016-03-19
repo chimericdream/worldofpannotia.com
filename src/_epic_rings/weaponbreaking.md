@@ -6,17 +6,16 @@ item:
   aura: ""
   casterLevel: "20th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link forge-ring %}", "{% epic_feat_link forge-epic-ring %}"]
+    spells: ["{% spell_link iron-body %}", "{% spell_link shatter %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 600000
   marketPriceSpecial: ""
   costToCreate:
-    gp: 0
-    xp: 0
+    gp: 300000
+    xp: 16000
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This ring is identical to a {% epic_ring_link ironskin %}, and has one additional power. Any weapon that successfully strikes the wearer must also make a Fortitude saving throw (DC 20) or be shattered into pieces.
 ---
-A _ring of weaponbreaking_ is identical to a _ring of ironskin_, and has one additional power. Any weapon that successfully strikes the wearer must also make a Fortitude saving throw (DC 20) or be shattered into pieces.
-Forge Ring, Forge Epic Ring, _iron body_, _shatter_; _Market Price:_ 600,000 gp; _Cost to Create:_ 300,000 gp + 16,000 XP.

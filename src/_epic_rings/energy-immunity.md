@@ -6,18 +6,16 @@ item:
   aura: ""
   casterLevel: "20th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link forge-ring %}", "{% epic_feat_link forge-epic-ring %}"]
+    spells: ["{% spell_link protection-from-energy %}"]
     special: []
-  marketPrice: 0
+  marketPrice: 240000
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
   weight: ""
-  description: ""
+  description: |
+    This band continually provides the wearer with immunity to a single type of energy: fire, cold, electricity, acid, or sonic. The wearer takes no damage from the energy of the specific type.
 ---
-<p id="energy-immunity">**:** This band continually provides the wearer with immunity to a single type of energy: fire, cold, electricity, acid, or sonic. The wearer takes no damage from the energy of the specific type.
-_Caster Level:_ ; _Prerequisites:_ Forge Ring, Forge Epic Ring, _protection from energy_; _Market Price:_ 240,000 gp.
-
