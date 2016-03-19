@@ -5,12 +5,11 @@
     <aside class="col-xs-12 col-sm-4 col-sm-push-8">
         {% if item.aura %}<p><strong>Aura:</strong> {{ item.aura | inline_pmarkdownify | liquify }}</p>{% endif %}
         {% if item.casterLevel %}<p><strong>Caster Level:</strong> {{ item.casterLevel | inline_pmarkdownify | liquify }}</p>{% endif %}
-        {% if item.manifesterLevel %}<p><strong>Manifester Level:</strong> {{ item.manifesterLevel | inline_pmarkdownify | liquify }}</p>{% endif %}
         <p><strong>Market Price:</strong> {% if item.marketPrice > 0 %}{{ item.marketPrice | number_format }} gp{% else %}{{ item.marketPriceSpecial }}{% endif %}</p>
         {% if item.weight and item.weight != "" %}<p><strong>Weight:</strong> {{ item.weight }}</p>{% endif %}
     </aside>
     <article class="col-xs-12 col-sm-8 col-sm-pull-4">
-        <h3>{{ item.title }}</h3>
+        <h3>{{ include.title }}</h3>
 
         {{ item.description | pmarkdownify | liquify }}
 

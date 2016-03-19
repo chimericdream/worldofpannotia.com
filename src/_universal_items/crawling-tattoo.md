@@ -38,7 +38,7 @@ item:
 
     Faint psychokinesis; ML 1st; Craft Universal Item, _concussion blast_; Price 50 gp.
 
-    _Crawling Tattoo of Energy Bolt_: Each of these tattoos is keyed to one energy type: cold, electricity, fire, or sonic. This crawling tattoo delivers the {% spell_link energy-bolt %} power, dealing 5d6 points of damage of its energy type.
+    _Crawling Tattoo of Energy Bolt_: Each of these tattoos is keyed to one energy type: cold, electricity, fire, or sonic. This crawling tattoo delivers the {% power_link energy-bolt %} power, dealing 5d6 points of damage of its energy type.
 
-    Faint psychokinesis; ML 5th; Craft Universal Item, {% spell_link energy-bolt %}; Price 750 gp.
+    Faint psychokinesis; ML 5th; Craft Universal Item, {% power_link energy-bolt %}; Price 750 gp.
 ---

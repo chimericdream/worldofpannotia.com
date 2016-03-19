@@ -10,7 +10,7 @@
         {% if artifact.weight != "" %}<br><strong>Weight:</strong> {{ artifact.weight }}{% endif %}
     </aside>
     <article class="col-xs-12 col-sm-8 col-sm-pull-4">
-        <h3>{{ page.title }}</h3>
+        <h3>{{ include.title }}</h3>
 
         {{ artifact.description | pmarkdownify | liquify }}
     </article>

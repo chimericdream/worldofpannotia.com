@@ -10,7 +10,7 @@
         {% if item.weight and item.weight != "" %}<p><strong>Weight:</strong> {{ item.weight }}</p>{% endif %}
     </aside>
     <article class="col-xs-12 col-sm-8 col-sm-pull-4">
-        <h3>{{ item.title }}</h3>
+        <h3>{{ include.title }}</h3>
 
         {{ item.description | pmarkdownify | liquify }}
 

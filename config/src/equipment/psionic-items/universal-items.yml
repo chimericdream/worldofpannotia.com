@@ -1,4 +1,30 @@
 collections:
   universal_items:
     output:    true
-    permalink: /equipment/psionic-items/universal/:path/
+    permalink: /equipment/psionic-items/universal-items/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: universal_items
+    values:
+      layout: "equipment/psionic-items/universal-item"
+      crumbs: [equipment, psionic-items, universal-items]
+      crumbTitles: [Equipment, Psionic Items, Universal Items]
+      item:
+        shortDesc: ""
+        aura: ""
+        manifesterLevel: ""
+        prerequisites:
+          feats: []
+          powers: []
+          special: []
+        slot: ""
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""
