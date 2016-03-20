@@ -51,10 +51,6 @@ module Jekyll
           @item_collection = "epic_magic_weapon_abilities"
         when "epic_prestige_class_link"
           @item_collection = "epic_prestige_classes"
-        when "epic_psionic_armor_ability_link", "epic_psionic_shield_ability_link"
-          @item_collection = "epic_psionic_armor_abilities"
-        when "epic_psionic_weapon_ability_link"
-          @item_collection = "epic_psionic_weapon_abilities"
         when "epic_ring_link"
           @item_collection = "epic_rings"
         when "epic_rod_link"
@@ -186,10 +182,6 @@ module Jekyll
               url = site.config['url'] + "/equipment/epic-magic-items/armor/\#ability--" + slug
             when 'epic_magic_weapon_abilities'
               url = site.config['url'] + "/equipment/epic-magic-items/weapons/\#ability--" + slug
-            when 'epic_psionic_armor_abilities', 'epic_psionic_shield_abilities'
-              url = site.config['url'] + "/equipment/epic-psionic-items/armor/\#ability--" + slug
-            when 'epic_psionic_weapon_abilities'
-              url = site.config['url'] + "/equipment/epic-psionic-items/weapons/\#ability--" + slug
             when 'epic_skills', 'skills'
               url = site.config['url'] + "/game-rules/skills/\#skill--" + slug
             when 'magic_armor_abilities', 'magic_shield_abilities'
@@ -250,10 +242,6 @@ eos
           @item_collection = "epic_magic_armor_abilities"
         when "epic_magic_weapon_ability_embed"
           @item_collection = "epic_magic_weapon_abilities"
-        when "epic_psionic_armor_ability_embed", "epic_psionic_shield_ability_embed"
-          @item_collection = "epic_psionic_armor_abilities"
-        when "epic_psionic_weapon_ability_embed"
-          @item_collection = "epic_psionic_weapon_abilities"
         when "epic_skill_embed"
           @item_collection = "epic_skills"
         when "magic_armor_ability_embed", "magic_shield_ability_embed"
@@ -341,7 +329,7 @@ eos
 #{subtext}
 eos
 
-            when 'epic_psionic_armor_abilities', 'epic_psionic_shield_abilities', 'epic_psionic_weapon_abilities', 'psionic_armor_abilities', 'psionic_shield_abilities', 'psionic_weapon_abilities'
+            when 'psionic_armor_abilities', 'psionic_shield_abilities', 'psionic_weapon_abilities'
               subtext = ""
               subtext_arr = []
               ability = item.data["ability"]
@@ -473,12 +461,12 @@ eos
   end
 end
 
-['artifact', 'base_class', 'cursed_item', 'domain', 'epic_class', 'epic_feat', 'epic_magic_armor_ability', 'epic_magic_shield_ability', 'epic_magic_weapon_ability', 'epic_prestige_class', 'epic_psionic_armor_ability', 'epic_psionic_shield_ability', 'epic_psionic_weapon_ability', 'epic_ring', 'epic_rod', 'epic_skill', 'epic_specific_magic_armor', 'epic_specific_magic_weapon', 'epic_spell', 'epic_staff', 'epic_universal_item', 'epic_wondrous_item', 'feat', 'magic_armor_ability', 'magic_shield_ability', 'magic_weapon_ability', 'npc', 'npc_class', 'power', 'prestige_class', 'psicrown', 'psionic_armor_ability', 'psionic_shield_ability', 'psionic_weapon_ability', 'race', 'racial_class', 'ring', 'rod', 'skill', 'special_ability', 'specific_magic_armor', 'specific_magic_shield', 'specific_magic_weapon', 'spell', 'staff', 'status_condition', 'universal_item', 'wondrous_item'].each do |tag|
+['artifact', 'base_class', 'cursed_item', 'domain', 'epic_class', 'epic_feat', 'epic_magic_armor_ability', 'epic_magic_shield_ability', 'epic_magic_weapon_ability', 'epic_prestige_class', 'epic_ring', 'epic_rod', 'epic_skill', 'epic_specific_magic_armor', 'epic_specific_magic_weapon', 'epic_spell', 'epic_staff', 'epic_universal_item', 'epic_wondrous_item', 'feat', 'magic_armor_ability', 'magic_shield_ability', 'magic_weapon_ability', 'npc', 'npc_class', 'power', 'prestige_class', 'psicrown', 'psionic_armor_ability', 'psionic_shield_ability', 'psionic_weapon_ability', 'race', 'racial_class', 'ring', 'rod', 'skill', 'special_ability', 'specific_magic_armor', 'specific_magic_shield', 'specific_magic_weapon', 'spell', 'staff', 'status_condition', 'universal_item', 'wondrous_item'].each do |tag|
   link = tag + "_link"
   Liquid::Template.register_tag(link, Jekyll::PannotiaLinkTags::ItemLink)
 end
 
-['epic_magic_armor_ability', 'epic_magic_shield_ability', 'epic_magic_weapon_ability', 'epic_psionic_armor_ability', 'epic_psionic_shield_ability', 'epic_psionic_weapon_ability', 'epic_skill', 'magic_armor_ability', 'magic_shield_ability', 'magic_weapon_ability', 'psionic_armor_ability', 'psionic_shield_ability', 'psionic_weapon_ability', 'plane', 'skill', 'special_ability', 'status_condition'].each do |tag|
+['epic_magic_armor_ability', 'epic_magic_shield_ability', 'epic_magic_weapon_ability', 'epic_skill', 'magic_armor_ability', 'magic_shield_ability', 'magic_weapon_ability', 'psionic_armor_ability', 'psionic_shield_ability', 'psionic_weapon_ability', 'plane', 'skill', 'special_ability', 'status_condition'].each do |tag|
   embed = tag + "_embed"
   Liquid::Template.register_tag(embed, Jekyll::PannotiaEmbedTags::ItemEmbed)
 end
