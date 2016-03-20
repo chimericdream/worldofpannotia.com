@@ -6,19 +6,17 @@ item:
   aura: ""
   casterLevel: "29th"
   prerequisites:
-    feats: []
-    spells: []
+    feats: ["{% feat_link craft-wondrous-item %}", "{% epic_feat_link craft-epic-wondrous-item %}"]
+    spells: ["{% spell_link spell-resistance %}"]
     special: []
   slot: ""
-  marketPrice: 0
+  marketPrice: 290000
   marketPriceSpecial: ""
   costToCreate:
     gp: 0
     xp: 0
   costToCreateSpecial: ""
-  weight: ""
-  description: ""
+  weight: "1 lb."
+  description: |
+    This garment is worn over normal clothing or armor. It grants the wearer spell resistance 40.
 ---
-This garment is worn over normal clothing or armor. It grants the wearer spell resistance 40.
-Craft Wondrous Item, Craft Epic Wondrous Item, {% spell_link spell-resistance %}; _Market Price:_ 290,000 gp. _Weight:_ 1 lb.
-
