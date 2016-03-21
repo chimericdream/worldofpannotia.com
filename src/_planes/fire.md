@@ -1,5 +1,5 @@
 ---
-title: "Plane of Fire"
+title: "Elemental Plane of Fire"
 
 plane:
   type: "inner"
@@ -10,5 +10,5 @@ plane:
 
      * Fire-dominant.
      * Enhanced magic. Spells and spell-like abilities with the fire descriptor are both maximized and enlarged (as if the Maximize Spell and Enlarge Spell had been used on them, but the spells don't require higher-level slots). Spells and spell-like abilities that are already maximized or enlarged are unaffected by this benefit.
-     * Impeded magic. Spells and spell-like abilities that use or create water (including spells of the Water domain and spells that summon water elementals or outsiders with the water subtype) are impeded.
+     * Impeded magic. Spells and spell-like abilities that use or create water (including spells of the {% domain_link water %} domain and spells that summon water elementals or outsiders with the water subtype) are impeded.
 ---

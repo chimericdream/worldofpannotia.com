@@ -1,5 +1,5 @@
 ---
-title: "Shadow Plane"
+title: "Plane of Shadow"
 
 plane:
   type: "inner"

@@ -1,5 +1,5 @@
 ---
-title: "Plane of Air"
+title: "Elemental Plane of Air"
 
 plane:
   type: "inner"
@@ -12,6 +12,6 @@ plane:
 
      * Subjective directional gravity. Inhabitants of the plane determine their own “down” direction. Objects not under the motive force of others do not move.
      * Air-dominant.
-     * Enhanced magic. Spells and spell-like abilities that use, manipulate, or create air (including spells of the Air domain) are both empowered and enlarged (as if the Empower Spell and Enlarge Spell metamagic feats had been used on them, but the spells don't require higher-level slots).
-     * Impeded magic. Spells and spell-like abilities that use or create earth (including spells of the Earth domain and spells that summon earth elementals or outsiders with the earth subtype) are impeded.
+     * Enhanced magic. Spells and spell-like abilities that use, manipulate, or create air (including spells of the {% domain_link air %} domain) are both empowered and enlarged (as if the Empower Spell and Enlarge Spell metamagic feats had been used on them, but the spells don't require higher-level slots).
+     * Impeded magic. Spells and spell-like abilities that use or create earth (including spells of the {% domain_link earth %} domain and spells that summon earth elementals or outsiders with the earth subtype) are impeded.
 ---
