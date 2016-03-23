@@ -4,7 +4,7 @@ crumbs: [campaigns, resources]
 crumbTitles: [Campaigns, Resources]
 ---
 
-<div class="alert alert-block">I am rewording many of the qestions to use &quot;your character&quot; and related phrases instead of &quot;you&quot;. Please excuse the strange grammar in places where I have not yet fixed a question.</div>
+<div class="alert alert-info" role="alert">I am rewording many of the qestions to use &quot;your character&quot; and related phrases instead of &quot;you&quot;. Please excuse the strange grammar in places where I have not yet fixed a question.</div>
 
 #### Jump to:
  * [Introduction Questions](#intro)

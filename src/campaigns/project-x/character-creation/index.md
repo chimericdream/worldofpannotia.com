@@ -50,37 +50,37 @@ If you want to play one of the non-core races or a race described elsewhere, ple
 
 The following classes are allowed for this campaign:
 
- * [Aristocrat]({{ site.url }}/game-rules/races-classes/classes/aristocrat/)
- * [Barbarian]({{ site.url }}/game-rules/races-classes/classes/barbarian/)
- * [Bard]({{ site.url }}/game-rules/races-classes/classes/bard/)
- * [Cleric]({{ site.url }}/game-rules/races-classes/classes/cleric/)
- * [Druid]({{ site.url }}/game-rules/races-classes/classes/druid/)
- * [Fighter]({{ site.url }}/game-rules/races-classes/classes/fighter/)
- * [Inventor]({{ site.url }}/game-rules/races-classes/classes/inventor/)
- * [Monk]({{ site.url }}/game-rules/races-classes/classes/monk/)
- * [Paladin]({{ site.url }}/game-rules/races-classes/classes/paladin/) (either the standard class or the [Paladin of Freedom]({{ site.url }}/game-rules/races-classes/classes/paladin/#paladin-of-freedom))
- * [Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/) (including [Martial Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/#martial-ranger) and the [Spellcasting Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/#ranger-spellcaster))
- * [Rogue]({{ site.url }}/game-rules/races-classes/classes/rogue/)
- * [Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/) (including the [Battle Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/#battle-sorcerer), but not the [Specialist Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/#specialist-sorcerer))
- * [Wizard]({{ site.url }}/game-rules/races-classes/classes/wizard/)
+ * {% class_link aristocrat %}
+ * {% class_link barbarian %}
+ * {% class_link bard %}
+ * {% class_link cleric %}
+ * {% class_link druid %}
+ * {% class_link fighter %}
+ * {% class_link inventor %}
+ * {% class_link monk %}
+ * {% class_link paladin %} (either the standard class or the [Paladin of Freedom]({{ site.url }}/game-rules/races-classes/classes/paladin/#paladin-of-freedom))
+ * {% class_link ranger %} (including [Martial Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/#martial-ranger) and the [Spellcasting Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/#ranger-spellcaster))
+ * {% class_link rogue %}
+ * {% class_link sorcerer %} (including the [Battle Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/#battle-sorcerer), but not the [Specialist Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/#specialist-sorcerer))
+ * {% class_link wizard %}
 
 The following prestige classes are allowed for this campaign:
 
- * [Arcane Archer]({{ site.url }}/game-rules/races-classes/prestige/arcane-archer/)
- * [Arcane Trickster]({{ site.url }}/game-rules/races-classes/prestige/arcane-trickster/)
- * [Archmage]({{ site.url }}/game-rules/races-classes/prestige/archmage/)
- * [Brawler]({{ site.url }}/game-rules/races-classes/prestige/brawler/)
- * [Dragon Disciple]({{ site.url }}/game-rules/races-classes/prestige/dragon-disciple/)
- * [Duelist]({{ site.url }}/game-rules/races-classes/prestige/duelist/)
- * [Dwarven Defender]({{ site.url }}/game-rules/races-classes/prestige/dwarven-defender/)
- * [Eldritch Knight]({{ site.url }}/game-rules/races-classes/prestige/eldritch-knight/)
- * [Heirophant]({{ site.url }}/game-rules/races-classes/prestige/heirophant/)
- * [Horizon Walker]({{ site.url }}/game-rules/races-classes/prestige/horizon-walker/)
- * [Loremaster]({{ site.url }}/game-rules/races-classes/prestige/loremaster/)
- * [Mystic Theurge]({{ site.url }}/game-rules/races-classes/prestige/mystic-theurge/)
- * [Shadowdancer]({{ site.url }}/game-rules/races-classes/prestige/shadowdancer/)
- * [Slayer]({{ site.url }}/game-rules/races-classes/prestige/slayer/)
- * [Thaumaturgist]({{ site.url }}/game-rules/races-classes/prestige/thaumaturgist/)
+ * {% prestige_class_link arcane-archer %}
+ * {% prestige_class_link arcane-trickster %}
+ * {% prestige_class_link archmage %}
+ * {% prestige_class_link brawler %}
+ * {% prestige_class_link dragon-disciple %}
+ * {% prestige_class_link duelist %}
+ * {% prestige_class_link dwarven-defender %}
+ * {% prestige_class_link eldritch-knight %}
+ * {% prestige_class_link heirophant %}
+ * {% prestige_class_link horizon-walker %}
+ * {% prestige_class_link loremaster %}
+ * {% prestige_class_link mystic-theurge %}
+ * {% prestige_class_link shadowdancer %}
+ * {% prestige_class_link slayer %}
+ * {% prestige_class_link thaumaturgist %}
 
 When the party reaches epic levels, if you are interested in an [epic prestige class]({{ site.url }}/game-rules/races-classes/epic/), let me know. We will work those out on a case-by-case basis.
 
