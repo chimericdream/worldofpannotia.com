@@ -9,12 +9,16 @@ defaults:
       type: cursed_items
     values:
       layout: "equipment/magic-items/wondrous-item"
+      crumbs: [equipment, cursed-items]
+      crumbTitles: [Equipment, Cursed Items]
       item:
         shortDesc: ""
         aura: ""
         casterLevel: ""
+        manifesterLevel: ""
         prerequisites:
           feats: []
+          powers: []
           spells: []
           special: []
         slot: ""

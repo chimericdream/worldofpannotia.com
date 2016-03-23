@@ -15,8 +15,10 @@ defaults:
         shortDesc: ""
         aura: ""
         casterLevel: ""
+        manifesterLevel: ""
         prerequisites:
           feats: []
+          powers: []
           spells: []
           special: []
         slot: ""

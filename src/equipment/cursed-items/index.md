@@ -4,7 +4,14 @@ crumbs: [equipment]
 crumbTitles: [Equipment]
 ---
 
-Cursed items are magic items with some sort of potentially negative impact. Sometimes they're directly bad for the user; sometimes they're just inconvenient. Occasionally they mix bad with good, forcing characters to make difficult choices.
+Cursed items are magic (or psionic) items with some sort of potentially negative impact. Sometimes they're directly bad for the user; sometimes they're just inconvenient. Occasionally they mix bad with good, forcing characters to make difficult choices.
+
+|---
+| d% | Result
+|-|-
+| 01-80 | Roll on `Table: Common Curses`
+| 81-100 | Roll on `Table: Psionic Curses`
+{: #curse-types-table .table .table-bordered .table-hover .table-striped data-caption="Table: Curse Types" }
 
 |---
 | d% | Curse
@@ -27,6 +34,20 @@ Cursed items are magic items with some sort of potentially negative impact. Some
 _Unreliable:_ Each time the item is activated, there is a 5% chance (01-05 on d%) that it does not function.
 
 _Dependent:_ The item only functions in certain situations. To determine what the situation is, either select a situation or roll on the following table.
+
+|---
+| d% | Curse
+|-|-
+| 01–33 | Backfire
+| 34–66 | Exhausting
+| 67–100 | Subversive
+{: #psionic-curses-table .table .table-bordered .table-hover .table-striped data-caption="Table: Psionic Curses" }
+
+**Backfire:** The imbedded psionic effect of the cursed item targets the user instead of its intended target.
+
+**Exhausting:** A cursed item of this sort resembles a normal psionic item with a power that can be freely activated, but it instead drains the user of power points whenever he activates its power.
+
+**Subversive:** A cursed item of this sort appears identical to a standard psionic item. However, it holds an inner malice for the wearer, whose saving throws take a constant –2 penalty. The owner isn't instantly aware of this penalty but may become aware after a while, when it becomes clear that he fails saves that others make with the same result on the saving throw.
 
 |---
 | d% | Situation
@@ -96,7 +117,7 @@ Roll on the table below to generate a drawback that (unless otherwise indicated)
 | 33-34 | Character's race or kind changes.
 | 35 | Character is afflicted with a random disease that cannot be cured.
 | 36-39 | Item continually emits a disturbing sound (moaning, weeping, screaming, cursing, insults).
-| 40 | Item looks ridiculous (garishly colored, silly shape, glows bright pink, . . .).
+| 40 | Item looks ridiculous (garishly colored, silly shape, glows bright pink, &hellip;).
 | 41-45 | Character becomes selfishly possessive about the item.
 | 46-49 | Character becomes paranoid about losing the item and afraid of damage occurring to it.
 | 50-51 | Character's alignment changes.
@@ -151,9 +172,10 @@ A simple {% spell_link detect-magic %} spell yields a misleading aura and streng
 | 81-85 | {% cursed_item_link robe-of-vermin %} | 16,500 gp
 | 86-88 | {% cursed_item_link periapt-of-foul-rotting %} | 17,000 gp
 | 89-92 | {% cursed_item_link berserking-sword %} | 17,500 gp
-| 93-96 | {% cursed_item_link boots-of-dancing %} | 30,000 gp
-| 97 | {% cursed_item_link crystal-hypnosis-ball %} | &ndash;
-| 98 | {% cursed_item_link necklace-of-strangulation %} | 60,000 gp
-| 99 | {% cursed_item_link cloak-of-poisonousness %} | 62,000 gp
-| 100 | {% cursed_item_link scarab-of-death %} |  80,000 gp
+| 93-95 | {% cursed_item_link boots-of-dancing %} | 30,000 gp
+| 96 | {% cursed_item_link crystal-hypnosis-ball %} | &ndash;
+| 97 | {% cursed_item_link necklace-of-strangulation %} | 60,000 gp
+| 98 | {% cursed_item_link cloak-of-poisonousness %} | 62,000 gp
+| 99 | {% cursed_item_link scarab-of-death %} |  80,000 gp
+| 100 | {% cursed_item_link reverse-capacitor %} |  112,000 gp
 {: #cursed-items-table .table .table-bordered .table-hover .table-striped data-caption="Table: Specific Cursed Items" }

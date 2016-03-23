@@ -14,6 +14,8 @@ ability:
 
     While any loss is debilitating, losing all points in an ability score can be devastating.
 
+    _Ability Burn:_ This is a special form of ability damage that cannot be magically or psionically healed. It is caused by the use of certain psionic feats and powers. It returns only through natural healing.
+
      * Strength 0 means that the character cannot move at all. He lies helpless on the ground.
      * Dexterity 0 means that the character cannot move at all. He stands motionless, rigid, and helpless.
      * Constitution 0 means that the character is dead.

@@ -10,5 +10,7 @@ ability:
 
     A spellcaster loses one spell slot of the highest level of spells she can cast and (if applicable) one prepared spell of that level; this loss persists until the negative level is removed.
 
+    A psionic character loses access to one power per negative level from the highest level of power he can manifest; he also loses a number of power points equal to the cost of that power. If two or more powers fit these criteria, the manifester decides which one becomes inaccessible. The lost power becomes available again as soon the negative level is removed, providing the manifester is capable of using it at that time. Lost power points also return.
+
     Negative levels remain until 24 hours have passed or until they are removed with a spell, such as {% spell_link restoration %}. If a negative level is not removed before 24 hours have passed, the affected creature must attempt a Fortitude save (DC 10 + &#189; draining creature's racial HD + draining creature's Cha modifier; the exact DC is given in the creature's descriptive text). On a success, the negative level goes away with no harm to the creature. On a failure, the negative level goes away, but the creature's level is also reduced by one. A separate saving throw is required for each negative level.
 ---
