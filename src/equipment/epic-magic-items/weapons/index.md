@@ -4,7 +4,7 @@ crumbs: [equipment, epic-magic-items]
 crumbTitles: [Equipment, Epic Magic Items]
 ---
 
-Except when otherwise stated, epic magic weapons follow the rules for nonepic magic weapons.There is no limit to an epic magic weapon's enhancement bonus, to the market price modifier of an epic magic weapon special ability, or to the total of an epic magic weapon's enhancement bonus and market price modifier.
+Except when otherwise stated, epic magic weapons follow the rules for nonepic magic weapons. There is no limit to an epic magic weapon's enhancement bonus, to the market price modifier of an epic magic weapon special ability, or to the total of an epic magic weapon's enhancement bonus and market price modifier.
 
 ### Epic Weapon Base Price
 
@@ -93,7 +93,7 @@ Most magic weapons only have enhancement bonuses. They can also have special abi
 | 66-70 | {% epic_magic_weapon_ability_link holy-power %} | +8 bonus
 | 71-75 | {% epic_magic_weapon_ability_link axiomatic-power %} | +8 bonus
 | 76-80 | {% epic_magic_weapon_ability_link unholy-power %} | +8 bonus
-| 81-88 | Roll on nonepic magic itemTable: Ranged Weapon Special Abilities, then roll again on this table. |<
+| 81-88 | Roll on nonepic magic item Table: Ranged Weapon Special Abilities, then roll again on this table. |<
 | 89-96 | Roll twice on nonepic magic item Table: Ranged Weapon Special Abilities. |<
 | 97-100 | Roll twice again<sup>2</sup> |<
 |===

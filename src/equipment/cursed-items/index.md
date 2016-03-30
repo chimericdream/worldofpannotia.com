@@ -43,7 +43,7 @@ _Dependent:_ The item only functions in certain situations. To determine what th
 | 67–100 | Subversive
 {: #psionic-curses-table .table .table-bordered .table-hover .table-striped data-caption="Table: Psionic Curses" }
 
-**Backfire:** The imbedded psionic effect of the cursed item targets the user instead of its intended target.
+**Backfire:** The embedded psionic effect of the cursed item targets the user instead of its intended target.
 
 **Exhausting:** A cursed item of this sort resembles a normal psionic item with a power that can be freely activated, but it instead drains the user of power points whenever he activates its power.
 
@@ -132,7 +132,7 @@ Roll on the table below to generate a drawback that (unless otherwise indicated)
 | 81-85 | Character must make a Fortitude save each day or take 1 point of Constitution damage.
 | 86-90 | Character must make a Fortitude save each day or take 1 point of Strength damage.
 | 91-95 | Character must make a Fortitude save each day or take 1 point of Dexterity damage.
-| 96 | Character is polymorphed into a specific creature (5% chance [01-05 on d%] each day).
+| 96 | Character is polymorphed into a specific creature (5% chance \[01-05 on d%\] each day).
 | 97 | Character cannot cast arcane spells.
 | 98 | Character cannot cast divine spells.
 | 99 | Character cannot cast any spells.

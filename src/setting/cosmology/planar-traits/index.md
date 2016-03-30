@@ -26,9 +26,9 @@ The two most important natural laws set by physical traits are how gravity works
 
 _Normal Gravity:_ Most planes have gravity similar to that of the Material Plane. The usual rules for ability scores, carrying capacity, and encumbrance apply. Unless otherwise noted in a description, it is assumed every plane has the normal gravity trait.
 
-_Heavy Gravity:_ The gravity on a plane with this trait is much more intense than on the Material Plane. As a result, Balance, Climb, Jump, Ride, Swim, and Tumble checks incur a –2 circumstance penalty, as do all attack rolls. All item weights are effectively doubled, which might affect a character's speed. Weapon ranges are halved. A character's Strength and Dexterity scores are not affected. Characters who fall on a heavy gravity plane take 1d10 points of damage for each 10 feet fallen, to a maximum of 20d10 points of damage.
+_Heavy Gravity:_ The gravity on a plane with this trait is much more intense than on the Material Plane. As a result, {% skill_link balance %}, {% skill_link climb %}, {% skill_link jump %}, {% skill_link ride %}, {% skill_link swim %}, and {% skill_link tumble %} checks incur a –2 circumstance penalty, as do all attack rolls. All item weights are effectively doubled, which might affect a character's speed. Weapon ranges are halved. A character's Strength and Dexterity scores are not affected. Characters who fall on a heavy gravity plane take 1d10 points of damage for each 10 feet fallen, to a maximum of 20d10 points of damage.
 
-_Light Gravity:_ The gravity on a plane with this trait is less intense than on the Material Plane. As a result, creatures find that they can lift more, but their movements tend to be ungainly. Characters on a plane with the light gravity trait take a –2 circumstance penalty on attack rolls and Balance, Ride, Swim, and Tumble checks. All items weigh half as much. Weapon ranges double, and characters gain a +2 circumstance bonus on Climb and Jump checks.
+_Light Gravity:_ The gravity on a plane with this trait is less intense than on the Material Plane. As a result, creatures find that they can lift more, but their movements tend to be ungainly. Characters on a plane with the light gravity trait take a –2 circumstance penalty on attack rolls and {% skill_link balance %}, {% skill_link ride %}, {% skill_link swim %}, and {% skill_link tumble %} checks. All items weigh half as much. Weapon ranges double, and characters gain a +2 circumstance bonus on {% skill_link climb %} and {% skill_link jump %} checks.
 
 Strength and Dexterity don't change as a result of light gravity, but what you can do with such scores does change. These advantages apply to travelers from other planes as well as natives.
 
@@ -98,7 +98,7 @@ _Static:_ These planes are unchanging. Visitors cannot affect living residents o
 
 Even moving an unattended object within a static plane requires a DC 16 Strength check. Particularly heavy objects may be impossible to move.
 
-**Sentient:** These planes are ones that respond to a single thought— that of the plane itself. Travelers would find the plane's landscape changing as a result of what the plane thought of the travelers, either becoming more or less hospitable depending on its reaction.
+**Sentient:** These planes are ones that respond to a single thought&ndash;that of the plane itself. Travelers would find the plane's landscape changing as a result of what the plane thought of the travelers, either becoming more or less hospitable depending on its reaction.
 
 ### Elemental and Energy Traits
 
@@ -118,11 +118,11 @@ Unprotected wood, paper, cloth, and other flammable materials catch fire almost 
 
 **Positive-Dominant:** An abundance of life characterizes planes with this trait. The two kinds of positive-dominant traits are minor positive-dominant and major positive-dominant. A minor positive-dominant plane is a riotous explosion of life in all its forms. Colors are brighter, fires are hotter, noises are louder, and sensations are more intense as a result of the positive energy swirling through the plane. All individuals in a positive-dominant plane gain fast healing 2 as an extraordinary ability.
 
-Major positive-dominant planes go even further. A creature on a major positive-dominant plane must make a DC 15 Fortitude save to avoid being blinded for 10 rounds by the brilliance of the surroundings. Simply being on the plane grants fast healing 5 as an extraordinary ability. In addition, those at full hit points gain 5 additional temporary hit points per round. These temporary hit points fade 1d20 rounds after the creature leaves the major positive- dominant plane. However, a creature must make a DC 20 Fortitude save each round that its temporary hit points exceed its normal hit point total. Failing the saving throw results in the creature exploding in a riot of energy, killing it.
+Major positive-dominant planes go even further. A creature on a major positive-dominant plane must make a DC 15 Fortitude save to avoid being blinded for 10 rounds by the brilliance of the surroundings. Simply being on the plane grants fast healing 5 as an extraordinary ability. In addition, those at full hit points gain 5 additional temporary hit points per round. These temporary hit points fade 1d20 rounds after the creature leaves the major positive-dominant plane. However, a creature must make a DC 20 Fortitude save each round that its temporary hit points exceed its normal hit point total. Failing the saving throw results in the creature exploding in a riot of energy, killing it.
 
 **Negative-Dominant:** Planes with this trait are vast, empty reaches that suck the life out of travelers who cross them. They tend to be lonely, haunted planes, drained of color and filled with winds bearing the soft moans of those who died within them. As with positive-dominant planes, negative-dominant planes can be either minor or major. On minor negative-dominant planes, living creatures take 1d6 points of damage per round. At 0 hit points or lower, they crumble into ash.
 
-Major negative-dominant planes are even more severe. Each round, those within must make a DC 25 Fortitude save or gain a negative level. A creature whose negative levels equal its current levels or Hit Dice is slain, becoming a wraith. The death ward spell protects a traveler from the damage and energy drain of a negative-dominant plane.
+Major negative-dominant planes are even more severe. Each round, those within must make a DC 25 Fortitude save or gain a negative level. A creature whose negative levels equal its current levels or Hit Dice is slain, becoming a wraith. The {% spell_link death-ward %} spell protects a traveler from the damage and energy drain of a negative-dominant plane.
 
 ### Alignment Traits
 
@@ -169,16 +169,16 @@ A plane's magic trait describes how magic works on the plane compared to how it 
 | 36–39 | The spell does not function. Instead, everyone (friend or foe) within 30 feet of the caster receives the effect of a heal spell.
 | 40–43 | The spell does not function. Instead, a deeper darkness and a silence effect cover a 30-foot radius around the caster for 2d4 rounds.
 | 44–47 | The spell does not function. Instead, a reverse gravity effect covers a 30-foot radius around the caster for 1 round.
-| 48–51 | The spell functions, but shimmering colors swirl around the caster for 1d4 rounds. Treat this a glitterdust effect with a save DC of 10 + the level of the spell that generated this result.
+| 48–51 | The spell functions, but shimmering colors swirl around the caster for 1d4 rounds. Treat this a {% spell_link glitterdust %} effect with a save DC of 10 + the level of the spell that generated this result.
 | 52–59 | Nothing happens. The spell does not function. Any material components are used up. The spell or spell slot is used up, and charges or uses from an item are used up.
 | 60–71 | Nothing happens. The spell does not function. Any material components are not consumed. The spell is not expended from the caster's mind (a spell slot or prepared spell can be used again). An item does not lose charges, and the effect does not count against an item's or spell-like ability's use limit.
 | 72–98 | The spell functions normally.
-| 99–100 | The spell functions strongly. Saving throws against the spell incur a –2 penalty. The spell has the maximum possible effect, as if it were cast with the Maximize Spell feat. If the spell is already maximized with the feat, there is no further effect.
+| 99–100 | The spell functions strongly. Saving throws against the spell incur a –2 penalty. The spell has the maximum possible effect, as if it were cast with the {% feat_link maximize-spell %} feat. If the spell is already maximized with the feat, there is no further effect.
 {: #wild-magic-effects-table .table .table-bordered .table-hover .table-striped data-caption="Table: Wild Magic Effects" }
 
 **Impeded Magic:** Particular spells and spell-like abilities are more difficult to cast on planes with this trait, often because the nature of the plane interferes with the spell.
 
-To cast an impeded spell, the caster must make a Spellcraft check (DC 20 + the level of the spell). If the check fails, the spell does not function but is still lost as a prepared spell or spell slot. If the check succeeds, the spell functions normally.
+To cast an impeded spell, the caster must make a {% skill_link spellcraft %} check (DC 20 + the level of the spell). If the check fails, the spell does not function but is still lost as a prepared spell or spell slot. If the check succeeds, the spell functions normally.
 
 **Enhanced Magic:** Particular spells and spell-like abilities are easier to use or more powerful in effect on planes with this trait than they are on the Material Plane.
 
@@ -190,4 +190,4 @@ If a spell is enhanced, certain metamagic feats can be applied to it without cha
 
 Magic can be limited to effects from certain schools or subschools, to effects with certain descriptors, or to effects of a certain level (or any combination of these qualities). Spells and spell-like abilities that don't meet the qualifications simply don't work.
 
-**Dead Magic:** These planes have no magic at all. A plane with the dead magic trait functions in all respects like an antimagic field spell. Divination spells cannot detect subjects within a dead magic plane, nor can a spellcaster use teleport or another spell to move in or out. The only exception to the "no magic" rule is permanent planar portals, which still function normally.
+**Dead Magic:** These planes have no magic at all. A plane with the dead magic trait functions in all respects like an {% spell_link antimagic-field %} spell. Divination spells cannot detect subjects within a dead magic plane, nor can a spellcaster use {% spell_link teleport %} or another spell to move in or out. The only exception to the "no magic" rule is permanent planar portals, which still function normally.

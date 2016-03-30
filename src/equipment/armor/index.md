@@ -22,7 +22,7 @@ Your character's encumbrance (the amount of gear he or she carries) may also res
 
 _Shields:_ Shields do not affect a character's maximum Dexterity bonus.
 
-**Armor Check Penalty:** Any armor heavier than leather hurts a character's ability to use some skills. An armor check penalty number is the penalty that applies to Balance, Climb, Escape Artist, Hide, Jump, Move Silently, Sleight of Hand, and Tumble checks by a character wearing a certain kind of armor. Double the normal armor check penalty is applied to Swim checks. A character's encumbrance (the amount of gear carried, including armor) may also apply an armor check penalty.
+**Armor Check Penalty:** Any armor heavier than leather hurts a character's ability to use some skills. An armor check penalty number is the penalty that applies to {% skill_link balance %}, {% skill_link climb %}, {% skill_link escape-artist %}, {% skill_link hide %}, {% skill_link jump %}, {% skill_link move-silently %}, {% skill_link sleight-of-hand %}, and {% skill_link tumble %} checks by a character wearing a certain kind of armor. Double the normal armor check penalty is applied to {% skill_link swim %} checks. A character's encumbrance (the amount of gear carried, including armor) may also apply an armor check penalty.
 
 _Shields:_ If a character is wearing armor and using a shield, both armor check penalties apply.
 
@@ -30,7 +30,7 @@ _Nonproficient with Armor Worn:_ A character who wears armor and/or uses a shiel
 
 _Sleeping in Armor:_ A character who sleeps in medium or heavy armor is automatically fatigued the next day. He or she takes a -2 penalty on Strength and Dexterity and can't charge or run. Sleeping in light armor does not cause fatigue.
 
-**Arcane Spell Failure:** Armor interferes with the gestures that a spellcaster must make to cast an arcane spell that has a somatic component. Arcane spellcasters face the possibility of arcane spell failure if they're wearing armor. Bards can wear light armor without incurring any arcane spell failure chance for their bard spells.
+**Arcane Spell Failure:** Armor interferes with the gestures that a spellcaster must make to cast an arcane spell that has a somatic component. Arcane spellcasters face the possibility of arcane spell failure if they're wearing armor. {% base_class_link bard "Bards" %} can wear light armor without incurring any arcane spell failure chance for their bard spells.
 
 _Casting an Arcane Spell in Armor:_ A character who casts an arcane spell while wearing armor must usually make an arcane spell failure roll. The number in the Arcane Spell Failure Chance column on Table: Armor and Shields is the chance that the spell fails and is ruined. If the spell lacks a somatic component, however, it can be cast with no chance of arcane spell failure.
 
@@ -72,8 +72,8 @@ Armor and shields for unusually big creatures, unusually little creatures, and n
 | Gargantuan | &times;8 | &times;8 | &times;16 | &times;8
 | Colossal | &times;16 | &times;12 | &times;32 | &times;12
 |===
-| <sup>1</sup> Divide armor bonus by 2. |<|<|<|<
-{: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="Table: Armor for Unusual Creatures" }
+| <sup>1</sup>Divide armor bonus by 2. |<|<|<|<
+{: #unusual-armor-table .table .table-bordered .table-hover .table-striped data-caption="Table: Armor for Unusual Creatures" }
 
 ### Getting Into and Out of Armor
 
@@ -93,5 +93,5 @@ The time required to don armor depends on its type; see Table: Donning Armor.
 | Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutes<sup>1</sup> | 1 minute | 1 minute<sup>1</sup>
 | Half-plate or full plate | 4 minutes<sup>2</sup> | 4 minutes<sup>1</sup> | 1d4+1 minutes<sup>1</sup>
 |===
-| <sup>1</sup> If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Two characters can't help each other don armor at the same time.<br><sup>2</sup> The wearer must have help to don this armor. Without help, it can be donned only hastily. |<|<|<
+| <sup>1</sup>If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Two characters can't help each other don armor at the same time.<br><sup>2</sup>The wearer must have help to don this armor. Without help, it can be donned only hastily. |<|<|<
 {: #donning-armor-table .table .table-bordered .table-hover .table-striped data-caption="Table: Donning Armor" }

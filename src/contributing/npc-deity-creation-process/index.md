@@ -15,7 +15,7 @@ crumbTitles: [Contributing]
    1. Based on levels and order, choose stat increases
 1. Skills
    1. Determine skill points using Excel worksheet for each set of class/racial levels.
-      1. i.e. – Sor 10/Wiz 10/Cle10 would have x skill points for Sorcerer skills, y skill points for Wizard skills, and z skill points for Cleric skills.
+      1. e.g. – Sor 10/Wiz 10/Cle10 would have x skill points for {% base_class_link sorcerer %} skills, y skill points for {% base_class_link wizard %} skills, and z skill points for {% base_class_link cleric %} skills.
    1. Assign skill points for each set of class/racial levels.
    1. Determine synergy bonuses
 1. Determine languages

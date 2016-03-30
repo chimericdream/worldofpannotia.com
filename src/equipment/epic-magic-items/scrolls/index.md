@@ -152,132 +152,133 @@ To generate an epic scroll randomly, first roll on Table: Scroll Types to determ
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-10 | Enlarge Spell
-| 21-40 | Extend Spell
-| 41-80 | Heighten Spell (+1 level)
-| 81-100 | Silent Spell
+| 01-10 | {% feat_link enlarge-spell %}
+| 21-40 | {% feat_link extend-spell %}
+| 41-80 | {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 81-100 | {% feat_link silent-spell %}
 {: #metamagic-1-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (1)" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-25 | Empower Spell
-| 26-50 | Heighten Spell (+2 levels)
-| 51-55 | Roll on Metamagic (1) and add Enlarge Spell
-| 56-65 | Roll on Metamagic (1) and add Extend Spell
-| 66-90 | Roll on Metamagic (1) and add Heighten Spell (+1 level)
-| 91-100 | Roll on Metamagic (1) and add Silent Spell
+| 01-25 | {% feat_link empower-spell %}
+| 26-50 | {% feat_link heighten-spell "Heighten Spell (+2 levels)" %}
+| 51-55 | Roll on Metamagic (1) and add {% feat_link enlarge-spell %}
+| 56-65 | Roll on Metamagic (1) and add {% feat_link extend-spell %}
+| 66-90 | Roll on Metamagic (1) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 91-100 | Roll on Metamagic (1) and add {% feat_link silent-spell %}
 {: #metamagic-2-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (2)" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-25 | Heighten Spell (+3 levels)
-| 26-50 | Maximize Spell
-| 51-65 | Roll on Metamagic (1) and add Empower Spell
-| 66-70 | Roll on Metamagic (2) and add Enlarge Spell
-| 71-75 | Roll on Metamagic (2) and add Extend Spell
-| 76-95 | Roll on Metamagic (2) and add Heighten Spell (+1 level)
-| 96-100 | Roll on Metamagic (2) and add Silent Spell
+| 01-25 | {% feat_link heighten-spell "Heighten Spell (+3 levels)" %}
+| 26-50 | {% feat_link maximize-spell %}
+| 51-65 | Roll on Metamagic (1) and add {% feat_link empower-spell %}
+| 66-70 | Roll on Metamagic (2) and add {% feat_link enlarge-spell %}
+| 71-75 | Roll on Metamagic (2) and add {% feat_link extend-spell %}
+| 76-95 | Roll on Metamagic (2) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 96-100 | Roll on Metamagic (2) and add {% feat_link silent-spell %}
 {: #metamagic-3-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (3)" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-15 | Enhance Spell
-| 16-40 | Heighten Spell (+4 levels)
-| 41-55 | Quicken Spell 56-65 Roll onMetamagic (1) and add Maximize Spell
-| 66-75 | Roll on Metamagic (2) and add Empower Spell
-| 76-80 | Roll on Metamagic (3) and add Enlarge Spell
-| 81-85 | Roll on Metamagic (3) and add Extend Spell
-| 86-95 | Roll on Metamagic (3) and add Heighten Spell (+1 level)
-| 96-100 | Roll on Metamagic (3) and add Silent Spell
+| 01-15 | {% epic_feat_link enhance-spell %}
+| 16-40 | {% feat_link heighten-spell "Heighten Spell (+4 levels)" %}
+| 41-55 | {% feat_link quicken-spell %}
+| 56-65 | Roll on Metamagic (1) and add {% feat_link maximize-spell %}
+| 66-75 | Roll on Metamagic (2) and add {% feat_link empower-spell %}
+| 76-80 | Roll on Metamagic (3) and add {% feat_link enlarge-spell %}
+| 81-85 | Roll on Metamagic (3) and add {% feat_link extend-spell %}
+| 86-95 | Roll on Metamagic (3) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 96-100 | Roll on Metamagic (3) and add {% feat_link silent-spell %}
 {: #metamagic-4-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (4)" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-30 | Heighten Spell (+5 levels)
-| 31-40 | Roll on Metamagic (1) and add Enhance Spell
-| 41-55 | Roll on Metamagic (1) and add Quicken Spell
-| 56-65 | Roll on Metamagic (2) and add Maximize Spell
-| 66-75 | Roll on Metamagic (3) and add Empower Spell
-| 76-80 | Roll on Metamagic (4) and add Enlarge Spell
-| 81-85 | Roll on Metamagic (4) and add Extend Spell
-| 86-95 | Roll on Metamagic (4) and add Heighten Spell (+1 level)
-| 96-100 | Roll on Metamagic (4) and add Silent Spell
+| 01-30 | {% feat_link heighten-spell "Heighten Spell (+5 levels)" %}
+| 31-40 | Roll on Metamagic (1) and add {% epic_feat_link enhance-spell %}
+| 41-55 | Roll on Metamagic (1) and add {% feat_link quicken-spell %}
+| 56-65 | Roll on Metamagic (2) and add {% feat_link maximize-spell %}
+| 66-75 | Roll on Metamagic (3) and add {% feat_link empower-spell %}
+| 76-80 | Roll on Metamagic (4) and add {% feat_link enlarge-spell %}
+| 81-85 | Roll on Metamagic (4) and add {% feat_link extend-spell %}
+| 86-95 | Roll on Metamagic (4) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 96-100 | Roll on Metamagic (4) and add {% feat_link silent-spell %}
 {: #metamagic-5-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (5)" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-30 | Heighten Spell (+6 levels)
-| 31-40 | Roll on Metamagic (2) and add Enhance Spell
-| 41-55 | Roll on Metamagic (2) and add Quicken Spell
-| 56-65 | Roll on Metamagic (3) and add Maximize Spell
-| 66-75 | Roll on Metamagic (4) and add Empower Spell
-| 76-80 | Roll on Metamagic (5) and add Enlarge Spell
-| 81-85 | Roll on Metamagic (5) and add Extend Spell
-| 86-95 | Roll on Metamagic (5) and add Heighten Spell (+1 level)
-| 96-100 | Roll on Metamagic (5) and add Silent Spell
+| 01-30 | {% feat_link heighten-spell "Heighten Spell (+6 levels)" %}
+| 31-40 | Roll on Metamagic (2) and add {% epic_feat_link enhance-spell %}
+| 41-55 | Roll on Metamagic (2) and add {% feat_link quicken-spell %}
+| 56-65 | Roll on Metamagic (3) and add {% feat_link maximize-spell %}
+| 66-75 | Roll on Metamagic (4) and add {% feat_link empower-spell %}
+| 76-80 | Roll on Metamagic (5) and add {% feat_link enlarge-spell %}
+| 81-85 | Roll on Metamagic (5) and add {% feat_link extend-spell %}
+| 86-95 | Roll on Metamagic (5) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 96-100 | Roll on Metamagic (5) and add {% feat_link silent-spell %}
 {: #metamagic-6-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (6)" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-25 | Heighten Spell (+7 levels)
-| 26-45 | Intensify Spell
-| 46-55 | Roll on Metamagic (3) and add Enhance Spell
-| 56-65 | Roll on Metamagic (3) and add Quicken Spell
-| 66-75 | Roll on Metamagic (4) and add Maximize Spell
-| 76-80 | Roll on Metamagic (5) and add Empower Spell
-| 81-85 | Roll on Metamagic (6) and add Enlarge Spell
-| 86-90 | Roll on Metamagic (6) and add Extend Spell
-| 91-95 | Roll on Metamagic (6) and add Heighten Spell (+1 level)
-| 96-100 | Roll on Metamagic (6) and add Silent Spell
+| 01-25 | {% feat_link heighten-spell "Heighten Spell (+7 levels)" %}
+| 26-45 | {% epic_feat_link intensify-spell %}
+| 46-55 | Roll on Metamagic (3) and add {% epic_feat_link enhance-spell %}
+| 56-65 | Roll on Metamagic (3) and add {% feat_link quicken-spell %}
+| 66-75 | Roll on Metamagic (4) and add {% feat_link maximize-spell %}
+| 76-80 | Roll on Metamagic (5) and add {% feat_link empower-spell %}
+| 81-85 | Roll on Metamagic (6) and add {% feat_link enlarge-spell %}
+| 86-90 | Roll on Metamagic (6) and add {% feat_link extend-spell %}
+| 91-95 | Roll on Metamagic (6) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 96-100 | Roll on Metamagic (6) and add {% feat_link silent-spell %}
 {: #metamagic-7-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (7)" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-30 | Heighten Spell (+8 levels)
-| 31-45 | Roll on Metamagic (1) and add Intensify Spell
-| 46-55 | Roll on Metamagic (4) and add Enhance Spell
-| 56-65 | Roll on Metamagic (4) and add Quicken Spell
-| 66-75 | Roll on Metamagic (5) and add Maximize Spell
-| 76-80 | Roll on Metamagic (6) and add Empower Spell
-| 81-85 | Roll on Metamagic (7) and add Enlarge Spell
-| 86-90 | Roll on Metamagic (7) and add Extend Spell
-| 91-95 | Roll on Metamagic (7) and add Heighten Spell (+1 level)
-| 96-100 | Roll on Metamagic (7) and add Silent Spell
+| 01-30 | {% feat_link heighten-spell "Heighten Spell (+8 levels)" %}
+| 31-45 | Roll on Metamagic (1) and add {% epic_feat_link intensify-spell %}
+| 46-55 | Roll on Metamagic (4) and add {% epic_feat_link enhance-spell %}
+| 56-65 | Roll on Metamagic (4) and add {% feat_link quicken-spell %}
+| 66-75 | Roll on Metamagic (5) and add {% feat_link maximize-spell %}
+| 76-80 | Roll on Metamagic (6) and add {% feat_link empower-spell %}
+| 81-85 | Roll on Metamagic (7) and add {% feat_link enlarge-spell %}
+| 86-90 | Roll on Metamagic (7) and add {% feat_link extend-spell %}
+| 91-95 | Roll on Metamagic (7) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 96-100 | Roll on Metamagic (7) and add {% feat_link silent-spell %}
 {: #metamagic-8-table .table .table-bordered .table-hover .table-striped data-caption="asdfTable: Metamagic (8)asdf" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-30 | Heighten Spell (+9 levels)
-| 31-45 | Roll on Metamagic (2) and add Intensify Spell
-| 46-55 | Roll on Metamagic (5) and add Enhance Spell
-| 56-65 | Roll on Metamagic (5) and add Quicken Spell
-| 66-75 | Roll on Metamagic (6) and add Maximize Spell
-| 76-80 | Roll on Metamagic (7) and add Empower Spell
-| 81-85 | Roll on Metamagic (8) and add Enlarge Spell
-| 86-90 | Roll on Metamagic (8) and add Extend Spell
-| 91-95 | Roll on Metamagic (8) and add Heighten Spell (+1 level)
-| 96-100 | Roll on Metamagic (8) and add Silent Spell
+| 01-30 | {% feat_link heighten-spell "Heighten Spell (+9 levels)" %}
+| 31-45 | Roll on Metamagic (2) and add {% epic_feat_link intensify-spell %}
+| 46-55 | Roll on Metamagic (5) and add {% epic_feat_link enhance-spell %}
+| 56-65 | Roll on Metamagic (5) and add {% feat_link quicken-spell %}
+| 66-75 | Roll on Metamagic (6) and add {% feat_link maximize-spell %}
+| 76-80 | Roll on Metamagic (7) and add {% feat_link empower-spell %}
+| 81-85 | Roll on Metamagic (8) and add {% feat_link enlarge-spell %}
+| 86-90 | Roll on Metamagic (8) and add {% feat_link extend-spell %}
+| 91-95 | Roll on Metamagic (8) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 96-100 | Roll on Metamagic (8) and add {% feat_link silent-spell %}
 {: #metamagic-9-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (9)" }
 
 |---
 | d% | Metamagic Effects
 |-|-
-| 01-30 | Heighten Spell (+10 levels)
-| 31-45 | Roll on Metamagic (3) and add Intensify Spell
-| 46-55 | Roll on Metamagic (6) and add Enhance Spell
-| 56-65 | Roll on Metamagic (6) and add Quicken Spell
-| 66-75 | Roll on Metamagic (7) and add Maximize Spell
-| 76-80 | Roll on Metamagic (8) and add Empower Spell
-| 81-85 | Roll on Metamagic (9) and add Enlarge Spell
-| 86-90 | Roll on Metamagic (9) and add Extend Spell
-| 91-95 | Roll on Metamagic (9) and add Heighten Spell (+1 level)
-| 96-100 | Roll on Metamagic (9) and add Silent Spell
+| 01-30 | {% feat_link heighten-spell "Heighten Spell (+10 levels)" %}
+| 31-45 | Roll on Metamagic (3) and add {% epic_feat_link intensify-spell %}
+| 46-55 | Roll on Metamagic (6) and add {% epic_feat_link enhance-spell %}
+| 56-65 | Roll on Metamagic (6) and add {% feat_link quicken-spell %}
+| 66-75 | Roll on Metamagic (7) and add {% feat_link maximize-spell %}
+| 76-80 | Roll on Metamagic (8) and add {% feat_link empower-spell %}
+| 81-85 | Roll on Metamagic (9) and add {% feat_link enlarge-spell %}
+| 86-90 | Roll on Metamagic (9) and add {% feat_link extend-spell %}
+| 91-95 | Roll on Metamagic (9) and add {% feat_link heighten-spell "Heighten Spell (+1 level)" %}
+| 96-100 | Roll on Metamagic (9) and add {% feat_link silent-spell %}
 {: #metamagic-10-table .table .table-bordered .table-hover .table-striped data-caption="Table: Metamagic (10)" }

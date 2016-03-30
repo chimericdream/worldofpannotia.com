@@ -22,7 +22,7 @@ crumbTitles: [Setting, Religion, Divine Tournament]
 | 9 - 13 | 4 | 5 | 0 | 3
 {: #divine-tournament-table .table .table-bordered .table-hover .table-striped data-caption="Table: Divine Tournament" }
 
-To gain Divine Rank 0, a mortal must challenge a Demigod whose Divine Rank is between 1 and 5 in the tournament. This requires the mortal to be able to find a Demigod, challenge that Demigod, and have the prospective opponent accept the challenge. If the mortal wins, they are granted Divine Rank 0, and the Demigod is reduced in rank by 2. If the mortal loses, they are slain permanently, and may only be brought back to life by an intermediate or greater deity using the Gift of Life ability.
+To gain Divine Rank 0, a mortal must challenge a Demigod whose Divine Rank is between 1 and 5 in the tournament. This requires the mortal to be able to find a Demigod, challenge that Demigod, and have the prospective opponent accept the challenge. If the mortal wins, they are granted Divine Rank 0, and the Demigod is reduced in rank by 2. If the mortal loses, they are slain permanently, and may only be brought back to life by an intermediate or greater deity using the {% divine_ability_link gift-of-life %} ability.
 
 Any time there is a reduction in a deity's Divine Rank, that rank cannot drop below 0. Deities cannot become mortal again.
 

@@ -50,19 +50,19 @@ If you want to play one of the non-core races or a race described elsewhere, ple
 
 The following classes are allowed for this campaign:
 
- * {% class_link aristocrat %}
- * {% class_link barbarian %}
- * {% class_link bard %}
- * {% class_link cleric %}
- * {% class_link druid %}
- * {% class_link fighter %}
- * {% class_link inventor %}
- * {% class_link monk %}
- * {% class_link paladin %} (either the standard class or the [Paladin of Freedom]({{ site.url }}/game-rules/races-classes/classes/paladin/#paladin-of-freedom))
- * {% class_link ranger %} (including [Martial Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/#martial-ranger) and the [Spellcasting Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/#ranger-spellcaster))
- * {% class_link rogue %}
- * {% class_link sorcerer %} (including the [Battle Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/#battle-sorcerer), but not the [Specialist Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/#specialist-sorcerer))
- * {% class_link wizard %}
+ * {% base_class_link aristocrat %}
+ * {% base_class_link barbarian %}
+ * {% base_class_link bard %}
+ * {% base_class_link cleric %}
+ * {% base_class_link druid %}
+ * {% base_class_link fighter %}
+ * {% base_class_link inventor %}
+ * {% base_class_link monk %}
+ * {% base_class_link paladin %} (either the standard class or the [Paladin of Freedom]({{ site.url }}/game-rules/races-classes/classes/paladin/#paladin-of-freedom))
+ * {% base_class_link ranger %} (including [Martial Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/#martial-ranger) and the [Spellcasting Ranger]({{ site.url }}/game-rules/races-classes/classes/ranger/#ranger-spellcaster))
+ * {% base_class_link rogue %}
+ * {% base_class_link sorcerer %} (including the [Battle Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/#battle-sorcerer), but not the [Specialist Sorcerer]({{ site.url }}/game-rules/races-classes/classes/sorcerer/#specialist-sorcerer))
+ * {% base_class_link wizard %}
 
 The following prestige classes are allowed for this campaign:
 

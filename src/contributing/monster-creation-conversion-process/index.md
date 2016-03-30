@@ -19,5 +19,5 @@ crumbTitles: [Contributing]
 1. Add HD, template(s), and/or class levels as appropriate or desired
 1. Refigure HP
    1. Determine HP based on new Con mod and Con score
-1. Convert character sheet to <a href="{{ site.url }}/contributing/sample-stat-block/">new stat block</a>
+1. Convert character sheet to [new stat block]({{ site.url }}/contributing/sample-stat-block/)
 1. Save &amp; upload character sheet (ODS, PDF), abilities spreadsheet (ODS), stat block (DOC, PDF)
