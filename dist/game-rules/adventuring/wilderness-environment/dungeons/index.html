@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            
+              Dungeons &bull;
+            
+            
+            
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        
+        <style>
+            body {padding-top: 70px;}
+            :target::before {
+                background-attachment: scroll;
+                background-image: url("//worldofpannotia.com/assets/images/icons/sword-pointer.png");
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                content: " ";
+                display: block;
+                height: calc(70px + 1em);
+                margin-bottom: -1em;
+                margin-left: -110px;
+                margin-top: -70px;
+                padding-top: 70px;
+            }
+            p:target::before {
+                height: calc(70px + 1.45em);
+                margin-bottom: -1.45em;
+            }
+            table[data-caption]::before {
+                content: attr(data-caption);
+                display: table-caption;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                color: #777;
+                text-align: left;
+            }
+            tbody tr > td:empty {
+                background-color: #f9f9f9;
+                content: "&ndash;";
+                text-align: center;
+            }
+            .table-bordered > thead > tr > th,
+            .table-bordered > thead > tr > td {
+                border-bottom-width: 1px;
+            }
+            th > p:last-child,
+            td > p:last-child {
+                margin-bottom: 0;
+            }
+            .table > thead > tr > th[rowspan],
+            .table > tbody > tr > td[rowspan] {
+                vertical-align: middle;
+            }
+            .table-bordered > thead > tr:last-of-type {
+                border-bottom: 2px solid #ddd;
+            }
+            .table-bordered > tfoot > tr:first-of-type > td {
+                border-top-width: 2px;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                font-weight: bold;
+            }
+            .indented-list-group-item {
+                margin-left: 15px;
+            }
+            .panel > .list-group:last-child .indented-list-group-item:last-child,
+            .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
+                border-bottom-left-radius: 0px;
+            }
+            ol > li > ol > li {
+                list-style-type: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style-type: lower-roman;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="//worldofpannotia.com/">World of Pannotia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Game Rules <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/game-rules/" title="Basics">Basics</a></li>
+                        <li><a href="//worldofpannotia.com/game-rules/advancement/" title="Character Advancement">Character Advancement</a></li>
+                        <li><a href="//worldofpannotia.com/game-rules/races/" title="Races">Races</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/classes/" title="Base Classes">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/racial-classes/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/multiclass-characters/" title="Multiclass Characters">Multiclass Characters</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Skills" class="dropdown-toggle" data-toggle="dropdown" role="button">Skills</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/skills/" title="Skills Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/#using-skills" title="Using Skills">Using Skills</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/#skill-descriptions" title="Descriptions">Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/epic-skill-uses/" title="Epic Skill Uses">Epic Skill Uses</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Feats" class="dropdown-toggle" data-toggle="dropdown" role="button">Feats</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/feats/" title="Feats Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Feat Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Feat Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/general/" title="General">General</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/fighter/" title="Fighter">Fighter</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/item-creation/" title="Item Creation">Item Creation</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/metamagic/" title="Metamagic">Metamagic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/psionic/" title="Psionic">Psionic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/metapsionic/" title="Metapsionic">Metapsionic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/divine/" title="Divine">Divine</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/monster/" title="Monster">Monster</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/epic/" title="Epic">Epic</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/feat-index/" title="Feat Index">Feat Index</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Magic" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/magic/" title="Magic Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/spell-descriptions/" title="Spell Descriptions">Spell Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/arcane-spells/" title="Arcane Spells">Arcane Spells</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/divine-spells/" title="Divine Spells">Divine Spells</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/spell-index/" title="Spell Index">Spell Index</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/domains/" title="Domains">Domains</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Spell Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/bard/" title="Bard">Bard</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/cleric/" title="Cleric">Cleric</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/druid/" title="Druid">Druid</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/paladin/" title="Paladin">Paladin</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/ranger/" title="Ranger">Ranger</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/sorcerer-wizard/" title="Sorcerer/Wizard">Sorcerer/Wizard</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Spell Combinations" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Combinations</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/" title="Spell Combinations Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/developing-spell-combinations/" title="Developing Spell Combinations">Developing Spell Combinations</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/spell-combination-index/" title="Spell Combination Index">Spell Combination Index</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Epic Spells" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Spells</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/" title="Epic Spells Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/developing-epic-spells/" title="Developing Epic Spells">Developing Epic Spells</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/seeds/" title="Seeds">Seeds</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/spells/" title="Epic Spell Index">Epic Spell Index</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Psionics" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/" title="Psionics Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/power-descriptions/" title="Power Descriptions">Power Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/power-index/" title="Power Index">Power Index</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Power Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Power Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/psionics/power-lists/psion-wilder/" title="Psion/Wilder">Psion/Wilder</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/psionics/power-lists/psychic-warrior/" title="Psychic Warrior">Psychic Warrior</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/epic-powers/" title="Epic Powers">Epic Powers</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Adventuring" class="dropdown-toggle" data-toggle="dropdown" role="button">Adventuring</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Combat" class="dropdown-toggle" data-toggle="dropdown" role="button">Combat</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/" title="Combat Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/mechanics/" title="Mechanics">Mechanics</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury &amp; Death">Injury &amp; Death</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/adventuring/special-abilities/" title="Special Abilities">Special Abilities</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Carrying, Movement, &amp; Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, &amp; Exploration</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/exploration/" title="Exploration">Exploration</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Wilderness &amp; Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness &amp; Environment</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/weather/" title="Weather">Weather</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/environment/" title="The Environment">The Environment</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Traps" class="dropdown-toggle" data-toggle="dropdown" role="button">Traps</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/" title="Traps Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/designing-a-trap/" title="Designing a Trap">Designing a Trap</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/specific-traps/" title="Specific Traps">Specific Traps</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Divine Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Divine Rules</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-ranks/" title="Divine Ranks">Divine Ranks</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-characteristics/" title="Divine Characteristics">Divine Characteristics</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/salient-divine-abilities/" title="Salient Divine Abilities">Salient Divine Abilities</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/game-rules/epic-obstacles/" title="Epic Obstacles">Epic Obstacles</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Equipment <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/equipment/wealth-money/" title="Wealth &amp; Money">Wealth &amp; Money</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Goods &amp; Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods &amp; Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances &amp; Items">Special Substances &amp; Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/tools-skill-kits/" title="Tools &amp; Skill Kits">Tools &amp; Skill Kits</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, &amp; Lodging">Food, Drink, &amp; Lodging</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts &amp; Related Gear">Mounts &amp; Related Gear</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/transport/" title="Transport">Transport</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting &amp; Services">Spellcasting &amp; Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/armor/" title="Armor Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/armor/armor-descriptions/" title="Armor Descriptions">Armor Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/weapons/" title="Weapons Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/weapons/weapon-descriptions/" title="Weapon Descriptions">Weapon Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/armor/" title="Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/weapons/" title="Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/" title="Psionic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/creating-psionic-items/" title="Creating Psionic Items">Creating Psionic Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/armor/" title="Psionic Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/weapons/" title="Psionic Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Epic Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Magic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/" title="Epic Magic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/armor/" title="Epic Magical Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/weapons/" title="Epic Magical Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/rings/" title="Epic Rings">Rings</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/rods/" title="Epic Rods">Rods</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Epic Scrolls">Scrolls</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/staffs/" title="Epic Staffs">Staffs</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/wondrous-items/" title="Epic Wondrous Items">Wondrous Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Intelligent Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/intelligent-items/" title="Intelligent Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/intelligent-items/epic/" title="Epic Intelligent Items">Epic Intelligent Items</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/equipment/cursed-items/" title="Cursed Items">Cursed Items</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/artifacts/" title="Artifacts">Artifacts</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/generating-treasure/" title="Generating Treasure">Generating Treasure</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/monsters/" title="Monsters Introduction">Introduction</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/types-subtypes/" title="Types &amp; Subtypes">Types &amp; Subtypes</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/monsters-as-races/" title="Monsters as Races">Monsters as Races</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Entries" class="dropdown-toggle" data-toggle="dropdown" role="button">Entries</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/monsters/entries/monsters/" title="Monsters">Monsters</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/animals/" title="Animals">Animals</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/vermin/" title="Vermin">Vermin</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Creature Templates" class="dropdown-toggle" data-toggle="dropdown" role="button">Templates</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/monsters/templates/" title="Creature Templates Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/templates/template-index/" title="Creature Template Index">Template Index</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Setting <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/setting/" title="Introduction to Pannotia">Introduction</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Geography" class="dropdown-toggle" data-toggle="dropdown" role="button">Geography</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/geography/" title="Geography Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/regions-countries/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Cosmology" class="dropdown-toggle" data-toggle="dropdown" role="button">Cosmology</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/cosmology/" title="Cosmology Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/cosmology/planar-traits/" title="Planar Traits">Planar Traits</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Religion" class="dropdown-toggle" data-toggle="dropdown" role="button">Religion</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/religion/" title="Religion Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="The Divine Tournament" class="dropdown-toggle" data-toggle="dropdown" role="button">The Divine Tournament</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/" title="Introduction to the Divine Tournament">Introduction</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/history/" title="History">History</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/entering-the-tournament/" title="Entering the Tournament">Entering the Tournament</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Politics" class="dropdown-toggle" data-toggle="dropdown" role="button">Politics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/politics/" title="Politics Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/organizations/" title="Organizations">Organizations</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/npcs/" title="NPCs">NPCs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="History" class="dropdown-toggle" data-toggle="dropdown" role="button">History</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/history/eras/" title="Eras">Eras</a></li>
+                                <li><a href="//worldofpannotia.com/setting/history/events/" title="Events">Events</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
+                <li class="dropdown">
+                    <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Misc <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/misc/changes-from-dd-35/" title="Changes from D&amp;D 3.5">Changes from D&amp;D 3.5</a></li>
+                        <li><a href="//worldofpannotia.com/misc/credits/" title="Credits">Credits</a></li>
+                        <li><a href="//worldofpannotia.com/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+        
+        
+
+
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                
+                  
+                <li><a href="/game-rules/">Game Rules</a></li>
+                
+                  
+                <li><a href="/game-rules/adventuring/">Adventuring</a></li>
+                
+                  
+                <li><a href="/game-rules/adventuring/wilderness-environment/">Wilderness & Environment</a></li>
+                
+                <li class="active">Dungeons</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container">
+    
+    <header class="row">
+        <h2 class="col-xs-12">Dungeons</h2>
+    </header>
+    
+
+    <article id="main-content" class="row">
+        <div class="col-xs-12">
+            <h3 id="types-of-dungeons">Types of Dungeons</h3>
+
+<p>The four basic dungeon types are defined by their current status. Many dungeons are variations on these basic types or combinations of more than one of them. Sometimes old dungeons are used again and again by different inhabitants for different purposes.</p>
+
+<p><strong>Ruined Structure:</strong> Once occupied, this place is now abandoned (completely or in part) by its original creator or creators, and other creatures have wandered in. Many subterranean creatures look for abandoned underground constructions in which to make their lairs. Any traps that might exist have probably been set off, but wandering beasts might very well be common.</p>
+
+<p><strong>Occupied Structure:</strong> This type of dungeon is still in use. Creatures (usually intelligent) live there, although they may not be the dungeon’s creators. An occupied structure might be a home, a fortress, a temple, an active mine, a prison, or a headquarters. This type of dungeon is less likely to have traps or wandering beasts, and more likely to have organized guards–both on watch and on patrol. Traps or wandering beasts that might be encountered are usually under the control of the occupants. Occupied structures have furnishings to suit the inhabitants, as well as decorations, supplies, and the ability for occupants to move around (doors they can open, hallways large enough for them to pass through, and so on). The inhabitants might have a communication system, and they almost certainly control an access to the outside.</p>
+
+<p>Some dungeons are partially occupied and partially empty or in ruins. In such cases, the occupants are typically not the original builders but instead a group of intelligent creatures that have set up their base, lair, or fortification within an abandoned dungeon.</p>
+
+<p><strong>Safe Storage:</strong> When people want to protect something, they might bury it underground. Whether the item they want to protect is a fabulous treasure, a forbidden artifact, or the dead body of an important figure, these valuable objects are placed within a dungeon and surrounded by barriers, traps, and guardians.</p>
+
+<p>The safe storage type of dungeon is the most likely to have traps but the least likely to have wandering beasts. This type of dungeon normally is built for function rather than appearance, but sometimes it has ornamentation in the form of statuary or painted walls. This is particularly true of the tombs of important people.</p>
+
+<p>Sometimes, however, a vault or a crypt is constructed in such a way as to house living guardians. The problem with this strategy is that something must be done to keep the creatures alive between intrusion attempts. Magic is usually the best solution to provide food and water for these creatures. Even if there’s no way anything living can survive in a safe storage dungeon, certain monsters can still serve as guardians. Builders of vaults or tombs often place undead creatures or constructs, both of which which have no need for sustenance or rest, to guard their dungeons. Magic traps can attack intruders by summoning monsters into the dungeon. These guardians also need no sustenance, since they appear only when they’re needed and disappear when their task is done.</p>
+
+<p><strong>Natural Cavern Complex:</strong> Underground caves provide homes for all sorts of subterranean monsters. Created naturally and connected by a labyrinthine tunnel system, these caverns lack any sort of pattern, order, or decoration. With no intelligent force behind its construction, this type of dungeon is the least likely to have traps or even doors.</p>
+
+<p>Fungi of all sorts thrive in caves, sometimes growing in huge forests of mushrooms and puffballs. Subterranean predators prowl these forests, looking for those feeding upon the fungi. Some varieties of fungus give off a phosphorescent glow, providing a natural cavern complex with its own limited light source. In other areas, a daylight spell or similar magical effect can provide enough light for green plants to grow.</p>
+
+<p>Often, a natural cavern complex connects with another type of dungeons, the caves having been discovered when the manufactured dungeon was delved. A cavern complex can connect two otherwise unrelated dungeons, sometimes creating a strange mixed environment. A natural cavern complex joined with another dungeon often provides a route by which subterranean creatures find their way into a manufactured dungeon and populate it.</p>
+
+<h3 id="dungeon-terrain">Dungeon Terrain</h3>
+
+<h4 id="walls">Walls</h4>
+
+<p>Sometimes, masonry walls–stones piled on top of each other (usually but not always held in place with mortar)–divide dungeons into corridors and chambers. Dungeon walls can also be hewn from solid rock, leaving them with a rough, chiseled look. Or, dungeon walls can be the smooth, unblemished stone of a naturally occurring cave. Dungeon walls are difficult to break down or through, but they’re generally easy to climb.</p>
+
+<table id="dungeon-walls-table" class="table table-bordered table-hover table-striped" data-caption="Table: Walls">
+<thead>
+<tr><th><p>Wall Type</p>
+</th><th><p>Typical Thickness</p>
+</th><th><p>Break DC</p>
+</th><th><p>Hardness</p>
+</th><th><p>Hit Points<sup>1</sup></p>
+</th><th><p>Climb DC</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Masonry</p>
+</td><td><p>1 ft.</p>
+</td><td><p>35</p>
+</td><td><p>8</p>
+</td><td><p>90 hp</p>
+</td><td><p>15</p>
+</td></tr>
+<tr><td><p>Superior masonry</p>
+</td><td><p>1 ft.</p>
+</td><td><p>35</p>
+</td><td><p>8</p>
+</td><td><p>90 hp</p>
+</td><td><p>20</p>
+</td></tr>
+<tr><td><p>Reinforced masonry</p>
+</td><td><p>1 ft.</p>
+</td><td><p>45</p>
+</td><td><p>8</p>
+</td><td><p>180 hp</p>
+</td><td><p>15</p>
+</td></tr>
+<tr><td><p>Hewn stone</p>
+</td><td><p>3 ft.</p>
+</td><td><p>50</p>
+</td><td><p>8</p>
+</td><td><p>540 hp</p>
+</td><td><p>22</p>
+</td></tr>
+<tr><td><p>Unworked stone</p>
+</td><td><p>5 ft.</p>
+</td><td><p>65</p>
+</td><td><p>8</p>
+</td><td><p>900 hp</p>
+</td><td><p>20</p>
+</td></tr>
+<tr><td><p>Iron</p>
+</td><td><p>3 in.</p>
+</td><td><p>30</p>
+</td><td><p>10</p>
+</td><td><p>90 hp</p>
+</td><td><p>25</p>
+</td></tr>
+<tr><td><p>Paper</p>
+</td><td><p>Paper-thin</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td><td><p>1 hp</p>
+</td><td><p>30</p>
+</td></tr>
+<tr><td><p>Wood</p>
+</td><td><p>6 in.</p>
+</td><td><p>20</p>
+</td><td><p>5</p>
+</td><td><p>60 hp</p>
+</td><td><p>21</p>
+</td></tr>
+<tr><td><p>Magically treated<sup>2</sup></p>
+</td><td><p>–</p>
+</td><td><p>+20</p>
+</td><td><p>×2</p>
+</td><td><p>×2<sup>3</sup></p>
+</td><td><p>–</p>
+</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="6"><p><sup>1</sup>Per 10-foot-by-10-foot section.<br /><sup>2</sup>These modifiers can be applied to any of the other wall types.<br /><sup>3</sup>Or an additional 50 hit points, whichever is greater.</p>
+</td></tr>
+</tfoot>
+</table>
+
+<p><strong>Masonry Walls:</strong> The most common kind of dungeon wall, masonry walls are usually at least 1 foot thick. Often these ancient walls sport cracks and crevices, and sometimes dangerous slimes or small monsters live in these areas and wait for prey. Masonry walls stop all but the loudest noises. It takes a DC 20 Climb check to travel along a masonry wall.</p>
+
+<p><strong>Superior Masonry Walls:</strong> Sometimes masonry walls are better built (smoother, with tighter-fitting stones and less cracking), and occasionally these superior walls are covered with plaster or stucco. Covered walls often bear paintings, carved reliefs, or other decoration. Superior masonry walls are no more difficult to destroy than regular masonry walls but are more difficult to climb (DC 25).</p>
+
+<p><strong>Hewn Stone Walls:</strong> Such walls usually result when a chamber or passage is tunneled out from solid rock. The rough surface of a hewn wall frequently provides minuscule ledges where fungus grows and fissures where vermin, bats, and subterranean snakes live. When such a wall has an “other side” (it separates two chambers in the dungeon), the wall is usually at least 3 feet thick; anything thinner risks collapsing from the weight of all the stone overhead. It takes a DC 25 Climb check to climb a hewn stone wall.</p>
+
+<p><strong>Unworked Stone Walls:</strong> These surfaces are uneven and rarely flat. They are smooth to the touch but filled with tiny holes, hidden alcoves, and ledges at various heights. They’re also usually wet or at least damp, since it’s water that most frequently creates natural caves. When such a wall has an “other side,” the wall is usually at least 5 feet thick. It takes a DC 15 Climb check to move along an unworked stone wall.</p>
+
+<h5 id="special-walls">Special Walls</h5>
+
+<p><strong>Reinforced Walls:</strong> These are masonry walls with iron bars on one or both sides of the wall, or placed within the wall to strengthen it. The hardness of a reinforced wall remains the same, but its hit points are doubled and the Strength check DC to break through it is increased by 10.</p>
+
+<p><strong>Iron Walls:</strong> These walls are placed within dungeons around important places such as vaults.</p>
+
+<p><strong>Paper Walls:</strong> Paper walls are the opposite of iron walls, placed as screens to block line of sight but nothing more.</p>
+
+<p><strong>Wooden Walls:</strong> Wooden walls often exist as recent additions to older dungeons, used to create animal pens, storage bins, or just to make a number of smaller rooms out of a larger one.</p>
+
+<p><strong>Magically Treated Walls:</strong> These walls are stronger than average, with a greater hardness, more hit points, and a higher break DC. Magic can usually double the hardness and hit points and can add up to 20 to the break DC. A magically treated wall also gains a saving throw against spells that could affect it, with the save bonus equaling 2 + one-half the caster level of the magic reinforcing the wall. Creating a magic wall requires the Craft Wondrous Item feat and the expenditure of 1,500 gp for each 10 foot-by-10-foot wall section.</p>
+
+<p><strong>Walls with Arrow Slits:</strong> Walls with arrow slits can be made of any durable material but are most commonly masonry, hewn stone, or wood. Such a wall allows defenders to fire arrows or crossbow bolts at intruders from behind the safety of the wall. Archers behind arrow slits have improved cover that gives them a +8 bonus to Armor Class, a +4 bonus on Reflex saves, and the benefits of the improved evasion class feature.</p>
+
+<h4 id="floors">Floors</h4>
+
+<p>As with walls, dungeon floors come in many types.</p>
+
+<p><strong>Flagstone:</strong> Like masonry walls, flagstone floors are made of fitted stones. They are usually cracked and only somewhat level. Slime and mold grows in these cracks. Sometimes water runs in rivulets between the stones or sits in stagnant puddles. Flagstone is the most common dungeon floor.</p>
+
+<p><strong>Uneven Flagstone:</strong> Over time, some floors can become so uneven that a DC 10 Balance check is required to run or charge across the surface. Failure means the character can’t move in this round. Floors as treacherous as this should be the exception, not the rule.</p>
+
+<p><strong>Hewn Stone Floors:</strong> Rough and uneven, hewn floors are usually covered with loose stones, gravel, dirt, or other debris. A DC 10 Balance check is required to run or charge across such a floor. Failure means the character can still act, but can’t run or charge in this round.</p>
+
+<p><strong>Light Rubble:</strong> Small chunks of debris litter the ground. Light rubble adds 2 to the DC of Balance and Tumble checks.</p>
+
+<p><strong>Dense Rubble:</strong> The ground is covered with debris of all sizes. It costs 2 squares of movement to enter a square with dense rubble. Dense rubble adds 5 to the DC of Balance and Tumble checks, and it adds 2 to the DC of Move Silently checks.</p>
+
+<p><strong>Smooth Stone Floors:</strong> Finished and sometimes even polished, smooth floors are found only in dungeons with capable and careful builders.</p>
+
+<p><strong>Natural Stone Floors:</strong> The floor of a natural cave is as uneven as the walls. Caves rarely have flat surfaces of any great size. Rather, their floors have many levels. Some adjacent floor surfaces might vary in elevation by only a foot, so that moving from one to the other is no more difficult than negotiating a stair step, but in other places the floor might suddenly drop off or rise up several feet or more, requiring Climb checks to get from one surface to the other. Unless a path has been worn and well marked in the floor of a natural cave, it takes 2 squares of movement to enter a square with a natural stone floor, and the DC of Balance and Tumble checks increases by 5. Running and charging are impossible, except along paths.</p>
+
+<h5 id="special-floors">Special Floors</h5>
+
+<p><strong>Slippery:</strong> Water, ice, slime, or blood can make any of the dungeon floors described in this section more treacherous. Slippery floors increase the DC of Balance and Tumble checks by 5.</p>
+
+<p><strong>Grate:</strong> A grate often covers a pit or an area lower than the main floor. Grates are usually made from iron, but large ones can also be made from iron-bound timbers. Many grates have hinges to allow access to what lies below (such grates can be locked like any door), while others are permanent and designed not to move. A typical 1-inch-thick iron grate has 25 hit points, hardness 10, and a DC of 27 for Strength checks to break through it or tear it loose.</p>
+
+<p><strong>Ledge:</strong> Ledges allow creatures to walk above some lower area. They often circle around pits, run along underground streams, form balconies around large rooms, or provide a place for archers to stand while firing upon enemies below. Narrow ledges (12 inches wide or less) require those moving along them to make Balance checks. Failure results in the moving character falling off the ledge. Ledges sometimes have railings. In such a case, characters gain a +5 circumstance bonus on Balance checks to move along the ledge. A character who is next to a railing gains a +2 circumstance bonus on his or her opposed Strength check to avoid being bull rushed off the edge.</p>
+
+<p>Ledges can also have low walls 2 to 3 feet high along their edges. Such walls provide cover against attackers within 30 feet on the other side of the wall, as long as the target is closer to the low wall than the attacker is.</p>
+
+<p><strong>Transparent Floor:</strong> Transparent floors, made of reinforced glass or magic materials (even a wall of force), allow a dangerous setting to be viewed safely from above. Transparent floors are sometimes placed over lava pools, arenas, monster dens, and torture chambers. They can be used by defenders to watch key areas for intruders.</p>
+
+<p><strong>Sliding Floors:</strong> A sliding floor is a type of trapdoor, designed to be moved and thus reveal something that lies beneath it. A typical sliding floor moves so slowly that anyone standing on one can avoid falling into the gap it creates, assuming there’s somewhere else to go. If such a floor slides quickly enough that there’s a chance of a character falling into whatever lies beneath–a spiked pit, a vat of burning oil, or a pool filled with sharks–then it’s a trap.</p>
+
+<p><strong>Trap Floors:</strong> Some floors are designed to become suddenly dangerous. With the application of just the right amount of weight, or the pull of a lever somewhere nearby, spikes protrude from the floor, gouts of steam or flame shoot up from hidden holes, or the entire floor tilts. These strange floors are sometimes found in an arena, designed to make combats more exciting and deadly. Construct these floors as you would any other trap.</p>
+
+<h4 id="doors">Doors</h4>
+
+<p>Doors in dungeons are much more than mere entrances and exits. Often they can be encounters all by themselves.</p>
+
+<p>Dungeon doors come in three basic types: wooden, stone, and iron.</p>
+
+<table id="dungeon-doors-table" class="table table-bordered table-hover table-striped" data-caption="Table: Doors">
+<thead>
+<tr><th rowspan="2"><p>Door Type</p>
+</th><th rowspan="2"><p>Typical Thickness</p>
+</th><th rowspan="2"><p>Hardness</p>
+</th><th rowspan="2"><p>Hit Points</p>
+</th><th colspan="2" class="text-center"><p>Break DC</p>
+</th></tr>
+<tr><th><p>Stuck</p>
+</th><th><p>Locked</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Simple wooden</p>
+</td><td><p>1 in.</p>
+</td><td><p>5</p>
+</td><td><p>10 hp</p>
+</td><td><p>13</p>
+</td><td><p>15</p>
+</td></tr>
+<tr><td><p>Good wooden</p>
+</td><td><p>1½ in.</p>
+</td><td><p>5</p>
+</td><td><p>15 hp</p>
+</td><td><p>16</p>
+</td><td><p>18</p>
+</td></tr>
+<tr><td><p>Strong wooden</p>
+</td><td><p>2 in.</p>
+</td><td><p>5</p>
+</td><td><p>20 hp</p>
+</td><td><p>23</p>
+</td><td><p>25</p>
+</td></tr>
+<tr><td><p>Stone</p>
+</td><td><p>4 in.</p>
+</td><td><p>8</p>
+</td><td><p>60 hp</p>
+</td><td><p>28</p>
+</td><td><p>28</p>
+</td></tr>
+<tr><td><p>Iron</p>
+</td><td><p>2 in.</p>
+</td><td><p>10</p>
+</td><td><p>60 hp</p>
+</td><td><p>28</p>
+</td><td><p>28</p>
+</td></tr>
+<tr><td><p>Portcullis, wooden</p>
+</td><td><p>3 in</p>
+</td><td><p>5</p>
+</td><td><p>30 hp</p>
+</td><td><p>25<sup>1</sup></p>
+</td><td><p>25<sup>1</sup></p>
+</td></tr>
+<tr><td><p>Portcullis, iron</p>
+</td><td><p>2 in.</p>
+</td><td><p>10</p>
+</td><td><p>60 hp</p>
+</td><td><p>25<sup>1</sup></p>
+</td><td><p>25<sup>1</sup></p>
+</td></tr>
+<tr><td><p>Lock</p>
+</td><td><p>–</p>
+</td><td><p>15</p>
+</td><td><p>30 hp</p>
+</td><td colspan="2"><p> </p>
+</td></tr>
+<tr><td><p>Hinge</p>
+</td><td><p>–</p>
+</td><td><p>10</p>
+</td><td><p>30 hp</p>
+</td><td colspan="2"><p> </p>
+</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="6"><p><sup>1</sup>DC to lift. Use appropriate door figure for breaking.</p>
+</td></tr>
+</tfoot>
+</table>
+
+<p><strong>Wooden Doors:</strong> Constructed of thick planks nailed together, sometimes bound with iron for strength (and to reduce swelling from dungeon dampness), wooden doors are the most common type. Wooden doors come in varying strengths: simple, good, and strong doors. Simple doors (break DC 13) are not meant to keep out motivated attackers. Good doors (break DC 16), while sturdy and long-lasting, are still not meant to take much punishment. Strong doors (break DC 23) are bound in iron and are a sturdy barrier to those attempting to get past them. Iron hinges fasten the door to its frame, and typically a circular pull-ring in the center is there to help open it. Sometimes, instead of a pull-ring, a door has an iron pull-bar on one or both sides of the door to serve as a handle. In inhabited dungeons, these doors are usually well maintained (not stuck) and unlocked, although important areas are locked up if possible.</p>
+
+<p><strong>Stone:</strong> Carved from solid blocks of stone, these heavy, unwieldy doors are often built so that they pivot when opened, although dwarves and other skilled craftsfolk are able to fashion hinges strong enough to hold up a stone door. Secret doors concealed within a stone wall are usually stone doors. Otherwise, such doors stand as tough barriers protecting something important beyond. Thus, they are often locked or barred.</p>
+
+<p><strong>Iron:</strong> Rusted but sturdy, iron doors in a dungeon are hinged like wooden doors. These doors are the toughest form of nonmagical door. They are usually locked or barred.</p>
+
+<p><strong>Locks, Bars, and Seals:</strong> Dungeon doors may be locked, trapped, reinforced, barred, magically sealed, or sometimes just stuck. All but the weakest characters can eventually knock down a door with a heavy tool such as a sledgehammer, and a number of spells and magic items give characters an easy way around a locked door.</p>
+
+<p>Attempts to literally chop a door down with a slashing or bludgeoning weapon use the hardness and hit points given in Table: Doors. Often the easiest way to overcome a recalcitrant door is not by demolishing it but by breaking its lock, bar, or hinges. When assigning a DC to an attempt to knock a door down, use the following as guidelines:</p>
+
+<p><em>DC 10 or Lower:</em> a door just about anyone can break open.</p>
+
+<p><em>DC 11–15:</em> a door that a strong person could break with one try and an average person might be able to break with one try.</p>
+
+<p><em>DC 16–20:</em> a door that almost anyone could break, given time.</p>
+
+<p><em>DC 21–25:</em> a door that only a strong or very strong person has a hope of breaking, probably not on the first try.</p>
+
+<p><em>DC 26 or Higher:</em> a door that only an exceptionally strong person has a hope of breaking.</p>
+
+<p>For specific examples in applying these guidelines, see Table: Random Door Types.</p>
+
+<p><strong>Locks:</strong> Dungeon doors are often locked, and thus the Open Lock skill comes in very handy. Locks are usually built into the door, either on the edge opposite the hinges or right in the middle of the door. Builtin locks either control an iron bar that juts out of the door and into the wall of its frame, or else a sliding iron bar or heavy wooden bar that rests behind the entire door. By contrast, padlocks are not built-in but usually run through two rings, one on the door and the other on the wall. More complex locks, such as combination locks and puzzle locks, are usually built into the door itself. Because such keyless locks are larger and more complex, they are typically only found in sturdy doors (strong wooden, stone, or iron doors).</p>
+
+<p>The Open Lock DC to pick a lock often falls into the range of 20 to 30, although locks with lower or higher DCs can exist. A door can have more than one lock, each of which must be unlocked separately. Locks are often trapped, usually with poison needles that extend out to prick a rogue’s finger.</p>
+
+<p>Breaking a lock is sometimes quicker than breaking the whole door. If a PC wants to whack at a lock with a weapon, treat the typical lock as having hardness 15 and 30 hit points. A lock can only be broken if it can be attacked separately from the door, which means that a built-in lock is immune to this sort of treatment. In an occupied dungeon, every locked door should have a key somewhere.</p>
+
+<p>A special door (see below for examples) might have a lock with no key, instead requiring that the right combination of nearby levers must be manipulated or the right symbols must be pressed on a keypad in the correct sequence to open the door.</p>
+
+<p><strong>Stuck Doors:</strong> Dungeons are often damp, and sometimes doors get stuck, particularly wooden doors. Assume that about 10% of wooden doors and 5% of nonwooden doors are stuck. These numbers can be doubled (to 20% and 10%, respectively) for long-abandoned or neglected dungeons.</p>
+
+<p><strong>Barred Doors:</strong> When characters try to bash down a barred door, it’s the quality of the bar that matters, not the material the door is made of. It takes a DC 25 Strength check to break through a door with a wooden bar, and a DC 30 Strength check if the bar is made of iron. Characters can attack the door and destroy it instead, leaving the bar hanging in the now-open doorway.</p>
+
+<p><strong>Magic Seals:</strong> In addition to magic traps spells such as arcane lock can discourage passage through a door. A door with an arcane lock spell on it is considered locked even if it doesn’t have a physical lock. It takes a knock spell, a dispel magic spell, or a successful Strength check  to get through such a door.</p>
+
+<p><strong>Hinges:</strong> Most doors have hinges. Obviously, sliding doors do not. (They usually have tracks or grooves instead, allowing them to slide easily to one side.)</p>
+
+<p><em>Standard Hinges:</em> These hinges are metal, joining one edge of the door to the doorframe or wall. Remember that the door swings open toward the side with the hinges. (So, if the hinges are on the PCs’ side, the door opens toward them; otherwise it opens away from them.) Adventurers can take the hinges apart one at a time with successful Disable Device checks (assuming the hinges are on their side of the door, of course). Such a task has a DC of 20 because most hinges are rusted or stuck. Breaking a hinge is difficult. Most have hardness 10 and 30 hit points. The break DC for a hinge is the same as for breaking down the door.</p>
+
+<p><em>Nested Hinges:</em> These hinges are much more complex than ordinary hinges, and are found only in areas of excellent construction. These hinges are built into the wall and allow the door to swing open in either direction. PCs can’t get at the hinges to fool with them unless they break through the doorframe or wall. Nested hinges are typically found on stone doors but sometimes on wooden or iron doors as well.</p>
+
+<p><em>Pivots:</em> Pivots aren’t really hinges at all, but simple knobs jutting from the top and bottom of the door that fit into holes in the doorframe, allowing the door to spin. The advantages of pivots is that they can’t be dismantled like hinges and they’re simple to make. The disadvantage is that since the door pivots on its center of gravity (typically in the middle), nothing larger than half the door’s width can fit through. Doors with pivots are usually stone and are often quite wide to overcome this disadvantage. Another solution is to place the pivot toward one side and have the door be thicker at that end and thinner toward the other end so that it opens more like a normal door. Secret doors in walls often turn on pivots, since the lack of hinges makes it easier to hide the door’s presence. Pivots also allow objects such as bookcases to be used as secret doors.</p>
+
+<p><strong>Secret Doors:</strong> Disguised as a bare patch of wall (or floor, or ceiling), a bookcase, a fireplace, or a fountain, a secret door leads to a secret passage or room. Someone examining the area finds a secret door, if one exists, on a successful Search check (DC 20 for a typical secret door to DC 30 for a well-hidden secret door). Elves have a chance to detect a secret door just by casually looking at an area.</p>
+
+<p>Many secret doors require a special method of opening, such as a hidden button or pressure plate. Secret doors can open like normal doors, or they may pivot, slide, sink, rise, or even lower like a drawbridge to permit access. Builders might put a secret door down low near the floor or high up in a wall, making it difficult to find or reach. Wizards and sorcerers have a spell, phase door, that allows them to create a magic secret door that only they can use.</p>
+
+<p><strong>Magic Doors:</strong> Enchanted by the original builders, a door might speak to explorers, warning them away. It might be protected from harm, increasing its hardness or giving it more hit points as well as an improved saving throw bonus against disintegrate and other similar spells. A magic door might not lead into the space revealed beyond, but instead it might be a portal to a faraway place or even another plane of existence. Other magic doors might require passwords or special keys to open them.</p>
+
+<p><strong>Portcullises:</strong> These special doors consist of iron or thick, ironbound, wooden shafts that descend from a recess in the ceiling above an archway. Sometimes a portcullis has crossbars that create a grid, sometimes not. Typically raised by means of a winch or a capstan, a portcullis can be dropped quickly, and the shafts end in spikes to discourage anyone from standing underneath (or from attempting to dive under it as it drops). Once it is dropped, a portcullis locks, unless it is so large that no normal person could lift it anyway. In any event, lifting a typical portcullis requires a DC 25 Strength check.</p>
+
+<h4 id="walls-doors-and-detect-spells">Walls, Doors, and Detect Spells</h4>
+
+<p>Stone walls, iron walls, and iron doors are usually thick enough to block most detect spells, such as detect thoughts. Wooden walls, wooden doors, and stone doors are usually not thick enough to do so. However, a secret stone door built into a wall and as thick as the wall itself (at least 1 foot) does block most detect spells.</p>
+
+<h3 id="rooms">Rooms</h3>
+
+<p>Rooms in dungeons vary in shape and size. Although many are simple in construction and appearance, particularly interesting rooms have multiple levels joined by stairs, ramps, or ladders, as well as statuary, altars, pits, chasms, bridges, and more.</p>
+
+<p>Underground chambers are prone to collapse, so many rooms–particularly large ones–have arched ceilings or pillars to support the weight of the rock overhead.</p>
+
+<p>Common dungeon rooms fall into the following broad categories.</p>
+
+<p><strong>Guard Post:</strong> Intelligent, social denizens of the dungeon will generally have a series of adjacent rooms they consider “theirs,” and they’ll guard the entrances to that common area.</p>
+
+<p><strong>Living Quarters:</strong> All but the most nomadic creatures have a lair where they can rest, eat, and store their treasure. Living quarters commonly include beds (if the creature sleeps), possessions (both valuable and mundane), and some sort of food preparation area. Noncombatant creatures such as juveniles and the elderly are often found here.</p>
+
+<p><strong>Work Area:</strong> Most intelligent creatures do more than just guard, eat, and sleep, and many devote rooms to magic laboratories, workshops for weapons and armor, or studios for more esoteric tasks.</p>
+
+<p><strong>Shrine:</strong> Any creature that is particularly religious may have some place dedicated to worship, and others may venerate something of great historical or personal value. Depending on the creature’s resources and piety, a shrine can be humble or extensive. A shrine is where PCs will likely encounter NPC clerics, and it’s common for wounded monsters to flee to a shrine friendly to them when they seek healing.</p>
+
+<p><strong>Vault:</strong> Well protected, often by a locked iron door, a vault is a special room that contains treasure. There’s usually only one entrance–an appropriate place for a trap.</p>
+
+<p><strong>Crypt:</strong> Although sometimes constructed like a vault, a crypt can also be a series of individual rooms, each with its own sarcophagus, or a long hall with recesses on either side–shelves to hold coffins or bodies.</p>
+
+<p>Those who are worried about undead rising from the grave take the precaution of locking and trapping a crypt from the outside– making the crypt easy to get into but difficult to leave. Those worried about tomb robbers make their crypts difficult to get into. Some builders do both, just to be on the safe side.</p>
+
+<h3 id="corridors">Corridors</h3>
+
+<p>All dungeons have rooms, and most have corridors. While most corridors simply connect rooms, sometimes they can be encounter areas in their own right because of traps, guard patrols, and wandering monsters out on the hunt.</p>
+
+<p><strong>Corridor Traps:</strong> Because passageways in dungeons tend to be narrow, offering few movement options, dungeon builders like to place traps in them. In a cramped passageway, there’s no way for intruders to move around concealed pits, falling stones, arrow traps, tilting floors, and sliding or rolling rocks that fill the entire passage. For the same reason, magic traps such as glyphs of warding are effective in hallways as well.</p>
+
+<p><strong>Mazes:</strong> Usually, passages connect chambers in the simplest and straightest manner possible. Some dungeon builders, however, design a maze or a labyrinth within the dungeon. This sort of construction is difficult to navigate (or at least to navigate quickly) and, when filled with monsters or traps, can be an effective barrier.</p>
+
+<p>A maze can be used to cut off one area of the dungeon, deflecting intruders away from a protected spot. Generally, though, the far side of a maze holds an important crypt or vault–someplace that the dungeon’s regular inhabitants rarely need to get to.</p>
+
+<h3 id="miscellaneous-features">Miscellaneous Features</h3>
+
+<p><strong>Stairs:</strong> The usual way to connect different levels of a dungeon is with stairs. Straight stairways, spiral staircases, or stairwells with multiple landings between flights of stairs are all common in dungeons, as are ramps (sometimes with an incline so slight that it can be difficult to notice; Spot DC 15). Stairs are important accessways, and are sometimes guarded or trapped. Traps on stairs often cause intruders to slide or fall down to the bottom, where a pit, spikes, a pool of acid, or some other danger awaits.</p>
+
+<p><em>Gradual Stairs:</em> Stairs that rise less than 5 feet for every 5 feet of horizontal distance they cover don’t affect movement, but characters who attack a foe below them gain a +1 bonus on attack rolls from being on higher ground. Most stairs in dungeons are gradual, except for spiral stairs (see below).</p>
+
+<p><em>Steep Stairs:</em> Characters moving up steep stairs (which rise at a 45- degree angle or steeper) must spend 2 squares of movement to enter each square of stairs. Characters running or charging down steep stairs must succeed on a DC 10 Balance check upon entering the first steep stairs square. Characters who fail stumble and must end their movement 1d2×5 feet later. Characters who fail by 5 or more take 1d6 points of damage and fall prone in the square where they end their movement. Steep stairs increase the DC of Tumble checks by 5.</p>
+
+<p><em>Spiral Stairs:</em> This form of steep stairs is designed to make defending a fortress easier. Characters gain cover against foes below them on spiral stairs because they can easily duck around the staircase’s central support.</p>
+
+<p><em>Railings and Low Walls:</em> Stairs that are open to large rooms often have railings or low walls. They function as described for ledges (see Special Floors).</p>
+
+<p><strong>Bridge:</strong> A bridge connects two higher areas separated by a lower area, stretching across a chasm, over a river, or above a pit. A simple bridge might be a single wooden plank, while an elaborate one could be made of mortared stone with iron supports and side rails.</p>
+
+<p><em>Narrow Bridge:</em> If a bridge is particularly narrow, such as a series of planks laid over lava fissures, treat it as a ledge (see Special Floors). It requires a Balance check (DC dependent on width) to cross such a bridge.</p>
+
+<p><em>Rope Bridge:</em> Constructed of wooden planks suspended from ropes, a rope bridge is convenient because it’s portable and can be easily removed. It takes two full-round actions to untie one end of a rope bridge, but a DC 15 Use Rope check reduces the time to a move action. If only one of the two supporting ropes is attached, everyone on the bridge must succeed on a DC 15 Reflex save to avoid falling off, and thereafter must make DC 15 Climb checks to move along the remnants of the bridge. Rope bridges are usually 5 feet wide. The two ropes that support them have 8 hit points each.</p>
+
+<p><em>Drawbridge:</em> Some bridges have mechanisms that allow them to be extended or retracted from the gap they cross. Typically,  the winch mechanism exists on only one side of the bridge. It takes a move action to lower a drawbridge, but the bridge doesn’t come down until the beginning of the lowering character’s next turn. It takes a full-round action to raise a drawbridge; the drawbridge is up at the end of the action. Particularly long or wide drawbridges may take more time to raise and lower, and some may require Strength checks to rotate the winch.</p>
+
+<p><em>Railings and Low Walls:</em> Some bridges have railings or low walls along the sides. If a bridge does, the railing or low walls affect Balance checks and bull rush attempts as described for ledges (see Special Floors). Low walls likewise provide cover to bridge occupants.</p>
+
+<p><strong>Chutes and Chimneys:</strong> Stairs aren’t the only way to move up and down in a dungeon. Sometimes a vertical shaft connects levels of a dungeon or links a dungeon with the surface. Chutes are usually traps that dump characters into a lower area–often a place featuring some dangerous situation with which they must contend.</p>
+
+<p><strong>Pillar:</strong> A common sight in any dungeon, pillars and columns give support to ceilings. The larger the room, the more likely it has pillars. As a rule of thumb, the deeper in the dungeon a room is, the thicker the pillars need to be to support the overhead weight. Pillars tend to be polished and often have carvings, paintings, or inscriptions upon them.</p>
+
+<p><em>Slender Pillar:</em> These pillars are only a foot or two across, so they don’t occupy a whole square. A creature standing in the same square as a slender pillar gains a +2 cover bonus to Armor Class and a +1 cover bonus on Reflex saves (these bonuses don’t stack with cover bonuses from other sources). The presence of a slender pillar does not otherwise affect a creature’s fighting space, because it’s assumed that the creature is using the pillar to its advantage when it can. A typical slender pillar has AC 4, hardness 8, and 250 hit points.</p>
+
+<p><em>Wide Pillar:</em> These pillars take up an entire square and provide cover to anyone behind them. They have AC 3, hardness 8, and 900 hit points. A DC 20 Climb check is sufficient to climb most pillars; the DC increases to 25 for polished or unusually slick ones.</p>
+
+<p><strong>Stalagmite/Stalactite:</strong> These tapering natural rock columns extend from the floor (stalagmite) or the ceiling (stalactite). Stalagmites and stalactites function as slender pillars.</p>
+
+<p><strong>Statue:</strong> Most statues function as wide pillars, taking up a square and providing cover. Some statues are smaller and act as slender pillars. A DC 15 Climb check allows a character to climb a statue.</p>
+
+<p><strong>Tapestry:</strong> Elaborately embroidered patterns or scenes on cloth, tapestries hang from the walls of well-appointed dungeon rooms or corridors. Crafty builders take advantage of tapestries to place alcoves, concealed doors, or secret switches behind them.</p>
+
+<p>Tapestries provide total concealment (50% miss chance) to characters behind them if they’re hanging from the ceiling, or concealment (20% miss chance) if they’re flush with the wall. Climbing a big tapestry isn’t particularly difficult, requiring a DC 15 Climb check (or DC 10 if a wall is within reach).</p>
+
+<p><strong>Pedestal:</strong> Anything important on display in a dungeon, from a fabulous treasure to a coffin, tends to rest atop a pedestal or a dais. Raising the object off the floor focuses attention on it (and, in practical terms, keeps it safe from any water or other substance that might seep onto the floor). A pedestal is often trapped to protect whatever sits atop it. It can conceal a secret trapdoor beneath itself or provide a way to reach a door in the ceiling above itself.</p>
+
+<p>Only the largest pedestals take up an entire square; most provide no cover.</p>
+
+<p><strong>Pool:</strong> Pools of water collect naturally in low spots in dungeons (a dry dungeon is rare). Pools can also be wells or natural underground springs, or they can be intentionally created basins, cisterns, and fountains. In any event, water is fairly common in dungeons, harboring sightless fish and sometimes aquatic monsters. Pools provide water for dungeon denizens, and thus are as important an area for a predator to control as a watering hole aboveground in the wild.</p>
+
+<p><em>Shallow Pool:</em> If a square contains a shallow pool, it has roughly 1 foot of standing water. It costs 2 squares of movement to move into a square with a shallow pool, and the DC of Tumble checks in such squares increases by 2.</p>
+
+<p><em>Deep Pool:</em> These squares have at least 4 feet of standing water. It costs Medium or larger creatures 4 squares of movement to move into a square with a deep pool, or characters can swim if they wish. Small or smaller creatures must swim to move through a square containing a deep pool. Tumbling is impossible in a deep pool. The water in a deep pool provides cover for Medium or larger creatures. Smaller creatures gain improved cover (+8 bonus to AC, +4 bonus on Reflex saves). Medium or larger creatures can crouch as a move action to gain this improved cover. Creatures with this improved cover take a –10 penalty on attacks against creatures that aren’t also underwater.</p>
+
+<p>Deep pool squares are usually clustered together and surrounded by a ring of shallow pool squares. Both shallow pools and deep pools impose a –2 circumstance penalty on Move Silently checks.</p>
+
+<p><em>Special Pools:</em> Through accident or design, a pool can become magically enhanced. Rarely, a pool or a fountain may be found that has the ability to bestow beneficial magic on those who drink from it. However, magic pools are just as likely to curse the drinker. Typically, water from a magic pool loses its potency if removed from the pool for more than an hour or so.</p>
+
+<p>Some pools have fountains. Occasionally these are merely decorative, but they often serve as the focus of a trap or the source of a pool’s magic.</p>
+
+<p>Most pools are made of water, but anything’s possible in a dungeon. Pools can hold unsavory substances such as blood, poison, oil, or magma. And even if a pool holds water, it can be holy water, saltwater, or water tainted with disease.</p>
+
+<p><strong>Elevator:</strong> In place of or in addition to stairs, an elevator (essentially an oversized dumbwaiter) can take inhabitants from one dungeon level to the next. Such an elevator may be mechanical (using gears, pulleys, and winches) or magical (such as a levitate spell cast on a movable flat surface). A mechanical elevator might be as small as a platform that holds one character at a time, or as large as an entire room that raises and lowers. A clever builder might design an elevator room that moves up or down without the occupants’ knowledge to catch them in a trap, or one that appears to have moved when it actually remained still.</p>
+
+<p>A typical elevator ascends or descends 10 feet per round at the beginning of the operator’s turn (or on initiative count 0 if it functions without regard to whether creatures are on it. Elevators can be enclosed, can have railings or low walls, or may simply be treacherous floating platforms.</p>
+
+<p><strong>Ladders:</strong> Whether free-standing or rungs set into a wall, a ladder requires a DC 0 Climb check to ascend or descend.</p>
+
+<p><strong>Shifting Stone or Wall:</strong> These features can cut off access to a passage or room, trapping adventurers in a dead end or preventing escape out of the dungeon. Shifting walls can force explorers to go down a dangerous path or prevent them from entering a special area. Not all shifting walls need be traps. For example, stones controlled by pressure plates, counterweights, or a secret lever can shift out of a wall to become a staircase leading to a hidden upper room or secret ledge.</p>
+
+<p>Shifting stones and walls are generally constructed as traps with triggers and Search and Disable Device DCs. However they don’t have Challenge Ratings because they’re inconveniences, not deadly in and of themselves.</p>
+
+<p><strong>Teleporters:</strong> Sometimes useful, sometimes devious, places in a dungeon rigged with a teleportation effect (such as a teleportation circle) transport characters to some other location in the dungeon or someplace far away. They can be traps, teleporting the unwary into dangerous situations, or they can be an easy mode of transport for those who built or live in the dungeon, good for bypassing barriers and traps or simply to get around more quickly. Devious dungeon designers might place a teleporter in a room that transports characters to another seemingly identical room so that they don’t even know they’ve been teleported. A detect magic spell will provide a clue to the presence of a teleporter, but direct experimentation or other research is the only way to discover where the teleporter leads.</p>
+
+<p><strong>Altars:</strong> Temples–particularly to dark gods–often exist underground. Usually taking the form of a stone block, an altar is the main fixture and central focus of such a temple. Sometimes all the other trappings of the temple are long gone, lost to theft, age, and decay, but the altar survives. Some altars have traps or powerful magic within them. Most take up one or two squares on the grid and provide cover to creatures behind them.</p>
+
+<h3 id="cave-ins-and-collapses-cr-8">Cave-ins and Collapses (CR 8)</h3>
+
+<p>Cave-ins and collapsing tunnels are extremely dangerous. Not only do dungeon explorers face the danger of being crushed by tons of falling rock, even if they survive they may be buried beneath a pile of rubble or cut off from the only known exit. A cave-in buries anyone in the middle of the collapsing area, and then sliding debris damages anyone in the periphery of the collapse. A typical corridor subject to a cave-in might have a bury zone with a 15-foot radius and a 10-foot-radius slide zone extending beyond the bury zone. A weakened ceiling can be spotted with a DC 20 Knowledge (architecture and engineering) or DC 20 Craft (stonemasonry) check. Remember that Craft checks can be made untrained as Intelligence checks. A dwarf can make such a check if he simply passes within 10 feet of a weakened ceiling.</p>
+
+<p>A weakened ceiling may collapse when subjected to a major impact or concussion. A character can cause a cave-in by destroying half the pillars holding the ceiling up.</p>
+
+<p>Characters in the bury zone of a cave-in take 8d6 points of damage, or half that amount if they make a DC 15 Reflex save. They are subsequently buried. Characters in the slide zone take 3d6 points of damage, or no damage at all if they make a DC 15 Reflex save. Characters in the slide zone who fail their saves are buried.</p>
+
+<p>Characters take 1d6 points of nonlethal damage per minute while buried. If such a character falls unconscious, he must make a DC 15 Constitution check. If it fails, he takes 1d6 points of lethal damage each minute thereafter until freed or dead.</p>
+
+<p>Characters who aren’t buried can dig out their friends. In 1 minute, using only her hands, a character can clear rocks and debris equal to five times her heavy load limit. The amount of loose stone that fills a 5-foot-by-5-foot area weighs one ton (2,000 pounds). Armed with an appropriate tool, such as a pick, crowbar, or shovel, a digger can clear loose stone twice as quickly as by hand. You may allow a buried character to free himself with a DC 25 Strength check.</p>
+
+<h3 id="slimes-molds-and-fungi">Slimes, Molds, and Fungi</h3>
+
+<p>In a dungeon’s damp, dark recesses, molds and fungi thrive. While some plants and fungi are monsters and other slime, mold, and fungus is just normal, innocuous stuff, a few varieties are dangerous dungeon encounters. For purposes of spells and other special effects, all slimes, molds, and fungi are treated as plants. Like traps, dangerous slimes and molds have CRs, and characters earn XP for encountering them.</p>
+
+<p>A form of glistening organic sludge coats almost anything that remains in the damp and dark for too long. This kind of slime, though it might be repulsive, is not dangerous.</p>
+
+<p>Molds and fungi flourish in dark, cool, damp places. While some are as inoffensive as the normal dungeon slime, others are quite dangerous. Mushrooms, puffballs, yeasts, mildew, and other sorts of bulbous, fibrous, or flat patches of fungi can be found throughout most dungeons. They are usually inoffensive, and some are even edible (though most are unappealing or odd-tasting).</p>
+
+<p><strong>Green Slime (CR 4):</strong> This dungeon peril is a dangerous variety of normal slime. Green slime devours flesh and organic materials on contact and is even capable of dissolving metal. Bright green, wet, and sticky, it clings to walls, floors, and ceilings in patches, reproducing as it consumes organic matter. It drops from walls and ceilings when it detects movement (and possible food) below.</p>
+
+<p>A single 5-foot square of green slime deals 1d6 points of Constitution damage per round while it devours flesh. On the first round of contact, the slime can be scraped off a creature (most likely destroying the scraping device), but after that it must be frozen, burned, or cut away (dealing damage to the victim as well). Anything that deals cold or fire damage, sunlight, or a remove disease spell destroys a patch of green slime. Against wood or metal, green slime deals 2d6 points of damage per round, ignoring metal’s hardness but not that of wood. It does not harm stone.</p>
+
+<p><strong>Yellow Mold (CR 6):</strong> If disturbed, a 5-foot square of this mold bursts forth with a cloud of poisonous spores. All within 10 feet of the mold must make a DC 15 Fortitude save or take 1d6 points of Constitution damage. Another DC 15 Fortitude save is required 1 minute later–even by those who succeeded on the first save–to avoid taking 2d6 points of Constitution damage. Fire destroys yellow mold, and sunlight renders it dormant.</p>
+
+<p><strong>Brown Mold (CR 2):</strong> Brown mold feeds on warmth, drawing heat from anything around it. It normally comes in patches 5 feet in diameter, and the temperature is always cold in a 30-foot radius around it. Living creatures within 5 feet of it take 3d6 points of nonlethal cold damage. Fire brought within 5 feet of brown mold causes it to instantly double in size. Cold damage, such as from a cone of cold, instantly destroys it.</p>
+
+<p><strong>Phosphorescent Fungus (No CR):</strong> This strange underground fungus grows in clumps that look almost like stunted shrubbery. Drow elves cultivate it for food and light. It gives off a soft violet glow that illuminates underground caverns and passages as well as a candle does. Rare patches of fungus illuminate as well as a torch does.</p>
+
+        </div>
+        
+
+
+    </article>
+</section>
+
+        <footer id="page-foot" class="container">
+            <section class="row">
+                <div class="col-xs-12 col-sm-6"><p>&copy; 2007-16 Bill Parrott</p></div>
+                <div class="col-xs-12 col-sm-6 text-right"><p><a href="//worldofpannotia.com/contributing/">Contribute to Pannotia</a></p></div>
+            </section>
+        </footer>
+        <script src="//worldofpannotia.com/assets/js/jquery.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/bootstrap.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/bootstrap-submenu.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/lunr.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/mustache.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
+        <script src="//worldofpannotia.com/assets/js/URI.js"></script>
+        <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('[data-submenu]').submenupicker();
+                $('#site-search-query').lunrSearch({
+                    indexUrl: '//worldofpannotia.com/assets/js/index.json', // Url for the .json file containing search index data
+                    results : 'site-#search-results',                // selector for containing search results element
+                    entries : '.entries',                            // selector for search entries containing element (contained within results above)
+                    template: '#site-search-results-template'        // selector for Mustache.js template
+                });
+            });
+        </script>
+    </body>
+</html>
