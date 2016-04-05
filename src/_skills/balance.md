@@ -20,7 +20,7 @@ skill:
     {: #balance-surface-dc-table .table .table-bordered .table-hover .table-striped data-caption="Table: Balance Surface DCs" }
 
     |---
-    | Surface | DC Modifier<sup>1</sup><sup>2</sup>
+    | Surface | DC Modifier<sup>1</sup>,<sup>2</sup>
     |-|-
     | Lightly obstructed | +2
     | Severely obstructed | +5

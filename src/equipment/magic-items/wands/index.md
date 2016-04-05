@@ -24,7 +24,7 @@ A wand is a thin baton that contains a single spell of 4th level or lower. Each 
 | 17-19 | &ndash; | &ndash; | {% spell_link cure-light-wounds %} | 750 gp
 | 20-22 | &ndash; | &ndash; | {% spell_link detect-secret-doors %} | 750 gp
 | 23-25 | &ndash; | &ndash; | {% spell_link enlarge-person %} | 750 gp
-| 26-28 | &ndash; | &ndash; | {% spell_link magic-missile " Magic Missile (1st)" %} | 750 gp
+| 26-28 | &ndash; | &ndash; | {% spell_link magic-missile "Magic Missile (1st)" %} | 750 gp
 | 29-31 | &ndash; | &ndash; | {% spell_link shocking-grasp %} | 750 gp
 | 32-34 | &ndash; | &ndash; | {% spell_link summon-monster-i %} | 750 gp
 | 35-36 | &ndash; | &ndash; | {% spell_link magic-missile "Magic Missile (3rd)" %} | 2,250 gp

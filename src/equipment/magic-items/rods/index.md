@@ -4,7 +4,7 @@ crumbs: [equipment, magic-items]
 crumbTitles: [Equipment, Magic Items]
 ---
 
-Rods are generally scepterlike devices that have unique magical powers and do not usually have charges. Anyone can use a rod.
+Rods are generally scepter-like devices that have unique magical powers and do not usually have charges. Anyone can use a rod.
 
 **Physical Description:** Rods weigh approximately 5 pounds.
 
@@ -21,41 +21,41 @@ Rods with charges can never be intelligent.
 |---
 | Medium | Major | Rod | Market Price
 |-|-|-|-
-| 01-07 | &ndash; | Metamagic, _Enlarge, lesser_ | 3,000 gp
-| 08-14 | &ndash; | Metamagic, _Extend, lesser_ | 3,000 gp
-| 15-21 | &ndash; | Metamagic, _Silent, lesser_ | 3,000 gp
+| 01-07 | &ndash; | {% rod_link metamagic-enlarge %} (lesser) | 3,000 gp
+| 08-14 | &ndash; | {% rod_link metamagic-extend %} (lesser) | 3,000 gp
+| 15-21 | &ndash; | {% rod_link metamagic-silent %} (lesser) | 3,000 gp
 | 22-28 | &ndash; | {% rod_link immovable %} | 5,000 gp
-| 29-35 | &ndash; | Metamagic, _Empower, lesser_ | 9,000 gp
-| 36-42 | &ndash; | _Metal and mineral detection_ | 10,500 gp
-| 43-53 | 01-04 | _Cancellation_ | 11,000 gp
-| 54-57 | 05-06 | Metamagic, _Enlarge_ | 11,000 gp
-| 58-61 | 07-08 | Metamagic, _Extend_ | 11,000 gp
-| 62-65 | 09-10 | Metamagic, _Silent_ | 11,000 gp
-| 66-71 | 11-14 | _Wonder_ | 12,000 gp
-| 72-79 | 15-18 | _Python_ | 13,000 gp
-| 80-83 | &ndash; | Metamagic, _Maximize, lesser_ | 14,000 gp
-| 84-89 | 19-21 | _Flame extinguishing_ | 15,000 gp
-| 90-97 | 22-25 | _Viper_ | 19,000 gp
-| &ndash; | 26-30 | _Enemy detection_ | 23,500 gp
-| &ndash; | 31-36 | Metamagic, _Enlarge, greater_ | 24,500 gp
-| &ndash; | 37-42 | Metamagic, _Extend, greater_ | 24,500 gp
-| &ndash; | 43-48 | Metamagic, _Silent, greater_ | 24,500 gp
-| &ndash; | 49-53 | _Splendor_ | 25,000 gp
-| &ndash; | 54-58 | _Withering_ | 25,000 gp
-| 98-99 | 59-64 | Metamagic, _Empower_ | 32,500 gp
-| &ndash; | 65-69 | _Thunder and lightning_ | 33,000 gp
-| 100 | 70-73 | Metamagic, _Quicken, lesser_ | 35,000 gp
-| &ndash; | 74-77 | _Negation_ | 37,000 gp
-| &ndash; | 78-80 | _Absorption_ | 50,000 gp
-| &ndash; | 81-84 | _Flailing_ | 50,000 gp
-| &ndash; | 85-86 | Metamagic, _Maximize_ | 54,000 gp
-| &ndash; | 87-88 | _Rulership_ | 60,000 gp
-| &ndash; | 89-90 | _Security_ | 61,000 gp
-| &ndash; | 91-92 | _Lordly might_ | 70,000 gp
-| &ndash; | 93-94 | Metamagic, _Empower, greater_ | 73,000 gp
-| &ndash; | 95-96 | Metamagic, _Quicken_ | 75,500 gp
-| &ndash; | xx-xx | Potions | 77,000 gp
-| &ndash; | 97-98 | _Alertness_ | 85,000 gp
-| &ndash; | 99 | Metamagic, _Maximize, greater_ | 121,500 gp
-| &ndash; | 100 | Metamagic, _Quicken, greater_ | 170,000 gp
+| 29-35 | &ndash; | {% rod_link metamagic-empower %} (lesser) | 9,000 gp
+| 36-42 | &ndash; | {% rod_link metal-mineral-detection %} | 10,500 gp
+| 43-53 | 01-04 | {% rod_link cancellation %} | 11,000 gp
+| 54-57 | 05-06 | {% rod_link metamagic-enlarge %} | 11,000 gp
+| 58-61 | 07-08 | {% rod_link metamagic-extend %} | 11,000 gp
+| 62-65 | 09-10 | {% rod_link metamagic-silent %} | 11,000 gp
+| 66-71 | 11-14 | {% rod_link wonder %} | 12,000 gp
+| 72-79 | 15-18 | {% rod_link python %} | 13,000 gp
+| 80-83 | &ndash; | {% rod_link metamagic-maximize %} (lesser) | 14,000 gp
+| 84-89 | 19-21 | {% rod_link flame-extinguishing %} | 15,000 gp
+| 90-97 | 22-25 | {% rod_link viper %} | 19,000 gp
+| &ndash; | 26-30 | {% rod_link enemy-detection %} | 23,500 gp
+| &ndash; | 31-36 | {% rod_link metamagic-enlarge %} (greater) | 24,500 gp
+| &ndash; | 37-42 | {% rod_link metamagic-extend %} (greater) | 24,500 gp
+| &ndash; | 43-48 | {% rod_link metamagic-silent %} (greater) | 24,500 gp
+| &ndash; | 49-53 | {% rod_link splendor %} | 25,000 gp
+| &ndash; | 54-58 | {% rod_link withering %} | 25,000 gp
+| 98-99 | 59-64 | {% rod_link metamagic-empower %} | 32,500 gp
+| &ndash; | 65-69 | {% rod_link thunder-lightning %} | 33,000 gp
+| 100 | 70-73 | {% rod_link metamagic-quicken %} (lesser) | 35,000 gp
+| &ndash; | 74-77 | {% rod_link negation %} | 37,000 gp
+| &ndash; | 78-80 | {% rod_link absorption  %}| 50,000 gp
+| &ndash; | 81-84 | {% rod_link flailing %} | 50,000 gp
+| &ndash; | 85-86 | {% rod_link metamagic-maximize %} | 54,000 gp
+| &ndash; | 87-88 | {% rod_link rulership  %}| 60,000 gp
+| &ndash; | 89-90 | {% rod_link security %} | 61,000 gp
+| &ndash; | 91-92 | {% rod_link lordly-might  %}| 70,000 gp
+| &ndash; | 93-94 | {% rod_link metamagic-empower %} (greater) | 73,000 gp
+| &ndash; | 95-96 | {% rod_link metamagic-quicken %} | 75,500 gp
+| &ndash; | xx-xx | {% rod_link potions %} | 77,000 gp
+| &ndash; | 97-98 | {% rod_link alertness %} | 85,000 gp
+| &ndash; | 99 | {% rod_link metamagic-maximize %} (greater) | 121,500 gp
+| &ndash; | 100 | {% rod_link metamagic-quicken %} (greater) | 170,000 gp
 {: #rods-table .table .table-bordered .table-hover .table-striped data-caption="Table: Rods" }

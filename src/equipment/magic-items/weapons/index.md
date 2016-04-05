@@ -197,7 +197,7 @@ In addition to enhancement bonuses, weapons can have one or more of the special 
 | &nbsp; | &nbsp; | 89-90 | {% magic_weapon_ability_link vorpal %}<sup>2</sup> | +5 bonus
 | 100 | 96-100 | 91-100 | Roll again twice<sup>4</sup> |<
 |===
-| <sup>1</sup>Add to enhancement bonus on Table: Weapons to determine total market price.<br><sup>2</sup>Piercing or slashing weapons only. Reroll if randomly generated for a bludgeoning weapon.<br>3 Bludgeoning weapons only. Reroll if randomly generated for a piercing or slashing weapon.<br>4 Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivalents can't total more than +10. |<|<|<|<
+| <sup>1</sup>Add to enhancement bonus on Table: Weapons to determine total market price.<br><sup>2</sup>Piercing or slashing weapons only. Reroll if randomly generated for a bludgeoning weapon.<br><sup>3</sup>Bludgeoning weapons only. Reroll if randomly generated for a piercing or slashing weapon.<br><sup>4</sup>Reroll if you get a duplicate special ability, an ability incompatible with an ability that you've already rolled, or if the extra ability puts you over the +10 limit. A weapon's enhancement bonus and special ability bonus equivalents can't total more than +10. |<|<|<|<
 {: #melee-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Magic Melee Weapon Special Abilities" }
 
 |---

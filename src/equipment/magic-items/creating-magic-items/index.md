@@ -46,7 +46,7 @@ Since different classes get access to certain spells at different levels, the pr
 Not all items adhere to these formulas directly. The reasons for this are several. First and foremost, these few formulas aren't enough to truly gauge the exact differences between items. The price of a magic item may be modified based on its actual worth. The formulas only provide a starting point. The pricing of scrolls assumes that, whenever possible, a wizard or cleric created it. Potions and wands follow the formulas exactly. Staffs follow the formulas closely, and other items require at least some judgment calls.
 
 |---
-| Magic Item | Feat | Item Cost | Spell Component Costs |<| Magic Supplies Cost | Base Price<sup>4</sup><sup>6</sup>
+| Magic Item | Feat | Item Cost | Spell Component Costs |<| Magic Supplies Cost | Base Price<sup>4</sup>,<sup>6</sup>
 |^|^|^| Material<sup>2</sup> | XP<sup>3</sup> |^|^
 |-|-|-|-|-|-|-
 | Armor | {% feat_link craft-magic-arms-and-armor %} | Masterwork armor | Cost &times; 50 (usually none) | &times; 50 (usually none) &times; 5 gp | &#189; the value on Table: Armor and Shields | Value on Table: Armor and Shields

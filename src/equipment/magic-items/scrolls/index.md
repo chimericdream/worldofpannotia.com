@@ -12,7 +12,7 @@ To protect it from wrinkling or tearing, a scroll is rolled up from both ends to
 
 **Activation:** To activate a scroll, a spellcaster must read the spell written on it. Doing so involves several steps and conditions.
 
-_Decipher the Writing:_ The writing on a scroll must be deciphered before a character can use it or know exactly what spell it contains. This requires a {% spell_link read-magic %} spell or a successful Spellcraft check (DC 20 + spell level).
+_Decipher the Writing:_ The writing on a scroll must be deciphered before a character can use it or know exactly what spell it contains. This requires a {% spell_link read-magic %} spell or a successful {% skill_link spellcraft %} check (DC 20 + spell level).
 
 Deciphering a scroll to determine its contents does not activate its magic unless it is a specially prepared cursed scroll. A character can decipher the writing on a scroll in advance so that he or she can proceed directly to the next step when the time comes to use the scroll.
 
@@ -20,7 +20,7 @@ _Activate the Spell:_ Activating a scroll requires reading the spell from the sc
 
 To have any chance of activating a scroll spell, the scroll user must meet the following requirements.
 
- * The spell must be of the correct type (arcane or divine). Arcane spellcasters (wizards, sorcerers, and bards) can only use scrolls containing arcane spells, and divine spellcasters (clerics, druids, paladins, and rangers) can only use scrolls containing divine spells. (The type of scroll a character creates is also determined by his or her class.)
+ * The spell must be of the correct type (arcane or divine). Arcane spellcasters (such as {% base_class_link wizard 'Wizards' %}, {% base_class_link sorcerer 'Sorcerers' %}, and {% base_class_link bard 'Bards' %}) can only use scrolls containing arcane spells, and divine spellcasters (such as {% base_class_link cleric 'Clerics' %}, {% base_class_link druid 'Druids' %}, {% base_class_link paladin 'Paladins' %}, and {% base_class_link ranger 'Rangers' %}) can only use scrolls containing divine spells. (The type of scroll a character creates is also determined by his or her class.)
  * The user must have the spell on his or her class list.
  * The user must have the requisite ability score.
 
@@ -40,11 +40,11 @@ _Scroll Mishaps:_ When a mishap occurs, the spell on the scroll has a reversed o
  * Some innocuous item or items appear in the spell's area.
  * Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the scroll user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell's maximum range, if the target has moved away.
 
-Several arcane spells are different in level for sorcerers and wizards than they are for bards. Such spells appear on the table at the level appropriate to a sorcerer or wizard (considered the default because bards typically don't involve themselves in scribing scrolls).
+Several arcane spells are different in level for {% base_class_link sorcerer 'Sorcerers' %} and {% base_class_link wizard 'Wizards' %} than they are for {% base_class_link bard 'Bards' %}. Such spells appear on the table at the level appropriate to a {% base_class_link sorcerer %} or {% base_class_link wizard %} (considered the default because {% base_class_link bard 'Bards' %} typically don't involve themselves in scribing scrolls).
 
-Likewise, some divine spells are different in level for clerics and druids than they are for paladins and rangers. Such spells appear at the level appropriate to a cleric or druid (considered the default because paladins and rangers typically don't involve themselves in scribing scrolls).
+Likewise, some divine spells are different in level for {% base_class_link cleric 'Clerics' %} and {% base_class_link druid 'Druids' %} than they are for {% base_class_link paladin 'Paladins' %} and {% base_class_link ranger 'Rangers' %}. Such spells appear at the level appropriate to a cleric or druid (considered the default because {% base_class_link paladin 'Paladins' %} and {% base_class_link ranger 'Rangers' %} typically don't involve themselves in scribing scrolls).
 
-If a divine spell is cast at different levels by clerics and druids, it appears at the level appropriate to a cleric (considered the default choice between clerics and druids).
+If a divine spell is cast at different levels by {% base_class_link cleric 'Clerics' %} and {% base_class_link druid 'Druids' %}, it appears at the level appropriate to a cleric (considered the default choice between {% base_class_link cleric 'Clerics' %} and {% base_class_link druid 'Druids' %}).
 
 Many spells are either arcane or divine, depending on the class of the caster. Such spells appear on both lists at the level appropriate to the class of the arcane or divine caster.
 
