@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            
+              The Basics &bull;
+            
+            
+            
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        
+        <style>
+            body {padding-top: 70px;}
+            :target::before {
+                background-attachment: scroll;
+                background-image: url("//worldofpannotia.com/assets/images/icons/sword-pointer.png");
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                content: " ";
+                display: block;
+                height: calc(70px + 1em);
+                margin-bottom: -1em;
+                margin-left: -110px;
+                margin-top: -70px;
+                padding-top: 70px;
+            }
+            p:target::before {
+                height: calc(70px + 1.45em);
+                margin-bottom: -1.45em;
+            }
+            table[data-caption]::before {
+                content: attr(data-caption);
+                display: table-caption;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                color: #777;
+                text-align: left;
+            }
+            tbody tr > td:empty {
+                background-color: #f9f9f9;
+                content: "&ndash;";
+                text-align: center;
+            }
+            .table-bordered > thead > tr > th,
+            .table-bordered > thead > tr > td {
+                border-bottom-width: 1px;
+            }
+            th > p:last-child,
+            td > p:last-child {
+                margin-bottom: 0;
+            }
+            .table > thead > tr > th[rowspan],
+            .table > tbody > tr > td[rowspan] {
+                vertical-align: middle;
+            }
+            .table-bordered > thead > tr:last-of-type {
+                border-bottom: 2px solid #ddd;
+            }
+            .table-bordered > tfoot > tr:first-of-type > td {
+                border-top-width: 2px;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                font-weight: bold;
+            }
+            .indented-list-group-item {
+                margin-left: 15px;
+            }
+            .panel > .list-group:last-child .indented-list-group-item:last-child,
+            .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
+                border-bottom-left-radius: 0px;
+            }
+            ol > li > ol > li {
+                list-style-type: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style-type: lower-roman;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="//worldofpannotia.com/">World of Pannotia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Game Rules <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/game-rules/" title="Basics">Basics</a></li>
+                        <li><a href="//worldofpannotia.com/game-rules/advancement/" title="Character Advancement">Character Advancement</a></li>
+                        <li><a href="//worldofpannotia.com/game-rules/races/" title="Races">Races</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/classes/" title="Base Classes">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/racial-classes/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/multiclass-characters/" title="Multiclass Characters">Multiclass Characters</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Skills" class="dropdown-toggle" data-toggle="dropdown" role="button">Skills</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/skills/" title="Skills Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/#using-skills" title="Using Skills">Using Skills</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/#skill-descriptions" title="Descriptions">Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/epic-skill-uses/" title="Epic Skill Uses">Epic Skill Uses</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Feats" class="dropdown-toggle" data-toggle="dropdown" role="button">Feats</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/feats/" title="Feats Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Feat Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Feat Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/general/" title="General">General</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/fighter/" title="Fighter">Fighter</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/item-creation/" title="Item Creation">Item Creation</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/metamagic/" title="Metamagic">Metamagic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/psionic/" title="Psionic">Psionic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/metapsionic/" title="Metapsionic">Metapsionic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/divine/" title="Divine">Divine</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/monster/" title="Monster">Monster</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/epic/" title="Epic">Epic</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/feat-index/" title="Feat Index">Feat Index</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Magic" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/magic/" title="Magic Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/spell-descriptions/" title="Spell Descriptions">Spell Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/arcane-spells/" title="Arcane Spells">Arcane Spells</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/divine-spells/" title="Divine Spells">Divine Spells</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/spell-index/" title="Spell Index">Spell Index</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/domains/" title="Domains">Domains</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Spell Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/bard/" title="Bard">Bard</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/cleric/" title="Cleric">Cleric</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/druid/" title="Druid">Druid</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/paladin/" title="Paladin">Paladin</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/ranger/" title="Ranger">Ranger</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/sorcerer-wizard/" title="Sorcerer/Wizard">Sorcerer/Wizard</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Spell Combinations" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Combinations</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/" title="Spell Combinations Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/developing-spell-combinations/" title="Developing Spell Combinations">Developing Spell Combinations</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/spell-combination-index/" title="Spell Combination Index">Spell Combination Index</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Epic Spells" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Spells</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/" title="Epic Spells Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/developing-epic-spells/" title="Developing Epic Spells">Developing Epic Spells</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/seeds/" title="Seeds">Seeds</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/spells/" title="Epic Spell Index">Epic Spell Index</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Psionics" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/" title="Psionics Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/power-descriptions/" title="Power Descriptions">Power Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/power-index/" title="Power Index">Power Index</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Power Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Power Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/psionics/power-lists/psion-wilder/" title="Psion/Wilder">Psion/Wilder</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/psionics/power-lists/psychic-warrior/" title="Psychic Warrior">Psychic Warrior</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/epic-powers/" title="Epic Powers">Epic Powers</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Adventuring" class="dropdown-toggle" data-toggle="dropdown" role="button">Adventuring</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Combat" class="dropdown-toggle" data-toggle="dropdown" role="button">Combat</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/" title="Combat Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/mechanics/" title="Mechanics">Mechanics</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury &amp; Death">Injury &amp; Death</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/adventuring/special-abilities/" title="Special Abilities">Special Abilities</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Carrying, Movement, &amp; Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, &amp; Exploration</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/exploration/" title="Exploration">Exploration</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Wilderness &amp; Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness &amp; Environment</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/weather/" title="Weather">Weather</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/environment/" title="The Environment">The Environment</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Traps" class="dropdown-toggle" data-toggle="dropdown" role="button">Traps</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/" title="Traps Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/designing-a-trap/" title="Designing a Trap">Designing a Trap</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/specific-traps/" title="Specific Traps">Specific Traps</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Divine Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Divine Rules</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-ranks/" title="Divine Ranks">Divine Ranks</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-characteristics/" title="Divine Characteristics">Divine Characteristics</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/salient-divine-abilities/" title="Salient Divine Abilities">Salient Divine Abilities</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/game-rules/epic-obstacles/" title="Epic Obstacles">Epic Obstacles</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Equipment <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/equipment/wealth-money/" title="Wealth &amp; Money">Wealth &amp; Money</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Goods &amp; Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods &amp; Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances &amp; Items">Special Substances &amp; Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/tools-skill-kits/" title="Tools &amp; Skill Kits">Tools &amp; Skill Kits</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, &amp; Lodging">Food, Drink, &amp; Lodging</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts &amp; Related Gear">Mounts &amp; Related Gear</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/transport/" title="Transport">Transport</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting &amp; Services">Spellcasting &amp; Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/armor/" title="Armor Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/armor/armor-descriptions/" title="Armor Descriptions">Armor Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/weapons/" title="Weapons Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/weapons/weapon-descriptions/" title="Weapon Descriptions">Weapon Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/armor/" title="Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/weapons/" title="Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/" title="Psionic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/creating-psionic-items/" title="Creating Psionic Items">Creating Psionic Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/armor/" title="Psionic Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/weapons/" title="Psionic Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Epic Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Magic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/" title="Epic Magic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/armor/" title="Epic Magical Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/weapons/" title="Epic Magical Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/rings/" title="Epic Rings">Rings</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/rods/" title="Epic Rods">Rods</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Epic Scrolls">Scrolls</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/staffs/" title="Epic Staffs">Staffs</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/wondrous-items/" title="Epic Wondrous Items">Wondrous Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Intelligent Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/intelligent-items/" title="Intelligent Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/intelligent-items/epic/" title="Epic Intelligent Items">Epic Intelligent Items</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/equipment/cursed-items/" title="Cursed Items">Cursed Items</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/artifacts/" title="Artifacts">Artifacts</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/generating-treasure/" title="Generating Treasure">Generating Treasure</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/monsters/" title="Monsters Introduction">Introduction</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/types-subtypes/" title="Types &amp; Subtypes">Types &amp; Subtypes</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/monsters-as-races/" title="Monsters as Races">Monsters as Races</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Entries" class="dropdown-toggle" data-toggle="dropdown" role="button">Entries</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/monsters/entries/monsters/" title="Monsters">Monsters</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/animals/" title="Animals">Animals</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/vermin/" title="Vermin">Vermin</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Creature Templates" class="dropdown-toggle" data-toggle="dropdown" role="button">Templates</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/monsters/templates/" title="Creature Templates Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/templates/template-index/" title="Creature Template Index">Template Index</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Setting <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/setting/" title="Introduction to Pannotia">Introduction</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Geography" class="dropdown-toggle" data-toggle="dropdown" role="button">Geography</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/geography/" title="Geography Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/regions-countries/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Cosmology" class="dropdown-toggle" data-toggle="dropdown" role="button">Cosmology</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/cosmology/" title="Cosmology Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/cosmology/planar-traits/" title="Planar Traits">Planar Traits</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Religion" class="dropdown-toggle" data-toggle="dropdown" role="button">Religion</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/religion/" title="Religion Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="The Divine Tournament" class="dropdown-toggle" data-toggle="dropdown" role="button">The Divine Tournament</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/" title="Introduction to the Divine Tournament">Introduction</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/history/" title="History">History</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/entering-the-tournament/" title="Entering the Tournament">Entering the Tournament</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Politics" class="dropdown-toggle" data-toggle="dropdown" role="button">Politics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/politics/" title="Politics Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/organizations/" title="Organizations">Organizations</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/npcs/" title="NPCs">NPCs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="History" class="dropdown-toggle" data-toggle="dropdown" role="button">History</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/history/eras/" title="Eras">Eras</a></li>
+                                <li><a href="//worldofpannotia.com/setting/history/events/" title="Events">Events</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
+                <li class="dropdown">
+                    <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Misc <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/misc/changes-from-dd-35/" title="Changes from D&amp;D 3.5">Changes from D&amp;D 3.5</a></li>
+                        <li><a href="//worldofpannotia.com/misc/credits/" title="Credits">Credits</a></li>
+                        <li><a href="//worldofpannotia.com/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+        
+        
+
+
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                
+                  
+                <li>Game Rules</li>
+                
+                <li class="active">The Basics</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container">
+    
+    <header class="row">
+        <h2 class="col-xs-12">The Basics</h2>
+    </header>
+    
+
+    <article id="main-content" class="row">
+        <div class="col-xs-12">
+            <h3 id="core-mechanic">The Core Mechanic</h3>
+
+<p>Whenever you attempt an action that has some chance of failure, you roll a twenty-sided die (d20). To determine if your character succeeds at a task you do this:</p>
+
+<ul>
+  <li>Roll a d20.</li>
+  <li>Add any relevant modifiers.</li>
+  <li>Compare the result to a target number.</li>
+</ul>
+
+<p>If the result equals or exceeds the target number, your character succeeds. If the result is lower than the target number, you fail.</p>
+
+<h4 id="dice">Dice</h4>
+
+<p>Dice rolls are described with expressions such as “3d4+3,” which means “roll three four-sided dice and add 3” (resulting in a number between 6 and 15). The first number tells you how many dice to roll (adding the results together). The number immediately after the “d” tells you the type of die to use. Any number after that indicates a quantity that is added or subtracted from the result.</p>
+
+<p><strong>d%:</strong> Percentile dice work a little differently. You generate a number between 1 and 100 by rolling two different ten-sided dice. One (designated before you roll) is the tens digit. The other is the ones digit. Two 0s represent 100.</p>
+
+<h4 id="rounding-fractions">Rounding Fractions</h4>
+
+<p>In general, if you wind up with a fraction, round down, even if the fraction is one-half or larger.</p>
+
+<p><em>Exception:</em> Certain rolls, such as damage and hit points, have a minimum of 1.</p>
+
+<h4 id="multiplying">Multiplying</h4>
+
+<p>Sometimes a rule makes you multiply a number or a die roll. As long as you’re applying a single multiplier, multiply the number normally. When two or more multipliers apply to any abstract value (such as a modifier or a die roll), however, combine them into a single multiple, with each extra multiple adding 1 less than its value to the first multiple. Thus, a double (×2) and a double (×2) applied to the same number results in a triple (×3, because 2 + 1 = 3).</p>
+
+<p>When applying multipliers to real-world values (such as weight or distance), normal rules of math apply instead. A creature whose size doubles (thus multiplying its weight by 8) and then is turned to stone (which would multiply its weight by a factor of roughly 3) now weighs about 24 times normal, not 10 times normal. Similarly, a blinded creature attempting to negotiate difficult terrain would count each square as 4 squares (doubling the cost twice, for a total multiplier of ×4), rather than as 3 squares (adding 100% twice).</p>
+
+<h3 id="ability-scores">Ability Scores</h3>
+
+<h4 id="ability-modifiers">Ability Modifiers</h4>
+
+<p>Each ability, after changes made because of race, has a modifier ranging from -5 to +5. Table: Ability Modifiers and Bonus Spells shows the modifier for each score. It also shows bonus spells, which you’ll need to know about if your character is a spellcaster.</p>
+
+<p>The modifier is the number you apply to the die roll when your character tries to do something related tothat ability. You also use the modifier with some numbers that aren’t die rolls. A positive modifier is called a bonus, and a negative modifier is called a penalty.</p>
+
+<table id="ability-scores-spells-table" class="table table-bordered table-hover table-striped" data-caption="Table: Ability Modifiers and Bonus Spells">
+<thead>
+<tr><th rowspan="2"><p>Score</p>
+</th><th rowspan="2"><p>Modifier</p>
+</th><th colspan="10" class="text-center"><p>Bonus Spells (by Spell Level)</p>
+</th></tr>
+<tr><th><p>0</p>
+</th><th><p>1st</p>
+</th><th><p>2nd</p>
+</th><th><p>3rd</p>
+</th><th><p>4th</p>
+</th><th><p>5th</p>
+</th><th><p>6th</p>
+</th><th><p>7th</p>
+</th><th><p>8th</p>
+</th><th><p>9th</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>1</p>
+</td><td><p>-5</p>
+</td><td colspan="10" class="text-center"><p>Can’t cast spells tied to this ability</p>
+</td></tr>
+<tr><td><p>2-3</p>
+</td><td><p>-4</p>
+</td><td colspan="10" class="text-center"><p>Can’t cast spells tied to this ability</p>
+</td></tr>
+<tr><td><p>4-5</p>
+</td><td><p>-3</p>
+</td><td colspan="10" class="text-center"><p>Can’t cast spells tied to this ability</p>
+</td></tr>
+<tr><td><p>6-7</p>
+</td><td><p>-2</p>
+</td><td colspan="10" class="text-center"><p>Can’t cast spells tied to this ability</p>
+</td></tr>
+<tr><td><p>8-9</p>
+</td><td><p>-1</p>
+</td><td colspan="10" class="text-center"><p>Can’t cast spells tied to this ability</p>
+</td></tr>
+<tr><td><p>10-11</p>
+</td><td><p>0</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>12-13</p>
+</td><td><p>+1</p>
+</td><td><p>–</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>14-15</p>
+</td><td><p>+2</p>
+</td><td><p>–</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>16-17</p>
+</td><td><p>+3</p>
+</td><td><p>–</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>18-19</p>
+</td><td><p>+4</p>
+</td><td><p>–</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>20-21</p>
+</td><td><p>+5</p>
+</td><td><p>–</p>
+</td><td><p>2</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>22-23</p>
+</td><td><p>+6</p>
+</td><td><p>–</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>24-25</p>
+</td><td><p>+7</p>
+</td><td><p>–</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>26-27</p>
+</td><td><p>+8</p>
+</td><td><p>–</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>28-29</p>
+</td><td><p>+9</p>
+</td><td><p>–</p>
+</td><td><p>3</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td></tr>
+<tr><td><p>30-31</p>
+</td><td><p>+10</p>
+</td><td><p>–</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td></tr>
+<tr><td><p>32-33</p>
+</td><td><p>+11</p>
+</td><td><p>–</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>1</p>
+</td><td><p>1</p>
+</td></tr>
+<tr><td><p>34-35</p>
+</td><td><p>+12</p>
+</td><td><p>–</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>1</p>
+</td></tr>
+<tr><td><p>36-37</p>
+</td><td><p>+13</p>
+</td><td><p>–</p>
+</td><td><p>4</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td></tr>
+<tr><td><p>38-39</p>
+</td><td><p>+14</p>
+</td><td><p>–</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td></tr>
+<tr><td><p>40-41</p>
+</td><td><p>+15</p>
+</td><td><p>–</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>2</p>
+</td><td><p>2</p>
+</td></tr>
+<tr><td><p>42-43</p>
+</td><td><p>+16</p>
+</td><td><p>–</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>2</p>
+</td></tr>
+<tr><td><p>44-45</p>
+</td><td><p>+17</p>
+</td><td><p>–</p>
+</td><td><p>5</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>4</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td><td><p>3</p>
+</td></tr>
+<tr><td colspan="12"><p>etc…</p>
+</td></tr>
+</tbody>
+</table>
+
+<h4 id="abilities-spellcasters">Abilities and Spellcasters</h4>
+
+<p>The ability that governs bonus spells depends on what type of spellcaster your character is: Intelligence for wizards; Wisdom for clerics, druids, paladins, and rangers; or Charisma for sorcerers and bards. In addition to having a high ability score, a spellcaster must be of high enough class level to be able to cast spells of a given spell level. (See the class descriptions for details.)</p>
+
+<h4 id="abilities-over-time">Abilities Over Time</h4>
+
+<p>As your character gains experience and levels, your abilities will slowly increase. This represents the concept that characters start out as ordinary citizens of the world, but are truly heroic at high levels.</p>
+
+<p>Your character gains a +1 increase to a single ability at levels 2, 6, 10, 14 and 18. At levels 4, 8, 12, 16, 20, and so on, your character gains a +1 increase to all six abilities.</p>
+
+<h3 id="abilities">The Abilities</h3>
+
+<p>Each ability partially describes your character and affects some of his or her actions.</p>
+
+<h4 id="str">Strength (STR)</h4>
+
+<p>Strength measures your character’s muscle and physical power. This ability is especially important for fighters, barbarians, paladins, rangers, and monks because it helps them prevail in combat. Strength also limits the amount of equipment your character can carry.</p>
+
+<p>You apply your character’s Strength modifier to:</p>
+
+<ul>
+  <li>Melee attack rolls.</li>
+  <li>Damage rolls when using a melee weapon or a thrown weapon (including a sling). (<em>Exceptions:</em> Off-hand attacks receive only one-half the character’s Strength bonus, while two-handed attacks receive one and a half times the Strength bonus. A Strength penalty, but not a bonus, applies to attacks made with a bow that is not a composite bow.)</li>
+  <li>Climb, Jump, and Swim checks. These are the skills that have Strength as their key ability.</li>
+  <li>Strength checks (for breaking down doors and the like).</li>
+</ul>
+
+<h4 id="dex">Dexterity (DEX)</h4>
+
+<p>Dexterity measures hand-eye coordination, agility, reflexes, and balance. This ability is the most important one for rogues, but it’s also high on the list for characters who typically wear light or medium armor (rangers and barbarians) or no armor at all (monks, wizards, and sorcerers), and for anyone who wants to be a skilled archer.</p>
+
+<p>You apply your character’s Dexterity modifier to:</p>
+
+<ul>
+  <li>Ranged attack rolls, including those for attacks made with bows, crossbows, throwing axes, and other ranged weapons.</li>
+  <li>Armor Class (AC), provided that the character can react to the attack.</li>
+  <li>Reflex saving throws, for avoiding fireballs and other attacks that you can escape by moving quickly.</li>
+  <li>Balance, Escape Artist, Hide, Move Silently, Open Lock, Ride, Sleight of Hand, Tumble, and Use Rope checks. These are the skills that have Dexterity as their key ability.</li>
+</ul>
+
+<h4 id="con">Constitution (CON)</h4>
+
+<p>Constitution represents your character’s health and stamina. A Constitution bonus increases a character’s hit points, so the ability is important for all classes.</p>
+
+<p>You apply your character’s Constitution modifier to:</p>
+
+<ul>
+  <li>Each roll of a Hit Die (though a penalty can never drop a result below 1–that is, a character always gains at least 1 hit point each time he or she advances in level).</li>
+  <li>Fortitude saving throws, for resisting poison and similar threats.</li>
+  <li>Concentration checks. Concentration is a skill, important to spellcasters, that has Constitution as its key ability.</li>
+</ul>
+
+<p>If a character’s Constitution score changes enough to alter his or her Constitution modifier, the character’s hit points also increase or decrease accordingly.</p>
+
+<h4 id="int">Intelligence (INT)</h4>
+
+<p>Intelligence determines how well your character learns and reasons. This ability is important for wizards because it affects how many spells they can cast, how hard their spells are to resist, and how powerful their spells can be. It’s also important for any character who wants to have a wide assortment of skills.</p>
+
+<p>You apply your character’s Intelligence modifier to:</p>
+
+<ul>
+  <li>The number of languages your character knows at the start of the game.</li>
+  <li>The number of skill points gained each level. (But your character always gets at least 1 skill point per level.)</li>
+  <li>Appraise, Craft, Decipher Script, Disable Device, Forgery, Knowledge, Search, and Spellcraft checks. These are the skills that have Intelligence as their key ability.</li>
+</ul>
+
+<p>A wizard gains bonus spells based on her Intelligence score. The minimum Intelligence score needed to cast a wizard spell is 10 + the spell’s level.</p>
+
+<p>An animal has an Intelligence score of 1 or 2. A creature of humanlike intelligence has a score of at least 3.</p>
+
+<h4 id="wis">Wisdom (WIS)</h4>
+
+<p>Wisdom describes a character’s willpower, common sense, perception, and intuition. While Intelligence represents one’s ability to analyze information, Wisdom represents being in tune with and aware of one’s surroundings. Wisdom is the most important ability for clerics and druids, and it is also important for paladins and rangers. If you want your character to have acute senses, put a high score in Wisdom. Every creature has a Wisdom score.</p>
+
+<p>You apply your character’s Wisdom modifier to:</p>
+
+<ul>
+  <li>Will saving throws (for negating the effect of charm person and other spells).</li>
+  <li>Heal, Listen, Profession, Sense Motive, Spot, and Survival checks. These are the skills that have Wisdom as their key ability.</li>
+</ul>
+
+<p>Clerics, druids, paladins, and rangers get bonus spells based on their Wisdom scores. The minimum Wisdom score needed to cast a cleric, druid, paladin, or ranger spell is 10 + the spell’s level.</p>
+
+<h4 id="cha">Charisma (CHA)</h4>
+
+<p>Charisma measures a character’s force of personality, persuasiveness, personal magnetism, ability to lead, and physical attractiveness. This ability represents actual strength of personality, not merely how one is perceived by others in a social setting. Charisma is most important for paladins, sorcerers, and bards. It is also important for clerics, since it affects their ability to turn undead. Every creature has a Charisma score.</p>
+
+<p>You apply your character’s Charisma modifier to:</p>
+
+<ul>
+  <li>Bluff, Diplomacy, Disguise, Gather Information, Handle Animal, Intimidate, Perform, and Use Magic Device checks. These are the skills that have Charisma as their key ability.</li>
+  <li>Checks that represent attempts to influence others.</li>
+  <li>Turning checks for clerics and paladins attempting to turn zombies, vampires, and other undead.</li>
+</ul>
+
+<p>Sorcerers and bards get bonus spells based on their Charisma scores. The minimum Charisma score needed to cast a sorcerer or bard spell is 10 + the spell’s level.</p>
+
+<p>When an ability score changes, all attributes associated with that score change accordingly. A character does not retroactively get additional skill points for previous levels if she increases her intelligence.</p>
+
+<h3 id="description">Description</h3>
+
+<h4 id="alignment">Alignment</h4>
+
+<p>A creature’s general moral and personal attitudes are represented by its alignment: lawful good, neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or chaotic evil.</p>
+
+<p>Alignment is a tool for developing your character’s identity. It is not a straitjacket for restricting your character. Each alignment represents a broad range of personality types or personal philosophies, so two characters of the same alignment can still be quite different from each other. In addition, few people are completely consistent.</p>
+
+<h4 id="good-vs-evil">Good vs. Evil</h4>
+
+<p>Good characters and creatures protect innocent life. Evil characters and creatures debase or destroy innocent life, whether for fun or profit.</p>
+
+<p>“Good” implies altruism, respect for life, and a concern for the dignity of sentient beings. Good characters make personal sacrifices to help others.</p>
+
+<p>“Evil” implies hurting, oppressing, and killing others. Some evil creatures simply have no compassion for others and kill without qualms if doing so is convenient. Others actively pursue evil, killing for sport or out of duty to some evil deity or master.</p>
+
+<p>People who are neutral with respect to good and evil have compunctions against killing the innocent but lack the commitment to make sacrifices to protect or help others. Neutral people are committed to others by personal relationships.</p>
+
+<p>Being good or evil can be a conscious choice. For most people, though, being good or evil is an attitude that one recognizes but does not choose. Being neutral on the good–evil axis usually represents a lack of commitment one way or the other, but for some it represents a positive commitment to a balanced view. While acknowledging that good and evil are objective states, not just opinions, these folk maintain that a balance between the two is the proper place for people, or at least for them.</p>
+
+<p>Animals and other creatures incapable of moral action are neutral rather than good or evil. Even deadly vipers and tigers that eat people are neutral because they lack the capacity for morally right or wrong behavior.</p>
+
+<h4 id="law-vs-chaos">Law vs. Chaos</h4>
+
+<p>Lawful characters tell the truth, keep their word, respect authority, honor tradition, and judge those who fall short of their duties.</p>
+
+<p>Chaotic characters follow their consciences, resent being told what to do, favor new ideas over tradition, and do what they promise if they feel like it.</p>
+
+<p>“Law” implies honor, trustworthiness, obedience to authority, and reliability. On the downside, lawfulness can include close-mindedness, reactionary adherence to tradition, judgmentalness, and a lack of adaptability. Those who consciously promote lawfulness say that only lawful behavior creates a society in which people can depend on each other and make the right decisions in full confidence that others will act as they should.</p>
+
+<p>“Chaos” implies freedom, adaptability, and flexibility. On the downside, chaos can include recklessness, resentment toward legitimate authority, arbitrary actions, and irresponsibility. Those who promote chaotic behavior say that only unfettered personal freedom allows people to express themselves fully and lets society benefit from the potential that its individuals have within them.</p>
+
+<p>Someone who is neutral with respect to law and chaos has a normal respect for authority and feels neither a compulsion to obey nor a compulsion to rebel. She is honest but can be tempted into lying or deceiving others.</p>
+
+<p>Devotion to law or chaos may be a conscious choice, but more often it is a personality trait that is recognized rather than being chosen. Neutrality on the lawful–chaotic axis is usually simply a middle state, a state of not feeling compelled toward one side or the other. Some few such neutrals, however, espouse neutrality as superior to law or chaos, regarding each as an extreme with its own blind spots and drawbacks.</p>
+
+<p>Animals and other creatures incapable of moral action are neutral. Dogs may be obedient and cats free-spirited, but they do not have the moral capacity to be truly lawful or chaotic.</p>
+
+<h4 id="nine-alignments">The Nine Alignments</h4>
+
+<p>Nine distinct alignments define all the possible combinations of the lawful–chaotic axis with the good–evil axis. Each alignment description below depicts a typical character of that alignment. Remember that individuals vary from this norm, and that a given character may act more or less in accord with his or her alignment from day to day. Use these descriptions as guidelines, not as scripts.</p>
+
+<p>The first six alignments, lawful good through chaotic neutral, are the standard alignments for player characters. The three evil alignments are for monsters and villains.</p>
+
+<p><strong>Lawful Good, “Crusader”:</strong> A lawful good character acts as a good person is expected or required to act. She combines a commitment to oppose evil with the discipline to fight relentlessly. She tells the truth, keeps her word, helps those in need, and speaks out against injustice. A lawful good character hates to see the guilty go unpunished.</p>
+
+<p>Lawful good is the best alignment you can be because it combines honor and compassion.</p>
+
+<p><strong>Neutral Good, “Benefactor”:</strong> A neutral good character does the best that a good person can do. He is devoted to helping others. He works with kings and magistrates but does not feel beholden to them..</p>
+
+<p>Neutral good is the best alignment you can be because it means doing what is good without bias for or against order.</p>
+
+<p><strong>Chaotic Good, “Rebel”:</strong> A chaotic good character acts as his conscience directs him with little regard for what others expect of him. He makes his own way, but he’s kind and benevolent. He believes in goodness and right but has little use for laws and regulations. He hates it when people try to intimidate others and tell them what to do. He follows his own moral compass, which, although good, may not agree with that of society.</p>
+
+<p>Chaotic good is the best alignment you can be because it combines a good heart with a free spirit.</p>
+
+<p><strong>Lawful Neutral, “Judge”:</strong> A lawful neutral character acts as law, tradition, or a personal code directs her. Order and organization are paramount to her. She may believe in personal order and live by a code or standard, or she may believe in order for all and favor a strong, organized government.</p>
+
+<p>Lawful neutral is the best alignment you can be because it means you are reliable and honorable without being a zealot.</p>
+
+<p><strong>Neutral, “Undecided”:</strong> A neutral character does what seems to be a good idea. She doesn’t feel strongly one way or the other when it comes to good vs. evil or law vs. chaos. Most neutral characters exhibit a lack of conviction or bias rather than a commitment to neutrality. Such a character thinks of good as better than evil—after all, she would rather have good neighbors and rulers than evil ones. Still, she’s not personally committed to upholding good in any abstract or universal way.</p>
+
+<p>Some neutral characters, on the other hand, commit themselves philosophically to neutrality. They see good, evil, law, and chaos as prejudices and dangerous extremes. They advocate the middle way of neutrality as the best, most balanced road in the long run.</p>
+
+<p>Neutral is the best alignment you can be because it means you act naturally, without prejudice or compulsion.</p>
+
+<p><strong>Chaotic Neutral, “Free Spirit”:</strong> A chaotic neutral character follows his whims. He is an individualist first and last. He values his own liberty but doesn’t strive to protect others’ freedom. He avoids authority, resents restrictions, and challenges traditions. A chaotic neutral character does not intentionally disrupt organizations as part of a campaign of anarchy. To do so, he would have to be motivated either by good (and a desire to liberate others) or evil (and a desire to make those different from himself suffer). A chaotic neutral character may be unpredictable, but his behavior is not totally random. He is not as likely to jump off a bridge as to cross it.</p>
+
+<p>Chaotic neutral is the best alignment you can be because it represents true freedom from both society’s restrictions and a do-gooder’s zeal.</p>
+
+<p><strong>Lawful Evil, “Dominator”:</strong> A lawful evil villain methodically takes what he wants within the limits of his code of conduct without regard for whom it hurts. He cares about tradition, loyalty, and order but not about freedom, dignity, or life. He plays by the rules but without mercy or compassion. He is comfortable in a hierarchy and would like to rule, but is willing to serve. He condemns others not according to their actions but according to race, religion, homeland, or social rank. He is loath to break laws or promises.</p>
+
+<p>This reluctance comes partly from his nature and partly because he depends on order to protect himself from those who oppose him on moral grounds. Some lawful evil villains have particular taboos, such as not killing in cold blood (but having underlings do it) or not letting children come to harm (if it can be helped). They imagine that these compunctions put them above unprincipled villains.</p>
+
+<p>Some lawful evil people and creatures commit themselves to evil with a zeal like that of a crusader committed to good. Beyond being willing to hurt others for their own ends, they take pleasure in spreading evil as an end unto itself. They may also see doing evil as part of a duty to an evil deity or master.</p>
+
+<p>Lawful evil is sometimes called “diabolical,” because devils are the epitome of lawful evil.</p>
+
+<p>Lawful evil is the most dangerous alignment because it represents methodical, intentional, and frequently successful evil.</p>
+
+<p><strong>Neutral Evil, “Malefactor”:</strong> A neutral evil villain does whatever she can get away with. She is out for herself, pure and simple. She sheds no tears for those she kills, whether for profit, sport, or convenience. She has no love of order and holds no illusion that following laws, traditions, or codes would make her any better or more noble. On the other hand, she doesn’t have the restless nature or love of conflict that a chaotic evil villain has.</p>
+
+<p>Some neutral evil villains hold up evil as an ideal, committing evil for its own sake. Most often, such villains are devoted to evil deities or secret societies.</p>
+
+<p>Neutral evil is the most dangerous alignment because it represents pure evil without honor and without variation.</p>
+
+<p><strong>Chaotic Evil, “Destroyer”:</strong> A chaotic evil character does whatever his greed, hatred, and lust for destruction drive him to do. He is hot-tempered, vicious, arbitrarily violent, and unpredictable. If he is simply out for whatever he can get, he is ruthless and brutal. If he is committed to the spread of evil and chaos, he is even worse. Thankfully, his plans are haphazard, and any groups he joins or forms are poorly organized. Typically, chaotic evil people can be made to work together only by force, and their leader lasts only as long as he can thwart attempts to topple or assassinate him.</p>
+
+<p>Chaotic evil is sometimes called “demonic” because demons are the epitome of chaotic evil.</p>
+
+<p>Chaotic evil is the most dangerous alignment because it represents the destruction not only of beauty and life but also of the order on which beauty and life depend.</p>
+
+<h4 id="vital-statistics">Vital Statistics</h4>
+
+<h4 id="age">Age</h4>
+
+<p>You can choose or randomly generate your character’s age. If you choose it, it must be at least the minimum age for the character’s race and class (see Table: Random Starting Ages). Your character’s minimum starting age is the adulthood age of his or her race plus the number of dice indicated in the entry corresponding to the character’s race and class on Table: Random Starting Ages.</p>
+
+<p>Alternatively, refer to Table: Random Starting Ages and roll dice to determine how old your character is.</p>
+
+<table id="random-starting-ages-table" class="table table-bordered table-hover table-striped" data-caption="Table: Random Starting Ages">
+<thead>
+<tr><th><p>Race</p>
+</th><th><p>Adulthood</p>
+</th><th><p>Barbarian<br />Rogue<br />Sorcerer<br />Soulknife<br />Wilder</p>
+</th><th><p>Bard<br />Fighter<br />Paladin<br />Ranger<br />Psychic Warrior</p>
+</th><th><p>Cleric<br />Druid<br />Monk<br />Psion<br />Wizard</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Human</p>
+</td><td><p>15 years</p>
+</td><td><p>+1d4</p>
+</td><td><p>+1d6</p>
+</td><td><p>+2d6</p>
+</td></tr>
+<tr><td><p>Dromite</p>
+</td><td><p>13 years</p>
+</td><td><p>+1d4</p>
+</td><td><p>+1d6</p>
+</td><td><p>+2d6</p>
+</td></tr>
+<tr><td><p>Duergar</p>
+</td><td><p>40 years</p>
+</td><td><p>+3d6</p>
+</td><td><p>+5d6</p>
+</td><td><p>+7d6</p>
+</td></tr>
+<tr><td><p>Dwarf</p>
+</td><td><p>40 years</p>
+</td><td><p>+3d6</p>
+</td><td><p>+5d6</p>
+</td><td><p>+7d6</p>
+</td></tr>
+<tr><td><p>Elan</p>
+</td><td><p>20 years</p>
+</td><td><p>+2d4</p>
+</td><td><p>+2d6</p>
+</td><td><p>+3d6</p>
+</td></tr>
+<tr><td><p>Elf</p>
+</td><td><p>110 years</p>
+</td><td><p>+4d6</p>
+</td><td><p>+6d6</p>
+</td><td><p>+10d6</p>
+</td></tr>
+<tr><td><p>Faldirin</p>
+</td><td><p>30 years</p>
+</td><td><p>+2d6</p>
+</td><td><p>+4d6</p>
+</td><td><p>+5d6</p>
+</td></tr>
+<tr><td><p>Gnome</p>
+</td><td><p>40 years</p>
+</td><td><p>+4d6</p>
+</td><td><p>+6d6</p>
+</td><td><p>+9d6</p>
+</td></tr>
+<tr><td><p>Half-elf</p>
+</td><td><p>20 years</p>
+</td><td><p>+1d6</p>
+</td><td><p>+2d6</p>
+</td><td><p>+3d6</p>
+</td></tr>
+<tr><td><p>Half-giant</p>
+</td><td><p>30 years</p>
+</td><td><p>+3d6</p>
+</td><td><p>+2d6</p>
+</td><td><p>+4d6</p>
+</td></tr>
+<tr><td><p>Half-orc</p>
+</td><td><p>14 years</p>
+</td><td><p>+1d4</p>
+</td><td><p>+1d6</p>
+</td><td><p>+2d6</p>
+</td></tr>
+<tr><td><p>Halfling</p>
+</td><td><p>20 years</p>
+</td><td><p>+2d4</p>
+</td><td><p>+3d6</p>
+</td><td><p>+4d6</p>
+</td></tr>
+<tr><td><p>Maenad</p>
+</td><td><p>40 years</p>
+</td><td><p>+1d6</p>
+</td><td><p>+4d6</p>
+</td><td><p>+6d6</p>
+</td></tr>
+<tr><td><p>Xeph</p>
+</td><td><p>18 years</p>
+</td><td><p>+1d4</p>
+</td><td><p>+2d4</p>
+</td><td><p>+2d6</p>
+</td></tr>
+</tbody>
+</table>
+
+<p>With age, a character’s physical ability scores decrease and his or her mental ability scores increase (see Table: Aging Effects). The effects of each aging step are cumulative. However, none of a character’s ability scores can be reduced below 1 in this way.</p>
+
+<p>When a character reaches venerable age, secretly roll his or her maximum age, which is the number from the Venerable column on Table: Aging Effects plus the result of the dice roll indicated on the Maximum Age column on that table, and records the result, which the player does not know. A character who reaches his or her maximum age dies of old age at some time during the following year.</p>
+
+<p>The maximum ages are for player characters. Most people in the world at large die from pestilence, accidents, infections, or violence before getting to venerable age.</p>
+
+<table id="aging-effects-table" class="table table-bordered table-hover table-striped" data-caption="Table: Aging Effects">
+<thead>
+<tr><th><p>Race</p>
+</th><th><p>Middle Age<sup>1</sup></p>
+</th><th><p>Old<sup>2</sup></p>
+</th><th><p>Venerable<sup>3</sup></p>
+</th><th><p>Maximum Age</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Human</p>
+</td><td><p>35 years</p>
+</td><td><p>53 years</p>
+</td><td><p>70 years</p>
+</td><td><p>+2d20 years</p>
+</td></tr>
+<tr><td><p>Dromite</p>
+</td><td><p>30 years</p>
+</td><td><p>55 years</p>
+</td><td><p>75 years</p>
+</td><td><p>+2d20 years</p>
+</td></tr>
+<tr><td><p>Duergar</p>
+</td><td><p>125 years</p>
+</td><td><p>188 years</p>
+</td><td><p>250 years</p>
+</td><td><p>+2d% years</p>
+</td></tr>
+<tr><td><p>Dwarf</p>
+</td><td><p>125 years</p>
+</td><td><p>188 years</p>
+</td><td><p>250 years</p>
+</td><td><p>+2d% years</p>
+</td></tr>
+<tr><td><p>Elan</p>
+</td><td><p>200 years</p>
+</td><td><p>400 years</p>
+</td><td><p>1,000 years</p>
+</td><td><p>+10d% years</p>
+</td></tr>
+<tr><td><p>Elf</p>
+</td><td><p>175 years</p>
+</td><td><p>263 years</p>
+</td><td><p>350 years</p>
+</td><td><p>+4d% years</p>
+</td></tr>
+<tr><td><p>Faldirin</p>
+</td><td><p>60 years</p>
+</td><td><p>85 years</p>
+</td><td><p>110 years</p>
+</td><td><p>+2d20 years</p>
+</td></tr>
+<tr><td><p>Gnome</p>
+</td><td><p>100 years</p>
+</td><td><p>150 years</p>
+</td><td><p>200 years</p>
+</td><td><p>+3d% years</p>
+</td></tr>
+<tr><td><p>Half-elf</p>
+</td><td><p>62 years</p>
+</td><td><p>93 years</p>
+</td><td><p>125 years</p>
+</td><td><p>+3d20 years</p>
+</td></tr>
+<tr><td><p>Half-giant</p>
+</td><td><p>60 years</p>
+</td><td><p>80 years</p>
+</td><td><p>120 years</p>
+</td><td><p>+4d% years</p>
+</td></tr>
+<tr><td><p>Half-orc</p>
+</td><td><p>30 years</p>
+</td><td><p>45 years</p>
+</td><td><p>60 years</p>
+</td><td><p>+2d10 years</p>
+</td></tr>
+<tr><td><p>Halfling</p>
+</td><td><p>50 years</p>
+</td><td><p>75 years</p>
+</td><td><p>100 years</p>
+</td><td><p>+5d20 years</p>
+</td></tr>
+<tr><td><p>Maenad</p>
+</td><td><p>90 years</p>
+</td><td><p>150 years</p>
+</td><td><p>220 years</p>
+</td><td><p>+2d% years</p>
+</td></tr>
+<tr><td><p>Xeph</p>
+</td><td><p>45 years</p>
+</td><td><p>85 years</p>
+</td><td><p>120 years</p>
+</td><td><p>+2d20 years</p>
+</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="5"><p><sup>1</sup> At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br /><sup>2</sup> At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br /><sup>3</sup> At venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha</p>
+</td></tr>
+</tfoot>
+</table>
+
+<h4 id="height-weight">Height and Weight</h4>
+
+<p>The dice roll given in the Height Modifier column determines the character’s extra height beyond the base height. That same number multiplied by the dice roll or quantity given in the Weight Modifier column determines the character’s extra weight beyond the base weight.</p>
+
+<table id="random-height-weight-table" class="table table-bordered table-hover table-striped" data-caption="Table: Random Height and Weight">
+<thead>
+<tr><th><p>Race</p>
+</th><th><p>Base Height</p>
+</th><th><p>Height Modifier</p>
+</th><th><p>Base Weight</p>
+</th><th><p>Weight Modifier</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Human, male</p>
+</td><td><p>4’ 10”</p>
+</td><td><p>+2d10</p>
+</td><td><p>120 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Human, female</p>
+</td><td><p>4’ 5”</p>
+</td><td><p>+2d10</p>
+</td><td><p>85 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Dromite</p>
+</td><td><p>2’ 8”</p>
+</td><td><p>2d4</p>
+</td><td><p>30 lb.</p>
+</td><td><p>× 1 lb.</p>
+</td></tr>
+<tr><td><p>Duergar, male</p>
+</td><td><p>3’ 9”</p>
+</td><td><p>2d4</p>
+</td><td><p>110 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Duergar, female</p>
+</td><td><p>3’ 7”</p>
+</td><td><p>2d4</p>
+</td><td><p>80 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Dwarf, male</p>
+</td><td><p>3’ 9”</p>
+</td><td><p>+2d4</p>
+</td><td><p>130 lb.</p>
+</td><td><p>× 2d6 lb.</p>
+</td></tr>
+<tr><td><p>Dwarf, female</p>
+</td><td><p>3’ 7”</p>
+</td><td><p>+2d4</p>
+</td><td><p>100 lb.</p>
+</td><td><p>× 2d6 lb.</p>
+</td></tr>
+<tr><td><p>Elan, male</p>
+</td><td><p>4’ 10”</p>
+</td><td><p>2d10</p>
+</td><td><p>120 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Elan, female</p>
+</td><td><p>4’ 5”</p>
+</td><td><p>2d10</p>
+</td><td><p>85 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Elf, male</p>
+</td><td><p>4’ 5”</p>
+</td><td><p>+2d6</p>
+</td><td><p>85 lb.</p>
+</td><td><p>× 1d6 lb.</p>
+</td></tr>
+<tr><td><p>Elf, female</p>
+</td><td><p>4’ 5”</p>
+</td><td><p>+2d6</p>
+</td><td><p>80 lb.</p>
+</td><td><p>× 1d6 lb.</p>
+</td></tr>
+<tr><td><p>Faldirin, male</p>
+</td><td><p>4’ 10”</p>
+</td><td><p>+2d12</p>
+</td><td><p>100 lb.</p>
+</td><td><p>× 1d6 lb.</p>
+</td></tr>
+<tr><td><p>Faldirin, female</p>
+</td><td><p>4’ 5”</p>
+</td><td><p>+2d12</p>
+</td><td><p>90 lb.</p>
+</td><td><p>× 1d6 lb.</p>
+</td></tr>
+<tr><td><p>Gnome, male</p>
+</td><td><p>3’ 0”</p>
+</td><td><p>+2d4</p>
+</td><td><p>40 lb.</p>
+</td><td><p>× 1 lb.</p>
+</td></tr>
+<tr><td><p>Gnome, female</p>
+</td><td><p>2’ 10”</p>
+</td><td><p>+2d4</p>
+</td><td><p>35 lb.</p>
+</td><td><p>× 1 lb.</p>
+</td></tr>
+<tr><td><p>Half-elf, male</p>
+</td><td><p>4’ 7”</p>
+</td><td><p>+2d8</p>
+</td><td><p>100 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Half-elf, female</p>
+</td><td><p>4’ 5”</p>
+</td><td><p>+2d8</p>
+</td><td><p>80 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Half-giant, male</p>
+</td><td><p>6’ 4”</p>
+</td><td><p>2d12</p>
+</td><td><p>220 lb.</p>
+</td><td><p>× 2d6 lb.</p>
+</td></tr>
+<tr><td><p>Half-giant, female</p>
+</td><td><p>6’ 1”</p>
+</td><td><p>2d12</p>
+</td><td><p>180 lb.</p>
+</td><td><p>× 2d6 lb.</p>
+</td></tr>
+<tr><td><p>Half-orc, male</p>
+</td><td><p>4’ 10”</p>
+</td><td><p>+2d12</p>
+</td><td><p>150 lb.</p>
+</td><td><p>× 2d6 lb.</p>
+</td></tr>
+<tr><td><p>Half-orc, female</p>
+</td><td><p>4’ 5”</p>
+</td><td><p>+2d12</p>
+</td><td><p>110 lb.</p>
+</td><td><p>× 2d6 lb.</p>
+</td></tr>
+<tr><td><p>Halfling, male</p>
+</td><td><p>2’ 8”</p>
+</td><td><p>+2d4</p>
+</td><td><p>30 lb.</p>
+</td><td><p>× 1 lb.</p>
+</td></tr>
+<tr><td><p>Halfling, female</p>
+</td><td><p>2’ 6”</p>
+</td><td><p>+2d4</p>
+</td><td><p>25 lb.</p>
+</td><td><p>× 1 lb.</p>
+</td></tr>
+<tr><td><p>Maenad, male</p>
+</td><td><p>5’ 4”</p>
+</td><td><p>2d10</p>
+</td><td><p>150 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Maenad, female</p>
+</td><td><p>5’ 3”</p>
+</td><td><p>2d10</p>
+</td><td><p>120 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Xeph, male</p>
+</td><td><p>4’ 8”</p>
+</td><td><p>2d10</p>
+</td><td><p>100 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+<tr><td><p>Xeph, female</p>
+</td><td><p>4’ 4”</p>
+</td><td><p>2d10</p>
+</td><td><p>75 lb.</p>
+</td><td><p>× 2d4 lb.</p>
+</td></tr>
+</tbody>
+</table>
+
+<h4 id="starting-gold">Random Starting Gold</h4>
+
+<table id="random-starting-gold-table" class="table table-bordered table-hover table-striped" data-caption="Table: Random Starting Gold">
+<thead>
+<tr><th><p>Class</p>
+</th><th><p>Amount (Average)</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Psion</p>
+</td><td><p>3d4 × 10 (75 gp)</p>
+</td></tr>
+<tr><td><p>Psychic warrior</p>
+</td><td><p>5d4 × 10 (125 gp)</p>
+</td></tr>
+<tr><td><p>Soulknife</p>
+</td><td><p>5d4 × 10 (125 gp)</p>
+</td></tr>
+<tr><td><p>Wilder</p>
+</td><td><p>4d4 × 10 (100 gp)</p>
+</td></tr>
+</tbody>
+</table>
+
+
+        </div>
+        
+
+
+    </article>
+</section>
+
+        <footer id="page-foot" class="container">
+            <section class="row">
+                <div class="col-xs-12 col-sm-6"><p>&copy; 2007-16 Bill Parrott</p></div>
+                <div class="col-xs-12 col-sm-6 text-right"><p><a href="//worldofpannotia.com/contributing/">Contribute to Pannotia</a></p></div>
+            </section>
+        </footer>
+        <script src="//worldofpannotia.com/assets/js/jquery.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/bootstrap.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/bootstrap-submenu.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/lunr.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/mustache.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
+        <script src="//worldofpannotia.com/assets/js/URI.js"></script>
+        <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('[data-submenu]').submenupicker();
+                $('#site-search-query').lunrSearch({
+                    indexUrl: '//worldofpannotia.com/assets/js/index.json', // Url for the .json file containing search index data
+                    results : 'site-#search-results',                // selector for containing search results element
+                    entries : '.entries',                            // selector for search entries containing element (contained within results above)
+                    template: '#site-search-results-template'        // selector for Mustache.js template
+                });
+            });
+        </script>
+    </body>
+</html>

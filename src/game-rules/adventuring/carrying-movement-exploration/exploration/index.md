@@ -28,12 +28,12 @@ Characters with darkvision can see lit areas normally as well as dark areas with
 | Lantern, hooded | 30 ft. | 60 ft. | 6 hr./pint
 | Sunrod | 30 ft. | 60 ft. | 6 hr.
 | Torch | 20 ft. | 40 ft. | 1 hr.
-| _continual flame_ | 20 ft. | 40 ft. | Permanent
-| _dancing lights_(torches) | 20 ft. (each) | 40 ft. (each) | 1 min.
-| _daylight_ | 60 ft. | 120 ft. | 30 min.
-| _light_ | 20 ft. | 40 ft. | 10 min.
+| {% spell_link continual-flame %} | 20 ft. | 40 ft. | Permanent
+| {% spell_link dancing-lights %}(torches) | 20 ft. (each) | 40 ft. (each) | 1 min.
+| {% spell_link daylight %} | 60 ft. | 120 ft. | 30 min.
+| {% spell_link light %} | 20 ft. | 40 ft. | 10 min.
 |===
-| <sup>1</sup>A candle does not provide bright illumination, only shadowy illumination.<br><sup>2</sup>A bullseye lantern illuminates a cone, not a radius. | !cs | !cs | !cs
+| <sup>1</sup> A candle does not provide bright illumination, only shadowy illumination.<br><sup>2</sup> A bullseye lantern illuminates a cone, not a radius. |<|<|<
 {: #light-sources-table .table .table-bordered .table-hover .table-striped data-caption="Table: Light Sources and Illumination" }
 
 #### Breaking and Entering {#breaking-and-entering}
@@ -104,7 +104,7 @@ A crowbar or portable ram improves a character's chance of breaking open a door.
 | Heavy steel shield | 10 | 20
 | Tower shield | 5 | 20
 |===
-| <sup>1</sup>The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br><sup>2</sup>Varies by material; see _Table: Substance Hardness and Hit Points_. | !cs | !cs
+| <sup>1</sup> The HP value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br><sup>2</sup> Varies by material; see _Table: Substance Hardness and Hit Points_. |<|<
 {: #common-armor-weapon-shield-hardness-table .table .table-bordered .table-hover .table-striped data-caption="Table: Common Armor, Weapon, and Shield Hardness and Hit Points" }
 
 |---
@@ -169,8 +169,8 @@ A crowbar or portable ram improves a character's chance of breaking open a door.
 |---
 | Condition | DC Adjustment<sup>1</sup>
 |-|-
-| _hold portal_ | +5
-| _arcane lock_ | +10
+| {% spell_link hold-portal %} | +5
+| {% spell_link arcane-lock %} | +10
 |===
-| <sup>1</sup>If more than one condition apples, use the largest number. | !cs
+| <sup>1</sup> If more than one condition apples, use the largest number. |<
 {: #break-burst-dc-modifier-table .table .table-bordered .table-hover .table-striped data-caption="Table: Strength Check DC Modifiers" }

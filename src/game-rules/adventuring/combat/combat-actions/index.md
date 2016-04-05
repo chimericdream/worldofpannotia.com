@@ -1,6 +1,6 @@
 ---
 title: Actions
-crumbs: [game-rules, adventuring, combat/overview]
+crumbs: [game-rules, adventuring, combat]
 crumbTitles: [Game Rules, Adventuring, Combat]
 ---
 
@@ -32,7 +32,7 @@ Some full-round actions do not allow you to take a 5-foot step.
 
 Some full-round actions can be taken as standard actions, but only in situations when you are limited to performing only a standard action during your round. The descriptions of specific actions, below, detail which actions allow this option.
 
-**Free Action:** Free actions consume a very small amount of time and effort. You can perform one or more free actions while taking another action normally. However, there are reasonable limits on what you can really do for free.
+**Free Action, Swift Action, and Immediate Action:** Free actions consume a very small amount of time and effort. You can perform one or more free actions while taking another action normally. However, there are reasonable limits on what you can really do for free.
 
 **Not an Action:** Some activities are so minor that they are not even considered free actions. They literally don't take any time at all to do and are considered an inherent part of doing something else.
 
@@ -69,7 +69,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Use spell-like ability | Yes
 | Use supernatural ability | No
 |===
-| <sup>1</sup>Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup>If you aid someone performing an action that would normally provoke an attack of opportunity, then the act of aiding another provokes an attack of opportunity as well.<br><sup>3</sup>If the object is being held, carried, or worn by a creature, yes. If not, no. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> If you aid someone performing an action that would normally provoke an attack of opportunity, then the act of aiding another provokes an attack of opportunity as well.<br><sup>3</sup> If the object is being held, carried, or worn by a creature, yes. If not, no. |<
 {: #standard-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Standard Actions in Combat" }
 
 |---
@@ -89,7 +89,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Ready or loose a shield<sup>2</sup> | No
 | Retrieve a stored item | Yes
 |===
-| <sup>1</sup>Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup>If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the Two- Weapon Fighting feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> If you have a base attack bonus of +1 or higher, you can combine one of these actions with a regular move. If you have the Two- Weapon Fighting feat, you can draw two light or one-handed weapons in the time it would normally take you to draw one. |<
 {: #move-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Move Actions in Combat" }
 
 |---
@@ -109,21 +109,29 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Use touch spell on up to six friends | Yes
 | Withdraw<sup>2</sup> | No
 |===
-| <sup>1</sup>Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup>May be taken as a standard action if you are limited to taking only a single action in a round. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> May be taken as a standard action if you are limited to taking only a single action in a round. |<
 {: #full-round-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Full-Round Actions in Combat" }
 
 |---
 | Free Action | Attack of Opportunity<sup>1</sup>
 |-|-
-| Cast a quickened spell | No
 | Cease concentration on a spell | No
 | Drop an item | No
 | Drop to the floor | No
 | Prepare spell components to cast a spell<sup>2</sup> | No
 | Speak | No
 |===
-| <sup>1</sup>Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup>Unless the component is an extremely large or awkward item. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> Unless the component is an extremely large or awkward item. |<
 {: #free-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Free Actions in Combat" }
+
+|---
+| Swift Action | Attack of Opportunity<sup>1</sup>
+|-|-
+| Cast a quickened spell | No
+| Manifest a quickened power | No
+|===
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity. |<
+{: #swift-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Swift Actions in Combat" }
 
 |---
 | Action Type | Attack of Opportunity<sup>1</sup>
@@ -133,7 +141,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Trip an opponent<sup>2</sup> | Yes
 | Use feat<sup>3</sup> | Varies
 |===
-| <sup>1</sup>Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup>These attack forms substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full attack action, or even as an attack of opportunity.<br><sup>3</sup>The description of a feat defines its effect. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity.<br><sup>2</sup> These attack forms substitute for a melee attack, not an action. As melee attacks, they can be used once in an attack or charge action, one or more times in a full attack action, or even as an attack of opportunity.<br><sup>3</sup> The description of a feat defines its effect. |<
 {: #other-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Other Actions in Combat" }
 
 |---
@@ -142,7 +150,7 @@ Some full-round actions can be taken as standard actions, but only in situations
 | Delay | No
 | 5-foot step | No
 |===
-| <sup>1</sup>Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity. | !cs
+| <sup>1</sup> Regardless of the action, if you move out of a threatened square, you usually provoke an attack of opportunity. This column indicates whether the action itself, not moving, provokes an attack of opportunity. |<
 {: #non-combat-actions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Non-Actions in Combat" }
 
 ### Standard Actions {#standard-actions}
@@ -205,7 +213,7 @@ Most spells require 1 standard action to cast. You can cast such a spell either 
 
 _Note:_ You retain your Dexterity bonus to AC while casting.
 
-**Spell Components:** To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a _silence_ spell, you can't cast such a spell. A spellcaster who has been deafened has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.
+**Spell Components:** To cast a spell with a verbal (V) component, your character must speak in a firm voice. If you're gagged or in the area of a {% spell_link silence %} spell, you can't cast such a spell. A spellcaster who has been deafened has a 20% chance to spoil any spell he tries to cast if that spell has a verbal component.
 
 To cast a spell with a somatic (S) component, you must gesture freely with at least one hand. You can't cast a spell of this type while bound, grappling, or with both your hands full or occupied.
 
@@ -253,7 +261,7 @@ _Using a Spell-Like Ability on the Defensive:_ You may attempt to use a spell-li
 
 #### Total Defense {#total-defense}
 
-You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the Combat Expertise feat (since both of those require you to declare an attack or full attack). You can't make attacks of opportunity while using total defense.
+You can defend yourself as a standard action. You get a +4 dodge bonus to your AC for 1 round. Your AC improves at the start of this action. You can't combine total defense with fighting defensively or with the benefit of the {% feat_link combat-expertise %} feat (since both of those require you to declare an attack or full attack). You can't make attacks of opportunity while using total defense.
 
 #### Start/Complete Full-Round Action {#start-complete-action}
 
@@ -393,15 +401,15 @@ You can stop concentrating on an active spell as a free action.
 
 ### Swift Actions {#swift-actions}
 
-A swift action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. You can perform one swift action per turn without affecting your ability to perform other actions. In that regard, a swift action is like a free action. However, you can perform only a single swift action per turn, regardless of what other actions you take. You can take a swift action any time you would normally be allowed to take a free action. Swift actions usually involve spellcasting or the activation of magic items; many characters (especially those who don't cast spells) never have an opportunity to take a swift action.
+A swift action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. You can perform one swift action per turn without affecting your ability to perform other actions. In that regard, a swift action is like a free action. However, you can perform only a single swift action per turn, regardless of what other actions you take. You can take a swift action any time you would normally be allowed to take a free action. Swift actions usually involve spellcasting, psionics, or the activation of magic or psionic items; many characters (especially those who don't cast spells or manifest psionic powers) never have an opportunity to take a swift action.
 
-Casting a quickened spell is a swift action. In addition, casting any spell with a casting time of 1 swift action is a swift action.
+Casting a quickened spell or manifesting a quickened power is a swift action. In addition, casting any spell or manifesting any power with a casting time or manifesting time of 1 swift action is a swift action.
 
-Casting a spell with a casting time of 1 swift action does not provoke attacks of opportunity.
+Spells and psionic powers which are cast or manifested as 1 swift action do not provoke attacks of opportunity.
 
 ### Immediate Actions {#immediate-actions}
 
-Much like a swift action, an immediate action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. However, unlike a swift action, an immediate action can be performed at any time &ndash; even if it's not your turn. Casting feather fall is an immediate action, since the spell can be cast at any time.
+Much like a swift action, an immediate action consumes a very small amount of time, but represents a larger expenditure of effort and energy than a free action. However, unlike a swift action, an immediate action can be performed at any time &ndash; even if it's not your turn.
 
 Using an immediate action on your turn is the same as using a swift action, and counts as your swift action for that turn. You cannot use another immediate action or a swift action until after your next turn if you have used an immediate action when it is not currently your turn (effectively, using an immediate action before your turn is equivalent to using your swift action for the coming turn). You also cannot use an immediate action if you are flat-footed.
 

@@ -1,0 +1,11 @@
+collections:
+  special_abilities:
+    output:    false
+
+defaults:
+  - scope:
+      path: ""
+      type: special_abilities
+    values:
+      ability:
+        types: []

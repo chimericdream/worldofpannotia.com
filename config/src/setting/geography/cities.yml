@@ -1,0 +1,4 @@
+collections:
+  cities:
+    output:    true
+    permalink: /setting/geography/cities/:path/

@@ -15,11 +15,29 @@
         <meta name="description" content="">
         <meta name="keywords" content="">
         <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
-        <link rel="stylesheet" href="http://chimericdream.github.io/worldofpannotia.com/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://chimericdream.github.io/worldofpannotia.com/assets/css/bootstrap-theme.min.css">
-        <link rel="stylesheet" href="http://chimericdream.github.io/worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        
         <style>
             body {padding-top: 70px;}
+            :target::before {
+                background-attachment: scroll;
+                background-image: url("//worldofpannotia.com/assets/images/icons/sword-pointer.png");
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                content: " ";
+                display: block;
+                height: calc(70px + 1em);
+                margin-bottom: -1em;
+                margin-left: -110px;
+                margin-top: -70px;
+                padding-top: 70px;
+            }
+            p:target::before {
+                height: calc(70px + 1.45em);
+                margin-bottom: -1.45em;
+            }
             table[data-caption]::before {
                 content: attr(data-caption);
                 display: table-caption;
@@ -33,6 +51,24 @@
                 content: "&ndash;";
                 text-align: center;
             }
+            .table-bordered > thead > tr > th,
+            .table-bordered > thead > tr > td {
+                border-bottom-width: 1px;
+            }
+            th > p:last-child,
+            td > p:last-child {
+                margin-bottom: 0;
+            }
+            .table > thead > tr > th[rowspan],
+            .table > tbody > tr > td[rowspan] {
+                vertical-align: middle;
+            }
+            .table-bordered > thead > tr:last-of-type {
+                border-bottom: 2px solid #ddd;
+            }
+            .table-bordered > tfoot > tr:first-of-type > td {
+                border-top-width: 2px;
+            }
             h1,h2,h3,h4,h5,h6 {
                 font-weight: bold;
             }
@@ -42,6 +78,12 @@
             .panel > .list-group:last-child .indented-list-group-item:last-child,
             .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
                 border-bottom-left-radius: 0px;
+            }
+            ol > li > ol > li {
+                list-style-type: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style-type: lower-roman;
             }
         </style>
     </head>
@@ -56,99 +98,93 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="http://chimericdream.github.io/worldofpannotia.com/">World of Pannotia</a>
+            <a class="navbar-brand" href="//worldofpannotia.com/">World of Pannotia</a>
         </div>
         <div class="collapse navbar-collapse" id="main-nav">
             <ul class="nav navbar-nav">
                 <li class="dropdown">
-                    <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Game Rules <span class="caret"></span></a>
+                    <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Game Rules <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/basics/" title="Basics">Basics</a></li>
-                        <li class="dropdown-submenu">
-                            <a href="#" title="Races" class="dropdown-toggle" data-toggle="dropdown" role="button">Races</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/races/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/races/descriptions/" title="Descriptions">Descriptions</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="//worldofpannotia.com/game-rules/" title="Basics">Basics</a></li>
+                        <li><a href="//worldofpannotia.com/game-rules/advancement/" title="Character Advancement">Character Advancement</a></li>
+                        <li><a href="//worldofpannotia.com/game-rules/races/" title="Races">Races</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/classes/base-classes/" title="Base Classes">Base Classes</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/classes/epic-prestige-classes/" title="Epic Prestige Classes">Epic Prestige Classes</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/classes/racial-classes/" title="Racial Classes">Racial Classes</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/classes/multiclass-characters/" title="Multiclass Characters">Multiclass Characters</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/" title="Base Classes">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/racial-classes/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/multiclass-characters/" title="Multiclass Characters">Multiclass Characters</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Skills" class="dropdown-toggle" data-toggle="dropdown" role="button">Skills</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/using-skills/" title="Using Skills">Using Skills</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/descriptions/" title="Descriptions">Descriptions</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills/epic-skill-uses/" title="Epic Skill Uses">Epic Skill Uses</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/" title="Skills Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/#using-skills" title="Using Skills">Using Skills</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/#skill-descriptions" title="Descriptions">Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/epic-skill-uses/" title="Epic Skill Uses">Epic Skill Uses</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Feats" class="dropdown-toggle" data-toggle="dropdown" role="button">Feats</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/" title="Feats Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/descriptions/" title="Descriptions">Descriptions</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Feat Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Feat Lists</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/general/" title="General">General</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/fighter/" title="Fighter">Fighter</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/item-creation/" title="Item Creation">Item Creation</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/metamagic/" title="Metamagic">Metamagic</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/psionic/" title="Psionic">Psionic</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/metapsionic/" title="Metapsionic">Metapsionic</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/divine/" title="Divine">Divine</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/monster/" title="Monster">Monster</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-lists/epic/" title="Epic">Epic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/general/" title="General">General</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/fighter/" title="Fighter">Fighter</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/item-creation/" title="Item Creation">Item Creation</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/metamagic/" title="Metamagic">Metamagic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/psionic/" title="Psionic">Psionic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/metapsionic/" title="Metapsionic">Metapsionic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/divine/" title="Divine">Divine</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/monster/" title="Monster">Monster</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/epic/" title="Epic">Epic</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/feats/feat-index/" title="Feat Index">Feat Index</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/feat-index/" title="Feat Index">Feat Index</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Magic" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-descriptions/" title="Spell Descriptions">Spell Descriptions</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/arcane-spells/" title="Arcane Spells">Arcane Spells</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/divine-spells/" title="Divine Spells">Divine Spells</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-index/" title="Spell Index">Spell Index</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/domains/" title="Domains">Domains</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/" title="Magic Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/spell-descriptions/" title="Spell Descriptions">Spell Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/arcane-spells/" title="Arcane Spells">Arcane Spells</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/divine-spells/" title="Divine Spells">Divine Spells</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/spell-index/" title="Spell Index">Spell Index</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/domains/" title="Domains">Domains</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Spell Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Lists</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-lists/bard/" title="Bard">Bard</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-lists/cleric/" title="Cleric">Cleric</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-lists/druid/" title="Druid">Druid</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-lists/paladin/" title="Paladin">Paladin</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-lists/ranger/" title="Ranger">Ranger</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-lists/sorcerer-wizard/" title="Sorcerer/Wizard">Sorcerer/Wizard</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/bard/" title="Bard">Bard</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/cleric/" title="Cleric">Cleric</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/druid/" title="Druid">Druid</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/paladin/" title="Paladin">Paladin</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/ranger/" title="Ranger">Ranger</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/sorcerer-wizard/" title="Sorcerer/Wizard">Sorcerer/Wizard</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Spell Combinations" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Combinations</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-combinations/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-combinations/developing-spell-combinations/" title="Developing Spell Combinations">Developing Spell Combinations</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/spell-combinations/spell-combination-index/" title="Spell Combination Index">Spell Combination Index</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/" title="Spell Combinations Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/developing-spell-combinations/" title="Developing Spell Combinations">Developing Spell Combinations</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/spell-combination-index/" title="Spell Combination Index">Spell Combination Index</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Epic Spells" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Spells</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/developing-epic-spells/" title="Developing Epic Spells">Developing Epic Spells</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/seeds/" title="Seeds">Seeds</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/magic/epic-spells/epic-spell-index/" title="Epic Spell Index">Epic Spell Index</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/" title="Epic Spells Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/developing-epic-spells/" title="Developing Epic Spells">Developing Epic Spells</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/seeds/" title="Seeds">Seeds</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/spells/" title="Epic Spell Index">Epic Spell Index</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -156,18 +192,17 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Psionics" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionics</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/power-descriptions/" title="Power Descriptions">Power Descriptions</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/power-index/" title="Power Index">Power Index</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/disciplines/" title="Disciplines">Disciplines</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/" title="Psionics Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/power-descriptions/" title="Power Descriptions">Power Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/power-index/" title="Power Index">Power Index</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Power Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Power Lists</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/power-lists/psion-wilder/" title="Psion/Wilder">Psion/Wilder</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/power-lists/psychic-warrior/" title="Psychic Warrior">Psychic Warrior</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/psionics/power-lists/psion-wilder/" title="Psion/Wilder">Psion/Wilder</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/psionics/power-lists/psychic-warrior/" title="Psychic Warrior">Psychic Warrior</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/psionics/epic-powers/" title="Epic Powers">Epic Powers</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/epic-powers/" title="Epic Powers">Epic Powers</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
@@ -176,48 +211,42 @@
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Combat" class="dropdown-toggle" data-toggle="dropdown" role="button">Combat</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/mechanics/" title="Mechanics">Mechanics</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury & Death">Injury & Death</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/" title="Combat Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/mechanics/" title="Mechanics">Mechanics</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury &amp; Death">Injury &amp; Death</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/adventuring/special-abilities/" title="Special Abilities">Special Abilities</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Carrying, Movement, &amp; Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, &amp; Exploration</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/exploration/" title="Exploration">Exploration</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a href="#" title="Special Abilities" class="dropdown-toggle" data-toggle="dropdown" role="button">Special Abilities</a>
+                                    <a href="#" title="Wilderness &amp; Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness &amp; Environment</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/special-abilities/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Carrying, Movement, & Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, & Exploration</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/exploration/" title="Exploration">Exploration</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Wilderness & Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness & Environment</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/weather/" title="Weather">Weather</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/wilderness-environment/environment/" title="The Environment">The Environment</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/weather/" title="Weather">Weather</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/environment/" title="The Environment">The Environment</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="Traps" class="dropdown-toggle" data-toggle="dropdown" role="button">Traps</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/traps/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/traps/designing-a-trap/" title="Designing a Trap">Designing a Trap</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/traps/specific-traps/" title="Specific Traps">Specific Traps</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/" title="Traps Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/designing-a-trap/" title="Designing a Trap">Designing a Trap</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/specific-traps/" title="Specific Traps">Specific Traps</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -225,332 +254,159 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Divine Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Divine Rules</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/divine-rules/divine-ranks/" title="Divine Ranks">Divine Ranks</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/divine-rules/divine-characteristics/" title="Divine Characteristics">Divine Characteristics</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/divine-rules/salient-divine-abilities/" title="Salient Divine Abilities">Salient Divine Abilities</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/divine-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/divine-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-ranks/" title="Divine Ranks">Divine Ranks</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-characteristics/" title="Divine Characteristics">Divine Characteristics</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/salient-divine-abilities/" title="Salient Divine Abilities">Salient Divine Abilities</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
                             </ul>
                         </li>
+                        <li><a href="//worldofpannotia.com/game-rules/epic-obstacles/" title="Epic Obstacles">Epic Obstacles</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button">Equipment <span class="caret"></span></a>
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Equipment <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/wealth-money/" title="Wealth & Money">Wealth & Money</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/wealth-money/" title="Wealth &amp; Money">Wealth &amp; Money</a></li>
                         <li class="dropdown-submenu">
-                            <a href="#" title="Goods & Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods & Services</a>
+                            <a href="#" title="Goods &amp; Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods &amp; Services</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances & Items">Special Substances & Items</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/tools-skill-sets/" title="Tools & Skill Sets">Tools & Skill Sets</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, & Lodging">Food, Drink, & Lodging</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts & Related Gear">Mounts & Related Gear</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/transport/" title="Transport">Transport</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting & Services">Spellcasting & Services</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances &amp; Items">Special Substances &amp; Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/tools-skill-kits/" title="Tools &amp; Skill Kits">Tools &amp; Skill Kits</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, &amp; Lodging">Food, Drink, &amp; Lodging</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts &amp; Related Gear">Mounts &amp; Related Gear</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/transport/" title="Transport">Transport</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting &amp; Services">Spellcasting &amp; Services</a></li>
                             </ul>
                         </li>
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/armor/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/armor/armor-descriptions/" title="Armor Descriptions">Armor Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/armor/" title="Armor Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/armor/armor-descriptions/" title="Armor Descriptions">Armor Descriptions</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/weapons/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/weapons/weapon-descriptions/" title="Weapon Descriptions">Weapon Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/weapons/" title="Weapons Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/weapons/weapon-descriptions/" title="Weapon Descriptions">Weapon Descriptions</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Potions & Oils" class="dropdown-toggle" data-toggle="dropdown" role="button">Potions & Oils</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/potions-oils/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Rings" class="dropdown-toggle" data-toggle="dropdown" role="button">Rings</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rings/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Rods" class="dropdown-toggle" data-toggle="dropdown" role="button">Rods</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/rods/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Scrolls" class="dropdown-toggle" data-toggle="dropdown" role="button">Scrolls</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/scrolls/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/scrolls/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Staffs" class="dropdown-toggle" data-toggle="dropdown" role="button">Staffs</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/staffs/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/staffs/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Wands" class="dropdown-toggle" data-toggle="dropdown" role="button">Wands</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wands/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wands/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Wondrous Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Wondrous Items</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wondrous-items/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/magic-items/wondrous-items/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/armor/" title="Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/weapons/" title="Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/creating-psionic-items/" title="Creating Psionic Items">Creating Psionic Items</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Cognizance Crystals" class="dropdown-toggle" data-toggle="dropdown" role="button">Cognizance Crystals</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/cognizance-crystals/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/cognizance-crystals/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Dorjes" class="dropdown-toggle" data-toggle="dropdown" role="button">Dorjes</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/dorjes/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/dorjes/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Power Stones" class="dropdown-toggle" data-toggle="dropdown" role="button">Power Stones</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/power-stones/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/power-stones/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Psicrowns" class="dropdown-toggle" data-toggle="dropdown" role="button">Psicrowns</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psicrowns/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psicrowns/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Psionic Tattoos" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Tattoos <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psionic-tattoos/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/psionic-tattoos/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Universal Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Universal Items</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/universal-items/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/psionic-items/universal-items/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/" title="Psionic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/creating-psionic-items/" title="Creating Psionic Items">Creating Psionic Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/armor/" title="Psionic Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/weapons/" title="Psionic Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Epic Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Magic Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/overview/" title="Overview">Overview</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/potions-oils/" title="Potions & Oils">Potions & Oils</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rings/" title="Rings">Rings</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/rods/" title="Rods">Rods</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/staffs/" title="Staffs">Staffs</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-magic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a href="#" title="Epic Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Psionic Items</a>
-                            <ul class="dropdown-menu">
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/armor-abilities/" title="Armor Abilities">Armor Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/armor/specific-armor/" title="Specific Armor">Specific Armor</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/weapon-abilities/" title="Weapon Abilities">Weapon Abilities</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/weapons/specific-weapons/" title="Specific Weapons">Specific Weapons</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/epic-psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/" title="Epic Magic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/armor/" title="Epic Magical Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/weapons/" title="Epic Magical Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/rings/" title="Epic Rings">Rings</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/rods/" title="Epic Rods">Rods</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Epic Scrolls">Scrolls</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/staffs/" title="Epic Staffs">Staffs</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/wondrous-items/" title="Epic Wondrous Items">Wondrous Items</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Intelligent Items</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/descriptions/" title="Descriptions">Descriptions</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Epic Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Intelligent Items</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/epic-intelligent-items/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/intelligent-items/epic-intelligent-items/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
+                                <li><a href="//worldofpannotia.com/equipment/intelligent-items/" title="Intelligent Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/intelligent-items/epic/" title="Epic Intelligent Items">Epic Intelligent Items</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown-submenu">
-                            <a href="#" title="Cursed Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Cursed Items</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/descriptions/" title="Descriptions">Descriptions</a></li>
-                                <li class="dropdown-submenu">
-                                    <a href="#" title="Epic Cursed Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Cursed Items</a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/epic-cursed-items/overview/" title="Overview">Overview</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/cursed-items/epic-cursed-items/descriptions/" title="Descriptions">Descriptions</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="dropdown-submenu">
-                            <a href="#" title="Artifacts" class="dropdown-toggle" data-toggle="dropdown" role="button">Artifacts</a>
-                            <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/artifacts/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/artifacts/minor-artifacts/" title="Minor Artifacts">Minor Artifacts</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/equipment/artifacts/major-artifacts/" title="Major Artifacts">Major Artifacts</a></li>
-                            </ul>
-                        </li>
+                        <li><a href="//worldofpannotia.com/equipment/cursed-items/" title="Cursed Items">Cursed Items</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/artifacts/" title="Artifacts">Artifacts</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/generating-treasure/" title="Generating Treasure">Generating Treasure</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button">Monsters <span class="caret"></span></a>
+                    <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Monsters <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/introduction/" title="Introduction">Introduction</a></li>
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/types-subtypes/" title="Types & Subtypes">Types & Subtypes</a></li>
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/" title="Monsters Introduction">Introduction</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/types-subtypes/" title="Types &amp; Subtypes">Types &amp; Subtypes</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/monsters-as-races/" title="Monsters as Races">Monsters as Races</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Entries" class="dropdown-toggle" data-toggle="dropdown" role="button">Entries</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/entries/monsters/" title="Monsters">Monsters</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/entries/animals/" title="Animals">Animals</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/entries/vermin/" title="Vermin">Vermin</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/monsters/" title="Monsters">Monsters</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/animals/" title="Animals">Animals</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/vermin/" title="Vermin">Vermin</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
-                            <a href="#" title="Templates" class="dropdown-toggle" data-toggle="dropdown" role="button">Templates</a>
+                            <a href="#" title="Creature Templates" class="dropdown-toggle" data-toggle="dropdown" role="button">Templates</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/templates/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/monsters/templates/template-index/" title="Template Index">Template Index</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/templates/" title="Creature Templates Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/templates/template-index/" title="Creature Template Index">Template Index</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li class="dropdown">
-                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button">Setting <span class="caret"></span></a>
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Setting <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/introduction/" title="Introduction">Introduction</a></li>
+                        <li><a href="//worldofpannotia.com/setting/" title="Introduction to Pannotia">Introduction</a></li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Geography" class="dropdown-toggle" data-toggle="dropdown" role="button">Geography</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/regions-countries/" title="Regions & Countries">Regions & Countries</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/" title="Geography Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/regions-countries/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Cosmology" class="dropdown-toggle" data-toggle="dropdown" role="button">Cosmology</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/cosmology/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/cosmology/planar-traits/" title="Planar Traits">Planar Traits</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/cosmology/planes/" title="Planes">Planes</a></li>
+                                <li><a href="//worldofpannotia.com/setting/cosmology/" title="Cosmology Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/cosmology/planar-traits/" title="Planar Traits">Planar Traits</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="Religion" class="dropdown-toggle" data-toggle="dropdown" role="button">Religion</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li><a href="//worldofpannotia.com/setting/religion/" title="Religion Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/religion/deities/" title="Deities">Deities</a></li>
                                 <li class="dropdown-submenu">
                                     <a href="#" title="The Divine Tournament" class="dropdown-toggle" data-toggle="dropdown" role="button">The Divine Tournament</a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/divine-tournament/introduction/" title="Introduction">Introduction</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/divine-tournament/history/" title="History">History</a></li>
-                                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/religion/divine-tournament/entering-the-tournament/" title="Entering the Tournament">Entering the Tournament</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/" title="Introduction to the Divine Tournament">Introduction</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/history/" title="History">History</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/entering-the-tournament/" title="Entering the Tournament">Entering the Tournament</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -558,32 +414,34 @@
                         <li class="dropdown-submenu">
                             <a href="#" title="Politics" class="dropdown-toggle" data-toggle="dropdown" role="button">Politics</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/politics/overview/" title="Overview">Overview</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/politics/organizations/" title="Organizations">Organizations</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/politics/npcs/" title="NPCs">NPCs</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/" title="Politics Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/organizations/" title="Organizations">Organizations</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/npcs/" title="NPCs">NPCs</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
                             <a href="#" title="History" class="dropdown-toggle" data-toggle="dropdown" role="button">History</a>
                             <ul class="dropdown-menu">
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/history/eras/" title="Eras">Eras</a></li>
-                                <li><a href="http://chimericdream.github.io/worldofpannotia.com/setting/history/events/" title="Events">Events</a></li>
+                                <li><a href="//worldofpannotia.com/setting/history/eras/" title="Eras">Eras</a></li>
+                                <li><a href="//worldofpannotia.com/setting/history/events/" title="Events">Events</a></li>
                             </ul>
                         </li>
                     </ul>
                 </li>
                 <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
                 <li class="dropdown">
-                    <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button">Misc <span class="caret"></span></a>
+                    <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Misc <span class="caret"></span></a>
                     <ul class="dropdown-menu multi-level">
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/credits/" title="Credits">Credits</a></li>
-                        <li><a href="http://chimericdream.github.io/worldofpannotia.com/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
+                        <li><a href="//worldofpannotia.com/misc/changes-from-dd-35/" title="Changes from D&amp;D 3.5">Changes from D&amp;D 3.5</a></li>
+                        <li><a href="//worldofpannotia.com/misc/credits/" title="Credits">Credits</a></li>
+                        <li><a href="//worldofpannotia.com/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
                     </ul>
                 </li>
             </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container -->
 </nav>
+        
         
 
 
@@ -601,7 +459,7 @@
                 <li><a href="/game-rules/adventuring/">Adventuring</a></li>
                 
                   
-                <li><a href="/game-rules/adventuring/combat/overview/">Combat</a></li>
+                <li><a href="/game-rules/adventuring/combat/">Combat</a></li>
                 
                 <li class="active">Special Attacks</li>
             </ol>
@@ -622,62 +480,49 @@
     <article id="main-content" class="row">
         <div class="col-xs-12 col-sm-8 col-md-9">
             <table id="special-attacks-table" class="table table-bordered table-hover table-striped" data-caption="Table: Special Attacks">
-  <thead>
-    <tr>
-      <th>Special Attack</th>
-      <th>Brief Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Aid another</td>
-      <td>Grant an ally a +2 bonus on attacks or AC</td>
-    </tr>
-    <tr>
-      <td>Bull rush</td>
-      <td>Push an opponent back 5 feet or more</td>
-    </tr>
-    <tr>
-      <td>Charge</td>
-      <td>Move up to twice your speed and attack with +2 bonus</td>
-    </tr>
-    <tr>
-      <td>Disarm</td>
-      <td>Knock a weapon from your opponent’s hands</td>
-    </tr>
-    <tr>
-      <td>Feint</td>
-      <td>Negate your opponent’s Dex bonus to AC</td>
-    </tr>
-    <tr>
-      <td>Grapple</td>
-      <td>Wrestle with an opponent</td>
-    </tr>
-    <tr>
-      <td>Overrun</td>
-      <td>Plow past or over an opponent as you move</td>
-    </tr>
-    <tr>
-      <td>Sunder</td>
-      <td>Strike an opponent’s weapon or shield</td>
-    </tr>
-    <tr>
-      <td>Throw splash weapon</td>
-      <td>Throw container of dangerous liquid at target</td>
-    </tr>
-    <tr>
-      <td>Trip</td>
-      <td>Trip an opponent</td>
-    </tr>
-    <tr>
-      <td>Turn (rebuke) undead</td>
-      <td>Channel positive (or negative) energy to turn away (or awe) undead</td>
-    </tr>
-    <tr>
-      <td>Two-weapon fighting</td>
-      <td>Fight with a weapon in each hand</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th><p>Special Attack</p>
+</th><th><p>Brief Description</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Aid another</p>
+</td><td><p>Grant an ally a +2 bonus on attacks or AC</p>
+</td></tr>
+<tr><td><p>Bull rush</p>
+</td><td><p>Push an opponent back 5 feet or more</p>
+</td></tr>
+<tr><td><p>Charge</p>
+</td><td><p>Move up to twice your speed and attack with +2 bonus</p>
+</td></tr>
+<tr><td><p>Disarm</p>
+</td><td><p>Knock a weapon from your opponent’s hands</p>
+</td></tr>
+<tr><td><p>Feint</p>
+</td><td><p>Negate your opponent’s Dex bonus to AC</p>
+</td></tr>
+<tr><td><p>Grapple</p>
+</td><td><p>Wrestle with an opponent</p>
+</td></tr>
+<tr><td><p>Overrun</p>
+</td><td><p>Plow past or over an opponent as you move</p>
+</td></tr>
+<tr><td><p>Sunder</p>
+</td><td><p>Strike an opponent’s weapon or shield</p>
+</td></tr>
+<tr><td><p>Throw splash weapon</p>
+</td><td><p>Throw container of dangerous liquid at target</p>
+</td></tr>
+<tr><td><p>Trip</p>
+</td><td><p>Trip an opponent</p>
+</td></tr>
+<tr><td><p>Turn (rebuke) undead</p>
+</td><td><p>Channel positive (or negative) energy to turn away (or awe) undead</p>
+</td></tr>
+<tr><td><p>Two-weapon fighting</p>
+</td><td><p>Fight with a weapon in each hand</p>
+</td></tr>
+</tbody>
 </table>
 
 <h3 id="aid-another">Aid Another</h3>
@@ -909,105 +754,85 @@
 <p>You can use a melee attack with a slashing or bludgeoning weapon to strike a weapon or shield that your opponent is holding. If you’re attempting to sunder a weapon or shield, follow the steps outlined here. (Attacking held objects other than weapons or shields is covered below.)</p>
 
 <table id="sunder-table" class="table table-bordered table-hover table-striped" data-caption="Table: Common Armor, Weapon, and Shield Hardness and Hit Points">
-  <thead>
-    <tr>
-      <th>Weapon or Shield</th>
-      <th>Hardness</th>
-      <th>HP<sup>1</sup></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Light blade</td>
-      <td>10</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>One-handed blade</td>
-      <td>10</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Two-handed blade</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Light metal-hafted weapon</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>One-handed metal-hafted weapon</td>
-      <td>10</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>Light hafted weapon</td>
-      <td>5</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>One-handed hafted weapon</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Two-handed hafted weapon</td>
-      <td>5</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Projectile weapon</td>
-      <td>5</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Armor</td>
-      <td>special<sup>2</sup></td>
-      <td>armor bonus × 5</td>
-    </tr>
-    <tr>
-      <td>Buckler</td>
-      <td>10</td>
-      <td>5</td>
-    </tr>
-    <tr>
-      <td>Light wooden shield</td>
-      <td>5</td>
-      <td>7</td>
-    </tr>
-    <tr>
-      <td>Heavy wooden shield</td>
-      <td>5</td>
-      <td>15</td>
-    </tr>
-    <tr>
-      <td>Light steel shield</td>
-      <td>10</td>
-      <td>10</td>
-    </tr>
-    <tr>
-      <td>Heavy steel shield</td>
-      <td>10</td>
-      <td>20</td>
-    </tr>
-    <tr>
-      <td>Tower shield</td>
-      <td>5</td>
-      <td>20</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td><sup>1</sup>The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br /><sup>2</sup>Varies by material.</td>
-      <td>!cs</td>
-      <td>!cs</td>
-    </tr>
-  </tfoot>
+<thead>
+<tr><th><p>Weapon or Shield</p>
+</th><th><p>Hardness</p>
+</th><th><p>HP<sup>1</sup></p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Light blade</p>
+</td><td><p>10</p>
+</td><td><p>2</p>
+</td></tr>
+<tr><td><p>One-handed blade</p>
+</td><td><p>10</p>
+</td><td><p>5</p>
+</td></tr>
+<tr><td><p>Two-handed blade</p>
+</td><td><p>10</p>
+</td><td><p>10</p>
+</td></tr>
+<tr><td><p>Light metal-hafted weapon</p>
+</td><td><p>10</p>
+</td><td><p>10</p>
+</td></tr>
+<tr><td><p>One-handed metal-hafted weapon</p>
+</td><td><p>10</p>
+</td><td><p>20</p>
+</td></tr>
+<tr><td><p>Light hafted weapon</p>
+</td><td><p>5</p>
+</td><td><p>2</p>
+</td></tr>
+<tr><td><p>One-handed hafted weapon</p>
+</td><td><p>5</p>
+</td><td><p>5</p>
+</td></tr>
+<tr><td><p>Two-handed hafted weapon</p>
+</td><td><p>5</p>
+</td><td><p>10</p>
+</td></tr>
+<tr><td><p>Projectile weapon</p>
+</td><td><p>5</p>
+</td><td><p>5</p>
+</td></tr>
+<tr><td><p>Armor</p>
+</td><td><p>special<sup>2</sup></p>
+</td><td><p>armor bonus × 5</p>
+</td></tr>
+<tr><td><p>Buckler</p>
+</td><td><p>10</p>
+</td><td><p>5</p>
+</td></tr>
+<tr><td><p>Light wooden shield</p>
+</td><td><p>5</p>
+</td><td><p>7</p>
+</td></tr>
+<tr><td><p>Heavy wooden shield</p>
+</td><td><p>5</p>
+</td><td><p>15</p>
+</td></tr>
+<tr><td><p>Light steel shield</p>
+</td><td><p>10</p>
+</td><td><p>10</p>
+</td></tr>
+<tr><td><p>Heavy steel shield</p>
+</td><td><p>10</p>
+</td><td><p>20</p>
+</td></tr>
+<tr><td><p>Tower shield</p>
+</td><td><p>5</p>
+</td><td><p>20</p>
+</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="3"><p><sup>1</sup> The HP value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br /><sup>2</sup> Varies by material.</p>
+</td></tr>
+</tfoot>
 </table>
 
-<p><strong>Step 1:</strong> Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the Improved Sunder feat, you don’t incur an attack of opportunity for making the attempt.)</p>
+<p><strong>Step 1:</strong> Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the <a href="//worldofpannotia.com/game-rules/feats/feat-index/improved-sunder/" title="Improved Sunder">Improved Sunder</a> feat, you don’t incur an attack of opportunity for making the attempt.)</p>
 
 <p><strong>Step 2:</strong> Opposed Rolls. You and the defender make opposed attack rolls with your respective weapons. The wielder of a two-handed weapon on a sunder attempt gets a +4 bonus on this roll, and the wielder of a light weapon takes a -4 penalty. If the combatants are of different sizes, the larger combatant gets a bonus on the attack roll of +4 per difference in size category.</p>
 
@@ -1067,7 +892,7 @@
 
 <p><strong>Turning Check:</strong> The first thing you do is roll a turning check to see how powerful an undead creature you can turn. This is a Charisma check (1d20 + your Charisma modifier). Table: Turning Undead gives you the Hit Dice of the most powerful undead you can affect, relative to your level. On a given turning attempt, you can turn no undead creature whose Hit Dice exceed the result on this table.</p>
 
-<p>A cleric with 5 or more ranks in <em>knowledge (religion)</em> gets a +2 (or higher) bonus on the DC for his turning checks against undead (see <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/skills-feats/basics/#skill-synergy">Skill Synergy</a>). <em>Note:</em> This bonus is only applied to the Hit Dice of the undead you can affect. It does not affect the amount of damage you do with your turning check.</p>
+<p>A cleric with 5 or more ranks in <a href="//worldofpannotia.com/game-rules/skills/#skill--knowledge" title="Knowledge (Religion)"><em>Knowledge (Religion)</em></a> gets a +2 (or higher) bonus on the DC for his turning checks against undead (see <a href="//worldofpannotia.com/game-rules/skills-feats/basics/#skill-synergy">Skill Synergy</a>). <em>Note:</em> This bonus is only applied to the Hit Dice of the undead you can affect. It does not affect the amount of damage you do with your turning check.</p>
 
 <p><strong>Turning Damage:</strong> If your roll on Table: Turning Undead is high enough to let you turn at least some of the undead within 60 feet, roll 1d6 / cleric level for damage. All affected undead in the area within 60 ft. must make a Will save vs a DC of 10 + your cleric level + your Charisma modifier for half damage. Undead with turn resistance may add that bonus to this save. Any undead reduced to 0 or fewer hit points are destroyed. If an undead takes damage equal to or greater than ½ its current remaining hit points, it is considered turned and acts accordingly.</p>
 
@@ -1080,50 +905,40 @@
 <p><strong>Destroying Undead:</strong> If you have twice as many levels (or more) as the undead have Hit Dice, you destroy any that you would normally turn.</p>
 
 <table id="turning-undead-table" class="table table-bordered table-hover table-striped" data-caption="Table: Turning Undead">
-  <thead>
-    <tr>
-      <th>Turning Check Result</th>
-      <th>Most Powerful Undead Affected (Maximum Hit Dice)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0 or lower</td>
-      <td>Cleric’s level - 4</td>
-    </tr>
-    <tr>
-      <td>1-3</td>
-      <td>Cleric’s level - 3</td>
-    </tr>
-    <tr>
-      <td>4-6</td>
-      <td>Cleric’s level - 2</td>
-    </tr>
-    <tr>
-      <td>7-9</td>
-      <td>Cleric’s level - 1</td>
-    </tr>
-    <tr>
-      <td>10-12</td>
-      <td>Cleric’s level</td>
-    </tr>
-    <tr>
-      <td>13-15</td>
-      <td>Cleric’s level + 1</td>
-    </tr>
-    <tr>
-      <td>16-18</td>
-      <td>Cleric’s level + 2</td>
-    </tr>
-    <tr>
-      <td>19-21</td>
-      <td>Cleric’s level + 3</td>
-    </tr>
-    <tr>
-      <td>22 or higher</td>
-      <td>Cleric’s level + 4</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th><p>Turning Check Result</p>
+</th><th><p>Most Powerful Undead Affected (Maximum Hit Dice)</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>0 or lower</p>
+</td><td><p>Cleric’s level - 4</p>
+</td></tr>
+<tr><td><p>1-3</p>
+</td><td><p>Cleric’s level - 3</p>
+</td></tr>
+<tr><td><p>4-6</p>
+</td><td><p>Cleric’s level - 2</p>
+</td></tr>
+<tr><td><p>7-9</p>
+</td><td><p>Cleric’s level - 1</p>
+</td></tr>
+<tr><td><p>10-12</p>
+</td><td><p>Cleric’s level</p>
+</td></tr>
+<tr><td><p>13-15</p>
+</td><td><p>Cleric’s level + 1</p>
+</td></tr>
+<tr><td><p>16-18</p>
+</td><td><p>Cleric’s level + 2</p>
+</td></tr>
+<tr><td><p>19-21</p>
+</td><td><p>Cleric’s level + 3</p>
+</td></tr>
+<tr><td><p>22 or higher</p>
+</td><td><p>Cleric’s level + 4</p>
+</td></tr>
+</tbody>
 </table>
 
 <h4 id="evil-clerics-and-undead">Evil Clerics and Undead</h4>
@@ -1172,35 +987,30 @@
 <p>Table: Two-Weapon Fighting Penalties summarizes the interaction of all these factors.</p>
 
 <table id="two-weapon-fighting-table" class="table table-bordered table-hover table-striped" data-caption="Table: Two-Weapon Fighting Penalties">
-  <thead>
-    <tr>
-      <th>Circumstances</th>
-      <th>Primary Hand</th>
-      <th>Off Hand</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Normal penalties</td>
-      <td>-6</td>
-      <td>-10</td>
-    </tr>
-    <tr>
-      <td>Off-hand weapon is light</td>
-      <td>-4</td>
-      <td>-8</td>
-    </tr>
-    <tr>
-      <td>Two-Weapon Fighting feat</td>
-      <td>-4</td>
-      <td>-4</td>
-    </tr>
-    <tr>
-      <td>Off-hand weapon is light and Two-Weapon Fighting feat</td>
-      <td>-2</td>
-      <td>-2</td>
-    </tr>
-  </tbody>
+<thead>
+<tr><th><p>Circumstances</p>
+</th><th><p>Primary Hand</p>
+</th><th><p>Off Hand</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Normal penalties</p>
+</td><td><p>-6</p>
+</td><td><p>-10</p>
+</td></tr>
+<tr><td><p>Off-hand weapon is light</p>
+</td><td><p>-4</p>
+</td><td><p>-8</p>
+</td></tr>
+<tr><td><p>Two-Weapon Fighting feat</p>
+</td><td><p>-4</p>
+</td><td><p>-4</p>
+</td></tr>
+<tr><td><p>Off-hand weapon is light and Two-Weapon Fighting feat</p>
+</td><td><p>-2</p>
+</td><td><p>-2</p>
+</td></tr>
+</tbody>
 </table>
 
 <p><strong>Double Weapons:</strong> You can use a double weapon to make an extra attack with the off-hand end of the weapon as if you were fighting with two weapons. The penalties apply as if the off-hand end of the weapon were a light weapon.</p>
@@ -1226,39 +1036,39 @@
         <div class="list-group">
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/overview/" class="list-group-item" title="Overview">Overview</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/" class="list-group-item" title="Overview">Overview</a>
             
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/mechanics/" class="list-group-item" title="Mechanics">Mechanics</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/mechanics/" class="list-group-item" title="Mechanics">Mechanics</a>
             
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/initiative/" class="list-group-item" title="Initiative">Initiative</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/initiative/" class="list-group-item" title="Initiative">Initiative</a>
             
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" class="list-group-item" title="Attacks of Opportunity">Attacks of Opportunity</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" class="list-group-item" title="Attacks of Opportunity">Attacks of Opportunity</a>
             
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" class="list-group-item" title="Combat Actions">Combat Actions</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" class="list-group-item" title="Combat Actions">Combat Actions</a>
             
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/injury-death/" class="list-group-item" title="Injury &amp; Death">Injury &amp; Death</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/injury-death/" class="list-group-item" title="Injury &amp; Death">Injury &amp; Death</a>
             
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/movement/" class="list-group-item" title="Movement">Movement</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/movement/" class="list-group-item" title="Movement">Movement</a>
             
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" class="list-group-item" title="Combat Modifiers">Combat Modifiers</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" class="list-group-item" title="Combat Modifiers">Combat Modifiers</a>
             
         
             
-            <a href="http://chimericdream.github.io/worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" class="list-group-item active" title="Special Attacks">Special Attacks</a>
+            <a href="//worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" class="list-group-item active" title="Special Attacks">Special Attacks</a>
             
         
         </div>
@@ -1269,14 +1079,29 @@
 </section>
 
         <footer id="page-foot" class="container">
-            <p><a href="http://chimericdream.github.io/worldofpannotia.com/todo/">To do</a> | <a href="http://chimericdream.github.io/worldofpannotia.com/admin/">Admin</a></p>
-            <p>&copy; 2007-15 William Parrott &amp; Chimeric Dream</p>
+            <section class="row">
+                <div class="col-xs-12 col-sm-6"><p>&copy; 2007-16 Bill Parrott</p></div>
+                <div class="col-xs-12 col-sm-6 text-right"><p><a href="//worldofpannotia.com/contributing/">Contribute to Pannotia</a></p></div>
+            </section>
         </footer>
-        <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/jquery.min.js"></script>
-        <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/bootstrap.min.js"></script>
-        <script src="http://chimericdream.github.io/worldofpannotia.com/assets/js/bootstrap-submenu.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/jquery.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/bootstrap.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/bootstrap-submenu.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/lunr.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/mustache.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
+        <script src="//worldofpannotia.com/assets/js/URI.js"></script>
+        <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
         <script>
-            $('.dropdown-submenu > a').submenupicker();
+            $(document).ready(function() {
+                $('[data-submenu]').submenupicker();
+                $('#site-search-query').lunrSearch({
+                    indexUrl: '//worldofpannotia.com/assets/js/index.json', // Url for the .json file containing search index data
+                    results : 'site-#search-results',                // selector for containing search results element
+                    entries : '.entries',                            // selector for search entries containing element (contained within results above)
+                    template: '#site-search-results-template'        // selector for Mustache.js template
+                });
+            });
         </script>
     </body>
 </html>

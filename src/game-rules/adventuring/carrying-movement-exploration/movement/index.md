@@ -69,28 +69,28 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 **Waterborne Movement:** See Table: Mounts and Vehicles for speeds for water vehicles.
 
 |---
-| One Round (Tactical)<sup>1</sup> | Speed | !cs | !cs | !cs
-| !rs | 15 feet | 20 feet | 30 feet | 40 feet
+| One Round (Tactical)<sup>1</sup> | Speed |<|<|<
+|^| 15 feet | 20 feet | 30 feet | 40 feet
 |-|-|-|-|-
 | Walk | 15 ft. | 20 ft. | 30 ft. | 40 ft.
 | Hustle | 30 ft. | 40 ft. | 60 ft. | 80 ft.
 | Run (&times;3) | 45 ft. | 60 ft. | 90 ft. | 120 ft.
 | Run (&times;4) | 60 ft. | 80 ft. | 120 ft. | 160 ft.
-| One Minute (Local) | !cs | !cs | !cs | !cs
+| One Minute (Local) |<|<|<|<
 | Walk | 150 ft. | 200 ft. | 300 ft. | 400 ft.
 | Hustle | 300 ft. | 400 ft. | 600 ft. | 800 ft.
 | Run (&times;3) | 450 ft. | 600 ft. | 900 ft. | 1,200 ft.
 | Run (&times;4) | 600 ft. | 800 ft. | 1,200 ft. | 1,600 ft.
-| One Hour (Overland) | !cs | !cs | !cs | !cs
+| One Hour (Overland) |<|<|<|<
 | Walk | 1&#189; miles | 2 miles | 3 miles | 4 miles
 | Hustle | 3 miles | 4 miles | 6 miles | 8 miles
 | Run | &ndash; | &ndash; | &ndash; | &ndash;
-| One Day (Overland) | !cs | !cs | !cs | !cs
+| One Day (Overland) |<|<|<|<
 | Walk | 12 miles | 16 miles | 24 miles | 32 miles
 | Hustle | &ndash; | &ndash; | &ndash; | &ndash;
 | Run | &ndash; | &ndash; | &ndash; | &ndash;
 |===
-| <sup>1</sup>Tactical movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet. | !cs | !cs | !cs | !cs
+| <sup>1</sup> Tactical movement is often measured in squares on the battle grid (1 square = 5 feet) rather than feet. |<|<|<|<
 {: #movement-and-distance-table .table .table-bordered .table-hover .table-striped data-caption="Table: Movement and Distance" }
 
 |---
@@ -101,7 +101,7 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Poor visibility | &times;2
 | Impassable | &ndash;
 |===
-| <sup>1</sup>May require a skill check | !cs
+| <sup>1</sup> May require a skill check |<
 {: #hampered-movement-table .table .table-bordered .table-hover .table-striped data-caption="Table: Hampered Movement" }
 
 |---
@@ -121,7 +121,7 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 |---
 | Mount/Vehicle | Per Hour | Per Day
 |-|-|-
-| Mount (carrying load) | !cs | !cs
+| Mount (carrying load) |<|<
 | Light horse or light warhorse | 6 miles | 48 miles
 | Light horse (151-450 lb.)<sup>1</sup> | 4 miles | 32 miles
 | Light warhorse (231-690 lb.)<sup>1</sup> | 4 miles | 32 miles
@@ -137,7 +137,7 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Dog, riding | 4 miles | 32 miles
 | Dog, riding (101-300 lb.)<sup>1</sup> | 3 miles | 24 miles
 | Cart or wagon | 2 miles | 16 miles
-| Ship | !cs | !cs
+| Ship |<|<
 | Raft or barge (poled or towed)<sup>2</sup> | &#189; mile | 5 miles
 | Keelboat (rowed)<sup>2</sup> | 1 mile | 10 miles
 | Rowboat (rowed)<sup>2</sup> | 1&#189; miles | 15 miles
@@ -146,7 +146,7 @@ See Table: Mounts and Vehicles for mounted speeds and speeds for vehicles pulled
 | Longship (sailed and rowed) | 3 miles | 72 miles
 | Galley (rowed and sailed) | 4 miles | 96 miles
 |===
-| <sup>1</sup>Quadrupeds, such as horses, can carry heavier loads than characters can. See _Carrying Capacity_, above, for more information.<br><sup>2</sup> Rafts, barges, keelboats, and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, so add an additional 42 miles to the daily distance traveled. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. | !cs | !cs
+| <sup>1</sup> Quadrupeds, such as horses, can carry heavier loads than characters can. See _Carrying Capacity_, above, for more information.<br><sup>2</sup> Rafts, barges, keelboats, and rowboats are used on lakes and rivers. If going downstream, add the speed of the current (typically 3 miles per hour) to the speed of the vehicle. In addition to 10 hours of being rowed, the vehicle can also float an additional 14 hours, if someone can guide it, so add an additional 42 miles to the daily distance traveled. These vehicles can't be rowed against any significant current, but they can be pulled upstream by draft animals on the shores. |<|<
 {: #mounts-and-vehicles-table .table .table-bordered .table-hover .table-striped data-caption="Table: Mounts and Vehicles" }
 
 #### Moving in Three Dimensions {#moving-in-3-dims}
@@ -180,8 +180,8 @@ _Down Speed:_ A flying creature can fly down at twice its normal flying speed.
 _Between Down and Up:_ An average, poor, or clumsy flier must fly level for a minimum distance after descending and before climbing. Any flier can begin descending after a climb without an intervening distance of level flight.
 
 |---
-| &nbsp; | Maneuverability | !cs | !cs | !cs | !cs
-| !rs | Perfect | Good | Average | Poor | Clumsy
+| &nbsp; | Maneuverability |<|<|<|<
+|^| Perfect | Good | Average | Poor | Clumsy
 |-|-|-|-|-|-
 | Minimum forward speed | None | None | Half | Half | Half
 | Hover | Yes | Yes | No | No | No

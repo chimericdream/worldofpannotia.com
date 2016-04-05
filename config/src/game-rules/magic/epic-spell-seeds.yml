@@ -1,0 +1,30 @@
+collections:
+  epic_spell_seeds:
+    output:    false
+
+
+defaults:
+  - scope:
+      path: ""
+      type: epic_spell_seeds
+    values:
+      seed:
+        schools:            [] # {name: "", subschools: [], descriptors: []}
+        components:         []
+        castingTime:        ""
+        range:              ""
+        area:               ""
+        targetOrEffect:     ""
+        effect:             ""
+        target:             ""
+        duration:           ""
+        dismissable:        false
+        savingThrow:        ""
+        spellResistance:    ""
+        xpCost:             0
+        xpCostSpecial:      ""
+        materialComponents: []
+        focus:              ""
+        divineFocus:        ""
+        fluffText:          ""
+        description:        ""

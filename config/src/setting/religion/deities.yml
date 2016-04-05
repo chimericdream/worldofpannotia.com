@@ -1,0 +1,4 @@
+collections:
+  deities:
+    output:    true
+    permalink: /setting/religion/deities/:path/

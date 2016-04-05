@@ -1,0 +1,4 @@
+collections:
+  epic_cursed_items:
+    output:    true
+    permalink: /equipment/epic-cursed-items/:path/

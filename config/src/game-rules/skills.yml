@@ -1,0 +1,23 @@
+collections:
+  skills:
+    output:    false
+
+  epic_skills:
+    output:    false
+
+defaults:
+  - scope:
+      path: ""
+      type: skills
+    values:
+      skill:
+        key_ability:         ""
+        trained_only:        false
+        armor_check_penalty: false
+        check:               ""
+        action:              ""
+        try_again:           ""
+        special:             ""
+        synergy:             ""
+        restriction:         ""
+        untrained:           ""

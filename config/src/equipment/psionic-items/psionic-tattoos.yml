@@ -1,0 +1,4 @@
+collections:
+  psionic_tattoos:
+    output:    true
+    permalink: /equipment/psionic-items/psionic-tattoos/:path/

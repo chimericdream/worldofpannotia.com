@@ -1,0 +1,43 @@
+{% assign item = include.item %}
+
+{% capture ogc %}
+<section class="row">
+    <aside class="col-xs-12 col-sm-4 col-sm-push-8">
+        {% if item.aura %}<p><strong>Aura:</strong> {{ item.aura | inline_pmarkdownify | liquify }}</p>{% endif %}
+        {% if item.manifesterLevel %}<p><strong>Manifester Level:</strong> {{ item.manifesterLevel | inline_pmarkdownify | liquify }}</p>{% endif %}
+        <p><strong>Market Price:</strong> {% if item.marketPrice > 0 %}{{ item.marketPrice | number_format }} gp{% else %}{{ item.marketPriceSpecial }}{% endif %}</p>
+        {% if item.weight and item.weight != "" %}<p><strong>Weight:</strong> {{ item.weight }}</p>{% endif %}
+    </aside>
+    <article class="col-xs-12 col-sm-8 col-sm-pull-4">
+        <h3>{{ include.title }}</h3>
+
+        {{ item.description | pmarkdownify | liquify }}
+
+        <hr>
+
+        <h4>Creation</h4>
+
+        <h5>Prerequisites</h5>
+        {% if item.prerequisites.feats.size > 0 %}
+        <p><strong>Feats:</strong> {{ item.prerequisites.feats | join: '; ' | inline_pmarkdownify | liquify }}</p>
+        {% endif %}
+        {% if item.prerequisites.powers.size > 0 %}
+        <p><strong>Powers</strong> {{ item.prerequisites.powers | join: '; ' | inline_pmarkdownify | liquify }}</p>
+        {% endif %}
+        {% if item.prerequisites.special.size > 0 %}
+        <p><strong>Special:</strong> {{ item.prerequisites.special | join: '; ' | inline_pmarkdownify | liquify }}</p>
+        {% endif %}
+
+        {% if (item.costToCreateSpecial and item.costToCreateSpecial != "") or item.costToCreate.gp > 0 or item.costToCreate.xp > 0 %}
+        <h5>Cost</h5>
+        {% if item.costToCreateSpecial and item.costToCreateSpecial != "" %}
+        {{ item.costToCreateSpecial | pmarkdownify | liquify }}
+        {% else %}
+        <p>{% if item.costToCreate.gp > 0 %}{{ item.costToCreate.gp | number_format }} gp{% if item.costToCreate.xp > 0 %}; {% endif %}{% endif %}{% if item.costToCreate.xp > 0 %}{{ item.costToCreate.xp | number_format }} XP{% endif %}</p>
+        {% endif %}
+        {% endif %}
+    </article>
+</section>
+{% endcapture %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}

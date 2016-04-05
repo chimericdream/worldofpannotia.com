@@ -1,0 +1,129 @@
+{% assign class = include.class %}
+
+<h2>{{ include.title }}</h2>
+
+{% if class.description and class.description != "" %}{{ class.description | pmarkdownify | liquify }}{% endif %}
+
+{% if class.adventures and class.adventures != "" %}
+<p><strong>Adventurers</strong></p>
+
+{{ class.adventures | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.characteristics and class.characteristics != "" %}
+<p><strong>Characteristics</strong></p>
+
+{{ class.characteristics | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.alignment and class.alignment != "" %}
+<p><strong>Alignment</strong></p>
+
+{{ class.alignment | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.religion and class.religion != "" %}
+<p><strong>Religion</strong></p>
+
+{{ class.religion | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.background and class.background != "" %}
+<p><strong>Background</strong></p>
+
+{{ class.background | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.races and class.races != "" %}
+<p><strong>Races</strong></p>
+
+{{ class.races | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.otherClasses and class.otherClasses != "" %}
+<p><strong>Other Classes</strong></p>
+
+{{ class.otherClasses | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.role and class.role != "" %}
+<p><strong>Role</strong></p>
+
+{{ class.role | pmarkdownify | liquify }}
+{% endif %}
+
+{% capture ogc %}
+{% if class.requirements %}
+<h3>Requirements</h3>
+
+{% if class.requirements.race and class.requirements.race != "" %}
+<p><strong>Race:</strong> {{ class.requirements.race | inline_pmarkdownify | liquify }}</p>
+{% endif %}
+
+{% if class.requirements.alignment and class.requirements.alignment != "" %}
+<p><strong>Alignment:</strong> {{ class.requirements.alignment | inline_pmarkdownify | liquify }}</p>
+{% endif %}
+
+{% if class.requirements.baseAttack and class.requirements.baseAttack > 0 %}
+<p><strong>Base Attack:</strong> +{{ class.requirements.baseAttack }}</p>
+{% endif %}
+
+{% if class.requirements.skills and class.requirements.skills.size > 0 %}
+<p><strong>Skills:</strong> {% for skill in class.requirements.skills %}{{ skill.name | inline_pmarkdownify | liquify }} {{ skill.ranks }} ranks{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+{% endif %}
+
+{% if class.requirements.feats and class.requirements.feats.size > 0 %}
+<p><strong>Feats: </strong> {{ class.requirements.feats | join:', ' | inline_pmarkdownify | liquify }}</p>
+{% endif %}
+
+{% if class.requirements.spellcasting and class.requirements.spellcasting != "" %}
+<p><strong>Spellcasting:</strong> {{ class.requirements.spellcasting | inline_pmarkdownify | liquify }}</p>
+{% endif %}
+
+{% if class.requirements.psionics and class.requirements.psionics != "" %}
+<p><strong>Psionics:</strong> {{ class.requirements.psionics | inline_pmarkdownify | liquify }}</p>
+{% endif %}
+
+{% if class.requirements.languages and class.requirements.languages != "" %}
+<p><strong>Languages:</strong> {{ class.requirements.languages | inline_pmarkdownify | liquify }}</p>
+{% endif %}
+
+{% if class.requirements.special and class.requirements.special != "" %}
+<p><strong>Special:</strong> {{ class.requirements.special | pmarkdownify | liquify }}</p>
+{% endif %}
+{% endif %}
+
+<h3>Game Rule Info</h3>
+
+{% if class.gameRuleInfo.abilities and class.gameRuleInfo.abilities != "" %}<p><strong>Abilities:</strong> {{ class.gameRuleInfo.abilities | inline_pmarkdownify | liquify }}</p>{% endif %}
+{% if class.gameRuleInfo.alignment and class.gameRuleInfo.alignment != "" %}<p><strong>Alignment:</strong> {{ class.gameRuleInfo.alignment | inline_pmarkdownify | liquify }}</p>{% endif %}
+{% if class.gameRuleInfo.hitDie and class.gameRuleInfo.hitDie != "" %}<p><strong>Hit Die:</strong> {{ class.gameRuleInfo.hitDie | inline_pmarkdownify | liquify }}</p>{% endif %}
+
+<h4>Class Skills</h4>
+<p>The {{ include.title }}'s class skills are {{ class.gameRuleInfo.classSkills | join:', ' | inline_pmarkdownify | liquify }}.</p>
+
+{% if class.gameRuleInfo.classSkillsSpecial and class.gameRuleInfo.classSkillsSpecial != "" %}
+{{ class.gameRuleInfo.classSkillsSpecial | pmarkdownify | liquify }}
+{% endif %}
+
+<p><strong>Skill Points per level:</strong> {{ class.gameRuleInfo.skillPoints }} + Int modifier</p>
+
+{{ class.gameRuleInfo.classTables | pmarkdownify | liquify }}
+
+{% if class.gameRuleInfo.classFeatures and class.gameRuleInfo.classFeatures.size > 0 %}
+<h4>Class Features</h4>
+<p>All of the following are class features of the {{ include.title }}.</p>
+
+{% for feature in class.gameRuleInfo.classFeatures %}
+<p><strong>{{ feature.name }}{% if feature.type != "" %} ({{ feature.type }}){% endif %}</strong></p>
+
+{{ feature.desc | pmarkdownify | liquify }}
+{% endfor %}
+{% endif %}
+
+{% if class.gameRuleInfo.additionalInfo and class.gameRuleInfo.additionalInfo != "" %}
+{{ class.gameRuleInfo.additionalInfo | pmarkdownify | liquify }}
+{% endif %}
+{% endcapture %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}

@@ -1,0 +1,16 @@
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout:           "main"
+      permalink:        /:path/
+      showPageTitle:    true
+      crumbs:           []
+      crumbTitles:      []
+      sectionTitle:     ""
+      sectionNav:       []
+      activeSection:    ""
+      subSectionParent: "" # The path of the parent item. Determines where the subsection is displayed.
+      subSectionNav:    []
+      activeSubSection: ""

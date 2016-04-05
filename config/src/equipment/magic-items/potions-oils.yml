@@ -1,0 +1,31 @@
+collections:
+  potions_oils:
+    output:    true
+    permalink: /equipment/magic-items/potions-oils/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: potions_oils
+    values:
+      layout: "equipment/magic-items/potion"
+      crumbs: [equipment, magic-items, potions-oils]
+      crumbTitles: [Equipment, Magic Items, Potions &amp; Oils]
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        manifesterLevel: ""
+        prerequisites:
+          feats: []
+          powers: []
+          spells: []
+          special: []
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""

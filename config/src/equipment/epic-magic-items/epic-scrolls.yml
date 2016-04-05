@@ -1,0 +1,4 @@
+collections:
+  epic_scrolls:
+    output:    true
+    permalink: /equipment/epic-magic-items/scrolls/:path/

@@ -1,0 +1,18 @@
+collections:
+  epic_magic_armor_abilities:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: epic_magic_armor_abilities
+    values:
+      ability:
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        price: ""
+        description: ""

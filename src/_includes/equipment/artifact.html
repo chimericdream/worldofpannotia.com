@@ -1,0 +1,20 @@
+{% assign artifact = include.artifact %}
+
+{% capture ogc %}
+<section class="row">
+    <aside class="col-xs-12 col-sm-4 col-sm-push-8">
+        <strong>Type:</strong> {{ artifact.type | capitalize }}
+        {% if artifact.aura != "" %}<br><strong>Aura:</strong> {{ artifact.aura | pmarkdownify | liquify }}{% endif %}
+        {% if artifact.casterLevel != "" %}<br><strong>Caster Level:</strong> {{ artifact.casterLevel | pmarkdownify | liquify }}{% endif %}
+        {% if artifact.manifesterLevel != "" %}<strong>Manifester Level:</strong> {{ artifact.manifesterLevel | pmarkdownify | liquify }}{% endif %}
+        {% if artifact.weight != "" %}<br><strong>Weight:</strong> {{ artifact.weight }}{% endif %}
+    </aside>
+    <article class="col-xs-12 col-sm-8 col-sm-pull-4">
+        <h3>{{ include.title }}</h3>
+
+        {{ artifact.description | pmarkdownify | liquify }}
+    </article>
+</section>
+{% endcapture %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}

@@ -1,0 +1,31 @@
+collections:
+  rods:
+    output:    true
+    permalink: /equipment/magic-items/rods/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: rods
+    values:
+      layout: "equipment/magic-items/rod"
+      crumbs: [equipment, magic-items, rods]
+      crumbTitles: [Equipment, Magic Items, Rods]
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        manifesterLevel: ""
+        prerequisites:
+          feats: []
+          powers: []
+          spells: []
+          special: []
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""

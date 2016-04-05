@@ -1,0 +1,18 @@
+collections:
+  magic_armor_abilities:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: magic_armor_abilities
+    values:
+      ability:
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        price: ""
+        description: ""

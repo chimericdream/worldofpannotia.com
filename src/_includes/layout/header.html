@@ -24,8 +24,28 @@
         <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="{{ site.url }}/assets/css/bootstrap-submenu.min.css">
+        {% if site.debug %}
+        <!--link rel="stylesheet" href="{{ site.url }}/assets/css/debug.min.css"-->
+        {% endif %}
         <style>
             body {padding-top: 70px;}
+            :target::before {
+                background-attachment: scroll;
+                background-image: url("{{ site.url }}/assets/images/icons/sword-pointer.png");
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                content: " ";
+                display: block;
+                height: calc(70px + 1em);
+                margin-bottom: -1em;
+                margin-left: -110px;
+                margin-top: -70px;
+                padding-top: 70px;
+            }
+            p:target::before {
+                height: calc(70px + 1.45em);
+                margin-bottom: -1.45em;
+            }
             table[data-caption]::before {
                 content: attr(data-caption);
                 display: table-caption;
@@ -39,6 +59,24 @@
                 content: "&ndash;";
                 text-align: center;
             }
+            .table-bordered > thead > tr > th,
+            .table-bordered > thead > tr > td {
+                border-bottom-width: 1px;
+            }
+            th > p:last-child,
+            td > p:last-child {
+                margin-bottom: 0;
+            }
+            .table > thead > tr > th[rowspan],
+            .table > tbody > tr > td[rowspan] {
+                vertical-align: middle;
+            }
+            .table-bordered > thead > tr:last-of-type {
+                border-bottom: 2px solid #ddd;
+            }
+            .table-bordered > tfoot > tr:first-of-type > td {
+                border-top-width: 2px;
+            }
             h1,h2,h3,h4,h5,h6 {
                 font-weight: bold;
             }
@@ -49,8 +87,42 @@
             .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
                 border-bottom-left-radius: 0px;
             }
+            ol > li > ol > li {
+                list-style-type: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style-type: lower-roman;
+            }
         </style>
     </head>
     <body>
         {% include layout/menu.html %}
+        {% if site.enable_search %}
+        <section class="container">
+            <div class="row">
+                <div class="col-xs-12" id="site-search-box">
+                    <form action="/search" method="get">
+                        <input type="text" id="site-search-query" name="q" placeholder="Search" autocomplete="off">
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="site-search-results" style="display: none;">
+            <p>Search results</p>
+            <div class="entries">
+            </div>
+        </section>
+{% raw %}
+<script id="site-search-results-template" type="text/mustache">
+    {{#entries}}
+        <article>
+            <h3>
+                {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{displaydate}}</time></small>{{/date}}
+                <a href="{{url}}">{{title}}</a>
+            </h3>
+        </article>
+    {{/entries}}
+</script>
+{% endraw %}
+        {% endif %}
         {% include layout/breadcrumbs.html %}

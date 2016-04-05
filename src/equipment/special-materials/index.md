@@ -20,7 +20,7 @@ Each of the special materials described below has a definite game effect. Some c
 <section>
     <h4>{{ material.title }}</h4>
     <article>
-        {{ material.content | markdownify }}
+        {{ material.content | pmarkdownify }}
     </article>
 </section>
 {% endfor %}

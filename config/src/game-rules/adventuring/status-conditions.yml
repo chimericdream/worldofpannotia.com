@@ -1,0 +1,3 @@
+collections:
+  status_conditions:
+    output:    false

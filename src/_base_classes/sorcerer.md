@@ -1,0 +1,226 @@
+---
+title: "Sorcerer"
+abbr: "Sor"
+
+class:
+  description: ""
+  adventures: ""
+  characteristics: ""
+  alignment: ""
+  religion: ""
+  background: ""
+  races: ""
+  otherClasses: ""
+  role: ""
+  gameRuleInfo:
+    abilities: ""
+    alignment: "Any."
+    hitDie: "d4"
+    classSkills: ["{% skill_link bluff %}", "{% skill_link concentration %}", "{% skill_link craft %}", "{% skill_link knowledge 'Knowledge (Arcana)' %}", "{% skill_link profession %}", "{% skill_link spellcraft %}", "{% skill_link use-magic-device %}"]
+    skillPoints: 2
+    classTables: |
+      |---
+      | Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
+      |-|-|-|-|-|-
+      | 1 | +0 | +0 | +0 | +2 | Summon familiar
+      | 2 | +1 | +0 | +0 | +3 | &nbsp;
+      | 3 | +1 | +1 | +1 | +3 | &nbsp;
+      | 4 | +2 | +1 | +1 | +4 | &nbsp;
+      | 5 | +2 | +1 | +1 | +4 | &nbsp;
+      | 6 | +3 | +2 | +2 | +5 | &nbsp;
+      | 7 | +3 | +2 | +2 | +5 | &nbsp;
+      | 8 | +4 | +2 | +2 | +6 | &nbsp;
+      | 9 | +4 | +3 | +3 | +6 | &nbsp;
+      | 10 | +5 | +3 | +3 | +7 | &nbsp;
+      | 11 | +5 | +3 | +3 | +7 | &nbsp;
+      | 12 | +6/+1 | +4 | +4 | +8 | &nbsp;
+      | 13 | +6/+1 | +4 | +4 | +8 | &nbsp;
+      | 14 | +7/+2 | +4 | +4 | +9 | &nbsp;
+      | 15 | +7/+2 | +5 | +5 | +9 | &nbsp;
+      | 16 | +8/+3 | +5 | +5 | +10 | &nbsp;
+      | 17 | +8/+3 | +5 | +5 | +10 | &nbsp;
+      | 18 | +9/+4 | +6 | +6 | +11 | &nbsp;
+      | 19 | +9/+4 | +6 | +6 | +11 | &nbsp;
+      | 20 | +10/+5 | +6 | +6 | +12 | &nbsp;
+      {: #sorcerer-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Sorcerer" }
+
+      |---
+      | Level | Spells Per Day |<|<|<|<|<|<|<|<|<
+      |^| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+      |-|-|-|-|-|-|-|-|-|-|-
+      | 1 | 5 | 3 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 2 | 6 | 4 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 3 | 6 | 5 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 4 | 6 | 6 | 3 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 5 | 6 | 6 | 4 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 6 | 6 | 6 | 5 | 3 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 7 | 6 | 6 | 6 | 4 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 8 | 6 | 6 | 6 | 5 | 3 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 9 | 6 | 6 | 6 | 6 | 4 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 10 | 6 | 6 | 6 | 6 | 5 | 3 | &ndash; | &ndash; | &ndash; | &ndash;
+      | 11 | 6 | 6 | 6 | 6 | 6 | 4 | &ndash; | &ndash; | &ndash; | &ndash;
+      | 12 | 6 | 6 | 6 | 6 | 6 | 5 | 3 | &ndash; | &ndash; | &ndash;
+      | 13 | 6 | 6 | 6 | 6 | 6 | 6 | 4 | &ndash; | &ndash; | &ndash;
+      | 14 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 3 | &ndash; | &ndash;
+      | 15 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4 | &ndash; | &ndash;
+      | 16 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 3 | &ndash;
+      | 17 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4 | &ndash;
+      | 18 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 5 | 3
+      | 19 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 4
+      | 20 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6 | 6
+      {: #sorcerer-spells-per-day-table .table .table-bordered .table-hover .table-striped data-caption="Table: Sorcerer Spells Per Day" }
+
+      |---
+      | Level | Spells Known |<|<|<|<|<|<|<|<|<
+      |^| 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+      |-|-|-|-|-|-|-|-|-|-|-
+      | 1 | 4 | 2 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 2 | 5 | 2 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 3 | 5 | 3 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 4 | 6 | 3 | 1 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 5 | 6 | 4 | 2 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 6 | 7 | 4 | 2 | 1 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 7 | 7 | 5 | 3 | 2 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 8 | 8 | 5 | 3 | 2 | 1 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 9 | 8 | 5 | 4 | 3 | 2 | &ndash; | &ndash; | &ndash; | &ndash; | &ndash;
+      | 10 | 9 | 5 | 4 | 3 | 2 | 1 | &ndash; | &ndash; | &ndash; | &ndash;
+      | 11 | 9 | 5 | 5 | 4 | 3 | 2 | &ndash; | &ndash; | &ndash; | &ndash;
+      | 12 | 9 | 5 | 5 | 4 | 3 | 2 | 1 | &ndash; | &ndash; | &ndash;
+      | 13 | 9 | 5 | 5 | 4 | 4 | 3 | 2 | &ndash; | &ndash; | &ndash;
+      | 14 | 9 | 5 | 5 | 4 | 4 | 3 | 2 | 1 | &ndash; | &ndash;
+      | 15 | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 2 | &ndash; | &ndash;
+      | 16 | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 2 | 1 | &ndash;
+      | 17 | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 2 | &ndash;
+      | 18 | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 2 | 1
+      | 19 | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 3 | 2
+      | 20 | 9 | 5 | 5 | 4 | 4 | 4 | 3 | 3 | 3 | 3
+      {: #sorcerer-spells-known-table .table .table-bordered .table-hover .table-striped data-caption="Table: Sorcerer Spells Known" }
+    classFeatures:
+      - name: "Weapon and Armor Proficiency"
+        type: ""
+        desc: "Sorcerers are proficient with all simple weapons. They are not proficient with any type of armor or shield. Armor of any type interferes with a sorcerer's gestures, which can cause his spells with somatic components to fail."
+      - name: "Spells"
+        type: ""
+        desc: |
+          A sorcerer casts arcane spells which are drawn primarily from the sorcerer/wizard spell list. He can cast any spell he knows without preparing it ahead of time, the way a wizard or a cleric must (see below).
+
+          To learn or cast a spell, a sorcerer must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a sorcerer's spell is 10 + the spell level + the sorcerer's Charisma modifier.
+
+          Like other spellcasters, a sorcerer can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: The Sorcerer. In addition, he receives bonus spells per day if he has a high Charisma score.
+
+          A sorcerer's selection of spells is extremely limited. A sorcerer begins play knowing four 0-level spells and two 1st-level spells of your choice. At each new sorcerer level, he gains one or more new spells, as indicated on Table: Sorcerer Spells Known. (Unlike spells per day, the number of spells a sorcerer knows is not affected by his Charisma score; the numbers on Table: Sorcerer Spells Known are fixed.) These new spells can be common spells chosen from the sorcerer/wizard spell list, or they can be unusual spells that the sorcerer has gained some understanding of by study. The sorcerer can't use this method of spell acquisition to learn spells at a faster rate, however.
+
+          Upon reaching 4th level, and at every even-numbered sorcerer level after that (6th, 8th, and so on), a sorcerer can choose to learn a new spell in place of one he already knows. In effect, the sorcerer "loses" the old spell in exchange for the new one. The new spell's level must be the same as that of the spell being exchanged, and it must be at least two levels lower than the highest-level sorcerer spell the sorcerer can cast. A sorcerer may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.
+
+          Unlike a wizard or a cleric, a sorcerer need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his spells per day for that spell level. He does not have to decide ahead of time which spells he'll cast.
+      - name: "Familiar"
+        type: ""
+        desc: |
+          A sorcerer can obtain a familiar. Doing so takes 24 hours and uses up magical materials that cost 100 gp. A familiar is a magical beast that resembles a small animal and is unusually tough and intelligent. The creature serves as a companion and servant.
+
+          The sorcerer chooses the kind of familiar he gets. As the sorcerer advances in level, his familiar also increases in power.
+
+          If the familiar dies or is dismissed by the sorcerer, the sorcerer must attempt a DC 15 Fortitude saving throw. Failure means he loses 200 experience points per sorcerer level; success reduces the loss to one-half that amount. However, a sorcerer's experience point total can never go below 0 as the result of a familiar's demise or dismissal. A slain or dismissed familiar cannot be replaced for a year and day. A slain familiar can be raised from the dead just as a character can be, and it does not lose a level or a Constitution point when this happy event occurs.
+
+          A character with more than one class that grants a familiar may have only one familiar at a time.
+    additionalInfo: |
+      #### Familiars
+
+      A familiar is a normal animal that gains new powers and becomes a magical beast when summoned to service by a sorcerer or wizard. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but it is treated as a magical beast instead of an animal for the purpose of any effect that depends on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.
+
+      A familiar also grants special abilities to its master (a sorcerer or wizard), as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.
+
+      Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master's level.
+
+      |---
+      | Familiar | Special
+      |-|-
+      | Bat | Master gains a +3 bonus on {% skill_link listen %} checks
+      | Cat | Master gains a +3 bonus on {% skill_link move-silently %} checks
+      | Hawk | Master gains a +3 bonus on {% skill_link spot %} checks in bright light
+      | Lizard | Master gains a +3 bonus on {% skill_link climb %} checks
+      | Owl | Master gains a +3 bonus on {% skill_link spot %} checks in shadows
+      | Rat | Master gains a +2 bonus on Fortitude saves
+      | Raven<sup>1</sup> | Master gains a +3 bonus on {% skill_link appraise %} checks
+      | Snake<sup>2</sup> | Master gains a +3 bonus on {% skill_link bluff %} checks
+      | Toad | Master gains +3 hit points
+      | Weasel | Master gains a +2 bonus on Reflex saves
+      |===
+      | <sup>1</sup>A raven familiar can speak one language of its master's choice as a supernatural ability.<br><sup>2</sup>Tiny viper. |<
+      {: #familiar-table .table .table-bordered .table-hover .table-striped data-caption="Table: Familiars" }
+
+      ##### Familiar Basics
+
+      Use the basic statistics for a creature of the familiar's kind, but make the following changes:
+
+      _Hit Dice:_ For the purpose of effects related to number of Hit Dice, use the master's character level or the familiar's normal HD total, whichever is higher.
+
+      _Hit Points:_ The familiar has one-half the master's total hit points (not including temporary hit points), rounded down, regardless of its actual Hit Dice.
+
+      _Attacks:_ Use the master's base attack bonus, as calculated from all his classes. Use the familiar's Dexterity or Strength modifier, whichever is greater, to get the familiar's melee attack bonus with natural weapons.
+
+      Damage equals that of a normal creature of the familiar's kind.
+
+      _Saving Throws:_ For each saving throw, use either the familiar's base save bonus (Fortitude +2, Reflex +2, Will +0) or the master's (as calculated from all his classes), whichever is better. The familiar uses its own ability modifiers to saves, and it doesn't share any of the other bonuses that the master might have on saves.
+
+      _Skills:_ For each skill in which either the master or the familiar has ranks, use either the normal skill ranks for an animal of that type or the master's skill ranks, whichever are better. In either case, the familiar uses its own ability modifiers. Regardless of a familiar's total skill modifiers, some skills may remain beyond the familiar's ability to use.
+
+      |---
+      | Master Class Level | Natural Armor Adj. | Int | Special
+      |-|-|-|-
+      | 1st-2nd | +1 | 6 | Alertness, improved evasion, share spells, empathic link
+      | 3rd-4th | +2 | 7 | Deliver touch spells
+      | 5th-6th | +3 | 8 | Speak with master
+      | 7th-8th | +4 | 9 | Speak with animals of its kind
+      | 9th-10th | +5 | 10 | &nbsp;
+      | 11th-12th | +6 | 11 | Spell resistance
+      | 13th-14th | +7 | 12 | Scry on familiar
+      | 15th-16th | +8 | 13 | &nbsp;
+      | 17th-18th | +9 | 14 | &nbsp;
+      | 19th-20th | +10 | 15 | &nbsp;
+      {: #familiar-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Familiar Special Abilities" }
+
+      ##### Familiar Ability Descriptions
+
+      All familiars have special abilities (or impart abilities to their masters) depending on the master's combined level in classes that grant familiars, as shown on the table below. The abilities given on the table are cumulative.
+
+      _Natural Armor Adj.:_ The number noted here is an improvement to the familiar's existing natural armor bonus.
+
+      _Int:_ The familiar's Intelligence score.
+
+      _Alertness (Ex):_ While a familiar is within arm's reach, the master gains the Alertness feat.
+
+      _Improved Evasion (Ex):_ When subjected to an attack that normally allows a Reflex saving throw for half damage, a familiar takes no damage if it makes a successful saving throw and half damage even if the saving throw fails.
+
+      _Share Spells:_ At the master's option, he may have any spell (but not any spell-like ability) he casts on himself also affect his familiar. The familiar must be within 5 feet at the time of casting to receive the benefit.
+
+      If the spell or effect has a duration other than instantaneous, it stops affecting the familiar if it moves farther than 5 feet away and will not affect the familiar again even if it returns to the master before the duration expires. Additionally, the master may cast a spell with a target of "You" on his familiar (as a touch range spell) instead of on himself.
+
+      A master and his familiar can share spells even if the spells normally do not affect creatures of the familiar's type (magical beast).
+
+      _Empathic Link (Su):_ The master has an empathic link with his familiar out to a distance of up to 1 mile. The master cannot see through the familiar's eyes, but they can communicate empathically. Because of the limited nature of the link, only general emotional content can be communicated.
+
+      Because of this empathic link, the master has the same connection to an item or place that his familiar does.
+
+      _Deliver Touch Spells (Su):_ If the master is 3rd level or higher, a familiar can deliver touch spells for him. If the master and the familiar are in contact at the time the master casts a touch spell, he can designate his familiar as the "toucher." The familiar can then deliver the touch spell just as the master could. As usual, if the master casts another spell before the touch is delivered, the touch spell dissipates.
+
+      _Speak with Master (Ex):_ If the master is 5th level or higher, a familiar and the master can communicate verbally as if they were using a common language. Other creatures do not understand the communication without magical help.
+
+      _Speak with Animals of Its Kind (Ex):_ If the master is 7th level or higher, a familiar can communicate with animals of approximately the same kind as itself (including dire varieties): bats with bats, rats with rodents, cats with felines, hawks and owls and ravens with birds, lizards and snakes with reptiles, toads with amphibians, weasels with similar creatures (weasels, minks, polecats, ermines, skunks, wolverines, and badgers). Such communication is limited by the intelligence of the conversing creatures.
+
+      _Spell Resistance (Ex):_ If the master is 11th level or higher, a familiar gains spell resistance equal to the master's level + 5. To affect the familiar with a spell, another spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the familiar's spell resistance.
+
+      _Scry on Familiar (Sp):_ If the master is 13th level or higher, he may scry on his familiar (as if casting the {% spell_link scrying %} spell) once per day.
+
+      #### Arcane Spells and Armor
+
+      Wizards and sorcerers do not know how to wear armor effectively.
+
+      If desired, they can wear armor anyway (though they'll be clumsy in it), or they can gain training in the proper use of armor (with the various Armor Proficiency feats-light, medium, and heavy-and the Shield Proficiency feat), or they can multiclass to add a class that grants them armor proficiency. Even if a wizard or sorcerer is wearing armor with which he or she is proficient, however, it might still interfere with spellcasting.
+
+      Armor restricts the complicated gestures that a wizards or sorcerer must make while casting any spell that has a somatic component (most do). The armor and shield descriptions list the arcane spell failure chance for different armors and shields.
+
+      By contrast, bards not only know how to wear light armor effectively, but they can also ignore the arcane spell failure chance for such armor. A bard wearing armor heavier than light or using any type of shield incurs the normal arcane spell failure chance, even if he becomes proficient with that armor.
+
+      If a spell doesn't have a somatic component, an arcane spellcaster can cast it with no problem while wearing armor. Such spells can also be cast even if the caster's hands are bound or if he or she is grappling (although {% skill_link concentration %} checks still apply normally). Also, the metamagic feat Still Spell allows a spellcaster to prepare or cast a spell at one spell level higher than normal without the somatic component. This also provides a way to cast a spell while wearing armor without risking arcane spell failure.
+---

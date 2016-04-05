@@ -1,0 +1,24 @@
+defaults:
+  - scope:
+      path: "game-rules/magic"
+    values:
+      sectionTitle: "Magic"
+      sectionNav:
+        - title: "Overview"
+          url: "game-rules/magic"
+        - title: "Spell Descriptions"
+          url: "game-rules/magic/spell-descriptions"
+        - title: "Arcane Spells"
+          url: "game-rules/magic/arcane-spells"
+        - title: "Divine Spells"
+          url: "game-rules/magic/divine-spells"
+        - title: "Spell Index"
+          url: "game-rules/magic/spells"
+        - title: "Domains"
+          url: "game-rules/magic/domains"
+        - title: "Spell Lists"
+          url: "game-rules/magic/spell-lists"
+        - title: "Spell Combinations"
+          url: "game-rules/magic/spell-combinations"
+        - title: "Epic Spells"
+          url: "game-rules/magic/epic-spells"

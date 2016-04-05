@@ -1,0 +1,32 @@
+{% assign class = include.class %}
+
+<h2>{{ include.title }}</h2>
+
+{% if class.description and class.description != "" %}{{ class.description | pmarkdownify | liquify }}{% endif %}
+
+{% capture ogc %}
+<h3>Game Rule Info</h3>
+
+{% if class.gameRuleInfo.abilities != "" %}<p><strong>Abilities:</strong> {{ class.gameRuleInfo.abilities | inline_pmarkdownify | liquify }}</p>{% endif %}
+{% if class.gameRuleInfo.alignment != "" %}<p><strong>Alignment:</strong> {{ class.gameRuleInfo.alignment | inline_pmarkdownify | liquify }}</p>{% endif %}
+{% if class.gameRuleInfo.hitDie != "" %}<p><strong>Hit Die:</strong> {{ class.gameRuleInfo.hitDie | inline_pmarkdownify | liquify }}</p>{% endif %}
+
+<p><strong>Skill Points at 1st level:</strong> ({{ class.gameRuleInfo.skillPoints }} + Int modifier) &times; 4</p>
+<p><strong>Skill Points at each additional level:</strong> {{ class.gameRuleInfo.skillPoints }} + Int modifier</p>
+<p><strong>Base Challenge Rating:</strong> +1 per {{ class.gameRuleInfo.hitDicePerCr }} HD</p>
+
+{{ class.gameRuleInfo.classTables | pmarkdownify | liquify }}
+
+{% if class.gameRuleInfo.traits and class.gameRuleInfo.traits != "" %}
+<h4>Racial Traits</h4>
+<p>A(n) {{ include.title }} has the following traits.</p>
+
+{{ class.gameRuleInfo.traits | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.gameRuleInfo.additionalInfo and class.gameRuleInfo.additionalInfo != "" %}
+{{ class.gameRuleInfo.additionalInfo | pmarkdownify | liquify }}
+{% endif %}
+{% endcapture %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}

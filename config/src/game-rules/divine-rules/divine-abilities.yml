@@ -1,0 +1,22 @@
+collections:
+  divine_abilities:
+    output:    true
+    permalink: /game-rules/divine-rules/salient-divine-abilities/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: divine_abilities
+    values:
+      layout: "game-rules/divine-rules/divine-ability"
+      crumbs:        [game-rules, divine-rules, salient-divine-abilities]
+      crumbTitles:   [Game Rules, Divine Rules, Salient Divine Abilities]
+      activeSection: "game-rules/divine-rules/salient-divine-abilities"
+      ability:
+        name: ""
+        prerequisite: ""
+        benefit: ""
+        notes: ""
+        rest: ""
+        portfolioElements: ""
+        description: ""

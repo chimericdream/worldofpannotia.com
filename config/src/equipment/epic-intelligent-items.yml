@@ -1,0 +1,4 @@
+collections:
+  epic_intelligent_items:
+    output:    true
+    permalink: /equipment/epic-intelligent-items/:path/

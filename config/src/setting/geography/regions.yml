@@ -1,0 +1,4 @@
+collections:
+  regions:
+    output:    true
+    permalink: /setting/geography/regions/:path/

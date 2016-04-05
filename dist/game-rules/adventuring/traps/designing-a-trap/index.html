@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>
+            
+              Designing a Trap &bull;
+            
+            
+            
+            World of Pannotia
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Bill Parrott">
+        <meta name="robots" content="index,follow">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="verify-v1" content="egPuqjqZ8sCHKRVlzOiwixC/6IpPbxxdcuohNchNa0A=">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        
+        <style>
+            body {padding-top: 70px;}
+            :target::before {
+                background-attachment: scroll;
+                background-image: url("//worldofpannotia.com/assets/images/icons/sword-pointer.png");
+                background-position: left bottom;
+                background-repeat: no-repeat;
+                content: " ";
+                display: block;
+                height: calc(70px + 1em);
+                margin-bottom: -1em;
+                margin-left: -110px;
+                margin-top: -70px;
+                padding-top: 70px;
+            }
+            p:target::before {
+                height: calc(70px + 1.45em);
+                margin-bottom: -1.45em;
+            }
+            table[data-caption]::before {
+                content: attr(data-caption);
+                display: table-caption;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                color: #777;
+                text-align: left;
+            }
+            tbody tr > td:empty {
+                background-color: #f9f9f9;
+                content: "&ndash;";
+                text-align: center;
+            }
+            .table-bordered > thead > tr > th,
+            .table-bordered > thead > tr > td {
+                border-bottom-width: 1px;
+            }
+            th > p:last-child,
+            td > p:last-child {
+                margin-bottom: 0;
+            }
+            .table > thead > tr > th[rowspan],
+            .table > tbody > tr > td[rowspan] {
+                vertical-align: middle;
+            }
+            .table-bordered > thead > tr:last-of-type {
+                border-bottom: 2px solid #ddd;
+            }
+            .table-bordered > tfoot > tr:first-of-type > td {
+                border-top-width: 2px;
+            }
+            h1,h2,h3,h4,h5,h6 {
+                font-weight: bold;
+            }
+            .indented-list-group-item {
+                margin-left: 15px;
+            }
+            .panel > .list-group:last-child .indented-list-group-item:last-child,
+            .panel > .panel-collapse > .list-group:last-child .indented-list-group-item:last-child {
+                border-bottom-left-radius: 0px;
+            }
+            ol > li > ol > li {
+                list-style-type: lower-alpha;
+            }
+            ol > li > ol > li > ol > li {
+                list-style-type: lower-roman;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="//worldofpannotia.com/">World of Pannotia</a>
+        </div>
+        <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#" title="Game Rules" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Game Rules <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/game-rules/" title="Basics">Basics</a></li>
+                        <li><a href="//worldofpannotia.com/game-rules/advancement/" title="Character Advancement">Character Advancement</a></li>
+                        <li><a href="//worldofpannotia.com/game-rules/races/" title="Races">Races</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Classes" class="dropdown-toggle" data-toggle="dropdown" role="button">Classes</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/classes/" title="Base Classes">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/prestige-classes/" title="Prestige Classes">Prestige Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/epic-classes/" title="Epic Classes">Epic Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/racial-classes/" title="Racial Classes">Racial Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/npc-classes/" title="NPC Classes">NPC Classes</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/classes/multiclass-characters/" title="Multiclass Characters">Multiclass Characters</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Skills" class="dropdown-toggle" data-toggle="dropdown" role="button">Skills</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/skills/" title="Skills Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/#using-skills" title="Using Skills">Using Skills</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/#skill-descriptions" title="Descriptions">Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/skills/epic-skill-uses/" title="Epic Skill Uses">Epic Skill Uses</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Feats" class="dropdown-toggle" data-toggle="dropdown" role="button">Feats</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/feats/" title="Feats Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/descriptions/" title="Descriptions">Descriptions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Feat Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Feat Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/general/" title="General">General</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/fighter/" title="Fighter">Fighter</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/item-creation/" title="Item Creation">Item Creation</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/metamagic/" title="Metamagic">Metamagic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/psionic/" title="Psionic">Psionic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/metapsionic/" title="Metapsionic">Metapsionic</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/divine/" title="Divine">Divine</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/monster/" title="Monster">Monster</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/feats/feat-lists/epic/" title="Epic">Epic</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/feats/feat-index/" title="Feat Index">Feat Index</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Magic" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/magic/" title="Magic Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/spell-descriptions/" title="Spell Descriptions">Spell Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/arcane-spells/" title="Arcane Spells">Arcane Spells</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/divine-spells/" title="Divine Spells">Divine Spells</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/spell-index/" title="Spell Index">Spell Index</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/magic/domains/" title="Domains">Domains</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Spell Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/bard/" title="Bard">Bard</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/cleric/" title="Cleric">Cleric</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/druid/" title="Druid">Druid</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/paladin/" title="Paladin">Paladin</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/ranger/" title="Ranger">Ranger</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-lists/sorcerer-wizard/" title="Sorcerer/Wizard">Sorcerer/Wizard</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Spell Combinations" class="dropdown-toggle" data-toggle="dropdown" role="button">Spell Combinations</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/" title="Spell Combinations Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/developing-spell-combinations/" title="Developing Spell Combinations">Developing Spell Combinations</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/spell-combinations/spell-combination-index/" title="Spell Combination Index">Spell Combination Index</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Epic Spells" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Spells</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/" title="Epic Spells Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/developing-epic-spells/" title="Developing Epic Spells">Developing Epic Spells</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/seeds/" title="Seeds">Seeds</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/magic/epic-spells/spells/" title="Epic Spell Index">Epic Spell Index</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Psionics" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/" title="Psionics Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/power-descriptions/" title="Power Descriptions">Power Descriptions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/power-index/" title="Power Index">Power Index</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Power Lists" class="dropdown-toggle" data-toggle="dropdown" role="button">Power Lists</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/psionics/power-lists/psion-wilder/" title="Psion/Wilder">Psion/Wilder</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/psionics/power-lists/psychic-warrior/" title="Psychic Warrior">Psychic Warrior</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/psionics/epic-powers/" title="Epic Powers">Epic Powers</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Adventuring" class="dropdown-toggle" data-toggle="dropdown" role="button">Adventuring</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Combat" class="dropdown-toggle" data-toggle="dropdown" role="button">Combat</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/" title="Combat Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/mechanics/" title="Mechanics">Mechanics</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/initiative/" title="Initiative">Initiative</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/attacks-of-opportunity/" title="Attacks of Opportunity">Attacks of Opportunity</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-actions/" title="Combat Actions">Combat Actions</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/injury-death/" title="Injury &amp; Death">Injury &amp; Death</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/combat-modifiers/" title="Combat Modifiers">Combat Modifiers</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/combat/special-attacks/" title="Special Attacks">Special Attacks</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="//worldofpannotia.com/game-rules/adventuring/special-abilities/" title="Special Abilities">Special Abilities</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/adventuring/status-conditions/" title="Status Conditions">Status Conditions</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Carrying, Movement, &amp; Exploration" class="dropdown-toggle" data-toggle="dropdown" role="button">Carrying, Movement, &amp; Exploration</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/carrying-capacity/" title="Carrying Capacity">Carrying Capacity</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/movement/" title="Movement">Movement</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/carrying-movement-exploration/exploration/" title="Exploration">Exploration</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Wilderness &amp; Environment" class="dropdown-toggle" data-toggle="dropdown" role="button">Wilderness &amp; Environment</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/dungeons/" title="Dungeons">Dungeons</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/wilderness/" title="Wilderness">Wilderness</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/weather/" title="Weather">Weather</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/wilderness-environment/environment/" title="The Environment">The Environment</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="Traps" class="dropdown-toggle" data-toggle="dropdown" role="button">Traps</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/" title="Traps Overview">Overview</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/designing-a-trap/" title="Designing a Trap">Designing a Trap</a></li>
+                                        <li><a href="//worldofpannotia.com/game-rules/adventuring/traps/specific-traps/" title="Specific Traps">Specific Traps</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Divine Rules" class="dropdown-toggle" data-toggle="dropdown" role="button">Divine Rules</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-ranks/" title="Divine Ranks">Divine Ranks</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-characteristics/" title="Divine Characteristics">Divine Characteristics</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/salient-divine-abilities/" title="Salient Divine Abilities">Salient Divine Abilities</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/divine-minions/" title="Divine Minions">Divine Minions</a></li>
+                                <li><a href="//worldofpannotia.com/game-rules/divine-rules/becoming-a-god/" title="Becoming a God">Becoming a God</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/game-rules/epic-obstacles/" title="Epic Obstacles">Epic Obstacles</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Equipment" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Equipment <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/equipment/wealth-money/" title="Wealth &amp; Money">Wealth &amp; Money</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Goods &amp; Services" class="dropdown-toggle" data-toggle="dropdown" role="button">Goods &amp; Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/adventuring-gear/" title="Adventuring Gear">Adventuring Gear</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/special-substances-items/" title="Special Substances &amp; Items">Special Substances &amp; Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/tools-skill-kits/" title="Tools &amp; Skill Kits">Tools &amp; Skill Kits</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/clothing/" title="Clothing">Clothing</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/food-drink-lodging/" title="Food, Drink, &amp; Lodging">Food, Drink, &amp; Lodging</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/mounts-related-gear/" title="Mounts &amp; Related Gear">Mounts &amp; Related Gear</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/transport/" title="Transport">Transport</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/goods-services/spellcasting-services/" title="Spellcasting &amp; Services">Spellcasting &amp; Services</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/equipment/special-materials/" title="Special Materials">Special Materials</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Armor" class="dropdown-toggle" data-toggle="dropdown" role="button">Armor</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/armor/" title="Armor Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/armor/armor-descriptions/" title="Armor Descriptions">Armor Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Weapons" class="dropdown-toggle" data-toggle="dropdown" role="button">Weapons</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/weapons/" title="Weapons Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/weapons/weapon-descriptions/" title="Weapon Descriptions">Weapon Descriptions</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Magic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/" title="Magic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/creating-magic-items/" title="Creating Magic Items">Creating Magic Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/armor/" title="Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/weapons/" title="Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/potions-oils/" title="Potions &amp; Oils">Potions &amp; Oils</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/rings/" title="Rings">Rings</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/rods/" title="Rods">Rods</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/scrolls/" title="Scrolls">Scrolls</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/staffs/" title="Staffs">Staffs</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/wands/" title="Wands">Wands</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/magic-items/wondrous-items/" title="Wondrous Items">Wondrous Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Psionic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Psionic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/" title="Psionic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/creating-psionic-items/" title="Creating Psionic Items">Creating Psionic Items</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/armor/" title="Psionic Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/weapons/" title="Psionic Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/cognizance-crystals/" title="Cognizance Crystals">Cognizance Crystals</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/dorjes/" title="Dorjes">Dorjes</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/power-stones/" title="Power Stones">Power Stones</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/psicrowns/" title="Psicrowns">Psicrowns</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/psionic-tattoos/" title="Psionic Tattoos">Psionic Tattoos</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/psionic-items/universal-items/" title="Universal Items">Universal Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Epic Magic Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Epic Magic Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/" title="Epic Magic Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/armor/" title="Epic Magical Armor">Armor</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/weapons/" title="Epic Magical Weapons">Weapons</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/rings/" title="Epic Rings">Rings</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/rods/" title="Epic Rods">Rods</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/scrolls/" title="Epic Scrolls">Scrolls</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/staffs/" title="Epic Staffs">Staffs</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/epic-magic-items/wondrous-items/" title="Epic Wondrous Items">Wondrous Items</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Intelligent Items" class="dropdown-toggle" data-toggle="dropdown" role="button">Intelligent Items</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/equipment/intelligent-items/" title="Intelligent Items Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/equipment/intelligent-items/epic/" title="Epic Intelligent Items">Epic Intelligent Items</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="//worldofpannotia.com/equipment/cursed-items/" title="Cursed Items">Cursed Items</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/artifacts/" title="Artifacts">Artifacts</a></li>
+                        <li><a href="//worldofpannotia.com/equipment/generating-treasure/" title="Generating Treasure">Generating Treasure</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Monsters" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Monsters <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/monsters/" title="Monsters Introduction">Introduction</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/types-subtypes/" title="Types &amp; Subtypes">Types &amp; Subtypes</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/improving-monsters/" title="Improving Monsters">Improving Monsters</a></li>
+                        <li><a href="//worldofpannotia.com/monsters/monsters-as-races/" title="Monsters as Races">Monsters as Races</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Entries" class="dropdown-toggle" data-toggle="dropdown" role="button">Entries</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/monsters/entries/monsters/" title="Monsters">Monsters</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/animals/" title="Animals">Animals</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/entries/vermin/" title="Vermin">Vermin</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Creature Templates" class="dropdown-toggle" data-toggle="dropdown" role="button">Templates</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/monsters/templates/" title="Creature Templates Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/monsters/templates/template-index/" title="Creature Template Index">Template Index</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" title="Setting" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Setting <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/setting/" title="Introduction to Pannotia">Introduction</a></li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Geography" class="dropdown-toggle" data-toggle="dropdown" role="button">Geography</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/geography/" title="Geography Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/world-map/" title="World Map">World Map</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/regions-countries/" title="Regions &amp; Countries">Regions &amp; Countries</a></li>
+                                <li><a href="//worldofpannotia.com/setting/geography/cities/" title="Cities">Cities</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Cosmology" class="dropdown-toggle" data-toggle="dropdown" role="button">Cosmology</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/cosmology/" title="Cosmology Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/cosmology/planar-traits/" title="Planar Traits">Planar Traits</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Religion" class="dropdown-toggle" data-toggle="dropdown" role="button">Religion</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/religion/" title="Religion Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/religion/deities/" title="Deities">Deities</a></li>
+                                <li class="dropdown-submenu">
+                                    <a href="#" title="The Divine Tournament" class="dropdown-toggle" data-toggle="dropdown" role="button">The Divine Tournament</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/" title="Introduction to the Divine Tournament">Introduction</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/history/" title="History">History</a></li>
+                                        <li><a href="//worldofpannotia.com/setting/religion/divine-tournament/entering-the-tournament/" title="Entering the Tournament">Entering the Tournament</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="Politics" class="dropdown-toggle" data-toggle="dropdown" role="button">Politics</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/politics/" title="Politics Overview">Overview</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/organizations/" title="Organizations">Organizations</a></li>
+                                <li><a href="//worldofpannotia.com/setting/politics/npcs/" title="NPCs">NPCs</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-submenu">
+                            <a href="#" title="History" class="dropdown-toggle" data-toggle="dropdown" role="button">History</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="//worldofpannotia.com/setting/history/eras/" title="Eras">Eras</a></li>
+                                <li><a href="//worldofpannotia.com/setting/history/events/" title="Events">Events</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="http://blog.worldofpannotia.com/" title="Blog">Blog</a></li>
+                <li class="dropdown">
+                    <a href="#" title="Misc" class="dropdown-toggle" data-toggle="dropdown" role="button" data-submenu>Misc <span class="caret"></span></a>
+                    <ul class="dropdown-menu multi-level">
+                        <li><a href="//worldofpannotia.com/misc/changes-from-dd-35/" title="Changes from D&amp;D 3.5">Changes from D&amp;D 3.5</a></li>
+                        <li><a href="//worldofpannotia.com/misc/credits/" title="Credits">Credits</a></li>
+                        <li><a href="//worldofpannotia.com/misc/open-game-license/" title="Open Game License">Open Game License</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container -->
+</nav>
+        
+        
+
+
+<section class="container">
+    <div class="row">
+        <div class="col-xs-12">
+            <ol class="breadcrumb">
+                
+                <li><a href="/"><span class="glyphicon glyphicon-home"></span></a></li>
+                
+                  
+                <li><a href="/game-rules/">Game Rules</a></li>
+                
+                  
+                <li><a href="/game-rules/adventuring/">Adventuring</a></li>
+                
+                  
+                <li><a href="/game-rules/adventuring/traps/">Traps</a></li>
+                
+                <li class="active">Designing a Trap</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="container">
+    
+    <header class="row">
+        <h2 class="col-xs-12">Designing a Trap</h2>
+    </header>
+    
+
+    <article id="main-content" class="row">
+        <div class="col-xs-12">
+            <p><strong>Mechanical Traps:</strong> Simply select the elements you want the trap to have and add up the adjustments to the trap’s Challenge Rating that those elements require (see Table: CR Modifiers for Mechanical Traps) to arrive at the trap’s final CR. From the CR you can derive the DC of the Craft (trapmaking) checks a character must make to construct the trap.</p>
+
+<p><strong>Magic Traps:</strong> As with mechanical traps, you don’t have to do anything other than decide what elements you want and then determine the CR of the resulting trap (see Table: CR Modifiers for Magic Traps). If a player character wants to design and construct a magic trap, he must have the Craft Wondrous Item feat. In addition, he must be able to cast the spell or spells that the trap requires–or, failing that, he must be able to hire an NPC to cast the spells for him.</p>
+
+<h3 id="challenge-rating-of-a-trap">Challenge Rating of a Trap</h3>
+
+<p>To calculate the Challenge Rating of a trap, add all the CR modifiers (see the tables below) to the base CR for the trap type.</p>
+
+<p><strong>Mechanical Trap:</strong> The base CR for a mechanical trap is 0. If your final CR is 0 or lower, add features until you get a CR of 1 or higher.</p>
+
+<p><strong>Magic Trap:</strong> For a spell trap or magic device trap, the base CR is 1. The highest-level spell used modifies the CR (see Table: CR Modifiers for Magic Traps).</p>
+
+<p><strong>Average Damage:</strong> If a trap (either mechanical or magic) does hit point damage, calculate the average damage for a successful hit and round that value to the nearest multiple of 7. Use this value to adjust the Challenge Rating of the trap, as indicated on the tables below. Damage from poisons and pit spikes does not count toward this value, but damage from a high strength rating and extra damage from multiple attacks does.</p>
+
+<p>For a magic trap, only one modifier applies to the CR–either the level of the highest-level spell used in the trap, or the average damage figure, whichever is larger.</p>
+
+<p><strong>Multiple Traps:</strong> If a trap is really two or more connected traps that affect approximately the same area, determine the CR of each one separately.</p>
+
+<p><em>Multiple Dependent Traps:</em> If one trap depends on the success of the other (that is, you can avoid the second trap altogether by not falling victim to the first), they must be treated as separate traps.</p>
+
+<p><em>Multiple Independent Traps:</em> If two or more traps act independently (that is, none depends on the success of another to activate), use their CRs to determine their combined Encounter Level as though they were monsters. The resulting Encounter Level is the CR for the combined traps.</p>
+
+<table id="mechanical-trap-cr-modifiers-table" class="table table-bordered table-hover table-striped" data-caption="Table: CR Modifiers for Mechanical Traps">
+<thead>
+<tr><th colspan="2"><p>Feature</p>
+</th><th colspan="2"><p>CR Modifier</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="4"><p><em>Search DC</em></p>
+</td></tr>
+<tr><td colspan="2"><p>— 15 or lower</p>
+</td><td colspan="2"><p>–1</p>
+</td></tr>
+<tr><td colspan="2"><p>— 25–29</p>
+</td><td colspan="2"><p>+1</p>
+</td></tr>
+<tr><td colspan="2"><p>— 30 or higher</p>
+</td><td colspan="2"><p>+2</p>
+</td></tr>
+<tr><td colspan="4"><p><em>Disable Device DC</em></p>
+</td></tr>
+<tr><td colspan="2"><p>— 15 or lower</p>
+</td><td colspan="2"><p>–1</p>
+</td></tr>
+<tr><td colspan="2"><p>— 25–29</p>
+</td><td colspan="2"><p>+1</p>
+</td></tr>
+<tr><td colspan="2"><p>— 30 or higher</p>
+</td><td colspan="2"><p>+2</p>
+</td></tr>
+<tr><td colspan="4"><p><em>Reflex Save DC (Pit or Other Save-Dependent Trap)</em></p>
+</td></tr>
+<tr><td colspan="2"><p>— 15 or lower</p>
+</td><td colspan="2"><p>–1</p>
+</td></tr>
+<tr><td colspan="2"><p>— 16–24</p>
+</td><td colspan="2"><p>–</p>
+</td></tr>
+<tr><td colspan="2"><p>— 25–29</p>
+</td><td colspan="2"><p>+1</p>
+</td></tr>
+<tr><td colspan="2"><p>— 30 or higher</p>
+</td><td colspan="2"><p>+2</p>
+</td></tr>
+<tr><td colspan="4"><p><em>Attack Bonus (Melee or Ranged Attack Trap)</em></p>
+</td></tr>
+<tr><td colspan="2"><p>— +0 or lower</p>
+</td><td colspan="2"><p>–2</p>
+</td></tr>
+<tr><td colspan="2"><p>— +1 to +5</p>
+</td><td colspan="2"><p>–1</p>
+</td></tr>
+<tr><td colspan="2"><p>— +6 to +14</p>
+</td><td colspan="2"><p>–</p>
+</td></tr>
+<tr><td colspan="2"><p>— +15 to +19</p>
+</td><td colspan="2"><p>+1</p>
+</td></tr>
+<tr><td colspan="2"><p>— +20 to +24</p>
+</td><td colspan="2"><p>+2</p>
+</td></tr>
+<tr><td colspan="4"><p><em>Damage/Effect</em></p>
+</td></tr>
+<tr><td colspan="2"><p>— Average damage</p>
+</td><td colspan="2"><p>+1/7 points<sup>1</sup></p>
+</td></tr>
+<tr><td colspan="4"><p><em>Miscellaneous Features</em></p>
+</td></tr>
+<tr><td colspan="2"><p>— Alchemical device</p>
+</td><td colspan="2"><p>Level of spell mimicked</p>
+</td></tr>
+<tr><td colspan="2"><p>— Liquid</p>
+</td><td colspan="2"><p>+5</p>
+</td></tr>
+<tr><td colspan="2"><p>— Multiple target</p>
+</td><td colspan="2"><p>+1 (or 0 if never miss)</p>
+</td></tr>
+<tr><td colspan="2"><p>— Onset delay 1 round</p>
+</td><td colspan="2"><p>+3</p>
+</td></tr>
+<tr><td colspan="2"><p>— Onset delay 2 rounds</p>
+</td><td colspan="2"><p>+2</p>
+</td></tr>
+<tr><td colspan="2"><p>— Onset delay 3 rounds</p>
+</td><td colspan="2"><p>+1</p>
+</td></tr>
+<tr><td colspan="2"><p>— Onset delay 4+ rounds</p>
+</td><td colspan="2"><p>–1</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Poison</em></p>
+</td><td colspan="2"><p><em>CR of poison (see below)</em></p>
+</td></tr>
+<tr><td><p>— Black adder venom</p>
+</td><td><p>+1</p>
+</td><td><p>— Large scorpion venom</p>
+</td><td><p>+3</p>
+</td></tr>
+<tr><td><p>— Black lotus extract</p>
+</td><td><p>+8</p>
+</td><td><p>— Malyss root paste</p>
+</td><td><p>+3</p>
+</td></tr>
+<tr><td><p>— Bloodroot</p>
+</td><td><p>+1</p>
+</td><td><p>— Medium spider venom</p>
+</td><td><p>+2</p>
+</td></tr>
+<tr><td><p>— Blue whinnis</p>
+</td><td><p>+1</p>
+</td><td><p>— Nitharit</p>
+</td><td><p>+4</p>
+</td></tr>
+<tr><td><p>— Burnt othur fumes</p>
+</td><td><p>+6</p>
+</td><td><p>— Purple worm poison</p>
+</td><td><p>+4</p>
+</td></tr>
+<tr><td><p>— Deathblade</p>
+</td><td><p>+5</p>
+</td><td><p>— Sassone leaf residue</p>
+</td><td><p>+3</p>
+</td></tr>
+<tr><td><p>— Dragon bile</p>
+</td><td><p>+6</p>
+</td><td><p>— Shadow essence</p>
+</td><td><p>+3</p>
+</td></tr>
+<tr><td><p>— Giant wasp poison</p>
+</td><td><p>+3</p>
+</td><td><p>— Small centipede poison</p>
+</td><td><p>+1</p>
+</td></tr>
+<tr><td><p>— Greenblood oil</p>
+</td><td><p>+1</p>
+</td><td><p>— Terinav root</p>
+</td><td><p>+5</p>
+</td></tr>
+<tr><td><p>— Insanity mist</p>
+</td><td><p>+4</p>
+</td><td><p>— Ungol dust</p>
+</td><td><p>+3</p>
+</td></tr>
+<tr><td><p>— Wyvern poison</p>
+</td><td><p>+5</p>
+</td><td colspan="2"><p> </p>
+</td></tr>
+<tr><td><p>— Pit spikes</p>
+</td><td><p>+1</p>
+</td><td colspan="2"><p> </p>
+</td></tr>
+<tr><td><p>— Touch attack</p>
+</td><td><p>+1</p>
+</td><td colspan="2"><p> </p>
+</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="4"><p><sup>1</sup>Rounded to the nearest multiple of 7 (round up for an average that lies exactly between two numbers).</p>
+</td></tr>
+</tfoot>
+</table>
+
+<table id="magic-trap-cr-modifiers-table" class="table table-bordered table-hover table-striped" data-caption="Table: CR Modifiers for Magic Traps">
+<thead>
+<tr><th><p>Feature</p>
+</th><th><p>CR Modifier</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Highest-level spell</p>
+</td><td><p>+ Spell level <strong>OR</strong> +1 per 7 points of average damage per round<sup>1</sup></p>
+</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="2"><p><sup>1</sup>See the note following Table: CR Modifiers for Mechanical Traps.</p>
+</td></tr>
+</tfoot>
+</table>
+
+<h3 id="mechanical-trap-cost">Mechanical Trap Cost</h3>
+
+<p>The base cost of a mechanical trap is 1,000 gp. Apply all the modifiers from Table: Cost Modifiers for Mechanical Traps for the various features you’ve added to the trap to get the modified base cost.</p>
+
+<p>The final cost is equal to (modified base cost × Challenge Rating) + extra costs. The minimum cost for a mechanical trap is (CR x 100) gp.</p>
+
+<p>After you’ve multiplied the modified base cost by the Challenge Rating, add the price of any alchemical items or poison you incorporated into the trap. If the trap uses one of these elements and has an automatic reset, multiply the poison or alchemical item cost by 20 to provide an adequate supply of doses.</p>
+
+<p>Multiple Traps: If a trap is really two or more connected traps, determine the final cost of each separately, then add those values together. This holds for both multiple dependent and multiple independent traps (see the previous section).</p>
+
+<table id="mechanical-trap-cost-modifiers-table" class="table table-bordered table-hover table-striped" data-caption="Table: Cost Modifiers for Mechanical Traps">
+<thead>
+<tr><th><p>Feature</p>
+</th><th><p>Cost Modifier</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td colspan="2"><p><em>Trigger Type</em></p>
+</td></tr>
+<tr><td><p>— Location</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Proximity</p>
+</td><td><p>+1,000 gp</p>
+</td></tr>
+<tr><td><p>— Touch</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Touch (attached)</p>
+</td><td><p>–100 gp</p>
+</td></tr>
+<tr><td><p>— Timed</p>
+</td><td><p>+1,000 gp</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Reset Type</em></p>
+</td></tr>
+<tr><td><p>— No reset</p>
+</td><td><p>-500 gp</p>
+</td></tr>
+<tr><td><p>— Repair</p>
+</td><td><p>–200 gp</p>
+</td></tr>
+<tr><td><p>— Manual</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— Automatic</p>
+</td><td><p>+500 gp (or 0 if trap has timed trigger)</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Bypass Type</em></p>
+</td></tr>
+<tr><td><p>— Lock</p>
+</td><td><p>+100 gp (Open Lock DC 30)</p>
+</td></tr>
+<tr><td><p>— Hidden switch</p>
+</td><td><p>+200 gp (Search DC 25)</p>
+</td></tr>
+<tr><td><p>— Hidden lock</p>
+</td><td><p>+300 gp (Open Lock DC 30, Search DC 25)</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Search DC</em></p>
+</td></tr>
+<tr><td><p>— 19 or lower</p>
+</td><td><p>–100 gp × (20 – DC)</p>
+</td></tr>
+<tr><td><p>— 20</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— 21 or higher</p>
+</td><td><p>+200 gp × (DC – 20)</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Disable Device DC</em></p>
+</td></tr>
+<tr><td><p>— 19 or lower</p>
+</td><td><p>–100 gp × (20 – DC)</p>
+</td></tr>
+<tr><td><p>— 20</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— 21 or higher</p>
+</td><td><p>+200 gp × (DC – 20)</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Reflex Save DC (Pit or Other Save-Dependent Trap)</em></p>
+</td></tr>
+<tr><td><p>— 19 or lower</p>
+</td><td><p>–100 gp × (20 – DC)</p>
+</td></tr>
+<tr><td><p>— 20</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— 21 or higher</p>
+</td><td><p>+300 gp × (DC – 20)</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Attack Bonus (Melee or Ranged Attack Trap)</em></p>
+</td></tr>
+<tr><td><p>— +9 or lower</p>
+</td><td><p>–100 gp × (10 – bonus)</p>
+</td></tr>
+<tr><td><p>— +10</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td><p>— +11 or higher</p>
+</td><td><p>+200 gp × (bonus – 10)</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Damage Bonus</em></p>
+</td></tr>
+<tr><td><p>— High strength rating (ranged attack trap)</p>
+</td><td><p>+100 gp × bonus (max +4)</p>
+</td></tr>
+<tr><td><p>— High Strength bonus (melee attack trap)</p>
+</td><td><p>+100 gp × bonus (max +8)</p>
+</td></tr>
+<tr><td colspan="2"><p><em>Miscellaneous Features</em></p>
+</td></tr>
+<tr><td><p>— Never miss</p>
+</td><td><p>+1,000 gp</p>
+</td></tr>
+<tr><td><p>— Poison</p>
+</td><td><p>Cost of poison<sup>1</sup></p>
+</td></tr>
+<tr><td><p>— Alchemical item</p>
+</td><td><p>Cost of item<sup>1</sup></p>
+</td></tr>
+</tbody>
+<tfoot>
+<tr><td colspan="2"><p><sup>1</sup>Multiply cost by 20 if trap features automatic reset.</p>
+</td></tr>
+</tfoot>
+</table>
+
+<h3 id="magic-device-trap-cost">Magic Device Trap Cost</h3>
+
+<p>Building a magic device trap involves the expenditure of experience points as well as gold pieces, and requires the services of a spellcaster. Table: Cost Modifiers for Magic Device Traps summarizes the cost information for magic device traps. If the trap uses more than one spell (for instance, a sound or visual trigger spell in addition to the main spell effect), the builder must pay for them all (except alarm, which is free unless it must be cast by an NPC; see below).</p>
+
+<p>The costs derived from Table: Cost Modifiers for Magic Device Traps assume that the builder is casting the necessary spells himself (or perhaps some other PC is providing the spells for free). If an NPC spellcaster must be hired to cast them those costs must be factored in as well.</p>
+
+<p>A magic device trap takes one day to construct per 500 gp of its cost.</p>
+
+<table id="magic-trap-cost-modifiers-table" class="table table-bordered table-hover table-striped" data-caption="Table: Cost Modifiers for Magic Device Traps">
+<thead>
+<tr><th><p>Feature</p>
+</th><th><p>Cost Modifier</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Alarm spell used in trigger</p>
+</td><td><p>–</p>
+</td></tr>
+<tr><td colspan="2"><p>One-Shot Trap</p>
+</td></tr>
+<tr><td><p>— Each spell used in trap</p>
+</td><td><p>+50 gp × caster level × spell level,<br />+4 XP × caster level × spell level</p>
+</td></tr>
+<tr><td><p>— Material components</p>
+</td><td><p>+ Cost of all material components</p>
+</td></tr>
+<tr><td><p>— XP components</p>
+</td><td><p>+ Total of XP components × 5 gp</p>
+</td></tr>
+<tr><td colspan="2"><p>Automatic Reset Trap</p>
+</td></tr>
+<tr><td><p>— Each spell used in trap</p>
+</td><td><p>+500 gp × caster level × spell level,<br />+40 XP × caster level × spell level</p>
+</td></tr>
+<tr><td><p>— Material components</p>
+</td><td><p>+ Cost of all material components × 100 gp</p>
+</td></tr>
+<tr><td><p>— XP components</p>
+</td><td><p>+ Total of XP components × 500 gp</p>
+</td></tr>
+</tbody>
+</table>
+
+<h3 id="spell-trap-cost">Spell Trap Cost</h3>
+
+<p>A spell trap has a cost only if the builder must hire an NPC spellcaster to cast it.</p>
+
+<h3 id="craft-dcs-for-mechanical-traps">Craft DCs for Mechanical Traps</h3>
+
+<p>Once you know the Challenge Rating of a trap determine the Craft (trapmaking) DC by referring to the table and the modifiers given below.</p>
+
+<table id="trap-base-craft-dc-table" class="table table-bordered table-hover table-striped" data-caption="Table: Base Craft (Trapmaking) DCs">
+<thead>
+<tr><th><p>Trap CR</p>
+</th><th><p>Base Craft (Trapmaking) DC</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>1–3</p>
+</td><td><p>20</p>
+</td></tr>
+<tr><td><p>4–6</p>
+</td><td><p>25</p>
+</td></tr>
+<tr><td><p>7–10</p>
+</td><td><p>30</p>
+</td></tr>
+</tbody>
+</table>
+
+<table id="trap-craft-dc-modifiers-table" class="table table-bordered table-hover table-striped" data-caption="Table: Craft (Trapmaking) DC Modifiers">
+<thead>
+<tr><th><p>Additional Components</p>
+</th><th><p>Modifier to Craft (Trapmaking) DC</p>
+</th></tr>
+</thead>
+<tbody>
+<tr><td><p>Proximity trigger</p>
+</td><td><p>+5</p>
+</td></tr>
+<tr><td><p>Automatic reset</p>
+</td><td><p>+5</p>
+</td></tr>
+</tbody>
+</table>
+
+<p><strong>Making the Checks:</strong> To determine how much progress a character makes on building a trap each week, that character makes a Craft (trapmaking) check. See the Craft skill description for details on Craft checks and the circumstances that can affect them.</p>
+
+        </div>
+        
+
+
+    </article>
+</section>
+
+        <footer id="page-foot" class="container">
+            <section class="row">
+                <div class="col-xs-12 col-sm-6"><p>&copy; 2007-16 Bill Parrott</p></div>
+                <div class="col-xs-12 col-sm-6 text-right"><p><a href="//worldofpannotia.com/contributing/">Contribute to Pannotia</a></p></div>
+            </section>
+        </footer>
+        <script src="//worldofpannotia.com/assets/js/jquery.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/bootstrap.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/bootstrap-submenu.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/lunr.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/mustache.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
+        <script src="//worldofpannotia.com/assets/js/URI.js"></script>
+        <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('[data-submenu]').submenupicker();
+                $('#site-search-query').lunrSearch({
+                    indexUrl: '//worldofpannotia.com/assets/js/index.json', // Url for the .json file containing search index data
+                    results : 'site-#search-results',                // selector for containing search results element
+                    entries : '.entries',                            // selector for search entries containing element (contained within results above)
+                    template: '#site-search-results-template'        // selector for Mustache.js template
+                });
+            });
+        </script>
+    </body>
+</html>

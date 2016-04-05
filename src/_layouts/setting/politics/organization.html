@@ -1,0 +1,19 @@
+---
+layout: "main"
+---
+
+{% assign org = page.organization %}
+
+<h3>{{ page.title }}</h3>
+
+{% if org.members %}<p><strong>Members:</strong> {{ org.members | pmarkdownify | liquify }}</p>{% endif %}
+
+{% if org.description != "" %}{{ org.description | pmarkdownify | liquify }}{% endif %}
+
+{% if org.leader %}
+<h4>Leader</h4>
+
+<h5>{{ org.leader | pmarkdownify | liquify }}</h5>
+
+{{ org.leaderBio | pmarkdownify | liquify }}
+{% endif %}

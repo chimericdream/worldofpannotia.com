@@ -1,0 +1,4 @@
+collections:
+  npcs:
+    output:    true
+    permalink: /setting/politics/npcs/:path/

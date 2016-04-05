@@ -1,0 +1,25 @@
+collections:
+  racial_classes:
+    output:    true
+    permalink: /game-rules/classes/racial/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: racial_classes
+    values:
+      layout:        "game-rules/classes/racial"
+      crumbs:        [game-rules, classes, racial-classes]
+      crumbTitles:   [Game Rules, Classes, Racial Classes]
+      activeSection: "game-rules/classes/racial-classes"
+      class:
+        description: ""
+        gameRuleInfo:
+          abilities: ""
+          alignment: ""
+          hitDie: ""
+          skillPoints: 0
+          hitDicePerCr: 0
+          classTables: ""
+          traits: ""
+          additionalInfo: ""

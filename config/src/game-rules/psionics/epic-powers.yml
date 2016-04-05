@@ -1,0 +1,4 @@
+collections:
+  epic_psionic_powers:
+    output:    true
+    permalink: /game-rules/psionics/epic-powers/:path/

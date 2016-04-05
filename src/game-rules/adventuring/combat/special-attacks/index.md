@@ -1,6 +1,6 @@
 ---
 title: Special Attacks
-crumbs: [game-rules, adventuring, combat/overview]
+crumbs: [game-rules, adventuring, combat]
 crumbTitles: [Game Rules, Adventuring, Combat]
 ---
 
@@ -269,10 +269,10 @@ You can use a melee attack with a slashing or bludgeoning weapon to strike a wea
 | Heavy steel shield | 10 | 20
 | Tower shield | 5 | 20
 |===
-| <sup>1</sup>The hp value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br><sup>2</sup>Varies by material. | !cs | !cs
+| <sup>1</sup> The HP value given is for Medium armor, weapons, and shields. Divide by 2 for each size category of the item smaller than Medium, or multiply it by 2 for each size category larger than Medium.<br><sup>2</sup> Varies by material. |<|<
 {: #sunder-table .table .table-bordered .table-hover .table-striped data-caption="Table: Common Armor, Weapon, and Shield Hardness and Hit Points" }
 
-**Step 1:** Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the Improved Sunder feat, you don't incur an attack of opportunity for making the attempt.)
+**Step 1:** Attack of Opportunity. You provoke an attack of opportunity from the target whose weapon or shield you are trying to sunder. (If you have the {% feat_link improved-sunder %} feat, you don't incur an attack of opportunity for making the attempt.)
 
 **Step 2:** Opposed Rolls. You and the defender make opposed attack rolls with your respective weapons. The wielder of a two-handed weapon on a sunder attempt gets a +4 bonus on this roll, and the wielder of a light weapon takes a -4 penalty. If the combatants are of different sizes, the larger combatant gets a bonus on the attack roll of +4 per difference in size category.
 
@@ -332,7 +332,7 @@ You must present your holy symbol to turn undead. Turning is considered an attac
 
 **Turning Check:** The first thing you do is roll a turning check to see how powerful an undead creature you can turn. This is a Charisma check (1d20 + your Charisma modifier). Table: Turning Undead gives you the Hit Dice of the most powerful undead you can affect, relative to your level. On a given turning attempt, you can turn no undead creature whose Hit Dice exceed the result on this table.
 
-A cleric with 5 or more ranks in _knowledge (religion)_ gets a +2 (or higher) bonus on the DC for his turning checks against undead (see <a href="{{ site.url }}/game-rules/skills-feats/basics/#skill-synergy">Skill Synergy</a>). _Note:_ This bonus is only applied to the Hit Dice of the undead you can affect. It does not affect the amount of damage you do with your turning check.
+A cleric with 5 or more ranks in {% skill_link knowledge 'Knowledge (Religion)' %} gets a +2 (or higher) bonus on the DC for his turning checks against undead (see <a href="{{ site.url }}/game-rules/skills-feats/basics/#skill-synergy">Skill Synergy</a>). _Note:_ This bonus is only applied to the Hit Dice of the undead you can affect. It does not affect the amount of damage you do with your turning check.
 
 **Turning Damage:** If your roll on Table: Turning Undead is high enough to let you turn at least some of the undead within 60 feet, roll 1d6 / cleric level for damage. All affected undead in the area within 60 ft. must make a Will save vs a DC of 10 + your cleric level + your Charisma modifier for half damage. Undead with turn resistance may add that bonus to this save. Any undead reduced to 0 or fewer hit points are destroyed. If an undead takes damage equal to or greater than &#189; its current remaining hit points, it is considered turned and acts accordingly.
 

@@ -1,0 +1,4 @@
+collections:
+  weapons:
+    output:    true
+    permalink: /equipment/weapons/:path/

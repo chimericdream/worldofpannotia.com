@@ -1,0 +1,19 @@
+collections:
+  domains:
+    output:    true
+    permalink: /game-rules/magic/domains/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: domains
+    values:
+      layout: "game-rules/magic/domain"
+      crumbs:        [game-rules, magic, domains]
+      crumbTitles:   [Game Rules, Magic, Domains]
+      activeSection: "game-rules/magic/domains"
+      domain:
+        grantedPower: ""
+        spells:       ""
+        notes:        ""
+        description:  ""

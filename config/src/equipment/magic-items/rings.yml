@@ -1,0 +1,31 @@
+collections:
+  rings:
+    output:    true
+    permalink: /equipment/magic-items/rings/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: rings
+    values:
+      layout: "equipment/magic-items/ring"
+      crumbs: [equipment, magic-items, rings]
+      crumbTitles: [Equipment, Magic Items, Rings]
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        manifesterLevel: ""
+        prerequisites:
+          feats: []
+          powers: []
+          spells: []
+          special: []
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""

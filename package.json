@@ -1,0 +1,30 @@
+{
+  "name": "@chimericdream/worldofpannotia.com",
+  "longname": "World of Pannotia Jekyll site",
+  "description": "This plugin aids in the creation of custom post types, taxonomies, shortcodes, and more.",
+  "version": "0.6.0",
+  "homepage": "https://github.com/chimericdream/worldofpannotia.com",
+  "author": {
+    "name": "Bill Parrott",
+    "email": "bill@chimericdream.com",
+    "url": "http://chimericdream.com/"
+  },
+  "copyright": "2014-15 Bill Parrott",
+  "license": {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  },
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-build-control": "^0.5.0",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-copy": "^0.8.0",
+    "grunt-convert": "^0.1.12",
+    "grunt-jekyll": "^0.4.2",
+    "grunt-json-merge": "^0.2.2",
+    "grunt-merge-json": "^0.9.5",
+    "grunt-shell": "1.x",
+    "grunt-text-replace": "^0.4.0",
+    "grunt-yaml": "^0.4.1"
+  }
+}

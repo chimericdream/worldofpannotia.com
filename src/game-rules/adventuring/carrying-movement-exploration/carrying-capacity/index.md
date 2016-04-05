@@ -18,7 +18,7 @@ If your character is wearing armor, use the worse figure (from armor or from loa
 | Load | Max Dex | Check Penalty | Run Speed
 |-|-|-|-
 | Medium | +3 | -3 | &times;4
-| Heavy | +1 |  -6 | &times;3
+| Heavy | +1 | -6 | &times;3
 {: #carrying-loads-table .table .table-bordered .table-hover .table-striped data-caption="Table: Carrying Loads" }
 
 |---

@@ -23,7 +23,7 @@ Deities receive maximum hit points for each Hit Die.
 Deities can move much more quickly than mortals. A deity's base land speed depends on its form (biped or quadruped) and its size, as shown on the following table. Some deities are exceptions, with speeds faster or slower than the norm.
 
 |---
-| Size | Biped* | Quadruped**
+| Size | Biped<sup>1</sup> | Quadruped<sup>2</sup>
 |-|-|-
 | Fine | 20 ft. | 60 ft.
 | Diminutive | 30 ft. | 70 ft.
@@ -35,7 +35,7 @@ Deities can move much more quickly than mortals. A deity's base land speed depen
 | Gargantuan | 120 ft. | 160 ft.
 | Colossal | 140 ft. | 180 ft.
 |===
-| *Or any form with two or fewer legs.<br>**Or any form with three or more legs. | !cs | !cs
+| <sup>1</sup> Or any form with two or fewer legs.<br><sup>2</sup> Or any form with three or more legs. |<|<
 {: #deity-speed-table .table .table-bordered .table-hover .table-striped data-caption="Table: Deity Speed" }
 
 Note: Use the Biped column for burrow and swim speeds for all deities regardless of form. Use half the value in the Biped column for climb speeds for all deities. Use twice the value in the Quadruped column for fly speeds for all deities capable of flying.
@@ -249,8 +249,8 @@ As a standard action, a deity of rank 1 or higher can send a communication to a 
 Each deity of rank 1 or higher has a location that serves as a workplace, personal residence, audience chamber, and sometimes as a retreat or fortress. A deity is at its most powerful within its godly realm. A deity has at least modest control over the environment within its realm, controlling the temperature and minor elements of the environment. The radius of this control is a function of the deity's rank and whether the realm is located on an Outer Plane or some other plane (including the Material Plane).
 
 |---
-| Divine Rank | Radius of Control | !cs
-| !rs | Outer Plane | Material Plane
+| Divine Rank | Radius of Control |<
+|^| Outer Plane | Material Plane
 |-|-|-
 | 1-5 | 100 ft./rank | 100 ft./rank
 | 6-10 | 1 mile | 100 ft./rank

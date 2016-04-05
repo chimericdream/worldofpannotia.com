@@ -1,0 +1,37 @@
+collections:
+  spells:
+    output:    true
+    permalink: /game-rules/magic/spells/:path/
+
+
+defaults:
+  - scope:
+      path: ""
+      type: spells
+    values:
+      layout:        "game-rules/magic/spell"
+      crumbs:        [game-rules, magic, spells]
+      crumbTitles:   [Game Rules, Magic, Spells]
+      activeSection: "game-rules/magic/spells"
+      spell:
+        schools:            [] # {name: "", subschools: [], descriptors: []}
+        classes:            [] # {name: "", abbr: "", level: 0}
+        domains:            [] # same format as classes
+        components:         []
+        castingTime:        ""
+        range:              ""
+        area:               ""
+        targetOrEffect:     ""
+        effect:             ""
+        target:             ""
+        duration:           ""
+        dismissable:        false
+        savingThrow:        ""
+        spellResistance:    ""
+        xpCost:             0
+        xpCostSpecial:      ""
+        materialComponents: []
+        focus:              ""
+        divineFocus:        ""
+        fluffText:          ""
+        description:        ""

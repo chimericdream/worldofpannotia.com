@@ -1,0 +1,44 @@
+collections:
+  prestige_classes:
+    output:    true
+    permalink: /game-rules/classes/prestige/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: prestige_classes
+    values:
+      layout:        "game-rules/classes/prestige"
+      crumbs:        [game-rules, classes, prestige-classes]
+      crumbTitles:   [Game Rules, Classes, Prestige Classes]
+      activeSection: "game-rules/classes/prestige-classes"
+      class:
+        description: ""
+        adventures: ""
+        characteristics: ""
+        alignment: ""
+        religion: ""
+        background: ""
+        races: ""
+        otherClasses: ""
+        role: ""
+        requirements:
+          race: ""
+          alignment: ""
+          baseAttack: 0
+          skills: []
+          feats: []
+          spellcasting: ""
+          psionics: ""
+          languages: ""
+          special: ""
+        gameRuleInfo:
+          abilities: ""
+          alignment: ""
+          hitDie: ""
+          classSkills: []
+          classSkillsSpecial: ""
+          skillPoints: 0
+          classTables: ""
+          classFeatures: [] # {name: "", type: "", desc: ""}
+          additionalInfo: ""

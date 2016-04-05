@@ -1,0 +1,17 @@
+<h2>{{ include.title }}</h2>
+
+{% if include.class.description and class.description != "" %}{{ include.class.description | pmarkdownify | liquify }}{% endif %}
+
+{% if include.parent_class %}
+    {% include _other/classes/fluff.html class=include.parent_class %}
+    <p><strong>Parent Class:</strong> {% if include.parent_class_slug %}{% base_class_link {{ include.parent_class_slug }} %}{% else %}{% prestige_class_link {{ include.parent_prc_slug }} %}{% endif %}</p>
+{% else %}
+    {% include _other/classes/fluff.html class=include.class %}
+{% endif %}
+
+{% capture ogc %}
+    {% include _other/classes/prc-reqs.html class=include.class %}
+    {% include _other/classes/game-rule-info.html title=include.title class=include.class parent=include.parent_class class_type="prc" %}
+{% endcapture %}
+
+{% include _other/ogc-block.html ogc_content=ogc %}

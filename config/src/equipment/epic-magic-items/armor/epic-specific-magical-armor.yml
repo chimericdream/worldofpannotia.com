@@ -1,0 +1,30 @@
+collections:
+  epic_specific_magic_armor:
+    output:    true
+    permalink: /equipment/epic-magic-items/armor/specific/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: epic_specific_magic_armor
+    values:
+      layout: "equipment/magic-items/wondrous-item"
+      crumbs: [equipment, epic-magic-items, armor]
+      crumbTitles: [Equipment, Epic Magic Items, Armor &amp; Shields]
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        prerequisites:
+          feats: []
+          spells: []
+          special: []
+        slot: ""
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""

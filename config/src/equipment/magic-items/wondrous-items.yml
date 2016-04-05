@@ -1,0 +1,32 @@
+collections:
+  wondrous_items:
+    output:    true
+    permalink: /equipment/magic-items/wondrous-items/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: wondrous_items
+    values:
+      layout: "equipment/magic-items/wondrous-item"
+      crumbs: [equipment, magic-items, wondrous-items]
+      crumbTitles: [Equipment, Magic Items, Wondrous Items]
+      item:
+        shortDesc: ""
+        aura: ""
+        casterLevel: ""
+        manifesterLevel: ""
+        prerequisites:
+          feats: []
+          powers: []
+          spells: []
+          special: []
+        slot: ""
+        marketPrice: 0
+        marketPriceSpecial: ""
+        costToCreate:
+          gp: 0
+          xp: 0
+        costToCreateSpecial: ""
+        weight: ""
+        description: ""

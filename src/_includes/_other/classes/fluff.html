@@ -1,0 +1,49 @@
+{% assign class = include.class %}
+
+{% if class.adventures and class.adventures != "" %}
+<p><strong>Adventurers</strong></p>
+
+{{ class.adventures | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.characteristics and class.characteristics != "" %}
+<p><strong>Characteristics</strong></p>
+
+{{ class.characteristics | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.alignment and class.alignment != "" %}
+<p><strong>Alignment</strong></p>
+
+{{ class.alignment | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.religion and class.religion != "" %}
+<p><strong>Religion</strong></p>
+
+{{ class.religion | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.background and class.background != "" %}
+<p><strong>Background</strong></p>
+
+{{ class.background | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.races and class.races != "" %}
+<p><strong>Races</strong></p>
+
+{{ class.races | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.otherClasses and class.otherClasses != "" %}
+<p><strong>Other Classes</strong></p>
+
+{{ class.otherClasses | pmarkdownify | liquify }}
+{% endif %}
+
+{% if class.role and class.role != "" %}
+<p><strong>Role</strong></p>
+
+{{ class.role | pmarkdownify | liquify }}
+{% endif %}

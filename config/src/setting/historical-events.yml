@@ -1,0 +1,4 @@
+collections:
+  historical_events:
+    output:    true
+    permalink: /setting/history/events/:path/
