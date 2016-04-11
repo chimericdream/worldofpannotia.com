@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -493,13 +494,13 @@
   <li>The user must have the requisite key ability score.</li>
 </ul>
 
-<p>If the user meets these requirements and has a manifester level at least equal to the power’s manifester level, she can automatically manifest the stored power without a check. If she meets both requirements but her own level is lower than the power stone’s manifester level, she has to make a manifester level check (1d20 + user’s level), against a DC equal to the power stone’s manifester level +1, to manifest the power successfully. On a failure, the user must succeed on a DC 5 Wisdom check to avoid brainburn (see below). A natural roll of 1 on this check is always a failure.</p>
+<p>If the user meets these requirements and has a manifester level at least equal to the power’s manifester level, she can automatically manifest the stored power without a check. If she meets both requirements but her own level is lower than the power stone’s manifester level, she has to make a manifester level check (<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="20" data-die-modifier="0">1d20</a> + user’s level), against a DC equal to the power stone’s manifester level +1, to manifest the power successfully. On a failure, the user must succeed on a DC 5 Wisdom check to avoid brainburn (see below). A natural roll of 1 on this check is always a failure.</p>
 
 <p><em>Determine Effect:</em> A power successfully manifested from a power stone works exactly as if manifested normally. Assume the power stone’s manifester level is always the minimum level required to manifest the power for the character who imprinted the stone, unless the creator specifically desires otherwise.</p>
 
 <p>A power stone’s glow fades when its stored power is flushed.</p>
 
-<p><em>Brainburn:</em> When something goes awry, the user of a power stone improperly manifests the stored power. The resultant psionic surge persists for 1d4 rounds, unless the power stone is flung farther than 100 feet away or is destroyed. This surge deals 1d6 points of damage per power stored per round and arcs across multiple targets, similar to <em>energy current</em>, except the damage type isn’t specified. The user is the primary target, and one nearby ally is the secondary target (chosen at random).</p>
+<p><em>Brainburn:</em> When something goes awry, the user of a power stone improperly manifests the stored power. The resultant psionic surge persists for <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="0">1d4</a> rounds, unless the power stone is flung farther than 100 feet away or is destroyed. This surge deals <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> points of damage per power stored per round and arcs across multiple targets, similar to <em>energy current</em>, except the damage type isn’t specified. The user is the primary target, and one nearby ally is the secondary target (chosen at random).</p>
 
 <p>The manifester level for a standard power stone is the minimum manifester level needed to manifest the power (unless otherwise specified).</p>
 
@@ -527,13 +528,13 @@
 </thead>
 <tbody>
 <tr><td><p>Minor</p>
-</td><td><p>1d3 powers</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="3" data-die-modifier="0">1d3</a> powers</p>
 </td></tr>
 <tr><td><p>Medium</p>
-</td><td><p>1d4 powers</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="0">1d4</a> powers</p>
 </td></tr>
 <tr><td><p>Major</p>
-</td><td><p>1d6 powers</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> powers</p>
 </td></tr>
 </tbody>
 </table>
@@ -631,6 +632,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

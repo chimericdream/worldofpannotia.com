@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -571,7 +572,7 @@
 <tr><td><p>Moon</p>
 </td><td><p>XVIII. The Moon</p>
 </td><td><p>Queen of diamonds</p>
-</td><td><p>You are granted 1d4 wishes.</p>
+</td><td><p>You are granted <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="0">1d4</a> wishes.</p>
 </td></tr>
 <tr><td><p>Rogue</p>
 </td><td><p>Five of swords</p>
@@ -631,13 +632,13 @@
 
 <p><em>Fates:</em> This card enables the character to avoid even an instantaneous occurrence if so desired, for the fabric of reality is unraveled and respun. Note that it does not enable something to happen. It can only stop something from happening or reverse a past occurrence. The reversal is only for the character who drew the card; other party members may have to endure the situation.</p>
 
-<p><em>Flames:</em> Hot anger, jealousy, and envy are but a few of the possible motivational forces for the enmity. The enmity of the outsider can’t be ended until one of the parties has been slain. Determine the outsider randomly, and assume that it attacks the character (or plagues her life in some way) within 1d20 days.</p>
+<p><em>Flames:</em> Hot anger, jealousy, and envy are but a few of the possible motivational forces for the enmity. The enmity of the outsider can’t be ended until one of the parties has been slain. Determine the outsider randomly, and assume that it attacks the character (or plagues her life in some way) within <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="20" data-die-modifier="0">1d20</a> days.</p>
 
 <p><em>Fool:</em> The payment of XP and the redraw are mandatory. This card is always discarded when drawn, unlike all others except the jester.</p>
 
 <p><em>Gem:</em> This card indicates wealth. The jewelry is all gold set with gems, each piece worth 2,000 gp, the gems 1,000 gp value each.</p>
 
-<p><em>Idiot:</em> This card causes the drain of 1d4+1 points of Intelligence immediately. The additional draw is optional.</p>
+<p><em>Idiot:</em> This card causes the drain of <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="1">1d4+1</a> points of Intelligence immediately. The additional draw is optional.</p>
 
 <p><em>Jester:</em> This card is always discarded when drawn, unlike all others except the fool. The redraws are optional.</p>
 
@@ -691,6 +692,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

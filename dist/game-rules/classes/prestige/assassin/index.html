@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -559,7 +560,7 @@
 </td><td><p>+0</p>
 </td><td><p>+2</p>
 </td><td><p>+0</p>
-</td><td><p>Sneak attack +1d6, death attack, poison use, spells</p>
+</td><td><p>Sneak attack +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a>, death attack, poison use, spells</p>
 </td></tr>
 <tr><td><p>2</p>
 </td><td><p>+1</p>
@@ -573,7 +574,7 @@
 </td><td><p>+1</p>
 </td><td><p>+3</p>
 </td><td><p>+1</p>
-</td><td><p>Sneak attack +2d6</p>
+</td><td><p>Sneak attack +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a></p>
 </td></tr>
 <tr><td><p>4</p>
 </td><td><p>+3</p>
@@ -587,7 +588,7 @@
 </td><td><p>+1</p>
 </td><td><p>+4</p>
 </td><td><p>+1</p>
-</td><td><p>Improved uncanny dodge, sneak attack +3d6</p>
+</td><td><p>Improved uncanny dodge, sneak attack +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="3" data-die-type="6" data-die-modifier="0">3d6</a></p>
 </td></tr>
 <tr><td><p>6</p>
 </td><td><p>+4</p>
@@ -601,7 +602,7 @@
 </td><td><p>+2</p>
 </td><td><p>+5</p>
 </td><td><p>+2</p>
-</td><td><p>Sneak attack +4d6</p>
+</td><td><p>Sneak attack +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="4" data-die-type="6" data-die-modifier="0">4d6</a></p>
 </td></tr>
 <tr><td><p>8</p>
 </td><td><p>+6</p>
@@ -615,7 +616,7 @@
 </td><td><p>+3</p>
 </td><td><p>+6</p>
 </td><td><p>+3</p>
-</td><td><p>Sneak attack +5d6</p>
+</td><td><p>Sneak attack +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="5" data-die-type="6" data-die-modifier="0">5d6</a></p>
 </td></tr>
 <tr><td><p>10</p>
 </td><td><p>+7</p>
@@ -765,12 +766,12 @@
 
 <p><strong>Sneak Attack</strong></p>
 
-<p>This is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 every other level (1st, 3rd, 5th, 7th, and 9th). If an assassin gets a sneak attack bonus from another source the bonuses on damage stack.</p>
+<p>This is exactly like the rogue ability of the same name. The extra damage dealt increases by +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> every other level (1st, 3rd, 5th, 7th, and 9th). If an assassin gets a sneak attack bonus from another source the bonuses on damage stack.</p>
 
 
 <p><strong>Death Attack</strong></p>
 
-<p>If an assassin studies his victim for 3 rounds and then makes a sneak attack with a melee weapon that successfully deals damage, the sneak attack has the additional effect of possibly either paralyzing or killing the target (assassin’s choice). While studying the victim, the assassin can undertake other actions so long as his attention stays focused on the target and the target does not detect the assassin or recognize the assassin as an enemy. If the victim of such an attack fails a Fortitude save (DC 10 + the assassin’s class level + the assassin’s Int modifier) against the kill effect, she dies. If the saving throw fails against the paralysis effect, the victim is rendered helpless and unable to act for 1d6 rounds plus 1 round per level of the assassin. If the victim’s saving throw succeeds, the attack is just a normal sneak attack. Once the assassin has completed the 3 rounds of study, he must make the death attack within the next 3 rounds.</p>
+<p>If an assassin studies his victim for 3 rounds and then makes a sneak attack with a melee weapon that successfully deals damage, the sneak attack has the additional effect of possibly either paralyzing or killing the target (assassin’s choice). While studying the victim, the assassin can undertake other actions so long as his attention stays focused on the target and the target does not detect the assassin or recognize the assassin as an enemy. If the victim of such an attack fails a Fortitude save (DC 10 + the assassin’s class level + the assassin’s Int modifier) against the kill effect, she dies. If the saving throw fails against the paralysis effect, the victim is rendered helpless and unable to act for <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> rounds plus 1 round per level of the assassin. If the victim’s saving throw succeeds, the attack is just a normal sneak attack. Once the assassin has completed the 3 rounds of study, he must make the death attack within the next 3 rounds.</p>
 
 <p>If a death attack is attempted and fails (the victim makes her save) or if the assassin does not launch the attack within 3 rounds of completing the study, 3 new rounds of study are required before he can attempt another death attack.</p>
 
@@ -887,6 +888,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

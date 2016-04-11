@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -489,17 +490,15 @@
 <p><strong>Casting Time:</strong> 1 standard action</p>
 <p><strong>Range:</strong> 12,000 ft.</p>
 
-
 <p><strong>Target:</strong> One creature, or up to a 10-foot cube of nonliving matter in line of sight</p>
-
 
 <p><strong>Duration:</strong> Instantaneous</p>
 <p><strong>Saving Throw:</strong> Fortitude half</p>
 <p><strong>Spell Resistance:</strong> Yes</p>
-<p><strong>To Develop:</strong> 3,771,000 GP; 76 days; 150,840 XP. <em>Seed:</em> destroy (DC 29). <em>Factors:</em> increase damage to 305d6 (+570 DC); 1-action casting time (+20 DC). <em>Mitigating Factor:</em> 200d6 backlash (-200 DC).</p>
+<p><strong>To Develop:</strong> 3,771,000 GP; 76 days; 150,840 XP. <em>Seed:</em> destroy (DC 29). <em>Factors:</em> increase damage to {% die_roll 305 6 0 %} (+570 DC); 1-action casting time (+20 DC). <em>Mitigating Factor:</em> {% die_roll 200 6 0 %} backlash (-200 DC).</p>
 
 
-<p>The target of this spell is subject to 305d6 points of damage (or half of that if a Fortitude save succeeds). If the target is reduced to -10 hit points or less (or a construct, object, or undead is reduced to 0 hit points), it is utterly destroyed as if disintegrated, leaving behind only a trace of fine dust. The caster is likewise dealt 200d6 points of damage.</p>
+<p>The target of this spell is subject to <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="305" data-die-type="6" data-die-modifier="0">305d6</a> points of damage (or half of that if a Fortitude save succeeds). If the target is reduced to -10 hit points or less (or a construct, object, or undead is reduced to 0 hit points), it is utterly destroyed as if disintegrated, leaving behind only a trace of fine dust. The caster is likewise dealt <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="200" data-die-type="6" data-die-modifier="0">200d6</a> points of damage.</p>
 
 
 </div>
@@ -587,6 +586,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

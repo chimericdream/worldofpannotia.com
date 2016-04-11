@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -562,7 +563,7 @@
 </td><td><p>+0</p>
 </td><td><p>+0</p>
 </td><td><p>+2</p>
-</td><td><p>Incorporeal touch 1d6, uncarnate armor</p>
+</td><td><p>Incorporeal touch <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a>, uncarnate armor</p>
 </td><td><p>–</p>
 </td></tr>
 <tr><td><p>2nd</p>
@@ -594,7 +595,7 @@
 </td><td><p>+1</p>
 </td><td><p>+1</p>
 </td><td><p>+4</p>
-</td><td><p>Incorporeal touch 2d6</p>
+</td><td><p>Incorporeal touch <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a></p>
 </td><td><p>+1 level of existing manifesting class</p>
 </td></tr>
 <tr><td><p>6th</p>
@@ -626,7 +627,7 @@
 </td><td><p>+3</p>
 </td><td><p>+3</p>
 </td><td><p>+6</p>
-</td><td><p>Incorporeal touch 3d6</p>
+</td><td><p>Incorporeal touch <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="3" data-die-type="6" data-die-modifier="0">3d6</a></p>
 </td><td><p>+1 level of existing manifesting class</p>
 </td></tr>
 <tr><td><p>10th</p>
@@ -661,11 +662,11 @@
 
 <p><strong>Incorporeal Touch (Su)</strong></p>
 
-<p>Beginning at 1st level, a psion uncarnate can make up to three melee touch attacks per day that each deal 1d6 points of damage if they hit. The character’s Strength modifier is not applied to this attack, but it is effective against incorporeal creatures (and against corporeal creatures while the psion uncarnate is incorporeal) The character’s hand and arm seem to become slightly translucent when he makes these attacks. A miss still counts as a use of the ability.</p>
+<p>Beginning at 1st level, a psion uncarnate can make up to three melee touch attacks per day that each deal <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> points of damage if they hit. The character’s Strength modifier is not applied to this attack, but it is effective against incorporeal creatures (and against corporeal creatures while the psion uncarnate is incorporeal) The character’s hand and arm seem to become slightly translucent when he makes these attacks. A miss still counts as a use of the ability.</p>
 
 <p>While uncarnate (see below), a psion uncarnate can make melee touch attacks at will that do not count against his uses of this ability.</p>
 
-<p>For every four levels higher than 1st the psion uncarnate attains, the damage on these attacks increases by 1d6 points.</p>
+<p>For every four levels higher than 1st the psion uncarnate attains, the damage on these attacks increases by <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> points.</p>
 
 
 <p><strong>Uncarnate Armor (Su)</strong></p>
@@ -719,7 +720,7 @@
 
 <p>When exiting the destination creature, the psion uncarnate chooses an adjacent square in which to appear. Entering and leaving a creature is painless, unless the psion uncarnate wishes otherwise (see below). In most cases, though, the destination creature finds being the endpoint of a mental bridge surprising and quite unsettling.</p>
 
-<p>If he desires, a psion uncarnate can destructively exit the destination creature. If the creature fails a Will save (DC 15 + psion uncarnate’s key ability modifier), the exiting psion uncarnate tunes his mental form to destructively interfere with the target’s mind. He bursts forth explosively from the creature’s body, dealing it 10d6 points of damage.</p>
+<p>If he desires, a psion uncarnate can destructively exit the destination creature. If the creature fails a Will save (DC 15 + psion uncarnate’s key ability modifier), the exiting psion uncarnate tunes his mental form to destructively interfere with the target’s mind. He bursts forth explosively from the creature’s body, dealing it <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="10" data-die-type="6" data-die-modifier="0">10d6</a> points of damage.</p>
 
 
 <p><strong>Uncarnate (Ex)</strong></p>
@@ -790,6 +791,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

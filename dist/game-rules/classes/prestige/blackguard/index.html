@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -602,7 +603,7 @@
 </td><td><p>+4</p>
 </td><td><p>+1</p>
 </td><td><p>+1</p>
-</td><td><p>Sneak attack +1d6</p>
+</td><td><p>Sneak attack +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a></p>
 </td><td><p>1</p>
 </td><td><p>1</p>
 </td><td><p>-</p>
@@ -635,7 +636,7 @@
 </td><td><p>+5</p>
 </td><td><p>+2</p>
 </td><td><p>+2</p>
-</td><td><p>Sneak attack +2d6</p>
+</td><td><p>Sneak attack +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a></p>
 </td><td><p>2</p>
 </td><td><p>1</p>
 </td><td><p>1</p>
@@ -668,7 +669,7 @@
 </td><td><p>+7</p>
 </td><td><p>+3</p>
 </td><td><p>+3</p>
-</td><td><p>Sneak attack +3d6, smite good 3/day</p>
+</td><td><p>Sneak attack +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="3" data-die-type="6" data-die-modifier="0">3d6</a>, smite good 3/day</p>
 </td><td><p>2</p>
 </td><td><p>2</p>
 </td><td><p>2</p>
@@ -737,7 +738,7 @@
 
 <p><strong>Sneak Attack</strong></p>
 
-<p>This ability, gained at 4th level, is like the rogue ability of the same name. The extra damage increases by +1d6 every third level beyond 4th (7th and 10th). If a blackguard gets a sneak attack bonus from another source the bonuses on damage stack.</p>
+<p>This ability, gained at 4th level, is like the rogue ability of the same name. The extra damage increases by +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> every third level beyond 4th (7th and 10th). If a blackguard gets a sneak attack bonus from another source the bonuses on damage stack.</p>
 
 
 
@@ -773,7 +774,7 @@
 
 <p><strong>3-4:</strong> Lay on hands. Once per day, the blackguard can use this supernatural ability to cure himself or his fiendish servant of damage equal to his Charisma bonus ? his level.</p>
 
-<p><strong>5-6:</strong> Sneak attack damage increased by +1d6. Smite good 2/day.</p>
+<p><strong>5-6:</strong> Sneak attack damage increased by +<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a>. Smite good 2/day.</p>
 
 <p><strong>7-8:</strong> Fiendish summoning. Once per day, the blackguard can use a summon monster I spell to call forth an evil creature. For this spell, the caster level is double the blackguard’s class level.</p>
 
@@ -855,7 +856,7 @@
 
 <p>This bonus lasts as long as the threat is immediate and apparent.</p>
 
-<p><strong>Spell Resistance (Ex):</strong> If the blackguard’s character level is 19th or higher, the servant gains spell resistance equal to the blackguard’s level + 5. To affect the servant with a spell, another spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the servant’s spell resistance.</p>
+<p><strong>Spell Resistance (Ex):</strong> If the blackguard’s character level is 19th or higher, the servant gains spell resistance equal to the blackguard’s level + 5. To affect the servant with a spell, another spellcaster must get a result on a caster level check (<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="20" data-die-modifier="0">1d20</a> + caster level) that equals or exceeds the servant’s spell resistance.</p>
 
 
 
@@ -918,6 +919,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();
