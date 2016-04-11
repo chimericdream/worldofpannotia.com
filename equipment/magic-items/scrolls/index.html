@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -507,13 +508,13 @@
 <p><em>Scroll Mishaps:</em> When a mishap occurs, the spell on the scroll has a reversed or harmful effect. Possible mishaps are given below.</p>
 
 <ul>
-  <li>A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the scroll user.</li>
+  <li>A surge of uncontrolled magical energy deals <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> points of damage per spell level to the scroll user.</li>
   <li>Spell strikes the scroll user or an ally instead of the intended target, or a random target nearby if the scroll user was the intended recipient.</li>
   <li>Spell takes effect at some random location within spell range.</li>
   <li>Spell’s effect on the target is contrary to the spell’s normal effect.</li>
-  <li>The scroll user suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell’s duration, or 2d10 minutes for instantaneous spells.</li>
+  <li>The scroll user suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell’s duration, or <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="10" data-die-modifier="0">2d10</a> minutes for instantaneous spells.</li>
   <li>Some innocuous item or items appear in the spell’s area.</li>
-  <li>Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the scroll user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell’s maximum range, if the target has moved away.</li>
+  <li>Spell has delayed effect. Sometime within the next <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="12" data-die-modifier="0">1d12</a> hours, the spell activates. If the scroll user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell’s maximum range, if the target has moved away.</li>
 </ul>
 
 <p>Several arcane spells are different in level for <a href="//worldofpannotia.com/game-rules/classes/base/sorcerer/" title="Sorcerers">Sorcerers</a> and <a href="//worldofpannotia.com/game-rules/classes/base/wizard/" title="Wizards">Wizards</a> than they are for <a href="//worldofpannotia.com/game-rules/classes/base/bard/" title="Bards">Bards</a>. Such spells appear on the table at the level appropriate to a <a href="//worldofpannotia.com/game-rules/classes/base/sorcerer/" title="Sorcerer">Sorcerer</a> or <a href="//worldofpannotia.com/game-rules/classes/base/wizard/" title="Wizard">Wizard</a> (considered the default because <a href="//worldofpannotia.com/game-rules/classes/base/bard/" title="Bards">Bards</a> typically don’t involve themselves in scribing scrolls).</p>
@@ -548,13 +549,13 @@
 </thead>
 <tbody>
 <tr><td><p>Minor scroll</p>
-</td><td><p>1d3 spells</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="3" data-die-modifier="0">1d3</a> spells</p>
 </td></tr>
 <tr><td><p>Medium scroll</p>
-</td><td><p>1d4 spells</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="0">1d4</a> spells</p>
 </td></tr>
 <tr><td><p>Major scroll</p>
-</td><td><p>1d6 spells</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> spells</p>
 </td></tr>
 </tbody>
 </table>
@@ -3846,6 +3847,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -513,16 +514,16 @@
 </thead>
 <tbody>
 <tr><td><p>4 lightning balls</p>
-</td><td><p>1d6 points of damage each</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a> points of damage each</p>
 </td></tr>
 <tr><td><p>3 lightning balls</p>
-</td><td><p>2d6 points of damage each</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a> points of damage each</p>
 </td></tr>
 <tr><td><p>2 lightning balls</p>
-</td><td><p>3d6 points of damage each</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="3" data-die-type="6" data-die-modifier="0">3d6</a> points of damage each</p>
 </td></tr>
 <tr><td><p>1 lightning ball</p>
-</td><td><p>4d6 points of damage</p>
+</td><td><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="4" data-die-type="6" data-die-modifier="0">4d6</a> points of damage</p>
 </td></tr>
 </tbody>
 </table>
@@ -540,7 +541,7 @@
   <li><em>spark shower</em> (special, once per day)</li>
 </ul>
 
-<p>The <em>spark shower</em> is a flying cloud of sizzling purple sparks that fan out from the ring for a distance of 20 feet in an arc 10 feet wide. Creatures within this area take 2d8 points of damage each if not wearing metal armor or carrying a metal weapon. Those wearing metal armor and/or carrying a metal weapon take 4d8 points of damage.</p>
+<p>The <em>spark shower</em> is a flying cloud of sizzling purple sparks that fan out from the ring for a distance of 20 feet in an arc 10 feet wide. Creatures within this area take <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="8" data-die-modifier="0">2d8</a> points of damage each if not wearing metal armor or carrying a metal weapon. Those wearing metal armor and/or carrying a metal weapon take <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="4" data-die-type="8" data-die-modifier="0">4d8</a> points of damage.</p>
 
 
         <hr>
@@ -584,6 +585,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -886,11 +887,11 @@
         <tr><th>Swarm HD</th><th>Swarm Base Damage</th></tr>
     </thead>
     <tbody>
-        <tr><td>1-5</td><td>1d6</td></tr>
-        <tr><td>6-10</td><td>2d6</td></tr>
-        <tr><td>11-15</td><td>3d6</td></tr>
-        <tr><td>16-20</td><td>4d6</td></tr>
-        <tr><td>21 or more</td><td>5d6</td></tr>
+        <tr><td>1-5</td><td><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="6" data-die-modifier="0">1d6</a></td></tr>
+        <tr><td>6-10</td><td><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a></td></tr>
+        <tr><td>11-15</td><td><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="3" data-die-type="6" data-die-modifier="0">3d6</a></td></tr>
+        <tr><td>16-20</td><td><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="4" data-die-type="6" data-die-modifier="0">4d6</a></td></tr>
+        <tr><td>21 or more</td><td><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="5" data-die-type="6" data-die-modifier="0">5d6</a></td></tr>
     </tbody>
 </table>
 <p>{: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption=”asdfasdf” }&lt;p&gt;A swarm’s attacks are nonmagical, unless the swarm’s description states otherwise. Damage reduction sufficient to reduce a swarm attack’s damage to 0, being incorporeal, and other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, poison, blood drain, or other special attacks in addition to normal damage.&lt;/p&gt;</p>
@@ -921,6 +922,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

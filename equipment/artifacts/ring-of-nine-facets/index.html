@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -489,11 +490,11 @@
     <article class="col-xs-12 col-sm-8 col-sm-pull-4">
         <h3>Ring of Nine Facets</h3>
 
-        <p>This ring is set with a gem of nine facets, each one in-scribed with a different incomprehensible rune. Each day at sunrise, the gem turns to display a different facet. The active facet determines the <em>Ring’s</em> power for that day. Each day, roll 1d10 to determine which facet (and thus which power) is active.</p>
+        <p>This ring is set with a gem of nine facets, each one in-scribed with a different incomprehensible rune. Each day at sunrise, the gem turns to display a different facet. The active facet determines the <em>Ring’s</em> power for that day. Each day, roll <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="10" data-die-modifier="0">1d10</a> to determine which facet (and thus which power) is active.</p>
 
 <table id="ring-of-nine-facets-table" class="table table-bordered table-hover table-striped" data-caption="Table: Ring of Nine Facets Powers">
 <thead>
-<tr><th><p>1d10</p>
+<tr><th><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="10" data-die-modifier="0">1d10</a></p>
 </th><th><p>Active Facet Power</p>
 </th></tr>
 </thead>
@@ -531,7 +532,7 @@
 </tbody>
 </table>
 
-<p>The wearer of the <em>Ring</em> can, with a great deal of mental exertion, attempt to change the active facet away from one he or she does not desire. This requires a full-round action and a Concentration check (DC 50), and deals 2d6 points of nonlethal damage regardless of success. If the save is successful, the new facet is determined randomly. If the <em>Ring</em> is removed, the former wearer takes 2d6 points of nonlethal damage each minute until it is replaced or until his or her nonlethal damage exceeds his or her current hit points (though the nonlethal damage resumes again immediately when the former wearer regains consciousness).</p>
+<p>The wearer of the <em>Ring</em> can, with a great deal of mental exertion, attempt to change the active facet away from one he or she does not desire. This requires a full-round action and a Concentration check (DC 50), and deals <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a> points of nonlethal damage regardless of success. If the save is successful, the new facet is determined randomly. If the <em>Ring</em> is removed, the former wearer takes <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a> points of nonlethal damage each minute until it is replaced or until his or her nonlethal damage exceeds his or her current hit points (though the nonlethal damage resumes again immediately when the former wearer regains consciousness).</p>
 
     </article>
 </section>
@@ -559,6 +560,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

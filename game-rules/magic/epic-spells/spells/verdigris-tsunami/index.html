@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -490,18 +491,14 @@
 <p><strong>Range:</strong> 1,500 ft.</p>
 
 
-
 <p><strong>Area</strong> 1,000-ft.-radius hemisphere</p>
-
 <p><strong>Duration:</strong> Permanent</p>
 <p><strong>Saving Throw:</strong> Reflex half</p>
 <p><strong>Spell Resistance:</strong> No</p>
-<p><strong>To Develop:</strong> 1,530,000 GP; 31 days; 61,200 XP. <em>Seed:</em> conjure (DC 21). <em>Factors:</em> change area to 20-ft.-radius hemisphere (+2 DC); increase radius to 1,000 ft. (+196 DC); increase range to 1,500 ft. (+8 DC); deal 10d6 damage during growth (ad hoc +19 DC); increase damage to 40d6 (+60 DC); permanent (&times;5 DC). <em>Mitigating Factors:</em> increase casting time by 9 minutes (-18 DC); eleven additional casters contributing 6th-level spell slots (-121 DC); three additional casters contributing 4th-level spell slots (-21 DC); burn 10,000 XP per 6th-level spell contributor plus caster (-1,200 DC).</p>
-
+<p><strong>To Develop:</strong> 1,530,000 GP; 31 days; 61,200 XP. <em>Seed:</em> conjure (DC 21). <em>Factors:</em> change area to 20-ft.-radius hemisphere (+2 DC); increase radius to 1,000 ft. (+196 DC); increase range to 1,500 ft. (+8 DC); deal {% die_roll 10 6 0 %} damage during growth (ad hoc +19 DC); increase damage to {% die_roll 40 6 0 %} (+60 DC); permanent (&times;5 DC). <em>Mitigating Factors:</em> increase casting time by 9 minutes (-18 DC); eleven additional casters contributing 6th-level spell slots (-121 DC); three additional casters contributing 4th-level spell slots (-21 DC); burn 10,000 XP per 6th-level spell contributor plus caster (-1,200 DC).</p>
 <p><strong>XP Cost:</strong> 10,000 XP</p>
 
-
-<p>This spell creates a tsunami of grass, shrubs, and trees that overgrows the area like a tidal wave. The plant growth creeps and curls across every-thing in the area, ensnaring it and coiling around it as if it had been growing there for a century or more. Creatures in the area must make a Reflex saving throw to avoid the fast-moving growth, which otherwise deals 40d6 points of damage from the crushing press. Buildings are engulfed and they likewise take 40d6 points of damage. Those destroyed by the damage have their foundations uprooted and walls crumbled. The plant growth is permanent. This is a ritual spell requiring fourteen other spellcasters, each of whom must contribute an unused 6th-level spell slot to the casting.</p>
+<p>This spell creates a tsunami of grass, shrubs, and trees that overgrows the area like a tidal wave. The plant growth creeps and curls across every-thing in the area, ensnaring it and coiling around it as if it had been growing there for a century or more. Creatures in the area must make a Reflex saving throw to avoid the fast-moving growth, which otherwise deals <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="40" data-die-type="6" data-die-modifier="0">40d6</a> points of damage from the crushing press. Buildings are engulfed and they likewise take <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="40" data-die-type="6" data-die-modifier="0">40d6</a> points of damage. Those destroyed by the damage have their foundations uprooted and walls crumbled. The plant growth is permanent. This is a ritual spell requiring fourteen other spellcasters, each of whom must contribute an unused 6th-level spell slot to the casting.</p>
 
 
 </div>
@@ -589,6 +586,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

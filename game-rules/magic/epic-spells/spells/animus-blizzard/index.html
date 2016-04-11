@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -490,16 +491,14 @@
 <p><strong>Range:</strong> 300 ft.</p>
 
 
-
 <p><strong>Area</strong> 20-ft.-radius hemisphere burst</p>
-
 <p><strong>Duration:</strong> Instantaneous</p>
 <p><strong>Saving Throw:</strong> Reflex half</p>
 <p><strong>Spell Resistance:</strong> Yes</p>
-<p><strong>To Develop:</strong> 702,000 GP; 15 days; 28,080 XP. <em>Seeds:</em> energy (DC 19); animate dead (DC 23). <em>Factors:</em> increase damage to 30d6 (+40 DC); set undead type to wight (-4 DC).</p>
+<p><strong>To Develop:</strong> 702,000 GP; 15 days; 28,080 XP. <em>Seeds:</em> energy (DC 19); animate dead (DC 23). <em>Factors:</em> increase damage to {% die_roll 30 6 0 %} (+40 DC); set undead type to wight (-4 DC).</p>
 
 
-<p>When this spell is cast, enemies within range are dealt 30d6 points of cold damage. However, up to five victims that perish as a result of this blast are then instantly animated as wights. These five wights serve the character indefinitely. The character cannot exceed the normal limit for controlling undead through use of this spell, but other means that allow the character to exceed the normal limit for controlled undead work just as well with undead created with animus blizzard.</p>
+<p>When this spell is cast, enemies within range are dealt <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="30" data-die-type="6" data-die-modifier="0">30d6</a> points of cold damage. However, up to five victims that perish as a result of this blast are then instantly animated as wights. These five wights serve the character indefinitely. The character cannot exceed the normal limit for controlling undead through use of this spell, but other means that allow the character to exceed the normal limit for controlled undead work just as well with undead created with animus blizzard.</p>
 
 
 </div>
@@ -587,6 +586,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -714,7 +715,7 @@
 </td><td><p>Character must attack nearest creature (5% chance [01-05 on d%] each day).</p>
 </td></tr>
 <tr><td><p>55-57</p>
-</td><td><p>Character is stunned for 1d4 rounds once item function is finished (or randomly, 1/day).</p>
+</td><td><p>Character is stunned for <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="0">1d4</a> rounds once item function is finished (or randomly, 1/day).</p>
 </td></tr>
 <tr><td><p>58-60</p>
 </td><td><p>Character’s vision is blurry (-2 penalty on attack rolls, saves, and skill checks requiring vision).</p>
@@ -920,6 +921,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

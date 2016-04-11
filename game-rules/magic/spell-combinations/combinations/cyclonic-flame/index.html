@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -490,12 +491,10 @@
 
 <p><strong>Casting Time:</strong> 1 standard action</p>
 <p><strong>Range:</strong> Long (400 ft. + 40 ft./level; lower caster level)</p>
-
 <p><strong>Effect:</strong> Cyclone 10 ft. wide at base, 30 ft. wide at top, and 30 ft. tall</p>
 
 
-
-<p><strong>Duration:</strong> 1d6 rounds</p>
+<p><strong>Duration:</strong> {% die_roll 1 6 0 %} rounds</p>
 <p><strong>Saving Throw:</strong> Reflex halves / negates (see text)</p>
 <p><strong>Spell Resistance:</strong> Yes</p>
 
@@ -503,7 +502,7 @@
 
 
 
-<p>This combination calls forth a whirling pillar of fire. Large or smaller creatures that come into contact with the spell must succeed on a Reflex save or take 3d4 damage from wind and debris and 10d6 points of fire damage. The save halves this damage. A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking 1d8 points of bludgeoning damage plus 5d6 points of fire damage each round on the same turn as either caster (the caster who would otherwise act first) with no save allowed. Either caster may direct the cyclone to eject any carried creatures whenever he/she wishes, depositing the hapless souls wherever the cyclone happens to be when they are released, and with concentrated effort (a move action), both casters can make the Cyclonic Flame move up to 60 feet per round (moving its effective point of origin). The cyclone can only be directed once per round.</p>
+<p>This combination calls forth a whirling pillar of fire. Large or smaller creatures that come into contact with the spell must succeed on a Reflex save or take <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="3" data-die-type="4" data-die-modifier="0">3d4</a> damage from wind and debris and <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="10" data-die-type="6" data-die-modifier="0">10d6</a> points of fire damage. The save halves this damage. A Medium or smaller creature that fails its first save must succeed on a second one or be picked up bodily by the cyclone and held suspended in its powerful winds, taking <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="8" data-die-modifier="0">1d8</a> points of bludgeoning damage plus <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="5" data-die-type="6" data-die-modifier="0">5d6</a> points of fire damage each round on the same turn as either caster (the caster who would otherwise act first) with no save allowed. Either caster may direct the cyclone to eject any carried creatures whenever he/she wishes, depositing the hapless souls wherever the cyclone happens to be when they are released, and with concentrated effort (a move action), both casters can make the Cyclonic Flame move up to 60 feet per round (moving its effective point of origin). The cyclone can only be directed once per round.</p>
 
 
 
@@ -589,6 +588,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();
