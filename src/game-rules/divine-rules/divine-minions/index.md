@@ -26,7 +26,7 @@ The template presented below is for NPCs, not player characters. If dead charact
 
 "Petitioner" is a template that may be added to any creature as determined by the nature of the campaign (referred to hereafter as the base creature). The creature's type changes to outsider, and the creature uses all the base creature's statistics and special abilities except as noted here.
 
-**Hit Dice:** Change to 2d8. Retain bonus hit points.
+**Hit Dice:** Change to {% die_roll 2 8 0 %}. Retain bonus hit points.
 
 **AC:** Natural Armor Class, Dexterity, and size bonuses or penalties apply. Armor bonuses are not applicable.
 
@@ -51,7 +51,7 @@ The template presented below is for NPCs, not player characters. If dead charact
  * Fast healing 1.
  * Damage reduction 10/magic.
  * Spell resistance 10.
- * Additional 2d8 Hit Dice.
+ * Additional {% die_roll 2 8 0 %} Hit Dice.
  * Remove all immunities and resistances except immunity to mind-affecting effects. Add acid, cold, electricity, fire, and poison resistance 5.
 
 Such modifications are the result of the nature of the plane or the powerful beings within it.

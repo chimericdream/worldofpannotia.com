@@ -18,5 +18,5 @@ spell:
   savingThrow:        "None"
   spellResistance:    "Yes"
   description:        |
-    A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage.
+    A ray of freezing air and ice projects from your pointing finger. You must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals {% die_roll 1 3 0 %} points of cold damage.
 ---

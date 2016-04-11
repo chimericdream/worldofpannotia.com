@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 5
   description: |
-    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create a cone of energy of the chosen type, extending outward from your hand, that deals 5d6 points of damage to every creature or object within the area.
+    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create a cone of energy of the chosen type, extending outward from your hand, that deals {% die_roll 5 6 0 %} points of damage to every creature or object within the area.
 
     Cold: A cone of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold cone is a Fortitude save instead of a Reflex save.
 

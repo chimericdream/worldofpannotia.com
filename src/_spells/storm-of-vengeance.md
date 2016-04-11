@@ -32,15 +32,15 @@ spell:
   savingThrow:        "See text"
   spellResistance:    "Yes"
   description:        |
-    This spell creates an enormous black storm cloud. Lightning and crashing claps of thunder appear within the storm. Each creature beneath the cloud must succeed on a Fortitude save or be deafened for 1d4x10 minutes.
+    This spell creates an enormous black storm cloud. Lightning and crashing claps of thunder appear within the storm. Each creature beneath the cloud must succeed on a Fortitude save or be deafened for {% die_roll 1 4 0 %}&times;10 minutes.
 
     If you do not maintain concentration on the spell after casting it, the spell ends. If you continue to concentrate, the spell generates additional effects in each following round, as noted below. Each effect occurs during your turn.
 
-    2nd Round: Acid rains down in the area, dealing 1d6 points of acid damage (no save).
+    2nd Round: Acid rains down in the area, dealing {% die_roll 1 6 0 %} points of acid damage (no save).
 
-    3rd Round: You call six bolts of lightning down from the cloud. You decide where the bolts strike. No two bolts may be directed at the same target. Each bolt deals 10d6 points of electricity damage. A creature struck can attempt a Reflex save for half damage.
+    3rd Round: You call six bolts of lightning down from the cloud. You decide where the bolts strike. No two bolts may be directed at the same target. Each bolt deals {% die_roll 10 6 0 %} points of electricity damage. A creature struck can attempt a Reflex save for half damage.
 
-    4th Round: Hailstones rain down in the area, dealing 5d6 points of bludgeoning damage (no save).
+    4th Round: Hailstones rain down in the area, dealing {% die_roll 5 6 0 %} points of bludgeoning damage (no save).
 
     5th through 10th Rounds: Violent rain and wind gusts reduce visibility. The rain obscures all sight, including darkvision, beyond 5 feet. A creature 5 feet away has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker cannot use sight to locate the target). Speed is reduced by three-quarters.
 

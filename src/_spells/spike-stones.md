@@ -27,7 +27,7 @@ spell:
 
     Spike stones impede progress through an area and deal damage. Any creature moving on foot into or through the spell's area moves at half speed.
 
-    In addition, each creature moving through the area takes 1d8 points of piercing damage for each 5 feet of movement through the spiked area.
+    In addition, each creature moving through the area takes {% die_roll 1 8 0 %} points of piercing damage for each 5 feet of movement through the spiked area.
 
     Any creature that takes damage from this spell must also succeed on a Reflex save to avoid injuries to its feet and legs. A failed save causes the creature's speed to be reduced to half normal for 24 hours or until the injured creature receives a cure spell (which also restores lost hit points). Another character can remove the penalty by taking 10 minutes to dress the injuries and succeeding on a Heal check against the spell's save DC.
 

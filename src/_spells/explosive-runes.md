@@ -23,7 +23,7 @@ spell:
   savingThrow:        "See text"
   spellResistance:    "Yes"
   description:        |
-    You trace these mystic runes upon a book, map, scroll, or similar object bearing written information. The runes detonate when read, dealing 6d6 points of force damage. Anyone next to the runes (close enough to read them) takes the full damage with no saving throw; any other creature within 10 feet of the runes is entitled to a Reflex save for half damage. The object on which the runes were written also takes full damage (no saving throw).
+    You trace these mystic runes upon a book, map, scroll, or similar object bearing written information. The runes detonate when read, dealing {% die_roll 6 6 0 %} points of force damage. Anyone next to the runes (close enough to read them) takes the full damage with no saving throw; any other creature within 10 feet of the runes is entitled to a Reflex save for half damage. The object on which the runes were written also takes full damage (no saving throw).
 
     You and any characters you specifically instruct can read the protected writing without triggering the runes. Likewise, you can remove the runes whenever desired. Another creature can remove them with a successful dispel magic or erase spell, but attempting to dispel or erase the runes and failing to do so triggers the explosion.
 

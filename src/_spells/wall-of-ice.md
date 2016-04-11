@@ -25,7 +25,7 @@ spell:
 
     Each 10-foot square of wall has 3 hit points per inch of thickness. Creatures can hit the wall automatically. A section of wall whose hit points drop to 0 is breached. If a creature tries to break through the wall with a single attack, the DC for the Strength check is 15 + caster level.
 
-    Even when the ice has been broken through, a sheet of frigid air remains. Any creature stepping through it (including the one who broke through the wall) takes 1d6 points of cold damage +1 point per caster level (no save).
+    Even when the ice has been broken through, a sheet of frigid air remains. Any creature stepping through it (including the one who broke through the wall) takes {% die_roll 1 6 0 %} points of cold damage +1 point per caster level (no save).
 
     Hemisphere: The wall takes the form of a hemisphere whose maximum radius is 3 feet + 1 foot per caster level. The hemisphere is as hard to break through as the ice plane form, but it does not deal damage to those who go through a breach.
 ---

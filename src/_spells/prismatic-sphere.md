@@ -26,7 +26,7 @@ spell:
   description:        |
     This spell functions like prismatic wall, except you conjure up an immobile, opaque globe of shimmering, multicolored light that surrounds you and protects you from all forms of attack. The sphere flashes in all colors of the visible spectrum.
 
-    The sphere's blindness effect on creatures with less than 8 HD lasts 2d4x10 minutes.
+    The sphere's blindness effect on creatures with less than 8 HD lasts {% die_roll 2 4 0 %}&times;10 minutes.
 
     You can pass into and out of the prismatic sphere and remain near it without harm. However, when you're inside it, the sphere blocks any attempt to project something through the sphere (including spells). Other creatures that attempt to attack you or pass through suffer the effects of each color, one at a time.
 

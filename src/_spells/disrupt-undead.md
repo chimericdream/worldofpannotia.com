@@ -22,5 +22,5 @@ spell:
   savingThrow:        "None"
   spellResistance:    "Yes"
   description:        |
-    You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it.
+    You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals {% die_roll 1 6 0 %} points of damage to it.
 ---

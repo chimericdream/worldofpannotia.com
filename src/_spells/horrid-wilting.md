@@ -23,5 +23,5 @@ spell:
   spellResistance:    "Yes"
   materialComponents: ["A bit of sponge."]
   description:        |
-    This spell evaporates moisture from the body of each subject living creature, dealing 1d6 points of damage per caster level (maximum 20d6). This spell is especially devastating to water elementals and plant creatures, which instead take 1d8 points of damage per caster level (maximum 20d8).
+    This spell evaporates moisture from the body of each subject living creature, dealing {% die_roll 1 6 0 %} points of damage per caster level (maximum {% die_roll 20 6 0 %}). This spell is especially devastating to water elementals and plant creatures, which instead take {% die_roll 1 8 0 %} points of damage per caster level (maximum {% die_roll 20 8 0 %}).
 ---

@@ -20,5 +20,5 @@ item:
     Either of the staff's two powers can be activated as a free action (though the staff may only be activated once per round).
 
      * {% spell_link magic-missile %} ({% epic_feat_link intensify-spell "Intensified" %}, {% feat_link quicken-spell "Quickened" %}, 1 charge, 5 missiles dealing 10 points of damage each)
-     * {% spell_link fireball %} ({% feat_link heighten-spell "Heightened to 6th" %}, {% epic_feat_link enhance-spell "Enhanced" %}, {% feat_link quicken-spell "Quickened" %}, 1 charge, 20d6 damage, DC 19)
+     * {% spell_link fireball %} ({% feat_link heighten-spell "Heightened to 6th" %}, {% epic_feat_link enhance-spell "Enhanced" %}, {% feat_link quicken-spell "Quickened" %}, 1 charge, {% die_roll 20 6 0 %} damage, DC 19)
 ---

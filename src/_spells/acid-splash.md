@@ -18,5 +18,5 @@ spell:
   savingThrow:        "None"
   spellResistance:    "No"
   description:        |
-    You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals 1d3 points of acid damage.
+    You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your target. The orb deals {% die_roll 1 3 0 %} points of acid damage.
 ---

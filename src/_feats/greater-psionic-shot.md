@@ -8,5 +8,5 @@ feat:
   prerequisite: |
     Point Blank Shot, Psionic Shot, base attack bonus +5.
   benefit: |
-    When you use the Psionic Shot feat, your ranged attack deals an extra 4d6 points of damage instead of an extra 2d6 points.
+    When you use the Psionic Shot feat, your ranged attack deals an extra {% die_roll 4 6 0 %} points of damage instead of an extra {% die_roll 2 6 0 %} points.
 ---

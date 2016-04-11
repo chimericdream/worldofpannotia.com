@@ -19,7 +19,7 @@ spell:
   spellResistance:    "Yes"
   focus:              "A small crystal sphere."
   description:        |
-    Freezing sphere creates a frigid globe of cold energy that streaks from your fingertips to the location you select, where it explodes in a 10-foot-radius burst, dealing 1d6 points of cold damage per caster level (maximum 15d6) to each creature in the area. An elemental (water) creature instead takes 1d8 points of cold damage per caster level (maximum 15d8).
+    Freezing sphere creates a frigid globe of cold energy that streaks from your fingertips to the location you select, where it explodes in a 10-foot-radius burst, dealing {% die_roll 1 6 0 %} points of cold damage per caster level (maximum {% die_roll 15 6 0 %}) to each creature in the area. An elemental (water) creature instead takes {% die_roll 1 8 0 %} points of cold damage per caster level (maximum {% die_roll 15 8 0 %}).
 
     If the freezing sphere strikes a body of water or a liquid that is principally water (not including water-based creatures), it freezes the liquid to a depth of 6 inches over an area equal to 100 square feet (a 10-foot square) per caster level (maximum 1,500 square feet). This ice lasts for 1 round per caster level. Creatures that were swimming on the surface of frozen water become trapped in the ice. Attempting to break free is a full-round action. A trapped creature must make a DC 25 Strength check or a DC 25 Escape Artist check to do so.
 

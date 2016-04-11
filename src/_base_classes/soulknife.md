@@ -24,23 +24,23 @@ class:
       |-|-|-|-|-|-
       | 1 | +0 | +0 | +2 | +2 | Mind blade, Weapon Focus (mind blade), Wild Talent
       | 2 | +1 | +0 | +3 | +3 | Throw mind blade
-      | 3 | +2 | +1 | +3 | +3 | Psychic strike +1d8
+      | 3 | +2 | +1 | +3 | +3 | Psychic strike +{% die_roll 1 8 0 %}
       | 4 | +3 | +1 | +4 | +4 | +1 mind blade
       | 5 | +3 | +1 | +4 | +4 | Free draw, shape mind blade
       | 6 | +4 | +2 | +5 | +5 | Mind blade enhancement +1, Speed of Thought
-      | 7 | +5 | +2 | +5 | +5 | Psychic strike +2d8
+      | 7 | +5 | +2 | +5 | +5 | Psychic strike +{% die_roll 2 8 0 %}
       | 8 | +6/+1 | +2 | +6 | +6 | +2 mind blade
       | 9 | +6/+1 | +3 | +6 | +6 | Bladewind, Greater Weapon Focus (mind blade)
       | 10 | +7/+2 | +3 | +7 | +7 | Mind blade enhancement +2
-      | 11 | +8/+3 | +3 | +7 | +7 | Psychic strike +3d8
+      | 11 | +8/+3 | +3 | +7 | +7 | Psychic strike +{% die_roll 3 8 0 %}
       | 12 | +9/+4 | +4 | +8 | +8 | +3 mind blade
       | 13 | +9/+4 | +4 | +8 | +8 | Knife to the soul
       | 14 | +10/+5 | +4 | +9 | +9 | Mind blade enhancement +3
-      | 15 | +11/+6/+1 | +5 | +9 | +9 | Psychic strike +4d8
+      | 15 | +11/+6/+1 | +5 | +9 | +9 | Psychic strike +{% die_roll 4 8 0 %}
       | 16 | +12/+7/+2 | +5 | +10 | +10 | +4 mind blade
       | 17 | +12/+7/+2 | +5 | +10 | +10 | Multiple throw
       | 18 | +13/+8/+3 | +6 | +11 | +11 | Mind blade enhancement +4
-      | 19 | +14/+9/+4 | +6 | +11 | +11 | Psychic strike +5d8
+      | 19 | +14/+9/+4 | +6 | +11 | +11 | Psychic strike +{% die_roll 5 8 0 %}
       | 20 | +15/+10/+5 | +6 | +12 | +12 | +5 mind blade
       {: #soulknife-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Soulknife" }
     classFeatures:
@@ -50,7 +50,7 @@ class:
       - name: "Mind Blade"
         type: "Su"
         desc: |
-          As a move action, a soulknife can create a semisolid blade composed of psychic energy distilled from his own mind. The blade is identical in all ways (except visually) to a short sword of a size appropriate for its wielder. For instance, a Medium soulknife materializes a Medium mind blade that he can wield as a light weapon, and the blade deals 1d6 points of damage (crit 19-20/&times;2). Soulknives who are smaller or larger than Medium create mind blades identical to short swords appropriate for their size, with a corresponding change to the blade's damage. The wielder of a mind blade gains the usual benefits to his attack roll and damage roll from a high Strength bonus.
+          As a move action, a soulknife can create a semisolid blade composed of psychic energy distilled from his own mind. The blade is identical in all ways (except visually) to a short sword of a size appropriate for its wielder. For instance, a Medium soulknife materializes a Medium mind blade that he can wield as a light weapon, and the blade deals {% die_roll 1 6 0 %} points of damage (crit 19-20/&times;2). Soulknives who are smaller or larger than Medium create mind blades identical to short swords appropriate for their size, with a corresponding change to the blade's damage. The wielder of a mind blade gains the usual benefits to his attack roll and damage roll from a high Strength bonus.
 
           The blade can be broken (it has hardness 10 and 10 hit points); however, a soulknife can simply create another on his next move action. The moment he relinquishes his grip on his blade, it dissipates (unless he intends to throw it; see below). A mind blade is considered a magic weapon for the purpose of overcoming damage reduction.
 
@@ -74,7 +74,7 @@ class:
       - name: "Psychic Strike"
         type: "Su"
         desc: |
-          As a move action, a soulknife of 3rd level or higher can imbue his mind blade with destructive psychic energy. This effect deals an extra 1d8 points of damage to the next living, nonmindless target he successfully hits with a melee attack (or ranged attack, if he is using the throw mind blade ability). Creatures immune to mind-affecting effects are immune to psychic strike damage. (Unlike the rogue's sneak attack, the psychic strike is not precision damage and can affect creatures otherwise immune to extra damage from critical hits or more than 30 feet away, provided they are living, nonmindless creatures not immune to mind-affecting effects.)
+          As a move action, a soulknife of 3rd level or higher can imbue his mind blade with destructive psychic energy. This effect deals an extra {% die_roll 1 8 0 %} points of damage to the next living, nonmindless target he successfully hits with a melee attack (or ranged attack, if he is using the throw mind blade ability). Creatures immune to mind-affecting effects are immune to psychic strike damage. (Unlike the rogue's sneak attack, the psychic strike is not precision damage and can affect creatures otherwise immune to extra damage from critical hits or more than 30 feet away, provided they are living, nonmindless creatures not immune to mind-affecting effects.)
 
           A mind blade deals this extra damage only once when this ability is called upon, but a soulknife can imbue his mind blade with psychic energy again by taking another move action.
 
@@ -87,7 +87,7 @@ class:
       - name: "Shape Mind Blade"
         type: "Su"
         desc: |
-          At 5th level, a soulknife gains the ability to change the form of his mind blade. As a full-round action, he can change his mind blade to replicate a longsword (damage 1d8 for a Medium weapon wielded as a one-handed weapon) or a bastard sword (damage 1d10 for a Medium weapon, but he must wield it as a two-handed weapon unless he knows the Exotic Weapon Proficiency (bastard sword) feat). If a soulknife shapes his mind blade into the form of a bastard sword and wields it two-handed, he adds 1 &#189; times his Strength bonus to his damage rolls, just like when using any other two-handed weapon.
+          At 5th level, a soulknife gains the ability to change the form of his mind blade. As a full-round action, he can change his mind blade to replicate a longsword (damage {% die_roll 1 8 0 %} for a Medium weapon wielded as a one-handed weapon) or a bastard sword (damage {% die_roll 1 10 0 %} for a Medium weapon, but he must wield it as a two-handed weapon unless he knows the Exotic Weapon Proficiency (bastard sword) feat). If a soulknife shapes his mind blade into the form of a bastard sword and wields it two-handed, he adds 1 &#189; times his Strength bonus to his damage rolls, just like when using any other two-handed weapon.
 
           Alternatively, a soulknife can split his mind blade into two identical short swords, suitable for fighting with a weapon in each hand. (The normal penalties for fighting with two weapons apply.) However, both mind blades have an enhancement bonus 1 lower than the soulknife would otherwise create with a single mind blade.
       - name: "Mind Blade Enhancement"

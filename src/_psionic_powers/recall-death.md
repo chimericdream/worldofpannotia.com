@@ -13,5 +13,5 @@ power:
   savingThrow: "Will partial; see text"
   powerPoints: 15
   description: |
-    As recall agony, except the wounds revealed by folding the fourth dimension are potentially fatal. If the target fails its Will save. it dies. If the save succeeds, the target instead takes 5d6 points of damage.
+    As recall agony, except the wounds revealed by folding the fourth dimension are potentially fatal. If the target fails its Will save. it dies. If the save succeeds, the target instead takes {% die_roll 5 6 0 %} points of damage.
 ---

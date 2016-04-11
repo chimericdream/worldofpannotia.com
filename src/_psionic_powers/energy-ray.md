@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 1
   description: |
-    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create a ray of energy of the chosen type that shoots forth from your fingertip and strikes a target within range, dealing 1d6 points of damage, if you succeed on a ranged touch attack with the ray.
+    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create a ray of energy of the chosen type that shoots forth from your fingertip and strikes a target within range, dealing {% die_roll 1 6 0 %} points of damage, if you succeed on a ranged touch attack with the ray.
 
     Cold: A ray of this energy type deals +1 point of damage per die.
 

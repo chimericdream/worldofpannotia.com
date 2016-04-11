@@ -10,15 +10,15 @@ class:
       | Level | Special
       |-|-
       | 11th | Impromptu sneak attack 3/day
-      | 12th | Sneak attack +8d6
+      | 12th | Sneak attack +{% die_roll 8 6 0 %}
       | 13th | Ranged legerdemain 4/day
-      | 14th | Sneak attack +9d6
+      | 14th | Sneak attack +{% die_roll 9 6 0 %}
       | 15th | Impromptu sneak attack 4/day
-      | 16th | Sneak attack +10d6
+      | 16th | Sneak attack +{% die_roll 10 6 0 %}
       | 17th | Ranged legerdemain 5/day
-      | 18th | Sneak attack +11d6
+      | 18th | Sneak attack +{% die_roll 11 6 0 %}
       | 19th | Impromptu sneak attack 5/day
-      | 20th | Sneak attack +12d6
+      | 20th | Sneak attack +{% die_roll 12 6 0 %}
       {: #epic-arcane-trickster-table .table .table-bordered .table-hover .table-striped data-caption="Table: Epic Arcane Trickster" }
     classFeatures:
       - name: "Spells"
@@ -28,7 +28,7 @@ class:
       - name: "Sneak Attack"
         type: ""
         desc: |
-          The epic arcane trickster's sneak attack damage increases by +1d6 every 2 levels above 10th.
+          The epic arcane trickster's sneak attack damage increases by +{% die_roll 1 6 0 %} every 2 levels above 10th.
       - name: "Impromptu Sneak Attack"
         type: ""
         desc: |

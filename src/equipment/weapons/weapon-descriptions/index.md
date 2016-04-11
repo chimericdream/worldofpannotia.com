@@ -7,29 +7,29 @@ title: "Weapon Descriptions"
 |^|^| Small | Medium|^|^|^|^
 |-|-|-|-|-|-|-|-
 | **Unarmed Attacks** |<|<|<|<|<|<|<
-| &mdash; Gauntlet | 2 gp | 1d2 | 1d3 | &times;2 | &ndash; | 1 lb. | Bludgeoning
-| &mdash; Unarmed strike | &ndash; | 1d2<sup>3</sup> | 1d3<sup>3</sup> | &times;2 | &ndash; | &ndash; | Bludgeoning
+| &mdash; Gauntlet | 2 gp | {% die_roll 1 2 0 %} | {% die_roll 1 3 0 %} | &times;2 | &ndash; | 1 lb. | Bludgeoning
+| &mdash; Unarmed strike | &ndash; | {% die_roll 1 2 0 %}<sup>3</sup> | {% die_roll 1 3 0 %}<sup>3</sup> | &times;2 | &ndash; | &ndash; | Bludgeoning
 | **Light Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Dagger | 2 gp | 1d3 | 1d4 | 19-20/&times;2 | 10 ft. | 1 lb. | Piercing or slashing
-| &mdash; Dagger, punching | 2 gp | 1d3 | 1d4 | &times;3 | &ndash; | 1 lb. | Piercing
-| &mdash; Gauntlet, spiked | 5 gp | 1d3 | 1d4 | &times;2 | &ndash; | 1 lb. | Piercing
-| &mdash; Mace, light | 5 gp | 1d4 | 1d6 | &times;2 | &ndash; | 4 lb. | Bludgeoning
-| &mdash; Sickle | 6 gp | 1d4 | 1d6 | &times;2 | &ndash; | 2 lb. | Slashing
+| &mdash; Dagger | 2 gp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | 19-20/&times;2 | 10 ft. | 1 lb. | Piercing or slashing
+| &mdash; Dagger, punching | 2 gp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;3 | &ndash; | 1 lb. | Piercing
+| &mdash; Gauntlet, spiked | 5 gp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;2 | &ndash; | 1 lb. | Piercing
+| &mdash; Mace, light | 5 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | &ndash; | 4 lb. | Bludgeoning
+| &mdash; Sickle | 6 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | &ndash; | 2 lb. | Slashing
 | **One-Handed Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Club | &ndash; | 1d4 | 1d6 | &times;2 | 10 ft. | 3 lb. | Bludgeoning
-| &mdash; Mace, heavy | 12 gp | 1d6 | 1d8 | &times;2 | &ndash; | 8 lb. | Bludgeoning
-| &mdash; Morningstar | 8 gp | 1d6 | 1d8 | &times;2 | &ndash; | 6 lb. | Bludgeoning and piercing
-| &mdash; Shortspear | 1 gp | 1d4 | 1d6 | &times;2 | 20 ft. | 3 lb. | Piercing
+| &mdash; Club | &ndash; | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | 10 ft. | 3 lb. | Bludgeoning
+| &mdash; Mace, heavy | 12 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;2 | &ndash; | 8 lb. | Bludgeoning
+| &mdash; Morningstar | 8 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;2 | &ndash; | 6 lb. | Bludgeoning and piercing
+| &mdash; Shortspear | 1 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | 20 ft. | 3 lb. | Piercing
 | **Two-Handed Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Longspear<sup>4</sup> | 5 gp | 1d6 | 1d8 | &times;3 | &ndash; | 9 lb. | Piercing
-| &mdash; Quarterstaff<sup>5</sup> | &ndash; | 1d4/1d4 | 1d6/1d6 | &times;2 | &ndash; | 4 lb. | Bludgeoning
-| &mdash; Spear | 2 gp | 1d6 | 1d8 | &times;3 | 20 ft. | 6 lb. | Piercing
+| &mdash; Longspear<sup>4</sup> | 5 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;3 | &ndash; | 9 lb. | Piercing
+| &mdash; Quarterstaff<sup>5</sup> | &ndash; | {% die_roll 1 4 0 %}/{% die_roll 1 4 0 %} | {% die_roll 1 6 0 %}/{% die_roll 1 6 0 %} | &times;2 | &ndash; | 4 lb. | Bludgeoning
+| &mdash; Spear | 2 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;3 | 20 ft. | 6 lb. | Piercing
 | **Ranged Weapons** |<|<|<|<|<|<|<
-| &mdash; Crossbow, heavy | 50 gp | 1d8 | 1d10 | 19-20/&times;2 | 120 ft. | 8 lb. | Piercing
-| &mdash; Crossbow, light | 35 gp | 1d6 | 1d8 | 19-20/&times;2 | 80 ft. | 4 lb. | Piercing
-| &mdash; Dart | 5 sp | 1d3 | 1d4 | &times;2 | 20 ft. | &#189; lb. | Piercing
-| &mdash; Javelin | 1 gp | 1d4 | 1d6 | &times;2 | 30 ft. | 2 lb. | Piercing
-| &mdash; Sling | &ndash; | 1d3 | 1d4 | &times;2 | 50 ft. | 0 lb. | Bludgeoning
+| &mdash; Crossbow, heavy | 50 gp | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | 19-20/&times;2 | 120 ft. | 8 lb. | Piercing
+| &mdash; Crossbow, light | 35 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | 19-20/&times;2 | 80 ft. | 4 lb. | Piercing
+| &mdash; Dart | 5 sp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;2 | 20 ft. | &#189; lb. | Piercing
+| &mdash; Javelin | 1 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | 30 ft. | 2 lb. | Piercing
+| &mdash; Sling | &ndash; | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;2 | 50 ft. | 0 lb. | Bludgeoning
 | **Ammunition** |<|<|<|<|<|<|<
 | &mdash; Bolts, crossbow (10) | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | 1 lb. | &ndash;
 | &mdash; Bolt, signal | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | &#8539; lb. | &ndash;
@@ -42,46 +42,46 @@ title: "Weapon Descriptions"
 | Weapon | Cost | Dmg (S) | Dmg (M) | Critical | Range Increment | Weight<sup>1</sup> | Type<sup>2</sup>
 |-|-|-|-|-|-|-|-
 | **Light Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Axe, throwing | 8 gp | 1d4 | 1d6 | &times;2 | 10 ft. | 2 lb. | Slashing
-| &mdash; Hammer, light | 1 gp | 1d3 | 1d4 | &times;2 | 20 ft. | 2 lb. | Bludgeoning
-| &mdash; Handaxe | 6 gp | 1d4 | 1d6 | &times;3 | &ndash; | 3 lb. | Slashing
-| &mdash; Kukri | 8 gp | 1d3 | 1d4 | 18-20/&times;2 | &ndash; | 2 lb. | Slashing
-| &mdash; Pick, light | 4 gp | 1d3 | 1d4 | &times;4 | &ndash; | 3 lb. | Piercing
-| &mdash; Sap | 1 gp | 1d4<sup>3</sup> | 1d6<sup>3</sup> | &times;2 | &ndash; | 2 lb. | Bludgeoning
-| &mdash; Shield, light | special | 1d2 | 1d3 | &times;2 | &ndash; | special | Bludgeoning
-| &mdash; Spiked armor | special | 1d4 | 1d6 | &times;2 | &ndash; | special | Piercing
-| &mdash; Spiked shield, light | special | 1d3 | 1d4 | &times;2 | &ndash; | special | Piercing
-| &mdash; Sword, short | 10 gp | 1d4 | 1d6 | 19-20/&times;2 | &ndash; | 2 lb. | Piercing
+| &mdash; Axe, throwing | 8 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | 10 ft. | 2 lb. | Slashing
+| &mdash; Hammer, light | 1 gp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;2 | 20 ft. | 2 lb. | Bludgeoning
+| &mdash; Handaxe | 6 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;3 | &ndash; | 3 lb. | Slashing
+| &mdash; Kukri | 8 gp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | 18-20/&times;2 | &ndash; | 2 lb. | Slashing
+| &mdash; Pick, light | 4 gp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;4 | &ndash; | 3 lb. | Piercing
+| &mdash; Sap | 1 gp | {% die_roll 1 4 0 %}<sup>3</sup> | {% die_roll 1 6 0 %}<sup>3</sup> | &times;2 | &ndash; | 2 lb. | Bludgeoning
+| &mdash; Shield, light | special | {% die_roll 1 2 0 %} | {% die_roll 1 3 0 %} | &times;2 | &ndash; | special | Bludgeoning
+| &mdash; Spiked armor | special | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | &ndash; | special | Piercing
+| &mdash; Spiked shield, light | special | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;2 | &ndash; | special | Piercing
+| &mdash; Sword, short | 10 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | 19-20/&times;2 | &ndash; | 2 lb. | Piercing
 | **One-Handed Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Battleaxe | 10 gp | 1d6 | 1d8 | &times;3 | &ndash; | 6 lb. | Slashing
-| &mdash; Flail | 8 gp | 1d6 | 1d8 | &times;2 | &ndash; | 5 lb. | Bludgeoning
-| &mdash; Longsword | 15 gp | 1d6 | 1d8 | 19-20/&times;2 | &ndash; | 4 lb. | Slashing
-| &mdash; Pick, heavy | 8 gp | 1d4 | 1d6 | &times;4 | &ndash; | 6 lb. | Piercing
-| &mdash; Rapier | 20 gp | 1d4 | 1d6 | 18-20/&times;2 | &ndash; | 2 lb. | Piercing
-| &mdash; Scimitar | 15 gp | 1d4 | 1d6 | 18-20/&times;2 | &ndash; | 4 lb. | Slashing
-| &mdash; Shield, heavy | special | 1d3 | 1d4 | &times;2 | &ndash; | special | Bludgeoning
-| &mdash; Spiked shield, heavy | special | 1d4 | 1d6 | &times;2 | &ndash; | special | Piercing
-| &mdash; Trident | 15 gp | 1d6 | 1d8 | &times;2 | 10 ft. | 4 lb. | Piercing
-| &mdash; Warhammer | 12 gp | 1d6 | 1d8 | &times;3 | &ndash; | 5 lb. | Bludgeoning
+| &mdash; Battleaxe | 10 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;3 | &ndash; | 6 lb. | Slashing
+| &mdash; Flail | 8 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;2 | &ndash; | 5 lb. | Bludgeoning
+| &mdash; Longsword | 15 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | 19-20/&times;2 | &ndash; | 4 lb. | Slashing
+| &mdash; Pick, heavy | 8 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;4 | &ndash; | 6 lb. | Piercing
+| &mdash; Rapier | 20 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | 18-20/&times;2 | &ndash; | 2 lb. | Piercing
+| &mdash; Scimitar | 15 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | 18-20/&times;2 | &ndash; | 4 lb. | Slashing
+| &mdash; Shield, heavy | special | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;2 | &ndash; | special | Bludgeoning
+| &mdash; Spiked shield, heavy | special | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | &ndash; | special | Piercing
+| &mdash; Trident | 15 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;2 | 10 ft. | 4 lb. | Piercing
+| &mdash; Warhammer | 12 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;3 | &ndash; | 5 lb. | Bludgeoning
 | **Two-Handed Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Falchion | 75 gp | 1d6 | 2d4 | 18-20/&times;2 | &ndash; | 8 lb. | Slashing
-| &mdash; Glaive<sup>4</sup> | 8 gp | 1d8 | 1d10 | &times;3 | &ndash; | 10 lb. | Slashing
-| &mdash; Greataxe | 20 gp | 1d10 | 1d12 | &times;3 | &ndash; | 12 lb. | Slashing
-| &mdash; Greatclub | 5 gp | 1d8 | 1d10 | &times;2 | &ndash; | 8 lb. | Bludgeoning
-| &mdash; Flail, heavy | 15 gp | 1d8 | 1d10 | 19-20/&times;2 | &ndash; | 10 lb. | Bludgeoning
-| &mdash; Greatsword | 50 gp | 1d10 | 2d6 | 19-20/&times;2 | &ndash; | 8 lb. | Slashing
-| &mdash; Guisarme<sup>4</sup> | 9 gp | 1d6 | 2d4 | &times;3 | &ndash; | 12 lb. | Slashing
-| &mdash; Halberd | 10 gp | 1d8 | 1d10 | &times;3 | &ndash; | 12 lb. | Piercing or slashing
-| &mdash; Lance<sup>4</sup> | 10 gp | 1d6 | 1d8 | &times;3 | &ndash; | 10 lb. | Piercing
-| &mdash; Ranseur<sup>4</sup> | 10 gp | 1d6 | 2d4 | &times;3 | &ndash; | 12 lb. | Piercing
-| &mdash; Scythe | 18 gp | 1d6 | 2d4 | &times;4 | &ndash; | 10 lb. | Piercing or slashing
+| &mdash; Falchion | 75 gp | {% die_roll 1 6 0 %} | {% die_roll 2 4 0 %} | 18-20/&times;2 | &ndash; | 8 lb. | Slashing
+| &mdash; Glaive<sup>4</sup> | 8 gp | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | &times;3 | &ndash; | 10 lb. | Slashing
+| &mdash; Greataxe | 20 gp | {% die_roll 1 10 0 %} | {% die_roll 1 12 0 %} | &times;3 | &ndash; | 12 lb. | Slashing
+| &mdash; Greatclub | 5 gp | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | &times;2 | &ndash; | 8 lb. | Bludgeoning
+| &mdash; Flail, heavy | 15 gp | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | 19-20/&times;2 | &ndash; | 10 lb. | Bludgeoning
+| &mdash; Greatsword | 50 gp | {% die_roll 1 10 0 %} | {% die_roll 2 6 0 %} | 19-20/&times;2 | &ndash; | 8 lb. | Slashing
+| &mdash; Guisarme<sup>4</sup> | 9 gp | {% die_roll 1 6 0 %} | {% die_roll 2 4 0 %} | &times;3 | &ndash; | 12 lb. | Slashing
+| &mdash; Halberd | 10 gp | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | &times;3 | &ndash; | 12 lb. | Piercing or slashing
+| &mdash; Lance<sup>4</sup> | 10 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;3 | &ndash; | 10 lb. | Piercing
+| &mdash; Ranseur<sup>4</sup> | 10 gp | {% die_roll 1 6 0 %} | {% die_roll 2 4 0 %} | &times;3 | &ndash; | 12 lb. | Piercing
+| &mdash; Scythe | 18 gp | {% die_roll 1 6 0 %} | {% die_roll 2 4 0 %} | &times;4 | &ndash; | 10 lb. | Piercing or slashing
 | **Ranged Weapons** |<|<|<|<|<|<|<
-| &mdash; Longbow | 75 gp | 1d6 | 1d8 | &times;3 | 100 ft. | 3 lb. | Piercing
-| &mdash; Longbow, composite | 100 gp | 1d6 | 1d8 | &times;3 | 110 ft. | 3 lb. | Piercing
-| &mdash; Longbow, variable composite | 750 gp | 1d6 | 1d8 | &times;3 | 110 ft. | 5 lb. | Piercing
-| &mdash; Shortbow | 30 gp | 1d4 | 1d6 | &times;3 | 60 ft. | 2 lb. | Piercing
-| &mdash; Shortbow, composite | 75 gp | 1d4 | 1d6 | &times;3 | 70 ft. | 2 lb. | Piercing
-| &mdash; Shortbow, variable composite | 500 gp | 1d4 | 1d6 | &times;3 | 70 ft. | 3 lb. | Piercing
+| &mdash; Longbow | 75 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;3 | 100 ft. | 3 lb. | Piercing
+| &mdash; Longbow, composite | 100 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;3 | 110 ft. | 3 lb. | Piercing
+| &mdash; Longbow, variable composite | 750 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | &times;3 | 110 ft. | 5 lb. | Piercing
+| &mdash; Shortbow | 30 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;3 | 60 ft. | 2 lb. | Piercing
+| &mdash; Shortbow, composite | 75 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;3 | 70 ft. | 2 lb. | Piercing
+| &mdash; Shortbow, variable composite | 500 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;3 | 70 ft. | 3 lb. | Piercing
 | **Ammunition** |<|<|<|<|<|<|<
 | &mdash; Arrows (20) | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | 3 lb. | &ndash;
 | &mdash; Arrow, alchemical | 10 gp<sup>5</sup> | *<sup>5</sup> | *<sup>5</sup> | &ndash; | *<sup>5</sup> | &#189; lb. | &ndash;
@@ -97,30 +97,30 @@ title: "Weapon Descriptions"
 | Weapon | Cost | Dmg (S) | Dmg (M) | Critical | Range Increment | Weight<sup>1</sup> | Type<sup>2</sup>
 |-|-|-|-|-|-|-|-
 | **Light Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Kama | 2 gp | 1d4 | 1d6 | &times;2 | &ndash; | 2 lb. | Slashing
-| &mdash; Nunchaku | 2 gp | 1d4 | 1d6 | &times;2 | &ndash; | 2 lb. | Bludgeoning
-| &mdash; Sai | 1 gp | 1d3 | 1d4 | &times;2 | 10 ft. | 1 lb. | Bludgeoning
-| &mdash; Siangham | 3 gp | 1d4 | 1d6 | &times;2 | &ndash; | 1 lb. | Piercing
+| &mdash; Kama | 2 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | &ndash; | 2 lb. | Slashing
+| &mdash; Nunchaku | 2 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | &ndash; | 2 lb. | Bludgeoning
+| &mdash; Sai | 1 gp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | &times;2 | 10 ft. | 1 lb. | Bludgeoning
+| &mdash; Siangham | 3 gp | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | &times;2 | &ndash; | 1 lb. | Piercing
 | **One-Handed Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Sword, bastard | 35 gp | 1d8 | 1d10 | 19-20/&times;2 | &ndash; | 6 lb. | Slashing
-| &mdash; Waraxe, dwarven | 30 gp | 1d8 | 1d10 | &times;3 | &ndash; | 8 lb. | Slashing
-| &mdash; Whip<sup>4</sup> | 1 gp | 1d2<sup>3</sup> | 1d3<sup>3</sup> | &times;2 |  | 2 lb. | Slashing
+| &mdash; Sword, bastard | 35 gp | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | 19-20/&times;2 | &ndash; | 6 lb. | Slashing
+| &mdash; Waraxe, dwarven | 30 gp | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | &times;3 | &ndash; | 8 lb. | Slashing
+| &mdash; Whip<sup>4</sup> | 1 gp | {% die_roll 1 2 0 %}<sup>3</sup> | {% die_roll 1 3 0 %}<sup>3</sup> | &times;2 |  | 2 lb. | Slashing
 | **Two-Handed Melee Weapons** |<|<|<|<|<|<|<
-| &mdash; Axe, orc double<sup>5</sup> | 60 gp | 1d6/1d6 | 1d8/1d8 | &times;3 | &ndash; | 15 lb. | Slashing
-| &mdash; Chain, spiked<sup>4</sup> | 25 gp | 1d6 | 2d4 | &times;2 | &ndash; | 10 lb. | Piercing
-| &mdash; Flail, dire<sup>5</sup> | 90 gp | 1d6/1d6 | 1d8/1d8 | &times;2 | &ndash; | 10 lb. | Bludgeoning
-| &mdash; Fullblade | 100 gp | 2d6 | 3d6 | 19-20/&times;2 | &ndash; | 25 lb. | Slashing
-| &mdash; Hammer, gnome hooked<sup>5</sup> | 20 gp | 1d6/1d4 | 1d8/1d6 | &times;3/&times;4 | &ndash; | 6 lb. | Bludgeoning and piercing
-| &mdash; Sword, two-bladed<sup>5</sup> | 100 gp | 1d6/1d6 | 1d8/1d8 | 19-20/&times;2 | &ndash; | 10 lb. | Slashing
-| &mdash; Urgrosh, dwarven<sup>5</sup> | 50 gp | 1d6/1d4 | 1d8/1d6 | &times;3 | &ndash; | 12 lb. | Slashing or piercing
+| &mdash; Axe, orc double<sup>5</sup> | 60 gp | {% die_roll 1 6 0 %}/{% die_roll 1 6 0 %} | {% die_roll 1 8 0 %}/{% die_roll 1 8 0 %} | &times;3 | &ndash; | 15 lb. | Slashing
+| &mdash; Chain, spiked<sup>4</sup> | 25 gp | {% die_roll 1 6 0 %} | {% die_roll 2 4 0 %} | &times;2 | &ndash; | 10 lb. | Piercing
+| &mdash; Flail, dire<sup>5</sup> | 90 gp | {% die_roll 1 6 0 %}/{% die_roll 1 6 0 %} | {% die_roll 1 8 0 %}/{% die_roll 1 8 0 %} | &times;2 | &ndash; | 10 lb. | Bludgeoning
+| &mdash; Fullblade | 100 gp | {% die_roll 2 6 0 %} | {% die_roll 3 6 0 %} | 19-20/&times;2 | &ndash; | 25 lb. | Slashing
+| &mdash; Hammer, gnome hooked<sup>5</sup> | 20 gp | {% die_roll 1 6 0 %}/{% die_roll 1 4 0 %} | {% die_roll 1 8 0 %}/{% die_roll 1 6 0 %} | &times;3/&times;4 | &ndash; | 6 lb. | Bludgeoning and piercing
+| &mdash; Sword, two-bladed<sup>5</sup> | 100 gp | {% die_roll 1 6 0 %}/{% die_roll 1 6 0 %} | {% die_roll 1 8 0 %}/{% die_roll 1 8 0 %} | 19-20/&times;2 | &ndash; | 10 lb. | Slashing
+| &mdash; Urgrosh, dwarven<sup>5</sup> | 50 gp | {% die_roll 1 6 0 %}/{% die_roll 1 4 0 %} | {% die_roll 1 8 0 %}/{% die_roll 1 6 0 %} | &times;3 | &ndash; | 12 lb. | Slashing or piercing
 | **Ranged Weapons** |<|<|<|<|<|<|<
-| &mdash; Bolas | 5 gp | 1d3<sup>3</sup> | 1d4<sup>3</sup> | &times;2 | 10 ft. | 2 lb. | Bludgeoning
-| &mdash; Crossbow, hand | 100 gp | 1d3 | 1d4 | 19-20/&times;2 | 30 ft. | 2 lb. | Piercing
-| &mdash; Crossbow, repeating heavy | 400 gp | 1d8 | 1d10 | 19-20/&times;2 | 120 ft. | 12 lb. | Piercing
-| &mdash; Crossbow, repeating light | 250 gp | 1d6 | 1d8 | 19-20/&times;2 | 80 ft. | 6 lb. | Piercing
-| &mdash; Great boomerang | 250 gp | 2d4<sup>6</sup> | 2d6<sup>6</sup> | &times;2 | 40 ft. | 30 lb. | Bludgeoning
+| &mdash; Bolas | 5 gp | {% die_roll 1 3 0 %}<sup>3</sup> | {% die_roll 1 4 0 %}<sup>3</sup> | &times;2 | 10 ft. | 2 lb. | Bludgeoning
+| &mdash; Crossbow, hand | 100 gp | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | 19-20/&times;2 | 30 ft. | 2 lb. | Piercing
+| &mdash; Crossbow, repeating heavy | 400 gp | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | 19-20/&times;2 | 120 ft. | 12 lb. | Piercing
+| &mdash; Crossbow, repeating light | 250 gp | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | 19-20/&times;2 | 80 ft. | 6 lb. | Piercing
+| &mdash; Great boomerang | 250 gp | {% die_roll 2 4 0 %}<sup>6</sup> | {% die_roll 2 6 0 %}<sup>6</sup> | &times;2 | 40 ft. | 30 lb. | Bludgeoning
 | &mdash; Net | 20 gp | &ndash; | &ndash; | 10 ft. | 6 lb. | &ndash; |
-| &mdash; Shuriken (5) | 1 gp | 1 | 1d2 | &times;2 | 10 ft. | &#189; lb. | Piercing
+| &mdash; Shuriken (5) | 1 gp | 1 | {% die_roll 1 2 0 %} | &times;2 | 10 ft. | &#189; lb. | Piercing
 | **Ammunition** |<|<|<|<|<|<|<
 | &mdash; Bolts, crossbow (10) | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | 1 lb. | &ndash;
 | &mdash; Bolts, repeating crossbow (5) | 1 gp | &ndash; | &ndash; | &ndash; | &ndash; | 1 lb. | &ndash;
@@ -134,9 +134,9 @@ Weapons found on Table: Weapons that have special options for the wielder ("you"
 
 **Arrows, Alchemical:** These arrows have relatively normal fletching and shafts, but the head is made of a small glass vial. The vial is designed to break upon impact, and it contains a dose of one of the following items: <a href="#">Acid</a>, <a href="#">Alchemist's Fire</a>, or <a href="#">Holy Water</a>.
 
-Upon a successful hit, the vial breaks and affects the target accordingly. However, the damage for the respective type of substance is reduced to 1d4, and there is no splash damage. The effects are otherwise the same as with the normal substances.
+Upon a successful hit, the vial breaks and affects the target accordingly. However, the damage for the respective type of substance is reduced to {% die_roll 1 4 0 %}, and there is no splash damage. The effects are otherwise the same as with the normal substances.
 
-Due to the unusual balance and weight of an alchemical arrow, shooting one incurs a -5 penalty on the attack roll, and the range increment is halved. If the attack misses, roll 1d8 and determine the square that the arrow hit as per the rules on <a href="#">throwing a splash weapon</a>.
+Due to the unusual balance and weight of an alchemical arrow, shooting one incurs a -5 penalty on the attack roll, and the range increment is halved. If the attack misses, roll {% die_roll 1 8 0 %} and determine the square that the arrow hit as per the rules on <a href="#">throwing a splash weapon</a>.
 
 The price of an alchemical arrow includes a small dose of the substance in question.
 
@@ -156,7 +156,7 @@ A signal bolt is essentially the same as a signal arrow, except engineered to fi
 
 Signal arrows and bolts are both reusable, as long as both the flint stopper and arrow/bolt are both recovered. It's a relatively simple matter to refill the head with oil, although care should be taken when inserting the stopper so as not to set it off.
 
-Due to the unusual balance and weight of signal arrows &amp; bolts, they are not suited for normal combat. They deal only subdual damage based on their size, shooting one incurs a -5 penalty on the attack roll, and the range increment is halved. If the attack misses, roll 1d8 and determine the square that the arrow hit as per the rules on <a href="#">throwing a splash weapon</a>.
+Due to the unusual balance and weight of signal arrows &amp; bolts, they are not suited for normal combat. They deal only subdual damage based on their size, shooting one incurs a -5 penalty on the attack roll, and the range increment is halved. If the attack misses, roll {% die_roll 1 8 0 %} and determine the square that the arrow hit as per the rules on <a href="#">throwing a splash weapon</a>.
 
 **Axe, Orc Double:** An orc double axe is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon.
 
@@ -228,7 +228,7 @@ You can also use it to make trip attacks. If you are tripped during your own tri
 
 You can use a halberd to make trip attacks. If you are tripped during your own trip attempt, you can drop the halberd to avoid being tripped.
 
-**Hammer, Gnome Hooked:** A gnome hooked hammer is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. The hammer's blunt head is a bludgeoning weapon that deals 1d6 points of damage (crit &times;3). Its hook is a piercing weapon that deals 1d4 points of damage (crit &times;4). You can use either head as the primary weapon. The other head is the offhand weapon. A creature wielding a gnome hooked hammer in one hand can't use it as a double weapon &ndash; only one end of the weapon can be used in any given round.
+**Hammer, Gnome Hooked:** A gnome hooked hammer is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. The hammer's blunt head is a bludgeoning weapon that deals {% die_roll 1 6 0 %} points of damage (crit &times;3). Its hook is a piercing weapon that deals {% die_roll 1 4 0 %} points of damage (crit &times;4). You can use either head as the primary weapon. The other head is the offhand weapon. A creature wielding a gnome hooked hammer in one hand can't use it as a double weapon &ndash; only one end of the weapon can be used in any given round.
 
 You can use a gnome hooked hammer to make trip attacks. If you are tripped during your own trip attempt, you can drop the gnome hooked hammer to avoid being tripped.
 
@@ -318,7 +318,7 @@ You can hurl ordinary stones with a sling, but stones are not as dense or as rou
 
 **Spiked Shield, Heavy or Light:** You can bash with a spiked shield instead of using it for defense. See Armor for details.
 
-**Strike, Unarmed:** A Medium character deals 1d3 points of nonlethal damage with an unarmed strike. A Small character deals 1d2 points of nonlethal damage. A monk or any character with the Improved Unarmed Strike feat can deal lethal or nonlethal damage with unarmed strikes, at her option. The damage from an unarmed strike is considered weapon damage for the purposes of effects that give you a bonus on weapon damage rolls.
+**Strike, Unarmed:** A Medium character deals {% die_roll 1 3 0 %} points of nonlethal damage with an unarmed strike. A Small character deals {% die_roll 1 2 0 %} points of nonlethal damage. A monk or any character with the Improved Unarmed Strike feat can deal lethal or nonlethal damage with unarmed strikes, at her option. The damage from an unarmed strike is considered weapon damage for the purposes of effects that give you a bonus on weapon damage rolls.
 
 An unarmed strike is always considered a light weapon. Therefore, you can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with an unarmed strike.
 
@@ -328,7 +328,7 @@ An unarmed strike is always considered a light weapon. Therefore, you can use th
 
 **Trident:** This weapon can be thrown. If you use a ready action to set a trident against a charge, you deal double damage on a successful hit against a charging character.
 
-**Urgrosh, Dwarven:** A dwarven urgrosh is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. The urgrosh's axe head is a slashing weapon that deals 1d8 points of damage. Its spear head is a piercing weapon that deals 1d6 points of damage. You can use either head as the primary weapon. The other is the off-hand weapon. A creature wielding a dwarven urgrosh in one hand can't use it as a double weapon &ndash; only one end of the weapon can be used in any given round.
+**Urgrosh, Dwarven:** A dwarven urgrosh is a double weapon. You can fight with it as if fighting with two weapons, but if you do, you incur all the normal attack penalties associated with fighting with two weapons, just as if you were using a one-handed weapon and a light weapon. The urgrosh's axe head is a slashing weapon that deals {% die_roll 1 8 0 %} points of damage. Its spear head is a piercing weapon that deals {% die_roll 1 6 0 %} points of damage. You can use either head as the primary weapon. The other is the off-hand weapon. A creature wielding a dwarven urgrosh in one hand can't use it as a double weapon &ndash; only one end of the weapon can be used in any given round.
 
 If you use a ready action to set an urgrosh against a charge, you deal double damage if you score a hit against a charging character. If you use an urgrosh against a charging character, the spear head is the part of the weapon that deals damage.
 

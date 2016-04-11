@@ -16,7 +16,7 @@ item:
 
      * {% spell_link hold-person %} upon touch, if the wielder so commands (Will DC 14 negates). The wielder must choose to use this power and then succeed on a melee touch attack to activate the power. If the attack fails, the effect is lost.
      * {% spell_link fear %} upon all enemies viewing it, if the wielder so desires (10-foot maximum range, Will DC 16 partial). Invoking this power is a standard action.
-     * Deal 2d4 hit points of damage to an opponent on a successful touch attack (Will DC 17 half ) and cure the wielder of a like amount of damage. The wielder must choose to use this power before attacking, as with {% spell_link hold-person %}.
+     * Deal {% die_roll 2 4 0 %} hit points of damage to an opponent on a successful touch attack (Will DC 17 half ) and cure the wielder of a like amount of damage. The wielder must choose to use this power before attacking, as with {% spell_link hold-person %}.
 
     The following weapon functions of the rod have no limit on the number of times they can be employed.
 

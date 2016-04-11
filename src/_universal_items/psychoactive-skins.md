@@ -32,7 +32,7 @@ item:
 
     Faint psychometabolism; ML 5th; Craft Universal Item, _thicken skin_; Price 32,000 gp; Weight 2 lb.
 
-    _Skin of Fiery Response:_ This psychoactive skin answers the first attack made against the wearer in each round with an automatically manifested and targeted "ectoburst" against the attacker. The burst ejects from the skin on the wearer's turn, making a ranged touch attack as described in the _energy retort_ power, but the energy type chosen is always fire. If the attack hits, the target takes 2d6 points of fire damage as the ectoburst flames up and is consumed. This attack does not in any way hinder the wearer, count against her total actions for the round, or provoke attacks of opportunity.
+    _Skin of Fiery Response:_ This psychoactive skin answers the first attack made against the wearer in each round with an automatically manifested and targeted "ectoburst" against the attacker. The burst ejects from the skin on the wearer's turn, making a ranged touch attack as described in the _energy retort_ power, but the energy type chosen is always fire. If the attack hits, the target takes {% die_roll 2 6 0 %} points of fire damage as the ectoburst flames up and is consumed. This attack does not in any way hinder the wearer, count against her total actions for the round, or provoke attacks of opportunity.
 
     Faint psychokinesis; ML 5th; Craft Universal Item, _energy retort_; Price 60,000 gp; Weight 2 lb.
 

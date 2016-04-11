@@ -27,7 +27,7 @@ spell:
   castingTime:        "10 minutes; see text"
   range:              "2 miles"
   area:               "2-mile-radius circle, centered on you; see text"
-  duration:           "4d12 hours; see text"
+  duration:           "{% die_roll 4 12 0 %} hours; see text"
   savingThrow:        "None"
   spellResistance:    "No"
   description:        |

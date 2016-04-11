@@ -19,5 +19,5 @@ spell:
   spellResistance:    "No"
   materialComponents: ["A drop of oil and a small piece of flint."]
   description:        |
-    You turn ammunition (such as arrows, bolts, shuriken, and stones) into fiery projectiles. Each piece of ammunition deals an extra 1d6 points of fire damage to any target it hits. A flaming projectile can easily ignite a flammable object or structure, but it won't ignite a creature it strikes.
+    You turn ammunition (such as arrows, bolts, shuriken, and stones) into fiery projectiles. Each piece of ammunition deals an extra {% die_roll 1 6 0 %} points of fire damage to any target it hits. A flaming projectile can easily ignite a flammable object or structure, but it won't ignite a creature it strikes.
 ---

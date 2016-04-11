@@ -19,5 +19,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This _+1 heavy steel shield_ is covered in spines. It acts as a normal spiked shield. On command up to three times per day, the shield's wearer can fire one of the shield's spines. A fired spine has a +1 enhancement bonus, a range increment of 120 feet, and deals 1d10 points of damage (19-20/&times;2). Fired spines regenerate each day.
+    This _+1 heavy steel shield_ is covered in spines. It acts as a normal spiked shield. On command up to three times per day, the shield's wearer can fire one of the shield's spines. A fired spine has a +1 enhancement bonus, a range increment of 120 feet, and deals {% die_roll 1 10 0 %} points of damage (19-20/&times;2). Fired spines regenerate each day.
 ---

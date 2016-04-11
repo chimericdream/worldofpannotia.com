@@ -12,8 +12,8 @@ title: "Craft (Alchemy)"
 |---
 | Item | Effect of Augmenting
 |-|-
-| Acid | Direct hit 2d6, splash 2
-| Alchemist's fire | Direct hit 2d6, splash 2
+| Acid | Direct hit {% die_roll 2 6 0 %}, splash 2
+| Alchemist's fire | Direct hit {% die_roll 2 6 0 %}, splash 2
 | Antitoxin | Duration 2 hours
 | Smokestick | Smoke fills a 20-foot cube
 | Sunrod | Glows for 12 hours

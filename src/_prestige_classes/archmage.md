@@ -51,7 +51,7 @@ class:
 
           An archmage may choose to eliminate a spell slot of a higher level than that required to gain a type of high arcana.
 
-          _Arcane Fire (Su):_ The archmage gains the ability to change arcane spell energy into arcane fire, manifesting it as a bolt of raw magical energy. The bolt is a ranged touch attack with long range (400 feet + 40 feet/level of archmage) that deals 1d6 points of damage per class level of the archmage plus 1d6 points of damage per level of the spell used to create the effect. This ability costs one 9th-level spell slot.
+          _Arcane Fire (Su):_ The archmage gains the ability to change arcane spell energy into arcane fire, manifesting it as a bolt of raw magical energy. The bolt is a ranged touch attack with long range (400 feet + 40 feet/level of archmage) that deals {% die_roll 1 6 0 %} points of damage per class level of the archmage plus {% die_roll 1 6 0 %} points of damage per level of the spell used to create the effect. This ability costs one 9th-level spell slot.
 
           _Arcane Reach (Su):_ The archmage can use spells with a range of touch on a target up to 30 feet away. The archmage must make a ranged touch attack. Arcane reach can be selected a second time as a special ability, in which case the range increases to 60 feet. This ability costs one 7th-level spell slot.
 

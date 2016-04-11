@@ -18,9 +18,9 @@ spell:
   savingThrow:        "Fortitude partial; see text"
   spellResistance:    "No"
   description:        |
-    This spell generates a bank of fog, similar to a fog cloud, except that its vapors are yellowish green and poisonous. These vapors automatically kill any living creature with 3 or fewer HD (no save). A living creature with 4 to 6 HD is slain unless it succeeds on a Fortitude save (in which case it takes 1d4 points of Constitution damage on your turn each round while in the cloud).
+    This spell generates a bank of fog, similar to a fog cloud, except that its vapors are yellowish green and poisonous. These vapors automatically kill any living creature with 3 or fewer HD (no save). A living creature with 4 to 6 HD is slain unless it succeeds on a Fortitude save (in which case it takes {% die_roll 1 4 0 %} points of Constitution damage on your turn each round while in the cloud).
 
-    A living creature with 6 or more HD takes 1d4 points of Constitution damage on your turn each round while in the cloud (a successful Fortitude save halves this damage). Holding one's breath doesn't help, but creatures immune to poison are unaffected by the spell.
+    A living creature with 6 or more HD takes {% die_roll 1 4 0 %} points of Constitution damage on your turn each round while in the cloud (a successful Fortitude save halves this damage). Holding one's breath doesn't help, but creatures immune to poison are unaffected by the spell.
 
     Unlike a fog cloud, the cloudkill moves away from you at 10 feet per round, rolling along the surface of the ground.
 

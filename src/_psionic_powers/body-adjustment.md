@@ -25,7 +25,7 @@ power:
     - class: "Psychic Warrior"
       cost: 3
   description: |
-    You take control of your body's healing process, curing yourself of 1d12 points of damage. As usual, when regular damage is healed, an equal amount of nonlethal damage is also healed.
+    You take control of your body's healing process, curing yourself of {% die_roll 1 12 0 %} points of damage. As usual, when regular damage is healed, an equal amount of nonlethal damage is also healed.
   augment: |
-    For every 2 additional power points you spend, this power heals an additional 1d12 points of damage.
+    For every 2 additional power points you spend, this power heals an additional {% die_roll 1 12 0 %} points of damage.
 ---

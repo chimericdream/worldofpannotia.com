@@ -22,7 +22,7 @@ race:
      * Racial Skills: Lizardfolk have a +4 racial bonus on {% skill_link balance %}, {% skill_link jump %}, and {% skill_link swim %} checks.
      * Weapon and Armor Proficiency: A lizardfolk is automatically proficient with simple weapons and shields.
      * +5 natural armor bonus.
-     * Natural Weapons: 2 claws (1d4) and bite (1d4).
+     * Natural Weapons: 2 claws ({% die_roll 1 4 0 %}) and bite ({% die_roll 1 4 0 %}).
      * Special Qualities: Hold breath.
      * Automatic Languages: Common, Draconic. Bonus Languages: Aquan, Goblin, Gnoll, Orc.
      * Favored Class: Druid.
@@ -34,7 +34,7 @@ race:
     - baseEcl: 3
       levelAdjust: 1
       traits: |
-         * Racial Hit Dice: A lizardfolk begins with two levels of humanoid, which provide 2d8 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +0, Ref +3, and Will +0.
+         * Racial Hit Dice: A lizardfolk begins with two levels of humanoid, which provide {% die_roll 2 8 0 %} Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +0, Ref +3, and Will +0.
          * Racial Skills: A lizardfolk's humanoid levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link balance %}, {% skill_link jump %}, and {% skill_link swim %}.
          * Racial Feats: A lizardfolk's humanoid levels give it one feat.
 ---

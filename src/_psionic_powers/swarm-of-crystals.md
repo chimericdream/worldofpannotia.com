@@ -20,7 +20,7 @@ power:
   powerResistance: "No"
   powerPoints: 3
   description: |
-    Thousands of tiny crystal shards spray forth in an arc from your hand. These razorlike crystals slice everything in their path. Anyone caught in the cone takes 3d4 points of slashing damage.
+    Thousands of tiny crystal shards spray forth in an arc from your hand. These razorlike crystals slice everything in their path. Anyone caught in the cone takes {% die_roll 3 4 0 %} points of slashing damage.
   augment: |
-    For every additional power point you spend, this power's damage increases by 1d4 points.
+    For every additional power point you spend, this power's damage increases by {% die_roll 1 4 0 %} points.
 ---

@@ -22,9 +22,9 @@ combo:
     | Round | Metal Temperature | Damage
     |-|-|-
     | 1 | Warm | None
-    | 2 | Hot | 2d4 points
-    | 3-5 | Searing | 3d6 points
-    | 6 | Hot | 2d4 points
+    | 2 | Hot | {% die_roll 2 4 0 %} points
+    | 3-5 | Searing | {% die_roll 3 6 0 %} points
+    | 6 | Hot | {% die_roll 2 4 0 %} points
     | 7 | Warm | None
     {: #metalskin-heat-metal-damage-table .table .table-bordered .table-hover .table-striped data-caption="Table: Heat Metal Damage" }
 

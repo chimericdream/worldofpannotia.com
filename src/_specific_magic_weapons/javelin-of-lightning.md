@@ -18,5 +18,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This javelin becomes a 5d6 {% spell_link lightning-bolt %} when thrown (Reflex DC 14 half). It is consumed in the attack.
+    This javelin becomes a {% die_roll 5 6 0 %} {% spell_link lightning-bolt %} when thrown (Reflex DC 14 half). It is consumed in the attack.
 ---

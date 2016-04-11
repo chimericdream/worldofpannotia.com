@@ -34,13 +34,13 @@ spell:
     | Creature Size | Damage
     |-|-
     | Fine | 1
-    | Diminutive | 1d2
-    | Tiny | 1d3
-    | Small | 1d4
-    | Medium | 1d6
-    | Large | 1d8
-    | Huge | 2d6
-    | Gargantuan | 3d6
-    | Colossal | 4d6
+    | Diminutive | {% die_roll 1 2 0 %}
+    | Tiny | {% die_roll 1 3 0 %}
+    | Small | {% die_roll 1 4 0 %}
+    | Medium | {% die_roll 1 6 0 %}
+    | Large | {% die_roll 1 8 0 %}
+    | Huge | {% die_roll 2 6 0 %}
+    | Gargantuan | {% die_roll 3 6 0 %}
+    | Colossal | {% die_roll 4 6 0 %}
     {: .table .table-bordered .table-hover }
 ---

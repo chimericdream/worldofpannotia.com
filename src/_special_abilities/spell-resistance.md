@@ -4,7 +4,7 @@ title: "Spell Resistance"
 ability:
   types: ["Ex"]
   description: |
-    A creature with spell resistance can avoid the effects of spells and spell-like abilities that directly affect it. To determine if a spell or spell-like ability works against a creature with spell resistance, the caster must make a caster level check (1d20 + caster level). If the result equals or exceeds the creature's spell resistance, the spell works normally, although the creature is still allowed a saving throw.
+    A creature with spell resistance can avoid the effects of spells and spell-like abilities that directly affect it. To determine if a spell or spell-like ability works against a creature with spell resistance, the caster must make a caster level check ({% die_roll 1 20 0 %} + caster level). If the result equals or exceeds the creature's spell resistance, the spell works normally, although the creature is still allowed a saving throw.
 
     Only spells and spell-like abilities are subject to spell resistance. Extraordinary and supernatural abilities (including enhancement bonuses on magic weapons) are not. A creature can have some abilities that are subject to spell resistance and some that are not. Even some spells ignore spell resistance; see When Spell Resistance Applies, below.
 

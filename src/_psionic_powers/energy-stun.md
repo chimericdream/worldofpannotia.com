@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 3
   description: |
-    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You release a powerful stroke of the chosen energy type that encircles all creatures in the area, dealing 1d6 points of damage to each of them. In addition, any creature that fails its save for half damage must succeed on a Will save or be stunned for 1 round.
+    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You release a powerful stroke of the chosen energy type that encircles all creatures in the area, dealing {% die_roll 1 6 0 %} points of damage to each of them. In addition, any creature that fails its save for half damage must succeed on a Will save or be stunned for 1 round.
 
     Cold: A stroke of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold stun is a Fortitude save instead of a Reflex save.
 

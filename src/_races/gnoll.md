@@ -27,7 +27,7 @@ race:
     - baseEcl: 3
       levelAdjust: 1
       traits: |
-         * Racial Hit Dice: A gnoll begins with two levels of humanoid, which provide 2d8 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +3, Ref +0, and Will +0.
+         * Racial Hit Dice: A gnoll begins with two levels of humanoid, which provide {% die_roll 2 8 0 %} Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +3, Ref +0, and Will +0.
          * Racial Skills: A gnoll's humanoid levels give it skill points equal to 5 * (2 + Int modifier). Its class skills are {% skill_link listen %} and {% skill_link spot %}.
          * Racial Feats: A gnoll's humanoid levels give it one feat.
 ---

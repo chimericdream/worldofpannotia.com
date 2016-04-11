@@ -22,7 +22,7 @@ race:
      * Darkvision out to 90 feet.
      * Racial Skills: Troglodytes have a +4 racial bonus on {% skill_link hide %} checks (+8 in rocky or underground surroundings).
      * +6 natural armor bonus.
-     * Natural Weapons: 2 claws (1d4) and bite (1d4).
+     * Natural Weapons: 2 claws ({% die_roll 1 4 0 %}) and bite ({% die_roll 1 4 0 %}).
      * Special Attacks: Stench.
      * Automatic Languages: Draconic. Bonus Languages: Common, Giant, Goblin, Orc.
      * Favored Class: Cleric.
@@ -34,7 +34,7 @@ race:
     - baseEcl: 4
       levelAdjust: 2
       traits: |
-         * Racial Hit Dice: A troglodyte begins with two levels of humanoid, which provide 2d8 Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +3, Ref +0, and Will +0.
+         * Racial Hit Dice: A troglodyte begins with two levels of humanoid, which provide {% die_roll 2 8 0 %} Hit Dice, a base attack bonus of +1, and base saving throw bonuses of Fort +3, Ref +0, and Will +0.
          * Racial Skills: A troglodyte's humanoid levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link hide %} and {% skill_link listen %}.
          * Racial Feats: A troglodyte's humanoid levels give it one feat. A troglodyte receives Multiattack as a bonus feat.
 ---

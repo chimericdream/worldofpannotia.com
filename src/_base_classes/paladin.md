@@ -189,5 +189,5 @@ class:
 
       **Command (Sp):** Once per day per two paladin levels of its master, a mount can use this ability to command other any normal animal of approximately the same kind as itself (for warhorses and warponies, this category includes donkeys, mules, and ponies), as long as the target creature has fewer Hit Dice than the mount. This ability functions like the command spell, but the mount must make a DC 21 {% skill_link concentration %} check to succeed if it's being ridden at the time. If the check fails, the ability does not work that time, but it still counts against the mount's daily uses. Each target may attempt a Will save (DC 10 + &#189; paladin's level + paladin's Cha modifier) to negate the effect.
 
-      **Spell Resistance (Ex):** A mount's spell resistance equals its master's paladin level + 5. To affect the mount with a spell, a spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the mount's spell resistance.
+      **Spell Resistance (Ex):** A mount's spell resistance equals its master's paladin level + 5. To affect the mount with a spell, a spellcaster must get a result on a caster level check ({% die_roll 1 20 0 %} + caster level) that equals or exceeds the mount's spell resistance.
 ---

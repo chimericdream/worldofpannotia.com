@@ -27,5 +27,5 @@ spell:
       abbr:  "Healing"
       level: 2
   description:        |
-    This spell functions like cure light wounds, except that it cures 2d8 points of damage +1 point per caster level (maximum +10).
+    This spell functions like cure light wounds, except that it cures {% die_roll 2 8 0 %} points of damage +1 point per caster level (maximum +10).
 ---

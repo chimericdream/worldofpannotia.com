@@ -28,15 +28,15 @@ class:
       |---
       | Level | Base Attack | Fort | Ref | Will | Special | Powers Known
       |-|-|-|-|-|-|-
-      | 1st | +0 | +0 | +0 | +2 | Incorporeal touch 1d6, uncarnate armor | &ndash;
+      | 1st | +0 | +0 | +0 | +2 | Incorporeal touch {% die_roll 1 6 0 %}, uncarnate armor | &ndash;
       | 2nd | +1 | +0 | +0 | +3 | Shed body 1/day | +1 level of existing manifesting class
       | 3rd | +1 | +1 | +1 | +3 | Assume equipment | +1 level of existing manifesting class
       | 4th | +2 | +1 | +1 | +4 | Assume likeness | &ndash;
-      | 5th | +2 | +1 | +1 | +4 | Incorporeal touch 2d6 | +1 level of existing manifesting class
+      | 5th | +2 | +1 | +1 | +4 | Incorporeal touch {% die_roll 2 6 0 %} | +1 level of existing manifesting class
       | 6th | +3 | +2 | +2 | +5 | Shed body 2/day | +1 level of existing manifesting class
       | 7th | +3 | +2 | +2 | +5 | Telekinetic force | &ndash;
       | 8th | +4 | +2 | +2 | +6 | Uncarnate bridge | +1 level of existing manifesting class
-      | 9th | +4 | +3 | +3 | +6 | Incorporeal touch 3d6 | +1 level of existing manifesting class
+      | 9th | +4 | +3 | +3 | +6 | Incorporeal touch {% die_roll 3 6 0 %} | +1 level of existing manifesting class
       | 10th | +5 | +3 | +3 | +7 | Uncarnate | &ndash;
       {: #psion-uncarnate-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Psion Uncarnate" }
     classFeatures:
@@ -53,11 +53,11 @@ class:
       - name: "Incorporeal Touch"
         type: "Su"
         desc: |
-          Beginning at 1st level, a psion uncarnate can make up to three melee touch attacks per day that each deal 1d6 points of damage if they hit. The character's Strength modifier is not applied to this attack, but it is effective against incorporeal creatures (and against corporeal creatures while the psion uncarnate is incorporeal) The character's hand and arm seem to become slightly translucent when he makes these attacks. A miss still counts as a use of the ability.
+          Beginning at 1st level, a psion uncarnate can make up to three melee touch attacks per day that each deal {% die_roll 1 6 0 %} points of damage if they hit. The character's Strength modifier is not applied to this attack, but it is effective against incorporeal creatures (and against corporeal creatures while the psion uncarnate is incorporeal) The character's hand and arm seem to become slightly translucent when he makes these attacks. A miss still counts as a use of the ability.
 
           While uncarnate (see below), a psion uncarnate can make melee touch attacks at will that do not count against his uses of this ability.
 
-          For every four levels higher than 1st the psion uncarnate attains, the damage on these attacks increases by 1d6 points.
+          For every four levels higher than 1st the psion uncarnate attains, the damage on these attacks increases by {% die_roll 1 6 0 %} points.
       - name: "Uncarnate Armor"
         type: "Su"
         desc: |
@@ -105,7 +105,7 @@ class:
 
           When exiting the destination creature, the psion uncarnate chooses an adjacent square in which to appear. Entering and leaving a creature is painless, unless the psion uncarnate wishes otherwise (see below). In most cases, though, the destination creature finds being the endpoint of a mental bridge surprising and quite unsettling.
 
-          If he desires, a psion uncarnate can destructively exit the destination creature. If the creature fails a Will save (DC 15 + psion uncarnate's key ability modifier), the exiting psion uncarnate tunes his mental form to destructively interfere with the target's mind. He bursts forth explosively from the creature's body, dealing it 10d6 points of damage.
+          If he desires, a psion uncarnate can destructively exit the destination creature. If the creature fails a Will save (DC 15 + psion uncarnate's key ability modifier), the exiting psion uncarnate tunes his mental form to destructively interfere with the target's mind. He bursts forth explosively from the creature's body, dealing it {% die_roll 10 6 0 %} points of damage.
       - name: "Uncarnate"
         type: "Ex"
         desc: |

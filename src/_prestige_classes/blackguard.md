@@ -35,13 +35,13 @@ class:
       | 1 | +1 | +2 | 0 | 0 | Aura of evil, detect good, poison use | 0 | - | - | -
       | 2 | +2 | +3 | 0 | 0 | Dark blessing, smite good 1/day | 1 | - | - | -
       | 3 | +3 | +3 | +1 | +1 | Command undead, aura of despair | 1 | 0 | - | -
-      | 4 | +4 | +4 | +1 | +1 | Sneak attack +1d6 | 1 | 1 | - | -
+      | 4 | +4 | +4 | +1 | +1 | Sneak attack +{% die_roll 1 6 0 %} | 1 | 1 | - | -
       | 5 | +5 | +4 | +1 | +1 | Fiendish servant, smite good 2/day | 1 | 1 | 0 | -
       | 6 | +6 | +5 | +2 | +2 |  | 1 | 1 | 1 | -
-      | 7 | +7 | +5 | +2 | +2 | Sneak attack +2d6 | 2 | 1 | 1 | 0
+      | 7 | +7 | +5 | +2 | +2 | Sneak attack +{% die_roll 2 6 0 %} | 2 | 1 | 1 | 0
       | 8 | +8 | +6 | +2 | +2 |  | 2 | 1 | 1 | 1
       | 9 | +9 | +6 | +3 | +3 |  | 2 | 2 | 1 | 1
-      | 10 | +10 | +7 | +3 | +3 | Sneak attack +3d6, smite good 3/day | 2 | 2 | 2 | 1
+      | 10 | +10 | +7 | +3 | +3 | Sneak attack +{% die_roll 3 6 0 %}, smite good 3/day | 2 | 2 | 2 | 1
       {: #blackguard-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Blackguard" }
     classFeatures:
       - name: "Weapon and Armor Proficiency"
@@ -89,7 +89,7 @@ class:
       - name: "Sneak Attack"
         type: ""
         desc: |
-          This ability, gained at 4th level, is like the rogue ability of the same name. The extra damage increases by +1d6 every third level beyond 4th (7th and 10th). If a blackguard gets a sneak attack bonus from another source the bonuses on damage stack.
+          This ability, gained at 4th level, is like the rogue ability of the same name. The extra damage increases by +{% die_roll 1 6 0 %} every third level beyond 4th (7th and 10th). If a blackguard gets a sneak attack bonus from another source the bonuses on damage stack.
     additionalInfo: |
       #### Blackguard Spell List
 
@@ -119,7 +119,7 @@ class:
 
       **3-4:** Lay on hands. Once per day, the blackguard can use this supernatural ability to cure himself or his fiendish servant of damage equal to his Charisma bonus ? his level.
 
-      **5-6:** Sneak attack damage increased by +1d6. Smite good 2/day.
+      **5-6:** Sneak attack damage increased by +{% die_roll 1 6 0 %}. Smite good 2/day.
 
       **7-8:** Fiendish summoning. Once per day, the blackguard can use a summon monster I spell to call forth an evil creature. For this spell, the caster level is double the blackguard's class level.
 
@@ -166,5 +166,5 @@ class:
 
       This bonus lasts as long as the threat is immediate and apparent.
 
-      **Spell Resistance (Ex):** If the blackguard's character level is 19th or higher, the servant gains spell resistance equal to the blackguard's level + 5. To affect the servant with a spell, another spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the servant's spell resistance.
+      **Spell Resistance (Ex):** If the blackguard's character level is 19th or higher, the servant gains spell resistance equal to the blackguard's level + 5. To affect the servant with a spell, another spellcaster must get a result on a caster level check ({% die_roll 1 20 0 %} + caster level) that equals or exceeds the servant's spell resistance.
 ---

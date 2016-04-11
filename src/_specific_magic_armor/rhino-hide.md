@@ -19,5 +19,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This _+2 hide_ armor is made from rhinoceros hide. In addition to granting a +2 enhancement bonus to AC, it has a -1 armor check penalty and deals an additional 2d6 points of damage on any successful charge attack made by the wearer, including a mounted charge.
+    This _+2 hide_ armor is made from rhinoceros hide. In addition to granting a +2 enhancement bonus to AC, it has a -1 armor check penalty and deals an additional {% die_roll 2 6 0 %} points of damage on any successful charge attack made by the wearer, including a mounted charge.
 ---

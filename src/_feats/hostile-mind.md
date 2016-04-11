@@ -8,7 +8,7 @@ feat:
   prerequisite: |
     Cha 15.
   benefit: |
-    Whenever you are subject to a power from the telepathy discipline (regardless of whether the power is harmful or beneficial to you), the manifester must make a Will saving throw against a DC of 10 + &#189; your character level + your Charisma bonus or take 2d6 points of damage.
+    Whenever you are subject to a power from the telepathy discipline (regardless of whether the power is harmful or beneficial to you), the manifester must make a Will saving throw against a DC of 10 + &#189; your character level + your Charisma bonus or take {% die_roll 2 6 0 %} points of damage.
 
     The benefit of this feat applies only to psionic powers and psi-like abilities. This is an exception to the psionics-magic transparency rule.
   special: |

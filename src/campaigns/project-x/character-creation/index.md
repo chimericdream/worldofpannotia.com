@@ -8,7 +8,7 @@ crumbTitles: [Campaigns, Project X]
 
 #### Ability Scores
 
-When generating ability scores, you can use the standard &quot;4d6 drop the lowest&quot; method **OR** you can use a 32-point buy method. If you choose to roll ability scores, please wait to roll them until the night of character creation.
+When generating ability scores, you can use the standard &quot;{% die_roll 4 6 0 %} drop the lowest&quot; method **OR** you can use a 32-point buy method. If you choose to roll ability scores, please wait to roll them until the night of character creation.
 
 Note that the bonuses to [ability scores over time]({{ site.url }}/game-rules/basics/#abilities-over-time) are different than standard 3.5 edition.
 

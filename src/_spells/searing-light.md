@@ -25,5 +25,5 @@ spell:
   savingThrow:        "None"
   spellResistance:    "Yes"
   description:        |
-    Focusing divine power like a ray of the sun, you project a blast of light from your open palm. You must succeed on a ranged touch attack to strike your target. A creature struck by this ray of light takes 1d8 points of damage per two caster levels (maximum 5d8). An undead creature takes 1d6 points of damage per caster level (maximum 10d6), and an undead creature particularly vulnerable to bright light takes 1d8 points of damage per caster level (maximum 10d8). A construct or inanimate object takes only 1d6 points of damage per two caster levels (maximum 5d6).
+    Focusing divine power like a ray of the sun, you project a blast of light from your open palm. You must succeed on a ranged touch attack to strike your target. A creature struck by this ray of light takes {% die_roll 1 8 0 %} points of damage per two caster levels (maximum {% die_roll 5 8 0 %}). An undead creature takes {% die_roll 1 6 0 %} points of damage per caster level (maximum {% die_roll 10 6 0 %}), and an undead creature particularly vulnerable to bright light takes {% die_roll 1 8 0 %} points of damage per caster level (maximum {% die_roll 10 8 0 %}). A construct or inanimate object takes only {% die_roll 1 6 0 %} points of damage per two caster levels (maximum {% die_roll 5 6 0 %}).
 ---

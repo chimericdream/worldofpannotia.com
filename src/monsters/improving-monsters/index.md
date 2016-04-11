@@ -102,14 +102,14 @@ A size increase affects any special ability the creature has that is affected by
 |---
 | Old Damage (Each)<sup>1</sup> | New Damage
 |-|-
-| 1d2 | 1d3
-| 1d3 | 1d4
-| 1d4 | 1d6
-| 1d6 | 1d8
-| 1d8 | 2d6
-| 1d10 | 2d8
-| 2d6 | 3d6
-| 2d8 | 3d8
+| {% die_roll 1 2 0 %} | {% die_roll 1 3 0 %}
+| {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %}
+| {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %}
+| {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %}
+| {% die_roll 1 8 0 %} | {% die_roll 2 6 0 %}
+| {% die_roll 1 10 0 %} | {% die_roll 2 8 0 %}
+| {% die_roll 2 6 0 %} | {% die_roll 3 6 0 %}
+| {% die_roll 2 8 0 %} | {% die_roll 3 8 0 %}
 |===
 | <sup>1</sup> Repeat the adjustment if the creature moves up more than one size category. |<
 {: #increased-damage-by-size-table .table .table-bordered .table-hover .table-striped data-caption="Table: Increased Damage By Size" }

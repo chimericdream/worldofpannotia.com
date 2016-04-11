@@ -33,13 +33,13 @@ race:
     - baseEcl: 8
       levelAdjust: 6
       traits: |
-         * Racial Hit Dice: A gargoyle begins with two levels of monstrous humanoid, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.
+         * Racial Hit Dice: A gargoyle begins with two levels of monstrous humanoid, which provide {% die_roll 2 8 0 %} Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.
          * Racial Skills: A gargoyle's monstrous humanoid levels give it skill points equal to 5 * (2 + Int modifier). Its class skills are {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A gargoyle's monstrous humanoid levels give it one feat.
     - baseEcl: 9
       levelAdjust: 5
       traits: |
-         * Racial Hit Dice: A gargoyle begins with four levels of monstrous humanoid, which provide 4d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.
+         * Racial Hit Dice: A gargoyle begins with four levels of monstrous humanoid, which provide {% die_roll 4 8 0 %} Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.
          * Racial Skills: A gargoyle's monstrous humanoid levels give it skill points equal to 7 * (2 + Int modifier). Its class skills are {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A gargoyle's monstrous humanoid levels give it two feats.
 ---

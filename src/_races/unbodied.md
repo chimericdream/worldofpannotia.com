@@ -22,7 +22,7 @@ race:
      * Darkvision out to 60 feet.
      * Racial Skills: Unbodied have a +4 racial bonus on {% skill_link bluff %} checks and {% skill_link disguise %} checks. When using its assume likeness ability, an unbodied gets an additional +10 circumstance bonus on {% skill_link disguise %} checks. If it can read an opponent's mind, it gets a further +4 circumstance bonus on {% skill_link bluff %} and {% skill_link disguise %} checks.
      * Deflection bonus to Armor Class equal to character's Charisma modifier (minimum +1).
-     * Natural Attack: An unbodied can make a melee touch attack to deal 1d6 points of damage.
+     * Natural Attack: An unbodied can make a melee touch attack to deal {% die_roll 1 6 0 %} points of damage.
      * Special Attacks (see above): Psionic powers, telekinetic force. An unbodied who takes levels in psion (telepath) adds its racial manifesting ability and psion levels together to determine its power point reserve, manifester level, and powers known.
      * Special Qualities (see above): Assume likeness, incorporeal traits.
      * Favored Class: Psion (telepath).
@@ -51,13 +51,13 @@ race:
     - baseEcl: 7
       levelAdjust: 5
       traits: |
-         * Racial Hit Dice: An unbodied begins with two levels of monstrous humanoid, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +4, and Will +4.
+         * Racial Hit Dice: An unbodied begins with two levels of monstrous humanoid, which provide {% die_roll 2 8 0 %} Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +4, and Will +4.
          * Racial Skills: An unbodied's monstrous humanoid levels give it skill points equal to 5 * (2 + Int modifier). Its class skills are {% skill_link bluff %}, {% skill_link diplomacy %}, {% skill_link disguise %}, {% skill_link intimidate %}, {% skill_link listen %}, {% skill_link sense-motive %}, and {% skill_link spot %}.
          * Racial Feats: An unbodied's monstrous humanoid levels give it one feat.
     - baseEcl: 8
       levelAdjust: 4
       traits: |
-         * Racial Hit Dice: An unbodied begins with four levels of monstrous humanoid, which provide 4d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.
+         * Racial Hit Dice: An unbodied begins with four levels of monstrous humanoid, which provide {% die_roll 4 8 0 %} Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.
          * Racial Skills: An unbodied's monstrous humanoid levels give it skill points equal to 5 * (2 + Int modifier). Its class skills are {% skill_link bluff %}, {% skill_link diplomacy %}, {% skill_link disguise %}, {% skill_link intimidate %}, {% skill_link listen %}, {% skill_link sense-motive %}, and {% skill_link spot %}.
          * Racial Feats: An unbodied's monstrous humanoid levels give it two feats.
 ---

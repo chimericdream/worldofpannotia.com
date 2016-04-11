@@ -31,15 +31,15 @@ class:
       |---
       | Level | Base Attack | Fort | Ref | Will | Special
       |-|-|-|-|-|-
-      | 1 | +0 | +0 | +2 | +0 | Sneak attack +1d6, death attack, poison use, spells
+      | 1 | +0 | +0 | +2 | +0 | Sneak attack +{% die_roll 1 6 0 %}, death attack, poison use, spells
       | 2 | +1 | +0 | +3 | +0 | +1 save against poison, uncanny dodge
-      | 3 | +2 | +1 | +3 | +1 | Sneak attack +2d6
+      | 3 | +2 | +1 | +3 | +1 | Sneak attack +{% die_roll 2 6 0 %}
       | 4 | +3 | +1 | +4 | +1 | +2 save against poison
-      | 5 | +3 | +1 | +4 | +1 | Improved uncanny dodge, sneak attack +3d6
+      | 5 | +3 | +1 | +4 | +1 | Improved uncanny dodge, sneak attack +{% die_roll 3 6 0 %}
       | 6 | +4 | +2 | +5 | +2 | +3 save against poison
-      | 7 | +5 | +2 | +5 | +2 | Sneak attack +4d6
+      | 7 | +5 | +2 | +5 | +2 | Sneak attack +{% die_roll 4 6 0 %}
       | 8 | +6 | +2 | +6 | +2 | +4 save against poison, hide in plain sight
-      | 9 | +6 | +3 | +6 | +3 | Sneak attack +5d6
+      | 9 | +6 | +3 | +6 | +3 | Sneak attack +{% die_roll 5 6 0 %}
       | 10 | +7 | +3 | +7 | +3 | +5 save against poison
       {: #assassin-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Assassin" }
 
@@ -68,11 +68,11 @@ class:
       - name: "Sneak Attack"
         type: ""
         desc: |
-          This is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 every other level (1st, 3rd, 5th, 7th, and 9th). If an assassin gets a sneak attack bonus from another source the bonuses on damage stack.
+          This is exactly like the rogue ability of the same name. The extra damage dealt increases by +{% die_roll 1 6 0 %} every other level (1st, 3rd, 5th, 7th, and 9th). If an assassin gets a sneak attack bonus from another source the bonuses on damage stack.
       - name: "Death Attack"
         type: ""
         desc: |
-          If an assassin studies his victim for 3 rounds and then makes a sneak attack with a melee weapon that successfully deals damage, the sneak attack has the additional effect of possibly either paralyzing or killing the target (assassin's choice). While studying the victim, the assassin can undertake other actions so long as his attention stays focused on the target and the target does not detect the assassin or recognize the assassin as an enemy. If the victim of such an attack fails a Fortitude save (DC 10 + the assassin's class level + the assassin's Int modifier) against the kill effect, she dies. If the saving throw fails against the paralysis effect, the victim is rendered helpless and unable to act for 1d6 rounds plus 1 round per level of the assassin. If the victim's saving throw succeeds, the attack is just a normal sneak attack. Once the assassin has completed the 3 rounds of study, he must make the death attack within the next 3 rounds.
+          If an assassin studies his victim for 3 rounds and then makes a sneak attack with a melee weapon that successfully deals damage, the sneak attack has the additional effect of possibly either paralyzing or killing the target (assassin's choice). While studying the victim, the assassin can undertake other actions so long as his attention stays focused on the target and the target does not detect the assassin or recognize the assassin as an enemy. If the victim of such an attack fails a Fortitude save (DC 10 + the assassin's class level + the assassin's Int modifier) against the kill effect, she dies. If the saving throw fails against the paralysis effect, the victim is rendered helpless and unable to act for {% die_roll 1 6 0 %} rounds plus 1 round per level of the assassin. If the victim's saving throw succeeds, the attack is just a normal sneak attack. Once the assassin has completed the 3 rounds of study, he must make the death attack within the next 3 rounds.
 
           If a death attack is attempted and fails (the victim makes her save) or if the assassin does not launch the attack within 3 rounds of completing the study, 3 new rounds of study are required before he can attempt another death attack.
       - name: "Poison Use"

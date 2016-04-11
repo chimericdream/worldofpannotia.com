@@ -60,21 +60,21 @@ class:
 
           A martial artist's unarmed strike is treated both as a manufactured weapon and a natural weapon for the purpose of spells and effects that enhance or improve either manufactured weapons or natural weapons.
 
-          A martial artist deals damage with his unarmed strike based on his size category. A medium sized martial artist has a base damage of 1d6 plus any Strength bonus he may have. Some disciplines may increase this base damage, but it does not increase in level as a monk's damage does. See the monk class for the damage dealt by small or large martial artists. The base damage is equal to a 1st level monk.
+          A martial artist deals damage with his unarmed strike based on his size category. A medium sized martial artist has a base damage of {% die_roll 1 6 0 %} plus any Strength bonus he may have. Some disciplines may increase this base damage, but it does not increase in level as a monk's damage does. See the monk class for the damage dealt by small or large martial artists. The base damage is equal to a 1st level monk.
 
           _Special:_ Some disciplines will increase the amount of damage a martial artist deals with his unarmed strike. Each time this is increased, use the table below for the martial artist's damage.
 
           |---
           | Increase | New Damage
           |-|-
-          | 1st | 1d8
-          | 2nd | 1d10
-          | 3rd | 2d6
-          | 4th | 2d8
-          | 5th | 2d10
-          | 6th | 3d6
-          | 7th | 3d8
-          | 8th | 3d10
+          | 1st | {% die_roll 1 8 0 %}
+          | 2nd | {% die_roll 1 10 0 %}
+          | 3rd | {% die_roll 2 6 0 %}
+          | 4th | {% die_roll 2 8 0 %}
+          | 5th | {% die_roll 2 10 0 %}
+          | 6th | {% die_roll 3 6 0 %}
+          | 7th | {% die_roll 3 8 0 %}
+          | 8th | {% die_roll 3 10 0 %}
           | etc&hellip; |<
           {: #improved-unarmed-damage-table .table .table-bordered .table-hover .table-striped data-caption="Table: Improved Unarmed Damage" }
       - name: "Discipline"

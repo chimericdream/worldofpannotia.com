@@ -28,13 +28,13 @@ race:
     - baseEcl: 5
       levelAdjust: 3
       traits: |
-         * Racial Hit Dice: A centaur begins with two levels of monstrous humanoid, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.
+         * Racial Hit Dice: A centaur begins with two levels of monstrous humanoid, which provide {% die_roll 2 8 0 %} Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.
          * Racial Skills: A centaur's monstrous humanoid levels give it skill points equal to 5 * (2 + Int modifier). Its class skills are {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link spot %}, and {% skill_link survival %}.
          * Racial Feats: A centaur's monstrous humanoid levels give it one feat.
     - baseEcl: 6
       levelAdjust: 2
       traits: |
-         * Racial Hit Dice: A centaur begins with four levels of monstrous humanoid, which provide 4d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.
+         * Racial Hit Dice: A centaur begins with four levels of monstrous humanoid, which provide {% die_roll 4 8 0 %} Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +1, Ref +4, and Will +4.
          * Racial Skills: A centaur's monstrous humanoid levels give it skill points equal to 7 * (2 + Int modifier). Its class skills are {% skill_link listen %}, {% skill_link move-silently %}, {% skill_link spot %}, and {% skill_link survival %}.
          * Racial Feats: A centaur's monstrous humanoid levels give it two feats.
 ---

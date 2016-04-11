@@ -30,9 +30,9 @@ spell:
     | Round | Metal Temperature | Damage
     |-|-|-
     | 1 | Warm | None
-    | 2 | Hot | 1d4 points
-    | 3-5 | Searing | 2d4 points
-    | 6 | Hot | 1d4 points
+    | 2 | Hot | {% die_roll 1 4 0 %} points
+    | 3-5 | Searing | {% die_roll 2 4 0 %} points
+    | 6 | Hot | {% die_roll 1 4 0 %} points
     | 7 | Warm | None
     {: .table .table-bordered .table-hover }
 

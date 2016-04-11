@@ -31,11 +31,11 @@ class:
       |-|-|-|-|-|-|-
       | 1 | +0 | +2 | +0 | +2 | Natural armor increase (+1) | +1 level of existing class
       | 2 | +1 | +3 | +0 | +3 | Ability boost (Str +2), claws and bite | +1 level of existing class
-      | 3 | +2 | +3 | +1 | +3 | Breath weapon (2d8) | &nbsp;
+      | 3 | +2 | +3 | +1 | +3 | Breath weapon ({% die_roll 2 8 0 %}) | &nbsp;
       | 4 | +3 | +4 | +1 | +4 | Ability boost (Str +2), natural armor increase (+2) | +1 level of existing class
       | 5 | +3 | +4 | +1 | +4 | Blindsense 30 ft. | +1 level of existing class
       | 6 | +4 | +5 | +2 | +5 | Ability boost (Con +2) | +1 level of existing class
-      | 7 | +5 | +5 | +2 | +5 | Breath weapon (4d8), natural armor increase (+3) | &nbsp;
+      | 7 | +5 | +5 | +2 | +5 | Breath weapon ({% die_roll 4 8 0 %}), natural armor increase (+3) | &nbsp;
       | 8 | +6/+1 | +6 | +2 | +6 | Ability boost (Int +2) | +1 level of existing class
       | 9 | +6/+1 | +6 | +3 | +6 | Wings | +1 level of existing class
       | 10 | +7/+2 | +7 | +3 | +7 | Blindsense 60 ft., dragon apotheosis | &nbsp;
@@ -63,12 +63,12 @@ class:
           |---
           | Size | Bite Damage | Claw Damage
           |-|-|-
-          | Small | 1d4 | 1d3
-          | Medium | 1d6 | 1d4
-          | Large | 1d8 | 1d6
-          | Huge | 2d6 | 1d8
-          | Gargantuan | 3d6 | 2d6
-          | Colossal | 4d6 | 3d6
+          | Small | {% die_roll 1 4 0 %} | {% die_roll 1 3 0 %}
+          | Medium | {% die_roll 1 6 0 %} | {% die_roll 1 4 0 %}
+          | Large | {% die_roll 1 8 0 %} | {% die_roll 1 6 0 %}
+          | Huge | {% die_roll 2 6 0 %} | {% die_roll 1 8 0 %}
+          | Gargantuan | {% die_roll 3 6 0 %} | {% die_roll 2 6 0 %}
+          | Colossal | {% die_roll 4 6 0 %} | {% die_roll 3 6 0 %}
           {: #dragon-disciple-size-table .table .table-bordered .table-hover .table-striped data-caption="Table: Bite &amp; Claw Damage" }
       - name: "Ability Boost"
         type: "Ex"
@@ -79,9 +79,9 @@ class:
       - name: "Breath Weapon"
         type: "Su"
         desc: |
-          At 3rd level, a dragon disciple gains a minor breath weapon. The type and shape depend on the dragon variety whose heritage he enjoys (see below). Regardless of the ancestor, the breath weapon deals 2d8 points of damage of the appropriate energy type.
+          At 3rd level, a dragon disciple gains a minor breath weapon. The type and shape depend on the dragon variety whose heritage he enjoys (see below). Regardless of the ancestor, the breath weapon deals {% die_roll 2 8 0 %} points of damage of the appropriate energy type.
 
-          At 7th level, the damage increases to 4d8, and when a disciple attains dragon apotheosis at 10th level it reaches its full power at 6d8. Regardless of its strength, the breath weapon can be used only once per day. Use all the rules for dragon breath weapons except as specified here.
+          At 7th level, the damage increases to {% die_roll 4 8 0 %}, and when a disciple attains dragon apotheosis at 10th level it reaches its full power at {% die_roll 6 8 0 %}. Regardless of its strength, the breath weapon can be used only once per day. Use all the rules for dragon breath weapons except as specified here.
 
           The DC of the breath weapon is 10 + class level + Con modifier.
 

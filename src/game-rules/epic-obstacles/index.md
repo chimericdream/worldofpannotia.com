@@ -58,11 +58,11 @@ In addition to the standard types of wall, walls in dungeons can be made of mith
 |---
 | Obstacle / Hazard | Effect
 |-|-
-| Acid tank | 1d6 damage per round, or 10d6 per round for total immersion; plus poison fumes.
+| Acid tank | {% die_roll 1 6 0 %} damage per round, or {% die_roll 10 6 0 %} per round for total immersion; plus poison fumes.
 | {% spell_link antimagic-field %} | Negates all spells or magical effects.
 | {% spell_link dimensional-anchor %} trap | Blocks bodily extradimensional travel.
 | Hurricane-force winds | Ranged attacks impossible, flight virtually impossible.
-| Lava pit | 2d6 damage per round, or 20d6 per round for total immersion; plus continuing damage.
+| Lava pit | {% die_roll 2 6 0 %} damage per round, or {% die_roll 20 6 0 %} per round for total immersion; plus continuing damage.
 | Permanent {% spell_link prismatic-sphere %} | Requires seven different spells to bypass.
 | Permanent {% spell_link solid-fog %} | Move at one-tenth normal speed, –2 penalty on attack and damage (good when coupled with incorporeal monsters).
 | Permanent {% spell_link wall-of-force %} | Blocks most spells and ethereal travel, can't be {% spell_link dispel-magic "dispelled" %}.
@@ -83,7 +83,7 @@ Flux slime seems to be an inert substance, devoid of sentience. It is not causti
 
 In reality, flux slime is a growth with a ravenous appetite for magical forces. It is a natural draining phenomenon: Magical energy drains through the origin point in one direction in exchange for the residue on the far side. The {% spell_link antimagic-field %} a flux slime generates is actually the byproduct of the consumption of magical energy.
 
-In addition to the {% spell_link antimagic-field "Antimagic Field's" %} effects, magic items that come into contact with flux slime permanently lose their magical abilities; creatures with spell-like or super-natural abilities that come into contact with it take 2d6 points of temporary Constitution damage per round while it devours flesh; creatures without such abilities are immune to this effect.
+In addition to the {% spell_link antimagic-field "Antimagic Field's" %} effects, magic items that come into contact with flux slime permanently lose their magical abilities; creatures with spell-like or super-natural abilities that come into contact with it take {% die_roll 2 6 0 %} points of temporary Constitution damage per round while it devours flesh; creatures without such abilities are immune to this effect.
 
 On the first round of contact, the slime can be scraped off a creature, but after that it must be frozen, burned, or cut away (dealing damage to the victim as well). Extreme cold, heat, or sunlight destroys a patch of flux slime.
 

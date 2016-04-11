@@ -23,7 +23,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 1
   description: |
-    This power charges your touch with the force of a sledgehammer. A successful melee touch attack deals 1d8 points of bludgeoning damage. This damage is not increased or decreased by your Strength modifier.
+    This power charges your touch with the force of a sledgehammer. A successful melee touch attack deals {% die_roll 1 8 0 %} points of bludgeoning damage. This damage is not increased or decreased by your Strength modifier.
   augment: |
     For every additional power point you spend, this power's duration increases by 1 round.
 ---

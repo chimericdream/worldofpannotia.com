@@ -20,7 +20,7 @@ power:
   powerResistance: "No"
   powerPoints: 5
   description: |
-    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create an immobile sheet of energy of the chosen type formed out of unstable ectoplasm. One side of the wall, selected by you, sends forth waves of energy, dealing 2d6 points of damage to creatures and objects within 10 feet and 1d6 points of damage to those beyond 10 feet but within 20 feet. In addition, anyone passing though the energy wall takes 2d6 points of damage +1 point per manifester level (maximum +20).
+    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create an immobile sheet of energy of the chosen type formed out of unstable ectoplasm. One side of the wall, selected by you, sends forth waves of energy, dealing {% die_roll 2 6 0 %} points of damage to creatures and objects within 10 feet and {% die_roll 1 6 0 %} points of damage to those beyond 10 feet but within 20 feet. In addition, anyone passing though the energy wall takes {% die_roll 2 6 0 %} points of damage +1 point per manifester level (maximum +20).
 
     If you manifest the wall so that it appears where creatures are, each creature takes damage as if passing through the wall.
 

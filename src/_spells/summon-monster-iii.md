@@ -18,7 +18,7 @@ spell:
       level: 3
   effect:             "One or more summoned creatures, no two of which can be more than 30 ft. apart"
   description:        |
-    This spell functions like summon monster I, except that you can summon one creature from the 3rd-level list, 1d3 creatures of the same kind from the 2nd-level list, or 1d4+1 creatures of the same kind from the 1st-level list.
+    This spell functions like summon monster I, except that you can summon one creature from the 3rd-level list, {% die_roll 1 3 0 %} creatures of the same kind from the 2nd-level list, or {% die_roll 1 4 1 %} creatures of the same kind from the 1st-level list.
 
     |---
     | Monster | Alignment

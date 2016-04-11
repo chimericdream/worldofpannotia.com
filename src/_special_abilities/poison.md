@@ -32,9 +32,9 @@ ability:
 
     _Type:_ The poison's method of delivery (contact, ingested, inhaled, or via an injury) and the Fortitude save DC to avoid the poison's damage.
 
-    _Initial Damage:_ The damage the character takes immediately upon failing his saving throw against this poison. Ability damage is temporary unless marked with an asterisk (*), in which case the loss is a permanent drain. Paralysis lasts for 2d6 minutes.
+    _Initial Damage:_ The damage the character takes immediately upon failing his saving throw against this poison. Ability damage is temporary unless marked with an asterisk (*), in which case the loss is a permanent drain. Paralysis lasts for {% die_roll 2 6 0 %} minutes.
 
-    _Secondary Damage:_ The amount of damage the character takes 1 minute after exposure as a result of the poisoning, if he fails a second saving throw. Unconsciousness lasts for 1d3 hours. Ability damage marked with an asterisk is permanent drain instead of temporary damage.
+    _Secondary Damage:_ The amount of damage the character takes 1 minute after exposure as a result of the poisoning, if he fails a second saving throw. Unconsciousness lasts for {% die_roll 1 3 0 %} hours. Ability damage marked with an asterisk is permanent drain instead of temporary damage.
 
     _Price:_ The cost of one dose (one vial) of the poison. It is not possible to use or apply poison in any quantity smaller than one dose. The purchase and possession of poison is always illegal, and even in big cities it can be obtained only from specialized, less than reputable sources.
 
@@ -45,34 +45,34 @@ ability:
     |---
     | Poison | Type | Initial Damage | Secondary Damage | Price
     |-|-|-|-|-
-    | Nitharit | Contact DC 13 | 0 | 3d6 Con | 650 gp
-    | Sassone leaf residue | Contact DC 16 | 2d12 hp | 1d6 Con | 300 gp
-    | Malyss root paste | Contact DC 16 | 1 Dex | 2d4 Dex | 500 gp
-    | Terinav root | Contact DC 16 | 1d6 Dex | 2d6 Dex | 750 gp
-    | Black lotus extract | Contact DC 20 | 3d6 Con | 3d6 Con | 4,500 gp
-    | Dragon bile | Contact DC 26 | 3d6 Str | 0 | 1,500 gp
-    | Striped toadstool | Ingested DC 11 | 1 Wis | 2d6 Wis + 1d4 Int | 180 gp
-    | Arsenic | Ingested DC 13 | 1 Con | 1d8 Con | 120 gp
-    | Id moss | Ingested DC 14 | 1d4 Int | 2d6 Int | 125 gp
+    | Nitharit | Contact DC 13 | 0 | {% die_roll 3 6 0 %} Con | 650 gp
+    | Sassone leaf residue | Contact DC 16 | {% die_roll 2 12 0 %} hp | {% die_roll 1 6 0 %} Con | 300 gp
+    | Malyss root paste | Contact DC 16 | 1 Dex | {% die_roll 2 4 0 %} Dex | 500 gp
+    | Terinav root | Contact DC 16 | {% die_roll 1 6 0 %} Dex | {% die_roll 2 6 0 %} Dex | 750 gp
+    | Black lotus extract | Contact DC 20 | {% die_roll 3 6 0 %} Con | {% die_roll 3 6 0 %} Con | 4,500 gp
+    | Dragon bile | Contact DC 26 | {% die_roll 3 6 0 %} Str | 0 | 1,500 gp
+    | Striped toadstool | Ingested DC 11 | 1 Wis | {% die_roll 2 6 0 %} Wis + {% die_roll 1 4 0 %} Int | 180 gp
+    | Arsenic | Ingested DC 13 | 1 Con | {% die_roll 1 8 0 %} Con | 120 gp
+    | Id moss | Ingested DC 14 | {% die_roll 1 4 0 %} Int | {% die_roll 2 6 0 %} Int | 125 gp
     | Oil of taggit | Ingested DC 15 | 0 | Unconsciousness | 90 gp
-    | Lich dust | Ingested DC 17 | 2d6 Str | 1d6 Str | 250 gp
-    | Dark reaver powder | Ingested DC 18 | 2d6 Con | 1d6 Con + 1d6 Str | 300 gp
-    | Ungol dust | Inhaled DC 15 | 1 Cha | 1d6 Cha + 1 Cha<sup>1</sup> | 1,000 gp
-    | Insanity mist | Inhaled DC 15 | 1d4 Wis | 2d6 Wis | 1,500 gp
-    | Burnt othur fumes | Inhaled DC 18 | 1 Con<sup>1</sup> | 3d6 Con | 2,100 gp
-    | Black adder venom | Injury DC 11 | 1d6 Con | 1d6 Con | 120 gp
-    | Small centipede poison | Injury DC 11 | 1d2 Dex | 1d2 Dex | 90 gp
-    | Bloodroot | Injury DC 12 | 0 | 1d4 Con + 1d3 Wis | 100 gp
-    | Drow poison | Injury DC 13 | Unconsciousness | Unconsciousness for 2d4 hours | 75gp
-    | Greenblood oil | Injury DC 13 | 1 Con | 1d2 Con | 100 gp
+    | Lich dust | Ingested DC 17 | {% die_roll 2 6 0 %} Str | {% die_roll 1 6 0 %} Str | 250 gp
+    | Dark reaver powder | Ingested DC 18 | {% die_roll 2 6 0 %} Con | {% die_roll 1 6 0 %} Con + {% die_roll 1 6 0 %} Str | 300 gp
+    | Ungol dust | Inhaled DC 15 | 1 Cha | {% die_roll 1 6 0 %} Cha + 1 Cha<sup>1</sup> | 1,000 gp
+    | Insanity mist | Inhaled DC 15 | {% die_roll 1 4 0 %} Wis | {% die_roll 2 6 0 %} Wis | 1,500 gp
+    | Burnt othur fumes | Inhaled DC 18 | 1 Con<sup>1</sup> | {% die_roll 3 6 0 %} Con | 2,100 gp
+    | Black adder venom | Injury DC 11 | {% die_roll 1 6 0 %} Con | {% die_roll 1 6 0 %} Con | 120 gp
+    | Small centipede poison | Injury DC 11 | {% die_roll 1 2 0 %} Dex | {% die_roll 1 2 0 %} Dex | 90 gp
+    | Bloodroot | Injury DC 12 | 0 | {% die_roll 1 4 0 %} Con + {% die_roll 1 3 0 %} Wis | 100 gp
+    | Drow poison | Injury DC 13 | Unconsciousness | Unconsciousness for {% die_roll 2 4 0 %} hours | 75gp
+    | Greenblood oil | Injury DC 13 | 1 Con | {% die_roll 1 2 0 %} Con | 100 gp
     | Blue whinnis | Injury DC 14 | 1 Con | Unconsciousness | 120 gp
-    | Medium spider venom | Injury DC 14 | 1d4 Str | 1d4 Str | 150 gp
-    | Shadow essence | Injury DC 17 | 1 Str* | 2d6 Str | 250 gp
-    | Wyvern poison | Injury DC 17 | 2d6 Con | 2d6 Con | 3,000 gp
-    | Large scorpion venom | Injury DC 18 | 1d6 Str | 1d6 Str | 200 gp
-    | Giant wasp poison | Injury DC 18 | 1d6 Dex | 1d6 Dex | 210 gp
-    | Deathblade | Injury DC 20 | 1d6 Con | 2d6 Con | 1,800 gp
-    | Purple worm poison | Injury DC 24 | 1d6 Str | 2d6 Str | 700 gp
+    | Medium spider venom | Injury DC 14 | {% die_roll 1 4 0 %} Str | {% die_roll 1 4 0 %} Str | 150 gp
+    | Shadow essence | Injury DC 17 | 1 Str* | {% die_roll 2 6 0 %} Str | 250 gp
+    | Wyvern poison | Injury DC 17 | {% die_roll 2 6 0 %} Con | {% die_roll 2 6 0 %} Con | 3,000 gp
+    | Large scorpion venom | Injury DC 18 | {% die_roll 1 6 0 %} Str | {% die_roll 1 6 0 %} Str | 200 gp
+    | Giant wasp poison | Injury DC 18 | {% die_roll 1 6 0 %} Dex | {% die_roll 1 6 0 %} Dex | 210 gp
+    | Deathblade | Injury DC 20 | {% die_roll 1 6 0 %} Con | {% die_roll 2 6 0 %} Con | 1,800 gp
+    | Purple worm poison | Injury DC 24 | {% die_roll 1 6 0 %} Str | {% die_roll 2 6 0 %} Str | 700 gp
     |===
     | <sup>1</sup> Permanent drain, not temporary damage. |<|<|<|<
     {: #poison-table .table .table-bordered .table-hover .table-striped data-caption="Table: Poisons" }

@@ -30,7 +30,7 @@ LE Huge <a href="{{ site.url }}/monsters/additional-info/#aberration">Aberration
 
 **Speed** 10 ft., swim 60 ft.
 
-**Melee** tentacles +20/+20/+20/+20 (1d6+11 plus slime)
+**Melee** tentacles +20/+20/+20/+20 ({% die_roll 1 6 11 %} plus slime)
 
 **Space** 15 ft; **Reach** 10 ft
 
@@ -60,11 +60,11 @@ LE Huge <a href="{{ site.url }}/monsters/additional-info/#aberration">Aberration
 
 **Psionics (Sp) (CL 16):** At will &ndash; {% spell_link hypnotic-pattern %} (DC 16), {% spell_link illusory-wall %} (DC 18), {% spell_link mirage-arcana %} (DC 19), {% spell_link persistent-image %} (DC 19), {% spell_link programmed-image %} (DC 20), {% spell_link project-image %} (DC 21), {% spell_link veil %} (DC 20). The save DCs are Charisma-based.
 
-**Slime (Ex):** A blow from an aboleth's tentacle can cause a terrible affliction. A creature hit by a tentacle must succeed on a DC 22 Fortitude save or begin to transform over the next 1d4+1 minutes, the skin gradually becoming a clear, slimy membrane. An afflicted creature must remain moistened with cool, fresh water or take 1d12 points of damage every 10 minutes. The slime reduces the creature's natural armor bonus by 1 (but never to less than 0). The save DC is Constitution-based.
+**Slime (Ex):** A blow from an aboleth's tentacle can cause a terrible affliction. A creature hit by a tentacle must succeed on a DC 22 Fortitude save or begin to transform over the next {% die_roll 1 4 1 %} minutes, the skin gradually becoming a clear, slimy membrane. An afflicted creature must remain moistened with cool, fresh water or take {% die_roll 1 12 0 %} points of damage every 10 minutes. The slime reduces the creature's natural armor bonus by 1 (but never to less than 0). The save DC is Constitution-based.
 
 A {% spell_link remove-disease %} spell cast before the transformation is complete will restore an afflicted creature to normal. Afterward, however, only a {% spell_link heal %} or {% spell_link heal-mass "mass heal" %} spell can reverse the affliction.
 
-**Mucus Cloud (Ex):** An aboleth underwater surrounds itself with a viscous cloud of mucus roughly 1 foot thick. Any creature coming into contact with and inhaling this substance must succeed on a DC 22 Fortitude save or lose the ability to breathe air for the next 3 hours. An affected creature suffocates in 2d6 minutes if removed from the water. Renewed contact with the mucus cloud and failing another Fortitude save continues the effect for another 3 hours. The save DC is Constitution-based.
+**Mucus Cloud (Ex):** An aboleth underwater surrounds itself with a viscous cloud of mucus roughly 1 foot thick. Any creature coming into contact with and inhaling this substance must succeed on a DC 22 Fortitude save or lose the ability to breathe air for the next 3 hours. An affected creature suffocates in {% die_roll 2 6 0 %} minutes if removed from the water. Renewed contact with the mucus cloud and failing another Fortitude save continues the effect for another 3 hours. The save DC is Constitution-based.
 
 **Skills:** An aboleth has a +8 racial bonus on any {% skill_link swim %} check to perform some special action or avoid a hazard. It can always choose to take 10 on a {% skill_link swim %} check, even if distracted or endangered. It can use the run action while swimming, provided it swims in a straight line.
 

@@ -33,13 +33,13 @@ spell:
     |---
     | Disease | DC | Damage
     |-|-|-
-    | Blinding sickness | 16 | 1d4 Str<sup>1</sup>
-    | Cackle fever | 16 | 1d6 Wis
-    | Filth fever | 12 | 1d3 Dex and 1d3 Con
-    | Mindfire | 12 | 1d4 Int
-    | Red ache | 15 | 1d6 Str
-    | Shakes | 13 | 1d8 Dex
-    | Slimy doom | 14 | 1d4 Con
+    | Blinding sickness | 16 | {% die_roll 1 4 0 %} Str<sup>1</sup>
+    | Cackle fever | 16 | {% die_roll 1 6 0 %} Wis
+    | Filth fever | 12 | {% die_roll 1 3 0 %} Dex and {% die_roll 1 3 0 %} Con
+    | Mindfire | 12 | {% die_roll 1 4 0 %} Int
+    | Red ache | 15 | {% die_roll 1 6 0 %} Str
+    | Shakes | 13 | {% die_roll 1 8 0 %} Dex
+    | Slimy doom | 14 | {% die_roll 1 4 0 %} Con
     |===
     | <sup>1</sup> Each time a victim takes 2 or more points of Strength damage from blinding sickness, he or she must make another Fortitude save (using the disease's save DC) or be permanently blinded. |<|<
     {: .table .table-bordered .table-hover }

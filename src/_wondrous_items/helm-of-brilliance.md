@@ -18,12 +18,12 @@ item:
 
      * Diamond: {% spell_link prismatic-spray %} (save DC 20)
      * Ruby: {% spell_link wall-of-fire %}
-     * Fire opal: {% spell_link fireball %} (10d6, Reflex DC 20 half )
+     * Fire opal: {% spell_link fireball %} ({% die_roll 10 6 0 %}, Reflex DC 20 half )
      * Opal: {% spell_link daylight %}
 
     The helm may be used once per round, but each gem can perform its spell-like power just once. Until all its jewels are depleted, a _helm of brilliance_ also has the following magical properties when activated.
 
-     * It emanates a bluish light when undead are within 30 feet. This light causes 1d6 points of damage per round to all such creatures within that range.
+     * It emanates a bluish light when undead are within 30 feet. This light causes {% die_roll 1 6 0 %} points of damage per round to all such creatures within that range.
      * The wearer may command any weapon he wields to become a flaming weapon. This is in addition to whatever abilities the weapon may already have (unless the weapon already is a flaming weapon). The command takes 1 round to take effect.
      * The helm provides resistance to fire 30. This protection does not stack with similar protection from other sources.
 

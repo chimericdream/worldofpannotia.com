@@ -35,11 +35,11 @@ spell:
 
     The effects are cumulative and concurrent. No saving throw is allowed against these effects.
 
-    Deafened: The creature is deafened for 1d4 rounds.
+    Deafened: The creature is deafened for {% die_roll 1 4 0 %} rounds.
 
-    Blinded: The creature is blinded for 2d4 rounds.
+    Blinded: The creature is blinded for {% die_roll 2 4 0 %} rounds.
 
-    Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+    Paralyzed: The creature is paralyzed and helpless for {% die_roll 1 10 0 %} minutes.
 
     Killed: Living creatures die. Undead creatures are destroyed.
 

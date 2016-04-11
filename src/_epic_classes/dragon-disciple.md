@@ -12,11 +12,11 @@ class:
       | 11 | Bonus Feat
       | 12 |
       | 13 | Natural Armor +5
-      | 14 | Breath Weapon (8d8), Bonus Feat
+      | 14 | Breath Weapon ({% die_roll 8 8 0 %}), Bonus Feat
       | 15 | Blindsense 90 ft., Draconic Trait
       | 16 | Natural Armor +6
       | 17 | Bonus Feat
-      | 18 | Breath Weapon (10d8)
+      | 18 | Breath Weapon ({% die_roll 10 8 0 %})
       | 19 | Natural Armor +7
       | 20 | Blindsense 120 ft., Bonus Feat
       {: #epic-dragon-disciple-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Epic Dragon Disciple" }
@@ -34,7 +34,7 @@ class:
       - name: "Breath Weapon"
         type: ""
         desc: |
-          An epic dragon disciple's breath weapon's damage increases by 2d8 at 14th level and every four levels thereafter.
+          An epic dragon disciple's breath weapon's damage increases by {% die_roll 2 8 0 %} at 14th level and every four levels thereafter.
       - name: "Blindsense"
         type: ""
         desc: |
@@ -55,12 +55,12 @@ class:
           |---
           | Size | Bite | Claw | Wing | Tail Slap | Crush | Tail Sweep | Line (Length) | Cone (Length)
           |-|-|-|-|-|-|-|-|-
-          | Small | 1d6 | 1d4 | n/a | n/a | n/a | n/a | 40 ft. | 20 ft.
-          | Medium | 1d8 | 1d6 | 1d4 | n/a | n/a | n/a | 60 ft. | 30 ft.
-          | Large | 2d6 | 1d8 | 1d6 | 1d8 | n/a | n/a | 80 ft. | 40 ft.
-          | Huge | 2d8 | 2d6 | 1d8 | 2d6 | 2d8 | n/a | 100 ft. | 50 ft.
-          | Gargantuan | 4d6 | 2d8 | 2d6 | 2d8 | 4d6 | 2d6 | 120 ft. | 60 ft.
-          | Colossal | 4d8 | 4d6 | 2d8 | 4d6 | 4d8 | 2d8 | 140 ft. | 70 ft.
+          | Small | {% die_roll 1 6 0 %} | {% die_roll 1 4 0 %} | n/a | n/a | n/a | n/a | 40 ft. | 20 ft.
+          | Medium | {% die_roll 1 8 0 %} | {% die_roll 1 6 0 %} | {% die_roll 1 4 0 %} | n/a | n/a | n/a | 60 ft. | 30 ft.
+          | Large | {% die_roll 2 6 0 %} | {% die_roll 1 8 0 %} | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | n/a | n/a | 80 ft. | 40 ft.
+          | Huge | {% die_roll 2 8 0 %} | {% die_roll 2 6 0 %} | {% die_roll 1 8 0 %} | {% die_roll 2 6 0 %} | {% die_roll 2 8 0 %} | n/a | 100 ft. | 50 ft.
+          | Gargantuan | {% die_roll 4 6 0 %} | {% die_roll 2 8 0 %} | {% die_roll 2 6 0 %} | {% die_roll 2 8 0 %} | {% die_roll 4 6 0 %} | {% die_roll 2 6 0 %} | 120 ft. | 60 ft.
+          | Colossal | {% die_roll 4 8 0 %} | {% die_roll 4 6 0 %} | {% die_roll 2 8 0 %} | {% die_roll 4 6 0 %} | {% die_roll 4 8 0 %} | {% die_roll 2 8 0 %} | 140 ft. | 70 ft.
           {: #natural-attacks-by-size-table .table .table-bordered .table-hover .table-striped data-caption="Table: Natural Attacks, Damage and Range" }
 
           |---

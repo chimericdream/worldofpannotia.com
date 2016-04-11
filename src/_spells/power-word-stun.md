@@ -27,8 +27,8 @@ spell:
     |---
     | Hit Points | Duration
     |-|-
-    | 50 or less | 4d4 rounds
-    | 51-100 | 2d4 rounds
-    | 101-150 | 1d4 rounds
+    | 50 or less | {% die_roll 4 4 0 %} rounds
+    | 51-100 | {% die_roll 2 4 0 %} rounds
+    | 101-150 | {% die_roll 1 4 0 %} rounds
     {: .table .table-bordered .table-hover }
 ---

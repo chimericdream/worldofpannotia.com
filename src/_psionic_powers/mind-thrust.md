@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 1
   description: |
-    You instantly deliver a massive assault on the thought pathways of any one creature, dealing 1d10 points of damage to it.
+    You instantly deliver a massive assault on the thought pathways of any one creature, dealing {% die_roll 1 10 0 %} points of damage to it.
   augment: |
-    For every additional power point you spend, this power's damage increases by 1d10 points. For each extra 2d10 points of damage, this power's save DC increases by 1.
+    For every additional power point you spend, this power's damage increases by {% die_roll 1 10 0 %} points. For each extra {% die_roll 2 10 0 %} points of damage, this power's save DC increases by 1.
 ---

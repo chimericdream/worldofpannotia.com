@@ -16,7 +16,7 @@ item:
 
     When applied to Large or larger magic fires, such as those caused by {% spell_link fireball %}, {% spell_link flame-strike %}, or {% spell_link wall-of-fire %}, extinguishing the flames expends 2 charges from the rod.
 
-    If the device is used upon a fire creature (a melee touch attack), it deals 6d6 points of damage to the creature. This use requires 3 charges.
+    If the device is used upon a fire creature (a melee touch attack), it deals {% die_roll 6 6 0 %} points of damage to the creature. This use requires 3 charges.
 
     A _rod of flame extinguishing_ has 10 charges when found. Spent charges are renewed every day, so that a wielder can expend up to 10 charges in any 24-hour period.
 ---

@@ -26,20 +26,20 @@ power:
 
     An animated fire can enter any square, even if a creature already occupies it. If an animated fire enters a square occupied by a creature, that creature can make a Reflex save to get out of the way (DC 11 + the number of dice of damage the fire does + your Int modifier if you are a psion or your Cha modifier if you are a wilder). A successful Reflex save moves the creature to the nearest unoccupied square. The flames deal the indicated damage to any creature that is either on fire or surrounded by the flames (in the fire's space); see the accompanying table).
 
-    At the start of your turn, the animated fire deals damage to any creature in its space, and the creature catches on fire unless it makes a Reflex save (DC as noted above). A victim on fire takes 1d6 points of damage each round. Additional rounds in the same space as the animated fire occupies mean additional chances of ignition. The damage from multiple normal fires stacks, but the victim gets a saving throw each round to negate each fire. It is possible to switch control from the animated fire (causing it to disappear) to intensify f lames that are already burning (thus denying the foe Ref lex saves after the first).
+    At the start of your turn, the animated fire deals damage to any creature in its space, and the creature catches on fire unless it makes a Reflex save (DC as noted above). A victim on fire takes {% die_roll 1 6 0 %} points of damage each round. Additional rounds in the same space as the animated fire occupies mean additional chances of ignition. The damage from multiple normal fires stacks, but the victim gets a saving throw each round to negate each fire. It is possible to switch control from the animated fire (causing it to disappear) to intensify f lames that are already burning (thus denying the foe Ref lex saves after the first).
 
     |---
     | Manifester Level | Fire Size | Example | Maximum Damage per Round | Space
     |-|-|-|-|-
     | 1st-2nd | Fine | Tindertwig | 1 | 1 foot square
-    | 3rd-4th | Diminutive | Torch | 1d3 | 1 foot square
-    | 5th-6th | Tiny | Small campfire | 1d6 | 1 foot square
-    | 7th-8th | Small | Large campfire | 2d6 | 1 foot square
-    | 9th-10th | Medium | Forge | 3d6 | 1 foot square
-    | 11th-12th | Large | Bonfire | 4d6 | 2-by-2-foot square
-    | 13th-14th | Huge | Burning shack | 5d6 | 3-by-3-foot square
-    | 15th-16th | Gargantuan | Burning tavern | 6d6 | 4-by-4-foot square
-    | 17th or higher | Colossal | Burning inn | 7d6 | 5-by-5-foot square
+    | 3rd-4th | Diminutive | Torch | {% die_roll 1 3 0 %} | 1 foot square
+    | 5th-6th | Tiny | Small campfire | {% die_roll 1 6 0 %} | 1 foot square
+    | 7th-8th | Small | Large campfire | {% die_roll 2 6 0 %} | 1 foot square
+    | 9th-10th | Medium | Forge | {% die_roll 3 6 0 %} | 1 foot square
+    | 11th-12th | Large | Bonfire | {% die_roll 4 6 0 %} | 2-by-2-foot square
+    | 13th-14th | Huge | Burning shack | {% die_roll 5 6 0 %} | 3-by-3-foot square
+    | 15th-16th | Gargantuan | Burning tavern | {% die_roll 6 6 0 %} | 4-by-4-foot square
+    | 17th or higher | Colossal | Burning inn | {% die_roll 7 6 0 %} | 5-by-5-foot square
     {: #control-flames-table .table .table-bordered .table-hover .table-striped data-caption="Table: Control Flames" }
   augment: |
     You can augment this power in one or both of the following ways.

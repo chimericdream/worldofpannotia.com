@@ -21,11 +21,11 @@ spell:
   description:        |
     A twisting pattern of discordant, coruscating colors weaves through the air, affecting creatures within it. The spell affects a total number of Hit Dice of creatures equal to your caster level (maximum 20). Creatures with the fewest HD are affected first; and, among creatures with equal HD, those who are closest to the spell's point of origin are affected first. Hit Dice that are not sufficient to affect a creature are wasted. The spell affects each subject according to its Hit Dice.
 
-    6 or less: Unconscious for 1d4 rounds, then stunned for 1d4 rounds, and then confused for 1d4 rounds. (Treat an unconscious result as stunned for nonliving creatures.)
+    6 or less: Unconscious for {% die_roll 1 4 0 %} rounds, then stunned for {% die_roll 1 4 0 %} rounds, and then confused for {% die_roll 1 4 0 %} rounds. (Treat an unconscious result as stunned for nonliving creatures.)
 
-    7 to 12: Stunned for 1d4 rounds, then confused for 1d4 rounds.
+    7 to 12: Stunned for {% die_roll 1 4 0 %} rounds, then confused for {% die_roll 1 4 0 %} rounds.
 
-    13 or more: Confused for 1d4 rounds.
+    13 or more: Confused for {% die_roll 1 4 0 %} rounds.
 
     Sightless creatures are not affected by scintillating pattern.
 ---

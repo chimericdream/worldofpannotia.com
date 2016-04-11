@@ -42,10 +42,10 @@ power:
     |---
     | Original Strength | Duration
     |-|-
-    | Faint | 1d6 minutes
-    | Moderate | 1d6 &times; 10 minutes
-    | Strong | 1d6 hours
-    | Overwhelming | 1d6 days
+    | Faint | {% die_roll 1 6 0 %} minutes
+    | Moderate | {% die_roll 1 6 0 %} &times; 10 minutes
+    | Strong | {% die_roll 1 6 0 %} hours
+    | Overwhelming | {% die_roll 1 6 0 %} days
     {: #lingering-aura-duration-table .table .table-bordered .table-hover .table-striped data-caption="Table: Lingering Aura Duration" }
 
     Psionically charged locations, multiple disciplines, or strong local psionic emanations may confuse or conceal weaker auras.

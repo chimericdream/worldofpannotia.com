@@ -18,5 +18,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This is a _+1 flaming burst longsword_. Once per day, the sword can blast forth a fiery ray at any target within 30 feet as a ranged touch attack. The ray deals 4d6 points of fire damage on a successful hit.
+    This is a _+1 flaming burst longsword_. Once per day, the sword can blast forth a fiery ray at any target within 30 feet as a ranged touch attack. The ray deals {% die_roll 4 6 0 %} points of fire damage on a successful hit.
 ---

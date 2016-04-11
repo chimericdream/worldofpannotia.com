@@ -29,7 +29,7 @@ power:
 
     You gain a +4 enhancement bonus to Strength, but you take a -2 penalty to Dexterity (to a minimum Dexterity score of 1), and your speed is reduced to half normal. You can speak but cannot drink (and thus can't use potions) or play wind instruments. You have an armor check penalty of -4 and an arcane spell failure chance of 25%.
 
-    Your unarmed attacks deal damage equal to a club sized for you (1d4 for Small characters, 1d6 for Medium characters), and you are considered armed when making unarmed attacks. When you make a full attack against an object or structure using your unarmed strike, you deal double damage.
+    Your unarmed attacks deal damage equal to a club sized for you ({% die_roll 1 4 0 %} for Small characters, {% die_roll 1 6 0 %} for Medium characters), and you are considered armed when making unarmed attacks. When you make a full attack against an object or structure using your unarmed strike, you deal double damage.
   augment: |
     For every additional power point you spend, this power's duration increases by 1 minute.
 ---

@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 9
   description: |
-    Your will abruptly and brutally crushes the mental essence of any one creature, debilitating its acumen. The target must make a Will save with a +4 bonus or collapse unconscious and dying at -1 hit points. If the target succeeds on the save, it takes 3d6 points of damage.
+    Your will abruptly and brutally crushes the mental essence of any one creature, debilitating its acumen. The target must make a Will save with a +4 bonus or collapse unconscious and dying at -1 hit points. If the target succeeds on the save, it takes {% die_roll 3 6 0 %} points of damage.
   augment: |
-    For every 2 additional power points you spend, this power's damage increases by 1d6 points.
+    For every 2 additional power points you spend, this power's damage increases by {% die_roll 1 6 0 %} points.
 ---

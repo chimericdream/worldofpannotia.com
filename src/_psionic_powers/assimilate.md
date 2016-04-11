@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 17
   description: |
-    Your pointing finger turns black as obsidian. A creature touched by you is partially assimilated into your form and takes 20d6 points of damage. Any creature reduced to 0 or fewer hit points by this power is killed, entirely assimilated into your form, leaving behind only a trace of fine dust. An assimilated creature's equipment is unaffected.
+    Your pointing finger turns black as obsidian. A creature touched by you is partially assimilated into your form and takes {% die_roll 20 6 0 %} points of damage. Any creature reduced to 0 or fewer hit points by this power is killed, entirely assimilated into your form, leaving behind only a trace of fine dust. An assimilated creature's equipment is unaffected.
 
     A creature that is partially assimilated into your form (that is, a creature that has at least 1 hit point following your use of this power) grants you a number of temporary hit points equal to half the damage you dealt for 1 hour.
 

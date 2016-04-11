@@ -28,7 +28,7 @@ spell:
   savingThrow:        "Will half (harmless) or Will half; see text"
   spellResistance:    "Yes (harmless) or Yes; see text"
   description:        |
-    You channel positive energy to cure 1d8 points of damage +1 point per caster level (maximum +25) in each selected creature.
+    You channel positive energy to cure {% die_roll 1 8 0 %} points of damage +1 point per caster level (maximum +25) in each selected creature.
 
     Like other cure spells, mass cure light wounds deals damage to undead in its area rather than curing them. Each affected undead may attempt a Will save for half damage.
 ---

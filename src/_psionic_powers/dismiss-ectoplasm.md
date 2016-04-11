@@ -26,5 +26,5 @@ power:
 
     A creature under the effect of the ectoplasmic form power that fails its saving throw is either destroyed out right or physically shifted to a random location on the Astral Plane (50% chance for either result).
 
-    Other ongoing powers that create ectoplasmic objects or effects, such as ectoplasmic cocoon, are dismissed if you succeed on a manifester level check (1d20 + your manifester level, maximum +10) against a DC of 11 + the power's manifester level.
+    Other ongoing powers that create ectoplasmic objects or effects, such as ectoplasmic cocoon, are dismissed if you succeed on a manifester level check ({% die_roll 1 20 0 %} + your manifester level, maximum +10) against a DC of 11 + the power's manifester level.
 ---

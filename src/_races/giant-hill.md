@@ -38,25 +38,25 @@ race:
     - baseEcl: 10
       levelAdjust: 7
       traits: |
-         * Racial Hit Dice: A hill giant begins with three levels of giant, which provide 3d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +3, Ref +1, and Will +1.
+         * Racial Hit Dice: A hill giant begins with three levels of giant, which provide {% die_roll 3 8 0 %} Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +3, Ref +1, and Will +1.
          * Racial Skills: A hill giant's giant levels give it skill points equal to 6 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link jump %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A hill giant's giant levels give it two feats.
     - baseEcl: 12
       levelAdjust: 6
       traits: |
-         * Racial Hit Dice: A hill giant begins with six levels of giant, which provide 6d8 Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +5, Ref +2, and Will +2.
+         * Racial Hit Dice: A hill giant begins with six levels of giant, which provide {% die_roll 6 8 0 %} Hit Dice, a base attack bonus of +4, and base saving throw bonuses of Fort +5, Ref +2, and Will +2.
          * Racial Skills: A hill giant's giant levels give it skill points equal to 9 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link jump %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A hill giant's giant levels give it three feats.
     - baseEcl: 14
       levelAdjust: 5
       traits: |
-         * Racial Hit Dice: A hill giant begins with nine levels of giant, which provide 9d8 Hit Dice, a base attack bonus of +6, and base saving throw bonuses of Fort +6, Ref +3, and Will +3.
+         * Racial Hit Dice: A hill giant begins with nine levels of giant, which provide {% die_roll 9 8 0 %} Hit Dice, a base attack bonus of +6, and base saving throw bonuses of Fort +6, Ref +3, and Will +3.
          * Racial Skills: A hill giant's giant levels give it skill points equal to 12 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link jump %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A hill giant's giant levels give it four feats.
     - baseEcl: 16
       levelAdjust: 4
       traits: |
-         * Racial Hit Dice: A hill giant begins with twelve levels of giant, which provide 12d8 Hit Dice, a base attack bonus of +8, and base saving throw bonuses of Fort +8, Ref +4, and Will +4.
+         * Racial Hit Dice: A hill giant begins with twelve levels of giant, which provide {% die_roll 12 8 0 %} Hit Dice, a base attack bonus of +8, and base saving throw bonuses of Fort +8, Ref +4, and Will +4.
          * Racial Skills: A hill giant's giant levels give it skill points equal to 15 * (2 + Int modifier). Its class skills are {% skill_link climb %}, {% skill_link jump %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A hill giant's giant levels give it five feats.
 ---

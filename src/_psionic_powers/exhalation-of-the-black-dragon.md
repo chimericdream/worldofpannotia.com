@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 5
   description: |
-    You spit forth vitriolic acid, originating from your mouth, at your target. If you succeed on a ranged touch attack, the target takes 3d6 points of acid damage.
+    You spit forth vitriolic acid, originating from your mouth, at your target. If you succeed on a ranged touch attack, the target takes {% die_roll 3 6 0 %} points of acid damage.
   augment: |
-    For every 2 additional power points you spend, this power's damage increases by 1d6 points.
+    For every 2 additional power points you spend, this power's damage increases by {% die_roll 1 6 0 %} points.
 ---

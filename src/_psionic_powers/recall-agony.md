@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 3
   description: |
-    The fabric of time parts to your will, revealing wounds your foe has received in the past (or has yet to receive). That foe takes 2d6 points of damage as the past (or future) impinges briefly on the present.
+    The fabric of time parts to your will, revealing wounds your foe has received in the past (or has yet to receive). That foe takes {% die_roll 2 6 0 %} points of damage as the past (or future) impinges briefly on the present.
   augment: |
-    For every additional power point you spend, this power's damage increases by 1d6 points. For each extra 2d6 points of damage, this power's save DC increases by 1.
+    For every additional power point you spend, this power's damage increases by {% die_roll 1 6 0 %} points. For each extra {% die_roll 2 6 0 %} points of damage, this power's save DC increases by 1.
 ---

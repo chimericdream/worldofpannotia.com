@@ -3,9 +3,9 @@ title: "Divine Sneak Attack"
 
 ability:
   prerequisite: |
-    Sneak attack +10d6, crippling strike.
+    Sneak attack +{% die_roll 10 6 0 %}, crippling strike.
   benefit: |
-    The deity's sneak attacks deal an additional +3d6 points of damage.
+    The deity's sneak attacks deal an additional +{% die_roll 3 6 0 %} points of damage.
 
     Any attack of opportunity the deity makes is considered a sneak attack.
 

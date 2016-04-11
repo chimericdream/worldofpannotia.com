@@ -28,7 +28,7 @@ skill:
 
     _Activate Blindly:_ Some psionic items are activated by special specific thoughts or conceptions. You can activate such items as if you were using the activation method, even if you're not and even if you don't know it. You do have to use something equivalent. You have to wave the item around or otherwise attempt to get it to activate. You get a special +2 bonus if you've activated the item at least once before.
 
-    If you fail the check by 10 or more, you suffer brainburn. This brainburn affects you in the same way as brainburn that can occur when you attempt to manifest a power from a power stone, except that the damage is 1d4 points per power level instead of 1d6. Brainburn damage from activating blindly is in addition to brainburn damage from manifesting a power from a power stone.
+    If you fail the check by 10 or more, you suffer brainburn. This brainburn affects you in the same way as brainburn that can occur when you attempt to manifest a power from a power stone, except that the damage is {% die_roll 1 4 0 %} points per power level instead of {% die_roll 1 6 0 %}. Brainburn damage from activating blindly is in addition to brainburn damage from manifesting a power from a power stone.
 
     _Address a Power Stone:_ Successfully addressing a power stone allows you to find out what power or powers it contains. Doing this requires 1 minute of concentration.
 

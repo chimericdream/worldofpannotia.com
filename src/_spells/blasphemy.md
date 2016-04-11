@@ -39,9 +39,9 @@ spell:
 
     Dazed: The creature can take no actions for 1 round, though it defends itself normally.
 
-    Weakened: The creature's Strength score decreases by 2d6 points for 2d4 rounds.
+    Weakened: The creature's Strength score decreases by {% die_roll 2 6 0 %} points for {% die_roll 2 4 0 %} rounds.
 
-    Paralyzed: The creature is paralyzed and helpless for 1d10 minutes.
+    Paralyzed: The creature is paralyzed and helpless for {% die_roll 1 10 0 %} minutes.
 
     Killed: Living creatures die. Undead creatures are destroyed.
 

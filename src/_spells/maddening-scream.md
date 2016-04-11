@@ -18,7 +18,7 @@ spell:
   castingTime:        "1 standard action"
   range:              "Touch"
   target:             "Living creature touched"
-  duration:           "1d4+1 rounds"
+  duration:           "{% die_roll 1 4 1 %} rounds"
   savingThrow:        "None"
   spellResistance:    "Yes"
   description:        |

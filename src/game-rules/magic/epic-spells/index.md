@@ -66,9 +66,9 @@ The following formulas are important to epic spellcasters.
 
 ### Dispelling, Epic Spells, and Antimagic Field
 
-A lucky nonepic spellcaster casting greater dispel magic might be able to dispel an epic spell. The game mechanics do not change, and epic spells do not occupy any privileged position allowing them to resist being dispelled other than their presumably high caster level. Likewise, epic spells using the dispel seed can dispel nonepic spells. Such epic spells use the same game mechanic: The check to dispel is 1d20 + a specified number (usually dispeller's level), and the DC is 11 + the spellcaster's level.
+A lucky nonepic spellcaster casting greater dispel magic might be able to dispel an epic spell. The game mechanics do not change, and epic spells do not occupy any privileged position allowing them to resist being dispelled other than their presumably high caster level. Likewise, epic spells using the dispel seed can dispel nonepic spells. Such epic spells use the same game mechanic: The check to dispel is {% die_roll 1 20 0 %} + a specified number (usually dispeller's level), and the DC is 11 + the spellcaster's level.
 
-Antimagic field does not automatically suppress epic spells as it does standard spells. Instead, each time an epic spell is subject to an antimagic field, make a dispel check as a 20th-level caster (1d20 + 20). The epic spell has a DC of 11 + the epic spell's spellcaster level. If the suppression check is successful, the epic spell is suppressed like any other spell. If the dispel check is unsuccessful, the epic spell functions normally.
+Antimagic field does not automatically suppress epic spells as it does standard spells. Instead, each time an epic spell is subject to an antimagic field, make a dispel check as a 20th-level caster ({% die_roll 1 20 0 %} + 20). The epic spell has a DC of 11 + the epic spell's spellcaster level. If the suppression check is successful, the epic spell is suppressed like any other spell. If the dispel check is unsuccessful, the epic spell functions normally.
 
 ### Epic Spell Descriptions
 

@@ -104,7 +104,7 @@ In the event that a class feature, domain granted power, or other special abilit
 
 ##### Caster Level Checks
 
-To make a caster level check, roll 1d20 and add your caster level (in the relevant class). If the result equals or exceeds the DC (or the spell resistance, in the case of caster level checks made for spell resistance), the check succeeds.
+To make a caster level check, roll {% die_roll 1 20 0 %} and add your caster level (in the relevant class). If the result equals or exceeds the DC (or the spell resistance, in the case of caster level checks made for spell resistance), the check succeeds.
 
 #### Spell Failure
 

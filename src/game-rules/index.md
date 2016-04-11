@@ -16,7 +16,7 @@ If the result equals or exceeds the target number, your character succeeds. If t
 
 #### Dice {#dice}
 
-Dice rolls are described with expressions such as "3d4+3," which means "roll three four-sided dice and add 3" (resulting in a number between 6 and 15). The first number tells you how many dice to roll (adding the results together). The number immediately after the "d" tells you the type of die to use. Any number after that indicates a quantity that is added or subtracted from the result.
+Dice rolls are described with expressions such as "{% die_roll 3 4 3 %}," which means "roll three four-sided dice and add 3" (resulting in a number between 6 and 15). The first number tells you how many dice to roll (adding the results together). The number immediately after the "d" tells you the type of die to use. Any number after that indicates a quantity that is added or subtracted from the result.
 
 **d%:** Percentile dice work a little differently. You generate a number between 1 and 100 by rolling two different ten-sided dice. One (designated before you roll) is the tens digit. The other is the ones digit. Two 0s represent 100.
 
@@ -260,20 +260,20 @@ Alternatively, refer to Table: Random Starting Ages and roll dice to determine h
 |---
 | Race | Adulthood | Barbarian<br>Rogue<br>Sorcerer<br>Soulknife<br>Wilder | Bard<br>Fighter<br>Paladin<br>Ranger<br>Psychic Warrior | Cleric<br>Druid<br>Monk<br>Psion<br>Wizard
 |-|-|-|-|-
-| Human | 15 years | +1d4 | +1d6 | +2d6
-| Dromite | 13 years | +1d4 | +1d6 | +2d6
-| Duergar | 40 years | +3d6 | +5d6 | +7d6
-| Dwarf | 40 years | +3d6 | +5d6 | +7d6
-| Elan | 20 years | +2d4 | +2d6 | +3d6
-| Elf | 110 years | +4d6 | +6d6 | +10d6
-| Faldirin | 30 years | +2d6 | +4d6 | +5d6
-| Gnome | 40 years | +4d6 | +6d6 | +9d6
-| Half-elf | 20 years | +1d6 | +2d6 | +3d6
-| Half-giant | 30 years | +3d6 | +2d6 | +4d6
-| Half-orc | 14 years | +1d4 | +1d6 | +2d6
-| Halfling | 20 years | +2d4 | +3d6 | +4d6
-| Maenad | 40 years | +1d6 | +4d6 | +6d6
-| Xeph | 18 years | +1d4 | +2d4 | +2d6
+| Human | 15 years | +{% die_roll 1 4 0 %} | +{% die_roll 1 6 0 %} | +{% die_roll 2 6 0 %}
+| Dromite | 13 years | +{% die_roll 1 4 0 %} | +{% die_roll 1 6 0 %} | +{% die_roll 2 6 0 %}
+| Duergar | 40 years | +{% die_roll 3 6 0 %} | +{% die_roll 5 6 0 %} | +{% die_roll 7 6 0 %}
+| Dwarf | 40 years | +{% die_roll 3 6 0 %} | +{% die_roll 5 6 0 %} | +{% die_roll 7 6 0 %}
+| Elan | 20 years | +{% die_roll 2 4 0 %} | +{% die_roll 2 6 0 %} | +{% die_roll 3 6 0 %}
+| Elf | 110 years | +{% die_roll 4 6 0 %} | +{% die_roll 6 6 0 %} | +{% die_roll 10 6 0 %}
+| Faldirin | 30 years | +{% die_roll 2 6 0 %} | +{% die_roll 4 6 0 %} | +{% die_roll 5 6 0 %}
+| Gnome | 40 years | +{% die_roll 4 6 0 %} | +{% die_roll 6 6 0 %} | +{% die_roll 9 6 0 %}
+| Half-elf | 20 years | +{% die_roll 1 6 0 %} | +{% die_roll 2 6 0 %} | +{% die_roll 3 6 0 %}
+| Half-giant | 30 years | +{% die_roll 3 6 0 %} | +{% die_roll 2 6 0 %} | +{% die_roll 4 6 0 %}
+| Half-orc | 14 years | +{% die_roll 1 4 0 %} | +{% die_roll 1 6 0 %} | +{% die_roll 2 6 0 %}
+| Halfling | 20 years | +{% die_roll 2 4 0 %} | +{% die_roll 3 6 0 %} | +{% die_roll 4 6 0 %}
+| Maenad | 40 years | +{% die_roll 1 6 0 %} | +{% die_roll 4 6 0 %} | +{% die_roll 6 6 0 %}
+| Xeph | 18 years | +{% die_roll 1 4 0 %} | +{% die_roll 2 4 0 %} | +{% die_roll 2 6 0 %}
 {: #random-starting-ages-table .table .table-bordered .table-hover .table-striped data-caption="Table: Random Starting Ages" }
 
 With age, a character's physical ability scores decrease and his or her mental ability scores increase (see Table: Aging Effects). The effects of each aging step are cumulative. However, none of a character's ability scores can be reduced below 1 in this way.
@@ -285,20 +285,20 @@ The maximum ages are for player characters. Most people in the world at large di
 |---
 | Race | Middle Age<sup>1</sup> | Old<sup>2</sup> | Venerable<sup>3</sup> | Maximum Age
 |-|-|-|-|-
-| Human | 35 years | 53 years | 70 years | +2d20 years
-| Dromite | 30 years | 55 years | 75 years | +2d20 years
+| Human | 35 years | 53 years | 70 years | +{% die_roll 2 20 0 %} years
+| Dromite | 30 years | 55 years | 75 years | +{% die_roll 2 20 0 %} years
 | Duergar | 125 years | 188 years | 250 years | +2d% years
 | Dwarf | 125 years | 188 years | 250 years | +2d% years
 | Elan | 200 years | 400 years | 1,000 years | +10d% years
 | Elf | 175 years | 263 years | 350 years | +4d% years
-| Faldirin | 60 years | 85 years | 110 years | +2d20 years
+| Faldirin | 60 years | 85 years | 110 years | +{% die_roll 2 20 0 %} years
 | Gnome | 100 years | 150 years | 200 years | +3d% years
-| Half-elf | 62 years | 93 years | 125 years | +3d20 years
+| Half-elf | 62 years | 93 years | 125 years | +{% die_roll 3 20 0 %} years
 | Half-giant | 60 years | 80 years | 120 years | +4d% years
-| Half-orc | 30 years | 45 years | 60 years | +2d10 years
-| Halfling | 50 years | 75 years | 100 years | +5d20 years
+| Half-orc | 30 years | 45 years | 60 years | +{% die_roll 2 10 0 %} years
+| Halfling | 50 years | 75 years | 100 years | +{% die_roll 5 20 0 %} years
 | Maenad | 90 years | 150 years | 220 years | +2d% years
-| Xeph | 45 years | 85 years | 120 years | +2d20 years
+| Xeph | 45 years | 85 years | 120 years | +{% die_roll 2 20 0 %} years
 |===
 | <sup>1</sup> At middle age, -1 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br><sup>2</sup> At old age, -2 to Str, Dex, and Con; +1 to Int, Wis, and Cha<br><sup>3</sup> At venerable age, -3 to Str, Dex, and Con; +1 to Int, Wis, and Cha |<|<|<|<
 {: #aging-effects-table .table .table-bordered .table-hover .table-striped data-caption="Table: Aging Effects" }
@@ -310,33 +310,33 @@ The dice roll given in the Height Modifier column determines the character's ext
 |---
 | Race | Base Height | Height Modifier | Base Weight | Weight Modifier
 |-|-|-|-|-
-| Human, male | 4' 10" | +2d10 | 120 lb. | &times; 2d4 lb.
-| Human, female | 4' 5" | +2d10 | 85 lb. | &times; 2d4 lb.
-| Dromite | 2' 8" | 2d4 | 30 lb. | &times; 1 lb.
-| Duergar, male | 3' 9" | 2d4 | 110 lb. | &times; 2d4 lb.
-| Duergar, female | 3' 7" | 2d4 | 80 lb. | &times; 2d4 lb.
-| Dwarf, male | 3' 9" | +2d4 | 130 lb. | &times; 2d6 lb.
-| Dwarf, female | 3' 7" | +2d4 | 100 lb. | &times; 2d6 lb.
-| Elan, male | 4' 10" | 2d10 | 120 lb. | &times; 2d4 lb.
-| Elan, female | 4' 5" | 2d10 | 85 lb. | &times; 2d4 lb.
-| Elf, male | 4' 5" | +2d6 | 85 lb. | &times; 1d6 lb.
-| Elf, female | 4' 5" | +2d6 | 80 lb. | &times; 1d6 lb.
-| Faldirin, male | 4' 10" | +2d12 | 100 lb. | &times; 1d6 lb.
-| Faldirin, female | 4' 5" | +2d12 | 90 lb. | &times; 1d6 lb.
-| Gnome, male | 3' 0" | +2d4 | 40 lb. | &times; 1 lb.
-| Gnome, female | 2' 10" | +2d4 | 35 lb. | &times; 1 lb.
-| Half-elf, male | 4' 7" | +2d8 | 100 lb. | &times; 2d4 lb.
-| Half-elf, female | 4' 5" | +2d8 | 80 lb. | &times; 2d4 lb.
-| Half-giant, male | 6' 4" | 2d12 | 220 lb. | &times; 2d6 lb.
-| Half-giant, female | 6' 1" | 2d12 | 180 lb. | &times; 2d6 lb.
-| Half-orc, male | 4' 10" | +2d12 | 150 lb. | &times; 2d6 lb.
-| Half-orc, female | 4' 5" | +2d12 | 110 lb. | &times; 2d6 lb.
-| Halfling, male | 2' 8" | +2d4 | 30 lb. | &times; 1 lb.
-| Halfling, female | 2' 6" | +2d4 | 25 lb. | &times; 1 lb.
-| Maenad, male | 5' 4" | 2d10 | 150 lb. | &times; 2d4 lb.
-| Maenad, female | 5' 3" | 2d10 | 120 lb. | &times; 2d4 lb.
-| Xeph, male | 4' 8" | 2d10 | 100 lb. | &times; 2d4 lb.
-| Xeph, female | 4' 4" | 2d10 | 75 lb. | &times; 2d4 lb.
+| Human, male | 4' 10" | +{% die_roll 2 10 0 %} | 120 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Human, female | 4' 5" | +{% die_roll 2 10 0 %} | 85 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Dromite | 2' 8" | {% die_roll 2 4 0 %} | 30 lb. | &times; 1 lb.
+| Duergar, male | 3' 9" | {% die_roll 2 4 0 %} | 110 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Duergar, female | 3' 7" | {% die_roll 2 4 0 %} | 80 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Dwarf, male | 3' 9" | +{% die_roll 2 4 0 %} | 130 lb. | &times; {% die_roll 2 6 0 %} lb.
+| Dwarf, female | 3' 7" | +{% die_roll 2 4 0 %} | 100 lb. | &times; {% die_roll 2 6 0 %} lb.
+| Elan, male | 4' 10" | {% die_roll 2 10 0 %} | 120 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Elan, female | 4' 5" | {% die_roll 2 10 0 %} | 85 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Elf, male | 4' 5" | +{% die_roll 2 6 0 %} | 85 lb. | &times; {% die_roll 1 6 0 %} lb.
+| Elf, female | 4' 5" | +{% die_roll 2 6 0 %} | 80 lb. | &times; {% die_roll 1 6 0 %} lb.
+| Faldirin, male | 4' 10" | +{% die_roll 2 12 0 %} | 100 lb. | &times; {% die_roll 1 6 0 %} lb.
+| Faldirin, female | 4' 5" | +{% die_roll 2 12 0 %} | 90 lb. | &times; {% die_roll 1 6 0 %} lb.
+| Gnome, male | 3' 0" | +{% die_roll 2 4 0 %} | 40 lb. | &times; 1 lb.
+| Gnome, female | 2' 10" | +{% die_roll 2 4 0 %} | 35 lb. | &times; 1 lb.
+| Half-elf, male | 4' 7" | +{% die_roll 2 8 0 %} | 100 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Half-elf, female | 4' 5" | +{% die_roll 2 8 0 %} | 80 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Half-giant, male | 6' 4" | {% die_roll 2 12 0 %} | 220 lb. | &times; {% die_roll 2 6 0 %} lb.
+| Half-giant, female | 6' 1" | {% die_roll 2 12 0 %} | 180 lb. | &times; {% die_roll 2 6 0 %} lb.
+| Half-orc, male | 4' 10" | +{% die_roll 2 12 0 %} | 150 lb. | &times; {% die_roll 2 6 0 %} lb.
+| Half-orc, female | 4' 5" | +{% die_roll 2 12 0 %} | 110 lb. | &times; {% die_roll 2 6 0 %} lb.
+| Halfling, male | 2' 8" | +{% die_roll 2 4 0 %} | 30 lb. | &times; 1 lb.
+| Halfling, female | 2' 6" | +{% die_roll 2 4 0 %} | 25 lb. | &times; 1 lb.
+| Maenad, male | 5' 4" | {% die_roll 2 10 0 %} | 150 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Maenad, female | 5' 3" | {% die_roll 2 10 0 %} | 120 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Xeph, male | 4' 8" | {% die_roll 2 10 0 %} | 100 lb. | &times; {% die_roll 2 4 0 %} lb.
+| Xeph, female | 4' 4" | {% die_roll 2 10 0 %} | 75 lb. | &times; {% die_roll 2 4 0 %} lb.
 {: #random-height-weight-table .table .table-bordered .table-hover .table-striped data-caption="Table: Random Height and Weight" }
 
 #### Random Starting Gold {#starting-gold}
@@ -344,8 +344,8 @@ The dice roll given in the Height Modifier column determines the character's ext
 |---
 | Class | Amount (Average)
 |-|-
-| Psion | 3d4 &times; 10 (75 gp)
-| Psychic warrior | 5d4 &times; 10 (125 gp)
-| Soulknife | 5d4 &times; 10 (125 gp)
-| Wilder | 4d4 &times; 10 (100 gp)
+| Psion | {% die_roll 3 4 0 %} &times; 10 (75 gp)
+| Psychic warrior | {% die_roll 5 4 0 %} &times; 10 (125 gp)
+| Soulknife | {% die_roll 5 4 0 %} &times; 10 (125 gp)
+| Wilder | {% die_roll 4 4 0 %} &times; 10 (100 gp)
 {: #random-starting-gold-table .table .table-bordered .table-hover .table-striped data-caption="Table: Random Starting Gold" }

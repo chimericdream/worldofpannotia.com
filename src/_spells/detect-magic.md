@@ -53,10 +53,10 @@ spell:
     |---
     | Original Strength | Duration of Lingering Aura
     |-|-
-    | Faint | 1d6 rounds
-    | Moderate | 1d6 minutes
-    | Strong | 1d6x10 minutes
-    | Overwhelming | 1d6 days
+    | Faint | {% die_roll 1 6 0 %} rounds
+    | Moderate | {% die_roll 1 6 0 %} minutes
+    | Strong | {% die_roll 1 6 0 %}x10 minutes
+    | Overwhelming | {% die_roll 1 6 0 %} days
     {: .table .table-bordered .table-hover }
 
     Outsiders and elementals are not magical in themselves, but if they are summoned, the conjuration spell registers.

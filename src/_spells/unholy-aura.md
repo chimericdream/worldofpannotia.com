@@ -32,5 +32,5 @@ spell:
 
     Third, the abjuration blocks possession and mental influence, just as protection from good does.
 
-    Finally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes 1d6 points of temporary Strength damage (Fortitude negates).
+    Finally, if a good creature succeeds on a melee attack against a warded creature, the offending attacker takes {% die_roll 1 6 0 %} points of temporary Strength damage (Fortitude negates).
 ---

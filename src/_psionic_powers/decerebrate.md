@@ -20,5 +20,5 @@ power:
   powerResistance: "Yes"
   powerPoints: 13
   description: |
-    With decerebrate, you selectively remove a portion of the subject's brain stem. The creature loses all cerebral function, vision, hearing, and other sensory abilities, and all voluntary motor activity. The subject becomes limp and unresponsive. Without extreme measures, such as greater restoration or some other suitable effect of 7th level or higher, the creature perishes in 1d4 days.
+    With decerebrate, you selectively remove a portion of the subject's brain stem. The creature loses all cerebral function, vision, hearing, and other sensory abilities, and all voluntary motor activity. The subject becomes limp and unresponsive. Without extreme measures, such as greater restoration or some other suitable effect of 7th level or higher, the creature perishes in {% die_roll 1 4 0 %} days.
 ---

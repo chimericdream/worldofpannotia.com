@@ -18,7 +18,7 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This _+6 heavy shield_ bears the image of a dragon's head. Three times per day, the bearer of the shield can command it to belch forth a breath weapon of the appropriate type. The range of this breath weapon is 80 feet (if a line) or 40 feet (if a cone). Regardless of the type, the breath weapon deals 20d6 points of damage. In addition, the shield provides the bearer with resistance 50 to the energy type that matches its breath weapon. To determine what type of _dragon shield_ is found, roll d% and consult the following table:
+    This _+6 heavy shield_ bears the image of a dragon's head. Three times per day, the bearer of the shield can command it to belch forth a breath weapon of the appropriate type. The range of this breath weapon is 80 feet (if a line) or 40 feet (if a cone). Regardless of the type, the breath weapon deals {% die_roll 20 6 0 %} points of damage. In addition, the shield provides the bearer with resistance 50 to the energy type that matches its breath weapon. To determine what type of _dragon shield_ is found, roll d% and consult the following table:
 
     |---
     | d% | Color | Breath

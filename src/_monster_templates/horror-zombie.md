@@ -38,14 +38,14 @@ _Special:_ Horror Zombies with more than 20 total Hit Dice have a maximum base a
 | Horror Zombie Size | Bite or Slam Damage | Claw Damage
 |-|-|-
 | Fine | 1 | 1
-| Diminutive | 1d2 | 1
-| Tiny | 1d3 | 1d2
-| Small | 1d4 | 1d3
-| Medium | 1d6 | 1d4
-| Large | 1d8 | 1d6
-| Huge | 2d6 | 1d8
-| Gargantuan | 2d8 | 2d6
-| Colossal | 4d6 | 2d8
+| Diminutive | {% die_roll 1 2 0 %} | 1
+| Tiny | {% die_roll 1 3 0 %} | {% die_roll 1 2 0 %}
+| Small | {% die_roll 1 4 0 %} | {% die_roll 1 3 0 %}
+| Medium | {% die_roll 1 6 0 %} | {% die_roll 1 4 0 %}
+| Large | {% die_roll 1 8 0 %} | {% die_roll 1 6 0 %}
+| Huge | {% die_roll 2 6 0 %} | {% die_roll 1 8 0 %}
+| Gargantuan | {% die_roll 2 8 0 %} | {% die_roll 2 6 0 %}
+| Colossal | {% die_roll 4 6 0 %} | {% die_roll 2 8 0 %}
 {: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="asdfasdf" }
 
 **Special Attacks:** A Horror Zombie retains none of the base creature's special attacks.
@@ -64,7 +64,7 @@ A Horror Zombie loses most special qualities of the base creature. It retains an
 
 **Fast Healing (Ex):** Each round, a Horror Zombie heals up to 10 points of damage.
 
-**Horror Zombie's Curse (Su):** Any creature bitten by a Horror Zombie must succeed a Fortitude save vs. a DC of 12 + the Horror Zombie's total HD (maximum DC 30). Failure on this save means the creature has contracted the Horror Zombie's Curse, and will take 1d3 Constitution damage each day. Some creatures can live for several weeks with this curse before finally dying. When a cursed creature dies (whether from the Horror Zombie's Curse or for other reasons), it rises 1d4 minutes later as another Horror Zombie. Only {% spell_link remove-curse %}, {% spell_link limited-wish %}, {% spell_link wish %}, or {% spell_link miracle %} spell will rid a creature of the Horror Zombie's Curse.
+**Horror Zombie's Curse (Su):** Any creature bitten by a Horror Zombie must succeed a Fortitude save vs. a DC of 12 + the Horror Zombie's total HD (maximum DC 30). Failure on this save means the creature has contracted the Horror Zombie's Curse, and will take {% die_roll 1 3 0 %} Constitution damage each day. Some creatures can live for several weeks with this curse before finally dying. When a cursed creature dies (whether from the Horror Zombie's Curse or for other reasons), it rises {% die_roll 1 4 0 %} minutes later as another Horror Zombie. Only {% spell_link remove-curse %}, {% spell_link limited-wish %}, {% spell_link wish %}, or {% spell_link miracle %} spell will rid a creature of the Horror Zombie's Curse.
 
 **Turn Resistance (Su):** Horror Zombies have +3 turn resistance.
 

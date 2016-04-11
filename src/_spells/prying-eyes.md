@@ -24,7 +24,7 @@ spell:
   spellResistance:    "No"
   materialComponents: ["A handful of crystal marbles."]
   description:        |
-    You create a number of semitangible, visible magical orbs (called "eyes") equal to 1d4 + your caster level. These eyes move out, scout around, and return as you direct them when casting the spell. Each eye can see 120 feet (normal vision only) in all directions.
+    You create a number of semitangible, visible magical orbs (called "eyes") equal to {% die_roll 1 4 0 %} + your caster level. These eyes move out, scout around, and return as you direct them when casting the spell. Each eye can see 120 feet (normal vision only) in all directions.
 
     While the individual eyes are quite fragile, they're small and difficult to spot. Each eye is a Fine construct, about the size of a small apple, that has 1 hit point, AC 18 (+8 bonus for its size), flies at a speed of 30 feet with perfect maneuverability, and has a +16 Hide modifier. It has a Spot modifier equal to your caster level (maximum +15) and is subject to illusions, darkness, fog, and any other factors that would affect your ability to receive visual information about your surroundings. An eye traveling through darkness must find its way by touch.
 

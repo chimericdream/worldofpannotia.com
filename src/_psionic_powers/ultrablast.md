@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 13
   description: |
-    You "grumble" psychically (which both psionic and nonpsionic creatures can detect), then release a horrid shriek from your subconscious that disrupts the brains of all enemies in the power's area, dealing 13d6 points of damage to each enemy.
+    You "grumble" psychically (which both psionic and nonpsionic creatures can detect), then release a horrid shriek from your subconscious that disrupts the brains of all enemies in the power's area, dealing {% die_roll 13 6 0 %} points of damage to each enemy.
   augment: |
-    For every additional power point you spend, this power's damage increases by 1d6 points.
+    For every additional power point you spend, this power's damage increases by {% die_roll 1 6 0 %} points.
 ---

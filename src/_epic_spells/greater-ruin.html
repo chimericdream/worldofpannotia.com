@@ -23,7 +23,7 @@ spell:
       - desc: "destroy"
         dc: "29"
     factors:
-      - desc: "increase damage to 35d6"
+      - desc: "increase damage to {% die_roll 35 6 0 %}"
         dc: "+30"
       - desc: "1-action casting time"
         dc: "+20"
@@ -31,5 +31,5 @@ spell:
       - desc: "burn 2,000 XP"
         dc: "-20"
   description: |
-    The character deals 35d6 points of damage to a single target within range and line of sight. If the target is reduced to -10 hit points or less (or a construct, object, or undead is reduced to 0 hit points), it is utterly destroyed as if disintegrated. Only a trace of fine dust remains.
+    The character deals {% die_roll 35 6 0 %} points of damage to a single target within range and line of sight. If the target is reduced to -10 hit points or less (or a construct, object, or undead is reduced to 0 hit points), it is utterly destroyed as if disintegrated. Only a trace of fine dust remains.
 ---

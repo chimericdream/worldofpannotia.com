@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 3
   description: |
-    Your rapid mental lashings assault the ego of your enemy, debilitating its confidence. The target takes 1d4 points of Charisma damage, or half that amount (minimum 1 point) on a successful save. A target that fails its save is also dazed for 1 round.
+    Your rapid mental lashings assault the ego of your enemy, debilitating its confidence. The target takes {% die_roll 1 4 0 %} points of Charisma damage, or half that amount (minimum 1 point) on a successful save. A target that fails its save is also dazed for 1 round.
   augment: |
-    For every 4 additional power points you spend, this power's Charisma damage increases by 1d4 points and its save DC increases by 2.
+    For every 4 additional power points you spend, this power's Charisma damage increases by {% die_roll 1 4 0 %} points and its save DC increases by 2.
 ---

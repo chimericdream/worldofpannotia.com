@@ -21,7 +21,7 @@ spell:
   savingThrow:        "Fortitude partial"
   spellResistance:    "Yes"
   description:        |
-    You can slay any one living creature within range. The target is entitled to a Fortitude saving throw to survive the attack. If the save is successful, the creature instead takes 3d6 points of damage +1 point per caster level (maximum +25).
+    You can slay any one living creature within range. The target is entitled to a Fortitude saving throw to survive the attack. If the save is successful, the creature instead takes {% die_roll 3 6 0 %} points of damage +1 point per caster level (maximum +25).
 
     The subject might die from damage even if it succeeds on its saving throw.
 ---

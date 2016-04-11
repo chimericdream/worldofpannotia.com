@@ -28,5 +28,5 @@ spell:
   savingThrow:        "Reflex half"
   spellResistance:    "Yes"
   description:        |
-    A flame strike produces a vertical column of divine fire roaring downward. The spell deals 1d6 points of damage per caster level (maximum 15d6). Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based attacks.
+    A flame strike produces a vertical column of divine fire roaring downward. The spell deals {% die_roll 1 6 0 %} points of damage per caster level (maximum {% die_roll 15 6 0 %}). Half the damage is fire damage, but the other half results directly from divine power and is therefore not subject to being reduced by resistance to fire-based attacks.
 ---

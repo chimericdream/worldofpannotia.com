@@ -27,8 +27,8 @@ spell:
       - desc: "1-action casting time"
         dc: "+20"
     mitigatingFactors:
-      - desc: "10d6 backlash"
+      - desc: "{% die_roll 10 6 0 %} backlash"
         dc: "-10"
   description: |
-    As greater dispel magic, except that the maximum bonus on the dispel check is +40, and the character takes 10d6 points of backlash damage.
+    As greater dispel magic, except that the maximum bonus on the dispel check is +40, and the character takes {% die_roll 10 6 0 %} points of backlash damage.
 ---

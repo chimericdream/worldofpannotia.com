@@ -15,22 +15,22 @@ class:
       |---
       | Rogue Level | Special
       |-|-
-      | 21st | Sneak attack +11d6, trap sense +7
+      | 21st | Sneak attack +{% die_roll 11 6 0 %}, trap sense +7
       | 22nd | &nbsp;
-      | 23rd | Sneak attack +12d6
+      | 23rd | Sneak attack +{% die_roll 12 6 0 %}
       | 24th | Trap sense +8, bonus feat
-      | 25th | Sneak attack +13d6
+      | 25th | Sneak attack +{% die_roll 13 6 0 %}
       | 26th | &nbsp;
-      | 27th | Sneak attack +14d6, trap sense +9
+      | 27th | Sneak attack +{% die_roll 14 6 0 %}, trap sense +9
       | 28th | Bonus feat
-      | 29th | Sneak attack +15d6
+      | 29th | Sneak attack +{% die_roll 15 6 0 %}
       | 30th | Trap sense +10
       {: #epic-rogue-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Epic Rogue" }
     classFeatures:
       - name: "Sneak Attack"
         type: ""
         desc: |
-          The epic rogue's sneak attack damage increases by +1d6 at every odd-numbered level.
+          The epic rogue's sneak attack damage increases by +{% die_roll 1 6 0 %} at every odd-numbered level.
       - name: "Special Abilities"
         type: ""
         desc: |

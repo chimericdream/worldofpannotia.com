@@ -17,5 +17,5 @@ item:
     xp: 800
   weight: "120 lb"
   description: |
-    This digging tool is 10 feet long. Any creature of at least Huge size can use it to loosen or tumble earth or earthen ramparts (a 10-foot cube every 10 minutes). It also smashes rock (a 10-foot cube per hour). If used as a weapon, it is the equivalent of a Gargantuan _+3 adamantine warhammer_, dealing 4d6 points of base damage.
+    This digging tool is 10 feet long. Any creature of at least Huge size can use it to loosen or tumble earth or earthen ramparts (a 10-foot cube every 10 minutes). It also smashes rock (a 10-foot cube per hour). If used as a weapon, it is the equivalent of a Gargantuan _+3 adamantine warhammer_, dealing {% die_roll 4 6 0 %} points of base damage.
 ---

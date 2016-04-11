@@ -24,7 +24,7 @@ spell:
   castingTime:        "1 standard action"
   range:              "Close (25 ft. + 5 ft./2 levels)"
   target:             "One living creature with 5 or fewer HD"
-  duration:           "1d4 rounds or 1 round; see text"
+  duration:           "{% die_roll 1 4 0 %} rounds or 1 round; see text"
   savingThrow:        "Will partial"
   spellResistance:    "Yes"
   description:        |

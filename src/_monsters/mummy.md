@@ -22,7 +22,7 @@ LE Large Undead
 
 **Speed** 20 ft
 
-**Melee** Slam +20 (1d8+16 plus mummy rot)
+**Melee** Slam +20 ({% die_roll 1 8 16 %} plus mummy rot)
 
 **Space** 10 ft; **Reach** 10 ft
 
@@ -42,8 +42,8 @@ LE Large Undead
 
 <hr class="dashed" />
 
-Despair (Su): At the sight of a mummy, the viewer must succeed at a Will save (DC 21), or be paralyzed with fear for 1d4 rounds. Whether or not the save is successful, that creature cannot be affected again by that mummy's despair ability for one day.
+Despair (Su): At the sight of a mummy, the viewer must succeed at a Will save (DC 21), or be paralyzed with fear for {% die_roll 1 4 0 %} rounds. Whether or not the save is successful, that creature cannot be affected again by that mummy's despair ability for one day.
 
-Mummy Rot (Su): Supernatural disease-slam, Fortitude save (DC 21), incubation period 1 minute; damage 1d6 Con and 1d6 Cha. The save DC is Charisma-based. Unlike normal diseases, mummy rot continues until the victim reaches Constitution 0 (and dies) or is cured as described below. Mummy rot is a powerful curse, not a natural disease. A character attempting to cast any conjuration (healing) spell on a creature afflicted with mummy rot must succeed on a DC 20 caster level check, or the spell has no effect on the afflicted character. To eliminate mummy rot, the curse must first be broken with break enchantment or remove curse (requiring a DC 20 caster level check for either spell), after which a caster level check is no longer necessary to cast healing spells on the victim, and the mummy rot can be magically cured as any normal disease.
+Mummy Rot (Su): Supernatural disease-slam, Fortitude save (DC 21), incubation period 1 minute; damage {% die_roll 1 6 0 %} Con and {% die_roll 1 6 0 %} Cha. The save DC is Charisma-based. Unlike normal diseases, mummy rot continues until the victim reaches Constitution 0 (and dies) or is cured as described below. Mummy rot is a powerful curse, not a natural disease. A character attempting to cast any conjuration (healing) spell on a creature afflicted with mummy rot must succeed on a DC 20 caster level check, or the spell has no effect on the afflicted character. To eliminate mummy rot, the curse must first be broken with break enchantment or remove curse (requiring a DC 20 caster level check for either spell), after which a caster level check is no longer necessary to cast healing spells on the victim, and the mummy rot can be magically cured as any normal disease.
 
 An afflicted creature who dies of mummy rot shrivels away into sand and dust that blow away into nothing at the first wind.

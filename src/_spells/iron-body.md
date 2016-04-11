@@ -28,7 +28,7 @@ spell:
 
     You gain a +6 enhancement bonus to your Strength score, but you take a -6 penalty to Dexterity as well (to a minimum Dexterity score of 1), and your speed is reduced to half normal. You have an arcane spell failure chance of 50% and a -8 armor check penalty, just as if you were clad in full plate armor. You cannot drink (and thus can't use potions) or play wind instruments.
 
-    Your unarmed attacks deal damage equal to a club sized for you (1d4 for Small characters or 1d6 for Medium characters), and you are considered armed when making unarmed attacks.
+    Your unarmed attacks deal damage equal to a club sized for you ({% die_roll 1 4 0 %} for Small characters or {% die_roll 1 6 0 %} for Medium characters), and you are considered armed when making unarmed attacks.
 
     Your weight increases by a factor of ten, causing you to sink in water like a stone. However, you could survive the crushing pressure and lack of air at the bottom of the ocean-at least until the spell duration expires.
 ---

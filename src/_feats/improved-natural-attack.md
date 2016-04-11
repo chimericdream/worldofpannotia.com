@@ -6,7 +6,7 @@ feat:
   prerequisite: |
     Natural weapon, base attack bonus +4.
   benefit: |
-    Choose one of the creature's natural attack forms. The damage for this natural weapon increases by one step, as if the creature's size had increased by one category: 1d2, 1d3, 1d4, 1d6, 1d8, 2d6, 3d6, 4d6, 6d6, 8d6, 12d6.
+    Choose one of the creature's natural attack forms. The damage for this natural weapon increases by one step, as if the creature's size had increased by one category: {% die_roll 1 2 0 %}, {% die_roll 1 3 0 %}, {% die_roll 1 4 0 %}, {% die_roll 1 6 0 %}, {% die_roll 1 8 0 %}, {% die_roll 2 6 0 %}, {% die_roll 3 6 0 %}, {% die_roll 4 6 0 %}, {% die_roll 6 6 0 %}, {% die_roll 8 6 0 %}, {% die_roll 12 6 0 %}.
 
-    A weapon or attack that deals 1d10 points of damage increases as follows: 1d10, 2d8, 3d8, 4d8, 6d8, 8d8, 12d8.
+    A weapon or attack that deals {% die_roll 1 10 0 %} points of damage increases as follows: {% die_roll 1 10 0 %}, {% die_roll 2 8 0 %}, {% die_roll 3 8 0 %}, {% die_roll 4 8 0 %}, {% die_roll 6 8 0 %}, {% die_roll 8 8 0 %}, {% die_roll 12 8 0 %}.
 ---

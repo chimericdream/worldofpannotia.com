@@ -149,7 +149,7 @@ You can't attack with two weapons while grappling, even if both are light weapon
 
 **Cast a Spell:** You can attempt to cast a spell while grappling or even while pinned (see below), provided its casting time is no more than 1 standard action, it has no somatic component, and you have in hand any material components or focuses you might need. Any spell that requires precise and careful action is impossible to cast while grappling or being pinned. If the spell is one that you can cast while grappling, you must make a Concentration check (DC 20 + spell level) or lose the spell. You don't have to make a successful grapple check to cast the spell.
 
-**Damage Your Opponent:** While grappling, you can deal damage to your opponent equivalent to an unarmed strike. Make an opposed grapple check in place of an attack. If you win, you deal nonlethal damage as normal for your unarmed strike (1d3 points for Medium attackers or 1d2 points for Small attackers, plus Strength modifiers). If you want to deal lethal damage, you take a -4 penalty on your grapple check.
+**Damage Your Opponent:** While grappling, you can deal damage to your opponent equivalent to an unarmed strike. Make an opposed grapple check in place of an attack. If you win, you deal nonlethal damage as normal for your unarmed strike ({% die_roll 1 3 0 %} points for Medium attackers or {% die_roll 1 2 0 %} points for Small attackers, plus Strength modifiers). If you want to deal lethal damage, you take a -4 penalty on your grapple check.
 
 _Exception:_ Monks deal more damage on an unarmed strike than other characters, and the damage is lethal. However, they can choose to deal their damage as nonlethal damage when grappling without taking the usual -4 penalty for changing lethal damage to nonlethal damage.
 
@@ -215,9 +215,9 @@ You can use ranged weapons while your mount is taking a double move, but at a -4
 
 **Casting Spells while Mounted:** You can cast a spell normally if your mount moves up to a normal move (its speed) either before or after you cast. If you have your mount move both before and after you cast a spell, then you're casting the spell while the mount is moving, and you have to make a Concentration check due to the vigorous motion (DC 10 + spell level) or lose the spell. If the mount is running (quadruple speed), you can cast a spell when your mount has moved up to twice its speed, but your Concentration check is more difficult due to the violent motion (DC 15 + spell level).
 
-**If Your Mount Falls in Battle:** If your mount falls, you have to succeed on a DC 15 Ride check to make a soft fall and take no damage. If the check fails, you take 1d6 points of damage.
+**If Your Mount Falls in Battle:** If your mount falls, you have to succeed on a DC 15 Ride check to make a soft fall and take no damage. If the check fails, you take {% die_roll 1 6 0 %} points of damage.
 
-**If You Are Dropped:** If you are knocked unconscious, you have a 50% chance to stay in the saddle (or 75% if you're in a military saddle). Otherwise you fall and take 1d6 points of damage.
+**If You Are Dropped:** If you are knocked unconscious, you have a 50% chance to stay in the saddle (or 75% if you're in a military saddle). Otherwise you fall and take {% die_roll 1 6 0 %} points of damage.
 
 Without you to guide it, your mount avoids combat.
 
@@ -241,7 +241,7 @@ If you're attempting to overrun an opponent, follow these steps.
 
 ### Sap Knockout {#sap-knockout}
 
-If a character studies his target for 3 rounds and then makes a sneak attack with a sap and hits, the attack has the additional effect of possibly knocking the target unconscious. While studying the target, the character can undertake other actions so long as his attention stays focused on the target and the target does not detect the character or recognize the character as an enemy. If the target of such an attack fails a Fortitude save (DC character's class level + 1 per d6 of sneak attack or similar class feature) against the knockout effect, she falls unconscious. The target is rendered helpless and unable to act for 1d6 minutes plus 1 minute per level of the character. If the target receives 1 point of healing (such as from a cure spell), they are woken up, but take a -2 to all actions for the next 3d6 minutes. If the target's saving throw succeeds, the attack is just a normal sneak attack. Once the character has completed the 3 rounds of study, he must make the knockout attack within the next 3 rounds.
+If a character studies his target for 3 rounds and then makes a sneak attack with a sap and hits, the attack has the additional effect of possibly knocking the target unconscious. While studying the target, the character can undertake other actions so long as his attention stays focused on the target and the target does not detect the character or recognize the character as an enemy. If the target of such an attack fails a Fortitude save (DC character's class level + 1 per d6 of sneak attack or similar class feature) against the knockout effect, she falls unconscious. The target is rendered helpless and unable to act for {% die_roll 1 6 0 %} minutes plus 1 minute per level of the character. If the target receives 1 point of healing (such as from a cure spell), they are woken up, but take a -2 to all actions for the next {% die_roll 3 6 0 %} minutes. If the target's saving throw succeeds, the attack is just a normal sneak attack. Once the character has completed the 3 rounds of study, he must make the knockout attack within the next 3 rounds.
 
 If a knockout attack is attempted and fails (the target makes her save) or if the character does not launch the attack within 3 rounds of completing the study, 3 new rounds of study are required before he can attempt another knockout attack.
 
@@ -288,7 +288,7 @@ A splash weapon is a ranged weapon that breaks on impact, splashing or scatterin
 
 You can instead target a specific grid intersection. Treat this as a ranged attack against AC 5. However, if you target a grid intersection, creatures in all adjacent squares are dealt the splash damage, and the direct hit damage is not dealt to any creature. (You can't target a grid intersection occupied by a creature, such as a Large or larger creature; in this case, you're aiming at the creature.)
 
-If you miss the target (whether aiming at a creature or a grid intersection), roll 1d8. This determines the misdirection of the throw, with 1 being straight back at you and 2 through 8 counting clockwise around the grid intersection or target creature. Then, count a number of squares in the indicated direction equal to the range increment of the throw.
+If you miss the target (whether aiming at a creature or a grid intersection), roll {% die_roll 1 8 0 %}. This determines the misdirection of the throw, with 1 being straight back at you and 2 through 8 counting clockwise around the grid intersection or target creature. Then, count a number of squares in the indicated direction equal to the range increment of the throw.
 
 After you determine where the weapon landed, it deals splash damage to all creatures in adjacent squares.
 
@@ -330,11 +330,11 @@ You must present your holy symbol to turn undead. Turning is considered an attac
 
 **Range:** You turn the closest turnable undead first, and you can't turn undead that are more than 60 feet away or that have total cover relative to you. You don't need line of sight to a target, but you do need line of effect.
 
-**Turning Check:** The first thing you do is roll a turning check to see how powerful an undead creature you can turn. This is a Charisma check (1d20 + your Charisma modifier). Table: Turning Undead gives you the Hit Dice of the most powerful undead you can affect, relative to your level. On a given turning attempt, you can turn no undead creature whose Hit Dice exceed the result on this table.
+**Turning Check:** The first thing you do is roll a turning check to see how powerful an undead creature you can turn. This is a Charisma check ({% die_roll 1 20 0 %} + your Charisma modifier). Table: Turning Undead gives you the Hit Dice of the most powerful undead you can affect, relative to your level. On a given turning attempt, you can turn no undead creature whose Hit Dice exceed the result on this table.
 
 A cleric with 5 or more ranks in {% skill_link knowledge 'Knowledge (Religion)' %} gets a +2 (or higher) bonus on the DC for his turning checks against undead (see <a href="{{ site.url }}/game-rules/skills-feats/basics/#skill-synergy">Skill Synergy</a>). _Note:_ This bonus is only applied to the Hit Dice of the undead you can affect. It does not affect the amount of damage you do with your turning check.
 
-**Turning Damage:** If your roll on Table: Turning Undead is high enough to let you turn at least some of the undead within 60 feet, roll 1d6 / cleric level for damage. All affected undead in the area within 60 ft. must make a Will save vs a DC of 10 + your cleric level + your Charisma modifier for half damage. Undead with turn resistance may add that bonus to this save. Any undead reduced to 0 or fewer hit points are destroyed. If an undead takes damage equal to or greater than &#189; its current remaining hit points, it is considered turned and acts accordingly.
+**Turning Damage:** If your roll on Table: Turning Undead is high enough to let you turn at least some of the undead within 60 feet, roll {% die_roll 1 6 0 %} / cleric level for damage. All affected undead in the area within 60 ft. must make a Will save vs a DC of 10 + your cleric level + your Charisma modifier for half damage. Undead with turn resistance may add that bonus to this save. Any undead reduced to 0 or fewer hit points are destroyed. If an undead takes damage equal to or greater than &#189; its current remaining hit points, it is considered turned and acts accordingly.
 
 If your Charisma score is average or low, it's possible to roll fewer Hit Dice of undead turned than indicated on Table: Turning Undead.
 
@@ -382,9 +382,9 @@ Beginning at 4th level, paladins can turn undead as if they were clerics of thre
 
 #### Dispelling Turning Attempts {#dispelling-turning}
 
-If an evil cleric (or neutral cleric who has chosen to rebuke rather than turn undead) wishes to dispel a turn attempt made by another cleric, he must make an opposed turn check. He rolls 1d6 / cleric level. If his total is higher than the original turn check, the turn attempt fails. If he rolls lower, or the two values are the same, the turn check succeeds, and undead in the area of effect must save for half damage.
+If an evil cleric (or neutral cleric who has chosen to rebuke rather than turn undead) wishes to dispel a turn attempt made by another cleric, he must make an opposed turn check. He rolls {% die_roll 1 6 0 %} / cleric level. If his total is higher than the original turn check, the turn attempt fails. If he rolls lower, or the two values are the same, the turn check succeeds, and undead in the area of effect must save for half damage.
 
-If a good cleric wishes to dispel a rebuke, command, or bolster attempt made by an evil cleric (or neutral cleric who has chosen to rebuke rather than turn undead), both clerics roll 1d6 / cleric level. If the good cleric's total is higher than his opponent's total, the dispel is successful. Otherwise, the opposing cleric's attempt is made normally.
+If a good cleric wishes to dispel a rebuke, command, or bolster attempt made by an evil cleric (or neutral cleric who has chosen to rebuke rather than turn undead), both clerics roll {% die_roll 1 6 0 %} / cleric level. If the good cleric's total is higher than his opponent's total, the dispel is successful. Otherwise, the opposing cleric's attempt is made normally.
 
 #### Turning Other Creatures {#turning-other-creatures}
 

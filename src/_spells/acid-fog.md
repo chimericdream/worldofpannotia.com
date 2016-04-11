@@ -23,5 +23,5 @@ spell:
   spellResistance:    "No"
   materialComponents: ["A pinch of dried, powdered peas combined with powdered animal hoof."]
   description:        |
-    Acid fog creates a billowing mass of misty vapors similar to that produced by a solid fog spell. In addition to slowing creatures down and obscuring sight, this spell's vapors are highly acidic. Each round on your turn, starting when you cast the spell, the fog deals 2d6 points of acid damage to each creature and object within it.
+    Acid fog creates a billowing mass of misty vapors similar to that produced by a solid fog spell. In addition to slowing creatures down and obscuring sight, this spell's vapors are highly acidic. Each round on your turn, starting when you cast the spell, the fog deals {% die_roll 2 6 0 %} points of acid damage to each creature and object within it.
 ---

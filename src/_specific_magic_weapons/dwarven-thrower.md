@@ -18,5 +18,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This weapon commonly functions as a _+2 warhammer_. In the hands of a dwarf, the warhammer gains an additional +1 enhancement bonus (for a total enhancement bonus of +3) and gains the returning special ability. It can be hurled with a 30-foot range increment. When hurled, it deals an extra 2d8 points of damage against giants or an extra 1d8 points of damage against any other target.
+    This weapon commonly functions as a _+2 warhammer_. In the hands of a dwarf, the warhammer gains an additional +1 enhancement bonus (for a total enhancement bonus of +3) and gains the returning special ability. It can be hurled with a 30-foot range increment. When hurled, it deals an extra {% die_roll 2 8 0 %} points of damage against giants or an extra {% die_roll 1 8 0 %} points of damage against any other target.
 ---

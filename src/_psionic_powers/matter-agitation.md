@@ -24,7 +24,7 @@ power:
 
     1st Round: Readily flammable material (paper, dry grass, tinder, torches) ignites. Skin reddens (1 point of damage).
 
-    2nd Round: Wood smolders and smokes, metal becomes hot to the touch, skin blisters (1d4 points of damage), hair smolders, paint shrivels, water boils.
+    2nd Round: Wood smolders and smokes, metal becomes hot to the touch, skin blisters ({% die_roll 1 4 0 %} points of damage), hair smolders, paint shrivels, water boils.
 
-    3rd and Subsequent Rounds: Wood ignites, metal scorches (1d4 points of damage for those holding metallic objects). Skin burns and hair ignites (1d6 points of damage), lead melts.
+    3rd and Subsequent Rounds: Wood ignites, metal scorches ({% die_roll 1 4 0 %} points of damage for those holding metallic objects). Skin burns and hair ignites ({% die_roll 1 6 0 %} points of damage), lead melts.
 ---

@@ -18,7 +18,7 @@ item:
 
     The adamantine walls of _instant fortress_ have 100 hit points and hardness 20. The fortress cannot be repaired except by a {% spell_link wish %} or a {% spell_link miracle %}, which restores 50 points of damage taken.
 
-    The fortress springs up in just 1 round, with the door facing the device's owner. The door opens and closes instantly at his command. People and creatures nearby (except the owner) must be careful not to be caught by the fortress's sudden growth. Anyone so caught takes 10d10 points of damage (Reflex DC 19 half ).
+    The fortress springs up in just 1 round, with the door facing the device's owner. The door opens and closes instantly at his command. People and creatures nearby (except the owner) must be careful not to be caught by the fortress's sudden growth. Anyone so caught takes {% die_roll 10 10 0 %} points of damage (Reflex DC 19 half ).
 
     The fortress is deactivated by speaking a command word (different from the one used to activate it). It cannot be deactivated unless it is empty.
 ---

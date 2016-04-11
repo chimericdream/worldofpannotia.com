@@ -14,10 +14,10 @@ item:
   marketPriceSpecial: ""
   weight: "500 lb"
   description: |
-    This item appears to be a large, sealed iron barrel, but it has a secret catch (Search DC 20 to locate) that opens a hatch in one end. Anyone who crawls inside finds ten (unlabeled) levers: The device has the following characteristics: hp 200; hardness 15; Spd 20 ft., swim 20 ft.; AC 20 (-1 size, +11 natural); Atk +12 melee (2d8, 2 pincers).
+    This item appears to be a large, sealed iron barrel, but it has a secret catch (Search DC 20 to locate) that opens a hatch in one end. Anyone who crawls inside finds ten (unlabeled) levers: The device has the following characteristics: hp 200; hardness 15; Spd 20 ft., swim 20 ft.; AC 20 (-1 size, +11 natural); Atk +12 melee ({% die_roll 2 8 0 %}, 2 pincers).
 
     |---
-    | Lever (1d10) | Lever Function
+    | Lever ({% die_roll 1 10 0 %}) | Lever Function
     |-|-
     | 1 | Extend/retract legs and tail
     | 2 | Uncover/cover forward porthole
@@ -31,5 +31,5 @@ item:
     | 10 | Open/close hatch
     {: #apparatus-of-the-crab-table .table .table-bordered .table-hover .table-striped data-caption="Table: Apparatus of the Crab Levers" }
 
-    Operating a lever is a full-round action, and no lever may be operated more than once per round. However, since two Medium characters can fit inside, the apparatus can move and attack in the same round. The device can function in water up to 900 feet deep. It holds enough air for a crew of two to survive 1d4+1 hours (twice as long for a single occupant). When activated, the apparatus looks something like a giant lobster.
+    Operating a lever is a full-round action, and no lever may be operated more than once per round. However, since two Medium characters can fit inside, the apparatus can move and attack in the same round. The device can function in water up to 900 feet deep. It holds enough air for a crew of two to survive {% die_roll 1 4 1 %} hours (twice as long for a single occupant). When activated, the apparatus looks something like a giant lobster.
 ---

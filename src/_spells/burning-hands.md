@@ -22,5 +22,5 @@ spell:
   savingThrow:        "Reflex half"
   spellResistance:    "Yes"
   description:        |
-    A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.
+    A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes {% die_roll 1 4 0 %} points of fire damage per caster level (maximum {% die_roll 5 4 0 %}). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.
 ---

@@ -23,8 +23,8 @@ spell:
     |---
     | Creature's Origin/Nature | Damage | Maximum Value
     |-|-|-
-    | Material Plane, Elemental Plane, neutral outsider | 1d6/2 levels | 7d6
-    | Negative Energy Plane, evil outsider, undead creature | 1d6/level | 15d6
+    | Material Plane, Elemental Plane, neutral outsider | {% die_roll 1 6 0 %}/2 levels | {% die_roll 7 6 0 %}
+    | Negative Energy Plane, evil outsider, undead creature | {% die_roll 1 6 0 %}/level | {% die_roll 15 6 0 %}
     | Positive Energy Plane, good outsider | - | -
     {: .table .table-bordered .table-hover }
 ---

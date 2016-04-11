@@ -28,5 +28,5 @@ spell:
 
     Treat other ethereal creatures and ethereal objects as if they were material.
 
-    If you end the spell and become material while inside a material object (such as a solid wall), you are shunted off to the nearest open space and take 1d6 points of damage per 5 feet that you so travel.
+    If you end the spell and become material while inside a material object (such as a solid wall), you are shunted off to the nearest open space and take {% die_roll 1 6 0 %} points of damage per 5 feet that you so travel.
 ---

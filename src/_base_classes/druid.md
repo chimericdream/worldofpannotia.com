@@ -117,7 +117,7 @@ class:
       - name: "Wild Empathy"
         type: "Ex"
         desc: |
-          A druid can improve the attitude of an animal. This ability functions just like a {% skill_link diplomacy %} check made to improve the attitude of a person. The druid rolls 1d20 and adds her druid level and her Charisma modifier to determine the wild empathy check result.
+          A druid can improve the attitude of an animal. This ability functions just like a {% skill_link diplomacy %} check made to improve the attitude of a person. The druid rolls {% die_roll 1 20 0 %} and adds her druid level and her Charisma modifier to determine the wild empathy check result.
 
           The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.
 

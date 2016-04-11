@@ -83,7 +83,7 @@ class:
       - name: "Wild Empathy"
         type: "Ex"
         desc: |
-          A ranger can improve the attitude of an animal. This ability functions just like a {% skill_link diplomacy %} check to improve the attitude of a person. The ranger rolls 1d20 and adds his ranger level and his Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.
+          A ranger can improve the attitude of an animal. This ability functions just like a {% skill_link diplomacy %} check to improve the attitude of a person. The ranger rolls {% die_roll 1 20 0 %} and adds his ranger level and his Charisma modifier to determine the wild empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.
 
           To use wild empathy, the ranger and the animal must be able to study each other, which means that they must be within 30 feet of one another under normal visibility conditions. Generally, influencing an animal in this way takes 1 minute, but, as with influencing people, it might take more or less time.
 

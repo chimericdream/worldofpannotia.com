@@ -20,7 +20,7 @@ power:
   powerResistance: "No"
   powerPoints: 3
   description: |
-    Your touch, claw, or bite is corrosive, and sizzling moisture visibly oozes from your natural weapon or hand. You deal 4d6 points of acid damage to any creature or object you touch with your successful melee touch attack. Acid you secrete denatures 1 round after use, losing all efficacy and ability to deal damage. You are immune to your own acid.
+    Your touch, claw, or bite is corrosive, and sizzling moisture visibly oozes from your natural weapon or hand. You deal {% die_roll 4 6 0 %} points of acid damage to any creature or object you touch with your successful melee touch attack. Acid you secrete denatures 1 round after use, losing all efficacy and ability to deal damage. You are immune to your own acid.
   augment: |
-    For every 2 additional power points you spend, this power's damage increases by 1d6 points.
+    For every 2 additional power points you spend, this power's damage increases by {% die_roll 1 6 0 %} points.
 ---

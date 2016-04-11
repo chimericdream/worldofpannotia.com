@@ -15,5 +15,5 @@ domain:
     1. {% spell_link power-word-blind %}
     1. {% spell_link power-word-kill %}
   notes: |
-    <sup>1</sup>Only summons 1d3 shadows
+    <sup>1</sup>Only summons {% die_roll 1 3 0 %} shadows
 ---

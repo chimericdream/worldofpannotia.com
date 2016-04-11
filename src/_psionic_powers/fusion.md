@@ -24,7 +24,7 @@ power:
 
     You decide what equipment is absorbed into the fused being and what equipment remains available for use. These fused items are restored once the power ends.
 
-    When the power ends, the fused being separates. The other creature appears in an area adjacent to you that you determine. If separation occurs in a cramped space, the other creature is expelled through the Astral Plane, finally coming to rest materially in the nearest empty space and taking 1d6 points of damage for each 10 feet of solid material passed through.
+    When the power ends, the fused being separates. The other creature appears in an area adjacent to you that you determine. If separation occurs in a cramped space, the other creature is expelled through the Astral Plane, finally coming to rest materially in the nearest empty space and taking {% die_roll 1 6 0 %} points of damage for each 10 feet of solid material passed through.
 
     Damage taken by the fused being is split evenly between you and the other creature when the power ends. You do not leave the fusion with more hit points than you entered it with, unless you were damaged prior to the fusion and the fused being was subsequently healed. In a like manner, the fused being's remaining power points are split between you and the other creature (you can leave with more points than you entered with, as long as you don't exceed the maximum power points for your level and ability score). Ability damage and negative levels are also split between you and the other creature. (If an odd number of negative levels or ability score reductions must be split, you decide whether you or the other creature receives the additional loss.)
 

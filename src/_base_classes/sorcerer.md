@@ -208,7 +208,7 @@ class:
 
       _Speak with Animals of Its Kind (Ex):_ If the master is 7th level or higher, a familiar can communicate with animals of approximately the same kind as itself (including dire varieties): bats with bats, rats with rodents, cats with felines, hawks and owls and ravens with birds, lizards and snakes with reptiles, toads with amphibians, weasels with similar creatures (weasels, minks, polecats, ermines, skunks, wolverines, and badgers). Such communication is limited by the intelligence of the conversing creatures.
 
-      _Spell Resistance (Ex):_ If the master is 11th level or higher, a familiar gains spell resistance equal to the master's level + 5. To affect the familiar with a spell, another spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the familiar's spell resistance.
+      _Spell Resistance (Ex):_ If the master is 11th level or higher, a familiar gains spell resistance equal to the master's level + 5. To affect the familiar with a spell, another spellcaster must get a result on a caster level check ({% die_roll 1 20 0 %} + caster level) that equals or exceeds the familiar's spell resistance.
 
       _Scry on Familiar (Sp):_ If the master is 13th level or higher, he may scry on his familiar (as if casting the {% spell_link scrying %} spell) once per day.
 

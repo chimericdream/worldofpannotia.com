@@ -59,17 +59,17 @@ This cost is the same for a Small or Medium version of the weapon. A Large versi
 |---
 | Medium Weapon Damage | Tiny Weapon Damage | Large Weapon Damage
 |-|-|-
-| 1d2 | &ndash; | 1d3
-| 1d3 | 1 | 1d4
-| 1d4 | 1d2 | 1d6
-| 1d6 | 1d3 | 1d8
-| 1d8 | 1d4 | 2d6
-| 1d10 | 1d6 | 2d8
-| 1d12 | 1d8 | 3d6
-| 2d4 | 1d4 | 2d6
-| 2d6 | 1d8 | 3d6
-| 2d8 | 1d10 | 3d8
-| 2d10 | 2d6 | 4d8
+| {% die_roll 1 2 0 %} | &ndash; | {% die_roll 1 3 0 %}
+| {% die_roll 1 3 0 %} | 1 | {% die_roll 1 4 0 %}
+| {% die_roll 1 4 0 %} | {% die_roll 1 2 0 %} | {% die_roll 1 6 0 %}
+| {% die_roll 1 6 0 %} | {% die_roll 1 3 0 %} | {% die_roll 1 8 0 %}
+| {% die_roll 1 8 0 %} | {% die_roll 1 4 0 %} | {% die_roll 2 6 0 %}
+| {% die_roll 1 10 0 %} | {% die_roll 1 6 0 %} | {% die_roll 2 8 0 %}
+| {% die_roll 1 12 0 %} | {% die_roll 1 8 0 %} | {% die_roll 3 6 0 %}
+| {% die_roll 2 4 0 %} | {% die_roll 1 4 0 %} | {% die_roll 2 6 0 %}
+| {% die_roll 2 6 0 %} | {% die_roll 1 8 0 %} | {% die_roll 3 6 0 %}
+| {% die_roll 2 8 0 %} | {% die_roll 1 10 0 %} | {% die_roll 3 8 0 %}
+| {% die_roll 2 10 0 %} | {% die_roll 2 6 0 %} | {% die_roll 4 8 0 %}
 {: #tiny-large-weapon-damage-table .table .table-bordered .table-hover .table-striped data-caption="Table: Tiny and Large Weapon Damage" }
 
 **Critical:** The entry in this column notes how the weapon is used with the rules for critical hits. When your character scores a critical hit, roll the damage two, three, or four times, as indicated by its critical multiplier (using all applicable modifiers on each roll), and add all the results together.

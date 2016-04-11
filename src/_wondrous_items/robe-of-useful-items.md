@@ -23,7 +23,7 @@ item:
      * Hempen rope (50-foot coil)
      * Sack
 
-    In addition, the robe has several other patches. Roll 4d4 for the number of other patches and then roll for each patch on the table below to determine its nature.
+    In addition, the robe has several other patches. Roll {% die_roll 4 4 0 %} for the number of other patches and then roll for each patch on the table below to determine its nature.
 
     |---
     | d% | Result

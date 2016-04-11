@@ -25,7 +25,7 @@ spell:
   savingThrow:        "Will negates; see text"
   spellResistance:    "Yes"
   description:        |
-    Your swaying motions and music (or singing, or chanting) compel animals and magical beasts to do nothing but watch you. Only a creature with an Intelligence score of 1 or 2 can be fascinated by this spell. Roll 2d6 to determine the total number of HD worth of creatures that you fascinate. The closest targets are selected first until no more targets within range can be affected.
+    Your swaying motions and music (or singing, or chanting) compel animals and magical beasts to do nothing but watch you. Only a creature with an Intelligence score of 1 or 2 can be fascinated by this spell. Roll {% die_roll 2 6 0 %} to determine the total number of HD worth of creatures that you fascinate. The closest targets are selected first until no more targets within range can be affected.
 
     A magical beast, a dire animal, or an animal trained to attack or guard is allowed a saving throw; an animal not trained to attack or guard is not.
 ---
