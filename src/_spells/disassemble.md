@@ -28,8 +28,8 @@ spell:
     | HD | Effect
     |-|-
     | Equal to caster level | Stunned for 1 round. This is an exception to the rule that constructs and animated objects are immune to stunning attacks.
-    | Up to caster level -1 | Slowed for 1d4 rounds, stunned 1 round
-    | Up to caster level -5 | Paralyzed for 2d4 rounds, slowed 1d4 rounds, stunned 1 round
+    | Up to caster level -1 | Slowed for {% die_roll 1 4 0 %} rounds, stunned 1 round
+    | Up to caster level -5 | Paralyzed for {% die_roll 2 4 0 %} rounds, slowed {% die_roll 1 4 0 %} rounds, stunned 1 round
     | Up to caster level -10 | "Killed" - The target is no longer considered a construct or animated object. It becomes a mundane item. (i.e. - Iron golem becomes a statue.)
     {: .table .table-bordered .table-hover }
 ---

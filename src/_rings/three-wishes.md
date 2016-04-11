@@ -13,5 +13,5 @@ item:
     gp: 11475
     xp: 15918
   description: |
-    This ring is set with three rubies. Each ruby stores a {% spell_link wish %} spell, activated by the ring. When a {% spell_link wish %} is used, that ruby disappears. For a randomly generated ring, roll 1d3 to determine the remaining number of rubies. When all the {% spell_link wish "wishes" %} are used, the ring becomes a nonmagical item.
+    This ring is set with three rubies. Each ruby stores a {% spell_link wish %} spell, activated by the ring. When a {% spell_link wish %} is used, that ruby disappears. For a randomly generated ring, roll {% die_roll 1 3 0 %} to determine the remaining number of rubies. When all the {% spell_link wish "wishes" %} are used, the ring becomes a nonmagical item.
 ---

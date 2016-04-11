@@ -4,10 +4,10 @@ crumbs: [equipment, intelligent-items]
 crumbTitles: [Equipment, Intelligent Items]
 ---
 
-Just like nonepic magic items, epic magic items sometimes possess intelligence of their own. Such items are fully sentient and should be treated as NPCs. The Random Epic Magic Items section details the chances that epic armor, shields, rings, rods, staffs, wondrous items, and weapons might be intelligent. In short, a ring, rod, staff, wondrous item, armor, or shield has a 1% chance to be intelligent, a ranged weapon has a 5% chance to be intelligent, and a melee weapon has a 15% chance to be intelligent. Rather than using the tables for nonepic items, use the tables below to determine the properties of an intelligent item: the number of powers, unusual properties, alignment, and special purpose of the item (if any). Of the three mental ability scores, two scores are favored (2d6 + some number) and one is completely random (3d6). Choose which scores get assigned which number, or roll 1d4 and determine randomly according to the following table.
+Just like nonepic magic items, epic magic items sometimes possess intelligence of their own. Such items are fully sentient and should be treated as NPCs. The Random Epic Magic Items section details the chances that epic armor, shields, rings, rods, staffs, wondrous items, and weapons might be intelligent. In short, a ring, rod, staff, wondrous item, armor, or shield has a 1% chance to be intelligent, a ranged weapon has a 5% chance to be intelligent, and a melee weapon has a 15% chance to be intelligent. Rather than using the tables for nonepic items, use the tables below to determine the properties of an intelligent item: the number of powers, unusual properties, alignment, and special purpose of the item (if any). Of the three mental ability scores, two scores are favored ({% die_roll 2 6 0 %} + some number) and one is completely random ({% die_roll 3 6 0 %}). Choose which scores get assigned which number, or roll {% die_roll 1 4 0 %} and determine randomly according to the following table.
 
 |---
-| 1d4 | High Score | Medium Score | Low Score
+| {% die_roll 1 4 0 %} | High Score | Medium Score | Low Score
 |-|-|-|-
 | 1 | Intelligence | Charisma | Wisdom
 | 2 | Intelligence | Wisdom | Charisma
@@ -20,13 +20,13 @@ The first step in determining the properties of a random intelligent epic magic 
 |---
 | d% | Ability Scores | Capabilities
 |-|-|-
-| 01-22 | Two 2d6+10, one 3d6 | Three primary abilities, one extraordinary power
-| 23-40 | Two 2d6+11, one 3d6 | Three primary abilities, two extraordinary powers
-| 41-54 | Two 2d6+12, one 3d6 | Four primary abilities, two extraordinary powers
-| 55-64 | Two 2d6+14, one 3d6 | Four primary abilities, three extraordinary powers
-| 65-71 | Two 2d6+16, one 3d6 | Four primary abilities, three extraordinary powers, one awesome power
-| 72-73 | Two 2d6+18, one 3d6 | Four primary abilities, three extraordinary powers, two awesome powers
-| 74 | Roll again, but add 1d6 toeach ability score<sup>1</sup> |<
+| 01-22 | Two {% die_roll 2 6 10 %}, one {% die_roll 3 6 0 %} | Three primary abilities, one extraordinary power
+| 23-40 | Two {% die_roll 2 6 11 %}, one {% die_roll 3 6 0 %} | Three primary abilities, two extraordinary powers
+| 41-54 | Two {% die_roll 2 6 12 %}, one {% die_roll 3 6 0 %} | Four primary abilities, two extraordinary powers
+| 55-64 | Two {% die_roll 2 6 14 %}, one {% die_roll 3 6 0 %} | Four primary abilities, three extraordinary powers
+| 65-71 | Two {% die_roll 2 6 16 %}, one {% die_roll 3 6 0 %} | Four primary abilities, three extraordinary powers, one awesome power
+| 72-73 | Two {% die_roll 2 6 18 %}, one {% die_roll 3 6 0 %} | Four primary abilities, three extraordinary powers, two awesome powers
+| 74 | Roll again, but add {% die_roll 1 6 0 %} toeach ability score<sup>1</sup> |<
 | 75-100 | Use nonepic magic item Table: Item Intelligence, Wisdom, Charisma, and Capabilities |<
 |===
 | <sup>1</sup>Cumulative if rolled multiple times. |<|<
@@ -94,7 +94,7 @@ Using the number of capabilities determined above, find the item's specific abil
 | 55-57 | Wielder has free use of uncanny dodge (as a 5th-level barbarian)
 | 58-60 | Wielder has free use of evasion
 | 61-65 | Wielder can use {% spell_link see-invisibility %} at will
-| 66-70 | {% spell_link cure-light-wounds %} (1d8+5) on wielder 1/day
+| 66-70 | {% spell_link cure-light-wounds %} ({% die_roll 1 8 5 %}) on wielder 1/day
 | 71-75 | {% spell_link feather-fall %} on wielder 1/day
 | 76 | {% spell_link locate-object %} in a 120-ft. radius
 | 77 | Wielder does not need to sleep
@@ -118,7 +118,7 @@ If the same ability is rolled twice or more, the range, frequency, or effectiven
 | 26-30 | {% spell_link levitate %} (wielder only, 10 minute duration) | 3/day
 | 31-35 | {% spell_link invisibility %} (wielder only, up to 30 minutes per use) | 3/day
 | 36-40 | {% spell_link fly %} (30 minutes per use) | 2/day
-| 41-45 | {% spell_link lightning-bolt %} (8d6 points of damage, 200-ft. range, DC 13<sup>1</sup>) | 1/day
+| 41-45 | {% spell_link lightning-bolt %} ({% die_roll 8 6 0 %} points of damage, 200-ft. range, DC 13<sup>1</sup>) | 1/day
 | 46-50 | {% spell_link summon-monster-iii %} | 1/day
 | 51-55 | {% spell_link telepathic-bond %} (100 ft. range) | 2/day
 | 56-60 | {% spell_link cats-grace %} (wielder only) | 1/day
@@ -149,7 +149,7 @@ If the same power is rolled twice, the uses per day are doubled. (If {% spell_li
 | 01-04 | {% spell_link astral-projection %} | 1/day
 | 05-08 | {% epic_feat_link intensify-spell 'Intensified' %} {% spell_link bulls-strength %} (wielder only; +10 enhancement bonus to Strength) | 1/day
 | 09-12 | {% epic_feat_link intensify-spell 'Intensified' %} {% spell_link cats-grace %} (wielder only; +10 enhancement bonus to Dexterity) | 1/day
-| 13-16 | {% epic_feat_link enhance-spell 'Enhanced' %} {% spell_link chain-lightning %} (20d6 damage; DC 16<sup>1</sup>) | 1/day
+| 13-16 | {% epic_feat_link enhance-spell 'Enhanced' %} {% spell_link chain-lightning %} ({% die_roll 20 6 0 %} damage; DC 16<sup>1</sup>) | 1/day
 | 17-20 | {% spell_link dominate-monster %} (DC 19<sup>1</sup>) on contact | 1/day
 | 21-24 | {% epic_feat_link intensify-spell 'Intensified' %} {% spell_link bears-endurance %} (wielder only; +10 enhancement bonus to Constitution) | 1/day
 | 25-28 | {% spell_link energy-drain %} (DC 19<sup>1</sup>) on contact | 1/day
@@ -205,10 +205,10 @@ A special purpose power operates only when the item is in pursuit of its special
 |---
 | d% | Special Purpose Power
 |-|-
-| 01-10 | {% spell_link blindness-deafness 'Blindness' %}<sup>1</sup> (DC 17<sup>2</sup>) for 2d6 rounds
-| 11-20 | {% spell_link confusion %}<sup>1</sup> (DC 19<sup>2</sup>) for 2d6 rounds
-| 21-25 | {% spell_link fear %}<sup>1</sup> (DC 19<sup>2</sup>) for 1d4 rounds
-| 26-55 | {% spell_link hold-monster %}<sup>1</sup> (DC 19<sup>2</sup>) for 1d4 rounds
+| 01-10 | {% spell_link blindness-deafness 'Blindness' %}<sup>1</sup> (DC 17<sup>2</sup>) for {% die_roll 2 6 0 %} rounds
+| 11-20 | {% spell_link confusion %}<sup>1</sup> (DC 19<sup>2</sup>) for {% die_roll 2 6 0 %} rounds
+| 21-25 | {% spell_link fear %}<sup>1</sup> (DC 19<sup>2</sup>) for {% die_roll 1 4 0 %} rounds
+| 26-55 | {% spell_link hold-monster %}<sup>1</sup> (DC 19<sup>2</sup>) for {% die_roll 1 4 0 %} rounds
 | 56-65 | {% spell_link slay-living %}<sup>1</sup> (DC 20<sup>2</sup>)
 | 66-75 | {% spell_link disintegrate %}<sup>1</sup> (DC 21<sup>2</sup>)
 | 76-80 | {% spell_link true-resurrection %} on wielder, one time only

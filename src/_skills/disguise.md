@@ -36,7 +36,7 @@ skill:
     {: #disguise-viewer-bonus-table .table .table-bordered .table-hover .table-striped data-caption="Table: Spot Check Bonuses by Familiarity" }
 
     Usually, an individual makes a {% skill_link spot %} check to see through your disguise immediately upon meeting you and each hour thereafter. If you casually meet many different creatures, each for a short time, check once per day or hour, using an average {% skill_link spot %} modifier for the group.
-  action: "Creating a disguise requires 1d3&times;10 minutes of work."
+  action: "Creating a disguise requires {% die_roll 1 3 0 %}&times;10 minutes of work."
   try_again: "Yes. You may try to redo a failed disguise, but once others know that a disguise was attempted, they'll be more suspicious."
   special: |
     Magic that alters your form, such as {% spell_link alter-self %}, {% spell_link disguise-self %}, {% spell_link polymorph %}, or {% spell_link shapechange %}, grants you a +10 bonus on {% skill_link disguise %} checks (see the individual spell descriptions). You must succeed on a {% skill_link disguise %} check with a +10 bonus to duplicate the appearance of a specific individual using the _veil_spell. Divination magic that allows people to see through illusions (such as {% spell_link true-seeing %}) does not penetrate a mundane disguise, but it can negate the magical component of a magically enhanced one.

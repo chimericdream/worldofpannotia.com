@@ -15,5 +15,5 @@ spell:
       abbr:  "Ravage"
       level: 8
   description:        |
-    This spell functions like mass inflict light wounds, except that it deals 4d8 points of damage +1 point per caster level (maximum +40).
+    This spell functions like mass inflict light wounds, except that it deals {% die_roll 4 8 0 %} points of damage +1 point per caster level (maximum +40).
 ---

@@ -109,7 +109,7 @@ There are three kinds of factors:
 |---
 | Factor | Spellcraft DC Modifier
 |-|-
-| Backlash 1d6 points of damage (max d6 = caster's HD &times; 2)<sup>1</sup> | –1
+| Backlash {% die_roll 1 6 0 %} points of damage (max d6 = caster's HD &times; 2)<sup>1</sup> | –1
 | Burn 100 XP during casting (max 20,000 XP) | –1
 | Increase casting time by 1 minute (max 10 minutes)<sup>2</sup> | –2
 | Increase casting time by 1 day (max 100 days)<sup>2</sup> | –2

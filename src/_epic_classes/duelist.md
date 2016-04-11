@@ -13,18 +13,18 @@ class:
       | 12th | &nbsp;
       | 13th | Bonus feat
       | 14th | &nbsp;
-      | 15th | Precise strike +3d6
+      | 15th | Precise strike +{% die_roll 3 6 0 %}
       | 16th | Bonus feat
       | 17th | &nbsp;
       | 18th | &nbsp;
       | 19th | Bonus feat
-      | 20th | Precise strike +4d6
+      | 20th | Precise strike +{% die_roll 4 6 0 %}
       {: #epic-duelist-table .table .table-bordered .table-hover .table-striped data-caption="Table: Epic Duelist" }
     classFeatures:
       - name: "Precise Strike"
         type: ""
         desc: |
-          Every five levels above 10th, the extra damage inflicted by the epic duelist's precise strike increases by +1d6.
+          Every five levels above 10th, the extra damage inflicted by the epic duelist's precise strike increases by +{% die_roll 1 6 0 %}.
       - name: "Bonus Feats"
         type: ""
         desc: |

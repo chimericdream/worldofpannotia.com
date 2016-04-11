@@ -18,5 +18,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    Three times per day, this _+2 wounding rapier_ allows the wielder to make a touch attack with the weapon that deals 1d6 points of Constitution damage by draining blood. Creatures immune to critical hits are immune to the Constitution damage dealt by this weapon.
+    Three times per day, this _+2 wounding rapier_ allows the wielder to make a touch attack with the weapon that deals {% die_roll 1 6 0 %} points of Constitution damage by draining blood. Creatures immune to critical hits are immune to the Constitution damage dealt by this weapon.
 ---

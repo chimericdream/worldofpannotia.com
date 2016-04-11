@@ -47,26 +47,26 @@ class:
       |---
       | Level | Flurry of Blows Attack Bonus | Unarmed Damage <sup>1</sup> | AC Bonus | Unarmored Speed Bonus
       |-|-|-|-|-
-      | 1 | -2/-2 | 1d6 | +0 | +0 ft.
-      | 2 | -1/-1 | 1d6 | +0 | +0 ft.
-      | 3 | +0/+0 | 1d6 | +0 | +10 ft.
-      | 4 | +1/+1 | 1d8 | +0 | +10 ft.
-      | 5 | +2/+2 | 1d8 | +1 | +10 ft.
-      | 6 | +3/+3 | 1d8 | +1 | +20 ft.
-      | 7 | +4/+4 | 1d8 | +1 | +20 ft.
-      | 8 | +5/+5/+0 | 1d10 | +1 | +20 ft.
-      | 9 | +6/+6/+1 | 1d10 | +1 | +30 ft.
-      | 10 | +7/+7/+2 | 1d10 | +2 | +30 ft.
-      | 11 | +8/+8/+8/+3 | 1d10 | +2 | +30 ft.
-      | 12 | +9/+9/+9/+4 | 2d6 | +2 | +40 ft.
-      | 13 | +9/+9/+9/+4 | 2d6 | +2 | +40 ft.
-      | 14 | +10/+10/+10/+5 | 2d6 | +2 | +40 ft.
-      | 15 | +11/+11/+11/+6/+1 | 2d6 | +3 | +50 ft.
-      | 16 | +12/+12/+12/+7/+2 | 2d8 | +3 | +50 ft.
-      | 17 | +12/+12/+12/+7/+2 | 2d8 | +3 | +50 ft.
-      | 18 | +13/+13/+13/+8/+3 | 2d8 | +3 | +60 ft.
-      | 19 | +14/+14/+14/+9/+4 | 2d8 | +3 | +60 ft.
-      | 20 | +15/+15/+15/+10/+5 | 2d10 | +4 | +60 ft.
+      | 1 | -2/-2 | {% die_roll 1 6 0 %} | +0 | +0 ft.
+      | 2 | -1/-1 | {% die_roll 1 6 0 %} | +0 | +0 ft.
+      | 3 | +0/+0 | {% die_roll 1 6 0 %} | +0 | +10 ft.
+      | 4 | +1/+1 | {% die_roll 1 8 0 %} | +0 | +10 ft.
+      | 5 | +2/+2 | {% die_roll 1 8 0 %} | +1 | +10 ft.
+      | 6 | +3/+3 | {% die_roll 1 8 0 %} | +1 | +20 ft.
+      | 7 | +4/+4 | {% die_roll 1 8 0 %} | +1 | +20 ft.
+      | 8 | +5/+5/+0 | {% die_roll 1 10 0 %} | +1 | +20 ft.
+      | 9 | +6/+6/+1 | {% die_roll 1 10 0 %} | +1 | +30 ft.
+      | 10 | +7/+7/+2 | {% die_roll 1 10 0 %} | +2 | +30 ft.
+      | 11 | +8/+8/+8/+3 | {% die_roll 1 10 0 %} | +2 | +30 ft.
+      | 12 | +9/+9/+9/+4 | {% die_roll 2 6 0 %} | +2 | +40 ft.
+      | 13 | +9/+9/+9/+4 | {% die_roll 2 6 0 %} | +2 | +40 ft.
+      | 14 | +10/+10/+10/+5 | {% die_roll 2 6 0 %} | +2 | +40 ft.
+      | 15 | +11/+11/+11/+6/+1 | {% die_roll 2 6 0 %} | +3 | +50 ft.
+      | 16 | +12/+12/+12/+7/+2 | {% die_roll 2 8 0 %} | +3 | +50 ft.
+      | 17 | +12/+12/+12/+7/+2 | {% die_roll 2 8 0 %} | +3 | +50 ft.
+      | 18 | +13/+13/+13/+8/+3 | {% die_roll 2 8 0 %} | +3 | +60 ft.
+      | 19 | +14/+14/+14/+9/+4 | {% die_roll 2 8 0 %} | +3 | +60 ft.
+      | 20 | +15/+15/+15/+10/+5 | {% die_roll 2 10 0 %} | +4 | +60 ft.
       |===
       | <sup>1</sup>The value shown is for Medium monks. See Table: Small or Large Monk Unarmed Damage for Small or Large monks. |<|<|<|<
       {: #monk-abilities-table .table .table-bordered .table-hover .table-striped data-caption="Table: Monk Special Abilities" }
@@ -110,12 +110,12 @@ class:
           |---
           | Level | Damage (Small Monk) | Damage (Large Monk)
           |-|-|-
-          | 1st-3rd | 1d4 | 1d8
-          | 4th-7th | 1d6 | 2d6
-          | 8th-11th | 1d8 | 2d8
-          | 12th-15th | 1d10 | 3d6
-          | 16th-19th | 2d6 | 3d8
-          | 20th | 2d8 | 4d8
+          | 1st-3rd | {% die_roll 1 4 0 %} | {% die_roll 1 8 0 %}
+          | 4th-7th | {% die_roll 1 6 0 %} | {% die_roll 2 6 0 %}
+          | 8th-11th | {% die_roll 1 8 0 %} | {% die_roll 2 8 0 %}
+          | 12th-15th | {% die_roll 1 10 0 %} | {% die_roll 3 6 0 %}
+          | 16th-19th | {% die_roll 2 6 0 %} | {% die_roll 3 8 0 %}
+          | 20th | {% die_roll 2 8 0 %} | {% die_roll 4 8 0 %}
           {: #small-large-monk-table .table .table-bordered .table-hover .table-striped data-caption="Table: Small or Large Monk Unarmed Damage" }
       - name: "Bonus Feat"
         type: ""
@@ -152,7 +152,7 @@ class:
         desc: "At 12th level or higher, a monk can slip magically between spaces, as if using the spell {% spell_link dimension-door %}, once per day. Her caster level for this effect is one-half her monk level (rounded down)."
       - name: "Diamond Soul"
         type: "Ex"
-        desc: "At 13th level, a monk gains spell resistance equal to her current monk level + 10. In order to affect the monk with a spell, a spellcaster must get a result on a caster level check (1d20 + caster level) that equals or exceeds the monk's spell resistance."
+        desc: "At 13th level, a monk gains spell resistance equal to her current monk level + 10. In order to affect the monk with a spell, a spellcaster must get a result on a caster level check ({% die_roll 1 20 0 %} + caster level) that equals or exceeds the monk's spell resistance."
       - name: "Quivering Palm"
         type: "Su"
         desc: "Starting at 15th level, a monk can set up vibrations within the body of another creature that can thereafter be fatal if the monk so desires. She can use this quivering palm attack once a week, and she must announce her intent before making her attack roll. Constructs, oozes, plants, undead, incorporeal creatures, and creatures immune to critical hits cannot be affected. Otherwise, if the monk strikes successfully and the target takes damage from the blow, the quivering palm attack succeeds. Thereafter the monk can try to slay the victim at any later time, as long as the attempt is made within a number of days equal to her monk level. To make such an attempt, the monk merely wills the target to die (a free action), and unless the target makes a Fortitude saving throw (DC 10 + &#189; the monk's level + the monk's Wis modifier), it dies. If the saving throw is successful, the target is no longer in danger from that particular quivering palm attack, but it may still be affected by another one at a later time."

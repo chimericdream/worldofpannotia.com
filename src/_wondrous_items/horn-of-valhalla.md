@@ -19,10 +19,10 @@ item:
     |---
     | d% | Type of Horn | Barbarians Summoned | Prerequisite
     |-|-|-|-
-    | 01-40 | Silver | 2d4+2, 2nd level | None
-    | 41-75 | Brass | 2d4+1, 3rd level | Spellcaster level 1st
-    | 76-90 | Bronze | 2d4, 4th level | Proficiency with all martial weapons or bardic music ability
-    | 91-100 | Iron | 1d4+1, 5th level | Proficiency with all martial weapons or bardic music ability
+    | 01-40 | Silver | {% die_roll 2 4 2 %}, 2nd level | None
+    | 41-75 | Brass | {% die_roll 2 4 1 %}, 3rd level | Spellcaster level 1st
+    | 76-90 | Bronze | {% die_roll 2 4 0 %}, 4th level | Proficiency with all martial weapons or bardic music ability
+    | 91-100 | Iron | {% die_roll 1 4 1 %}, 5th level | Proficiency with all martial weapons or bardic music ability
     {: #horn-of-valhalla-table .table .table-bordered .table-hover .table-striped data-caption="Table: Horn of Valhalla" }
 
     Summoned barbarians are constructs, not actual people (though they seem to be); they arrive with the starting equipment for barbarians. They attack anyone the possessor of the horn commands them to fight until they or their opponents are slain or until 1 hour has elapsed, whichever comes first.

@@ -91,7 +91,7 @@ The time required to don armor depends on its type; see Table: Donning Armor.
 | Shield (any) | 1 move action | n/a | 1 move action
 | Padded, leather, hide, studded leather, or chain shirt | 1 minute | 5 rounds | 1 minute<sup>1</sup>
 | Breastplate, scale mail, chainmail, banded mail, or splint mail | 4 minutes<sup>1</sup> | 1 minute | 1 minute<sup>1</sup>
-| Half-plate or full plate | 4 minutes<sup>2</sup> | 4 minutes<sup>1</sup> | 1d4+1 minutes<sup>1</sup>
+| Half-plate or full plate | 4 minutes<sup>2</sup> | 4 minutes<sup>1</sup> | {% die_roll 1 4 1 %} minutes<sup>1</sup>
 |===
 | <sup>1</sup>If the character has some help, cut this time in half. A single character doing nothing else can help one or two adjacent characters. Two characters can't help each other don armor at the same time.<br><sup>2</sup>The wearer must have help to don this armor. Without help, it can be donned only hastily. |<|<|<
 {: #donning-armor-table .table .table-bordered .table-hover .table-striped data-caption="Table: Donning Armor" }

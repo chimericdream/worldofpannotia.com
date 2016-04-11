@@ -23,9 +23,9 @@ spell:
 
     Each creature within the cone is affected according to its Hit Dice.
 
-    2 HD or less: The creature is unconscious, blinded, and stunned for 2d4 rounds, then blinded and stunned for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.)
+    2 HD or less: The creature is unconscious, blinded, and stunned for {% die_roll 2 4 0 %} rounds, then blinded and stunned for {% die_roll 1 4 0 %} rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.)
 
-    3 or 4 HD: The creature is blinded and stunned for 1d4 rounds, then stunned for 1 round.
+    3 or 4 HD: The creature is blinded and stunned for {% die_roll 1 4 0 %} rounds, then stunned for 1 round.
 
     5 or more HD: The creature is stunned for 1 round.
 

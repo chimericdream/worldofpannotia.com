@@ -20,7 +20,7 @@ spell:
     time: "17 days"
     xp: 32400
     seeds:
-      - desc: "energy (deals 10d6 each of acid, fire, electricity, sonic)"
+      - desc: "energy (deals {% die_roll 10 6 0 %} each of acid, fire, electricity, sonic)"
         dc: "76"
     factors:
       - desc: "double base area"
@@ -28,10 +28,10 @@ spell:
       - desc: "1-action casting time"
         dc: "+20"
     mitigatingFactors:
-      - desc: "10d6 backlash"
+      - desc: "{% die_roll 10 6 0 %} backlash"
         dc: "-10"
       - desc: "burn 200 XP"
         dc: "-2"
   description: |
-    A hellball deals 10d6 points of acid damage, 10d6 points of fire damage, 10d6 points of electricity damage, and 10d6 points of sonic damage to all creatures within the area. Unattended objects also take this damage. The character takes 10d6 points of damage upon casting (in addition to burning 200 XP). The character points his or her finger and determine the range (distance and height) at which the hellball is to detonate. A sun-bright, fist-sized globe of energy streaks forth and, unless it impacts a material body or solid barrier prior to attaining the indicated range, expands into its full area.
+    A hellball deals {% die_roll 10 6 0 %} points of acid damage, {% die_roll 10 6 0 %} points of fire damage, {% die_roll 10 6 0 %} points of electricity damage, and {% die_roll 10 6 0 %} points of sonic damage to all creatures within the area. Unattended objects also take this damage. The character takes {% die_roll 10 6 0 %} points of damage upon casting (in addition to burning 200 XP). The character points his or her finger and determine the range (distance and height) at which the hellball is to detonate. A sun-bright, fist-sized globe of energy streaks forth and, unless it impacts a material body or solid barrier prior to attaining the indicated range, expands into its full area.
 ---

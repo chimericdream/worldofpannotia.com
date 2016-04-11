@@ -23,7 +23,7 @@ item:
 
      * _Dominate Person:_ Touched foe is recipient of a {% spell_link dominate-person %} spell, if the wielder so commands (Will save DC 24). The wielder must choose to use this power and then succeed with a melee touch attack to activate the power. If the attack fails, the effect is lost.
      * _Stun:_ Upon command, all enemies viewing the rod are stunned, as per the {% spell_link power-word-stun %} spell (10-foot maximum range, Will save DC 24). Invoking this power is a standard action.
-     * _Damage:_ Upon command, the rod deals 10d8 points of damage to an opponent on a successful touch attack and cures the wielder of a like amount of damage (Will save DC 26). The wielder must choose to use this power before attacking, as with {% spell_link dominate-person %} .
+     * _Damage:_ Upon command, the rod deals {% die_roll 10 8 0 %} points of damage to an opponent on a successful touch attack and cures the wielder of a like amount of damage (Will save DC 26). The wielder must choose to use this power before attacking, as with {% spell_link dominate-person %} .
 
     The following weapon uses of the rod have no limits on their use.
 

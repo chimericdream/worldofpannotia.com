@@ -31,7 +31,7 @@ spell:
     | Hit Points | Duration
     |-|-
     | 50 or less | Permanent
-    | 51-100 | 1d4+1 minutes
-    | 101-200 | 1d4+1 rounds
+    | 51-100 | {% die_roll 1 4 1 %} minutes
+    | 101-200 | {% die_roll 1 4 1 %} rounds
     {: .table .table-bordered .table-hover }
 ---

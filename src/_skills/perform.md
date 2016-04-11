@@ -27,11 +27,11 @@ skill:
     |---
     | {% skill_link perform %} DC | Performance
     |-|-
-    | 10 | Routine performance. Trying to earn money by playing in public is essentially begging. You can earn 1d10 cp/day.
-    | 15 | Enjoyable performance. In a prosperous city, you can earn 1d10 sp/day.
-    | 20 | Great performance. In a prosperous city, you can earn 3d10 sp/day. In time, you may be invited to join a professional troupe and may develop a regional reputation.
-    | 25 | Memorable performance. In a prosperous city, you can earn 1d6 gp/day. In time, you may come to the attention of noble patrons and develop a national reputation.
-    | 30 | Extraordinary performance. In a prosperous city, you can earn 3d6 gp/day. In time, you may draw attention from distant potential patrons, or even from extraplanar beings.
+    | 10 | Routine performance. Trying to earn money by playing in public is essentially begging. You can earn {% die_roll 1 10 0 %} cp/day.
+    | 15 | Enjoyable performance. In a prosperous city, you can earn {% die_roll 1 10 0 %} sp/day.
+    | 20 | Great performance. In a prosperous city, you can earn {% die_roll 3 10 0 %} sp/day. In time, you may be invited to join a professional troupe and may develop a regional reputation.
+    | 25 | Memorable performance. In a prosperous city, you can earn {% die_roll 1 6 0 %} gp/day. In time, you may come to the attention of noble patrons and develop a national reputation.
+    | 30 | Extraordinary performance. In a prosperous city, you can earn {% die_roll 3 6 0 %} gp/day. In time, you may draw attention from distant potential patrons, or even from extraplanar beings.
     {: #perform-dc-table .table .table-bordered .table-hover .table-striped data-caption="Table: Perform DCs" }
 
     A masterwork musical instrument gives you a +2 circumstance bonus on {% skill_link perform %} checks that involve its use.

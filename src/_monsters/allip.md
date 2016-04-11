@@ -40,7 +40,7 @@ NE Medium Undead (incorporeal)
 
 **Speed** fly 30 ft. (perfect)
 
-**Melee** incorporeal touch +3 (1d4 Wisdom drain)
+**Melee** incorporeal touch +3 ({% die_roll 1 4 0 %} Wisdom drain)
 
 **Space** 5 ft.; **Reach** 5 ft.
 
@@ -62,13 +62,13 @@ NE Medium Undead (incorporeal)
 
 <h4>Spells, Psionics, Special Qualities, &amp; Special Abilities</h4>
 
-**Babble (Su):** An allip constantly mutters and whines to itself, creating a hypnotic effect. All sane creatures within 60 feet of the allip must succeed on a DC 16 Will save or be affected as though by a hypnotism spell for 2d4 rounds. This is a sonic mind-affecting compulsion effect.
+**Babble (Su):** An allip constantly mutters and whines to itself, creating a hypnotic effect. All sane creatures within 60 feet of the allip must succeed on a DC 16 Will save or be affected as though by a hypnotism spell for {% die_roll 2 4 0 %} rounds. This is a sonic mind-affecting compulsion effect.
 
 Creatures that successfully save cannot be affected by the same allip's babble for 24 hours. The save DC is Charisma-based.
 
-**Madness (Su):** Anyone targeting an allip with a thought detection, mind control, or telepathic ability makes direct contact with its tortured mind and takes 1d4 points of Wisdom damage.
+**Madness (Su):** Anyone targeting an allip with a thought detection, mind control, or telepathic ability makes direct contact with its tortured mind and takes {% die_roll 1 4 0 %} points of Wisdom damage.
 
-**Wisdom Drain (Su):** An allip causes 1d4 points of Wisdom drain each time it hits with its incorporeal touch attack. On each such successful attack, it gains 5 temporary hit points.
+**Wisdom Drain (Su):** An allip causes {% die_roll 1 4 0 %} points of Wisdom drain each time it hits with its incorporeal touch attack. On each such successful attack, it gains 5 temporary hit points.
 
 <hr />
 

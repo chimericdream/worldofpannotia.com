@@ -31,7 +31,7 @@ ability:
 
     As with any disease, a psionic character who is injured or attacked by a creature carrying a disease or parasite, or who otherwise has contact with contaminated material, must make an immediate Fortitude save. On a success, the disease fails to gain a foothold. On a failure, the character takes damage (or incurs the specified effect) after the incubation period. Once per day afterward, the afflicted character must make a successful Fortitude save to avoid repeating the damage. Two successful saving throws in a row indicate she has fought off the disease.
 
-    _Cerebral Parasites:_ Spread by contact with infected psionic creatures; contact; DC 15; incubation 1d4 days; damage 1d8 power points.
+    _Cerebral Parasites:_ Spread by contact with infected psionic creatures; contact; DC 15; incubation {% die_roll 1 4 0 %} days; damage {% die_roll 1 8 0 %} power points.
 
     Cerebral parasites are tiny organisms, undetectable to normal sight. An afflicted character may not even know he carries the parasites—until he discovers he has fewer power points for the day than expected. Psionic creatures with cerebral parasites are limited to using each of their known powers only once per day (instead of freely manifesting them). See the note about diseases under Cascade Flu, above.
 
@@ -54,18 +54,18 @@ ability:
     |---
     | Disease | Infection DC | Incubation | Damage
     |-|-|-|-
-    | _Blinding sickness_ | Ingested 16 | 1d3 days | 1d4 Str<sup>1</sup>
-    | _Cackle fever_ | Inhaled 16 | 1 day | 1d6 Wis
+    | _Blinding sickness_ | Ingested 16 | {% die_roll 1 3 0 %} days | {% die_roll 1 4 0 %} Str<sup>1</sup>
+    | _Cackle fever_ | Inhaled 16 | 1 day | {% die_roll 1 6 0 %} Wis
     | _Cascade flu_ | Injury 13 | 1 day | psionic cascade
-    | _Cerebral parasites_ | Contact 15 | 1d4 days | 1d8 power points
-    | _Demon fever_ | Injury 18 | 1 day | 1d6 Con<sup>2</sup>
-    | _Devil chills_<sup>3</sup> | Injury 14 | 1d4 days | 1d4 Str
-    | _Filth fever_ | Injury 12 | 1d3 days | 1d3 Dex, 1d3 Con
-    | _Mindfire_ | Inhaled 12 | 1 day | 1d4 Int
-    | _Mummy rot_<sup>4</sup> | Contact 20 | 1 day | 1d6 Con
-    | _Red ache_ | Injury 15 | 1d3 days | 1d6 Str
-    | _Shakes_ | Contact 13 | 1 day | 1d8 Dex
-    | _Slimy doom_ | Contact 14 | 1 day | 1d4 Con<sup>2</sup>
+    | _Cerebral parasites_ | Contact 15 | {% die_roll 1 4 0 %} days | {% die_roll 1 8 0 %} power points
+    | _Demon fever_ | Injury 18 | 1 day | {% die_roll 1 6 0 %} Con<sup>2</sup>
+    | _Devil chills_<sup>3</sup> | Injury 14 | {% die_roll 1 4 0 %} days | {% die_roll 1 4 0 %} Str
+    | _Filth fever_ | Injury 12 | {% die_roll 1 3 0 %} days | {% die_roll 1 3 0 %} Dex, {% die_roll 1 3 0 %} Con
+    | _Mindfire_ | Inhaled 12 | 1 day | {% die_roll 1 4 0 %} Int
+    | _Mummy rot_<sup>4</sup> | Contact 20 | 1 day | {% die_roll 1 6 0 %} Con
+    | _Red ache_ | Injury 15 | {% die_roll 1 3 0 %} days | {% die_roll 1 6 0 %} Str
+    | _Shakes_ | Contact 13 | 1 day | {% die_roll 1 8 0 %} Dex
+    | _Slimy doom_ | Contact 14 | 1 day | {% die_roll 1 4 0 %} Con<sup>2</sup>
     |===
     | <sup>1</sup> Each time the victim takes 2 or more damage from the disease, he must make another Fortitude save or be permanently blinded.<br><sup>2</sup> When damaged, character must succeed on another saving throw or 1 point of damage is permanent drain instead.<br><sup>3</sup> The victim must make three successful Fortitude saving throws in a row to recover from devil chills.<br><sup>4</sup> Successful saves do not allow the character to recover. Only magical healing can save the character. |<|<|<
     {: #disease-table .table .table-bordered .table-hover .table-striped data-caption="Table: Diseases" }

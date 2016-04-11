@@ -19,5 +19,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This _+3 scimitar_, when used outdoors in a temperate climate, grants its wielder the use of the {% feat_link cleave %} feat and deals an extra 1d6 points of damage.
+    This _+3 scimitar_, when used outdoors in a temperate climate, grants its wielder the use of the {% feat_link cleave %} feat and deals an extra {% die_roll 1 6 0 %} points of damage.
 ---

@@ -31,6 +31,6 @@ item:
     _Tree:_ A token that causes a great oak to spring into being (5-foot diameter trunk, 60-foot height, 40-foot top diameter). This is an instantaneous effect.
     {: #tree-token }
 
-    _Whip:_ A token that forms into a huge leather whip and wields itself against any opponent desired just like a dancing weapon. The weapon has a +10 base attack bonus, does 1d6+1 points of damage, has a +1 enhancement bonus on attack and damage rolls, and a makes a free grapple attack (with a +15 attack bonus) if it hits. The whip lasts no longer than 1 hour.
+    _Whip:_ A token that forms into a huge leather whip and wields itself against any opponent desired just like a dancing weapon. The weapon has a +10 base attack bonus, does {% die_roll 1 6 1 %} points of damage, has a +1 enhancement bonus on attack and damage rolls, and a makes a free grapple attack (with a +15 attack bonus) if it hits. The whip lasts no longer than 1 hour.
     {: #whip-token }
 ---

@@ -25,5 +25,5 @@ spell:
   savingThrow:        "Reflex half"
   spellResistance:    "Yes"
   description:        |
-    When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame. The raging flames do not harm natural vegetation, ground cover, and any plant creatures in the area that you wish to exclude from damage. Any other creature within the area takes 1d6 points of fire damage per caster level (maximum 20d6).
+    When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame. The raging flames do not harm natural vegetation, ground cover, and any plant creatures in the area that you wish to exclude from damage. Any other creature within the area takes {% die_roll 1 6 0 %} points of fire damage per caster level (maximum {% die_roll 20 6 0 %}).
 ---

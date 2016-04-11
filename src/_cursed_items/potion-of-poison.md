@@ -18,5 +18,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This potion has lost its once beneficial magical abilities and has become a potent poison. The imbiber must make a DC 16 Fortitude save or take 1d10 points of Constitution damage. A minute later he must save again (DC 16) or take 1d10 points of Constitution damage.
+    This potion has lost its once beneficial magical abilities and has become a potent poison. The imbiber must make a DC 16 Fortitude save or take {% die_roll 1 10 0 %} points of Constitution damage. A minute later he must save again (DC 16) or take {% die_roll 1 10 0 %} points of Constitution damage.
 ---

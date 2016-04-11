@@ -23,11 +23,11 @@ spell:
   description:        |
     This spell creates a severe blast of air (approximately 50 mph) that originates from you, affecting all creatures in its path.
 
-    A Tiny or smaller creature on the ground is knocked down and rolled 1d4x10 feet, taking 1d4 points of nonlethal damage per 10 feet. If flying, a Tiny or smaller creature is blown back 2d6x10 feet and takes 2d6 points of nonlethal damage due to battering and buffeting.
+    A Tiny or smaller creature on the ground is knocked down and rolled {% die_roll 1 4 0 %}x10 feet, taking {% die_roll 1 4 0 %} points of nonlethal damage per 10 feet. If flying, a Tiny or smaller creature is blown back {% die_roll 2 6 0 %}x10 feet and takes {% die_roll 2 6 0 %} points of nonlethal damage due to battering and buffeting.
 
-    Small creatures are knocked prone by the force of the wind, or if flying are blown back 1d6x10 feet.
+    Small creatures are knocked prone by the force of the wind, or if flying are blown back {% die_roll 1 6 0 %}x10 feet.
 
-    Medium creatures are unable to move forward against the force of the wind, or if flying are blown back 1d6x5 feet.
+    Medium creatures are unable to move forward against the force of the wind, or if flying are blown back {% die_roll 1 6 0 %}x5 feet.
 
     Large or larger creatures may move normally within a gust of wind effect.
 

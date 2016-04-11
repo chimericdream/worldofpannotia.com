@@ -25,5 +25,5 @@ item:
 
     When using the {% spell_link planar-ally-greater %} power, the character must still bargain with the called creature.
 
-    In addition to its other powers, a _staff of planar might_ is a +_5 outsider bane quarterstaff_ (roll 1d4 to determine what alignment of outsiders the staff's bane power works against: 1=chaotic, 2=evil, 3=good, 4=lawful). After all charges are used up from a _staff of planar might,_ it remains a +_5 quarterstaff_ with no special abilities.
+    In addition to its other powers, a _staff of planar might_ is a +_5 outsider bane quarterstaff_ (roll {% die_roll 1 4 0 %} to determine what alignment of outsiders the staff's bane power works against: 1=chaotic, 2=evil, 3=good, 4=lawful). After all charges are used up from a _staff of planar might,_ it remains a +_5 quarterstaff_ with no special abilities.
 ---

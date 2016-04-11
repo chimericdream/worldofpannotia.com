@@ -20,5 +20,5 @@ item:
 
     The wearer of a _robe of eyes_ gains a +10 competence bonus on {% skill_link search %} checks and {% skill_link spot %} checks. She retains her Dexterity bonus to AC even when flat-footed, and she can't be flanked. However, she is not able to avert her eyes or close her eyes when confronted by a creature with a gaze attack.
 
-    A {% spell_link light %} or {% spell_link continual-flame %} spell cast directly on a _robe of eyes_ causes it to be blinded for 1d3 minutes. A {% spell_link daylight %} spell blinds it for 2d4 minutes.
+    A {% spell_link light %} or {% spell_link continual-flame %} spell cast directly on a _robe of eyes_ causes it to be blinded for {% die_roll 1 3 0 %} minutes. A {% spell_link daylight %} spell blinds it for {% die_roll 2 4 0 %} minutes.
 ---

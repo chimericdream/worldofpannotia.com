@@ -32,9 +32,9 @@ Always Good (any) Medium Outsider (Angel, Extraplanar, Good)
 
 **Speed** 50 ft., fly 100 ft. (good)
 
-**Melee** _+3 heavy mace of destruction_ +22/+17/+12 (1d8+13 plus stun)
+**Melee** _+3 heavy mace of destruction_ +22/+17/+12 ({% die_roll 1 8 13 %} plus stun)
 
-**Melee** slam +19 (1d8+10)
+**Melee** slam +19 ({% die_roll 1 8 10 %})
 
 **Space** 5 ft.; **Reach** 5 ft.
 
@@ -60,7 +60,7 @@ Always Good (any) Medium Outsider (Angel, Extraplanar, Good)
 
 <h4>Spells, Psionics, Special Qualities, &amp; Special Abilities</h4>
 
-**Stun (Su):** If an astral deva strikes an opponent twice in one round with its mace, that creature must succeed on a DC 23 fortitude save or be stunned for 1d6 rounds. The save DC is Strength-based.
+**Stun (Su):** If an astral deva strikes an opponent twice in one round with its mace, that creature must succeed on a DC 23 fortitude save or be stunned for {% die_roll 1 6 0 %} rounds. The save DC is Strength-based.
 
 **Uncanny Dodge (Ex):** An astral deva retains its Dexterity bonus to AC when flat-footed, and it cannot be flanked except by a rogue of at least 16th level. It can flank characters with the uncanny dodge ability as if it were a 12th-level rogue.
 

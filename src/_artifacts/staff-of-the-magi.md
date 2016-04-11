@@ -21,11 +21,11 @@ artifact:
     The following powers drain 1 charge per usage:
 
      * _Dispel magic_
-     * {% spell_link fireball %} (10d6 damage, Reflex DC 17 half )
+     * {% spell_link fireball %} ({% die_roll 10 6 0 %} damage, Reflex DC 17 half )
      * {% spell_link ice-storm %}
      * {% spell_link invisibility %}
      * _Knock_
-     * {% spell_link lightning-bolt %} (10d6 damage, Reflex DC 17 half )
+     * {% spell_link lightning-bolt %} ({% die_roll 10 6 0 %} damage, Reflex DC 17 half )
      * _Passwall_
      * {% spell_link pyrotechnics %} (Will or Fortitude DC 16 negates)
      * _Wall of fire_

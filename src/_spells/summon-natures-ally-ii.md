@@ -15,7 +15,7 @@ spell:
       level: 2
   effect:             "One or more creatures, no two of which can be more than 30 ft. apart"
   description:        |
-    This spell functions like summon nature's ally I, except that you can summon one 2nd-level creature or 1d3 1st-level creatures of the same kind.
+    This spell functions like summon nature's ally I, except that you can summon one 2nd-level creature or {% die_roll 1 3 0 %} 1st-level creatures of the same kind.
 
     |---
     | Summoned Creature

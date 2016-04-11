@@ -26,7 +26,7 @@ spell:
       - desc: "fortify"
         dc: "27"
     factors:
-      - desc: "allow vault to \"grow\" to proper size in 4d4 days"
+      - desc: "allow vault to \"grow\" to proper size in {% die_roll 4 4 0 %} days"
         dc: "ad hoc +20"
       - desc: "increase HD of object by 92"
         dc: "+184"
@@ -41,7 +41,7 @@ spell:
         dc: "-20"
       - desc: "increase casting time by 100 days"
         dc: "-200"
-      - desc: "16d6 backlash"
+      - desc: "{% die_roll 16 6 0 %} backlash"
         dc: "-16"
       - desc: "seven additional casters contributing one epic spell slot"
         dc: "-133"
@@ -52,5 +52,5 @@ spell:
       - desc: "burn 20,000 XP per epic caster"
         dc: "-1,600"
   description: |
-    The character creates a construct known as a living vault to protect and hide his or her treasures. Upon completion, the vault initially measures only 5 feet on a side, but it gradually increases to its proper size over the following 4d4 days. The vault is attuned to the character, allowing him or her alone entrance and egress in a manner similar to a dimension door spell. When the character desires the vault to hide itself, he or she gives it a simple command. To summon the vault, the character may cast a sending spell or arrange some other manner to contact it.
+    The character creates a construct known as a living vault to protect and hide his or her treasures. Upon completion, the vault initially measures only 5 feet on a side, but it gradually increases to its proper size over the following {% die_roll 4 4 0 %} days. The vault is attuned to the character, allowing him or her alone entrance and egress in a manner similar to a dimension door spell. When the character desires the vault to hide itself, he or she gives it a simple command. To summon the vault, the character may cast a sending spell or arrange some other manner to contact it.
 ---

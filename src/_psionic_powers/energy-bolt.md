@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 5
   description: |
-    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You release a powerful stroke of energy of the chosen type that deals 5d6 points of damage to every creature or object within the area. The beam begins at your fingertips.
+    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You release a powerful stroke of energy of the chosen type that deals {% die_roll 5 6 0 %} points of damage to every creature or object within the area. The beam begins at your fingertips.
 
     Cold: A bolt of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold bolt is a Fortitude save instead of a Reflex save.
 

@@ -34,11 +34,11 @@ item:
     | 3rd | 750 gp
     {: #crawling-tattoos-table .table .table-bordered .table-hover .table-striped data-caption="Table: Crawling Tattoo Prices by Power Level" }
 
-    _Crawling Tattoo of Concussion_: This crawling tattoo delivers a concussion effect, dealing 1d6 points of damage to a creature hit by its touch attack.
+    _Crawling Tattoo of Concussion_: This crawling tattoo delivers a concussion effect, dealing {% die_roll 1 6 0 %} points of damage to a creature hit by its touch attack.
 
     Faint psychokinesis; ML 1st; Craft Universal Item, _concussion blast_; Price 50 gp.
 
-    _Crawling Tattoo of Energy Bolt_: Each of these tattoos is keyed to one energy type: cold, electricity, fire, or sonic. This crawling tattoo delivers the {% power_link energy-bolt %} power, dealing 5d6 points of damage of its energy type.
+    _Crawling Tattoo of Energy Bolt_: Each of these tattoos is keyed to one energy type: cold, electricity, fire, or sonic. This crawling tattoo delivers the {% power_link energy-bolt %} power, dealing {% die_roll 5 6 0 %} points of damage of its energy type.
 
     Faint psychokinesis; ML 5th; Craft Universal Item, {% power_link energy-bolt %}; Price 750 gp.
 ---

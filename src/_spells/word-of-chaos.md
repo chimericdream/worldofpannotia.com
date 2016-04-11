@@ -35,11 +35,11 @@ spell:
     | Up to caster level -10 | Killed, confused, stunned, deafened
     {: .table .table-bordered .table-hover }
 
-    Deafened: The creature is deafened for 1d4 rounds.
+    Deafened: The creature is deafened for {% die_roll 1 4 0 %} rounds.
 
     Stunned: The creature is stunned for 1 round.
 
-    Confused: The creature is confused, as by the confusion spell, for 1d10 minutes. This is a mind-affecting enchantment effect.
+    Confused: The creature is confused, as by the confusion spell, for {% die_roll 1 10 0 %} minutes. This is a mind-affecting enchantment effect.
 
     Killed: Living creatures die. Undead creatures are destroyed.
 

@@ -10,34 +10,18 @@
 {% endunless %}
 
 <p><em>{% for discipline in power.disciplines | sort: discipline["title"] %}{{ discipline.name }}{% if discipline.subdisciplines.size > 0 %} ({{ discipline.subdisciplines | sort | join:', ' }}){% endif %}{% if discipline.descriptors.size > 0 %} [{{ discipline.descriptors | sort | join:'] [' }}]{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</em></p>
-<p><strong>Displays:</strong> {{ power.displays | sort | join:', ' }}</p>
-<p><strong>Manifesting Time:</strong> {{ power.manifestingTime }}</p>
-<p><strong>Range:</strong> {{ power.range }}</p>
-{% if power.targetOrEffect != "" %}
-<p><strong>Target or Effect:</strong> {{ power.targetOrEffect }}</p>
-{% endif %}
-{% if power.effect != "" %}
-<p><strong>Effect:</strong> {{ power.effect }}</p>
-{% endif %}
-{% if power.target != "" %}
-<p><strong>Target:</strong> {{ power.target }}</p>
-{% endif %}
-{% if power.area != "" %}
-<p><strong>Area</strong> {{ power.area }}</p>
-{% endif %}
-<p><strong>Duration:</strong> {{ power.duration }}{% if power.dismissable %} (D){% endif %}</p>
-{% if power.savingThrow != "" %}
-<p><strong>Saving Throw:</strong> {{ power.savingThrow }}</p>
-{% endif %}
-{% if power.powerResistance != "" %}
-<p><strong>Power Resistance:</strong> {{ power.powerResistance }}</p>
-{% endif %}
-{% if power.xpCost > 0 %}
-<p><strong>XP Cost:</strong> {{ power.xpCost | number_format }} XP</p>
-{% endif %}
-{% if power.xpCostSpecial != "" %}
-<p><strong>XP Cost:</strong> {{ power.xpCostSpecial }}</p>
-{% endif %}
+{% if power.displays.size > 0 %}<p><strong>Displays:</strong> {{ power.displays | sort | join:', ' }}</p>{% endif %}
+{% if power.manifestingTime != "" %}<p><strong>Manifesting Time:</strong> {{ power.manifestingTime }}</p>{% endif %}
+{% if power.range != "" %}<p><strong>Range:</strong> {{ power.range }}</p>{% endif %}
+{% if power.targetOrEffect != "" %}<p><strong>Target or Effect:</strong> {{ power.targetOrEffect }}</p>{% endif %}
+{% if power.effect != "" %}<p><strong>Effect:</strong> {{ power.effect }}</p>{% endif %}
+{% if power.target != "" %}<p><strong>Target:</strong> {{ power.target }}</p>{% endif %}
+{% if power.area != "" %}<p><strong>Area</strong> {{ power.area }}</p>{% endif %}
+{% if power.duration != "" %}<p><strong>Duration:</strong> {{ power.duration }}{% if power.dismissable %} (D){% endif %}</p>{% endif %}
+{% if power.savingThrow != "" %}<p><strong>Saving Throw:</strong> {{ power.savingThrow }}</p>{% endif %}
+{% if power.powerResistance != "" %}<p><strong>Power Resistance:</strong> {{ power.powerResistance }}</p>{% endif %}
+{% if power.xpCost > 0 %}<p><strong>XP Cost:</strong> {{ power.xpCost | number_format }} XP</p>{% endif %}
+{% if power.xpCostSpecial != "" %}<p><strong>XP Cost:</strong> {{ power.xpCostSpecial }}</p>{% endif %}
 {{ power.description | pmarkdownify | liquify }}
 {% if power.augment != "" %}
 <h4>Augment:</h4>
@@ -45,8 +29,6 @@
 {% endif %}
 {% endcapture %}
 
-{% if power.fluffText != "" %}
-<p><em>{{ power.fluffText }}</em></p>
-{% endif %}
+{% if power.fluffText != "" %}<p><em>{{ power.fluffText }}</em></p>{% endif %}
 
 {% include _other/ogc-block.html ogc_content=ogc %}

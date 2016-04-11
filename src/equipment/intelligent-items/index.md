@@ -79,7 +79,7 @@ The table above determines how many lesser and greater powers an intelligent ite
 | 84-86 | Item can activate {% spell_link zone-of-truth %} 3/day | +6,500 gp
 | 87-89 | Item can use {% spell_link daze-monster %} 3/day | +6,500 gp
 | 90-95 | Item can use {% spell_link locate-object %} 3/day | +6,500 gp
-| 96-100 | Item can use {% spell_link cure-moderate-wounds %} (2d8+3) on wielder 3/day | +6,500 gp
+| 96-100 | Item can use {% spell_link cure-moderate-wounds %} ({% die_roll 2 8 3 %}) on wielder 3/day | +6,500 gp
 {: #intelligent-lesser-powers-table .table .table-bordered .table-hover .table-striped data-caption="Table: Intelligent Item Lesser Powers" }
 
 All powers function at the direction of the item, although intelligent items generally follow the wishes of their owner. Activating a power or concentrating on an active one is a standard action the item takes.
@@ -150,13 +150,13 @@ A dedicated power operates only when an intelligent item is in pursuit of its sp
 | 32-36 | Item can use {% spell_link contagion %} (heightened to 4th level) as touch attack | +56,000 gp
 | 37-43 | Item can use {% spell_link poison %} (heightened to 4th level) as touch attack | +56,000 gp
 | 44-50 | Item can use {% spell_link rusting-grasp %} as touch attack | +56,000 gp
-| 51-56 | Item can cast 10d6 {% spell_link lightning-bolt %} | +60,000 gp
-| 57-62 | Item can cast 10d6 {% spell_link fireball %} | +60,000 gp
+| 51-56 | Item can cast {% die_roll 10 6 0 %} {% spell_link lightning-bolt %} | +60,000 gp
+| 57-62 | Item can cast {% die_roll 10 6 0 %} {% spell_link fireball %} | +60,000 gp
 | 63-68 | Wielder gets +2 luck bonus on attacks, saves, and checks | +80,000 gp
 | 69-74 | Item can use {% spell_link inflict-light-wounds-mass %} | +81,000 gp
 | 75-81 | Item can use {% spell_link song-of-discord %} | +81,000 gp
 | 82-87 | Item can use {% spell_link prying-eyes %} | +81,000 gp
-| 88-92 | Item can cast 15d6 {% spell_link shout-greater %} 3/day | +130,000 gp
+| 88-92 | Item can cast {% die_roll 15 6 0 %} {% spell_link shout-greater %} 3/day | +130,000 gp
 | 93-98 | Item can use {% spell_link waves-of-exhaustion %} | +164,000 gp
 | 99-100 | Item can use {% spell_link true-resurrection %} on wielder, once per month | +200,000 gp
 {: #item-powers-table .table .table-bordered .table-hover .table-striped data-caption="Table: Special Purpose Item Dedicated Powers" }

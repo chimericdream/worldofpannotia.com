@@ -33,12 +33,12 @@ class:
       | 2 | +2 | +0 | +3 | +0 | Improved reaction +2
       | 3 | +3 | +1 | +3 | +1 | Enhanced mobility
       | 4 | +4 | +1 | +4 | +1 | Grace
-      | 5 | +5 | +1 | +4 | +1 | Precise strike +1d6
+      | 5 | +5 | +1 | +4 | +1 | Precise strike +{% die_roll 1 6 0 %}
       | 6 | +6 | +2 | +5 | +2 | Acrobatic charge
       | 7 | +7 | +2 | +5 | +2 | Elaborate parry
       | 8 | +8 | +2 | +6 | +2 | Improved reaction +4
       | 9 | +9 | +3 | +6 | +3 | Deflect Arrows
-      | 10 | +10 | +3 | +7 | +3 | Precise strike +2d6
+      | 10 | +10 | +3 | +7 | +3 | Precise strike +{% die_roll 2 6 0 %}
       {: #duelist-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Duelist" }
     classFeatures:
       - name: "Weapon and Armor Proficiency"
@@ -66,9 +66,9 @@ class:
       - name: "Precise Strike"
         type: "Ex"
         desc: |
-          At 5th level, a duelist gains the ability to strike precisely with a light or one-handed piercing weapon, gaining an extra 1d6 damage added to her normal damage roll.
+          At 5th level, a duelist gains the ability to strike precisely with a light or one-handed piercing weapon, gaining an extra {% die_roll 1 6 0 %} damage added to her normal damage roll.
 
-          When making a precise strike, a duelist cannot attack with a weapon in her other hand or use a shield. A duelist's precise strike only works against living creatures with discernible anatomies. Any creature that is immune to critical hits is not vulnerable to a precise strike, and any item or ability that protects a creature from critical hits also protects a creature from a precise strike. At 10th level, the extra damage on a precise strike increases to +2d6.
+          When making a precise strike, a duelist cannot attack with a weapon in her other hand or use a shield. A duelist's precise strike only works against living creatures with discernible anatomies. Any creature that is immune to critical hits is not vulnerable to a precise strike, and any item or ability that protects a creature from critical hits also protects a creature from a precise strike. At 10th level, the extra damage on a precise strike increases to +{% die_roll 2 6 0 %}.
       - name: "Acrobatic Charge"
         type: "Ex"
         desc: |

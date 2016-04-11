@@ -77,7 +77,7 @@ class:
 
       **Cold (Planar):** This kind of planar terrain mastery provides you with resistance to cold 20. You gain a +1 insight bonus on attack and damage rolls against outsiders and elementals with the cold subtype.
 
-      **Shifting (Planar):** You instinctively anticipate shifts in the reality of the plane that bring you closer to your destination, giving you the spell-like ability to use {% spell_link dimension-door %} (as the spell cast at your character level) once every 1d4 rounds. You gain a +1 insight bonus on attack and damage rolls against outsiders and elementals native to a shifting plane.
+      **Shifting (Planar):** You instinctively anticipate shifts in the reality of the plane that bring you closer to your destination, giving you the spell-like ability to use {% spell_link dimension-door %} (as the spell cast at your character level) once every {% die_roll 1 4 0 %} rounds. You gain a +1 insight bonus on attack and damage rolls against outsiders and elementals native to a shifting plane.
 
       **Aligned (Planar):** You have the instinctive ability to mimic the dominant alignment of the plane. You incur none of the penalties for having an alignment at odds with that of the plane, and spells and abilities that harm those of the opposite alignment don't affect you. You have the dominant alignment of the plane with regard to magic, but your behavior and any alignment-related Class Features you have are unaffected.
 

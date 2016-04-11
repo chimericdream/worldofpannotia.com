@@ -14,5 +14,5 @@ item:
   marketPriceSpecial: ""
   weight: ""
   description: |
-    On command, this elaborate golden headband projects a blast of {% spell_link searing-light %} (5d8 maximized for 40 points of damage) once per day.
+    On command, this elaborate golden headband projects a blast of {% spell_link searing-light %} ({% die_roll 5 8 0 %} maximized for 40 points of damage) once per day.
 ---

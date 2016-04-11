@@ -18,7 +18,7 @@ spell:
   savingThrow:        "None"
   spellResistance:    "Yes"
   description:        |
-    A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.
+    A missile of magical energy darts forth from your fingertip and strikes its target, dealing {% die_roll 1 4 1 %} points of force damage.
 
     The missile strikes unerringly, even if the target is in melee combat or has less than total cover or total concealment. Specific parts of a creature can't be singled out. Inanimate objects are not damaged by the spell.
 

@@ -49,7 +49,7 @@ class:
       - name: "Fire Lash"
         type: "Ps"
         desc: |
-          A pyrokineticist gains the ability to fashion a 15-foot-long whip of fire from unstable ectoplasm as a move-equivalent action. She takes no damage from a fire lash she creates, and if she releases her hold, it immediately dissipates. The lash deals 1d8 points of fire damage to a target within 15 feet on a successful ranged touch attack. A pyro can take Weapon Focus and Weapon Specialization (if she otherwise meets the prerequisites) in conjunction with the fire lash, as well as any feats that apply to the use of a standard whip. The whip remains in existence as long as the pyrokineticist holds it.
+          A pyrokineticist gains the ability to fashion a 15-foot-long whip of fire from unstable ectoplasm as a move-equivalent action. She takes no damage from a fire lash she creates, and if she releases her hold, it immediately dissipates. The lash deals {% die_roll 1 8 0 %} points of fire damage to a target within 15 feet on a successful ranged touch attack. A pyro can take Weapon Focus and Weapon Specialization (if she otherwise meets the prerequisites) in conjunction with the fire lash, as well as any feats that apply to the use of a standard whip. The whip remains in existence as long as the pyrokineticist holds it.
       - name: "Fire Adaptation"
         type: "Ex"
         desc: |
@@ -57,19 +57,19 @@ class:
       - name: "Hand Afire"
         type: "Ps"
         desc: |
-          A pyrokineticist of 2nd level or higher can activate this ability as a move-equivalent action. Flames engulf one of the pyrokineticist's hands (but do her no harm). Her unarmed attacks with that hand are treated as armed. Such attacks deal an extra 2d6 points of fire damage.
+          A pyrokineticist of 2nd level or higher can activate this ability as a move-equivalent action. Flames engulf one of the pyrokineticist's hands (but do her no harm). Her unarmed attacks with that hand are treated as armed. Such attacks deal an extra {% die_roll 2 6 0 %} points of fire damage.
       - name: "Bolt of Fire"
         type: "Ps"
         desc: |
-          Starting at 3rd level, as a standard action, a pyrokineticist can launch a bolt of psionically manifested fire at any target in line of sight within 60 feet. This effect is treated as a ranged touch attack and deals 1d6 points of fire damage for each class level the pyro has.
+          Starting at 3rd level, as a standard action, a pyrokineticist can launch a bolt of psionically manifested fire at any target in line of sight within 60 feet. This effect is treated as a ranged touch attack and deals {% die_roll 1 6 0 %} points of fire damage for each class level the pyro has.
       - name: "Weapon Afire"
         type: "Ps"
         desc: |
-          At 4th level and higher, a pyrokineticist can activate this ability as a move-equivalent action. Flames that harm neither her nor the weapon engulf one weapon she holds (which can be a projectile such as a stone, bullet, arrow, or bolt). The weapon deals an extra 2d6 points of fire damage on a successful hit. The weapon retains this effect for as long as the pyrokineticist wields it.
+          At 4th level and higher, a pyrokineticist can activate this ability as a move-equivalent action. Flames that harm neither her nor the weapon engulf one weapon she holds (which can be a projectile such as a stone, bullet, arrow, or bolt). The weapon deals an extra {% die_roll 2 6 0 %} points of fire damage on a successful hit. The weapon retains this effect for as long as the pyrokineticist wields it.
       - name: "Nimbus"
         type: "Ps"
         desc: |
-          Beginning at 5th level, a pyrokineticist can activate this ability as a move-equivalent action. Flames that harm neither the pyrokineticist nor her equipment engulf her entire body. While she is aflame, the character's Charisma score increases by 4, she can make a melee touch attack for 2d6 points of fire damage, and she gains damage reduction 5/magic. If she is struck in melee, the attacker takes 2d6 points of fire damage. This ability lasts for up to 1 minute per pyrokineticist level and is usable once per day.
+          Beginning at 5th level, a pyrokineticist can activate this ability as a move-equivalent action. Flames that harm neither the pyrokineticist nor her equipment engulf her entire body. While she is aflame, the character's Charisma score increases by 4, she can make a melee touch attack for {% die_roll 2 6 0 %} points of fire damage, and she gains damage reduction 5/magic. If she is struck in melee, the attacker takes {% die_roll 2 6 0 %} points of fire damage. This ability lasts for up to 1 minute per pyrokineticist level and is usable once per day.
       - name: "Firewalk"
         type: "Su"
         desc: |
@@ -81,13 +81,13 @@ class:
       - name: "Greater Weapon Afire"
         type: "Ps"
         desc: |
-          At 8th level, when a pyrokineticist activates her hand afire ability or her weapon afire ability, her unarmed attack or weapon deals an extra 4d6 points of fire damage instead of 2d6. Touch attacks made while she uses the nimbus ability likewise deal 4d6 points of damage instead of 2d6.
+          At 8th level, when a pyrokineticist activates her hand afire ability or her weapon afire ability, her unarmed attack or weapon deals an extra {% die_roll 4 6 0 %} points of fire damage instead of {% die_roll 2 6 0 %}. Touch attacks made while she uses the nimbus ability likewise deal {% die_roll 4 6 0 %} points of damage instead of {% die_roll 2 6 0 %}.
       - name: "Heat Death"
         type: "Ps"
         desc: |
-          A pyrokineticist who reaches 9th level can expend her psionic focus and take a full attack action to raise the internal temperature of one living creature within 30 feet to lethal levels. The target must succeed on a Fortitude saving throw (DC 14 + pyro's Cha modifier) or die horrifically as its blood (or other internal fluid) boils. Even on a successful save, the target takes 4d8 points of fire damage from the heat.
+          A pyrokineticist who reaches 9th level can expend her psionic focus and take a full attack action to raise the internal temperature of one living creature within 30 feet to lethal levels. The target must succeed on a Fortitude saving throw (DC 14 + pyro's Cha modifier) or die horrifically as its blood (or other internal fluid) boils. Even on a successful save, the target takes {% die_roll 4 8 0 %} points of fire damage from the heat.
       - name: "Conflagration"
         type: "Ps"
         desc: |
-          At 10th level, a pyrokineticist gains the ability to create a massive burst of raging flames around herself, burning everything in the area. Once per day, as a standard action, she can use this ability to deal 15d6 points of fire damage in a 30-foot-radius burst emanating from herself. Any creature or object caught in the burst can make a Reflex saving throw (DC 15 + pyro's Cha modifier) for half damage. Anyone failing the Reflex save against the _conflagration _must also make a Fortitude saving throw (same DC) or die due to extreme shock from the intense heat.
+          At 10th level, a pyrokineticist gains the ability to create a massive burst of raging flames around herself, burning everything in the area. Once per day, as a standard action, she can use this ability to deal {% die_roll 15 6 0 %} points of fire damage in a 30-foot-radius burst emanating from herself. Any creature or object caught in the burst can make a Reflex saving throw (DC 15 + pyro's Cha modifier) for half damage. Anyone failing the Reflex save against the _conflagration _must also make a Fortitude saving throw (same DC) or die due to extreme shock from the intense heat.
 ---

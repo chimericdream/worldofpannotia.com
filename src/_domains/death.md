@@ -3,7 +3,7 @@ title: "Death"
 
 domain:
   grantedPower: |
-    You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll 1d6 per cleric level you possess. If the total at least equals the creature's current hit points, it dies (no save).
+    You may use a death touch once per day. Your death touch is a supernatural ability that produces a death effect. You must succeed on a melee touch attack against a living creature (using the rules for touch spells). When you touch, roll {% die_roll 1 6 0 %} per cleric level you possess. If the total at least equals the creature's current hit points, it dies (no save).
   spells: |
     1. {% spell_link cause-fear %}
     1. {% spell_link death-knell %}

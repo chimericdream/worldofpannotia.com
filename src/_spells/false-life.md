@@ -17,5 +17,5 @@ spell:
   duration:           "1 hour/level or until discharged; see text"
   materialComponents: ["A small amount of alcohol or distilled spirits, which you use to trace certain sigils on your body during casting. These sigils cannot be seen once the alcohol or spirits evaporate."]
   description:        |
-    You harness the power of unlife to grant yourself a limited ability to avoid death. While this spell is in effect, you gain temporary hit points equal to 1d10 +1 per caster level (maximum +10).
+    You harness the power of unlife to grant yourself a limited ability to avoid death. While this spell is in effect, you gain temporary hit points equal to {% die_roll 1 10 0 %} +1 per caster level (maximum +10).
 ---

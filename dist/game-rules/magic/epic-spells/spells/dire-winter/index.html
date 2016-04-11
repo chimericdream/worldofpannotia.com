@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -490,18 +491,14 @@
 <p><strong>Range:</strong> 1,000 ft.</p>
 
 
-
 <p><strong>Area</strong> 1,000-ft.-radius emanation</p>
-
 <p><strong>Duration:</strong> 20 hours</p>
 <p><strong>Saving Throw:</strong> None</p>
 <p><strong>Spell Resistance:</strong> None</p>
-<p><strong>To Develop:</strong> 2,871,000 GP; 58 days; 114,840 XP. <em>Seed:</em> energy (emanate 2d6 cold in 10-ft. radius) (DC 19). <em>Factor:</em> 100 times increase in base area ( DC). <em>Mitigating Factor:</em> burn 10,000 XP ( DC).</p>
-
+<p><strong>To Develop:</strong> 2,871,000 GP; 58 days; 114,840 XP. <em>Seed:</em> energy (emanate {% die_roll 2 6 0 %} cold in 10-ft. radius) (DC 19). <em>Factor:</em> 100 times increase in base area ( DC). <em>Mitigating Factor:</em> burn 10,000 XP ( DC).</p>
 <p><strong>XP Cost:</strong> 10,000 XP</p>
 
-
-<p>The creature or object targeted emanates bitter cold to a radius of 1,000 feet for 20 hours. The emanated cold deals 2d6 points of damage per round against unprotected creatures (the target is susceptible if not magically protected or otherwise resistant to the energy). The intense cold freezes water out of the air, causing constant snowfall and wind. The snow and wind produce a blizzard effect within the area.</p>
+<p>The creature or object targeted emanates bitter cold to a radius of 1,000 feet for 20 hours. The emanated cold deals <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a> points of damage per round against unprotected creatures (the target is susceptible if not magically protected or otherwise resistant to the energy). The intense cold freezes water out of the air, causing constant snowfall and wind. The snow and wind produce a blizzard effect within the area.</p>
 
 
 </div>
@@ -589,6 +586,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

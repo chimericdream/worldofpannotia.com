@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -495,17 +496,11 @@
 <p><strong>Range:</strong> Medium (100 ft. + 10 ft./level)</p>
 
 
-
 <p><strong>Target:</strong> One manifester, creature, or object; or 20-ft.-radius burst</p>
 
-
-<p><strong>Duration:</strong> Instantaneous or 1d4 rounds; see text</p>
-
+<p><strong>Duration:</strong> Instantaneous or {% die_roll 1 4 0 %} rounds; see text</p>
 <p><strong>Saving Throw:</strong> None</p>
-
-
 <p><strong>Power Resistance:</strong> No</p>
-
 
 
 <p>You can use dispel psionics to end ongoing powers that have been manifested on a creature or object, to temporarily suppress the psionic abilities of a psionic item, or to end ongoing powers (or at least their effects) within an area. A dispelled power ends as if its duration had expired. Some powers, as detailed in their descriptions, can’t be defeated by dispel psionics, or can be ended only if you manifest dispel psionics at a high enough manifester level. Dispel psionics can end spell-like effects just as it does powers.</p>
@@ -514,9 +509,9 @@
 
 <p>You choose to use dispel psionics in one of two ways: a targeted dispel or an area dispel.</p>
 
-<p>Targeted Dispel: One object, creature, or power is the target of the dispel psionics power. You make a dispel check (1d20 + your manifester level, maximum +10) against the power or against each ongoing power currently in effect on the object or creature. The DC for this dispel check is 11 + the power’s manifester level. If you succeed on a particular check, that power is dispelled; if you fail, that power remains in effect.</p>
+<p>Targeted Dispel: One object, creature, or power is the target of the dispel psionics power. You make a dispel check (<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="20" data-die-modifier="0">1d20</a> + your manifester level, maximum +10) against the power or against each ongoing power currently in effect on the object or creature. The DC for this dispel check is 11 + the power’s manifester level. If you succeed on a particular check, that power is dispelled; if you fail, that power remains in effect.</p>
 
-<p>If you target an object or creature that is the effect of an ongoing power or is under the effect of an ongoing power, you make a dispel check to end the power or its effect. If the object that you target is a psionic item, you make a dispel check against the item’s manifester level. If you succeed, all the item’s psionic properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonpsionic for the duration of the effect. An interdimensional interface is temporarily closed. A psionic item’s physical properties are unchanged: A suppressed psionic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal power such as this.</p>
+<p>If you target an object or creature that is the effect of an ongoing power or is under the effect of an ongoing power, you make a dispel check to end the power or its effect. If the object that you target is a psionic item, you make a dispel check against the item’s manifester level. If you succeed, all the item’s psionic properties are suppressed for <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="0">1d4</a> rounds, after which the item recovers on its own. A suppressed item becomes nonpsionic for the duration of the effect. An interdimensional interface is temporarily closed. A psionic item’s physical properties are unchanged: A suppressed psionic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal power such as this.</p>
 
 <p>You automatically succeed on your dispel check against any power that you manifested yourself.</p>
 
@@ -559,6 +554,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

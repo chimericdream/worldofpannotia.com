@@ -20,7 +20,7 @@ power:
   powerResistance: "No"
   powerPoints: 1
   description: |
-    You create 2d4 ectoplasmic crossbow bolts, arrows, or sling bullets, appropriate to your size, which dissipate into their constituent ectoplasmic particles when the duration ends or after being fired. Ammunition you create has a +1 enhancement bonus on attack rolls and damage rolls.
+    You create {% die_roll 2 4 0 %} ectoplasmic crossbow bolts, arrows, or sling bullets, appropriate to your size, which dissipate into their constituent ectoplasmic particles when the duration ends or after being fired. Ammunition you create has a +1 enhancement bonus on attack rolls and damage rolls.
   augment: |
     For every 3 additional power points you spend, this power improves the ammunition's enhancement bonus on attack rolls and damage rolls by 1.
 ---

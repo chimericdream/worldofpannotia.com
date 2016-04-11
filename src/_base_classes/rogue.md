@@ -21,25 +21,25 @@ class:
     classTables: |
       | Level | Base Attack Bonus | Fort Save | Ref Save | Will Save | Special
       |-|-|-|-|-|-
-      | 1 | +0 | +0 | +2 | +0 | Sneak attack +1d6, trapfinding
+      | 1 | +0 | +0 | +2 | +0 | Sneak attack +{% die_roll 1 6 0 %}, trapfinding
       | 2 | +1 | +0 | +3 | +0 | Evasion
-      | 3 | +2 | +1 | +3 | +1 | Sneak attack +2d6, trap sense +1
+      | 3 | +2 | +1 | +3 | +1 | Sneak attack +{% die_roll 2 6 0 %}, trap sense +1
       | 4 | +3 | +1 | +4 | +1 | Uncanny dodge
-      | 5 | +3 | +1 | +4 | +1 | Sneak attack +3d6
+      | 5 | +3 | +1 | +4 | +1 | Sneak attack +{% die_roll 3 6 0 %}
       | 6 | +4 | +2 | +5 | +2 | Trap sense +2
-      | 7 | +5 | +2 | +5 | +2 | Sneak attack +4d6
+      | 7 | +5 | +2 | +5 | +2 | Sneak attack +{% die_roll 4 6 0 %}
       | 8 | +6/+1 | +2 | +6 | +2 | Improved uncanny dodge
-      | 9 | +6/+1 | +3 | +6 | +3 | Sneak attack +5d6, trap sense +3
+      | 9 | +6/+1 | +3 | +6 | +3 | Sneak attack +{% die_roll 5 6 0 %}, trap sense +3
       | 10 | +7/+2 | +3 | +7 | +3 | Special ability
-      | 11 | +8/+3 | +3 | +7 | +3 | Sneak attack +6d6
+      | 11 | +8/+3 | +3 | +7 | +3 | Sneak attack +{% die_roll 6 6 0 %}
       | 12 | +9/+4 | +4 | +8 | +4 | Trap sense +4
-      | 13 | +9/+4 | +4 | +8 | +4 | Sneak attack +7d6, special ability
+      | 13 | +9/+4 | +4 | +8 | +4 | Sneak attack +{% die_roll 7 6 0 %}, special ability
       | 14 | +10/+5 | +4 | +9 | +4 | &nbsp;
-      | 15 | +11/+6/+1 | +5 | +9 | +5 | Sneak attack +8d6, trap sense +5
+      | 15 | +11/+6/+1 | +5 | +9 | +5 | Sneak attack +{% die_roll 8 6 0 %}, trap sense +5
       | 16 | +12/+7/+2 | +5 | +10 | +5 | Special ability
-      | 17 | +12/+7/+2 | +5 | +10 | +5 | Sneak attack +9d6
+      | 17 | +12/+7/+2 | +5 | +10 | +5 | Sneak attack +{% die_roll 9 6 0 %}
       | 18 | +13/+8/+3 | +6 | +11 | +6 | Trap sense +6
-      | 19 | +14/+9/+4 | +6 | +11 | +6 | Sneak attack +10d6, special ability
+      | 19 | +14/+9/+4 | +6 | +11 | +6 | Sneak attack +{% die_roll 10 6 0 %}, special ability
       | 20 | +15/+10/+5 | +6 | +12 | +6 | &nbsp;
       {: #rogue-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Rogue" }
     classFeatures:
@@ -51,7 +51,7 @@ class:
         desc: |
           If a rogue can catch an opponent when he is unable to defend himself effectively from her attack, she can strike a vital spot for extra damage.
 
-          The rogue's attack deals extra damage any time her target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the rogue flanks her target. This extra damage is 1d6 at 1st level, and it increases by 1d6 every two rogue levels thereafter. Should the rogue score a critical hit with a sneak attack, this extra damage is not multiplied.
+          The rogue's attack deals extra damage any time her target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the rogue flanks her target. This extra damage is {% die_roll 1 6 0 %} at 1st level, and it increases by {% die_roll 1 6 0 %} every two rogue levels thereafter. Should the rogue score a critical hit with a sneak attack, this extra damage is not multiplied.
 
           Ranged attacks can count as sneak attacks only if the target is within 30 feet.
 

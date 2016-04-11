@@ -23,7 +23,7 @@ power:
   powerResistance: "Yes (object)"
   powerPoints: 1
   description: |
-    Your mere touch can disperse the surface material of a foe or object, sending a tiny portion of it far away. This effect is disruptive; thus, your successful melee touch attack deals 1d6 points of damage.
+    Your mere touch can disperse the surface material of a foe or object, sending a tiny portion of it far away. This effect is disruptive; thus, your successful melee touch attack deals {% die_roll 1 6 0 %} points of damage.
   augment: |
-    For every additional power point you spend, this power's damage increases by 1d6 points.
+    For every additional power point you spend, this power's damage increases by {% die_roll 1 6 0 %} points.
 ---

@@ -76,7 +76,7 @@ class:
 
           The total value of the resources the aristocrat gains is equal to the aristocrat's class level multiplied by the result of the Charisma check multiplied by 20. For example, a 3rd-level aristocrat who gets a result of 16 on his Charisma check would gain 960 gp worth of resources to use in an adventure (3 &times; 16 &times; 20 = 960).
 
-          The resources gained can take almost any form desired by the aristocrat (within reason), and are his do do with as he pleases. He may keep them, use them, give them away, or sell them as he chooses. The aristocrat does not gain access to these resources immediately, but comes into possession of them 1d8 hours after he makes the check. If these resources are not available at the time or location that the aristocrat attempts to make the check, he is unable to gather any resources.
+          The resources gained can take almost any form desired by the aristocrat (within reason), and are his do do with as he pleases. He may keep them, use them, give them away, or sell them as he chooses. The aristocrat does not gain access to these resources immediately, but comes into possession of them {% die_roll 1 8 0 %} hours after he makes the check. If these resources are not available at the time or location that the aristocrat attempts to make the check, he is unable to gather any resources.
       - name: "Judicious Defense"
         type: ""
         desc: "At 6th level, the Aristocrat gains the ability to add his Intelligence bonus as a Dodge bonus to his armor class against a single opponent. This bonus stacks with the bonus from the Dodge feat."

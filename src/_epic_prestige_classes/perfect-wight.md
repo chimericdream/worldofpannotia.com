@@ -25,7 +25,7 @@ class:
     spellcasting: ""
     psionics: ""
     languages: ""
-    special: "Sneak attack +10d6."
+    special: "Sneak attack +{% die_roll 10 6 0 %}."
   gameRuleInfo:
     abilities: ""
     alignment: ""

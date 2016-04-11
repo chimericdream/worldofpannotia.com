@@ -25,9 +25,9 @@ spell:
 
     Alignments identical: No effect. The creature may enter the area freely (although not by planar travel).
 
-    Alignments different with respect to either law/chaos or good/evil: The creature takes 6d6 points of damage. A successful Will save halves the damage, and spell resistance applies.
+    Alignments different with respect to either law/chaos or good/evil: The creature takes {% die_roll 6 6 0 %} points of damage. A successful Will save halves the damage, and spell resistance applies.
 
-    Alignments different with respect to both law/chaos and good/evil: The creature takes 12d6 points of damage. A successful Will save halves the damage, and spell resistance applies.
+    Alignments different with respect to both law/chaos and good/evil: The creature takes {% die_roll 12 6 0 %} points of damage. A successful Will save halves the damage, and spell resistance applies.
 
     At your option, the abjuration can include a password, in which case creatures of alignments different from yours can avoid the damage by speaking the password as they enter the area. You must select this option (and the password) at the time of casting.
 

@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 7
   description: |
-    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create an explosion of energy of the chosen type that deals 7d6 points of damage to every creature or object within the area. The explosion creates almost no pressure.
+    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create an explosion of energy of the chosen type that deals {% die_roll 7 6 0 %} points of damage to every creature or object within the area. The explosion creates almost no pressure.
 
     Cold: A ball of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold ball is a Fortitude save instead of a Reflex save.
 

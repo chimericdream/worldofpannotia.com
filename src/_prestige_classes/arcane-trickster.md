@@ -23,7 +23,7 @@ class:
       - name: "{% skill_link knowledge 'Knowledge (Arcana)' %}"
         ranks: 4
     spellcasting: "Ability to cast {% spell_link mage-hand %} and at least one arcane spell of 3rd level or higher."
-    special: "Sneak attack +2d6."
+    special: "Sneak attack +{% die_roll 2 6 0 %}."
   gameRuleInfo:
     abilities: ""
     alignment: ""
@@ -35,15 +35,15 @@ class:
       | Level | Base Attack | Fort | Ref | Will | Special | Spells per Day
       |-|-|-|-|-|-|-
       | 1 | +0 | +0 | +2 | +2 | Ranged legerdemain 1/day | +1 level of existing class
-      | 2 | +1 | +0 | +3 | +3 | Sneak attack +1d6 | +1 level of existing class
+      | 2 | +1 | +0 | +3 | +3 | Sneak attack +{% die_roll 1 6 0 %} | +1 level of existing class
       | 3 | +1 | +1 | +3 | +3 | Impromptu sneak attack 1/day | +1 level of existing class
-      | 4 | +2 | +1 | +4 | +4 | Sneak attack +2d6 | +1 level of existing class
+      | 4 | +2 | +1 | +4 | +4 | Sneak attack +{% die_roll 2 6 0 %} | +1 level of existing class
       | 5 | +2 | +1 | +4 | +4 | Ranged legerdemain 2/day | +1 level of existing class
-      | 6 | +3 | +2 | +5 | +5 | Sneak attack +3d6 | +1 level of existing class
+      | 6 | +3 | +2 | +5 | +5 | Sneak attack +{% die_roll 3 6 0 %} | +1 level of existing class
       | 7 | +3 | +2 | +5 | +5 | Impromptu sneak attack 2/day | +1 level of existing class
-      | 8 | +4 | +2 | +6 | +6 | Sneak attack +4d6 | +1 level of existing class
+      | 8 | +4 | +2 | +6 | +6 | Sneak attack +{% die_roll 4 6 0 %} | +1 level of existing class
       | 9 | +4 | +3 | +6 | +6 | Ranged legerdemain 3/day | +1 level of existing class
-      | 10 | +5 | +3 | +7 | +7 | Sneak attack +5d6 | +1 level of existing class
+      | 10 | +5 | +3 | +7 | +7 | Sneak attack +{% die_roll 5 6 0 %} | +1 level of existing class
       {: #arcane-trickster-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Arcane Trickster" }
     classFeatures:
       - name: "Weapon and Armor Proficiency"
@@ -63,7 +63,7 @@ class:
       - name: "Sneak Attack"
         type: ""
         desc: |
-          This is exactly like the rogue ability of the same name. The extra damage dealt increases by +1d6 every other level (2nd, 4th, 6th, 8th, and 10th). If an arcane trickster gets a sneak attack bonus from another source the bonuses on damage stack.
+          This is exactly like the rogue ability of the same name. The extra damage dealt increases by +{% die_roll 1 6 0 %} every other level (2nd, 4th, 6th, 8th, and 10th). If an arcane trickster gets a sneak attack bonus from another source the bonuses on damage stack.
       - name: "Impromptu Sneak Attack"
         type: ""
         desc: |

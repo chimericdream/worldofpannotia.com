@@ -20,7 +20,7 @@ spell:
     time: "58 days"
     xp: 114840
     seeds:
-      - desc: "energy (emanate 2d6 cold in 10-ft. radius)"
+      - desc: "energy (emanate {% die_roll 2 6 0 %} cold in 10-ft. radius)"
         dc: "19"
     factors:
       - desc: "100 times increase in base area"
@@ -29,5 +29,5 @@ spell:
       - desc: "burn 10,000 XP"
         xp: "-100"
   description: |
-    The creature or object targeted emanates bitter cold to a radius of 1,000 feet for 20 hours. The emanated cold deals 2d6 points of damage per round against unprotected creatures (the target is susceptible if not magically protected or otherwise resistant to the energy). The intense cold freezes water out of the air, causing constant snowfall and wind. The snow and wind produce a blizzard effect within the area.
+    The creature or object targeted emanates bitter cold to a radius of 1,000 feet for 20 hours. The emanated cold deals {% die_roll 2 6 0 %} points of damage per round against unprotected creatures (the target is susceptible if not magically protected or otherwise resistant to the energy). The intense cold freezes water out of the air, causing constant snowfall and wind. The snow and wind produce a blizzard effect within the area.
 ---

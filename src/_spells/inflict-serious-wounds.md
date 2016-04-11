@@ -15,5 +15,5 @@ spell:
       abbr:  "Ravage"
       level: 3
   description:        |
-    This spell functions like inflict light wounds, except that you deal 3d8 points of damage +1 point per caster level (maximum +15).
+    This spell functions like inflict light wounds, except that you deal {% die_roll 3 8 0 %} points of damage +1 point per caster level (maximum +15).
 ---

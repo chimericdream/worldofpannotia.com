@@ -37,7 +37,7 @@ skill:
   action: "Varies. Every time you have a chance to hear something in a reactive manner (such as when someone makes a noise or you move into a new area), you can make a {% skill_link listen %} check without using an action. Trying to hear something you failed to hear previously is a move action."
   try_again: "Yes. You can try to hear something that you failed to hear previously with no penalty."
   special: |
-    When several characters are listening to the same thing, a single 1d20 roll can be used for all the individuals' {% skill_link listen %} checks.
+    When several characters are listening to the same thing, a single {% die_roll 1 20 0 %} roll can be used for all the individuals' {% skill_link listen %} checks.
 
     A fascinated creature takes a -4 penalty on {% skill_link listen %} checks made as reactions.
 

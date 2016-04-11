@@ -14,7 +14,7 @@ power:
   manifestingTime: "1 standard action"
   range: "Medium (100 ft. + 10 ft./level)"
   target: "One manifester, creature, or object; or 20-ft.-radius burst"
-  duration: "Instantaneous or 1d4 rounds; see text"
+  duration: "Instantaneous or {% die_roll 1 4 0 %} rounds; see text"
   dismissable: false
   savingThrow: "None"
   powerResistance: "No"
@@ -26,9 +26,9 @@ power:
 
     You choose to use dispel psionics in one of two ways: a targeted dispel or an area dispel.
 
-    Targeted Dispel: One object, creature, or power is the target of the dispel psionics power. You make a dispel check (1d20 + your manifester level, maximum +10) against the power or against each ongoing power currently in effect on the object or creature. The DC for this dispel check is 11 + the power's manifester level. If you succeed on a particular check, that power is dispelled; if you fail, that power remains in effect.
+    Targeted Dispel: One object, creature, or power is the target of the dispel psionics power. You make a dispel check ({% die_roll 1 20 0 %} + your manifester level, maximum +10) against the power or against each ongoing power currently in effect on the object or creature. The DC for this dispel check is 11 + the power's manifester level. If you succeed on a particular check, that power is dispelled; if you fail, that power remains in effect.
 
-    If you target an object or creature that is the effect of an ongoing power or is under the effect of an ongoing power, you make a dispel check to end the power or its effect. If the object that you target is a psionic item, you make a dispel check against the item's manifester level. If you succeed, all the item's psionic properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonpsionic for the duration of the effect. An interdimensional interface is temporarily closed. A psionic item's physical properties are unchanged: A suppressed psionic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal power such as this.
+    If you target an object or creature that is the effect of an ongoing power or is under the effect of an ongoing power, you make a dispel check to end the power or its effect. If the object that you target is a psionic item, you make a dispel check against the item's manifester level. If you succeed, all the item's psionic properties are suppressed for {% die_roll 1 4 0 %} rounds, after which the item recovers on its own. A suppressed item becomes nonpsionic for the duration of the effect. An interdimensional interface is temporarily closed. A psionic item's physical properties are unchanged: A suppressed psionic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal power such as this.
 
     You automatically succeed on your dispel check against any power that you manifested yourself.
 

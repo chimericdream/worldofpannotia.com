@@ -19,8 +19,8 @@ spell:
   description:        |
     For a brief time, you achieve the mental dominance of a powerful psion, able to lash out at enemies using only the power of your mind. Your revel in your new mental powers to the point that you disdain using spells, even in the form of effects from magic items. You gain a +4 enhancement bonus to Intelligence and Wisdom, 3 power points per caster level, and access to the following powers.
 
-     * Mind Thrust A: Deal 1d10 damage.
-     * Ego Whip A: Deal 1d4 Cha damage and daze for 1 round.
+     * Mind Thrust A: Deal {% die_roll 1 10 0 %} damage.
+     * Ego Whip A: Deal {% die_roll 1 4 0 %} Cha damage and daze for 1 round.
      * Psionic Blast A: Stun creatures in 30-ft. cone for 1 round.
      * Id Insinuation A: Swift tendrils of thought disrupt and confuse your target.
      * Psychic Crush A: Brutally crush subject's mental essence, reducing subject to -1 hit points.

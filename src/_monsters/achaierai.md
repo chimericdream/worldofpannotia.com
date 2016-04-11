@@ -37,7 +37,7 @@ Achaierais speak Infernal. They weigh about 750 pounds.
     <hr />
     <h4>Speed &amp; Attacks</h4>
     **Speed** 50 ft.
-    **Melee** 2 claws +10/+10 (2d6+5) and bite +5 (4d6+2)
+    **Melee** 2 claws +10/+10 ({% die_roll 2 6 5 %}) and bite +5 ({% die_roll 4 6 2 %})
     **Space** 10 ft.; **Reach** 10 ft.
     **Base Atk** +6; **Grp** +15
     **Atk Options** Spring Attack
@@ -64,7 +64,7 @@ Achaierais speak Infernal. They weigh about 750 pounds.
     <hr />
     <h4>Spells, Psionics, Special Qualities, &amp; Special Abilities</h4>
     <p id="black-cloud">**Black Cloud (Ex)**: Up to three times per day an achaierai can release a choking, toxic black cloud.
-    Those other than achaierai within 10 feet instantly take 2d6 points of damage. They must also succeed on a DC 15 Fortitude save or be affected for 3 hours as though by an <a href="#">{% spell_link insanity %}</a> spell (caster level 16th). The save DC is Constitution-based. 
+    Those other than achaierai within 10 feet instantly take {% die_roll 2 6 0 %} points of damage. They must also succeed on a DC 15 Fortitude save or be affected for 3 hours as though by an <a href="#">{% spell_link insanity %}</a> spell (caster level 16th). The save DC is Constitution-based. 
     **Skills:** An achaierai has a +8 racial bonus on all {% skill_link jump %} checks.
 
     <hr />

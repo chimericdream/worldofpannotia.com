@@ -23,5 +23,5 @@ spell:
   spellResistance:    "Yes"
   materialComponents: ["A very small crystal or glass cone."]
   description:        |
-    Cone of cold creates an area of extreme cold, originating at your hand and extending outward in a cone. It drains heat, dealing 1d6 points of cold damage per caster level (maximum 15d6).
+    Cone of cold creates an area of extreme cold, originating at your hand and extending outward in a cone. It drains heat, dealing {% die_roll 1 6 0 %} points of cold damage per caster level (maximum {% die_roll 15 6 0 %}).
 ---

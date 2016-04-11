@@ -13,8 +13,8 @@ artifact:
 
     The _Shadowstaff_ also has these powers.
 
-     * _Summon Shadows:_ Three times per day the staff may summon 2d4 shadows. Immune to turning, they serve the wielder as if called by a {% spell_link summon-monster-v %} spell cast at 20th level.
+     * _Summon Shadows:_ Three times per day the staff may summon {% die_roll 2 4 0 %} shadows. Immune to turning, they serve the wielder as if called by a {% spell_link summon-monster-v %} spell cast at 20th level.
      * _Summon Nightshade:_ Once per month, the staff can summon a nightcrawler nightshade that serves the wielder as if called by a {% spell_link summon-monster-ix %} spell cast at 20th level.
      * _Shadow Form:_ Three times per day the wielder can become a living shadow, with all the movement powers granted by the {% spell_link gaseous-form %} spell.
-     * _Shadow Bolt:_ Three times per day the staff can project a ray attack that deals 10d6 points of cold damage to a single target. The shadow bolt has a range of 100 feet.
+     * _Shadow Bolt:_ Three times per day the staff can project a ray attack that deals {% die_roll 10 6 0 %} points of cold damage to a single target. The shadow bolt has a range of 100 feet.
 ---

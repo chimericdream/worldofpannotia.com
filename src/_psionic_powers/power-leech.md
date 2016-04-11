@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 7
   description: |
-    Your brow erupts with an arc of crackling dark energy that connects with your foe, draining it of 1d6 power points and adding 1 of those points to your reserve (unless that gain would cause you to exceed your maximum).
+    Your brow erupts with an arc of crackling dark energy that connects with your foe, draining it of {% die_roll 1 6 0 %} power points and adding 1 of those points to your reserve (unless that gain would cause you to exceed your maximum).
 
     The drain continues in each round you maintain concentration while the subject of the drain remains in range. If the subject is drained to 0 power points, this power ends.
 

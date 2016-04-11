@@ -3,7 +3,7 @@ title: "Glory"
 
 domain:
   grantedPower: |
-    Turn undead with a +2 bonus on the turning check and +1d6 to the turning damage roll.
+    Turn undead with a +2 bonus on the turning check and +{% die_roll 1 6 0 %} to the turning damage roll.
   spells: |
     1. {% spell_link disrupt-undead %}
     1. {% spell_link bless-weapon %}

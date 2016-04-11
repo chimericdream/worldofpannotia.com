@@ -40,7 +40,7 @@ spell:
       - desc: "permanent"
         dc: "&times;5"
     mitigatingFactors:
-      - desc: "50d6 backlash"
+      - desc: "{% die_roll 50 6 0 %} backlash"
         dc: "-50"
       - desc: "increase casting time by 10 minutes"
         dc: "-20"
@@ -55,5 +55,5 @@ spell:
       - desc: "ten additional casters contributing 1st-level spell slots"
         dc: "-10"
   description: |
-    This spell creates a new creature: an achaierai. When first created, the achaierai is Medium, but it grows to Large size in 1d4 days. A created achaierai does not possess the treasure, culture, or specific knowledge of a normal achaierai. If released to be among its own kind, it quickly picks up achaierai traits and alignment.
+    This spell creates a new creature: an achaierai. When first created, the achaierai is Medium, but it grows to Large size in {% die_roll 1 4 0 %} days. A created achaierai does not possess the treasure, culture, or specific knowledge of a normal achaierai. If released to be among its own kind, it quickly picks up achaierai traits and alignment.
 ---

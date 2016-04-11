@@ -10,7 +10,7 @@ ability:
     special: []
   price: "+1 bonus"
   description: |
-    A bane weapon excels at attacking one type or subtype of creature. Against its designated foe, its effective enhancement bonus is +2 better than its normal enhancement bonus. It deals an extra 2d6 points of damage against the foe. Bows, crossbows, and slings so crafted bestow the bane quality upon their ammunition. To randomly determine a weapon's designated foe, roll on the following table.
+    A bane weapon excels at attacking one type or subtype of creature. Against its designated foe, its effective enhancement bonus is +2 better than its normal enhancement bonus. It deals an extra {% die_roll 2 6 0 %} points of damage against the foe. Bows, crossbows, and slings so crafted bestow the bane quality upon their ammunition. To randomly determine a weapon's designated foe, roll on the following table.
 
     |---
     | d% | Designated Foe | d% | Designated Foe

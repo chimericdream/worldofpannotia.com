@@ -9,8 +9,10 @@
 <h3>Spells</h3>
 {{ domain.spells | pmarkdownify | liquify }}
 
-{% if domain.notes != "" %}<h4>Notes</h4>
-{{ domain.notes | pmarkdownify | liquify }}{% endif %}
+{% if domain.notes != "" %}
+<h4>Notes</h4>
+{{ domain.notes | pmarkdownify | liquify }}
+{% endif %}
 {% endcapture %}
 
 {% include _other/ogc-block.html ogc_content=ogc %}

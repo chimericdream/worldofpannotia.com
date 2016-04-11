@@ -24,7 +24,7 @@ skill:
     {: #forgery-modifier-table .table .table-bordered .table-hover .table-striped data-caption="Table: Readers' Forgery Check Modifiers" }
 
     A document that contradicts procedure, orders, or previous knowledge, or one that requires sacrifice on the part of the person checking the document can increase that character's suspicion (and thus create favorable circumstances for the checker's opposing {% skill_link forgery %} check).
-  action: "Forging a very short and simple document takes about 1 minute. A longer or more complex document takes 1d4 minutes per page."
+  action: "Forging a very short and simple document takes about 1 minute. A longer or more complex document takes {% die_roll 1 4 0 %} minutes per page."
   try_again: "Usually, no. A retry is never possible after a particular reader detects a particular forgery. But the document created by the forger might still fool someone else. The result of a {% skill_link forgery %} check for a particular document must be used for every instance of a different reader examining the document. No reader can attempt to detect a particular forgery more than once; if that one opposed check goes in favor of the forger, then the reader can't try using his own skill again, even if he's suspicious about the document."
   special: "If you have the Deceitful feat, you get a +2 bonus on {% skill_link forgery %} checks."
   synergy: ""

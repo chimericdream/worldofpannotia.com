@@ -32,7 +32,7 @@ class:
       - name: "Psychic Strike"
         type: ""
         desc: |
-          The epic soulknife's psychic strike progression continues past 20th level, continuing to grant an additional die (d8) of damage every four levels higher than 19th (+6d8 at 23rd, +7d8 at 27th, and so on).
+          The epic soulknife's psychic strike progression continues past 20th level, continuing to grant an additional die (d8) of damage every four levels higher than 19th (+{% die_roll 6 8 0 %} at 23rd, +{% die_roll 7 8 0 %} at 27th, and so on).
       - name: "Bonus Feats"
         type: ""
         desc: |

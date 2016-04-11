@@ -4,7 +4,7 @@ crumbs: [equipment, epic-magic-items]
 crumbTitles: [Equipment, Epic Magic Items]
 ---
 
-To generate an epic scroll randomly, first roll on Table: Scroll Types to determine whether the spells are arcane or divine. An epic scroll contains 1d8 spells. For each spell, roll on Table: Epic Scroll Spell Levels to determine its level and then on the appropriate section of Table: Actual Spell Levels to determine the spell's actual level and total metamagic level adjustments. To determine the specific metamagic level adjustments, roll on the appropriate section of Table: Metamagic Level Adjustment to Spells. To determine the spell, use the appropriate sections of the nonepic scroll tables.
+To generate an epic scroll randomly, first roll on Table: Scroll Types to determine whether the spells are arcane or divine. An epic scroll contains {% die_roll 1 8 0 %} spells. For each spell, roll on Table: Epic Scroll Spell Levels to determine its level and then on the appropriate section of Table: Actual Spell Levels to determine the spell's actual level and total metamagic level adjustments. To determine the specific metamagic level adjustments, roll on the appropriate section of Table: Metamagic Level Adjustment to Spells. To determine the spell, use the appropriate sections of the nonepic scroll tables.
 
 |---
 | d% | Type

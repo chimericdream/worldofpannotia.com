@@ -18,5 +18,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This _+6 short sword_ adds +2d6 to the wielder's sneak attack damage. If the wielder does not have the sneak attack ability, this weapon does not grant it.
+    This _+6 short sword_ adds +{% die_roll 2 6 0 %} to the wielder's sneak attack damage. If the wielder does not have the sneak attack ability, this weapon does not grant it.
 ---

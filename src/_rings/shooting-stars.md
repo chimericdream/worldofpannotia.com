@@ -24,10 +24,10 @@ item:
     |---
     | Number of Balls | Damage per Ball
     |-|-
-    | 4 lightning balls | 1d6 points of damage each
-    | 3 lightning balls | 2d6 points of damage each
-    | 2 lightning balls | 3d6 points of damage each
-    | 1 lightning ball | 4d6 points of damage
+    | 4 lightning balls | {% die_roll 1 6 0 %} points of damage each
+    | 3 lightning balls | {% die_roll 2 6 0 %} points of damage each
+    | 2 lightning balls | {% die_roll 3 6 0 %} points of damage each
+    | 1 lightning ball | {% die_roll 4 6 0 %} points of damage
     {: #ring-of-shooting-stars-table .table .table-bordered .table-hover .table-striped data-caption="Table: Ring of Shooting Stars" }
 
     Once the _ball lightning_ function is activated, the balls can be released at any time before the sun rises. (Multiple balls can be released in the same round.)
@@ -41,5 +41,5 @@ item:
      * {% spell_link faerie-fire %} (twice per day)
      * _spark shower_ (special, once per day)
 
-    The _spark shower_ is a flying cloud of sizzling purple sparks that fan out from the ring for a distance of 20 feet in an arc 10 feet wide. Creatures within this area take 2d8 points of damage each if not wearing metal armor or carrying a metal weapon. Those wearing metal armor and/or carrying a metal weapon take 4d8 points of damage.
+    The _spark shower_ is a flying cloud of sizzling purple sparks that fan out from the ring for a distance of 20 feet in an arc 10 feet wide. Creatures within this area take {% die_roll 2 8 0 %} points of damage each if not wearing metal armor or carrying a metal weapon. Those wearing metal armor and/or carrying a metal weapon take {% die_roll 4 8 0 %} points of damage.
 ---

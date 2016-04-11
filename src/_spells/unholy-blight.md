@@ -14,7 +14,7 @@ spell:
   castingTime:        "1 standard action"
   range:              "Medium (100 ft. + 10 ft./level)"
   area:               "20-ft.-radius spread"
-  duration:           "Instantaneous (1d4 rounds); see text"
+  duration:           "Instantaneous ({% die_roll 1 4 0 %} rounds); see text"
   savingThrow:        "Will partial"
   spellResistance:    "Yes"
   description:        |
@@ -22,7 +22,7 @@ spell:
 
     Only good and neutral (not evil) creatures are harmed by the spell.
 
-    The spell deals 1d8 points of damage per two caster levels (maximum 5d8) to a good creature (or 1d6 per caster level, maximum 10d6, to a good outsider) and causes it to be sickened for 1d4 rounds. A successful Will save reduces damage to half and negates the sickened effect. The effects cannot be negated by remove disease or heal, but remove curse is effective.
+    The spell deals {% die_roll 1 8 0 %} points of damage per two caster levels (maximum {% die_roll 5 8 0 %}) to a good creature (or {% die_roll 1 6 0 %} per caster level, maximum {% die_roll 10 6 0 %}, to a good outsider) and causes it to be sickened for {% die_roll 1 4 0 %} rounds. A successful Will save reduces damage to half and negates the sickened effect. The effects cannot be negated by remove disease or heal, but remove curse is effective.
 
     The spell deals only half damage to creatures who are neither evil nor good, and they are not sickened. Such a creature can reduce the damage in half again (down to one-quarter) with a successful Will save.
 ---

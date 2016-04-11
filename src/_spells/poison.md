@@ -25,5 +25,5 @@ spell:
   savingThrow:        "Fortitude negates; see text"
   spellResistance:    "Yes"
   description:        |
-    Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee touch attack. The poison deals 1d10 points of temporary Constitution damage immediately and another 1d10 points of temporary Constitution damage 1 minute later. Each instance of damage can be negated by a Fortitude save (DC 10 +
+    Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison by making a successful melee touch attack. The poison deals {% die_roll 1 10 0 %} points of temporary Constitution damage immediately and another {% die_roll 1 10 0 %} points of temporary Constitution damage 1 minute later. Each instance of damage can be negated by a Fortitude save (DC 10 +
 ---

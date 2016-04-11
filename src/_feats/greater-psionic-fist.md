@@ -8,5 +8,5 @@ feat:
   prerequisite: |
     Str 13, Psionic Fist, base attack bonus +5.
   benefit: |
-    When you use the Psionic Fist feat, your unarmed attack or attack with a natural weapon deals an extra 4d6 points of damage instead of an extra 2d6 points.
+    When you use the Psionic Fist feat, your unarmed attack or attack with a natural weapon deals an extra {% die_roll 4 6 0 %} points of damage instead of an extra {% die_roll 2 6 0 %} points.
 ---

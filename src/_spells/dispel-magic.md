@@ -40,11 +40,11 @@ spell:
 
     You choose to use dispel magic in one of three ways: a targeted dispel, an area dispel, or a counterspell:
 
-    Targeted Dispel: One object, creature, or spell is the target of the dispel magic spell. You make a dispel check (1d20 + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell's caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.
+    Targeted Dispel: One object, creature, or spell is the target of the dispel magic spell. You make a dispel check ({% die_roll 1 20 0 %} + your caster level, maximum +10) against the spell or against each ongoing spell currently in effect on the object or creature. The DC for this dispel check is 11 + the spell's caster level. If you succeed on a particular check, that spell is dispelled; if you fail, that spell remains in effect.
 
     If you target an object or creature that is the effect of an ongoing spell (such as a monster summoned by monster summoning), you make a dispel check to end the spell that conjured the object or creature.
 
-    If the object that you target is a magic item, you make a dispel check against the item's caster level. If you succeed, all the item's magical properties are suppressed for 1d4 rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.
+    If the object that you target is a magic item, you make a dispel check against the item's caster level. If you succeed, all the item's magical properties are suppressed for {% die_roll 1 4 0 %} rounds, after which the item recovers on its own. A suppressed item becomes nonmagical for the duration of the effect. An interdimensional interface (such as a bag of holding) is temporarily closed. A magic item's physical properties are unchanged: A suppressed magic sword is still a sword (a masterwork sword, in fact). Artifacts and deities are unaffected by mortal magic such as this.
 
     You automatically succeed on your dispel check against any spell that you cast yourself.
 

@@ -19,13 +19,13 @@ Additionally, the user must meet the following requirements.
  * The user must have the power on his or her class list.
  * The user must have the requisite key ability score.
 
-If the user meets these requirements and has a manifester level at least equal to the power's manifester level, she can automatically manifest the stored power without a check. If she meets both requirements but her own level is lower than the power stone's manifester level, she has to make a manifester level check (1d20 + user's level), against a DC equal to the power stone's manifester level +1, to manifest the power successfully. On a failure, the user must succeed on a DC 5 Wisdom check to avoid brainburn (see below). A natural roll of 1 on this check is always a failure.
+If the user meets these requirements and has a manifester level at least equal to the power's manifester level, she can automatically manifest the stored power without a check. If she meets both requirements but her own level is lower than the power stone's manifester level, she has to make a manifester level check ({% die_roll 1 20 0 %} + user's level), against a DC equal to the power stone's manifester level +1, to manifest the power successfully. On a failure, the user must succeed on a DC 5 Wisdom check to avoid brainburn (see below). A natural roll of 1 on this check is always a failure.
 
 _Determine Effect:_ A power successfully manifested from a power stone works exactly as if manifested normally. Assume the power stone's manifester level is always the minimum level required to manifest the power for the character who imprinted the stone, unless the creator specifically desires otherwise.
 
 A power stone's glow fades when its stored power is flushed.
 
-_Brainburn:_ When something goes awry, the user of a power stone improperly manifests the stored power. The resultant psionic surge persists for 1d4 rounds, unless the power stone is flung farther than 100 feet away or is destroyed. This surge deals 1d6 points of damage per power stored per round and arcs across multiple targets, similar to _energy current_, except the damage type isn't specified. The user is the primary target, and one nearby ally is the secondary target (chosen at random).
+_Brainburn:_ When something goes awry, the user of a power stone improperly manifests the stored power. The resultant psionic surge persists for {% die_roll 1 4 0 %} rounds, unless the power stone is flung farther than 100 feet away or is destroyed. This surge deals {% die_roll 1 6 0 %} points of damage per power stored per round and arcs across multiple targets, similar to _energy current_, except the damage type isn't specified. The user is the primary target, and one nearby ally is the secondary target (chosen at random).
 
 The manifester level for a standard power stone is the minimum manifester level needed to manifest the power (unless otherwise specified).
 
@@ -39,9 +39,9 @@ The manifester level for a standard power stone is the minimum manifester level 
 |---
 | Power Stone Type | Number of Powers
 |-|-
-| Minor | 1d3 powers
-| Medium | 1d4 powers
-| Major | 1d6 powers
+| Minor | {% die_roll 1 3 0 %} powers
+| Medium | {% die_roll 1 4 0 %} powers
+| Major | {% die_roll 1 6 0 %} powers
 {: #power-stone-table .table .table-bordered .table-hover .table-striped data-caption="Table: Powers Imprinted in a Power Stone" }
 
 |---

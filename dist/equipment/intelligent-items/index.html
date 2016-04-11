@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -701,7 +702,7 @@
 </td><td><p>+6,500 gp</p>
 </td></tr>
 <tr><td><p>96-100</p>
-</td><td><p>Item can use <a href="//worldofpannotia.com/game-rules/magic/spells/cure-moderate-wounds/" title="Cure Moderate Wounds"><em>Cure Moderate Wounds</em></a> (2d8+3) on wielder 3/day</p>
+</td><td><p>Item can use <a href="//worldofpannotia.com/game-rules/magic/spells/cure-moderate-wounds/" title="Cure Moderate Wounds"><em>Cure Moderate Wounds</em></a> (<a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="8" data-die-modifier="3">2d8+3</a>) on wielder 3/day</p>
 </td><td><p>+6,500 gp</p>
 </td></tr>
 </tbody>
@@ -908,11 +909,11 @@
 </td><td><p>+56,000 gp</p>
 </td></tr>
 <tr><td><p>51-56</p>
-</td><td><p>Item can cast 10d6 <a href="//worldofpannotia.com/game-rules/magic/spells/lightning-bolt/" title="Lightning Bolt"><em>Lightning Bolt</em></a></p>
+</td><td><p>Item can cast <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="10" data-die-type="6" data-die-modifier="0">10d6</a> <a href="//worldofpannotia.com/game-rules/magic/spells/lightning-bolt/" title="Lightning Bolt"><em>Lightning Bolt</em></a></p>
 </td><td><p>+60,000 gp</p>
 </td></tr>
 <tr><td><p>57-62</p>
-</td><td><p>Item can cast 10d6 <a href="//worldofpannotia.com/game-rules/magic/spells/fireball/" title="Fireball"><em>Fireball</em></a></p>
+</td><td><p>Item can cast <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="10" data-die-type="6" data-die-modifier="0">10d6</a> <a href="//worldofpannotia.com/game-rules/magic/spells/fireball/" title="Fireball"><em>Fireball</em></a></p>
 </td><td><p>+60,000 gp</p>
 </td></tr>
 <tr><td><p>63-68</p>
@@ -932,7 +933,7 @@
 </td><td><p>+81,000 gp</p>
 </td></tr>
 <tr><td><p>88-92</p>
-</td><td><p>Item can cast 15d6 <a href="//worldofpannotia.com/game-rules/magic/spells/shout-greater/" title="Shout, Greater"><em>Shout, Greater</em></a> 3/day</p>
+</td><td><p>Item can cast <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="15" data-die-type="6" data-die-modifier="0">15d6</a> <a href="//worldofpannotia.com/game-rules/magic/spells/shout-greater/" title="Shout, Greater"><em>Shout, Greater</em></a> 3/day</p>
 </td><td><p>+130,000 gp</p>
 </td></tr>
 <tr><td><p>93-98</p>
@@ -1046,6 +1047,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

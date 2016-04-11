@@ -62,7 +62,7 @@ The table below describes in general terms how likely it is that a given square 
 
 **Other Forest Terrain Elements:** Fallen logs generally stand about 3 feet high and provide cover just as low walls do. They cost 5 feet of movement to cross. Forest streams are generally 5 to 10 feet wide and no more than 5 feet deep. Pathways wind through most forests, allowing normal movement and providing neither cover nor concealment. These paths are less common in dense forests, but even unexplored forests will have occasional game trails.
 
-**Stealth and Detection in a Forest:** In a sparse forest, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is 3d6×10 feet. In a medium forest, this distance is 2d8×10 feet, and in a dense forest it is 2d6×10 feet.
+**Stealth and Detection in a Forest:** In a sparse forest, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is {% die_roll 3 6 0 %}×10 feet. In a medium forest, this distance is {% die_roll 2 8 0 %}×10 feet, and in a dense forest it is {% die_roll 2 6 0 %}×10 feet.
 
 Because any square with undergrowth provides concealment, it's usually easy for a creature to use the Hide skill in the forest. Logs and massive trees provide cover, which also makes hiding possible.
 
@@ -72,19 +72,19 @@ The background noise in the forest makes Listen checks more difficult, increasin
 
 Most campfire sparks ignite nothing, but if conditions are dry, winds are strong, or the forest floor is dried out and flammable, a forest fire can result. Lightning strikes often set trees afire and start forest fires in this way. Whatever the cause of the fire, travelers can get caught in the conflagration.
 
-A forest fire can be spotted from as far away as 2d6×100 feet by a character who makes a Spot check, treating the fire as a Colossal creature (reducing the DC by 16). If all characters fail their Spot checks, the fire moves closer to them. They automatically see it when it closes to half the original distance.
+A forest fire can be spotted from as far away as {% die_roll 2 6 0 %}×100 feet by a character who makes a Spot check, treating the fire as a Colossal creature (reducing the DC by 16). If all characters fail their Spot checks, the fire moves closer to them. They automatically see it when it closes to half the original distance.
 
 Characters who are blinded or otherwise unable to make Spot checks can feel the heat of the fire (and thus automatically "spot" it) when it is 100 feet away.
 
-The leading edge of a fire (the downwind side) can advance faster than a human can run (assume 120 feet per round for winds of moderate strength). Once a particular portion of the forest is ablaze, it remains so for 2d4×10 minutes before dying to a smoking smolder. Characters overtaken by a forest fire may find the leading edge of the fire advancing away from them faster than they can keep up, trapping them deeper and deeper in its grasp.
+The leading edge of a fire (the downwind side) can advance faster than a human can run (assume 120 feet per round for winds of moderate strength). Once a particular portion of the forest is ablaze, it remains so for {% die_roll 2 4 0 %}×10 minutes before dying to a smoking smolder. Characters overtaken by a forest fire may find the leading edge of the fire advancing away from them faster than they can keep up, trapping them deeper and deeper in its grasp.
 
 Within the bounds of a forest fire, a character faces three dangers: heat damage, catching on fire, and smoke inhalation.
 
-**Heat Damage:** Getting caught within a forest fire is even worse than being exposed to extreme heat (see Heat Dangers). Breathing the air causes a character to take 1d6 points of damage per round (no save). In addition, a character must make a Fortitude save every 5 rounds (DC 15, +1 per previous check) or take 1d4 points of nonlethal damage. A character who holds his breath can avoid the lethal damage, but not the nonlethal damage. Those wearing heavy clothing or any sort of armor take a –4 penalty on their saving throws. In addition, those wearing metal armor or coming into contact with very hot metal are affected as if by a heat metal spell.
+**Heat Damage:** Getting caught within a forest fire is even worse than being exposed to extreme heat (see Heat Dangers). Breathing the air causes a character to take {% die_roll 1 6 0 %} points of damage per round (no save). In addition, a character must make a Fortitude save every 5 rounds (DC 15, +1 per previous check) or take {% die_roll 1 4 0 %} points of nonlethal damage. A character who holds his breath can avoid the lethal damage, but not the nonlethal damage. Those wearing heavy clothing or any sort of armor take a –4 penalty on their saving throws. In addition, those wearing metal armor or coming into contact with very hot metal are affected as if by a heat metal spell.
 
 **Catching on Fire:** Characters engulfed in a forest fire are at risk of catching on fire when the leading edge of the fire overtakes them, and are then at risk once per minute thereafter (see Catching on Fire).
 
-**Smoke Inhalation:** Forest fires naturally produce a great deal of smoke. A character who breathes heavy smoke must make a Fortitude save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes 1d6 points of nonlethal damage. Also, smoke obscures vision, providing concealment to characters within it.
+**Smoke Inhalation:** Forest fires naturally produce a great deal of smoke. A character who breathes heavy smoke must make a Fortitude save each round (DC 15, +1 per previous check) or spend that round choking and coughing. A character who chokes for 2 consecutive rounds takes {% die_roll 1 6 0 %} points of nonlethal damage. Also, smoke obscures vision, providing concealment to characters within it.
 
 ### Marsh Terrain
 
@@ -114,7 +114,7 @@ Both shallow and deep bogs increase the DC of Move Silently checks by 2.
 
 **Undergrowth:** The bushes, rushes, and other tall grasses in marshes function as undergrowth does in a forest (see above). A square that is part of a bog does not also have undergrowth.
 
-**Quicksand:** Patches of quicksand present a deceptively solid appearance (appearing as undergrowth or open land) that may trap careless characters. A character approaching a patch of quicksand at a normal pace is entitled to a DC 8 Survival check to spot the danger before stepping in, but charging or running characters don't have a chance to detect a hidden bog before blundering in. A typical patch of quicksand is 20 feet in diameter; the momentum of a charging or running character carries him or her 1d2×5 feet into the quicksand.
+**Quicksand:** Patches of quicksand present a deceptively solid appearance (appearing as undergrowth or open land) that may trap careless characters. A character approaching a patch of quicksand at a normal pace is entitled to a DC 8 Survival check to spot the danger before stepping in, but charging or running characters don't have a chance to detect a hidden bog before blundering in. A typical patch of quicksand is 20 feet in diameter; the momentum of a charging or running character carries him or her {% die_roll 1 2 0 %}×5 feet into the quicksand.
 
 _Effects of Quicksand:_ Characters in quicksand must make a DC 10 Swim check every round to simply tread water in place, or a DC 15 Swim check to move 5 feet in whatever direction is desired. If a trapped character fails this check by 5 or more, he sinks below the surface and begins to drown whenever he can no longer hold his breath (see the Swim skill description).
 
@@ -126,7 +126,7 @@ _Rescue:_ Pulling out a character trapped in quicksand can be difficult. A rescu
 
 **Other Marsh Terrain Elements:** Some marshes, particularly swamps, have trees just as forests do, usually clustered in small stands. Paths lead across many marshes, winding to avoid bog areas. As in forests, paths allow normal movement and don't provide the concealment that undergrowth does.
 
-Stealth and Detection in a Marsh: In a moor, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is 6d6×10 feet. In a swamp, this distance is 2d8×10 feet.
+Stealth and Detection in a Marsh: In a moor, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is {% die_roll 6 6 0 %}×10 feet. In a swamp, this distance is {% die_roll 2 8 0 %}×10 feet.
 
 Undergrowth and deep bogs provide plentiful concealment, so it's easy to hide in a marsh.
 
@@ -148,15 +148,15 @@ A hill can exist in most other types of terrain, but hills can also dominate the
 
 **Gradual Slope:** This incline isn't steep enough to affect movement, but characters gain a +1 bonus on melee attacks against foes downhill from them.
 
-**Steep Slope:** Characters moving uphill (to an adjacent square of higher elevation) must spend 2 squares of movement to enter each square of steep slope. Characters running or charging downhill (moving to an adjacent square of lower elevation) must succeed on a DC 10 Balance check upon entering the first steep slope square. Mounted characters make a DC 10 Ride check instead. Characters who fail this check stumble and must end their movement 1d2×5 feet later. Characters who fail by 5 or more fall prone in the square where they end their movement. A steep slope increases the DC of Tumble checks by 2.
+**Steep Slope:** Characters moving uphill (to an adjacent square of higher elevation) must spend 2 squares of movement to enter each square of steep slope. Characters running or charging downhill (moving to an adjacent square of lower elevation) must succeed on a DC 10 Balance check upon entering the first steep slope square. Mounted characters make a DC 10 Ride check instead. Characters who fail this check stumble and must end their movement {% die_roll 1 2 0 %}×5 feet later. Characters who fail by 5 or more fall prone in the square where they end their movement. A steep slope increases the DC of Tumble checks by 2.
 
-**Cliff:** A cliff typically requires a DC 15 Climb check to scale and is 1d4×10 feet tall, although the needs of your map may mandate a taller cliff. A cliff isn't perfectly vertical, taking up 5-foot squares if it's less than 30 feet tall and 10-foot squares if it's 30 feet or taller.
+**Cliff:** A cliff typically requires a DC 15 Climb check to scale and is {% die_roll 1 4 0 %}×10 feet tall, although the needs of your map may mandate a taller cliff. A cliff isn't perfectly vertical, taking up 5-foot squares if it's less than 30 feet tall and 10-foot squares if it's 30 feet or taller.
 
 **Light Undergrowth:** Sagebrush and other scrubby bushes grow on hills, athough they rarely cover the landscape as they do in forests and marshes. Light undergrowth provides concealment and increases the DC of Tumble and Move Silently checks by 2.
 
 **Other Hills Terrain Elements:** Trees aren't out of place in hills terrain, and valleys often have active streams (5 to 10 feet wide and no more than 5 feet deep) or dry streambeds (treat as a trench 5 to 10 feet across) in them. If you add a stream or streambed, remember that water always flows downhill.
 
-**Stealth and Detection in Hills:** In gentle hills, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is 2d10×10 feet. In rugged hills, this distance is 2d6×10 feet.
+**Stealth and Detection in Hills:** In gentle hills, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is {% die_roll 2 10 0 %}×10 feet. In rugged hills, this distance is {% die_roll 2 6 0 %}×10 feet.
 
 Hiding in hills terrain can be difficult if there isn't undergrowth around. A hilltop or ridge provides enough cover to hide from anyone below the hilltop or ridge.
 
@@ -183,9 +183,9 @@ Mountains have an important terrain element, the rock wall, that is marked on th
 
 **Gradual and Steep Slopes:** These function as described in Hills Terrain, above.
 
-**Cliff:** These terrain elements also function like their hills terrain counterparts, but they're typically 2d6×10 feet tall. Cliffs taller than 80 feet take up 20 feet of horizontal space.
+**Cliff:** These terrain elements also function like their hills terrain counterparts, but they're typically {% die_roll 2 6 0 %}×10 feet tall. Cliffs taller than 80 feet take up 20 feet of horizontal space.
 
-**Chasm:** Usually formed by natural geological processes, chasms function like pits in a dungeon setting. Chasms aren't hidden, so characters won't fall into them by accident (although bull rushes are another story). A typical chasm is 2d4×10 feet deep, at least 20 feet long, and anywhere from 5 feet to 20 feet wide. It takes a DC 15 Climb check to climb out of a chasm. In forbidding mountain terrain, chasms are typically 2d8×10 feet deep.
+**Chasm:** Usually formed by natural geological processes, chasms function like pits in a dungeon setting. Chasms aren't hidden, so characters won't fall into them by accident (although bull rushes are another story). A typical chasm is {% die_roll 2 4 0 %}×10 feet deep, at least 20 feet long, and anywhere from 5 feet to 20 feet wide. It takes a DC 15 Climb check to climb out of a chasm. In forbidding mountain terrain, chasms are typically {% die_roll 2 8 0 %}×10 feet deep.
 
 **Light Undergrowth:** This functions as described in Forest Terrain, above.
 
@@ -193,13 +193,13 @@ Mountains have an important terrain element, the rock wall, that is marked on th
 
 **Dense Rubble:** The ground is covered with rocks of all sizes. It costs 2 squares of movement to enter a square with dense rubble. The DC of Balance and Tumble checks on dense rubble increases by 5, and the DC of Move Silently checks increases by +2.
 
-**Rock Wall:** A vertical plane of stone, rock walls require DC 25 Climb checks to ascend. A typical rock wall is 2d4×10 feet tall in rugged mountains and 2d8×10 feet tall in forbidding mountains. Rock walls are drawn on the edges of squares, not in the squares themselves.
+**Rock Wall:** A vertical plane of stone, rock walls require DC 25 Climb checks to ascend. A typical rock wall is {% die_roll 2 4 0 %}×10 feet tall in rugged mountains and {% die_roll 2 8 0 %}×10 feet tall in forbidding mountains. Rock walls are drawn on the edges of squares, not in the squares themselves.
 
-**Cave Entrance:** Found in cliff and steep slope squares and next to rock walls, cave entrances are typically between 5 and 20 feet wide and 5 feet deep. Beyond the entrance, a cave could be anything from a simple chamber to the entrance to an elaborate dungeon. Caves used as monster lairs typically have 1d3 rooms that are 1d4×10 feet across.
+**Cave Entrance:** Found in cliff and steep slope squares and next to rock walls, cave entrances are typically between 5 and 20 feet wide and 5 feet deep. Beyond the entrance, a cave could be anything from a simple chamber to the entrance to an elaborate dungeon. Caves used as monster lairs typically have {% die_roll 1 3 0 %} rooms that are {% die_roll 1 4 0 %}×10 feet across.
 
 **Other Mountain Terrain Features:** Most alpine meadows begin above the tree line, so trees and other forest elements are rare in the mountains. Mountain terrain can include active streams (5 to 10 feet wide and no more than 5 feet deep) and dry streambeds (treat as a trench 5 to 10 feet across). Particularly high-altitude areas tend to be colder than the lowland areas that surround them, so they may be covered in ice sheets (described below).
 
-**Stealth and Detection in Mountains:** As a guideline, the maximum distance in mountain terrain at which a Spot check for detecting the nearby presence of others can succeed is 4d10×10 feet. Certain peaks and ridgelines afford much better vantage points, of course, and twisting valleys and canyons have much shorter spotting distances. Because there's little vegetation to obstruct line of sight, the specifics on your map are your best guide for the range at which an encounter could begin. As in hills terrain, a ridge or peak provides enough cover to hide from anyone below the high point.
+**Stealth and Detection in Mountains:** As a guideline, the maximum distance in mountain terrain at which a Spot check for detecting the nearby presence of others can succeed is {% die_roll 4 10 0 %}×10 feet. Certain peaks and ridgelines afford much better vantage points, of course, and twisting valleys and canyons have much shorter spotting distances. Because there's little vegetation to obstruct line of sight, the specifics on your map are your best guide for the range at which an encounter could begin. As in hills terrain, a ridge or peak provides enough cover to hide from anyone below the high point.
 
 It's easier to hear faraway sounds in the mountains. The DC of Listen checks increases by 1 per 20 feet between listener and source, not per 10 feet.
 
@@ -207,15 +207,15 @@ It's easier to hear faraway sounds in the mountains. The DC of Listen checks inc
 
 The combination of high peaks and heavy snowfalls means that avalanches are a deadly peril in many mountainous areas. While avalanches of snow and ice are common, it's also possible to have an avalanche of rock and soil.
 
-An avalanche can be spotted from as far away as 1d10×500 feet downslope by a character who makes a DC 20 Spot check, treating the avalanche as a Colossal creature. If all characters fail their Spot checks to determine the encounter distance, the avalanche moves closer to them, and they automatically become aware of it when it closes to half the original distance. It's possible to hear an avalanche coming even if you can't see it. Under optimum conditions (no other loud noises occurring), a character who makes a DC 15 Listen check can hear the avalanche or landslide when it is 1d6×500 feet away. This check might have a DC of 20, 25, or higher in conditions where hearing is difficult (such as in the middle of a thunderstorm).
+An avalanche can be spotted from as far away as {% die_roll 1 10 0 %}×500 feet downslope by a character who makes a DC 20 Spot check, treating the avalanche as a Colossal creature. If all characters fail their Spot checks to determine the encounter distance, the avalanche moves closer to them, and they automatically become aware of it when it closes to half the original distance. It's possible to hear an avalanche coming even if you can't see it. Under optimum conditions (no other loud noises occurring), a character who makes a DC 15 Listen check can hear the avalanche or landslide when it is {% die_roll 1 6 0 %}×500 feet away. This check might have a DC of 20, 25, or higher in conditions where hearing is difficult (such as in the middle of a thunderstorm).
 
-A landslide or avalanche consists of two distinct areas: the bury zone (in the direct path of the falling debris) and the slide zone (the area the debris spreads out to encompass). Characters in the bury zone always take damage from the avalanche; characters in the slide zone may be able to get out of the way. Characters in the bury zone take 8d6 points of damage, or half that amount if they make a DC 15 Reflex save. They are subsequently buried (see below). Characters in the slide zone take 3d6 points of damage, or no damage if they make a DC 15 Reflex save. Those who fail their saves are buried.
+A landslide or avalanche consists of two distinct areas: the bury zone (in the direct path of the falling debris) and the slide zone (the area the debris spreads out to encompass). Characters in the bury zone always take damage from the avalanche; characters in the slide zone may be able to get out of the way. Characters in the bury zone take {% die_roll 8 6 0 %} points of damage, or half that amount if they make a DC 15 Reflex save. They are subsequently buried (see below). Characters in the slide zone take {% die_roll 3 6 0 %} points of damage, or no damage if they make a DC 15 Reflex save. Those who fail their saves are buried.
 
-Buried characters take 1d6 points of nonlethal damage per minute. If a buried character falls unconscious, he or she must make a DC 15 Constitution check or take 1d6 points of lethal damage each minute thereafter until freed or dead.
+Buried characters take {% die_roll 1 6 0 %} points of nonlethal damage per minute. If a buried character falls unconscious, he or she must make a DC 15 Constitution check or take {% die_roll 1 6 0 %} points of lethal damage each minute thereafter until freed or dead.
 
-The typical avalanche has a width of 1d6×100 feet, from one edge of the slide zone to the opposite edge. The bury zone in the center of the avalanche is half as wide as the avalanche's full width.
+The typical avalanche has a width of {% die_roll 1 6 0 %}×100 feet, from one edge of the slide zone to the opposite edge. The bury zone in the center of the avalanche is half as wide as the avalanche's full width.
 
-To determine the precise location of characters in the path of an avalanche, roll 1d6×20; the result is the number of feet from the center of the path taken by the bury zone to the center of the party's location. Avalanches of snow and ice advance at a speed of 500 feet per round, and rock avalanches travel at a speed of 250 feet per round.
+To determine the precise location of characters in the path of an avalanche, roll {% die_roll 1 6 0 %}×20; the result is the number of feet from the center of the path taken by the bury zone to the center of the party's location. Avalanches of snow and ice advance at a speed of 500 feet per round, and rock avalanches travel at a speed of 250 feet per round.
 
 #### Mountain Travel
 
@@ -262,13 +262,13 @@ The table above describes terrain elements found in each of the three desert cat
 
 **Other Desert Terrain Features:** Tundra is sometimes bordered by forests, and the occasional tree isn't out of place in the cold wastes. Rocky deserts have towers and mesas consisting of flat ground surrounded on all sides by cliffs and steep slopes (described in Mountain Terrain, above). Sandy deserts sometimes have quicksand; this functions as described in Marsh Terrain, above, although desert quicksand is a waterless mixture of fine sand and dust. All desert terrain is crisscrossed with dry streambeds (treat as trenches 5 to 15 feet wide) that fill with water on the rare occasions when rain falls.
 
-**Stealth and Detection in the Desert:** In general, the maximum distance in desert terrain at which a Spot check for detecting the nearby presence of others can succeed is 6d6×20 feet; beyond this distance, elevation changes and heat distortion in warm deserts makes spotting impossible. The presence of dunes in sandy deserts limits spotting distance to 6d6×10 feet.
+**Stealth and Detection in the Desert:** In general, the maximum distance in desert terrain at which a Spot check for detecting the nearby presence of others can succeed is {% die_roll 6 6 0 %}×20 feet; beyond this distance, elevation changes and heat distortion in warm deserts makes spotting impossible. The presence of dunes in sandy deserts limits spotting distance to {% die_roll 6 6 0 %}×10 feet.
 
 The desert imposes neither bonuses nor penalties on Listen or Spot checks. The scarcity of undergrowth or other elements that offer concealment or cover makes hiding more difficult.
 
 #### Sandstorms
 
-A sandstorm reduces visibility to 1d10×5 feet and provides a –4 penalty on Listen, Search, and Spot checks. A sandstorm deals 1d3 points of nonlethal damage per hour to any creatures caught in the open, and leaves a thin coating of sand in its wake. Driving sand creeps in through all but the most secure seals and seams, to chafe skin and contaminate carried gear.
+A sandstorm reduces visibility to {% die_roll 1 10 0 %}×5 feet and provides a –4 penalty on Listen, Search, and Spot checks. A sandstorm deals {% die_roll 1 3 0 %} points of nonlethal damage per hour to any creatures caught in the open, and leaves a thin coating of sand in its wake. Driving sand creeps in through all but the most secure seals and seams, to chafe skin and contaminate carried gear.
 
 ### Plains Terrain
 
@@ -301,7 +301,7 @@ The terrain elements in the table below are mutually exclusive.
 
 **Other Plains Terrain Features:** Occasional trees dot the landscape in many plains, although on battlefields they're often felled to provide raw material for siege engines (described in Urban Features). Hedgerows (described in Marsh Terrain) are found in plains as well. Streams, generally 5 to 20 feet wide and 5 to 10 feet deep, are commonplace.
 
-**Stealth and Detection in Plains:** In plains terrain, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is 6d6×40 feet, although the specifics of your map may restrict line of sight. Plains terrain provides no bonuses or penalties on Listen and Spot checks. Cover and concealment are not uncommon, so a good place of refuge is often nearby, if not right at hand.
+**Stealth and Detection in Plains:** In plains terrain, the maximum distance at which a Spot check for detecting the nearby presence of others can succeed is {% die_roll 6 6 0 %}×40 feet, although the specifics of your map may restrict line of sight. Plains terrain provides no bonuses or penalties on Listen and Spot checks. Cover and concealment are not uncommon, so a good place of refuge is often nearby, if not right at hand.
 
 ### Aquatic Terrain
 
@@ -313,7 +313,7 @@ _Swept Away:_ Characters swept away by a river moving 60 feet per round or faste
 
 **Nonflowing Water:** Lakes and oceans simply require a swim speed or successful Swim checks to move through (DC 10 in calm water, DC 15 in rough water, DC 20 in stormy water). Characters need a way to breathe if they're underwater; failing that, they risk drowning. When underwater, characters can move in any direction as if they were flying with perfect maneuverability.
 
-**Stealth and Detection Underwater:** How far you can see underwater depends on the water's clarity. As a guideline, creatures can see 4d8×10 feet if the water is clear, and 1d8×10 feet if it's murky. Moving water is always murky, unless it's in a particularly large, slow-moving river.
+**Stealth and Detection Underwater:** How far you can see underwater depends on the water's clarity. As a guideline, creatures can see {% die_roll 4 8 0 %}×10 feet if the water is clear, and {% die_roll 1 8 0 %}×10 feet if it's murky. Moving water is always murky, unless it's in a particularly large, slow-moving river.
 
 It's hard to find cover or concealment to hide underwater (except along the seafloor). Listen and Move Silently checks function normally underwater.
 
@@ -348,7 +348,7 @@ In many wilderness areas, river floods are a common occurrence.
 
 In spring, an enormous snowmelt can engorge the streams and rivers it feeds. Other catastrophic events such as massive rainstorms or the destruction of a dam can create floods as well.
 
-During a flood, rivers become wider, deeper, and swifter. Assume that a river rises by 1d10+10 feet during the spring flood, and its width increases by a factor of 1d4×50%. Fords may disappear for days, bridges may be swept away, and even ferries might not be able to manage the crossing of a flooded river. A river in flood makes Swim checks one category harder (calm water becomes rough, and rough water becomes stormy). Rivers also become 50% swifter.
+During a flood, rivers become wider, deeper, and swifter. Assume that a river rises by {% die_roll 1 10 10 %} feet during the spring flood, and its width increases by a factor of {% die_roll 1 4 0 %}×50%. Fords may disappear for days, bridges may be swept away, and even ferries might not be able to manage the crossing of a flooded river. A river in flood makes Swim checks one category harder (calm water becomes rough, and rough water becomes stormy). Rivers also become 50% swifter.
 
 ### Urban Adventures
 
@@ -405,10 +405,10 @@ Siege engines are large weapons, temporary structures, or pieces of equipment tr
 |---
 | Item  | Cost  | Damage | Critical | Range Increment | Typical Crew
 |-|-|-|-|-|-
-| Catapult, heavy | 800 gp | 6d6 | &ndash; | 200 ft. (100 ft. minimum) | 4
-| Catapult, light  | 550 gp  | 4d6 | &ndash; | 150 ft. (100 ft. minimum) | 2
-| Ballista  | 500 gp  | 3d8 | 19–20 | 120 ft. | 1
-| Ram  | 1,000 gp  | 3d6<sup>1</sup> | &ndash; | &ndash; | 10
+| Catapult, heavy | 800 gp | {% die_roll 6 6 0 %} | &ndash; | 200 ft. (100 ft. minimum) | 4
+| Catapult, light  | 550 gp  | {% die_roll 4 6 0 %} | &ndash; | 150 ft. (100 ft. minimum) | 2
+| Ballista  | 500 gp  | {% die_roll 3 8 0 %} | 19–20 | 120 ft. | 1
+| Ram  | 1,000 gp  | {% die_roll 3 6 0 %}<sup>1</sup> | &ndash; | &ndash; | 10
 | Siege tower  | 2,000 gp  | &ndash; | &ndash; | &ndash; | 20
 |===
 | <sup>1</sup>See description for special rules. |<|<|<|<|<
@@ -424,7 +424,7 @@ Siege engines are large weapons, temporary structures, or pieces of equipment tr
 
 **Catapult, Heavy:** A heavy catapult is a massive engine capable of throwing rocks or heavy objects with great force. Because the catapult throws its payload in a high arc, it can hit squares out of its line of sight. To fire a heavy catapult, the crew chief makes a special check against DC 15 using only his base attack bonus, Intelligence modifier, range increment penalty, and the appropriate modifiers from the lower section of Table 3–26. If the check succeeds, the catapult stone hits the square the catapult was aimed at, dealing the indicated damage to any object or character in the square. Characters who succeed on a DC 15 Reflex save take half damage. Once a catapult stone hits a square, subsequent shots hit the same square unless the catapult is reaimed or the wind changes direction or speed.
 
-If a catapult stone misses, roll 1d8 to determine where it lands. This determines the misdirection of the throw, with 1 being back toward the catapult and 2 through 8 counting clockwise around the target square. Then, count 3 squares away from the target square for every range increment of the attack.
+If a catapult stone misses, roll {% die_roll 1 8 0 %} to determine where it lands. This determines the misdirection of the throw, with 1 being back toward the catapult and 2 through 8 counting clockwise around the target square. Then, count 3 squares away from the target square for every range increment of the attack.
 
 Loading a catapult requires a series of full-round actions. It takes a DC 15 Strength check to winch the throwing arm down; most catapults have wheels to allow up to two crew members to use the aid another action, assisting the main winch operator. A DC 15 Profession (siege engineer) check latches the arm into place, and then another DC 15 Profession (siege engineer) check loads the catapult ammunition. It takes four full-round actions to reaim a heavy catapult (multiple crew members can perform these full-round actions in the same round, so it would take a crew of four only 1 round to reaim the catapult).
 
@@ -448,7 +448,7 @@ A typical siege tower takes up a space 15 feet across. The creatures inside push
 
 #### City Streets
 
-Typical city streets are narrow and twisting. Most streets average 15 to 20 feet wide [(1d4+1)×5 feet)], while alleys range from 10 feet wide to only 5 feet. Cobblestones in good condition allow normal movement, but ones in poor repair and heavily rutted dirt streets are considered light rubble, increasing the DC of Balance and Tumble checks by 2.
+Typical city streets are narrow and twisting. Most streets average 15 to 20 feet wide [({% die_roll 1 4 1 %})×5 feet)], while alleys range from 10 feet wide to only 5 feet. Cobblestones in good condition allow normal movement, but ones in poor repair and heavily rutted dirt streets are considered light rubble, increasing the DC of Balance and Tumble checks by 2.
 
 Some cities have no larger thoroughfares, particularly cities that gradually grew from small settlements to larger cities. Cities that are planned, or perhaps have suffered a major fire that allowed authorities to construct new roads through formerly inhabited areas, might have a few larger streets through town. These main roads are 25 feet wide&ndash;offering room for wagons to pass each other&ndash;with 5-foot-wide sidewalks on either side.
 
@@ -462,7 +462,7 @@ If two or more characters are trying to direct a crowd in different directions, 
 
 **Rooftops:** Getting to a roof usually requires climbing a wall (see the Walls section), unless the character can reach a roof by jumping down from a higher window, balcony, or bridge. Flat roofs, common only in warm climates (accumulated snow can cause a flat roof to collapse), are easy to run across. Moving along the peak of a roof requires a DC 20 Balance check. Moving on an angled roof surface without changing altitude (moving parallel to the peak, in other words) requires a DC 15 Balance check. Moving up and down across the peak of a roof requires a DC 10 Balance check.
 
-Eventually a character runs out of roof, requiring a long jump across to the next roof or down to the ground. The distance to the next closest roof is usually 1d3×5 feet horizontally, but the roof across the gap is equally likely to be 5 feet higher, 5 feet lower, or the same height. Use the guidelines in the Jump skill (a horizontal jump's peak height is one-fourth of the horizontal distance) to determine whether a character can make a jump.
+Eventually a character runs out of roof, requiring a long jump across to the next roof or down to the ground. The distance to the next closest roof is usually {% die_roll 1 3 0 %}×5 feet horizontally, but the roof across the gap is equally likely to be 5 feet higher, 5 feet lower, or the same height. Use the guidelines in the Jump skill (a horizontal jump's peak height is one-fourth of the horizontal distance) to determine whether a character can make a jump.
 
 **Sewers:** To get into the sewers, most characters open a grate (a full-round action) and jump down 10 feet. Sewers are built exactly like dungeons, except that they're much more likely to have floors that are slippery or covered with water. Sewers are also similar to dungeons in terms of creatures liable to be encountered therein. Some cities were built atop the ruins of older civilizations, so their sewers sometimes lead to treasures and dangers from a bygone age.
 

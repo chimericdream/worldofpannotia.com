@@ -9,22 +9,22 @@ class:
       |---
       | Level | Special
       |-|-
-      | 11th | Sneak attack +6d6
+      | 11th | Sneak attack +{% die_roll 6 6 0 %}
       | 12th | +6 save against poison
-      | 13th | Sneak attack +7d6
+      | 13th | Sneak attack +{% die_roll 7 6 0 %}
       | 14th | +7 save against poison, bonus feat
-      | 15th | Sneak attack +8d6
+      | 15th | Sneak attack +{% die_roll 8 6 0 %}
       | 16th | +8 save against poison
-      | 17th | Sneak attack +9d6
+      | 17th | Sneak attack +{% die_roll 9 6 0 %}
       | 18th | +9 save against poison, bonus feat
-      | 19th | Sneak attack +10d6
+      | 19th | Sneak attack +{% die_roll 10 6 0 %}
       | 20th | +10 save against poison
       {: #epic-assassin-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Epic Assassin" }
     classFeatures:
       - name: "Sneak Attack"
         type: ""
         desc: |
-          The epic assassin's sneak attack damage increases by +1d6 every two levels after 9th.
+          The epic assassin's sneak attack damage increases by +{% die_roll 1 6 0 %} every two levels after 9th.
       - name: "Death Attack"
         type: ""
         desc: |

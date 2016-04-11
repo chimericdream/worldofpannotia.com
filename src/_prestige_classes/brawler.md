@@ -74,12 +74,12 @@ class:
           |---
           | Original Damage | New Damage | Original Damage | New Damage
           |-|-|-|-
-          | 1d3 | 1d4 | 2d8 | 2d10
-          | 1d4 | 1d6 | 2d10 | 3d8
-          | 1d6 | 1d8 | 3d8 | 4d8
-          | 1d8 | 1d10 | 4d8 | 6d8
-          | 1d10 | 2d6 | 6d8 | &ndash;
-          | 2d6 | 2d8 | &ndash; | &ndash;
+          | {% die_roll 1 3 0 %} | {% die_roll 1 4 0 %} | {% die_roll 2 8 0 %} | {% die_roll 2 10 0 %}
+          | {% die_roll 1 4 0 %} | {% die_roll 1 6 0 %} | {% die_roll 2 10 0 %} | {% die_roll 3 8 0 %}
+          | {% die_roll 1 6 0 %} | {% die_roll 1 8 0 %} | {% die_roll 3 8 0 %} | {% die_roll 4 8 0 %}
+          | {% die_roll 1 8 0 %} | {% die_roll 1 10 0 %} | {% die_roll 4 8 0 %} | {% die_roll 6 8 0 %}
+          | {% die_roll 1 10 0 %} | {% die_roll 2 6 0 %} | {% die_roll 6 8 0 %} | &ndash;
+          | {% die_roll 2 6 0 %} | {% die_roll 2 8 0 %} | &ndash; | &ndash;
           {: #unarmed-damage-table .table .table-bordered .table-hover .table-striped data-caption="Table: A Brawler's Unarmed Damage" }
       - name: "Improved Bull Rush"
         type: ""

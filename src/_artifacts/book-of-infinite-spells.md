@@ -9,7 +9,7 @@ artifact:
   manifesterLevel: ""
   weight: "3 lb"
   description: |
-    This work bestows upon any character of any class the ability to use the spells within its pages. However, any character not already able to use spells gains one negative level for as long as the book is in her possession or while she uses its power. A _book of infinite spells_ contains 1d8+22 pages. The nature of each page is determined by a dice roll: 01–50, arcane spell; 51–100, divine spell.
+    This work bestows upon any character of any class the ability to use the spells within its pages. However, any character not already able to use spells gains one negative level for as long as the book is in her possession or while she uses its power. A _book of infinite spells_ contains {% die_roll 1 8 22 %} pages. The nature of each page is determined by a dice roll: 01–50, arcane spell; 51–100, divine spell.
 
     Determine the exact spell by using the tables for determining major scroll spells.
 

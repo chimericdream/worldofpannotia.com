@@ -23,7 +23,7 @@ skill:
     | <sup>1</sup>You can't take 10 on a {% skill_link swim %} check in stormy water, even if you aren't otherwise being threatened or distracted. |<
     {: #swim-dc-table .table .table-bordered .table-hover .table-striped data-caption="Table: Swim DCs" }
 
-    Each hour that you swim, you must make a DC 20 {% skill_link swim %} check or take 1d6 points of nonlethal damage from fatigue.
+    Each hour that you swim, you must make a DC 20 {% skill_link swim %} check or take {% die_roll 1 6 0 %} points of nonlethal damage from fatigue.
   action: |
     A successful {% skill_link swim %} check allows you to swim one-quarter of your speed as a move action or one-half your speed as a full-round action.
   try_again: ""

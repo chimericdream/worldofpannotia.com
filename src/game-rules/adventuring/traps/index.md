@@ -112,7 +112,7 @@ Covered pits are much more dangerous. They can be detected with a DC 20 Search c
 
 Trap coverings can be as simple as piled refuse (straw, leaves, sticks, garbage), a large rug, or an actual trapdoor concealed to appear as a normal part of the floor. Such a trapdoor usually swings open when enough weight (usually about 50 to 80 pounds) is placed upon it. Devious trap builders sometimes design trapdoors so that they spring back shut after they open. The trapdoor might lock once it's back in place, leaving the stranded character well and truly trapped. Opening such a trapdoor is just as difficult as opening a regular door (assuming the trapped character can reach it), and a DC 13 Strength check is needed to keep a spring-loaded door open.
 
-Pit traps often have something nastier than just a hard floor at the bottom. A trap designer may put spikes, monsters, or a pool of acid, lava, or even water at the bottom. Spikes at the bottom of a pit deal damage as daggers with a +10 attack bonus and a +1 bonus on damage for every 10 feet of the fall (to a maximum bonus on damage of +5). If the pit has multiple spikes, a falling victim is attacked by 1d4 of them. This damage is in addition to any damage from the fall itself.
+Pit traps often have something nastier than just a hard floor at the bottom. A trap designer may put spikes, monsters, or a pool of acid, lava, or even water at the bottom. Spikes at the bottom of a pit deal damage as daggers with a +10 attack bonus and a +1 bonus on damage for every 10 feet of the fall (to a maximum bonus on damage of +5). If the pit has multiple spikes, a falling victim is attacked by {% die_roll 1 4 0 %} of them. This damage is in addition to any damage from the fall itself.
 
 Monsters sometimes live in pits. Any monster that can fit into the pit might have been placed there by the dungeon's designer, or might simply have fallen in and not been able to climb back out.
 
@@ -126,7 +126,7 @@ A secondary trap, mechanical or magical, at the bottom of a pit can be particula
 
 The effect of a trap is what happens to those who spring it. Usually this takes the form of either damage or a spell effect, but some traps have special effects.
 
-**Pits:** Falling into a pit deals 1d6 points of damage per 10 feet of depth.
+**Pits:** Falling into a pit deals {% die_roll 1 6 0 %} points of damage per 10 feet of depth.
 
 **Ranged Attack Traps:** These traps deal whatever damage their ammunition normally would. If a trap is constructed with a high strength rating, it has a corresponding bonus on damage.
 
@@ -158,7 +158,7 @@ Some traps include optional features that can make them considerably more deadly
 
 **Poison:** Traps that employ poison are deadlier than their nonpoisonous counterparts, so they have correspondingly higher CRs. To determine the CR modifier for a given poison, consult Table: CR Modifiers for Mechanical Traps. Only injury, contact, and inhaled poisons are suitable for traps; ingested types are not. Some traps simply deal the poison's damage. Others deal damage with ranged or melee attacks as well.
 
-**Pit Spikes:** Treat spikes at the bottom of a pit as daggers, each with a +10 attack bonus. The damage bonus for each spike is +1 per 10 feet of pit depth (to a maximum of +5). Each character who falls into the pit is attacked by 1d4 spikes. Pit spikes do not add to the average damage of the trap (see Average Damage, below).
+**Pit Spikes:** Treat spikes at the bottom of a pit as daggers, each with a +10 attack bonus. The damage bonus for each spike is +1 per 10 feet of pit depth (to a maximum of +5). Each character who falls into the pit is attacked by {% die_roll 1 4 0 %} spikes. Pit spikes do not add to the average damage of the trap (see Average Damage, below).
 
 **Pit Bottom:** If something other than spikes waits at the bottom of a pit, it's best to treat that as a separate trap (see Multiple Traps, below) with a location trigger that activates on any significant impact, such as a falling character.
 

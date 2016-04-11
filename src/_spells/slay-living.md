@@ -25,5 +25,5 @@ spell:
   savingThrow:        "Fortitude partial"
   spellResistance:    "Yes"
   description:        |
-    You can slay any one living creature. You must succeed on a melee touch attack to touch the subject, and it can avoid death with a successful Fortitude save. If it succeeds, it instead takes 3d6 points of damage +1 point per caster level.
+    You can slay any one living creature. You must succeed on a melee touch attack to touch the subject, and it can avoid death with a successful Fortitude save. If it succeeds, it instead takes {% die_roll 3 6 0 %} points of damage +1 point per caster level.
 ---

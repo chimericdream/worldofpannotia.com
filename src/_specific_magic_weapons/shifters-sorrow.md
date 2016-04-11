@@ -18,5 +18,5 @@ item:
   costToCreateSpecial: ""
   weight: "10 lb"
   description: |
-    This _+1/+1 two-bladed sword_ has blades of alchemical silver. The weapon deals an extra 2d6 points of damage against any creature with the shapechanger subtype. When a shapechanger or a creature in an alternate form (such as a druid using wild shape) is struck by the weapon, it must make a DC 15 Will save or return to its natural form.
+    This _+1/+1 two-bladed sword_ has blades of alchemical silver. The weapon deals an extra {% die_roll 2 6 0 %} points of damage against any creature with the shapechanger subtype. When a shapechanger or a creature in an alternate form (such as a druid using wild shape) is struck by the weapon, it must make a DC 15 Will save or return to its natural form.
 ---

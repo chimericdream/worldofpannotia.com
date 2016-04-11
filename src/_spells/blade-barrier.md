@@ -26,7 +26,7 @@ spell:
   savingThrow:        "Reflex half or Reflex negates; see text"
   spellResistance:    "Yes"
   description:        |
-    An immobile, vertical curtain of whirling blades shaped of pure force springs into existence. Any creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a Reflex save for half damage.
+    An immobile, vertical curtain of whirling blades shaped of pure force springs into existence. Any creature passing through the wall takes {% die_roll 1 6 0 %} points of damage per caster level (maximum {% die_roll 15 6 0 %}), with a Reflex save for half damage.
 
     If you evoke the barrier so that it appears where creatures are, each creature takes damage as if passing through the wall. Each such creature can avoid the wall (ending up on the side of its choice) and thus take no damage by making a successful Reflex save.
 

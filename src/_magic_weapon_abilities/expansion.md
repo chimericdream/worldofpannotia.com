@@ -14,13 +14,13 @@ ability:
 
     |---
     | Original Damage | New Damage
-    | 1 | 1d4
-    | 1d2 | 1d6
-    | 1d3 | 1d8
-    | 1d4 | 2d6
-    | 1d6 | 3d6
-    | 1d8 | 3d8
-    | 1d10 | 4d6
-    | 1d12 | 6d6
+    | 1 | {% die_roll 1 4 0 %}
+    | {% die_roll 1 2 0 %} | {% die_roll 1 6 0 %}
+    | {% die_roll 1 3 0 %} | {% die_roll 1 8 0 %}
+    | {% die_roll 1 4 0 %} | {% die_roll 2 6 0 %}
+    | {% die_roll 1 6 0 %} | {% die_roll 3 6 0 %}
+    | {% die_roll 1 8 0 %} | {% die_roll 3 8 0 %}
+    | {% die_roll 1 10 0 %} | {% die_roll 4 6 0 %}
+    | {% die_roll 1 12 0 %} | {% die_roll 6 6 0 %}
     {: #expansion-damage-table .table .table-bordered .table-hover .table-striped data-caption="Table: Expansion Damage Table" }
 ---

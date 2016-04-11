@@ -417,11 +417,11 @@ crumbTitles: [Monsters]
         <tr><th>Swarm HD</th><th>Swarm Base Damage</th></tr>
     </thead>
     <tbody>
-        <tr><td>1-5</td><td>1d6</td></tr>
-        <tr><td>6-10</td><td>2d6</td></tr>
-        <tr><td>11-15</td><td>3d6</td></tr>
-        <tr><td>16-20</td><td>4d6</td></tr>
-        <tr><td>21 or more</td><td>5d6</td></tr>
+        <tr><td>1-5</td><td>{% die_roll 1 6 0 %}</td></tr>
+        <tr><td>6-10</td><td>{% die_roll 2 6 0 %}</td></tr>
+        <tr><td>11-15</td><td>{% die_roll 3 6 0 %}</td></tr>
+        <tr><td>16-20</td><td>{% die_roll 4 6 0 %}</td></tr>
+        <tr><td>21 or more</td><td>{% die_roll 5 6 0 %}</td></tr>
     </tbody>
 </table>
 {: #asdfasdf .table .table-bordered .table-hover .table-striped data-caption="asdfasdf" }<p>A swarm's attacks are nonmagical, unless the swarm's description states otherwise. Damage reduction sufficient to reduce a swarm attack's damage to 0, being incorporeal, and other special abilities usually give a creature immunity (or at least resistance) to damage from a swarm. Some swarms also have acid, poison, blood drain, or other special attacks in addition to normal damage.</p>

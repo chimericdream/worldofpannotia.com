@@ -22,7 +22,7 @@ power:
   description: |
     You telekinetically "bring to life" an inanimate object. Though it is not actually alive, the object moves under your control. Live vegetation cannot be controlled in this fashion, nor can already animated objects or undead. The controlled object moves like a puppet, with jerky and clumsy movements, at a speed of up to 20 feet. If its form is rigid, it makes creaking, groaning, or grating sounds as you control it.
 
-    A controlled object can attack an opponent if you direct it to do so. It has one slam attack, at a base attack bonus equal to your base attack bonus plus your Intelligence modifier. If the attack hits, it deals points of damage equal to 1d6 plus your Intelligence modifier. A controlled object has its usual hardness and hit points.
+    A controlled object can attack an opponent if you direct it to do so. It has one slam attack, at a base attack bonus equal to your base attack bonus plus your Intelligence modifier. If the attack hits, it deals points of damage equal to {% die_roll 1 6 0 %} plus your Intelligence modifier. A controlled object has its usual hardness and hit points.
 
     You can use this power on a nonmagical lock, making it move in such a way as to attempt to unlock itself. If another character makes an Open Lock check involving a lock that you are concentrating on controlling, the character gains a +4 bonus on the check.
 ---

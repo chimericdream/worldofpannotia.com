@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 3
   description: |
-    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You release a powerful missile of energy of the chosen type at your foe. The missile deals 3d6 points of damage to each creature or object you target, to the maximum of five targets. You cannot hit the same target multiple times with the same manifestation of this power.
+    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You release a powerful missile of energy of the chosen type at your foe. The missile deals {% die_roll 3 6 0 %} points of damage to each creature or object you target, to the maximum of five targets. You cannot hit the same target multiple times with the same manifestation of this power.
 
     Cold: A missile of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold missile is a Fortitude save instead of a Reflex save.
 

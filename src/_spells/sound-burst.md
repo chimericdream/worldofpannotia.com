@@ -22,7 +22,7 @@ spell:
   spellResistance:    "Yes"
   focus:              "A musical instrument."
   description:        |
-    You blast an area with a tremendous cacophony. Every creature in the area takes 1d8 points of sonic damage and must succeed on a Fortitude save to avoid being stunned for 1 round.
+    You blast an area with a tremendous cacophony. Every creature in the area takes {% die_roll 1 8 0 %} points of sonic damage and must succeed on a Fortitude save to avoid being stunned for 1 round.
 
     Creatures that cannot hear are not stunned but are still damaged.
 ---

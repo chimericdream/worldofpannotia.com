@@ -1,0 +1,4 @@
+[data-die-roll]::after {
+	content: url(/assets/images/icons/d6-16x16.png);
+	margin: 0 0 0 5px;
+}

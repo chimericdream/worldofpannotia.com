@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -489,17 +490,15 @@
 <p><strong>Casting Time:</strong> 1 standard action</p>
 <p><strong>Range:</strong> 300 ft.</p>
 
-
 <p><strong>Target:</strong> One creature or object</p>
-
 
 <p><strong>Duration:</strong> Instantaneous</p>
 <p><strong>Saving Throw:</strong> None</p>
 <p><strong>Spell Resistance:</strong> No</p>
-<p><strong>To Develop:</strong> 531,000 GP; 11 days; 21,240 XP. <em>Seed:</em> dispel (DC 19). <em>Factors:</em> additional +30 to dispel check (+30 DC); 1-action casting time (+20 DC). <em>Mitigating Factor:</em> 10d6 backlash (-10 DC).</p>
+<p><strong>To Develop:</strong> 531,000 GP; 11 days; 21,240 XP. <em>Seed:</em> dispel (DC 19). <em>Factors:</em> additional +30 to dispel check (+30 DC); 1-action casting time (+20 DC). <em>Mitigating Factor:</em> {% die_roll 10 6 0 %} backlash (-10 DC).</p>
 
 
-<p>As greater dispel magic, except that the maximum bonus on the dispel check is +40, and the character takes 10d6 points of backlash damage.</p>
+<p>As greater dispel magic, except that the maximum bonus on the dispel check is +40, and the character takes <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="10" data-die-type="6" data-die-modifier="0">10d6</a> points of backlash damage.</p>
 
 
 </div>
@@ -587,6 +586,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

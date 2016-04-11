@@ -27,7 +27,7 @@ spell:
   description:        |
     You send a hideous and unsettling phantasmal vision to a specific creature that you name or otherwise specifically designate.
 
-    The nightmare prevents restful sleep and causes 1d10 points of damage. The nightmare leaves the subject fatigued and unable to regain arcane spells for the next 24 hours.
+    The nightmare prevents restful sleep and causes {% die_roll 1 10 0 %} points of damage. The nightmare leaves the subject fatigued and unable to regain arcane spells for the next 24 hours.
 
     |---
     | Knowledge | Will Save Modifier

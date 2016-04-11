@@ -30,7 +30,7 @@ artifact:
     | Jester | XII. The Hanged Man | Joker (without trademark) | Gain 10,000 XP or two more draws from the deck.
     | Key | V. The Hierophant | Queen of hearts | Gain a major magic weapon.
     | Knight | Page of swords | Jack of hearts | Gain the service of a 4th-level fighter.
-    | Moon | XVIII. The Moon | Queen of diamonds | You are granted 1d4 wishes.
+    | Moon | XVIII. The Moon | Queen of diamonds | You are granted {% die_roll 1 4 0 %} wishes.
     | Rogue | Five of swords | Jack of spades | One of your friends turns against you.
     | Ruin | XVI. The Tower | King of spades | Immediately lose all wealth and real property.
     | Skull | XIII. Death | Jack of clubs | Defeat dread wraith or be forever destroyed.
@@ -52,13 +52,13 @@ artifact:
 
     _Fates:_ This card enables the character to avoid even an instantaneous occurrence if so desired, for the fabric of reality is unraveled and respun. Note that it does not enable something to happen. It can only stop something from happening or reverse a past occurrence. The reversal is only for the character who drew the card; other party members may have to endure the situation.
 
-    _Flames:_ Hot anger, jealousy, and envy are but a few of the possible motivational forces for the enmity. The enmity of the outsider can't be ended until one of the parties has been slain. Determine the outsider randomly, and assume that it attacks the character (or plagues her life in some way) within 1d20 days.
+    _Flames:_ Hot anger, jealousy, and envy are but a few of the possible motivational forces for the enmity. The enmity of the outsider can't be ended until one of the parties has been slain. Determine the outsider randomly, and assume that it attacks the character (or plagues her life in some way) within {% die_roll 1 20 0 %} days.
 
     _Fool:_ The payment of XP and the redraw are mandatory. This card is always discarded when drawn, unlike all others except the jester.
 
     _Gem:_ This card indicates wealth. The jewelry is all gold set with gems, each piece worth 2,000 gp, the gems 1,000 gp value each.
 
-    _Idiot:_ This card causes the drain of 1d4+1 points of Intelligence immediately. The additional draw is optional.
+    _Idiot:_ This card causes the drain of {% die_roll 1 4 1 %} points of Intelligence immediately. The additional draw is optional.
 
     _Jester:_ This card is always discarded when drawn, unlike all others except the fool. The redraws are optional.
 

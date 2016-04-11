@@ -16,5 +16,5 @@ combo:
   savingThrow: "Reflex halves (see text)"
   spellResistance: "Yes"
   description: |
-    Creatures in the area of this combination are surrounded by an aura of pale flames. Unlike normal {% spell_link faerie-fire %}, however, this fire damages the creatures. It otherwise functions the same as normal faerie fire. Each round, the targets take 1d4 damage per caster level (maximum 5d4; use the lower caster level), and a successful reflex save will halve this damage.
+    Creatures in the area of this combination are surrounded by an aura of pale flames. Unlike normal {% spell_link faerie-fire %}, however, this fire damages the creatures. It otherwise functions the same as normal faerie fire. Each round, the targets take {% die_roll 1 4 0 %} damage per caster level (maximum {% die_roll 5 4 0 %}; use the lower caster level), and a successful reflex save will halve this damage.
 ---

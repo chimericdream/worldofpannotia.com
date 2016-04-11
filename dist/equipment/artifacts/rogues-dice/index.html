@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -490,11 +491,11 @@
     <article class="col-xs-12 col-sm-8 col-sm-pull-4">
         <h3>Rogue's Dice</h3>
 
-        <p>This pair of cubes appears much like any other pair of typical (6-sided) dice. A character with a pair of <em>rogue’s dice</em> who wishes to roll them must announce that he or she is rolling the dice (accidental rolls have no effect). Rolling the dice is a standard action, and both dice must be rolled simultaneously to have any effect. The player should roll 2d6 and consult the table below to determine the <em>dice’s</em> affects.</p>
+        <p>This pair of cubes appears much like any other pair of typical (6-sided) dice. A character with a pair of <em>rogue’s dice</em> who wishes to roll them must announce that he or she is rolling the dice (accidental rolls have no effect). Rolling the dice is a standard action, and both dice must be rolled simultaneously to have any effect. The player should roll <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a> and consult the table below to determine the <em>dice’s</em> affects.</p>
 
 <table id="rogues-dice-table" class="table table-bordered table-hover table-striped" data-caption="Table: Rogue's Dice Effects">
 <thead>
-<tr><th><p>2d6</p>
+<tr><th><p><a href="#" data-trigger="focus" data-die-roll="" data-die-qty="2" data-die-type="6" data-die-modifier="0">2d6</a></p>
 </th><th><p>Effect</p>
 </th></tr>
 </thead>
@@ -503,10 +504,10 @@
 </td><td><p>Lose 10,000 XP and dice roll again next round</p>
 </td></tr>
 <tr><td><p>3</p>
-</td><td><p>Permanently lose 1d4+1 Dex</p>
+</td><td><p>Permanently lose <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="1">1d4+1</a> Dex</p>
 </td></tr>
 <tr><td><p>4</p>
-</td><td><p>Gain 1d4 negative levels (Fortitude DC 20 to remove)</p>
+</td><td><p>Gain <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="1" data-die-type="4" data-die-modifier="0">1d4</a> negative levels (Fortitude DC 20 to remove)</p>
 </td></tr>
 <tr><td><p>5</p>
 </td><td><p>–1 penalty on all attacks, saves, and checks for 1 hour</p>
@@ -563,6 +564,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

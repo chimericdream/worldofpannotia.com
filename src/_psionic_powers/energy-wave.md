@@ -20,7 +20,7 @@ power:
   powerResistance: "Yes"
   powerPoints: 13
   description: |
-    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create a flood of energy of the chosen type out of unstable ectoplasm that deals 13d6 points of damage to each creature and object in the area. This power originates at your hand and extends outward in a cone.
+    Upon manifesting this power, you choose cold, electricity, fire, or sonic. You create a flood of energy of the chosen type out of unstable ectoplasm that deals {% die_roll 13 6 0 %} points of damage to each creature and object in the area. This power originates at your hand and extends outward in a cone.
 
     Cold: A wave of this energy type deals +1 point of damage per die. The saving throw to reduce damage from a cold wave is a Fortitude save instead of a Reflex save.
 

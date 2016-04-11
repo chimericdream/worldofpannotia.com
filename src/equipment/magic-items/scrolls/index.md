@@ -32,13 +32,13 @@ The writing for an activated spell disappears from the scroll.
 
 _Scroll Mishaps:_ When a mishap occurs, the spell on the scroll has a reversed or harmful effect. Possible mishaps are given below.
 
- * A surge of uncontrolled magical energy deals 1d6 points of damage per spell level to the scroll user.
+ * A surge of uncontrolled magical energy deals {% die_roll 1 6 0 %} points of damage per spell level to the scroll user.
  * Spell strikes the scroll user or an ally instead of the intended target, or a random target nearby if the scroll user was the intended recipient.
  * Spell takes effect at some random location within spell range.
  * Spell's effect on the target is contrary to the spell's normal effect.
- * The scroll user suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell's duration, or 2d10 minutes for instantaneous spells.
+ * The scroll user suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell's duration, or {% die_roll 2 10 0 %} minutes for instantaneous spells.
  * Some innocuous item or items appear in the spell's area.
- * Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the scroll user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell's maximum range, if the target has moved away.
+ * Spell has delayed effect. Sometime within the next {% die_roll 1 12 0 %} hours, the spell activates. If the scroll user was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell's maximum range, if the target has moved away.
 
 Several arcane spells are different in level for {% base_class_link sorcerer 'Sorcerers' %} and {% base_class_link wizard 'Wizards' %} than they are for {% base_class_link bard 'Bards' %}. Such spells appear on the table at the level appropriate to a {% base_class_link sorcerer %} or {% base_class_link wizard %} (considered the default because {% base_class_link bard 'Bards' %} typically don't involve themselves in scribing scrolls).
 
@@ -58,9 +58,9 @@ Many spells are either arcane or divine, depending on the class of the caster. S
 |---
 | Scroll Type | Number of Spells
 |-|-
-| Minor scroll | 1d3 spells
-| Medium scroll | 1d4 spells
-| Major scroll | 1d6 spells
+| Minor scroll | {% die_roll 1 3 0 %} spells
+| Medium scroll | {% die_roll 1 4 0 %} spells
+| Major scroll | {% die_roll 1 6 0 %} spells
 {: #spells-scroll-table .table .table-bordered .table-hover .table-striped data-caption="Table: Number of Spells on a Scroll" }
 
 |---

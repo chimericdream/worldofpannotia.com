@@ -26,9 +26,9 @@ spell:
     | Round | Metal Temperature | Damage
     |-|-|-
     | 1 | Cold | None
-    | 2 | Icy | 1d4 points
-    | 3-5 | Freezing | 2d4 points
-    | 6 | Icy | 1d4 points
+    | 2 | Icy | {% die_roll 1 4 0 %} points
+    | 3-5 | Freezing | {% die_roll 2 4 0 %} points
+    | 6 | Icy | {% die_roll 1 4 0 %} points
     | 7 | Cold | None
     {: .table .table-bordered .table-hover }
 

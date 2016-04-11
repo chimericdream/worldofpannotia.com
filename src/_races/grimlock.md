@@ -39,7 +39,7 @@ race:
     - baseEcl: 4
       levelAdjust: 2
       traits: |
-         * Racial Hit Dice: A grimlock begins with two levels of monstrous humanoid, which provide 2d8 Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.
+         * Racial Hit Dice: A grimlock begins with two levels of monstrous humanoid, which provide {% die_roll 2 8 0 %} Hit Dice, a base attack bonus of +2, and base saving throw bonuses of Fort +0, Ref +3, and Will +3.
          * Racial Skills: A grimlock's monstrous humanoid levels give it skill points equal to 5 * (2 + Int modifier, minimum 1). Its class skills are {% skill_link climb %}, {% skill_link hide %}, {% skill_link listen %}, and {% skill_link spot %}.
          * Racial Feats: A grimlock's monstrous humanoid levels give it one feat.
 ---

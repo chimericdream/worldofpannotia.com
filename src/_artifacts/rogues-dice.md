@@ -9,14 +9,14 @@ artifact:
   manifesterLevel: ""
   weight: ""
   description: |
-    This pair of cubes appears much like any other pair of typical (6-sided) dice. A character with a pair of _rogue's dice_ who wishes to roll them must announce that he or she is rolling the dice (accidental rolls have no effect). Rolling the dice is a standard action, and both dice must be rolled simultaneously to have any effect. The player should roll 2d6 and consult the table below to determine the _dice's_ affects.
+    This pair of cubes appears much like any other pair of typical (6-sided) dice. A character with a pair of _rogue's dice_ who wishes to roll them must announce that he or she is rolling the dice (accidental rolls have no effect). Rolling the dice is a standard action, and both dice must be rolled simultaneously to have any effect. The player should roll {% die_roll 2 6 0 %} and consult the table below to determine the _dice's_ affects.
 
     |---
-    | 2d6 | Effect
+    | {% die_roll 2 6 0 %} | Effect
     |-|-
     | 2 | Lose 10,000 XP and dice roll again next round
-    | 3 | Permanently lose 1d4+1 Dex
-    | 4 | Gain 1d4 negative levels (Fortitude DC 20 to remove)
+    | 3 | Permanently lose {% die_roll 1 4 1 %} Dex
+    | 4 | Gain {% die_roll 1 4 0 %} negative levels (Fortitude DC 20 to remove)
     | 5 | –1 penalty on all attacks, saves, and checks for 1 hour
     | 6 | –4 penalty to AC for 10 minutes
     | 7 | +1 morale bonus on attacks and on saves against fear for 10 minutes

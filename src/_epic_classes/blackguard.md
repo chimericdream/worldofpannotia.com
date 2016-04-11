@@ -11,13 +11,13 @@ class:
       |-|-
       | 11th | &nbsp;
       | 12th | &nbsp;
-      | 13th | Sneak attack +4d6, bonus feat
+      | 13th | Sneak attack +{% die_roll 4 6 0 %}, bonus feat
       | 14th | &nbsp;
       | 15th | Smite good 4/day
-      | 16th | Sneak attack +5d6, bonus feat
+      | 16th | Sneak attack +{% die_roll 5 6 0 %}, bonus feat
       | 17th | &nbsp;
       | 18th | &nbsp;
-      | 19th | Sneak attack +6d6, bonus feat
+      | 19th | Sneak attack +{% die_roll 6 6 0 %}, bonus feat
       | 20th | Smite good 5/day
       {: #epic-blackguard-table .table .table-bordered .table-hover .table-striped data-caption="Table: The Epic Blackguard" }
     classFeatures:
@@ -36,7 +36,7 @@ class:
       - name: "Sneak Attack"
         type: ""
         desc: |
-          The epic blackguard's sneak attack damage increases by +1d6 every three levels after 10th.
+          The epic blackguard's sneak attack damage increases by +{% die_roll 1 6 0 %} every three levels after 10th.
       - name: "Fiendish Servant"
         type: ""
         desc: |

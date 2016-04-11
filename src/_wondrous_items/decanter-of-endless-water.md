@@ -20,5 +20,5 @@ item:
      * "Fountain" produces a 5-foot-long stream at 5 gallons per round.
      * "Geyser" produces a 20-foot-long, 1-foot-wide stream at 30 gallons per round.
 
-    The geyser effect causes considerable back pressure, requiring the holder to make a DC 12 Strength check to avoid being knocked down. The force of the geyser deals 1d4 points of damage but can only affect one target per round. The command word must be spoken to stop it.
+    The geyser effect causes considerable back pressure, requiring the holder to make a DC 12 Strength check to avoid being knocked down. The force of the geyser deals {% die_roll 1 4 0 %} points of damage but can only affect one target per round. The command word must be spoken to stop it.
 ---

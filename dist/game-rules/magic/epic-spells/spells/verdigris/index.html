@@ -18,6 +18,7 @@
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="//worldofpannotia.com/assets/css/bootstrap-submenu.min.css">
+        <link rel="stylesheet" href="//worldofpannotia.com/assets/css/site.css">
         
         <style>
             body {padding-top: 70px;}
@@ -490,16 +491,14 @@
 <p><strong>Range:</strong> 300 ft.</p>
 
 
-
 <p><strong>Area</strong> 100-ft.-radius hemisphere</p>
-
 <p><strong>Duration:</strong> 24 hours</p>
 <p><strong>Saving Throw:</strong> Reflex half</p>
 <p><strong>Spell Resistance:</strong> No</p>
-<p><strong>To Develop:</strong> 522,000 GP; 11 days; 20,880 XP. <em>Seed:</em> conjure (DC 21). <em>Factors:</em> change area to 20-ft. radius hemisphere (+2 DC); increase radius to 100 ft. (+16 DC); deal 10d6 damage during growth (ad hoc +19 DC).</p>
+<p><strong>To Develop:</strong> 522,000 GP; 11 days; 20,880 XP. <em>Seed:</em> conjure (DC 21). <em>Factors:</em> change area to 20-ft. radius hemisphere (+2 DC); increase radius to 100 ft. (+16 DC); deal {% die_roll 10 6 0 %} damage during growth (ad hoc +19 DC).</p>
 
 
-<p>This spell creates a tsunami of grass, shrubs, and trees that overgrows the area like a tidal wave. The plant growth creeps and curls across every-thing in the area, ensnaring it and coiling around it as if it had been growing there for a century or more. Creatures in the area must make a Reflex saving throw to avoid the fast-moving growth, which otherwise deals 10d6 points of damage from the crushing press. Buildings are engulfed and they likewise take 10d6 points of damage. Those destroyed by the damage have their foundations uprooted and walls crumbled. The plant growth remains for 24 hours, after which it vanishes.</p>
+<p>This spell creates a tsunami of grass, shrubs, and trees that overgrows the area like a tidal wave. The plant growth creeps and curls across every-thing in the area, ensnaring it and coiling around it as if it had been growing there for a century or more. Creatures in the area must make a Reflex saving throw to avoid the fast-moving growth, which otherwise deals <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="10" data-die-type="6" data-die-modifier="0">10d6</a> points of damage from the crushing press. Buildings are engulfed and they likewise take <a href="#" data-trigger="focus" data-die-roll="" data-die-qty="10" data-die-type="6" data-die-modifier="0">10d6</a> points of damage. Those destroyed by the damage have their foundations uprooted and walls crumbled. The plant growth remains for 24 hours, after which it vanishes.</p>
 
 
 </div>
@@ -587,6 +586,9 @@
         <script src="//worldofpannotia.com/assets/js/date.format.js"></script>
         <script src="//worldofpannotia.com/assets/js/URI.js"></script>
         <script src="//worldofpannotia.com/assets/js/jquery-lunr-search.js"></script>
+        <script src="//worldofpannotia.com/assets/js/seedrandom.min.js"></script>
+        <script src="//worldofpannotia.com/assets/js/DiceRoller.js"></script>
+        <script src="//worldofpannotia.com/assets/js/site.js"></script>
         <script>
             $(document).ready(function() {
                 $('[data-submenu]').submenupicker();

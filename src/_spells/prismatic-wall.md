@@ -19,7 +19,7 @@ spell:
   savingThrow:        "See text"
   spellResistance:    "See text"
   description:        |
-    Prismatic wall creates a vertical, opaque wall-a shimmering, multicolored plane of light that protects you from all forms of attack. The wall flashes with seven colors, each of which has a distinct power and purpose. The wall is immobile, and you can pass through and remain near the wall without harm. However, any other creature with less than 8 HD that is within 20 feet of the wall is blinded for 2d4 rounds by the colors if it looks at the wall.
+    Prismatic wall creates a vertical, opaque wall-a shimmering, multicolored plane of light that protects you from all forms of attack. The wall flashes with seven colors, each of which has a distinct power and purpose. The wall is immobile, and you can pass through and remain near the wall without harm. However, any other creature with less than 8 HD that is within 20 feet of the wall is blinded for {% die_roll 2 4 0 %} rounds by the colors if it looks at the wall.
 
     The wall's maximum proportions are 4 feet wide per caster level and 2 feet high per caster level. A prismatic wall spell cast to materialize in a space occupied by a creature is disrupted, and the spell is wasted.
 
@@ -35,7 +35,7 @@ spell:
     | Red | 1st | Stops nonmagical ranged weapons.<br>Deals 20 points of fire damage (Reflex half). | Cone of cold
     | Orange | 2nd | Stops magical ranged weapons.<br>Deals 40 points of acid damage (Reflex half). | Gust of wind
     | Yellow | 3rd | Stops poisons, gases, and petrification.<br>Deals 80 points of electricity damage (Reflex half). | Disintegrate
-    | Green | 4th | Stops breath weapons.<br>Poison (Kills; Fortitude partial for 1d6 points of Con damage instead). | Passwall
+    | Green | 4th | Stops breath weapons.<br>Poison (Kills; Fortitude partial for {% die_roll 1 6 0 %} points of Con damage instead). | Passwall
     | Blue | 5th | Stops divination and mental attacks.<br>Turned to stone (Fortitude negates). | Magic missile
     | Indigo | 6th | Stops all spells.<br>Will save or become insane (as insanity spell). | Daylight
     | Violet | 7th | Energy field destroys all objects and effects.<sup>1</sup><br>Creatures sent to another plane (Will negates). | Dispel magic

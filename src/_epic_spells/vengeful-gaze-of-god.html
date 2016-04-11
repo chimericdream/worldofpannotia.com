@@ -22,13 +22,13 @@ spell:
       - desc: "destroy"
         dc: "29"
     factors:
-      - desc: "increase damage to 305d6"
+      - desc: "increase damage to {% die_roll 305 6 0 %}"
         dc: "+570"
       - desc: "1-action casting time"
         dc: "+20"
     mitigatingFactors:
-      - desc: "200d6 backlash"
+      - desc: "{% die_roll 200 6 0 %} backlash"
         dc: "-200"
   description: |
-    The target of this spell is subject to 305d6 points of damage (or half of that if a Fortitude save succeeds). If the target is reduced to -10 hit points or less (or a construct, object, or undead is reduced to 0 hit points), it is utterly destroyed as if disintegrated, leaving behind only a trace of fine dust. The caster is likewise dealt 200d6 points of damage.
+    The target of this spell is subject to {% die_roll 305 6 0 %} points of damage (or half of that if a Fortitude save succeeds). If the target is reduced to -10 hit points or less (or a construct, object, or undead is reduced to 0 hit points), it is utterly destroyed as if disintegrated, leaving behind only a trace of fine dust. The caster is likewise dealt {% die_roll 200 6 0 %} points of damage.
 ---

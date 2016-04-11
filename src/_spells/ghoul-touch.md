@@ -14,7 +14,7 @@ spell:
   castingTime:        "1 standard action"
   range:              "Touch"
   target:             "Living humanoid touched"
-  duration:           "1d6+2 rounds"
+  duration:           "{% die_roll 1 6 2 %} rounds"
   savingThrow:        "Fortitude negates"
   spellResistance:    "Yes"
   materialComponents: ["A small scrap of cloth taken from clothing worn by a ghoul, or a pinch of earth from a ghoul's lair."]

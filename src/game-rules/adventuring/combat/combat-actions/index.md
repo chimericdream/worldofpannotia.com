@@ -171,7 +171,7 @@ _"Armed" Unarmed Attacks:_ Sometimes a character's or creature's unarmed attack 
 
 Note that being armed counts for both offense and defense (the character can make attacks of opportunity)
 
-_Unarmed Strike Damage:_ An unarmed strike from a Medium character deals 1d3 points of damage (plus your Strength modifier, as normal). A Small character's unarmed strike deals 1d2 points of damage, while a Large character's unarmed strike deals 1d4 points of damage. All damage from unarmed strikes is nonlethal damage. Unarmed strikes count as light weapons (for purposes of two-weapon attack penalties and so on).
+_Unarmed Strike Damage:_ An unarmed strike from a Medium character deals {% die_roll 1 3 0 %} points of damage (plus your Strength modifier, as normal). A Small character's unarmed strike deals {% die_roll 1 2 0 %} points of damage, while a Large character's unarmed strike deals {% die_roll 1 4 0 %} points of damage. All damage from unarmed strikes is nonlethal damage. Unarmed strikes count as light weapons (for purposes of two-weapon attack penalties and so on).
 
 _Dealing Lethal Damage:_ You can specify that your unarmed strike will deal lethal damage before you make your attack roll, but you take a -4 penalty on your attack roll. If you have the Improved Unarmed Strike feat, you can deal lethal damage with an unarmed strike without taking a penalty on the attack roll.
 
@@ -179,7 +179,7 @@ _Dealing Lethal Damage:_ You can specify that your unarmed strike will deal leth
 
 **Attack Rolls:** An attack roll represents your attempts to strike your opponent.
 
-Your attack roll is 1d20 + your attack bonus with the weapon you're using. If the result is at least as high as the target's AC, you hit and deal damage.
+Your attack roll is {% die_roll 1 20 0 %} + your attack bonus with the weapon you're using. If the result is at least as high as the target's AC, you hit and deal damage.
 
 **Automatic Misses and Hits:** A natural 1 (the d20 comes up 1) on the attack roll is always a miss. A natural 20 (the d20 comes up 20) is always a hit. A natural 20 is also a threat &ndash; a possible critical hit.
 

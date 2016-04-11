@@ -27,7 +27,7 @@ spell:
       abbr:  "Law"
       level: 9
   description:        |
-    This spell functions like summon monster I, except that you can summon one creature from the 9th-level list, 1d3 creatures of the same kind from the 8th-level list, or 1d4+1 creatures of the same kind from a lower-level list.
+    This spell functions like summon monster I, except that you can summon one creature from the 9th-level list, {% die_roll 1 3 0 %} creatures of the same kind from the 8th-level list, or {% die_roll 1 4 1 %} creatures of the same kind from a lower-level list.
 
     |---
     | Monster | Alignment

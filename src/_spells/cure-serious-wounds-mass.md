@@ -14,5 +14,5 @@ spell:
       abbr:  "Drd"
       level: 8
   description:        |
-    This spell functions like mass cure light wounds, except that it cures 3d8 points of damage +1 point per caster level (maximum +35).
+    This spell functions like mass cure light wounds, except that it cures {% die_roll 3 8 0 %} points of damage +1 point per caster level (maximum +35).
 ---

@@ -10,7 +10,7 @@ Your maximum rank in a class skill is your character level + 3.
 
 Your maximum rank in a cross-class skill is one-half of this number (do not round up or down).
 
-**Using Skills:** To make a skill check, roll: 1d20 + skill modifier (Skill modifier = skill rank + ability modifier + miscellaneous modifiers)
+**Using Skills:** To make a skill check, roll: {% die_roll 1 20 0 %} + skill modifier (Skill modifier = skill rank + ability modifier + miscellaneous modifiers)
 
 This roll works just like an attack roll or a saving throw &ndash; the higher the roll, the better. Either you're trying to match or exceed a certain Difficulty Class (DC), or you're trying to beat another character's check result.
 
@@ -36,7 +36,7 @@ Circumstances can affect your check. A character who is free to work without dis
 
 A skill check takes into account a character's training (skill rank), natural talent (ability modifier), and luck (the die roll). It may also take into account his or her race's knack for doing certain things (racial bonus) or what armor he or she is wearing (armor check penalty), or a certain feat the character possesses, among other things.
 
-To make a skill check, roll 1d20 and add your character's skill modifier for that skill. The skill modifier incorporates the character's ranks in that skill and the ability modifier for that skill's key ability, plus any other miscellaneous modifiers that may apply, including racial bonuses and armor check penalties. The higher the result, the better. Unlike with attack rolls and saving throws, a natural roll of 20 on the d20 is not an automatic success, and a natural roll of 1 is not an automatic failure.
+To make a skill check, roll {% die_roll 1 20 0 %} and add your character's skill modifier for that skill. The skill modifier incorporates the character's ranks in that skill and the ability modifier for that skill's key ability, plus any other miscellaneous modifiers that may apply, including racial bonuses and armor check penalties. The higher the result, the better. Unlike with attack rolls and saving throws, a natural roll of 20 on the d20 is not an automatic success, and a natural roll of 1 is not an automatic failure.
 
 ##### Difficulty Class {#difficulty}
 
@@ -107,9 +107,9 @@ These skill checks are not actions. Other skill checks represent part of movemen
 
 A skill check represents an attempt to accomplish some goal, usually while under some sort of time pressure or distraction. Sometimes, though, a character can use a skill under more favorable conditions and eliminate the luck factor.
 
-**Taking 10:** When your character is not being threatened or distracted, you may choose to take 10. Instead of rolling 1d20 for the skill check, calculate your result as if you had rolled a 10. For many routine tasks, taking 10 makes them automatically successful. Distractions or threats (such as combat) make it impossible for a character to take 10. In most cases, taking 10 is purely a safety measure; you know (or expect) that an average roll will succeed but fear that a poor roll might fail, so you elect to settle for the average roll (a 10). Taking 10 is especially useful in situations where a particularly high roll wouldn't help.
+**Taking 10:** When your character is not being threatened or distracted, you may choose to take 10. Instead of rolling {% die_roll 1 20 0 %} for the skill check, calculate your result as if you had rolled a 10. For many routine tasks, taking 10 makes them automatically successful. Distractions or threats (such as combat) make it impossible for a character to take 10. In most cases, taking 10 is purely a safety measure; you know (or expect) that an average roll will succeed but fear that a poor roll might fail, so you elect to settle for the average roll (a 10). Taking 10 is especially useful in situations where a particularly high roll wouldn't help.
 
-**Taking 20:** When you have plenty of time (generally 2 minutes for a skill that can normally be checked in 1 round, one full-round action, or one standard action), you are faced with no threats or distractions, and the skill being attempted carries no penalties for failure, you can take 20. In other words, eventually you will get a 20 on 1d20 if you roll enough times. Instead of rolling 1d20 for the skill check, just calculate your result as if you had rolled a 20.
+**Taking 20:** When you have plenty of time (generally 2 minutes for a skill that can normally be checked in 1 round, one full-round action, or one standard action), you are faced with no threats or distractions, and the skill being attempted carries no penalties for failure, you can take 20. In other words, eventually you will get a 20 on {% die_roll 1 20 0 %} if you roll enough times. Instead of rolling {% die_roll 1 20 0 %} for the skill check, just calculate your result as if you had rolled a 20.
 
 Taking 20 means you are trying until you get it right, and it assumes that you fail many times before succeeding. Taking 20 takes twenty times as long as making a single check would take.
 
@@ -197,7 +197,7 @@ This synergy bonus increases as follows: a character will receive +2 for having 
 
 ### Ability Checks
 
-Sometimes a character tries to do something to which no specific skill really applies. In these cases, you make an ability check. An ability check is a roll of 1d20 plus the appropriate ability modifier. Essentially, you're making an untrained skill check.
+Sometimes a character tries to do something to which no specific skill really applies. In these cases, you make an ability check. An ability check is a roll of {% die_roll 1 20 0 %} plus the appropriate ability modifier. Essentially, you're making an untrained skill check.
 
 In some cases, an action is a straight test of one's ability with no luck involved. Just as you wouldn't make a height check to see who is taller, you don't make a Strength check to see who is stronger.
 

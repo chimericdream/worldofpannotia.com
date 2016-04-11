@@ -9,7 +9,7 @@ ability:
 
     _Despair:_ The enchanted creatures are affected as by an improved version of the {% spell_link crushing-despair %} spell: affected creatures suffer a -4 penalty on attack rolls, damage rolls, saves, and checks unless they make a successful Will save (DC 10 + deity's Charisma modifier + deity's divine rank). The effect lasts one day.
 
-    _Dread:_ The enchanted creatures must make successful Wisdom checks (DC = the deity's divine rank) to attack or fight. If the check fails, the creature flees in panic for 1d4 rounds. If the check succeeds, the creature does not have to check again for 10 minutes. The enchanted creatures also suffer a -2 morale penalty on attack rolls, weapon damage rolls, skill checks, and Will saves.
+    _Dread:_ The enchanted creatures must make successful Wisdom checks (DC = the deity's divine rank) to attack or fight. If the check fails, the creature flees in panic for {% die_roll 1 4 0 %} rounds. If the check succeeds, the creature does not have to check again for 10 minutes. The enchanted creatures also suffer a -2 morale penalty on attack rolls, weapon damage rolls, skill checks, and Will saves.
 
     _Frenzy:_ Frenzied creatures spend themselves in drinking, feasting, and dancing unless provoked or incited to violence. Frenzied creatures turn violent if they are attacked or perceive a threat to their safety. Frenzied creatures receive a +4 morale bonus to Strength and Dexterity, a -4 penalty to Wisdom, and a -2 penalty to AC. Subjects can attempt Will saves (DC 10 + deity's Charisma modifier + deity's divine rank) to resist the effect. This is a mind-affecting compulsion.
 

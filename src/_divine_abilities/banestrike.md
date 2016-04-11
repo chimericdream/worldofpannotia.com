@@ -5,7 +5,7 @@ ability:
   prerequisite: |
     Base attack bonus +20.
   benefit: |
-    Any weapon the deity weilds gains a bonus of +4 on attack rolls, and it deals an extra +4d6 points of damage against the designated foe. The bonus and extra damage stack with any other properties the weapon has.
+    Any weapon the deity weilds gains a bonus of +4 on attack rolls, and it deals an extra +{% die_roll 4 6 0 %} points of damage against the designated foe. The bonus and extra damage stack with any other properties the weapon has.
   notes: |
     The deity selects one kind of enemy from the list below.
 

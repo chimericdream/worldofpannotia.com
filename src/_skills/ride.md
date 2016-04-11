@@ -31,9 +31,9 @@ skill:
 
     _Cover:_ You can react instantly to drop down and hang alongside your mount, using it as cover. You can't attack or cast spells while using your mount as cover. If you fail your {% skill_link ride %} check, you don't get the cover benefit. This usage does not take an action.
 
-    _Soft Fall:_ You can react instantly to try to take no damage when you fall off a mount &ndash; when it is killed or when it falls, for example. If you fail your {% skill_link ride %} check, you take 1d6 points of falling damage. This usage does not take an action.
+    _Soft Fall:_ You can react instantly to try to take no damage when you fall off a mount &ndash; when it is killed or when it falls, for example. If you fail your {% skill_link ride %} check, you take {% die_roll 1 6 0 %} points of falling damage. This usage does not take an action.
 
-    _Leap:_ You can get your mount to leap obstacles as part of its movement. Use your {% skill_link ride %} modifier or the mount's {% skill_link jump %} modifier, whichever is lower, to see how far the creature can jump. If you fail your {% skill_link ride %} check, you fall off the mount when it leaps and take the appropriate falling damage (at least 1d6 points). This usage does not take an action, but is part of the mount's movement.
+    _Leap:_ You can get your mount to leap obstacles as part of its movement. Use your {% skill_link ride %} modifier or the mount's {% skill_link jump %} modifier, whichever is lower, to see how far the creature can jump. If you fail your {% skill_link ride %} check, you fall off the mount when it leaps and take the appropriate falling damage (at least {% die_roll 1 6 0 %} points). This usage does not take an action, but is part of the mount's movement.
 
     _Spur Mount:_ You can spur your mount to greater speed with a move action. A successful {% skill_link ride %} check increases the mount's speed by 10 feet for 1 round but deals 1 point of damage to the creature. You can use this ability every round, but each consecutive round of additional speed deals twice as much damage to the mount as the previous round (2 points, 4 points, 8 points, and so on).
 

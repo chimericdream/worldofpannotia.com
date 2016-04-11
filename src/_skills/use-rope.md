@@ -22,7 +22,7 @@ skill:
     | <sup>1</sup>Add 2 to the DC for every 10 feet the hook is thrown; see below. |<
     {: #use-rope-table .table .table-bordered .table-hover .table-striped data-caption="Table: Use Rope DCs" }
 
-    _Secure a Grappling Hook:_ Securing a grappling hook requires a {% skill_link use-rope %} check (DC 10, +2 for every 10 feet of distance the grappling hook is thrown, to a maximum DC of 20 at 50 feet). Failure by 4 or less indicates that the hook fails to catch and falls, allowing you to try again. Failure by 5 or more indicates that the grappling hook initially holds, but comes loose after 1d4 rounds of supporting weight. This check is made secretly, so that you don't know whether the rope will hold your weight.
+    _Secure a Grappling Hook:_ Securing a grappling hook requires a {% skill_link use-rope %} check (DC 10, +2 for every 10 feet of distance the grappling hook is thrown, to a maximum DC of 20 at 50 feet). Failure by 4 or less indicates that the hook fails to catch and falls, allowing you to try again. Failure by 5 or more indicates that the grappling hook initially holds, but comes loose after {% die_roll 1 4 0 %} rounds of supporting weight. This check is made secretly, so that you don't know whether the rope will hold your weight.
 
     _Bind a Character:_ When you bind another character with a rope, any {% skill_link escape-artist %} check that the bound character makes is opposed by your {% skill_link use-rope %} check.
 

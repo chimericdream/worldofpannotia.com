@@ -55,5 +55,5 @@ item:
     | Joker | Two of staves | Illusion of deck's owner (sex reversed)
     {: #deck-of-illusions-table .table .table-bordered .table-hover .table-striped data-caption="Table: Deck of Illusions" }
 
-    A randomly generated deck is usually complete (11-100 on d%), but may be discovered (01-10) with 1d20 of its cards missing. If cards are missing, reduce the price by a corresponding amount.
+    A randomly generated deck is usually complete (11-100 on d%), but may be discovered (01-10) with {% die_roll 1 20 0 %} of its cards missing. If cards are missing, reduce the price by a corresponding amount.
 ---

@@ -16,12 +16,12 @@ item:
   description: |
     This device appears to be nothing but beads on a string, sometimes with the ends tied together to form a necklace. (It does not count as an item worn around the neck for the purpose of determining which of a character's worn magic items is effective.) If a character holds it, however, all can see the strand as it really is &ndash; a golden chain from which hang a number of golden spheres. The spheres are detachable by the wearer (and only by the wearer), who can easily hurl one of them up to 70 feet. When a sphere arrives at the end of its trajectory, it detonates as a {% spell_link fireball %} spell (Reflex DC 14 half )__.
 
-    Spheres come in different strengths, ranging from those that deal 2d6 points of fire damage to those that deal 10d6. The market price of a sphere is 150 gp for each die of damage it deals.
+    Spheres come in different strengths, ranging from those that deal {% die_roll 2 6 0 %} points of fire damage to those that deal {% die_roll 10 6 0 %}. The market price of a sphere is 150 gp for each die of damage it deals.
 
     Each _necklace of fireballs_ contains a combination of spheres of various strengths. Some traditional combinations, designated types I through VII, are detailed below.
 
     |---
-    | Necklace | 10d6 | 9d6 | 8d6 | 7d6 | 6d6 | 5d6 | 4d6 | 3d6 | 2d6 | Market Price
+    | Necklace | {% die_roll 10 6 0 %} | {% die_roll 9 6 0 %} | {% die_roll 8 6 0 %} | {% die_roll 7 6 0 %} | {% die_roll 6 6 0 %} | {% die_roll 5 6 0 %} | {% die_roll 4 6 0 %} | {% die_roll 3 6 0 %} | {% die_roll 2 6 0 %} | Market Price
     |-|-|-|-|-|-|-|-|-|-|-
     | Type I | &ndash; | &ndash; | &ndash; | &ndash; | &ndash; | 1 | &ndash; | 2 | &ndash; | 1,650 gp
     | Type II | &ndash; | &ndash; | &ndash; | &ndash; | 1 | &ndash; | 2 | &ndash; | 2 | 2,700 gp

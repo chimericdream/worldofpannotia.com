@@ -34,7 +34,7 @@ spell:
   savingThrow:        "See text"
   spellResistance:    "No"
   description:        |
-    This spell frees victims from enchantments, transmutations, and curses. Break enchantment can reverse even an instantaneous effect. For each such effect, you make a caster level check (1d20 + caster level, maximum +15) against a DC of 11 + caster level of the effect. Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is 25.
+    This spell frees victims from enchantments, transmutations, and curses. Break enchantment can reverse even an instantaneous effect. For each such effect, you make a caster level check ({% die_roll 1 20 0 %} + caster level, maximum +15) against a DC of 11 + caster level of the effect. Success means that the creature is free of the spell, curse, or effect. For a cursed magic item, the DC is 25.
 
     If the spell is one that cannot be dispelled by dispel magic, break enchantment works only if that spell is 5th level or lower.
 

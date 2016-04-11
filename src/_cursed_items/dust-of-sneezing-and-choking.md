@@ -18,5 +18,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This fine dust appears to be {% wondrous_item_link dust-of-appearance %}. If cast into the air, it causes those within a 20-foot spread to fall into fits of sneezing and coughing. Those failing a DC 15 Fortitude save take 2d6 points of Constitution damage immediately. In addition, those failing a second DC 15 Fortitude save 1 minute later are dealt 1d6 points of Constitution damage. Those who succeed on either saving throw are nonetheless disabled by choking (treat as stunned) for 5d4 rounds.
+    This fine dust appears to be {% wondrous_item_link dust-of-appearance %}. If cast into the air, it causes those within a 20-foot spread to fall into fits of sneezing and coughing. Those failing a DC 15 Fortitude save take {% die_roll 2 6 0 %} points of Constitution damage immediately. In addition, those failing a second DC 15 Fortitude save 1 minute later are dealt {% die_roll 1 6 0 %} points of Constitution damage. Those who succeed on either saving throw are nonetheless disabled by choking (treat as stunned) for {% die_roll 5 4 0 %} rounds.
 ---

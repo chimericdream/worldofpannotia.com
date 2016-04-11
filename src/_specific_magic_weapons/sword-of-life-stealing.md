@@ -19,5 +19,5 @@ item:
   costToCreateSpecial: ""
   weight: ""
   description: |
-    This black iron _+2 longsword_ bestows a negative level when it deals a critical hit. The sword wielder gains 1d6 temporary hit points each time a negative level is bestowed on another. These temporary hit points last for 24 hours. One day after being struck, subjects must make a DC 16 Fortitude save for each negative level or lose a character level.
+    This black iron _+2 longsword_ bestows a negative level when it deals a critical hit. The sword wielder gains {% die_roll 1 6 0 %} temporary hit points each time a negative level is bestowed on another. These temporary hit points last for 24 hours. One day after being struck, subjects must make a DC 16 Fortitude save for each negative level or lose a character level.
 ---
