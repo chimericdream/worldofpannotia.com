@@ -1,5 +1,7 @@
 ---
 title: "Armor"
+crumbs: [equipment]
+crumbTitles: [Equipment]
 ---
 
 ### Armor Qualities

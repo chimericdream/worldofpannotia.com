@@ -1,5 +1,7 @@
 ---
 title: "Armor Descriptions"
+crumbs: [equipment, armor]
+crumbTitles: [Equipment, Armor]
 ---
 
 |---

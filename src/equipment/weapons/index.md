@@ -1,5 +1,7 @@
 ---
 title: "Weapons"
+crumbs: [equipment]
+crumbTitles: [Equipment]
 ---
 
 ### Weapon Categories
