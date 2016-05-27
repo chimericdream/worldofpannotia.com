@@ -8,7 +8,7 @@ module Jekyll
   module PannotiaFunctionTags
     Syntax = /(?<qty>\d+) (?<type>\d+) (?<modifier>\d+)/
 
-    class DieRoll
+    class DieRoll < Liquid::Tag
       def numOrZip(string)
         num = string.to_i
         if num.to_s == string
@@ -18,6 +18,7 @@ module Jekyll
       end
 
       def initialize(tag_name, markup, tokens)
+        super
         if !markup || (markup.strip =~ Syntax).nil? || !(markup.strip =~ Syntax)
           raise SyntaxError.new("Syntax Error in '#{tag_name}' - Valid syntax: '#{tag_name} <slug>', '#{tag_name} <slug> \"link text\"', or '#{tag_name} <slug> \"link text\" \#link-fragment'")
         end
@@ -50,8 +51,9 @@ module Jekyll
   module PannotiaLinkTags
     Syntax = /#{SLUG_SYNTAX}#{TITLE_SYNTAX}#{FRAGMENT_SYNTAX}?/
 
-    class ItemLink
+    class ItemLink < Liquid::Tag
       def initialize(tag_name, markup, tokens)
+        super
         if !markup || (markup.strip =~ Syntax).nil? || !(markup.strip =~ Syntax)
           raise SyntaxError.new("Syntax Error in '#{tag_name}' - Valid syntax: '#{tag_name} <slug>', '#{tag_name} <slug> \"link text\"', or '#{tag_name} <slug> \"link text\" \#link-fragment'")
         end
@@ -270,10 +272,11 @@ eos
   end
 
   module PannotiaEmbedTags
-    class ItemEmbed
+    class ItemEmbed < Liquid::Tag
       Syntax = /^#{SLUG_SYNTAX}$/
 
       def initialize(tag_name, markup, tokens)
+        super
         if !markup || (markup.strip =~ Syntax).nil? || !(markup.strip =~ Syntax)
           raise SyntaxError.new("Syntax Error in '#{tag_name}' - Valid syntax: '#{tag_name} <slug>'")
         end

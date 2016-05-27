@@ -1,23 +1,23 @@
 {% assign creature = include.creature %}
 <p><strong>{{ creature.name }}{% if creature.cr %} CR {{ creature.cr }}{% endif %}</strong></p>
-<p>{% if creature.alignment %}{{ creature.alignment }} {% endif %}{% if creature.size %}{{ creature.size }} {% endif %}{% if creature.type %}{{ creature.type }} {% endif %}{% if creature.subtypes %}({% for subtype in creature.subtypes %}{{ subtype }}{% if !forloop.last %}, {% endif %}{% endfor %}){% endif %}</p>
-<p><strong>Init</strong> {% if creature.init.total < 0 %}-{% else %}+{% endif %}{{ creature.init.total }} ({% if creature.init.dex < 0 %}-{% else %}+{% endif %}{{ creature.init.dex }} Dex); <strong>Senses</strong> {% for sense in creature.senses %}{{ sense }}; {% endfor %} <em>listen</em> {% if creature.skills.listen.value < 0 %}-{% else %}+{% endif %}{{ creature.skills.listen.value }}, <em>spot</em> {% if creature.skills.spot.value < 0 %}-{% else %}+{% endif %}{{ creature.skills.spot.value }}</p>
+<p>{% if creature.alignment %}{{ creature.alignment }} {% endif %}{% if creature.size %}{{ creature.size }} {% endif %}{% if creature.type %}{{ creature.type }} {% endif %}{% if creature.sybtypes and creature.subtypes.size > 0 %}({% for subtype in creature.subtypes %}{{ subtype }}{% if !forloop.last %}, {% endif %}{% endfor %}){% endif %}</p>
+<p><strong>Init</strong> {% if creature.init.total >= 0 %}+{% endif %}{{ creature.init.total }} ({% if creature.init.dex >= 0 %}+{% endif %}{{ creature.init.dex }} Dex); <strong>Senses</strong> {% for sense in creature.senses %}{{ sense }}; {% endfor %} <em>listen</em> {% if creature.skills.listen.total >= 0 %}+{% endif %}{{ creature.skills.listen.total }}, <em>spot</em> {% if creature.skills.spot.total >= 0 %}+{% endif %}{{ creature.skills.spot.total }}</p>
 {% if creature.auras %}<p><strong>Aura(s)</strong> {% for aura in creature.auras %}{{ aura.name }} ({{ aura.range }}, DC {{ aura.dc }}){% if !forloop.last %}, {% endif %}{% endfor %}</p>{% endif %}
-<p><strong>Languages</strong> {% for language in creature.languages %}{{ language.name }} ({{ language.ranks }} rank{% if language.ranks == 1 %}{% else %}s{% endif %}){% if !forloop.last %}, {% endif %}{% endfor %}</p>
+<p><strong>Languages</strong> {% for language in creature.languages %}{{ language.name }} ({{ language.ranks }} rank{% if language.ranks > 1 %}s{% endif %}){% if !forloop.last %}, {% endif %}{% endfor %}</p>
 
 <hr />
 <h4>AC, HP, &amp; Saves</h4>
-<p><strong>AC</strong> {{ creature.ac.full }}, <strong>touch</strong> {{ creature.ac.touch }}, <strong>flat-footed</strong> {{ creature.ac.flatfooted }} ({% for bonus in creature.ac.bonuses %}{% if bonus.value < 0 %}-{% else %}+{% endif %}{{ bonus.value }} {{ bonus.name }}{% if !forloop.last %}, {% endif %}{% endfor %})[; <strong>defenses</strong>][ Dodge][; {% feat_link mobility %}][; Deflect Arrows][; Two-Weapon Defense]</p>
-<p><strong>HP</strong> {{ creature.hp }} ({{ creature.hd }} HD){% if creature.fasthealing %}; <strong>fast healing</strong> {{ creature.fasthealing }}{% endif %}{% if creature.dr %}{% for dr in creature.dr %}; <strong>DR</strong> {{ dr.amount }}/{{ dr.type }}{% endfor %}{% endif %}</p>
-<p><a href="{{ site.url }}/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage Threshold</em></a> {{ creature.massivedamagemax }}; <a href="{{ site.url }}/game-rules/adventuring-combat/combat/#loss-of-hit-points"><em>Massive Damage DC</em></a> {{ creature.massivedamagedc }}</p>
-{% if creature.immunities %}<p><strong>Immune</strong> {% for immune in creature.immunities %}{{ immune }}{% if !forloop.last %}, {% endif %}{% endfor %}</p>{% endif %}
-<p><strong>Resist</strong> [resistances][; <strong>SR</strong> XX][; <strong>PR</strong> XX]</p>
-<p><strong>Fort</strong> +XX, <strong>Ref</strong> +XX, <strong>Will</strong> +XX</p>
-<p>[<strong>Weakness</strong> XX]</p>
+<p><strong>AC</strong> {{ creature.ac.full }}, <strong>touch</strong> {{ creature.ac.touch }}, <strong>flat-footed</strong> {{ creature.ac.flatfooted }} ({% for bonus in creature.ac.bonuses %}{% if bonus.value >= 0 %}+{% endif %}{{ bonus.value }} {{ bonus.name }}{% if !forloop.last %}, {% endif %}{% endfor %}){% if creature.defenses.size > 0 %}; <strong>defenses</strong> {% for def in creature.defenses %}{{ def }}{% if !forloop.last %}; {% endif %}{% endfor %}{% endif %}</p>
+<p><strong>HP</strong> {{ creature.hp }} ({{ creature.hd }} HD){% if creature.fasthealing and creature.fasthealing > 0 %}; <strong>fast healing</strong> {{ creature.fasthealing }}{% endif %}{% if creature.dr and creature.dr.size > 0 %}{% for dr in creature.dr %}; <strong>DR</strong> {{ dr.amount }}/{{ dr.type }}{% endfor %}{% endif %}</p>
+<p><em>Massive Damage Threshold</em> {{ creature.massivedamage.max }}; <em>Massive Damage DC</em> {{ creature.massivedamage.dc }}</p>
+{% if creature.immunities and creature.immunities.size > 0 %}<p><strong>Immune</strong> {% for immune in creature.immunities %}{{ immune }}{% if !forloop.last %}, {% endif %}{% endfor %}</p>{% endif %}
+{% if creature.resistances.general.size > 0 or creature.resistances.sr > 0 or creature.resistances.pr > 0 %}<p>{% if creature.resistances.general.size > 0 %}<strong>Resist</strong> {% for resist in creature.resistances.general %}{{ resist }}{% if !forloop.last %}, {% endif %}{% endfor %}{% endif %}{% if creature.resistances.sr > 0 %}{% if creature.resistances.general.size > 0 %}; {% endif %}<strong>SR</strong> {{ creature.resistances.sr }}{% endif %}{% if creature.resistances.pr > 0 %}{% if creature.resistances.general.size > 0 or creature.resistances.sr %}; {% endif %}<strong>PR</strong> {{ creature.resistances.pr }}{% endif %}</p>{% endif %}
+<p><strong>Fort</strong> {% if creature.saves.fort.total >= 0 %}+{% endif %}{{ creature.saves.fort.total }}, <strong>Ref</strong> {% if creature.saves.ref.total >= 0 %}+{% endif %}{{ creature.saves.ref.total }}, <strong>Will</strong> {% if creature.saves.will.total >= 0 %}+{% endif %}{{ creature.saves.will.total }}</p>
+{% if creature.weaknesses and creature.weaknesses.size > 0 %}<p><strong>Weakness</strong> {% for weakness in creature.weaknesses %}{{ weakness }}{% if !forloop.last %}, {% endif %}{% endfor %}</p>{% endif %}
 
 <hr />
 <h4>Speed &amp; Attacks</h4>
-<p><strong>Speed</strong> XX ft.[, other modes][; Spring Attack][; Ride-By Attack][; Shot on the Run][; Run]</p>
+<p><strong>Speed</strong> {{ creature.speed }} ft.{% for speed in creature.speedother %}, {{ speed }}{% endfor %}[; Spring Attack][; Ride-By Attack][; Shot on the Run][; Run]</p>
 <p><strong>Melee</strong> weapon +XX (damage)</p>
 <p><strong>Ranged</strong> weapon +XX (damage)[; Manyshot][; Rapid Shot]</p>
 <p><strong>Space</strong> {{ creature.space }} ft.; <strong>Reach</strong> {{ creature.reach }} ft.</p>
@@ -51,7 +51,7 @@
 
 <hr />
 <h4>Other Information</h4>
-<p><strong>Environment:</strong> </p>
-<p><strong>Treasure:</strong> </p>
-<p><strong>Organization:</strong> </p>
-<p><strong>Advancement:</strong> </p>
+{% if creature.otherInfo.environment != "" %}<p><strong>Environment:</strong> {{ creature.otherInfo.environment | pmarkdownify | liquify }}</p>{% endif %}
+{% if creature.otherInfo.treasure: != "" %}<p><strong>Treasure:</strong> {{ creature.otherInfo.treasure: | pmarkdownify | liquify }}</p>{% endif %}
+{% if creature.otherInfo.organization: != "" %}<p><strong>Organization:</strong> {{ creature.otherInfo.organization: | pmarkdownify | liquify }}</p>{% endif %}
+{% if creature.otherInfo.advancement: != "" %}<p><strong>Advancement:</strong> {{ creature.otherInfo.advancement: | pmarkdownify | liquify }}</p>{% endif %}

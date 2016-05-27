@@ -1,9 +1,9 @@
 # Where things are
 source:      ./src
 destination: ./dist
-plugins:     ./plugins
-layouts:     ./src/_layouts
-data_source: ./src/_data
+plugins_dir: ./plugins
+layouts_dir: ./src/_layouts
+data_dir:    ./src/_data
 
 url: "//worldofpannotia.com"
 
