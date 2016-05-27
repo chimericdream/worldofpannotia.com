@@ -16,7 +16,7 @@ module Jekyll
 
     def convert(content)
       site = Jekyll::Site.new(@config)
-      $mkconverter = site.getConverterImpl(Jekyll::Converters::Markdown)
+      $mkconverter = site.find_converter_instance(Jekyll::Converters::Markdown)
 
       if !content.nil?
         content = parse_extended_tables(content)

@@ -39,7 +39,7 @@ module Jekyll
           return ""
         end
         site = @context.registers[:site]
-        converter = site.getConverterImpl(Jekyll::PannotiaKramdown)
+        converter = site.find_converter_instance(Jekyll::PannotiaKramdown)
         converter.convert(input)
       end
     end
@@ -47,7 +47,7 @@ module Jekyll
     module InlinePmarkdownify
       def inline_pmarkdownify(input)
         site = @context.registers[:site]
-        converter = site.getConverterImpl(Jekyll::PannotiaKramdown)
+        converter = site.find_converter_instance(Jekyll::PannotiaKramdown)
         content = converter.convert(input)
         content = strip_newlines(content)
         content.sub(/^\<p\>(.+)\<\/p\>$/, '\1')
